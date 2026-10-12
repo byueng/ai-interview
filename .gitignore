@@ -1,11 +1,6 @@
-.env
-config.json
 .venv/
-data/*.db
-logs/
-*.log
+.env
+src/data/
+.DS_Store
 __pycache__/
-*.py[cod]
-.pytest_cache/
-*.egg-info/
-web-v2/dist/
+*.pyc
