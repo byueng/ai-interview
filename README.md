@@ -28,28 +28,21 @@
 
 ## 快速开始
 
-以下步骤用于本地开发，命令以 macOS / Linux shell 为例。先进入仓库根目录，再按各步骤切换目录。
+请按操作系统选择运行指南：
 
-### 1. 准备环境与后端依赖
+**[macOS →](docs/setup/README.macos.md) · [Windows →](docs/setup/README.windows.md)**
 
-- Python 3.12：与仓库 `.python-version` 保持一致。
-- uv：管理 Python 环境与依赖。
-- Node.js 22 与 npm：安装并运行前端依赖。
-- 可用的模型服务地址、模型名称和 API Key。
+| 平台 | Python 环境管理 | 说明 |
+| --- | --- | --- |
+| [macOS](docs/setup/README.macos.md) | uv | 原有本地开发流程，使用 zsh / bash |
+| [Windows](docs/setup/README.windows.md) | venv + pip | 使用 PowerShell，不需要 uv；尚待 Windows 实机验证 |
+| Linux | 待确定 | 稍后测试，暂不提供已验证的运行指南 |
 
-在仓库根目录执行：
+两份指南分别提供依赖安装、服务启动与开发检查命令。模型配置和使用说明在本页统一维护，避免重复与不同步。
 
-```bash
-uv sync --locked --python 3.12
-```
-
-### 2. 配置模型
+### 模型配置
 
 在仓库根目录创建或编辑 `.env`。已有配置时只修改所需项，不要覆盖有效密钥。
-
-```bash
-nvim .env
-```
 
 配置格式如下，所有占位值都需要替换：
 
@@ -66,38 +59,9 @@ TEMPERATURE=0.8
 
 > `.env` 已列入 Git 忽略规则，请勿将真实密钥写入源码、提交记录或公开日志。发送的面试配置与对话内容会交给所配置的模型服务处理。
 
-### 3. 启动后端
+### 开始面试
 
-在仓库根目录执行：
-
-```bash
-cd src
-mkdir -p data/state_status data/interview_preset
-uv run main.py
-```
-
-当前快照写入不会自动创建父目录，因此首次使用前需要执行上述目录初始化。请保持从 `src` 目录启动，使文件统一保存到 `src/data`。
-
-- 后端地址：[http://127.0.0.1:7022](http://127.0.0.1:7022)
-- 交互式 API 文档：[http://127.0.0.1:7022/docs](http://127.0.0.1:7022/docs)
-
-当前入口启用了开发热重载；保存后端代码触发重启时，内存中的会话状态会丢失。`pyproject.toml` 中的 `interview_agent` 命令仍是占位入口，请使用上述 `main.py` 启动服务。
-
-### 4. 启动前端
-
-打开另一个终端，在仓库根目录执行：
-
-```bash
-cd src/frontend
-npm ci
-npm run dev
-```
-
-打开 Vite 在终端输出的本地地址。开发代理已将 `/interview` 请求转发到 `http://127.0.0.1:7022`，按此方式运行无需额外设置 API 地址。
-
-前端和后端需要同时运行；仅启动前端不能完成面试。
-
-### 5. 开始面试
+按所选平台指南同时启动前端与后端，打开 Vite 在终端输出的本地地址。
 
 1. 打开页面，等待会话初始化完成。
 2. 填写岗位、学历、面试官身份与面试要求，选择面试语言。
@@ -120,21 +84,9 @@ npm run dev
 
 ## 开发检查
 
-后端测试使用模拟模型，不代表真实模型或完整 HTTP 链路验收。在仓库根目录执行：
+检查命令见 [macOS 开发检查](docs/setup/README.macos.md#开发检查)或 [Windows 开发检查](docs/setup/README.windows.md#开发检查)。
 
-```bash
-cd src
-mkdir -p data/state_status
-PYTHONPATH=. uv run python -m unittest discover -s ../tests -v
-```
-
-前端接口测试与构建检查，在另一个终端从仓库根目录执行：
-
-```bash
-cd src/frontend
-npm test
-npm run build
-```
+后端测试使用模拟模型，不代表真实模型或完整 HTTP 链路验收。
 
 前端接口测试使用模拟请求；构建成功只说明类型检查与打包通过。实际使用仍需验证会话创建、配置提交、多轮回复及正常结束事件。本 README 不声明上述检查已在当前版本全部通过。
 
@@ -155,7 +107,8 @@ ai-interview/
 │   ├── frontend/         # Vue 前端
 │   └── data/             # 本地生成数据，不纳入版本控制
 ├── tests/                # 后端测试
-└── docs/                 # 架构、路线图、发布记录与历史归档
+└── docs/                 # 平台运行指南、架构、路线图与版本记录
+    └── setup/            # macOS / Windows 快速开始
 ```
 
 - [文档导航](docs/README.md)：查找各类文档及维护规则。
