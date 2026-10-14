@@ -1,8 +1,8 @@
-import asyncio
+import asyncio, os
 
 from collections.abc import AsyncIterator
 from pathlib import Path
-from typing import Any
+from typing import Any, Coroutine
 from uu import Error
 from uuid import UUID, uuid4
 from fastapi.encoders import jsonable_encoder
@@ -12,7 +12,7 @@ from langchain_core.runnables import RunnableConfig
 from langgraph.graph.state import CompiledStateGraph
 
 from schemas import AgentRequest, TaskState
-from backend.file import write_json
+from backend.file import write_json, write_unique_json
 
 
 def graph_config_build(session_id: UUID) -> RunnableConfig:
@@ -47,9 +47,10 @@ async def save_state_snapshot(
 ):
     """ 将一次session id标注的graph执行前的checkpoint保存到session id文件中 """
     try: 
+        root_path: Path = Path(os.environ.get("data_dir")) / "state_status"
         config = graph_config_build(session_id=session_id)
         snapshot = await graph.aget_state(config=config)
-        path: Path = Path("./data/state_status") / Path(f"{session_id}.json")
+        path: Path = root_path / Path(f"{session_id}.json")
         await asyncio.to_thread(write_json, path, jsonable_encoder(snapshot._asdict()))
     except Error as exc:
         raise()
@@ -60,18 +61,17 @@ async def save_interview_preset(
 ):  
     """ 保存用户使用的面试信息，便于复用和测试 """
     try:
+        root_path: Path = Path(os.environ.get("data_dir")) / "interview_preset"
         config = graph_config_build(session_id=session_id)
         snapshot = await graph.aget_state(config=config)
         preset = snapshot._asdict().get("values", ValueError)
-        path: Path = Path("./data/interview_preset") / Path(f"{preset["candidate_config"].position}.json")
-        path.parent.mkdir(parents=True, exist_ok=True)
+        path: Path = root_path / Path(f"{preset["candidate_config"].position}.json")
         jsonable_preset = jsonable_encoder(preset)
         await asyncio.to_thread(
-            write_json,
+            write_unique_json,
             path,
             {key: jsonable_preset[key] for key in jsonable_preset.keys() if key in ["candidate_config", "interviewer_config"]}
         )
 
     except ValueError as exc:
-        raise()
-    
+        raise(f"{exc}")

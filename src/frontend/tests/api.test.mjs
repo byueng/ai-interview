@@ -18,7 +18,8 @@ async function loadApi() {
   const candidateUrl = await moduleUrl('candidate')
   const sseUrl = await moduleUrl('sse')
   const interviewUrl = await moduleUrl('interview', { './candidate': candidateUrl, './sse': sseUrl })
-  return { ...await import(candidateUrl), ...await import(interviewUrl), ...await import(sseUrl) }
+  const presetsUrl = await moduleUrl('presets', { './candidate': candidateUrl })
+  return { ...await import(candidateUrl), ...await import(interviewUrl), ...await import(sseUrl), ...await import(presetsUrl) }
 }
 
 const sessionId = 'c53208a9-db49-4064-9802-ffb548e9a0f5'
@@ -67,6 +68,66 @@ test('默认中文不跟随浏览器语言；保留显式语言选择', async (t
   })
   await api.postCandidateConfig({ education: '本科', position: '后端' }, interviewer)
   assert.equal(JSON.parse(calls[1].options.body).candidate.language, 'zh-CN')
+})
+
+test('预设列表只读；加载预设复用 session 并 POST 文件名，保留实际配置', async (t) => {
+  const api = await loadApi()
+  const calls = []
+  const controller = new AbortController()
+  mockFetch(t, async (url, options) => {
+    calls.push({ url, options })
+    if (url.endsWith('/begin')) return Response.json({ session_id: sessionId })
+    return Response.json(url.endsWith('/read_preset') ? { files: ['后端 #1.json', '后端 #1.json'] } : {
+      session_id: sessionId,
+      candidate_config: { ...candidate, resume: 'resumes/demo.pdf' },
+      interviewer_config: { ...interviewer, role_responsibilities: null },
+    })
+  })
+  assert.deepEqual(await api.listInterviewPresets(controller.signal), ['后端 #1.json'])
+  await api.initializeSession()
+  assert.deepEqual(await api.loadInterviewPreset('后端 #1.json', controller.signal), {
+    candidate_config: { ...candidate, language: 'zh-CN', resume: 'resumes/demo.pdf' },
+    interviewer_config: { ...interviewer, role_responsibilities: '' },
+  })
+  assert.equal(calls.length, 3)
+  assert.equal(calls[0].url, '/interview/read_preset')
+  assert.equal(calls[0].options.method, 'GET')
+  assert.equal(calls[0].options.body, undefined)
+  assert.equal(calls[2].url, '/interview/load_preset')
+  assert.equal(calls[2].options.method, 'POST')
+  assert.equal(calls[2].options.headers['Content-Type'], 'application/json')
+  assert.deepEqual(JSON.parse(calls[2].options.body), { session_id: sessionId, filename: '后端 #1.json' })
+  for (const { options } of [calls[0], calls[2]]) {
+    assert.equal(options.cache, 'no-store')
+    assert.equal(options.signal, controller.signal)
+  }
+})
+
+test('预设空列表、错误响应、错误结构和非法路径不会作为有效配置使用', async (t) => {
+  const api = await loadApi()
+  const mock = mockFetch(t, async () => Response.json({ session_id: sessionId }))
+  await api.initializeSession()
+  mock.mock.mockImplementation(async () => Response.json({ files: [] }))
+  assert.deepEqual(await api.listInterviewPresets(), [])
+  for (const files of [['../private.json'], ['folder/a.json'], ['folder\\a.json'], ['a.txt'], [null]]) {
+    mock.mock.mockImplementation(async () => Response.json({ files }))
+    await assert.rejects(api.listInterviewPresets(), /列表格式错误/)
+  }
+  const count = mock.mock.callCount()
+  await assert.rejects(api.loadInterviewPreset('../private.json'), /文件名无效/)
+  assert.equal(mock.mock.callCount(), count)
+  for (const invalid of [null, 200, {}, { session_id: sessionId, candidate_config: candidate, interviewer_config: {} }, {
+    session_id: sessionId, candidate_config: { ...candidate, language: 'fr' }, interviewer_config: interviewer,
+  }, {
+    session_id: 'another-session', candidate_config: candidate, interviewer_config: interviewer,
+  }]) {
+    mock.mock.mockImplementation(async () => Response.json(invalid))
+    await assert.rejects(api.loadInterviewPreset('坏文件.json'), /预设/)
+  }
+  mock.mock.mockImplementation(async () => Response.json({ detail: '预设不存在' }, { status: 404 }))
+  await assert.rejects(api.loadInterviewPreset('已删除.json'), error => error.status === 404 && error.message === '预设不存在')
+  mock.mock.mockImplementation(async () => new Response('<html>not json</html>'))
+  await assert.rejects(api.listInterviewPresets(), /列表格式错误/)
 })
 
 test('初始化并发复用；提交完整 Candidate 和 Interviewer；缓存 session', async (t) => {

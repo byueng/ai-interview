@@ -18,13 +18,13 @@
 
 ## 技术栈
 
-| 层次 | 技术与用途 |
-| --- | --- |
-| 前端 | Vue 3、TypeScript、Vite：面试配置、对话展示与事件流消费 |
-| HTTP 服务 | FastAPI、Pydantic、Uvicorn：接口组织、请求校验与服务运行 |
-| Agent 编排 | LangGraph：状态管理、消息合并与单轮执行 |
-| 模型接入 | LangChain `ChatOpenAI`：调用兼容 OpenAI Chat Completions 接口的模型服务 |
-| 当前存储 | `InMemorySaver` 保存进程内检查点；JSON 文件保存快照与预设 |
+| 层次       | 技术与用途                                                              |
+| ---------- | ----------------------------------------------------------------------- |
+| 前端       | Vue 3、TypeScript、Vite：面试配置、对话展示与事件流消费                 |
+| HTTP 服务  | FastAPI、Pydantic、Uvicorn：接口组织、请求校验与服务运行                |
+| Agent 编排 | LangGraph：状态管理、消息合并与单轮执行                                 |
+| 模型接入   | LangChain `ChatOpenAI`：调用兼容 OpenAI Chat Completions 接口的模型服务 |
+| 当前存储   | `InMemorySaver` 保存进程内检查点；JSON 文件保存快照与预设               |
 
 ## 快速开始
 
@@ -32,11 +32,11 @@
 
 **[macOS →](docs/setup/README.macos.md) · [Windows →](docs/setup/README.windows.md)**
 
-| 平台 | Python 环境管理 | 说明 |
-| --- | --- | --- |
-| [macOS](docs/setup/README.macos.md) | uv | 原有本地开发流程，使用 zsh / bash |
-| [Windows](docs/setup/README.windows.md) | venv + pip | 使用 PowerShell，不需要 uv；尚待 Windows 实机验证 |
-| Linux | 待确定 | 稍后测试，暂不提供已验证的运行指南 |
+| 平台                                    | Python 环境管理 | 说明                               |
+| --------------------------------------- | --------------- | ---------------------------------- |
+| [macOS](docs/setup/README.macos.md)     | uv              | 原有本地开发流程，使用 zsh / bash  |
+| [Windows](docs/setup/README.windows.md) | venv + pip      | 使用 PowerShell，不需要 uv；       |
+| Linux                                   | 待确定          | 稍后测试，暂不提供已验证的运行指南 |
 
 两份指南分别提供依赖安装、服务启动与开发检查命令。模型配置和使用说明在本页统一维护，避免重复与不同步。
 

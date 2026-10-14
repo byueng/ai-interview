@@ -3,14 +3,18 @@ import { computed, nextTick, onBeforeUnmount, onMounted, reactive, ref } from 'v
 import { PanelLeftClose, SendHorizontal, Sparkles, Sword, Upload, Wind } from 'lucide-vue-next'
 import { initializeSession, postCandidateConfig, resolveInterviewLanguage } from './api/candidate'
 import { readInterviewUpdate, streamInterviewTurn } from './api/interview'
+import PresetPicker from './components/PresetPicker.vue'
+import type { InterviewPreset } from './api/presets'
 
-const candidate = reactive({ position: '', education: '', language: resolveInterviewLanguage() })
+const candidate = reactive({ position: '', education: '', language: resolveInterviewLanguage(), resume: null as string | null })
+const presetNotice = ref('')
 const interviewer = reactive({ role_identity: '', role_responsibilities: '' })
 const sessionState = ref<'initializing' | 'ready' | 'error'>('initializing')
 const sessionError = ref('')
 const configError = ref('')
 const streamError = ref('')
 const saving = ref(false)
+const loadingPreset = ref(false)
 const sending = ref(false)
 const savedConfig = ref('')
 const draft = ref('')
@@ -22,22 +26,40 @@ let controller: AbortController | undefined
 let disposed = false
 
 const config = computed(() => ({
-  candidate: { position: candidate.position.trim(), education: candidate.education.trim(), language: candidate.language },
+  candidate: { position: candidate.position.trim(), education: candidate.education.trim(), language: candidate.language, resume: candidate.resume },
   interviewer: { role_identity: interviewer.role_identity.trim(), role_responsibilities: interviewer.role_responsibilities.trim() },
 }))
 const configSignature = computed(() => JSON.stringify(config.value))
 const configSaved = computed(() => savedConfig.value === configSignature.value)
-const busy = computed(() => saving.value || sending.value)
-const configComplete = computed(() => Object.values(config.value.candidate).every(Boolean) && Object.values(config.value.interviewer).every(Boolean))
+const busy = computed(() => saving.value || loadingPreset.value || sending.value)
+const configComplete = computed(() => [config.value.candidate.position, config.value.candidate.education, config.value.candidate.language].every(Boolean) && Object.values(config.value.interviewer).every(Boolean))
 const canSave = computed(() => sessionState.value === 'ready' && !busy.value && configComplete.value && !configSaved.value)
 const canSend = computed(() => sessionState.value === 'ready' && !busy.value && configSaved.value && !!draft.value.trim())
 const statusText = computed(() => sessionState.value === 'initializing' ? '正在连接'
   : sessionState.value === 'error' ? '连接失败'
-  : sending.value ? '面试官正在回复' : saving.value ? '正在加载配置'
+  : sending.value ? '面试官正在回复' : saving.value || loadingPreset.value ? '正在加载配置'
   : configSaved.value ? '可以开始对话' : '请完善并加载配置')
 
 function errorMessage(error: unknown): string {
   return error instanceof Error ? error.message : '请求失败，请稍后重试。'
+}
+
+function onPresetLoading(value: boolean) {
+  loadingPreset.value = value
+  if (value) {
+    savedConfig.value = ''
+    configError.value = ''
+    presetNotice.value = ''
+  }
+}
+
+function applyPreset(preset: InterviewPreset, filename: string) {
+  if (saving.value || sending.value || disposed) return
+  Object.assign(candidate, preset.candidate_config)
+  Object.assign(interviewer, preset.interviewer_config)
+  savedConfig.value = configSignature.value
+  configError.value = ''
+  presetNotice.value = `已加载 ${filename.replace(/\.json$/i, '')}，可以开始对话。`
 }
 
 async function connect() {
@@ -59,10 +81,12 @@ async function saveConfig() {
   saving.value = true
   configError.value = ''
   const signature = configSignature.value
+  savedConfig.value = ''
   controller = new AbortController()
   try {
     await postCandidateConfig(config.value.candidate, config.value.interviewer, controller.signal)
     savedConfig.value = signature
+    presetNotice.value = ''
   } catch (error) {
     if (!disposed) configError.value = errorMessage(error)
   } finally {
@@ -147,6 +171,8 @@ onBeforeUnmount(() => { disposed = true; controller?.abort() })
         <em>INTERVIEW PROFILE</em>
       </div>
 
+      <PresetPicker :disabled="busy || sessionState !== 'ready'" @select="applyPreset" @loading="onPresetLoading" />
+      <p v-if="presetNotice && configSaved" class="preset-notice" role="status">{{ presetNotice }}</p>
       <fieldset class="candidate-fields" :disabled="busy">
         <legend class="sr-only">候选人信息</legend>
         <label>面试岗位<input v-model="candidate.position" placeholder="例如：后端工程师" required /></label>
@@ -194,7 +220,7 @@ onBeforeUnmount(() => { disposed = true; controller?.abort() })
         <div v-if="!messages.length" class="empty-stage">
           <p>WORKSPACE</p>
           <h2>准备开始面试</h2>
-          <span>填写面试资料和面试官要求，加载配置后发送第一条消息。</span>
+          <span>{{ configSaved ? '配置已就绪，发送第一条消息开始面试。' : '手动加载配置，或从左侧加载预设，即可开始面试。' }}</span>
         </div>
         <article v-for="message in messages" :key="message.id" class="message" :class="{ candidate: message.role === 'candidate' }">
           <div class="message-meta"><span>{{ message.role === 'candidate' ? '你' : '面试官' }}</span><span v-if="message.state">{{ message.state }}</span></div>
@@ -237,6 +263,7 @@ onBeforeUnmount(() => { disposed = true; controller?.abort() })
   backdrop-filter: blur(14px);
 }
 .archive-heading { margin: 36px 8px 22px; }
+.preset-notice { margin: 0 2px 14px; color: #b6cbd7; font-size: 11px; line-height: 1.6; overflow-wrap: anywhere; }
 .candidate-fields {
   display: grid;
   gap: 16px;

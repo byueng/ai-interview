@@ -1,8 +1,6 @@
 import os
-from pathlib import Path
 
 from dataclasses import dataclass
-from dotenv import load_dotenv
 
 class ModelConfigError(ValueError):
     pass
@@ -16,8 +14,6 @@ class ModelConfig:
     
     @classmethod
     def validate_dotfile(cls):
-        env_path = Path(__file__).resolve().parents[2] / ".env"
-        load_dotenv(env_path)
         api_key = os.environ.get("API_KEY")
         base_url = os.environ.get("BASE_URL")
         model_name = os.environ.get("MODEL_NAME")

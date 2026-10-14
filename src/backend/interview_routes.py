@@ -1,6 +1,10 @@
 import logging
+import os
+
+from argparse import ArgumentParser
 from collections.abc import AsyncIterator
-from typing_extensions import Annotated
+from pathlib import Path
+from typing_extensions import Annotated, Dict, List
 from uuid import UUID
 
 from fastapi import APIRouter, Body, HTTPException, Request
@@ -18,7 +22,7 @@ from schemas import AgentRequest, Candidate, Interviewer, TaskState
 logger = logging.getLogger(__name__)
 
 def create_interview_router(
-    graph: CompiledStateGraph[TaskState, None, TaskState, TaskState],
+    graph: CompiledStateGraph[TaskState, None, TaskState, TaskState]
 ) -> APIRouter:
     router = APIRouter(prefix="/interview", tags=["interview"])
 
@@ -39,7 +43,6 @@ def create_interview_router(
 
     @router.post("/stream", status_code=HTTP_200_OK, response_class=EventSourceResponse)
     async def stream_turn(agent_request: AgentRequest, request: Request) -> AsyncIterator[ServerSentEvent]:
-        await save_interview_preset(graph, agent_request.session_id)
         try:
             async for chunk in interview_service.run_turn(graph, agent_request):
                 yield ServerSentEvent(event="message", data=jsonable_encoder(chunk))
@@ -66,12 +69,28 @@ def create_interview_router(
                 },
                 as_node=START
             )
+            await save_interview_preset(graph, session_id)
             return HTTP_200_OK 
-            # 测试用
-            # snapshot = await graph.aget_state(config)
-            # return {"snapshot": snapshot}
         except NotImplementedError as exc:
             raise NotImplementedError(f"{exc}")
+
+    @router.get("/read_preset")
+    async def read_preset(request: Request, status_code=HTTP_200_OK) -> Dict[str, List[str]]:
+        return {
+            "files": os.listdir(Path(os.environ.get("data_dir")) / "interview_preset")
+        }
+
+    @router.post("/load_preset")
+    async def load_preset(filename: str, request: Request, status_code=HTTP_200_OK):
+        try:
+            root_path: Path = Path(os.environ.get("data_dir"))
+
+        except NotImplementedError as exc:
+            raise(f"{exc}")         
+
+    @router.post("/del_preset")
+    async def del_preset(filename: str, request: Request, status_code=HTTP_200_OK):
+        return 
 
     @router.post("/upload_resume", status_code=HTTP_200_OK)
     async def upload_resume():
