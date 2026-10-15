@@ -70,14 +70,13 @@ test('默认中文不跟随浏览器语言；保留显式语言选择', async (t
   assert.equal(JSON.parse(calls[1].options.body).candidate.language, 'zh-CN')
 })
 
-test('预设加载使用查询参数和 preset_config 响应，应用到当前 session 后才成功', async (t) => {
+test('预设加载使用查询文件名和 begin 的 UUID 字符串请求体，不重复提交配置', async (t) => {
   const api = await loadApi()
   const calls = []
   const controller = new AbortController()
   mockFetch(t, async (url, options) => {
     calls.push({ url, options })
     if (url.endsWith('/begin')) return Response.json({ session_id: sessionId })
-    if (url.endsWith('/personal_information_config')) return Response.json(200)
     return Response.json(url.endsWith('/read_preset') ? { files: ['后端 #1.json', '后端 #1.json', '.DS_Store', 'notes.txt', 'subfolder'] } : { preset_config: {
       candidate_config: { ...candidate, resume: 'resumes/demo.pdf' },
       interviewer_config: { ...interviewer, role_responsibilities: null },
@@ -89,21 +88,16 @@ test('预设加载使用查询参数和 preset_config 响应，应用到当前 s
     candidate_config: { ...candidate, language: 'zh-CN', resume: 'resumes/demo.pdf' },
     interviewer_config: { ...interviewer, role_responsibilities: '' },
   })
-  assert.equal(calls.length, 4)
+  assert.equal(calls.length, 3)
   assert.equal(calls[0].url, '/interview/read_preset')
   assert.equal(calls[0].options.method, 'GET')
   assert.equal(calls[0].options.body, undefined)
   assert.equal(calls[2].url, `/interview/load_preset?filename=${encodeURIComponent('后端 #1.json')}`)
   assert.equal(calls[2].options.method, 'POST')
-  assert.equal(calls[2].options.body, undefined)
-  assert.equal(calls[3].url, '/interview/personal_information_config')
-  assert.equal(calls[3].options.method, 'POST')
-  assert.equal(calls[3].options.signal, controller.signal)
-  assert.deepEqual(JSON.parse(calls[3].options.body), {
-    session_id: sessionId,
-    candidate: { ...candidate, language: 'zh-CN', resume: 'resumes/demo.pdf' },
-    interviewer: { ...interviewer, role_responsibilities: '' },
-  })
+  assert.equal(calls[2].options.headers['Content-Type'], 'application/json')
+  assert.equal(calls[2].options.body, JSON.stringify(sessionId))
+  assert.equal(calls.filter(call => call.url.endsWith('/begin')).length, 1)
+  assert.equal(calls.some(call => call.url.endsWith('/personal_information_config')), false)
   for (const { options } of [calls[0], calls[2]]) {
     assert.equal(options.cache, 'no-store')
     assert.equal(options.signal, controller.signal)
@@ -134,7 +128,7 @@ test('预设空列表、错误响应、错误结构和非法路径不会作为�
     const before = mock.mock.callCount()
     mock.mock.mockImplementation(async () => Response.json(invalid))
     await assert.rejects(api.loadInterviewPreset('坏文件.json'), /预设/)
-    assert.equal(mock.mock.callCount(), before + 1, '无效预设不得提交到 state')
+    assert.equal(mock.mock.callCount(), before + 1, '无效响应不得触发额外配置请求')
   }
   mock.mock.mockImplementation(async () => Response.json({ detail: '预设不存在' }, { status: 404 }))
   await assert.rejects(api.loadInterviewPreset('已删除.json'), error => error.status === 404 && error.message === '预设不存在')
@@ -142,17 +136,37 @@ test('预设空列表、错误响应、错误结构和非法路径不会作为�
   await assert.rejects(api.listInterviewPresets(), /列表格式错误/)
 })
 
-test('预设读取成功但应用失败时不报告加载成功；取消后不再提交配置', async (t) => {
+test('预设加载等待正在进行的 begin，并复用同一个 session', async (t) => {
+  const api = await loadApi()
+  const calls = []
+  let finish
+  mockFetch(t, async (url, options) => {
+    calls.push({ url, options })
+    if (url.endsWith('/begin')) return new Promise(resolve => { finish = () => resolve(Response.json({ session_id: sessionId })) })
+    return Response.json({ preset_config: { candidate_config: candidate, interviewer_config: interviewer } })
+  })
+  const init = api.initializeSession()
+  const loading = api.loadInterviewPreset('后端.json')
+  assert.equal(calls.length, 1)
+  finish()
+  await Promise.all([init, loading])
+  assert.equal(calls.length, 2)
+  assert.equal(JSON.parse(calls[1].options.body), sessionId)
+  await api.loadInterviewPreset('另一个.json')
+  assert.equal(calls.length, 3)
+  assert.equal(JSON.parse(calls[2].options.body), sessionId)
+})
+
+test('预设加载失败或取消时不报告成功，也不回退到个人配置接口', async (t) => {
   const api = await loadApi()
   const payload = { preset_config: { candidate_config: candidate, interviewer_config: interviewer } }
   const mock = mockFetch(t, async url => url.endsWith('/begin')
     ? Response.json({ session_id: sessionId })
-    : url.includes('/load_preset?') ? Response.json(payload)
     : Response.json({ detail: '配置更新失败' }, { status: 500 }))
   await api.initializeSession()
   await assert.rejects(api.loadInterviewPreset('后端.json'), error => error.status === 500 && error.message === '配置更新失败')
-  mock.mock.mockImplementation(async url => url.includes('/load_preset?') ? Response.json(payload) : Response.json(null))
-  await assert.rejects(api.loadInterviewPreset('后端.json'), /成功标识/)
+  mock.mock.mockImplementation(async () => Response.json(null))
+  await assert.rejects(api.loadInterviewPreset('后端.json'), /preset_config/)
   const controller = new AbortController()
   const before = mock.mock.callCount()
   mock.mock.mockImplementation(async () => {
@@ -161,6 +175,9 @@ test('预设读取成功但应用失败时不报告加载成功；取消后不�
   })
   await assert.rejects(api.loadInterviewPreset('后端.json', controller.signal), { name: 'AbortError' })
   assert.equal(mock.mock.callCount(), before + 1)
+  await assert.rejects(api.loadInterviewPreset('后端.json', controller.signal), { name: 'AbortError' })
+  assert.equal(mock.mock.callCount(), before + 1, '已取消请求不能继续发送')
+  assert.equal(mock.mock.calls.some(call => call.arguments[0].endsWith('/personal_information_config')), false)
 })
 
 test('初始化并发复用；提交完整 Candidate 和 Interviewer；缓存 session', async (t) => {

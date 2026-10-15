@@ -82,10 +82,18 @@ def create_interview_router(
         }
 
     @router.post("/load_preset")
-    async def load_preset(filename: str, request: Request, status_code=HTTP_200_OK) -> Dict:
+    async def load_preset(session_id: Annotated[UUID, Body()], filename: str, request: Request, status_code=HTTP_200_OK) -> Dict:
         try:
             root_path: Path = Path(os.environ.get("data_dir")) / "interview_preset" / f"{filename}"
             preset_config: Dict = read_json(root_path, filename)
+            await graph.aupdate_state(
+                config=graph_config_build(session_id=session_id),
+                values={
+                    "candidate_config": Candidate(**preset_config["candidate_config"]),
+                    "interviewer_config": Interviewer(**preset_config["interviewer_config"])
+                },
+                as_node=START
+            )
             return {
                 "preset_config": preset_config
             }

@@ -1,4 +1,4 @@
-import { apiBaseUrl, ApiRequestError, getErrorMessage, postCandidateConfig, resolveInterviewLanguage } from './candidate'
+import { apiBaseUrl, ApiRequestError, getActiveSessionId, getErrorMessage, resolveInterviewLanguage } from './candidate'
 import type { CandidateConfig, InterviewerConfig } from './candidate'
 
 export interface InterviewPreset {
@@ -14,9 +14,11 @@ function isFilename(value: unknown): value is string {
   return typeof value === 'string' && value.endsWith('.json') && value.length > 5 && !/[\\/\u0000-\u001f]/.test(value)
 }
 
-async function requestPresetJson(path: string, signal?: AbortSignal, method: 'GET' | 'POST' = 'GET'): Promise<unknown> {
+async function requestPresetJson(path: string, signal?: AbortSignal, method: 'GET' | 'POST' = 'GET', sessionId?: string): Promise<unknown> {
   const response = await fetch(`${apiBaseUrl}${path}`, {
-    method, cache: 'no-store', headers: { Accept: 'application/json' }, signal,
+    method, cache: 'no-store',
+    headers: { Accept: 'application/json', ...(sessionId === undefined ? {} : { 'Content-Type': 'application/json' }) },
+    body: sessionId === undefined ? undefined : JSON.stringify(sessionId), signal,
   })
   const payload: unknown = await response.json().catch(() => null)
   if (!response.ok) {
@@ -34,11 +36,13 @@ export async function listInterviewPresets(signal?: AbortSignal): Promise<string
   return [...new Set(payload.files.filter(isFilename))].sort((a, b) => a.localeCompare(b, 'zh-CN'))
 }
 
-// load_preset 仅读取文件：filename 为查询参数，响应为 { preset_config: {...} }。
-// 必须再提交配置更新当前 session 的 state，才向调用方报告加载成功。
+// filename 为查询参数；单个 Body(UUID) 参数要求整个 JSON body 为 UUID 字符串。
+// state 更新由 load_preset 负责，不再二次调用 personal_information_config。
 export async function loadInterviewPreset(filename: string, signal?: AbortSignal): Promise<InterviewPreset> {
   if (!isFilename(filename)) throw new Error('预设文件名无效。')
-  const payload = await requestPresetJson(`/interview/load_preset?filename=${encodeURIComponent(filename)}`, signal, 'POST')
+  const sessionId = await getActiveSessionId(signal)
+  signal?.throwIfAborted()
+  const payload = await requestPresetJson(`/interview/load_preset?filename=${encodeURIComponent(filename)}`, signal, 'POST', sessionId)
   if (!isRecord(payload) || !isRecord(payload.preset_config)) throw new Error('预设响应缺少有效的 preset_config 对象。')
   const candidate = payload.preset_config.candidate_config
   const interviewer = payload.preset_config.interviewer_config
@@ -57,6 +61,5 @@ export async function loadInterviewPreset(filename: string, signal?: AbortSignal
     interviewer_config: { role_identity: interviewer.role_identity, role_responsibilities: interviewer.role_responsibilities ?? '' },
   }
   signal?.throwIfAborted()
-  await postCandidateConfig(preset.candidate_config, preset.interviewer_config, signal)
   return preset
 }

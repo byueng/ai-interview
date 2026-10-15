@@ -33,14 +33,14 @@ Set-Location "C:\projects\ai-interview"
 在仓库根目录执行：
 
 ```powershell
-py -3.12 -m venv .\src\.venv
-.\src\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\src\.venv\Scripts\python.exe -m pip install -e .
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -e .
 ```
 
 `pip install -e .` 根据 `pyproject.toml` 安装项目及其依赖，适用于本地开发，不需要另建 `requirements.txt`。此流程不会读取 `uv.lock`，实际解析出的依赖版本可能与 macOS 锁定环境不同。参见 [pip 本地项目安装说明](https://pip.pypa.io/en/stable/topics/local-project-installs/)。
 
-后续始终直接调用 `src/.venv` 中的 Python，无需运行激活脚本或修改 PowerShell 执行策略。虚拟环境不能跨平台搬运；如果从 macOS 复制项目，请勿复制其 `.venv`，应在 Windows 重新创建。参见 [Python venv 文档](https://docs.python.org/3.12/library/venv.html)。
+后续始终直接调用 `.venv` 中的 Python，无需运行激活脚本或修改 PowerShell 执行策略。虚拟环境不能跨平台搬运；如果从 macOS 复制项目，请勿复制其 `.venv`，应在 Windows 重新创建。参见 [Python venv 文档](https://docs.python.org/3.12/library/venv.html)。
 
 ## 3. 配置模型
 
@@ -59,10 +59,10 @@ notepad .env
 ```powershell
 Set-Location .\src
 New-Item -ItemType Directory -Force -Path .\data\state_status, .\data\interview_preset | Out-Null
-.\.venv\Scripts\python.exe .\main.py
+..\.venv\Scripts\python.exe .\main.py
 ```
 
-首次运行前需要初始化数据目录。保持从 `src` 启动，使相对路径下的数据写入 `src/data`。这里的 `.\.venv` 指向 `src` 下的虚拟环境。
+首次运行前需要初始化数据目录。保持从 `src` 启动，使相对路径下的数据写入 `src/data`。这里的 `..\.venv` 指向仓库根目录中的虚拟环境。
 
 - 后端地址：[http://127.0.0.1:7022](http://127.0.0.1:7022)
 - API 文档：[http://127.0.0.1:7022/docs](http://127.0.0.1:7022/docs)
@@ -92,7 +92,7 @@ npm.cmd run dev
 ```powershell
 Set-Location .\src
 New-Item -ItemType Directory -Force -Path .\data\state_status, .\data\interview_preset | Out-Null
-.\.venv\Scripts\python.exe -m unittest discover -s ..\tests -v
+..\.venv\Scripts\python.exe -m unittest discover -s ..\tests -v
 ```
 
 前端测试与构建检查，另开 PowerShell 窗口并从仓库根目录执行：

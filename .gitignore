@@ -1,4 +1,4 @@
-/src/.venv/
+.venv/
 .env
 docs/archive/
 docs/image/
