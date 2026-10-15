@@ -67,7 +67,7 @@ class AssessAgent(Agent):
 class EvaluateAgent(Agent):
     pass
 
-class AssiantAgent(Agent):
+class AssistantAgent(Agent):
     def load_prompt(self, *args: Any, **kwargs: Any) -> Any:
         return super().load_prompt(*args, **kwargs)
     

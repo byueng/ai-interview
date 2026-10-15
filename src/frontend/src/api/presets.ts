@@ -1,4 +1,4 @@
-import { apiBaseUrl, ApiRequestError, getActiveSessionId, getErrorMessage, resolveInterviewLanguage } from './candidate'
+import { apiBaseUrl, ApiRequestError, getErrorMessage, postCandidateConfig, resolveInterviewLanguage } from './candidate'
 import type { CandidateConfig, InterviewerConfig } from './candidate'
 
 export interface InterviewPreset {
@@ -14,11 +14,9 @@ function isFilename(value: unknown): value is string {
   return typeof value === 'string' && value.endsWith('.json') && value.length > 5 && !/[\\/\u0000-\u001f]/.test(value)
 }
 
-async function requestPresetJson(path: string, signal?: AbortSignal, body?: unknown): Promise<unknown> {
+async function requestPresetJson(path: string, signal?: AbortSignal, method: 'GET' | 'POST' = 'GET'): Promise<unknown> {
   const response = await fetch(`${apiBaseUrl}${path}`, {
-    method: body === undefined ? 'GET' : 'POST', cache: 'no-store',
-    headers: { Accept: 'application/json', ...(body === undefined ? {} : { 'Content-Type': 'application/json' }) },
-    body: body === undefined ? undefined : JSON.stringify(body), signal,
+    method, cache: 'no-store', headers: { Accept: 'application/json' }, signal,
   })
   const payload: unknown = await response.json().catch(() => null)
   if (!response.ok) {
@@ -27,24 +25,23 @@ async function requestPresetJson(path: string, signal?: AbortSignal, body?: unkn
   return payload
 }
 
-// 对齐当前路由；列表响应契约待后端补齐：{ files: string[] }。
+// 后端 os.listdir 返回目录条目，前端只展示有效的 JSON 文件名。
 export async function listInterviewPresets(signal?: AbortSignal): Promise<string[]> {
   const payload = await requestPresetJson('/interview/read_preset', signal)
-  if (!isRecord(payload) || !Array.isArray(payload.files) || !payload.files.every(isFilename)) {
+  if (!isRecord(payload) || !Array.isArray(payload.files) || !payload.files.every(value => typeof value === 'string')) {
     throw new Error('预设列表格式错误，应返回 { files: ["文件名.json"] }。')
   }
-  return [...new Set(payload.files)].sort((a, b) => a.localeCompare(b, 'zh-CN'))
+  return [...new Set(payload.files.filter(isFilename))].sort((a, b) => a.localeCompare(b, 'zh-CN'))
 }
 
-// 后端须先更新该 session 的 state，再返回 { session_id, candidate_config, interviewer_config }。
+// load_preset 仅读取文件：filename 为查询参数，响应为 { preset_config: {...} }。
+// 必须再提交配置更新当前 session 的 state，才向调用方报告加载成功。
 export async function loadInterviewPreset(filename: string, signal?: AbortSignal): Promise<InterviewPreset> {
   if (!isFilename(filename)) throw new Error('预设文件名无效。')
-  const sessionId = await getActiveSessionId(signal)
-  const payload = await requestPresetJson('/interview/load_preset', signal, { session_id: sessionId, filename })
-  if (!isRecord(payload)) throw new Error('预设内容不是有效的配置对象。')
-  if (payload.session_id !== sessionId) throw new Error('预设加载响应的 session_id 与当前会话不一致，无法确认配置已加载。')
-  const candidate = payload.candidate_config
-  const interviewer = payload.interviewer_config
+  const payload = await requestPresetJson(`/interview/load_preset?filename=${encodeURIComponent(filename)}`, signal, 'POST')
+  if (!isRecord(payload) || !isRecord(payload.preset_config)) throw new Error('预设响应缺少有效的 preset_config 对象。')
+  const candidate = payload.preset_config.candidate_config
+  const interviewer = payload.preset_config.interviewer_config
   if (!isRecord(candidate) || !isRecord(interviewer)
     || typeof candidate.language !== 'string' || !candidate.language.trim()
     || typeof candidate.education !== 'string' || typeof candidate.position !== 'string'
@@ -55,8 +52,11 @@ export async function loadInterviewPreset(filename: string, signal?: AbortSignal
   }
   const language = resolveInterviewLanguage(candidate.language)
   if (language !== 'zh-CN' && language !== 'en-US') throw new Error('此预设的语言暂不支持，当前可选择中文或 English。')
-  return {
+  const preset: InterviewPreset = {
     candidate_config: { language, education: candidate.education, position: candidate.position, resume: candidate.resume ?? null },
     interviewer_config: { role_identity: interviewer.role_identity, role_responsibilities: interviewer.role_responsibilities ?? '' },
   }
+  signal?.throwIfAborted()
+  await postCandidateConfig(preset.candidate_config, preset.interviewer_config, signal)
+  return preset
 }

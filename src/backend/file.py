@@ -6,9 +6,9 @@ from typing_extensions import Any
 from pathlib import Path
 
 def read_json(path: Path, data: Any) -> Dict:
-    pass
-
-
+    """ 简单读取json文件 """
+    with open(path, mode="r+", encoding="utf-8") as file:
+        return json.load(file)
 
 def write_json(path: Path, data: Any) -> None:
     """ 简单写入json文件 """

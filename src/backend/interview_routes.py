@@ -15,6 +15,7 @@ from langgraph.graph import START
 
 from backend import interview_service
 from backend.interview_service import create_session, graph_config_build, save_interview_preset
+from backend.file import read_json
 from langgraph.graph.state import CompiledStateGraph
 from schemas import AgentRequest, Candidate, Interviewer, TaskState
 
@@ -81,9 +82,13 @@ def create_interview_router(
         }
 
     @router.post("/load_preset")
-    async def load_preset(filename: str, request: Request, status_code=HTTP_200_OK):
+    async def load_preset(filename: str, request: Request, status_code=HTTP_200_OK) -> Dict:
         try:
-            root_path: Path = Path(os.environ.get("data_dir"))
+            root_path: Path = Path(os.environ.get("data_dir")) / "interview_preset" / f"{filename}"
+            preset_config: Dict = read_json(root_path, filename)
+            return {
+                "preset_config": preset_config
+            }
 
         except NotImplementedError as exc:
             raise(f"{exc}")         
