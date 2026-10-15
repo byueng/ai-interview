@@ -16,7 +16,7 @@
 在仓库根目录安装后端依赖：
 
 ```bash
-uv sync --locked --python 3.12
+UV_PROJECT_ENVIRONMENT=src/.venv uv sync --locked --python 3.12
 ```
 
 ## 2. 配置模型
@@ -36,7 +36,7 @@ nvim .env
 ```bash
 cd src
 mkdir -p data/state_status data/interview_preset
-uv run main.py
+UV_PROJECT_ENVIRONMENT=src/.venv uv run main.py
 ```
 
 首次运行前需要初始化数据目录。保持从 `src` 启动，使相对路径下的数据写入 `src/data`。
@@ -67,7 +67,7 @@ npm run dev
 ```bash
 cd src
 mkdir -p data/state_status data/interview_preset
-PYTHONPATH=. uv run python -m unittest discover -s ../tests -v
+PYTHONPATH=. UV_PROJECT_ENVIRONMENT=src/.venv uv run python -m unittest discover -s ../tests -v
 ```
 
 前端测试与构建检查，另开终端并从仓库根目录执行：
