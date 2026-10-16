@@ -103,8 +103,13 @@ def create_interview_router(
 
     @router.post("/del_preset")
     async def del_preset(filename: str, request: Request, status_code=HTTP_200_OK):
-        return 
-
+        try:
+            root_path: Path = Path(os.environ.get("data_dir")) / "interview_preset" / f"{filename}"
+            root_path.unlink()
+            return HTTP_200_OK
+        except NotImplementedError as exc:
+            raise(f"{exc}")
+        
     @router.post("/upload_resume", status_code=HTTP_200_OK)
     async def upload_resume():
         pass
