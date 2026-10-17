@@ -70,6 +70,39 @@ test('默认中文不跟随浏览器语言；保留显式语言选择', async (t
   assert.equal(JSON.parse(calls[1].options.body).candidate.language, 'zh-CN')
 })
 
+test('删除预设通过 POST 查询参数传完整文件名，不创建 session 或提交配置', async (t) => {
+  const api = await loadApi()
+  const controller = new AbortController()
+  const mock = mockFetch(t, async () => Response.json(200))
+  await api.deleteInterviewPreset('后端 #1 & 2.json', controller.signal)
+  assert.equal(mock.mock.callCount(), 1)
+  const [url, options] = mock.mock.calls[0].arguments
+  assert.equal(url, `/interview/del_preset?filename=${encodeURIComponent('后端 #1 & 2.json')}`)
+  assert.equal(options.method, 'POST')
+  assert.equal(options.body, undefined)
+  assert.equal(options.signal, controller.signal)
+})
+
+test('删除预设拒绝非法路径、错误响应及未确认成功的结果', async (t) => {
+  const api = await loadApi()
+  const mock = mockFetch(t, async () => Response.json(200))
+  for (const filename of ['../secret.json', 'dir/file.json', 'dir\\file.json', 'notes.txt', '']) {
+    await assert.rejects(api.deleteInterviewPreset(filename), /文件名无效/)
+  }
+  assert.equal(mock.mock.callCount(), 0)
+  for (const body of [null, {}, '200', false]) {
+    mock.mock.mockImplementation(async () => Response.json(body))
+    await assert.rejects(api.deleteInterviewPreset('后端.json'), /成功标识/)
+  }
+  mock.mock.mockImplementation(async () => Response.json({ detail: '删除失败' }, { status: 500 }))
+  await assert.rejects(api.deleteInterviewPreset('后端.json'), error => error.status === 500 && error.message === '删除失败')
+  const controller = new AbortController()
+  controller.abort()
+  const before = mock.mock.callCount()
+  await assert.rejects(api.deleteInterviewPreset('后端.json', controller.signal), { name: 'AbortError' })
+  assert.equal(mock.mock.callCount(), before)
+})
+
 test('预设加载使用查询文件名和 begin 的 UUID 字符串请求体，不重复提交配置', async (t) => {
   const api = await loadApi()
   const calls = []

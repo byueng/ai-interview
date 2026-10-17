@@ -22,7 +22,7 @@ async function requestPresetJson(path: string, signal?: AbortSignal, method: 'GE
   })
   const payload: unknown = await response.json().catch(() => null)
   if (!response.ok) {
-    throw new ApiRequestError(response.status, getErrorMessage(payload, `读取预设失败（${response.status}），请确认后端预设接口已实现。`))
+    throw new ApiRequestError(response.status, getErrorMessage(payload, `预设请求失败（${response.status}）。`))
   }
   return payload
 }
@@ -34,6 +34,13 @@ export async function listInterviewPresets(signal?: AbortSignal): Promise<string
     throw new Error('预设列表格式错误，应返回 { files: ["文件名.json"] }。')
   }
   return [...new Set(payload.files.filter(isFilename))].sort((a, b) => a.localeCompare(b, 'zh-CN'))
+}
+
+export async function deleteInterviewPreset(filename: string, signal?: AbortSignal): Promise<void> {
+  if (!isFilename(filename)) throw new Error('预设文件名无效。')
+  signal?.throwIfAborted()
+  const payload = await requestPresetJson(`/interview/del_preset?filename=${encodeURIComponent(filename)}`, signal, 'POST')
+  if (payload !== 200) throw new Error('删除预设接口未返回成功标识 200，请刷新列表确认文件状态。')
 }
 
 // filename 为查询参数；单个 Body(UUID) 参数要求整个 JSON body 为 UUID 字符串。
