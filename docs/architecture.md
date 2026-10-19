@@ -1,6 +1,6 @@
 # 当前架构说明
 
-核对日期：2026-10-13  
+核对日期：2026-10-13；会话章节更新于 2026-10-20。
 范围：当前后端源码中的实现；不将历史版本功能、设计草案或测试记录视为已完成的端到端能力。
 
 [文档导航](README.md) · [路线图](roadmap.md) · [v2.0.0 发布说明](releases/v2.0.0.md)
@@ -28,11 +28,13 @@
 | 接口 | 当前行为 | 成功响应 |
 | --- | --- | --- |
 | `GET /interview/begin` | 生成 UUID，路由调用 `aupdate_state` 写入会话 ID | 包含 `session_id` 的 JSON 对象 |
+| `GET /interview/sessions/{session_id}` | 读取有效会话的配置、历史、轮次和过期时间 | 会话状态 JSON |
+| `POST /interview/sessions/{session_id}/end` | 幂等结束会话，后续业务操作拒绝 | `session_id` 和 `status: ended` |
 | `POST /interview/personal_information_config` | 接收 `session_id`、`candidate`、`interviewer`，更新对应状态 | JSON 数字 `200` |
 | `POST /interview/stream` | 接收 `AgentRequest`，保存预设并执行本轮对话 | SSE 事件流 |
 | `POST /interview/upload_resume` | 仅有占位函数 | 尚无有效业务处理 |
 
-`AgentRequest` 当前要求 `session_id`、`role`、`message`、`chat_round` 和 `dtime`。业务执行将 `message` 包装为 `HumanMessage`；不会按请求中的 `role` 切换消息类型，也不使用请求中的 `chat_round` 覆盖图内轮次。完整字段和校验规则以 `src/schemas.py` 为准。
+`AgentRequest` 当前要求 `session_id`、`role`、`message`、`chat_round` 和 `dtime`。业务执行将 `message` 包装为 `HumanMessage`；不会按请求中的 `role` 切换消息类型。`chat_round` 必须等于图内已完成轮次，用于拒绝重复或过时请求，不覆盖图内轮次。完整字段和校验规则以 `src/schemas.py` 为准。
 
 ## 3. 单轮执行与状态更新
 
@@ -58,7 +60,7 @@
 | `TaskState` | 保存消息、轮次、面试者配置和面试官配置等业务状态 |
 | `InMemorySaver` | 在当前进程内保存检查点；不能跨重启恢复或在多个 worker 间共享状态 |
 
-不同会话 ID 用于区分状态，同一 ID 用于续接已有状态。页面数量本身不决定会话隔离；重复请求和并发行为仍需专门验收。
+不同会话 ID 用于区分状态，同一 ID 用于续接已有状态。同会话请求互斥，重复轮次被拒绝；刷新恢复当前会话，新标签页创建独立会话；结束或空闲 24 小时后不允许继续，后端重启后旧 ID 失效。配置以普通 JSON 存入检查点，Agent 使用时再校验为 Pydantic 对象。完整契约与 2026-10-20 验收见[会话生命周期](session-lifecycle.md)。
 
 JSON 导出是辅助文件存储，不是当前 checkpointer 的持久化实现：
 

@@ -6,6 +6,7 @@ from fastapi.responses import JSONResponse
 from backend.errors import (
     InterviewError, InvalidPresetNameError, PresetNotFoundError,
     SessionNotConfiguredError, SessionNotFoundError,
+    SessionConflictError, SessionGoneError,
 )
 from backend.interview_routes import create_interview_router
 from runtime import Runtime
@@ -22,8 +23,10 @@ def create_app(runtime: Runtime) -> FastAPI:
     async def handle_interview_error(request: Request, exc: InterviewError):
         if isinstance(exc, (SessionNotFoundError, PresetNotFoundError)):
             status_code = 404
-        elif isinstance(exc, SessionNotConfiguredError):
+        elif isinstance(exc, (SessionNotConfiguredError, SessionConflictError)):
             status_code = 409
+        elif isinstance(exc, SessionGoneError):
+            status_code = 410
         elif isinstance(exc, InvalidPresetNameError):
             status_code = 400
         else:

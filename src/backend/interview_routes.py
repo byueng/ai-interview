@@ -1,5 +1,6 @@
 import asyncio
 import logging
+from contextlib import aclosing
 
 from collections.abc import AsyncIterator
 from typing import Annotated
@@ -12,7 +13,7 @@ from langgraph.graph.state import CompiledStateGraph
 
 from backend import interview_service
 from backend.errors import InterviewError
-from schemas import AgentRequest, Candidate, Interviewer, TaskState
+from schemas import AgentRequest, Candidate, Interviewer, TaskState, SessionResponse, SessionStateResponse
 
 
 logger = logging.getLogger(__name__)
@@ -23,16 +24,25 @@ def create_interview_router(
 ) -> APIRouter:
     router = APIRouter(prefix="/interview", tags=["interview"])
 
-    @router.get("/begin", status_code=200)
+    @router.get("/begin", status_code=200, response_model=SessionResponse)
     async def interview_begin():
         session_id = await interview_service.create_session(graph)
         return {"session_id": session_id}
 
+    @router.get("/sessions/{session_id}", response_model=SessionStateResponse)
+    async def continue_session(session_id: UUID):
+        return await interview_service.read_session(graph, session_id)
+
+    @router.post("/sessions/{session_id}/end")
+    async def end_session(session_id: UUID):
+        return await interview_service.end_session(graph, session_id)
+
     @router.post("/stream", status_code=200, response_class=EventSourceResponse)
     async def stream_turn(agent_request: AgentRequest, request: Request) -> AsyncIterator[ServerSentEvent]:
         try:
-            async for chunk in interview_service.run_turn(graph, agent_request):
-                yield ServerSentEvent(event="message", data=jsonable_encoder(chunk))
+            async with aclosing(interview_service.run_turn(graph, agent_request)) as stream:
+                async for chunk in stream:
+                    yield ServerSentEvent(event="message", data=jsonable_encoder(chunk))
         except InterviewError as exc:
             logger.exception("面试流处理失败，session_id=%s", agent_request.session_id)
             yield ServerSentEvent(event="error", data={"detail": str(exc)})

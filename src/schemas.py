@@ -1,14 +1,26 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
 from langchain_core.messages import AnyMessage
 from typing_extensions import Annotated, List, Optional
+from typing import Any
 from pydantic import BaseModel, field_validator
 from pydantic.types import UUID
 from langgraph.graph.message import add_messages
 
 class SessionResponse(BaseModel):
     session_id: UUID # 标识
+
+
+class SessionStateResponse(SessionResponse):
+    status: str
+    chat_round: int
+    expires_at: float
+    candidate_config: Candidate | None = None
+    interviewer_config: Interviewer | None = None
+    messages: list[dict[str, Any]]
 
 class AgentRequest(BaseModel):
     session_id: UUID # 标识
@@ -61,6 +73,9 @@ class TaskState:
     messages: Annotated[List[AnyMessage], add_messages] = field(default_factory=list) # 信息
     # 已完成的 Agent 回复次数：0 使用开场模板，每次成功回复后加 1。
     chat_round: int = 0 
-    candidate_config: Candidate | None = None # 候选人信息
-    interviewer_config: Interviewer | None = None # 面试官信息
-    dtime: datetime = datetime.now() # 第一次对话的时间    
+    # 检查点写入 JSON 字典；Agent 在使用边界重新执行 Pydantic 校验。
+    candidate_config: dict[str, Any] | Candidate | None = None
+    interviewer_config: dict[str, Any] | Interviewer | None = None
+    status: str = "active"
+    last_activity: float = 0
+    dtime: datetime = field(default_factory=datetime.now)

@@ -1,6 +1,11 @@
 import asyncio
 import json
 import os
+import time
+
+from contextlib import aclosing, asynccontextmanager
+from functools import wraps
+from weakref import WeakKeyDictionary
 
 from collections.abc import AsyncIterator
 from pathlib import Path
@@ -21,10 +26,38 @@ from backend.errors import (
     PresetNotFoundError,
     SessionNotConfiguredError,
     SessionNotFoundError,
+    SessionConflictError,
+    SessionGoneError,
     StorageError,
 )
 from backend.file import read_json, write_json, write_unique_json
 from schemas import AgentRequest, Candidate, Interviewer, InterviewPreset, TaskState
+
+
+SESSION_TTL_SECONDS = 24 * 60 * 60
+# 单进程、单事件循环内 check-and-add 无 await；不同 Graph/会话互不阻塞。
+_busy_sessions: WeakKeyDictionary = WeakKeyDictionary()
+
+
+@asynccontextmanager
+async def session_operation(graph, session_id: UUID):
+    busy = _busy_sessions.setdefault(graph, set())
+    key = str(session_id)
+    if key in busy:
+        raise SessionConflictError("该会话正在处理请求，请等待完成后再继续。")
+    busy.add(key)
+    try:
+        yield
+    finally:
+        busy.remove(key)
+
+
+def exclusive_session(function):
+    @wraps(function)
+    async def wrapped(graph, session_id, *args, **kwargs):
+        async with session_operation(graph, session_id):
+            return await function(graph, session_id, *args, **kwargs)
+    return wrapped
 
 
 def graph_config_build(session_id: UUID) -> RunnableConfig:
@@ -63,13 +96,18 @@ def preset_path(filename: str) -> Path:
     return path
 
 
-async def session_snapshot(graph, session_id: UUID, *, configured: bool = False):
+async def session_snapshot(graph, session_id: UUID, *, configured: bool = False, allow_ended: bool = False):
     try:
         snapshot = await graph.aget_state(graph_config_build(session_id))
     except Exception as exc:
         raise InterviewError("读取会话状态失败，请查看后端日志。") from exc
     if not snapshot.values or str(snapshot.values.get("session_id")) != str(session_id):
         raise SessionNotFoundError("会话不存在或已失效，请重新创建会话。")
+    if snapshot.values.get("status", "active") == "ended":
+        if not allow_ended:
+            raise SessionGoneError("会话已结束，请主动新建会话。")
+    elif time.time() >= snapshot.values.get("last_activity", 0) + SESSION_TTL_SECONDS:
+        raise SessionGoneError("会话已过期，请主动新建会话。")
     if configured and (
         snapshot.values.get("candidate_config") is None
         or snapshot.values.get("interviewer_config") is None
@@ -84,13 +122,17 @@ async def create_session(
     session_id = uuid4()
     try:
         await graph.aupdate_state(
-            config=graph_config_build(session_id), values={"session_id": session_id}
+            config=graph_config_build(session_id), values={
+                "session_id": str(session_id), "status": "active",
+                "last_activity": time.time(), "chat_round": 0, "messages": [],
+            }, as_node=START,
         )
     except Exception as exc:
         raise InterviewError("创建会话失败，请查看后端日志。") from exc
     return session_id
 
 
+@exclusive_session
 async def configure_session(graph, session_id: UUID, candidate: Candidate, interviewer: Interviewer):
     await session_snapshot(graph, session_id)
     # 保存时使用岗位命名；先校验名称，避免非法路径在状态写入后才失败。
@@ -98,7 +140,9 @@ async def configure_session(graph, session_id: UUID, candidate: Candidate, inter
     try:
         await graph.aupdate_state(
             config=graph_config_build(session_id),
-            values={"candidate_config": candidate, "interviewer_config": interviewer},
+            values={"candidate_config": candidate.model_dump(mode="json"),
+                    "interviewer_config": interviewer.model_dump(mode="json"),
+                    "last_activity": time.time()},
             as_node=START,
         )
     except Exception as exc:
@@ -115,20 +159,49 @@ async def run_turn(
     request: AgentRequest,
 ) -> AsyncIterator[dict[str, Any]]:
     """逐条产出节点更新；流式错误由 HTTP 层包装成 SSE error。"""
-    await session_snapshot(graph, request.session_id, configured=True)
-    await save_state_snapshot(graph, request.session_id)
-    state_update = {
-        "session_id": request.session_id,
-        "messages": [HumanMessage(content=request.message)],
+    async with session_operation(graph, request.session_id):
+        snapshot = await session_snapshot(graph, request.session_id, configured=True)
+        if request.chat_round != snapshot.values.get("chat_round", 0):
+            raise SessionConflictError("轮次已变化或请求已提交，请继续会话以同步最新历史。")
+        await save_state_snapshot(graph, request.session_id)
+        state_update = {
+            "session_id": str(request.session_id),
+            # 失败重试替换同一轮的输入，避免 LangGraph 已保存的输入重复追加。
+            "messages": [HumanMessage(content=request.message, id=f"{request.session_id}:human:{request.chat_round}")],
+            "last_activity": time.time(),
+        }
+        try:
+            async with aclosing(graph.astream(
+                state_update, graph_config_build(request.session_id), stream_mode="updates"
+            )) as stream:
+                async for chunk in stream:
+                    yield chunk
+            await graph.aupdate_state(graph_config_build(request.session_id), {"last_activity": time.time()})
+        except Exception as exc:
+            # CancelledError 继续向上传播；finally 会释放会话占用。
+            raise InterviewError("面试执行失败，请查看后端日志。") from exc
+
+
+@exclusive_session
+async def read_session(graph, session_id: UUID) -> dict[str, Any]:
+    snapshot = await session_snapshot(graph, session_id)
+    values = snapshot.values
+    return {
+        "session_id": str(session_id), "status": values.get("status", "active"),
+        "chat_round": values.get("chat_round", 0),
+        "expires_at": values["last_activity"] + SESSION_TTL_SECONDS,
+        "candidate_config": values.get("candidate_config"),
+        "interviewer_config": values.get("interviewer_config"),
+        "messages": jsonable_encoder(values.get("messages", [])),
     }
-    try:
-        async for chunk in graph.astream(
-            state_update, graph_config_build(request.session_id), stream_mode="updates"
-        ):
-            yield chunk
-    except Exception as exc:
-        # CancelledError 不属于 Exception，客户端取消会继续向上传播。
-        raise InterviewError("面试执行失败，请查看后端日志。") from exc
+
+
+@exclusive_session
+async def end_session(graph, session_id: UUID):
+    snapshot = await session_snapshot(graph, session_id, allow_ended=True)
+    if snapshot.values.get("status") != "ended":
+        await graph.aupdate_state(graph_config_build(session_id), {"status": "ended"}, as_node=START)
+    return {"session_id": str(session_id), "status": "ended"}
 
 
 async def save_state_snapshot(graph, session_id: UUID):
@@ -165,6 +238,7 @@ def list_interview_presets() -> list[str]:
         raise StorageError("读取预设列表失败，请查看后端日志。") from exc
 
 
+@exclusive_session
 async def load_interview_preset(graph, session_id: UUID, filename: str) -> dict[str, Any]:
     path = preset_path(filename)
     await session_snapshot(graph, session_id)
@@ -184,8 +258,9 @@ async def load_interview_preset(graph, session_id: UUID, filename: str) -> dict[
         await graph.aupdate_state(
             config=graph_config_build(session_id),
             values={
-                "candidate_config": preset.candidate_config,
-                "interviewer_config": preset.interviewer_config,
+                "candidate_config": preset.candidate_config.model_dump(mode="json"),
+                "interviewer_config": preset.interviewer_config.model_dump(mode="json"),
+                "last_activity": time.time(),
             },
             as_node=START,
         )

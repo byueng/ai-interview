@@ -6,7 +6,7 @@ from typing import Any, TypedDict
 from dataclasses import asdict, dataclass, field
 
 from interview_agent.model_config import ModelConfig
-from schemas import TaskState
+from schemas import Candidate, Interviewer, TaskState
 from interview_agent.prompts.prompt_faction import render_prompt
 
 def _create_llm() -> BaseChatModel:
@@ -38,12 +38,14 @@ class InterviewAgent(Agent):
         if state.chat_round < 0:
             raise ValueError("chat_round 必须从 0 开始。")
         template_path = "init_interview.md" if state.chat_round == 0 else "interview_round.md"
+        candidate = Candidate.model_validate(state.candidate_config)
+        interviewer = Interviewer.model_validate(state.interviewer_config)
         return render_prompt(
             template_path,
-            **state.interviewer_config.model_dump(),
-            **state.candidate_config.model_dump(exclude={"resume"}),
+            **interviewer.model_dump(),
+            **candidate.model_dump(exclude={"resume"}),
             # 此处只使用已有简历文本；不自动读取用户提供的文件路径。
-            resume=str(state.candidate_config.resume or "未提供"),
+            resume=str(candidate.resume or "未提供"),
         )
 
     async def __call__(self, state: TaskState) -> InterviewUpdate:

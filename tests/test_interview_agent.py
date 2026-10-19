@@ -1,4 +1,5 @@
 import asyncio
+import time
 from datetime import datetime, timezone
 from tempfile import TemporaryDirectory
 from unittest import IsolatedAsyncioTestCase, TestCase
@@ -95,6 +96,8 @@ class InterviewAgentTests(IsolatedAsyncioTestCase):
 
     async def test_graph_runs_only_interview_node_then_ends(self):
         state = make_state()
+        state.candidate_config = state.candidate_config.model_dump(mode="json")
+        state.interviewer_config = state.interviewer_config.model_dump(mode="json")
         graph = graph_build(InMemorySaver(), interview_agent=self.agent)
         config = {"configurable": {"thread_id": str(state.session_id)}}
         chunks = [chunk async for chunk in graph.astream(state, config, stream_mode="updates")]
@@ -113,8 +116,9 @@ class InterviewAgentTests(IsolatedAsyncioTestCase):
         config = {"configurable": {"thread_id": str(state.session_id)}}
         await graph.aupdate_state(config, {
             "session_id": state.session_id,
-            "candidate_config": state.candidate_config,
-            "interviewer_config": state.interviewer_config,
+            "candidate_config": state.candidate_config.model_dump(mode="json"),
+            "interviewer_config": state.interviewer_config.model_dump(mode="json"),
+            "last_activity": time.time(),
             "chat_round": 0,
         })
         request = AgentRequest(
