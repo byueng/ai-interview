@@ -27,8 +27,7 @@ def configuration(session_id, position="岗位A"):
 
 
 def request_body(session_id, message="你好", chat_round=0):
-    return {"session_id": session_id, "message": message, "chat_round": chat_round,
-            "role": "Human", "dtime": "2026-10-20T00:00:00Z"}
+    return {"session_id": session_id, "message": message, "chat_round": chat_round}
 
 
 def events(response):

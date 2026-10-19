@@ -73,7 +73,7 @@ async def session_snapshot(graph, session_id: UUID, *, configured: bool = False,
         if not allow_ended:
             raise SessionGoneError("会话已结束，请主动新建会话。")
     elif time.time() >= snapshot.values.get("last_activity", 0) + SESSION_TTL_SECONDS:
-        raise SessionGoneError("会话已过期，请主动新建会话。")
+            raise SessionGoneError("会话已过期，请主动新建会话。")
     if configured and (
         snapshot.values.get("candidate_config") is None
         or snapshot.values.get("interviewer_config") is None

@@ -89,7 +89,7 @@ export async function sendMessage() {
   let receivedReply = false
   const ids = new Set<string>()
   try {
-    for await (const event of streamInterviewTurn({ role: 'Human', message: text, chat_round: interview.round, dtime: new Date().toISOString() })) {
+    for await (const event of streamInterviewTurn({ message: text, chat_round: interview.round })) {
       if (event.event === 'message') {
         const update = readInterviewUpdate(event.data)
         if (update.chatRound !== undefined) interview.round = update.chatRound

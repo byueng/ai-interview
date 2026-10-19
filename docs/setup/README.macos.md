@@ -35,11 +35,10 @@ nvim .env
 
 ```bash
 cd src
-mkdir -p data/state_status data/interview_preset
 uv run main.py
 ```
 
-首次运行前需要初始化数据目录。保持从 `src` 启动，使相对路径下的数据写入 `src/data`。
+数据目录会自动初始化，默认固定写入 `src/data`，不再依赖启动命令所在目录。如需写到其他位置，在 `.env` 中设置 `DATA_DIR`。
 
 - 后端地址：[http://127.0.0.1:7022](http://127.0.0.1:7022)
 - API 文档：[http://127.0.0.1:7022/docs](http://127.0.0.1:7022/docs)
@@ -66,7 +65,6 @@ npm run dev
 
 ```bash
 cd src
-mkdir -p data/state_status data/interview_preset
 PYTHONPATH=. uv run python -m unittest discover -s ../tests -v
 ```
 

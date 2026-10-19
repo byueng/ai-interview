@@ -58,11 +58,10 @@ notepad .env
 
 ```powershell
 Set-Location .\src
-New-Item -ItemType Directory -Force -Path .\data\state_status, .\data\interview_preset | Out-Null
 ..\.venv\Scripts\python.exe .\main.py
 ```
 
-首次运行前需要初始化数据目录。保持从 `src` 启动，使相对路径下的数据写入 `src/data`。这里的 `..\.venv` 指向仓库根目录中的虚拟环境。
+数据目录会自动初始化，默认固定写入 `src/data`，不再依赖启动命令所在目录。如需写到其他位置，在 `.env` 中设置 `DATA_DIR`。这里的 `..\.venv` 指向仓库根目录中的虚拟环境。
 
 - 后端地址：[http://127.0.0.1:7022](http://127.0.0.1:7022)
 - API 文档：[http://127.0.0.1:7022/docs](http://127.0.0.1:7022/docs)
@@ -91,7 +90,6 @@ npm.cmd run dev
 
 ```powershell
 Set-Location .\src
-New-Item -ItemType Directory -Force -Path .\data\state_status, .\data\interview_preset | Out-Null
 ..\.venv\Scripts\python.exe -m unittest discover -s ..\tests -v
 ```
 

@@ -3,15 +3,17 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from langchain_core.messages import AnyMessage
-from typing_extensions import Annotated, List, Optional
 from typing import Any
-from pydantic import BaseModel, field_validator
-from pydantic.types import UUID
+
+from langchain_core.messages import AnyMessage
 from langgraph.graph.message import add_messages
+from pydantic import BaseModel, ConfigDict, field_validator
+from pydantic.types import UUID
+from typing_extensions import Annotated, List
+
 
 class SessionResponse(BaseModel):
-    session_id: UUID # 标识
+    session_id: UUID
 
 
 class SessionStateResponse(SessionResponse):
@@ -22,57 +24,63 @@ class SessionStateResponse(SessionResponse):
     interviewer_config: Interviewer | None = None
     messages: list[dict[str, Any]]
 
+
 class AgentRequest(BaseModel):
-    session_id: UUID # 标识
-    role: str # 标注Human或者System
-    message: str # 对话历史
-    chat_round: int # 对话轮数，一轮对话为Response返回
-    dtime: datetime # request创建时间
+    """候选人单轮回答；轮次是并发/重复提交控制的一部分。"""
+
+    model_config = ConfigDict(extra="forbid")
+
+    session_id: UUID
+    message: str
+    chat_round: int
+
+    @field_validator("message")
+    @classmethod
+    def validate_message(cls, value: str) -> str:
+        value = value.strip()
+        if not value:
+            raise ValueError("message 不能为空。")
+        return value
 
     @field_validator("chat_round")
     @classmethod
     def validate_chat_round(cls, value: int) -> int:
         if value < 0:
-            raise ValueError("Request chat round must be greater than -1!")
+            raise ValueError("chat_round 必须是非负整数。")
         return value
+
 
 class AgentResponse(BaseModel):
-    role: str # 标注Human或者System
-    message: str # 对话历史
-    chat_round: int # 对话轮数，一轮对话为Response返回
-    dtime: datetime # response创建时间
-    score: float # 得分
-    chat_status: bool # 面试进程
+    role: str
+    message: str
+    chat_round: int
+    dtime: datetime
+    score: float
+    chat_status: bool
 
-    @field_validator("chat_status")
-    @classmethod
-    def validate_chat_status(cls, value: bool) -> bool:
-        if value not in [True, False]:
-            raise ValueError("Response chat_status must be True or False")
-        return value
 
 class Candidate(BaseModel):
-    language: str # 使用语言
-    education: str # 学历
-    position: str # 面试岗位
+    language: str
+    education: str
+    position: str
     resume: Path | None = None
 
 
 class Interviewer(BaseModel):
-    role_identity: str # 面试官身份
-    role_responsibilities: str | None # 面试官的偏好设置
+    role_identity: str
+    role_responsibilities: str | None
 
 
 class InterviewPreset(BaseModel):
     candidate_config: Candidate
     interviewer_config: Interviewer
 
+
 @dataclass
 class TaskState:
-    session_id: UUID # 对话标识
-    messages: Annotated[List[AnyMessage], add_messages] = field(default_factory=list) # 信息
-    # 已完成的 Agent 回复次数：0 使用开场模板，每次成功回复后加 1。
-    chat_round: int = 0 
+    session_id: UUID
+    messages: Annotated[List[AnyMessage], add_messages] = field(default_factory=list)
+    chat_round: int = 0
     # 检查点写入 JSON 字典；Agent 在使用边界重新执行 Pydantic 校验。
     candidate_config: dict[str, Any] | Candidate | None = None
     interviewer_config: dict[str, Any] | Interviewer | None = None

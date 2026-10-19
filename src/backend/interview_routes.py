@@ -38,12 +38,13 @@ def create_interview_router(
 
     @router.post("/stream", status_code=200, response_class=EventSourceResponse)
     async def stream_turn(agent_request: AgentRequest, request: Request) -> AsyncIterator[ServerSentEvent]:
+        request.state.session_id = str(agent_request.session_id)
         try:
             async with aclosing(interview_service.run_turn(graph, agent_request)) as stream:
                 async for chunk in stream:
                     yield ServerSentEvent(event="message", data=jsonable_encoder(chunk))
         except InterviewError as exc:
-            logger.exception("面试流处理失败，session_id=%s", agent_request.session_id)
+            logger.warning("面试流未完成，session_id=%s detail=%s", agent_request.session_id, exc)
             yield ServerSentEvent(event="error", data={"detail": str(exc)})
             return
         except Exception:

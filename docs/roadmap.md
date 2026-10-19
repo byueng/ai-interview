@@ -10,14 +10,14 @@
 
 ## 1. 基础链路与异常处理（优先）
 
-状态：已有会话初始化、配置写入和单轮对话实现，需补齐异常行为并回归验证。
+状态：2026-10-20 已完成基础异常规则与模拟模型/应用内 HTTP 回归；真实模型及浏览器—Uvicorn 外部链路仍未执行，详见本节记录。
 
 - [x] 验证“创建会话 → 写入配置 → 连续多轮对话”，确认历史消息、配置和轮次正确续接。(2026-10-15验证)
-- [ ] 明确不存在、未配置、结束或失效会话的处理规则，避免直接访问缺失字段。
-- [ ] 统一预设保存、快照导出和图执行失败的处理边界，检查 `message`、`error`、`done` 事件行为。
-- [ ] 完善文件读写异常处理和快照父目录初始化，验证写入失败不会被误报为成功。
-- [ ] 复核请求字段与实际业务使用的一致性，明确 `role`、`chat_round`、`dtime` 的职责。
-- [ ] 回归现有自动化测试，并分别记录模拟测试、真实模型调用和完整 HTTP 业务验收的结果与日期。
+- [x] 明确不存在、未配置、结束或失效会话的处理规则，避免直接访问缺失字段。（2026-10-20：未知/重启后会话为 404 或 SSE `error`，未配置为 409 或 SSE `error`，`/interview/sessions/{id}/end` 后为 410 或 SSE `error`；见 `tests/test_interview_http.py`、`tests/test_session_lifecycle.py`。）
+- [x] 统一预设保存、快照导出和图执行失败的处理边界，检查 `message`、`error`、`done` 事件行为。（2026-10-20：配置期文件失败使用 JSON 错误；流内会话、快照和图失败仅发 `error`，成功才发 `message` 后 `done`；见 `tests/test_interview_http.py`。）
+- [x] 完善文件读写异常处理和快照父目录初始化，验证写入失败不会被误报为成功。（2026-10-20：默认/覆盖数据根目录统一初始化，快照写入失败回归为 SSE `error` 且无 `done`；见 `tests/test_preset_files.py`、`tests/test_interview_http.py`。）
+- [x] 复核请求字段与实际业务使用的一致性，明确 `role`、`chat_round`、`dtime` 的职责。（2026-10-20：`/stream` 接收 `session_id`、`message`、`chat_round` 并拒绝遗留字段；角色和时间由服务端确定，轮次用于拒绝重复或过时提交；见 `src/schemas.py`、前端 API 层及 `tests/test_interview_http.py`。）
+- [x] 回归现有自动化测试，并分别记录模拟测试、真实模型调用和完整 HTTP 业务验收的结果与日期。（2026-10-20：`uv run --locked python -m unittest discover -s tests -v`，46 项模拟模型与 FastAPI `TestClient` HTTP/SSE 回归通过；前端 `npm test` 19 项通过，`npm run build` 通过。真实模型调用与浏览器—Uvicorn 的完整外部链路本次未执行，原因是未提供可调用的模型凭据；该未执行结果不视为通过。）
 
 验收依据：保存请求条件、事件序列和状态检查结果；不能仅以 HTTP `200` 或模型生成过一次回复作为完整验收结论。
 

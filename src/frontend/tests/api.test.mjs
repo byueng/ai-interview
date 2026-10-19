@@ -25,7 +25,7 @@ async function loadApi() {
 const sessionId = 'c53208a9-db49-4064-9802-ffb548e9a0f5'
 const candidate = { education: '本科', position: '后端', language: 'Chinese' }
 const interviewer = { role_identity: '技术面试官', role_responsibilities: '围绕项目提问' }
-const turn = { role: 'Human', message: '你好', chat_round: 0, dtime: '2026-10-13T10:00:00+08:00' }
+const turn = { message: '你好', chat_round: 0 }
 const consume = async (stream) => { const events = []; for await (const event of stream) events.push(event); return events }
 
 async function loadInterviewStore() {

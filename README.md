@@ -30,15 +30,15 @@
 
 请按操作系统选择运行指南：
 
-**[macOS →](docs/setup/README.macos.md) · [Windows →](docs/setup/README.windows.md)**
+**[macOS →](docs/setup/README.macos.md) · [Windows →](docs/setup/README.windows.md) · [Linux →](docs/setup/README.linux.md)**
 
 | 平台                                    | Python 环境管理 | 说明                               |
 | --------------------------------------- | --------------- | ---------------------------------- |
 | [macOS](docs/setup/README.macos.md)     | uv              | 原有本地开发流程，使用 zsh / bash  |
 | [Windows](docs/setup/README.windows.md) | venv + pip      | 使用 PowerShell，不需要 uv；       |
-| Linux                                   | 待确定          | 稍后测试，暂不提供已验证的运行指南 |
+| [Linux](docs/setup/README.linux.md)     | uv              | bash / zsh 流程已静态核对，尚未在 Linux 实机验收 |
 
-两份指南分别提供依赖安装、服务启动与开发检查命令。模型配置和使用说明在本页统一维护，避免重复与不同步。
+三份指南分别提供依赖安装、服务启动与开发检查命令。模型配置和使用说明在本页统一维护，避免重复与不同步。
 
 ### 模型配置
 
@@ -55,7 +55,7 @@ TEMPERATURE=0.8
 
 `BASE_URL` 应填写供应商提供的 API 基础地址，而不是网页地址或完整的 `/chat/completions` 路径。模型名称与参数兼容性取决于所选服务。
 
-`API_KEY`、`BASE_URL`、`MODEL_NAME` 为必填项；`TEMPERATURE` 可省略，默认 `0.8`。当前 `env.example` 仅列出部分字段，不能直接作为完整配置使用。配置从项目根目录 `.env` 加载，也可通过进程环境变量提供。
+`API_KEY`、`BASE_URL`、`MODEL_NAME` 为必填项；`TEMPERATURE` 可省略，默认 `0.8`。当前 `env.example` 仅列出部分字段，不能直接作为完整配置使用。配置从项目根目录 `.env` 加载，也可通过进程环境变量提供。快照与预设默认写入 `src/data`；需要改写入位置时，在 `.env` 设置 `DATA_DIR`（旧的小写 `data_dir` 仍兼容）。
 
 > `.env` 已列入 Git 忽略规则，请勿将真实密钥写入源码、提交记录或公开日志。发送的面试配置与对话内容会交给所配置的模型服务处理。
 
@@ -84,7 +84,7 @@ TEMPERATURE=0.8
 
 ## 开发检查
 
-检查命令见 [macOS 开发检查](docs/setup/README.macos.md#开发检查)或 [Windows 开发检查](docs/setup/README.windows.md#开发检查)。
+检查命令见 [macOS 开发检查](docs/setup/README.macos.md#开发检查)、[Windows 开发检查](docs/setup/README.windows.md#开发检查)或 [Linux 基本检查](docs/setup/README.linux.md#基本检查)。
 
 后端测试使用模拟模型，不代表真实模型或完整 HTTP 链路验收。
 
@@ -108,7 +108,7 @@ ai-interview/
 │   └── data/             # 本地生成数据，不纳入版本控制
 ├── tests/                # 后端测试
 └── docs/                 # 平台运行指南、架构、路线图与版本记录
-    └── setup/            # macOS / Windows 快速开始
+    └── setup/            # macOS / Windows / Linux 快速开始
 ```
 
 - [文档导航](docs/README.md)：查找各类文档及维护规则。

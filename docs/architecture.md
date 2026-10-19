@@ -40,7 +40,7 @@
 | `POST /interview/del_preset` | 删除指定预设文件 | JSON 数字 `200` |
 | `POST /interview/upload_resume` | 仅有占位函数 | 尚无有效业务处理 |
 
-`AgentRequest` 当前要求 `session_id`、`role`、`message`、`chat_round` 和 `dtime`。业务执行将 `message` 包装为 `HumanMessage`；不会按请求中的 `role` 切换消息类型。`chat_round` 必须等于图内已完成轮次，用于拒绝重复或过时请求，不覆盖图内轮次。完整字段和校验规则以 `src/schemas.py` 为准。
+`AgentRequest` 要求 `session_id`、非空 `message` 与 `chat_round`，并拒绝多余字段。业务执行将 `message` 固定包装为 `HumanMessage`；`chat_round` 必须等于图内已完成轮次，用于拒绝重复或过时请求，不覆盖图内轮次。角色和时间由服务端确定。完整字段和校验规则以 `src/schemas.py` 为准。
 
 ## 3. 单轮执行与状态更新
 
@@ -70,10 +70,10 @@
 
 JSON 导出是辅助文件存储，不是当前 checkpointer 的持久化实现。`data_dir` 是统一的存储根目录；预设文件由预设服务负责，面试服务只在“保存当前会话配置”或“将已读取预设写入会话”时协调调用：
 
-- **状态快照**：写入 `data/state_status/<session_id>.json`，保存本轮消息提交前的快照；同一会话再次导出会覆盖旧文件，不是完整历史归档。
+- **状态快照**：写入 `src/data/state_status/<session_id>.json`，保存本轮消息提交前的快照；同一会话再次导出会覆盖旧文件，不是完整历史归档。
 - **面试预设**：写入 `data/interview_preset/<position>.json`，仅保存 `candidate_config` 和 `interviewer_config`；同名岗位按编号保留多份文件。读取、列表和删除仍使用既有 `/interview/*preset` 路径。
 - **序列化**：状态快照先使用 `jsonable_encoder` 转换数据；预设使用 Pydantic 的 JSON 模式导出；同步 JSON 文件操作均经 `asyncio.to_thread` 调用。
-- **路径**：以上目录均由 `data_dir` 配置派生；服务会创建缺失的父目录。
+- **路径**：默认数据根目录固定为源码下的 `src/data`，与进程启动目录无关；可通过 `DATA_DIR`（兼容旧的 `data_dir`）覆盖。服务会创建缺失的父目录。
 - **恢复**：预设可读取并回填到已创建会话；尚未从 JSON 文件恢复 Graph 检查点。
 
 ## 4.1 当前路由拆分范围
@@ -87,11 +87,11 @@ JSON 导出是辅助文件存储，不是当前 checkpointer 的持久化实现�
 当前使用 `stream_mode="updates"` 输出节点状态增量；模型通过 `ainvoke` 返回完整回复，因此不是逐 token 输出，也不是完整状态快照流。
 
 - `message`：节点更新，经 JSON 兼容转换后发送。
-- `error`：路由 `try` 块内捕获的处理失败；发送后结束，不再发送 `done`。
+- `error`：会话检查、快照导出或图执行失败时由路由发送；发送后结束，不再发送 `done`。
 - `done`：正常执行结束，携带会话 ID。
 
-预设保存失败由配置接口报告；流内快照导出、状态检查及 Graph 执行失败统一返回 SSE `error`。请求模型校验和流内业务异常属于不同阶段；日志中的 HTTP `200` 不能单独证明整个流成功结束。
+配置阶段的预设保存失败发生在 SSE 建立前，以普通 JSON 错误响应返回；快照和图执行失败发生在流内，以 `error` 事件返回。请求模型校验发生在路由执行前，返回 `422` JSON；日志中的 HTTP `200` 不能单独证明整个流成功结束。
 
 ## 6. 验证口径
 
-本说明基于源码核对，不新增测试通过结论。[2026-10-09 开发日志](archive/2026-10-09-单次对话Agent开发日志.md)中的模拟测试结果仅对应当时实现。当前版本的业务闭环、文件输出、会话隔离和异常路径验收统一记录在[路线图](roadmap.md)。
+本说明基于源码核对。模拟模型、SSE 与文件异常回归的证据统一记录在[路线图](roadmap.md)；它们不等同于真实模型调用或浏览器到模型的完整业务验收。[2026-10-09 开发日志](archive/2026-10-09-单次对话Agent开发日志.md)中的模拟测试结果仅对应当时实现。
