@@ -23,7 +23,7 @@ watch(() => interview.notice, value => {
     <div class="cathedral-leadwork" aria-hidden="true"><span /><span /><span /></div>
     <a class="skip-link" href="#main-content" @click.prevent="focusMain">跳到主要内容</a>
     <header class="site-header">
-      <RouterLink to="/" class="brand" aria-label="北风首页"><span class="brand-symbol"><Crown :size="23" :stroke-width="1.2" /></span><span>北风<span class="brand-en">NORTHWIND</span></span></RouterLink>
+      <RouterLink to="/" class="brand" aria-label="返回首页"><span class="brand-symbol"><Crown :size="23" :stroke-width="1.2" /></span></RouterLink>
       <nav class="primary-nav" aria-label="主导航">
         <RouterLink to="/" :class="{ selected: route.name === 'home' }"><span class="nav-number">01</span> 序厅</RouterLink>
         <RouterLink to="/settings" :class="{ selected: route.name === 'settings' }"><span class="nav-number">02</span> 面试准备</RouterLink>

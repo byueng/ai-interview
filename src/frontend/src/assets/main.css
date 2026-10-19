@@ -255,7 +255,7 @@ dialog[open] { animation: rise-in .22s both; }
   .review-stats > div { padding: 0 15px; } .review-stats .stat-position { font-size: 19px; } .review-stats strong { font-size: 28px; }
 }
 @media (max-width: 480px) {
-  .app-frame { padding: 0 20px; } .site-header { height: 80px; } .brand-symbol { display: none; } .primary-nav { gap: 19px; } .primary-nav a { font-size: 11px; }
+  .app-frame { padding: 0 20px; } .site-header { height: 80px; } .brand-symbol { display: grid; } .primary-nav { gap: 19px; } .primary-nav a { font-size: 11px; }
   .hero { grid-template-columns: 1fr; padding: 35px 0 37px; gap: 36px; } .hero h1 { font-size: 43px; line-height: 1.35; margin-bottom: 20px; } .hero-copy > .eyebrow { font-size: 8px; margin-bottom: 23px; }
   .hero-description { font-size: 11px; margin-bottom: 23px; } .hero-actions { flex-direction: row; align-items: center; gap: 19px; } .hero-actions .button { font-size: 11px; } .hero-actions .quiet-link { font-size: 10px; }
   .hero-art { width: 100%; } .art-mat { padding: 11px; } .art-window { max-height: 430px; } figcaption { flex-direction: row; } .journey { grid-template-columns: 1fr; gap: 0; padding-top: 25px; }
