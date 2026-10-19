@@ -8,6 +8,7 @@ from backend.errors import (
     SessionNotConfiguredError, SessionNotFoundError,
 )
 from backend.interview_routes import create_interview_router
+from backend.preset_routes import create_preset_router
 from runtime import Runtime
 
 
@@ -52,6 +53,7 @@ def create_app(runtime: Runtime) -> FastAPI:
         return JSONResponse(status_code=500, content={"detail": "服务端处理失败，请查看后端日志。"})
 
     app.include_router(create_interview_router(runtime.graph))
+    app.include_router(create_preset_router(runtime.graph))
 
     @app.get("/")
     async def greeting():

@@ -1,4 +1,3 @@
-import asyncio
 import logging
 
 from collections.abc import AsyncIterator
@@ -50,24 +49,6 @@ def create_interview_router(
     ):
         request.state.session_id = str(session_id)
         await interview_service.configure_session(graph, session_id, candidate, interviewer)
-        return 200
-
-    @router.get("/read_preset", status_code=200)
-    async def read_preset(request: Request) -> dict[str, list[str]]:
-        files = await asyncio.to_thread(interview_service.list_interview_presets)
-        return {"files": files}
-
-    @router.post("/load_preset", status_code=200)
-    async def load_preset(
-        session_id: Annotated[UUID, Body()], filename: str, request: Request,
-    ) -> dict:
-        request.state.session_id = str(session_id)
-        preset = await interview_service.load_interview_preset(graph, session_id, filename)
-        return {"preset_config": preset}
-
-    @router.post("/del_preset", status_code=200)
-    async def del_preset(filename: str, request: Request):
-        await asyncio.to_thread(interview_service.delete_interview_preset, filename)
         return 200
 
     @router.post("/upload_resume", status_code=200)
