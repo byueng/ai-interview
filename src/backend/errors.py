@@ -13,6 +13,10 @@ class SessionNotConfiguredError(InterviewError):
     pass
 
 
+class SessionEndedError(InterviewError):
+    pass
+
+
 class InvalidPresetNameError(InterviewError):
     pass
 

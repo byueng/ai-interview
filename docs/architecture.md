@@ -27,12 +27,13 @@
 
 | 接口 | 当前行为 | 成功响应 |
 | --- | --- | --- |
-| `GET /interview/begin` | 生成 UUID，路由调用 `aupdate_state` 写入会话 ID | 包含 `session_id` 的 JSON 对象 |
+| `GET /interview/begin` | 生成 UUID，路由调用 `aupdate_state` 写入会话 ID 和 `active` 状态 | 包含 `session_id` 的 JSON 对象 |
 | `POST /interview/personal_information_config` | 接收 `session_id`、`candidate`、`interviewer`，更新对应状态 | JSON 数字 `200` |
-| `POST /interview/stream` | 接收 `AgentRequest`，保存预设并执行本轮对话 | SSE 事件流 |
+| `POST /interview/stream` | 接收 `session_id`、`message`，导出快照并执行本轮对话 | SSE 事件流 |
+| `POST /interview/end` | 将当前会话标记为 `ended`；不会删除调试快照或预设文件 | 包含 `session_id`、`status: "ended"` 的 JSON 对象 |
 | `POST /interview/upload_resume` | 仅有占位函数 | 尚无有效业务处理 |
 
-`AgentRequest` 当前要求 `session_id`、`role`、`message`、`chat_round` 和 `dtime`。业务执行将 `message` 包装为 `HumanMessage`；不会按请求中的 `role` 切换消息类型，也不使用请求中的 `chat_round` 覆盖图内轮次。完整字段和校验规则以 `src/schemas.py` 为准。
+`AgentRequest` 只要求 `session_id` 和非空 `message`，且拒绝多余字段。业务执行把 `message` 固定包装为 `HumanMessage`；`role` 不再由客户端伪造，`chat_round` 只由图内成功回复累加，`dtime` 只记录服务端会话创建时间。完整字段和校验规则以 `src/schemas.py` 为准。
 
 ## 3. 单轮执行与状态更新
 
@@ -60,12 +61,14 @@
 
 不同会话 ID 用于区分状态，同一 ID 用于续接已有状态。页面数量本身不决定会话隔离；重复请求和并发行为仍需专门验收。
 
+会话错误按以下规则处理：未知 ID 或后端重启后丢失的检查点视为“不存在或失效”（普通 JSON 接口为 `404`，已开始的 SSE 以 `error` 事件报告）；未写入配置的会话为 `409` 或 SSE `error`；调用 `/interview/end` 后的会话为 `410` 或 SSE `error`，不可再次配置或对话。当前未设置按时间自动过期；`InMemorySaver` 的进程重启是唯一的失效来源。
+
 JSON 导出是辅助文件存储，不是当前 checkpointer 的持久化实现：
 
-- **状态快照**：写入 `data/state_status/<session_id>.json`，保存本轮消息提交前的快照；同一会话再次导出会覆盖旧文件，不是完整历史归档。
-- **面试预设**：写入 `data/interview_preset/<position>.json`，仅保存 `candidate_config` 和 `interviewer_config`；同名岗位会覆盖原预设。`save_interview_preset` 是内部服务函数，不是独立 HTTP 接口。
+- **状态快照**：写入 `src/data/state_status/<session_id>.json`，保存本轮消息提交前的快照；同一会话再次导出会覆盖旧文件，不是完整历史归档。
+- **面试预设**：写入 `src/data/interview_preset/<position>.json`，仅保存 `candidate_config` 和 `interviewer_config`；实际文件名在重名时追加编号。`save_interview_preset` 是配置成功后的内部服务流程，不是独立 HTTP 接口。
 - **序列化**：业务层先使用 `jsonable_encoder` 转换数据，再通过 `asyncio.to_thread` 调用 JSON 写入函数。
-- **路径**：以上路径相对于进程工作目录；从 `src` 启动时保存到 `src/data` 下。目前预设保存会创建父目录，快照保存没有相同的目录初始化处理。
+- **路径**：默认数据根目录固定为源码下的 `src/data`，与进程启动目录无关；可通过 `DATA_DIR`（兼容旧的 `data_dir`）覆盖。预设和快照都在写入前创建父目录。
 - **恢复**：尚未实现预设加载、配置回填或从这些 JSON 文件恢复 Graph 检查点。
 
 ## 5. SSE 与异常边界
@@ -73,11 +76,11 @@ JSON 导出是辅助文件存储，不是当前 checkpointer 的持久化实现�
 当前使用 `stream_mode="updates"` 输出节点状态增量；模型通过 `ainvoke` 返回完整回复，因此不是逐 token 输出，也不是完整状态快照流。
 
 - `message`：节点更新，经 JSON 兼容转换后发送。
-- `error`：路由 `try` 块内捕获的处理失败；发送后结束，不再发送 `done`。
+- `error`：会话检查、快照导出或图执行失败时由路由发送；发送后结束，不再发送 `done`。
 - `done`：正常执行结束，携带会话 ID。
 
-预设保存位于该 `try` 块之外，其失败尚未纳入同一套 SSE 错误处理。请求模型校验和流内业务异常属于不同阶段；日志中的 HTTP `200` 不能单独证明整个流成功结束。
+配置阶段的预设保存失败发生在 SSE 建立前，以普通 JSON 错误响应返回；快照和图执行失败发生在流内，以 `error` 事件返回。请求模型校验发生在路由执行前，返回 `422` JSON；日志中的 HTTP `200` 不能单独证明整个流成功结束。
 
 ## 6. 验证口径
 
-本说明基于源码核对，不新增测试通过结论。[2026-10-09 开发日志](archive/2026-10-09-单次对话Agent开发日志.md)中的模拟测试结果仅对应当时实现。当前版本的业务闭环、文件输出、会话隔离和异常路径验收统一记录在[路线图](roadmap.md)。
+本说明基于源码核对。模拟模型、SSE 与文件异常回归的证据统一记录在[路线图](roadmap.md)；它们不等同于真实模型调用或浏览器到模型的完整业务验收。[2026-10-09 开发日志](archive/2026-10-09-单次对话Agent开发日志.md)中的模拟测试结果仅对应当时实现。

@@ -12,7 +12,7 @@ from langgraph.graph.state import CompiledStateGraph
 
 from backend import interview_service
 from backend.errors import InterviewError
-from schemas import AgentRequest, Candidate, Interviewer, TaskState
+from schemas import AgentRequest, Candidate, EndSessionRequest, Interviewer, SessionResponse, TaskState
 
 
 logger = logging.getLogger(__name__)
@@ -23,18 +23,19 @@ def create_interview_router(
 ) -> APIRouter:
     router = APIRouter(prefix="/interview", tags=["interview"])
 
-    @router.get("/begin", status_code=200)
+    @router.get("/begin", status_code=200, response_model=SessionResponse)
     async def interview_begin():
         session_id = await interview_service.create_session(graph)
         return {"session_id": session_id}
 
     @router.post("/stream", status_code=200, response_class=EventSourceResponse)
     async def stream_turn(agent_request: AgentRequest, request: Request) -> AsyncIterator[ServerSentEvent]:
+        request.state.session_id = str(agent_request.session_id)
         try:
             async for chunk in interview_service.run_turn(graph, agent_request):
                 yield ServerSentEvent(event="message", data=jsonable_encoder(chunk))
         except InterviewError as exc:
-            logger.exception("面试流处理失败，session_id=%s", agent_request.session_id)
+            logger.warning("面试流未完成，session_id=%s detail=%s", agent_request.session_id, exc)
             yield ServerSentEvent(event="error", data={"detail": str(exc)})
             return
         except Exception:
@@ -42,6 +43,12 @@ def create_interview_router(
             yield ServerSentEvent(event="error", data={"detail": "面试处理失败，请查看后端日志。"})
             return
         yield ServerSentEvent(event="done", data={"session_id": str(agent_request.session_id)})
+
+    @router.post("/end", status_code=200)
+    async def end_interview(request_body: EndSessionRequest, request: Request):
+        request.state.session_id = str(request_body.session_id)
+        await interview_service.end_session(graph, request_body.session_id)
+        return {"session_id": str(request_body.session_id), "status": "ended"}
 
     @router.post("/personal_information_config", status_code=200)
     async def personal_information_config(

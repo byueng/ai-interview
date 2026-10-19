@@ -19,6 +19,7 @@ from backend.errors import (
     InvalidPresetError,
     InvalidPresetNameError,
     PresetNotFoundError,
+    SessionEndedError,
     SessionNotConfiguredError,
     SessionNotFoundError,
     StorageError,
@@ -33,12 +34,12 @@ def graph_config_build(session_id: UUID) -> RunnableConfig:
 
 
 def data_directory(name: str) -> Path:
-    """所有文件流程共用 data_dir；缺失配置不伪装成预设不存在。"""
-    root = os.environ.get("data_dir")
-    if root is None or not root.strip():
-        raise StorageError("未配置 data_dir，请检查后端存储配置。")
+    """所有文件流程共用同一数据根目录，并在首次写入前初始化父目录。"""
+    root = os.environ.get("DATA_DIR") or os.environ.get("data_dir")
+    # 默认随源码定位，避免因启动目录不同把数据写到不可预期的位置。
+    root_path = Path(root).expanduser() if root and root.strip() else Path(__file__).resolve().parents[1] / "data"
     try:
-        directory = Path(root).expanduser().resolve() / name
+        directory = root_path.resolve() / name
         directory.mkdir(parents=True, exist_ok=True)
         return directory
     except (OSError, RuntimeError, ValueError) as exc:
@@ -63,13 +64,17 @@ def preset_path(filename: str) -> Path:
     return path
 
 
-async def session_snapshot(graph, session_id: UUID, *, configured: bool = False):
+async def session_snapshot(
+    graph, session_id: UUID, *, configured: bool = False, allow_ended: bool = False
+):
     try:
         snapshot = await graph.aget_state(graph_config_build(session_id))
     except Exception as exc:
         raise InterviewError("读取会话状态失败，请查看后端日志。") from exc
     if not snapshot.values or str(snapshot.values.get("session_id")) != str(session_id):
         raise SessionNotFoundError("会话不存在或已失效，请重新创建会话。")
+    if not allow_ended and snapshot.values.get("session_status") == "ended":
+        raise SessionEndedError("面试已结束，请创建新会话后继续。")
     if configured and (
         snapshot.values.get("candidate_config") is None
         or snapshot.values.get("interviewer_config") is None
@@ -84,11 +89,25 @@ async def create_session(
     session_id = uuid4()
     try:
         await graph.aupdate_state(
-            config=graph_config_build(session_id), values={"session_id": session_id}
+            config=graph_config_build(session_id),
+            values={"session_id": session_id, "session_status": "active"},
         )
     except Exception as exc:
         raise InterviewError("创建会话失败，请查看后端日志。") from exc
     return session_id
+
+
+async def end_session(graph, session_id: UUID) -> None:
+    """结束当前进程内会话；InMemorySaver 重启后缺失的会话按失效处理。"""
+    await session_snapshot(graph, session_id)
+    try:
+        await graph.aupdate_state(
+            config=graph_config_build(session_id),
+            values={"session_status": "ended"},
+            as_node=START,
+        )
+    except Exception as exc:
+        raise InterviewError("结束面试失败，请查看后端日志。") from exc
 
 
 async def configure_session(graph, session_id: UUID, candidate: Candidate, interviewer: Interviewer):

@@ -111,7 +111,7 @@ async function submitMessage() {
   let receivedReply = false
   await scrollToLatest()
   try {
-    for await (const event of streamInterviewTurn({ role: 'Human', message: text, chat_round: chatRound.value, dtime: new Date().toISOString() }, controller.signal)) {
+    for await (const event of streamInterviewTurn({ message: text }, controller.signal)) {
       if (event.event === 'message') {
         const update = readInterviewUpdate(event.data)
         if (update.chatRound !== undefined) chatRound.value = update.chatRound

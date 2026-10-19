@@ -2,26 +2,38 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
 from langchain_core.messages import AnyMessage
-from typing_extensions import Annotated, List, Optional
-from pydantic import BaseModel, field_validator
+from typing import Literal
+from typing_extensions import Annotated, List
+from pydantic import BaseModel, ConfigDict, field_validator
 from pydantic.types import UUID
 from langgraph.graph.message import add_messages
 
 class SessionResponse(BaseModel):
     session_id: UUID # 标识
 
-class AgentRequest(BaseModel):
-    session_id: UUID # 标识
-    role: str # 标注Human或者System
-    message: str # 对话历史
-    chat_round: int # 对话轮数，一轮对话为Response返回
-    dtime: datetime # request创建时间
 
-    @field_validator("chat_round")
+class EndSessionRequest(BaseModel):
+    session_id: UUID
+
+
+class AgentRequest(BaseModel):
+    """一次候选人回答的最小请求体。
+
+    会话轮次和时间由 Graph 状态与服务端生成，消息角色固定为候选人回答，
+    因而不接受客户端传入的 role、chat_round、dtime。
+    """
+
+    model_config = ConfigDict(extra="forbid")
+
+    session_id: UUID
+    message: str
+
+    @field_validator("message")
     @classmethod
-    def validate_chat_round(cls, value: int) -> int:
-        if value < 0:
-            raise ValueError("Request chat round must be greater than -1!")
+    def validate_message(cls, value: str) -> str:
+        value = value.strip()
+        if not value:
+            raise ValueError("message 不能为空。")
         return value
 
 class AgentResponse(BaseModel):
@@ -63,4 +75,5 @@ class TaskState:
     chat_round: int = 0 
     candidate_config: Candidate | None = None # 候选人信息
     interviewer_config: Interviewer | None = None # 面试官信息
-    dtime: datetime = datetime.now() # 第一次对话的时间    
+    dtime: datetime = field(default_factory=datetime.now) # 会话创建时间
+    session_status: Literal["active", "ended"] = "active"

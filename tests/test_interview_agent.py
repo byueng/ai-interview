@@ -118,8 +118,7 @@ class InterviewAgentTests(IsolatedAsyncioTestCase):
             "chat_round": 0,
         })
         request = AgentRequest(
-            session_id=state.session_id, role="user", message="你好",
-            chat_round=0, dtime=datetime.now(timezone.utc),
+            session_id=state.session_id, message="你好",
         )
         with TemporaryDirectory() as data_root, patch.dict("os.environ", {"data_dir": data_root}):
             chunks = [chunk async for chunk in run_turn(graph, request)]
