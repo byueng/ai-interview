@@ -24,6 +24,7 @@ def run_time() -> FastAPI:
         graph = graph_build(checkpointer)
         runtime = Runtime(graph)
         return create_app(runtime)
+
     except Exception:
         logger.exception("后端启动失败，请检查模型配置与执行图。")
         raise
