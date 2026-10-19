@@ -47,18 +47,14 @@ class InterviewAgent(Agent):
         )
 
     async def __call__(self, state: TaskState) -> InterviewUpdate:
-        try: 
-            prompt = self.load_prompt(state)
-            messages = [SystemMessage(content=prompt), *state.messages]
-            result = await self.llm.ainvoke(messages)
-            if not isinstance(result, AIMessage):
-                raise TypeError("面试模型必须返回 AIMessage。")
-            # 只返回新增消息，由 add_messages 合并；不原地修改输入 state。
-            
-            return {"messages": [result], "chat_round": state.chat_round + 1}
-
-        except ValueError as exc:
-            raise ValueError(f"{exc}")
+        # 模板、模型调用异常保留原始类型和堆栈，由流程层补充上下文。
+        prompt = self.load_prompt(state)
+        messages = [SystemMessage(content=prompt), *state.messages]
+        result = await self.llm.ainvoke(messages)
+        if not isinstance(result, AIMessage):
+            raise TypeError("面试模型必须返回 AIMessage。")
+        # 成功后才返回状态更新；失败不会推进轮次。
+        return {"messages": [result], "chat_round": state.chat_round + 1}
 
 
 class AssessAgent(Agent):

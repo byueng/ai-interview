@@ -1,5 +1,6 @@
 import asyncio
 from datetime import datetime, timezone
+from tempfile import TemporaryDirectory
 from unittest import IsolatedAsyncioTestCase, TestCase
 from unittest.mock import AsyncMock, patch
 from uuid import uuid4
@@ -120,7 +121,8 @@ class InterviewAgentTests(IsolatedAsyncioTestCase):
             session_id=state.session_id, role="user", message="你好",
             chat_round=0, dtime=datetime.now(timezone.utc),
         )
-        chunks = [chunk async for chunk in run_turn(graph, request)]
+        with TemporaryDirectory() as data_root, patch.dict("os.environ", {"data_dir": data_root}):
+            chunks = [chunk async for chunk in run_turn(graph, request)]
         self.assertEqual(len(chunks), 1)
         self.assertEqual(chunks[0]["InterviewAgent"]["chat_round"], 1)
         self.assertEqual(self.llm.ainvoke.call_args.args[0][-1].content, "你好")
@@ -132,20 +134,21 @@ class DefaultsAndConfigTests(TestCase):
         first.messages.append(HumanMessage(content="A"))
         self.assertEqual(second.messages, [])
 
-    def test_config_uses_module_relative_path_and_numeric_temperature(self):
-        with patch("interview_agent.model_config.load_dotenv") as load, patch.dict(
+    def test_config_reads_environment_and_numeric_temperature(self):
+        # .env 由 main 加载，模型配置只读取进程环境变量。
+        with patch.dict(
             "os.environ", {"API_KEY": "test", "BASE_URL": "https://example.invalid/v1", "MODEL_NAME": "fake", "TEMPERATURE": "0.6"}, clear=True
         ):
             config = ModelConfig.validate_dotfile()
-        self.assertTrue(load.call_args.args[0].is_absolute())
+        self.assertEqual(config.api_key, "test")
         self.assertEqual(config.temperature, 0.6)
 
     def test_missing_key_raises_configuration_error(self):
-        with patch("interview_agent.model_config.load_dotenv"), patch.dict("os.environ", {}, clear=True):
+        with patch.dict("os.environ", {}, clear=True):
             with self.assertRaises(ModelConfigError):
                 ModelConfig.validate_dotfile()
 
     def test_invalid_temperature_raises_configuration_error(self):
-        with patch("interview_agent.model_config.load_dotenv"), patch.dict("os.environ", {"TEMPERATURE": "bad"}, clear=True):
+        with patch.dict("os.environ", {"TEMPERATURE": "bad"}, clear=True):
             with self.assertRaisesRegex(ModelConfigError, "TEMPERATURE"):
                 ModelConfig.validate_dotfile()
