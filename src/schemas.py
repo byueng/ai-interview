@@ -50,6 +50,11 @@ class Interviewer(BaseModel):
     role_identity: str # 面试官身份
     role_responsibilities: str | None # 面试官的偏好设置
 
+
+class InterviewPreset(BaseModel):
+    candidate_config: Candidate
+    interviewer_config: Interviewer
+
 @dataclass
 class TaskState:
     session_id: UUID # 对话标识

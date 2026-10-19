@@ -1,77 +1,204 @@
-import asyncio, os
+import asyncio
+import json
+import os
 
 from collections.abc import AsyncIterator
 from pathlib import Path
-from typing import Any, Coroutine
-from uu import Error
+from typing import Any
 from uuid import UUID, uuid4
-from fastapi.encoders import jsonable_encoder
 
+from fastapi.encoders import jsonable_encoder
 from langchain_core.messages import HumanMessage
 from langchain_core.runnables import RunnableConfig
+from langgraph.graph import START
 from langgraph.graph.state import CompiledStateGraph
+from pydantic import ValidationError
 
-from schemas import AgentRequest, TaskState
-from backend.file import write_json, write_unique_json
+from backend.errors import (
+    InterviewError,
+    InvalidPresetError,
+    InvalidPresetNameError,
+    PresetNotFoundError,
+    SessionNotConfiguredError,
+    SessionNotFoundError,
+    StorageError,
+)
+from backend.file import read_json, write_json, write_unique_json
+from schemas import AgentRequest, Candidate, Interviewer, InterviewPreset, TaskState
 
 
 def graph_config_build(session_id: UUID) -> RunnableConfig:
-    """ 每次按会话 ID 构造配置，不缓存完整 state 或历史 checkpoint_id。"""
+    """每次按会话 ID 构造配置，不缓存完整 state 或历史 checkpoint_id。"""
     return {"configurable": {"thread_id": str(session_id)}}
+
+
+def data_directory(name: str) -> Path:
+    """所有文件流程共用 data_dir；缺失配置不伪装成预设不存在。"""
+    root = os.environ.get("data_dir")
+    if root is None or not root.strip():
+        raise StorageError("未配置 data_dir，请检查后端存储配置。")
+    try:
+        directory = Path(root).expanduser().resolve() / name
+        directory.mkdir(parents=True, exist_ok=True)
+        return directory
+    except (OSError, RuntimeError, ValueError) as exc:
+        raise StorageError("数据目录初始化失败，请查看后端日志。") from exc
+
+
+def preset_path(filename: str) -> Path:
+    if (
+        not filename.endswith(".json")
+        or len(filename) <= 5
+        or any(c in filename for c in ("/", "\\"))
+        or any(ord(c) < 32 or ord(c) == 127 for c in filename)
+    ):
+        raise InvalidPresetNameError("预设文件名无效，请提供单个 JSON 文件名。")
+    directory = data_directory("interview_preset")
+    path = directory / filename
+    try:
+        if path.is_symlink() or path.resolve().parent != directory:
+            raise InvalidPresetNameError("预设路径无效。")
+    except (OSError, RuntimeError, ValueError) as exc:
+        raise StorageError("预设路径检查失败，请查看后端日志。") from exc
+    return path
+
+
+async def session_snapshot(graph, session_id: UUID, *, configured: bool = False):
+    try:
+        snapshot = await graph.aget_state(graph_config_build(session_id))
+    except Exception as exc:
+        raise InterviewError("读取会话状态失败，请查看后端日志。") from exc
+    if not snapshot.values or str(snapshot.values.get("session_id")) != str(session_id):
+        raise SessionNotFoundError("会话不存在或已失效，请重新创建会话。")
+    if configured and (
+        snapshot.values.get("candidate_config") is None
+        or snapshot.values.get("interviewer_config") is None
+    ):
+        raise SessionNotConfiguredError("请先提交面试配置或加载预设。")
+    return snapshot
+
 
 async def create_session(
     graph: CompiledStateGraph[TaskState, None, TaskState, TaskState],
 ) -> UUID:
-    """创建会话的业务入口；初始状态保存留待实现。"""
     session_id = uuid4()
+    try:
+        await graph.aupdate_state(
+            config=graph_config_build(session_id), values={"session_id": session_id}
+        )
+    except Exception as exc:
+        raise InterviewError("创建会话失败，请查看后端日志。") from exc
     return session_id
+
+
+async def configure_session(graph, session_id: UUID, candidate: Candidate, interviewer: Interviewer):
+    await session_snapshot(graph, session_id)
+    # 保存时使用岗位命名；先校验名称，避免非法路径在状态写入后才失败。
+    preset_path(f"{candidate.position}.json")
+    try:
+        await graph.aupdate_state(
+            config=graph_config_build(session_id),
+            values={"candidate_config": candidate, "interviewer_config": interviewer},
+            as_node=START,
+        )
+    except Exception as exc:
+        raise InterviewError("更新面试配置失败，请查看后端日志。") from exc
+    try:
+        await save_interview_preset(graph, session_id)
+    except InterviewError as exc:
+        # 状态更新与文件保存不是事务，明确告知已发生的部分成功。
+        raise InterviewError("会话配置已更新，但预设保存失败，请查看后端日志。") from exc
+
 
 async def run_turn(
     graph: CompiledStateGraph[TaskState, None, TaskState, TaskState],
     request: AgentRequest,
 ) -> AsyncIterator[dict[str, Any]]:
-    """逐条产出节点状态更新；HTTP 层负责包装成 SSE 事件。"""
-    config = graph_config_build(request.session_id)
+    """逐条产出节点更新；流式错误由 HTTP 层包装成 SSE error。"""
+    await session_snapshot(graph, request.session_id, configured=True)
     await save_state_snapshot(graph, request.session_id)
-    # 只提交本次输入，历史状态由 checkpointer 按 thread_id 加载。
     state_update = {
         "session_id": request.session_id,
         "messages": [HumanMessage(content=request.message)],
     }
-    async for chunk in graph.astream(state_update, config, stream_mode="updates"):
-        yield chunk
-
-async def save_state_snapshot(
-    graph: CompiledStateGraph[TaskState, None, TaskState, TaskState],
-    session_id: UUID,
-):
-    """ 将一次session id标注的graph执行前的checkpoint保存到session id文件中 """
-    try: 
-        root_path: Path = Path(os.environ.get("data_dir")) / "state_status"
-        config = graph_config_build(session_id=session_id)
-        snapshot = await graph.aget_state(config=config)
-        path: Path = root_path / Path(f"{session_id}.json")
-        await asyncio.to_thread(write_json, path, jsonable_encoder(snapshot._asdict()))
-    except Error as exc:
-        raise()
-    
-async def save_interview_preset(
-    graph: CompiledStateGraph[TaskState, None, TaskState, TaskState],
-    session_id: UUID
-):  
-    """ 保存用户使用的面试信息，便于复用和测试 """
     try:
-        root_path: Path = Path(os.environ.get("data_dir")) / "interview_preset"
-        config = graph_config_build(session_id=session_id)
-        snapshot = await graph.aget_state(config=config)
-        preset = snapshot._asdict().get("values", ValueError)
-        path: Path = root_path / Path(f"{preset["candidate_config"].position}.json")
-        jsonable_preset = jsonable_encoder(preset)
-        await asyncio.to_thread(
-            write_unique_json,
-            path,
-            {key: jsonable_preset[key] for key in jsonable_preset.keys() if key in ["candidate_config", "interviewer_config"]}
-        )
+        async for chunk in graph.astream(
+            state_update, graph_config_build(request.session_id), stream_mode="updates"
+        ):
+            yield chunk
+    except Exception as exc:
+        # CancelledError 不属于 Exception，客户端取消会继续向上传播。
+        raise InterviewError("面试执行失败，请查看后端日志。") from exc
 
-    except ValueError as exc:
-        raise(f"{exc}")
+
+async def save_state_snapshot(graph, session_id: UUID):
+    """保存执行前快照；导出失败时本轮不继续执行模型。"""
+    snapshot = await session_snapshot(graph, session_id)
+    path = data_directory("state_status") / f"{session_id}.json"
+    try:
+        await asyncio.to_thread(write_json, path, jsonable_encoder(snapshot._asdict()))
+    except (OSError, TypeError, ValueError) as exc:
+        raise StorageError("保存会话快照失败，请查看后端日志。") from exc
+
+
+async def save_interview_preset(graph, session_id: UUID):
+    snapshot = await session_snapshot(graph, session_id, configured=True)
+    try:
+        preset = InterviewPreset.model_validate(snapshot.values)
+    except ValidationError as exc:
+        raise InvalidPresetError("会话配置不符合预设格式，无法保存。") from exc
+    path = preset_path(f"{preset.candidate_config.position}.json")
+    try:
+        await asyncio.to_thread(write_unique_json, path, jsonable_encoder(preset))
+    except (OSError, TypeError, ValueError) as exc:
+        raise StorageError("保存面试预设失败，请查看后端日志。") from exc
+
+
+def list_interview_presets() -> list[str]:
+    directory = data_directory("interview_preset")
+    try:
+        return sorted(
+            path.name for path in directory.iterdir()
+            if path.suffix == ".json" and path.is_file() and not path.is_symlink()
+        )
+    except OSError as exc:
+        raise StorageError("读取预设列表失败，请查看后端日志。") from exc
+
+
+async def load_interview_preset(graph, session_id: UUID, filename: str) -> dict[str, Any]:
+    path = preset_path(filename)
+    await session_snapshot(graph, session_id)
+    try:
+        payload = await asyncio.to_thread(read_json, path)
+    except FileNotFoundError as exc:
+        raise PresetNotFoundError("预设不存在，请刷新预设列表。") from exc
+    except (json.JSONDecodeError, UnicodeDecodeError) as exc:
+        raise InvalidPresetError("预设文件无法解析，请检查 JSON 内容与 UTF-8 编码。") from exc
+    except OSError as exc:
+        raise StorageError("读取预设文件失败，请查看后端日志。") from exc
+    try:
+        preset = InterviewPreset.model_validate(payload)
+    except ValidationError as exc:
+        raise InvalidPresetError("预设配置缺少字段或类型错误，请检查预设文件。") from exc
+    try:
+        await graph.aupdate_state(
+            config=graph_config_build(session_id),
+            values={
+                "candidate_config": preset.candidate_config,
+                "interviewer_config": preset.interviewer_config,
+            },
+            as_node=START,
+        )
+    except Exception as exc:
+        raise InterviewError("将预设写入会话失败，请查看后端日志。") from exc
+    return payload
+
+
+def delete_interview_preset(filename: str):
+    path = preset_path(filename)
+    try:
+        path.unlink()
+    except FileNotFoundError as exc:
+        raise PresetNotFoundError("预设不存在，请刷新预设列表。") from exc
+    except OSError as exc:
+        raise StorageError("删除预设失败，请查看后端日志。") from exc

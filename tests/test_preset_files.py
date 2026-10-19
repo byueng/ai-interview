@@ -5,7 +5,7 @@ from tempfile import TemporaryDirectory
 from unittest import TestCase
 from unittest.mock import patch
 
-from backend.file import write_json, write_unique_json
+from backend.file import read_json, write_json, write_unique_json
 
 
 class PresetFileTests(TestCase):
@@ -76,3 +76,19 @@ class PresetFileTests(TestCase):
         write_json(self.path, {"version": 1})
         write_json(self.path, {"version": 2})
         self.assertEqual(json.loads(self.path.read_text()), {"version": 2})
+
+    def test_snapshot_writer_creates_parent(self):
+        write_json(self.path, {"version": 1})
+        self.assertEqual(read_json(self.path), {"version": 1})
+
+    def test_invalid_snapshot_data_does_not_truncate_existing_file(self):
+        write_json(self.path, {"version": 1})
+        with self.assertRaises(TypeError):
+            write_json(self.path, {"invalid": object()})
+        self.assertEqual(read_json(self.path), {"version": 1})
+
+    def test_reader_uses_read_only_mode(self):
+        write_json(self.path, {})
+        with patch("backend.file.open", wraps=open) as opened:
+            self.assertEqual(read_json(self.path), {})
+        self.assertEqual(opened.call_args.kwargs["mode"], "r")

@@ -1,23 +1,21 @@
-from ast import Dict
 import json
 import re
 
-from typing_extensions import Any
+from typing import Any
 from pathlib import Path
 
-def read_json(path: Path, data: Any) -> Dict:
-    """ 简单读取json文件 """
-    with open(path, mode="r+", encoding="utf-8") as file:
+def read_json(path: Path, data: Any = None) -> Any:
+    """只读 JSON；保留原始 I/O、解码异常，交由调用流程解释。"""
+    with open(path, mode="r", encoding="utf-8") as file:
         return json.load(file)
 
 def write_json(path: Path, data: Any) -> None:
     """ 简单写入json文件 """
-    with open(path, mode="w+", encoding="utf-8") as file:
-        json.dump(
-            data,
-            file,
-            ensure_ascii=False
-        )
+    # 先序列化，避免数据不支持 JSON 时先清空旧快照。
+    content = json.dumps(data, ensure_ascii=False)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, mode="w", encoding="utf-8") as file:
+        file.write(content)
 
 def write_unique_json(path: Path, data: Any) -> Path:
     """保留已有文件，按同名文件的最大编号递增保存，并返回实际路径。"""
