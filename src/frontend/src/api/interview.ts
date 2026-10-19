@@ -4,9 +4,10 @@ import { readServerEvents } from './sse'
 export interface AgentRequest {
   session_id: string
   message: string
+  chat_round: number
 }
 
-// 会话标识由连接层补入；角色、轮次和时间由服务端管理。
+// 会话标识由连接层补入；轮次用于拒绝重复提交，角色和时间由服务端确定。
 export type InterviewTurnInput = Omit<AgentRequest, 'session_id'>
 
 // /stream 直接返回 Graph updates，当前并未使用 schemas.AgentResponse。
@@ -44,11 +45,15 @@ export async function* streamInterviewTurn(
   input: InterviewTurnInput,
   signal?: AbortSignal,
 ): AsyncGenerator<InterviewStreamEvent> {
+  if (!Number.isInteger(input.chat_round) || input.chat_round < 0) {
+    throw new Error('chat_round 必须是非负整数。')
+  }
   const sessionId = await getActiveSessionId(signal)
   signal?.throwIfAborted()
   const body: AgentRequest = {
     session_id: sessionId,
     message: input.message,
+    chat_round: input.chat_round,
   }
   const response = await fetch(`${apiBaseUrl}/interview/stream`, {
     method: 'POST',

@@ -11,8 +11,9 @@ from langchain_core.messages import AIMessage
 from langgraph.checkpoint.memory import InMemorySaver
 
 from backend.cli import create_app
-from backend.errors import SessionEndedError
-from backend.interview_service import create_session, data_directory, end_session, graph_config_build, session_snapshot
+from backend.errors import SessionGoneError
+from backend.interview_service import create_session, end_session, graph_config_build, session_snapshot
+from backend.storage import data_directory
 from interview_agent.agent import InterviewAgent
 from interview_agent.graph_builder import graph_build
 from runtime import Runtime
@@ -59,9 +60,9 @@ class InterviewHttpContractTests(TestCase):
         session_id = self.begin()
         self.assertEqual(configure(self.client, session_id).json(), 200)
 
-        for message in ("我做过 FastAPI 项目。", "我也处理过异常边界。"):
+        for chat_round, message in enumerate(("我做过 FastAPI 项目。", "我也处理过异常边界。")):
             with self.client.stream(
-                "POST", "/interview/stream", json={"session_id": session_id, "message": message}
+                "POST", "/interview/stream", json={"session_id": session_id, "message": message, "chat_round": chat_round}
             ) as response:
                 self.assertEqual(response.status_code, 200)
                 body = "".join(response.iter_text())
@@ -78,7 +79,7 @@ class InterviewHttpContractTests(TestCase):
     def test_missing_and_unconfigured_sessions_return_the_defined_error_channel(self):
         missing = str(uuid4())
         with self.client.stream(
-            "POST", "/interview/stream", json={"session_id": missing, "message": "你好"}
+            "POST", "/interview/stream", json={"session_id": missing, "message": "你好", "chat_round": 0}
         ) as response:
             missing_body = "".join(response.iter_text())
         self.assertIn("event: error", missing_body)
@@ -87,7 +88,7 @@ class InterviewHttpContractTests(TestCase):
 
         session_id = self.begin()
         with self.client.stream(
-            "POST", "/interview/stream", json={"session_id": session_id, "message": "你好"}
+            "POST", "/interview/stream", json={"session_id": session_id, "message": "你好", "chat_round": 0}
         ) as response:
             unconfigured_body = "".join(response.iter_text())
         self.assertIn("event: error", unconfigured_body)
@@ -96,26 +97,26 @@ class InterviewHttpContractTests(TestCase):
 
     def test_ended_session_is_gone_and_cannot_be_reconfigured_or_streamed(self):
         session_id = self.begin()
-        response = self.client.post("/interview/end", json={"session_id": session_id})
+        response = self.client.post(f"/interview/sessions/{session_id}/end")
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json(), {"session_id": session_id, "status": "ended"})
 
         response = configure(self.client, session_id)
         self.assertEqual(response.status_code, 410)
-        self.assertIn("面试已结束", response.json()["detail"])
+        self.assertIn("会话已结束", response.json()["detail"])
         with self.client.stream(
-            "POST", "/interview/stream", json={"session_id": session_id, "message": "继续"}
+            "POST", "/interview/stream", json={"session_id": session_id, "message": "继续", "chat_round": 0}
         ) as response:
             body = "".join(response.iter_text())
         self.assertIn("event: error", body)
-        self.assertIn("面试已结束", "\n".join(sse_details(body)))
+        self.assertIn("会话已结束", "\n".join(sse_details(body)))
         self.assertNotIn("event: done", body)
 
     def test_stream_request_rejects_legacy_and_blank_fields_before_sse_starts(self):
         session_id = self.begin()
         response = self.client.post(
             "/interview/stream",
-            json={"session_id": session_id, "message": "  ", "role": "Human", "chat_round": 0},
+            json={"session_id": session_id, "message": "  ", "chat_round": 0},
         )
         self.assertEqual(response.status_code, 422)
         self.assertEqual(response.headers["content-type"].split(";", 1)[0], "application/json")
@@ -125,7 +126,7 @@ class InterviewHttpContractTests(TestCase):
         self.assertEqual(configure(self.client, session_id).status_code, 200)
         with patch("backend.interview_service.write_json", side_effect=OSError("disk full")):
             with self.client.stream(
-                "POST", "/interview/stream", json={"session_id": session_id, "message": "你好"}
+                "POST", "/interview/stream", json={"session_id": session_id, "message": "你好", "chat_round": 0}
             ) as response:
                 body = "".join(response.iter_text())
         self.assertIn("event: error", body)
@@ -137,7 +138,7 @@ class InterviewHttpContractTests(TestCase):
         self.assertEqual(configure(self.client, session_id).status_code, 200)
         self.llm.ainvoke.side_effect = RuntimeError("model unavailable")
         with self.client.stream(
-            "POST", "/interview/stream", json={"session_id": session_id, "message": "你好"}
+            "POST", "/interview/stream", json={"session_id": session_id, "message": "你好", "chat_round": 0}
         ) as response:
             body = "".join(response.iter_text())
         self.assertIn("event: error", body)
@@ -146,7 +147,7 @@ class InterviewHttpContractTests(TestCase):
 
     def test_preset_save_failure_is_a_json_error_before_a_stream_is_started(self):
         session_id = self.begin()
-        with patch("backend.interview_service.write_unique_json", side_effect=OSError("disk full")):
+        with patch("backend.preset_service.write_unique_json", side_effect=OSError("disk full")):
             response = configure(self.client, session_id)
         self.assertEqual(response.status_code, 500)
         self.assertEqual(response.headers["content-type"].split(";", 1)[0], "application/json")
@@ -164,7 +165,7 @@ class InterviewServiceBoundaryTests(TestCase):
             graph = graph_build(InMemorySaver(), interview_agent=InterviewAgent(llm=llm))
             session_id = await create_session(graph)
             await end_session(graph, session_id)
-            with self.assertRaises(SessionEndedError):
+            with self.assertRaises(SessionGoneError):
                 await session_snapshot(graph, session_id)
 
         import asyncio

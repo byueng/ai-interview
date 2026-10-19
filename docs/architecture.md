@@ -1,6 +1,6 @@
 # 当前架构说明
 
-核对日期：2026-10-13  
+核对日期：2026-10-20
 范围：当前后端源码中的实现；不将历史版本功能、设计草案或测试记录视为已完成的端到端能力。
 
 [文档导航](README.md) · [路线图](roadmap.md) · [v2.0.0 发布说明](releases/v2.0.0.md)
@@ -14,9 +14,12 @@
 | `src/main.py` | 启动 Uvicorn；当前监听本机 `127.0.0.1:7022`，启用开发热重载 |
 | `src/runtime.py` | 创建 `InMemorySaver`、编译 Graph，并组装运行时资源 |
 | `src/backend/cli.py` | 创建 FastAPI 应用并注册路由 |
-| `src/backend/interview_routes.py` | 处理 HTTP 请求、配置写入及 SSE 事件包装 |
-| `src/backend/interview_service.py` | 构建会话配置、执行单轮对话、导出快照和保存预设 |
-| `src/backend/file.py` | 将 JSON 兼容数据写入文件 |
+| `src/backend/interview_routes.py` | 处理会话创建、配置写入及 SSE 事件包装 |
+| `src/backend/preset_routes.py` | 处理现有预设列表、加载和删除 URL；当前不改动对外路径 |
+| `src/backend/interview_service.py` | 构建会话配置、执行单轮对话、导出快照，并协调预设应用到会话 |
+| `src/backend/preset_service.py` | 校验、保存、读取、列出和删除可复用预设文件 |
+| `src/backend/storage.py` | 从 `data_dir` 创建统一的辅助数据目录 |
+| `src/backend/file.py` | 读写 JSON 文件 |
 | `src/schemas.py` | 定义请求模型、面试配置和 `TaskState` |
 | `src/interview_agent/graph_builder.py` | 定义 `START → InterviewAgent → END` 执行链路 |
 | `src/interview_agent/agent.py` | 组装提示词和消息、调用模型、返回状态增量 |
@@ -27,19 +30,23 @@
 
 | 接口 | 当前行为 | 成功响应 |
 | --- | --- | --- |
-| `GET /interview/begin` | 生成 UUID，路由调用 `aupdate_state` 写入会话 ID 和 `active` 状态 | 包含 `session_id` 的 JSON 对象 |
+| `GET /interview/begin` | 生成 UUID，路由调用 `aupdate_state` 写入会话 ID | 包含 `session_id` 的 JSON 对象 |
+| `GET /interview/sessions/{session_id}` | 读取有效会话的配置、历史、轮次和过期时间 | 会话状态 JSON |
+| `POST /interview/sessions/{session_id}/end` | 幂等结束会话，后续业务操作拒绝 | `session_id` 和 `status: ended` |
 | `POST /interview/personal_information_config` | 接收 `session_id`、`candidate`、`interviewer`，更新对应状态 | JSON 数字 `200` |
-| `POST /interview/stream` | 接收 `session_id`、`message`，导出快照并执行本轮对话 | SSE 事件流 |
-| `POST /interview/end` | 将当前会话标记为 `ended`；不会删除调试快照或预设文件 | 包含 `session_id`、`status: "ended"` 的 JSON 对象 |
+| `POST /interview/stream` | 接收 `AgentRequest`，导出执行前快照并执行本轮对话 | SSE 事件流 |
+| `GET /interview/read_preset` | 返回已有预设文件名列表 | `{ "files": [...] }` |
+| `POST /interview/load_preset` | 读取预设并写入指定会话的配置 | `{ "preset_config": {...} }` |
+| `POST /interview/del_preset` | 删除指定预设文件 | JSON 数字 `200` |
 | `POST /interview/upload_resume` | 仅有占位函数 | 尚无有效业务处理 |
 
-`AgentRequest` 只要求 `session_id` 和非空 `message`，且拒绝多余字段。业务执行把 `message` 固定包装为 `HumanMessage`；`role` 不再由客户端伪造，`chat_round` 只由图内成功回复累加，`dtime` 只记录服务端会话创建时间。完整字段和校验规则以 `src/schemas.py` 为准。
+`AgentRequest` 要求 `session_id`、非空 `message` 与 `chat_round`，并拒绝多余字段。业务执行将 `message` 固定包装为 `HumanMessage`；`chat_round` 必须等于图内已完成轮次，用于拒绝重复或过时请求，不覆盖图内轮次。角色和时间由服务端确定。完整字段和校验规则以 `src/schemas.py` 为准。
 
 ## 3. 单轮执行与状态更新
 
 一次 `/stream` 请求按以下顺序处理：
 
-1. 读取该会话已有状态，保存面试者和面试官预设。
+1. 占用该会话并检查生命周期、配置及请求轮次；预设在配置提交时保存，不在每轮对话重复保存。
 2. `run_turn` 导出执行前状态快照。
 3. 提交本轮 `session_id` 和新增 `HumanMessage`，Graph 根据 `thread_id` 加载已有状态，通过 `add_messages` 合并消息。
 4. `InterviewAgent` 检查配置，按轮次选择开场或后续提示词，将系统提示词与消息历史交给模型的 `ainvoke`。
@@ -59,17 +66,21 @@
 | `TaskState` | 保存消息、轮次、面试者配置和面试官配置等业务状态 |
 | `InMemorySaver` | 在当前进程内保存检查点；不能跨重启恢复或在多个 worker 间共享状态 |
 
-不同会话 ID 用于区分状态，同一 ID 用于续接已有状态。页面数量本身不决定会话隔离；重复请求和并发行为仍需专门验收。
+不同会话 ID 用于区分状态，同一 ID 用于续接已有状态。同会话请求互斥，重复轮次被拒绝；刷新恢复当前会话，新标签页创建独立会话；结束或空闲 24 小时后不允许继续，后端重启后旧 ID 失效。配置以普通 JSON 存入检查点，Agent 使用时再校验为 Pydantic 对象。完整契约与 2026-10-20 验收见[会话生命周期](session-lifecycle.md)。
 
-会话错误按以下规则处理：未知 ID 或后端重启后丢失的检查点视为“不存在或失效”（普通 JSON 接口为 `404`，已开始的 SSE 以 `error` 事件报告）；未写入配置的会话为 `409` 或 SSE `error`；调用 `/interview/end` 后的会话为 `410` 或 SSE `error`，不可再次配置或对话。当前未设置按时间自动过期；`InMemorySaver` 的进程重启是唯一的失效来源。
-
-JSON 导出是辅助文件存储，不是当前 checkpointer 的持久化实现：
+JSON 导出是辅助文件存储，不是当前 checkpointer 的持久化实现。`data_dir` 是统一的存储根目录；预设文件由预设服务负责，面试服务只在“保存当前会话配置”或“将已读取预设写入会话”时协调调用：
 
 - **状态快照**：写入 `src/data/state_status/<session_id>.json`，保存本轮消息提交前的快照；同一会话再次导出会覆盖旧文件，不是完整历史归档。
-- **面试预设**：写入 `src/data/interview_preset/<position>.json`，仅保存 `candidate_config` 和 `interviewer_config`；实际文件名在重名时追加编号。`save_interview_preset` 是配置成功后的内部服务流程，不是独立 HTTP 接口。
-- **序列化**：业务层先使用 `jsonable_encoder` 转换数据，再通过 `asyncio.to_thread` 调用 JSON 写入函数。
-- **路径**：默认数据根目录固定为源码下的 `src/data`，与进程启动目录无关；可通过 `DATA_DIR`（兼容旧的 `data_dir`）覆盖。预设和快照都在写入前创建父目录。
-- **恢复**：尚未实现预设加载、配置回填或从这些 JSON 文件恢复 Graph 检查点。
+- **面试预设**：写入 `data/interview_preset/<position>.json`，仅保存 `candidate_config` 和 `interviewer_config`；同名岗位按编号保留多份文件。读取、列表和删除仍使用既有 `/interview/*preset` 路径。
+- **序列化**：状态快照先使用 `jsonable_encoder` 转换数据；预设使用 Pydantic 的 JSON 模式导出；同步 JSON 文件操作均经 `asyncio.to_thread` 调用。
+- **路径**：默认数据根目录固定为源码下的 `src/data`，与进程启动目录无关；可通过 `DATA_DIR`（兼容旧的 `data_dir`）覆盖。服务会创建缺失的父目录。
+- **恢复**：预设可读取并回填到已创建会话；尚未从 JSON 文件恢复 Graph 检查点。
+
+## 4.1 当前路由拆分范围
+
+已按职责拆分两个 `APIRouter`：会话相关操作保留在 `interview_routes.py`，预设管理操作位于 `preset_routes.py`。为了不新增接口、也不打断现有前端调用，预设路由暂时继续注册为 `/interview/read_preset`、`/interview/load_preset`、`/interview/del_preset`。
+
+`/presets` 前缀、旧路径兼容策略、自动保存是否改为显式保存，以及 OpenAPI/调用方同步仍是路线图 3.1 的后续验收项；本次文件重组不代表这些接口迁移已完成。
 
 ## 5. SSE 与异常边界
 

@@ -6,3 +6,6 @@ src/data/
 .DS_Store
 __pycache__/
 *.pyc
+src/frontend/node_modules/
+src/frontend/dist/
+*.tsbuildinfo

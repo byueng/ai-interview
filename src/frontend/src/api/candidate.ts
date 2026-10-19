@@ -51,6 +51,15 @@ export interface SessionInitializationResponse {
   session_id: string
 }
 
+export interface SessionSnapshot extends SessionInitializationResponse {
+  status: 'active'
+  chat_round: number
+  expires_at: number
+  candidate_config: CandidateConfig | null
+  interviewer_config: InterviewerConfig | null
+  messages: Array<{ type: string; content: unknown }>
+}
+
 export class ApiRequestError extends Error {
   constructor(
     public readonly status: number,
@@ -70,8 +79,6 @@ export async function initializeSession(
     return sessionInitialization
   }
 
-  clearCachedSessionId()
-
   const request = requestSessionInitialization(signal)
   sessionInitialization = request
 
@@ -89,6 +96,40 @@ export async function initializeSession(
   )
 
   return request
+}
+
+export async function readCurrentSession(signal?: AbortSignal): Promise<SessionSnapshot> {
+  const sessionId = await getActiveSessionId(signal)
+  const response = await fetch(`${apiBaseUrl}/interview/sessions/${encodeURIComponent(sessionId)}`, {
+    cache: 'no-store', headers: { Accept: 'application/json' }, signal,
+  })
+  const payload = await response.json().catch(() => null)
+  if (!response.ok) throw new ApiRequestError(response.status, getErrorMessage(payload, response.statusText))
+  if (!hasSessionId(payload) || payload.session_id !== sessionId
+    || !('status' in payload) || payload.status !== 'active'
+    || !('chat_round' in payload) || !Number.isInteger(payload.chat_round)
+    || !('messages' in payload) || !Array.isArray(payload.messages)) {
+    throw new Error('会话恢复响应无效。')
+  }
+  return payload as SessionSnapshot
+}
+
+// 新导航（包括 opener 复制的 sessionStorage）必须新建；刷新/历史恢复才续接。
+export async function openPageSession(signal?: AbortSignal): Promise<SessionSnapshot> {
+  const navigation = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined
+  const canResume = navigation?.type === 'reload' || navigation?.type === 'back_forward'
+  if (!canResume || !getCachedSessionId()) await initializeSession(signal)
+  return readCurrentSession(signal)
+}
+
+export async function endCurrentSession(signal?: AbortSignal): Promise<void> {
+  const sessionId = await getActiveSessionId(signal)
+  const response = await fetch(`${apiBaseUrl}/interview/sessions/${encodeURIComponent(sessionId)}/end`, {
+    method: 'POST', headers: { Accept: 'application/json' }, signal,
+  })
+  const payload = await response.json().catch(() => null)
+  if (!response.ok) throw new ApiRequestError(response.status, getErrorMessage(payload, response.statusText))
+  if (payload?.session_id !== sessionId || payload?.status !== 'ended') throw new Error('结束会话未返回成功标识。')
 }
 
 export async function postCandidateConfig(

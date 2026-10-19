@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, reactive, ref } from 'vue'
 import { PanelLeftClose, SendHorizontal, Sparkles, Sword, Upload, Wind } from 'lucide-vue-next'
-import { initializeSession, postCandidateConfig, resolveInterviewLanguage } from './api/candidate'
+import { initializeSession, openPageSession, readCurrentSession, endCurrentSession, postCandidateConfig, resolveInterviewLanguage } from './api/candidate'
+import type { SessionSnapshot } from './api/candidate'
 import { readInterviewUpdate, streamInterviewTurn } from './api/interview'
 import PresetPicker from './components/PresetPicker.vue'
 import type { InterviewPreset } from './api/presets'
@@ -9,7 +10,7 @@ import type { InterviewPreset } from './api/presets'
 const candidate = reactive({ position: '', education: '', language: resolveInterviewLanguage(), resume: null as string | null })
 const presetNotice = ref('')
 const interviewer = reactive({ role_identity: '', role_responsibilities: '' })
-const sessionState = ref<'initializing' | 'ready' | 'error'>('initializing')
+const sessionState = ref<'initializing' | 'ready' | 'error' | 'ended'>('initializing')
 const sessionError = ref('')
 const configError = ref('')
 const streamError = ref('')
@@ -36,6 +37,7 @@ const configComplete = computed(() => [config.value.candidate.position, config.v
 const canSave = computed(() => sessionState.value === 'ready' && !busy.value && configComplete.value && !configSaved.value)
 const canSend = computed(() => sessionState.value === 'ready' && !busy.value && configSaved.value && !!draft.value.trim())
 const statusText = computed(() => sessionState.value === 'initializing' ? '正在连接'
+  : sessionState.value === 'ended' ? '会话已结束'
   : sessionState.value === 'error' ? '连接失败'
   : sending.value ? '面试官正在回复' : saving.value || loadingPreset.value ? '正在加载配置'
   : configSaved.value ? '可以开始对话' : '请完善并加载配置')
@@ -62,17 +64,53 @@ function applyPreset(preset: InterviewPreset, filename: string) {
   presetNotice.value = `已加载 ${filename.replace(/\.json$/i, '')}，可以开始对话。`
 }
 
-async function connect() {
+function restoreSession(snapshot: SessionSnapshot) {
+  Object.assign(candidate, snapshot.candidate_config ?? { position: '', education: '', language: resolveInterviewLanguage(), resume: null })
+  Object.assign(interviewer, snapshot.interviewer_config ?? { role_identity: '', role_responsibilities: '' })
+  interviewer.role_responsibilities ??= ''
+  savedConfig.value = snapshot.candidate_config && snapshot.interviewer_config ? configSignature.value : ''
+  chatRound.value = snapshot.chat_round
+  messages.value = snapshot.messages.filter(message => ['human', 'ai'].includes(message.type)).map(message => ({
+    id: ++messageId, role: message.type === 'human' ? 'candidate' : 'interviewer',
+    text: typeof message.content === 'string' ? message.content : readInterviewUpdate({ InterviewAgent: { messages: [{ ...message, type: 'ai' }] } }).messages.map(reply => reply.text).join(''),
+  }))
+  presetNotice.value = ''
+  configError.value = ''
+  streamError.value = ''
+  draft.value = ''
+}
+
+async function connect(mode: 'page' | 'continue' | 'new' = 'continue') {
+  if (busy.value) return
   sessionState.value = 'initializing'
   sessionError.value = ''
   controller = new AbortController()
   try {
-    await initializeSession(controller.signal)
+    if (mode === 'new') await initializeSession(controller.signal)
+    const snapshot = await (mode === 'page' ? openPageSession(controller.signal) : readCurrentSession(controller.signal))
+    if (disposed) return
+    restoreSession(snapshot)
     sessionState.value = 'ready'
+    await scrollToLatest()
   } catch (error) {
     if (disposed) return
     sessionState.value = 'error'
     sessionError.value = errorMessage(error)
+  }
+}
+
+async function endSession() {
+  if (busy.value || sessionState.value !== 'ready') return
+  saving.value = true
+  controller = new AbortController()
+  try {
+    await endCurrentSession(controller.signal)
+    sessionState.value = 'ended'
+  } catch (error) {
+    sessionError.value = errorMessage(error)
+    sessionState.value = 'error'
+  } finally {
+    saving.value = false
   }
 }
 
@@ -111,7 +149,7 @@ async function submitMessage() {
   let receivedReply = false
   await scrollToLatest()
   try {
-    for await (const event of streamInterviewTurn({ message: text }, controller.signal)) {
+    for await (const event of streamInterviewTurn({ message: text, chat_round: chatRound.value }, controller.signal)) {
       if (event.event === 'message') {
         const update = readInterviewUpdate(event.data)
         if (update.chatRound !== undefined) chatRound.value = update.chatRound
@@ -148,7 +186,7 @@ function handleComposerKey(event: KeyboardEvent) {
   }
 }
 
-onMounted(() => { void connect() })
+onMounted(() => { void connect('page') })
 onBeforeUnmount(() => { disposed = true; controller?.abort() })
 </script>
 
@@ -204,6 +242,9 @@ onBeforeUnmount(() => { disposed = true; controller?.abort() })
       <header class="stage-header">
         <div class="eyebrow"><Wind :size="14" /> NORTHWIND / INTERVIEW</div>
         <div class="header-actions">
+          <button class="config-button" type="button" :disabled="busy || sessionState === 'initializing'" @click="connect('new')">新建会话</button>
+          <button class="config-button" type="button" :disabled="busy || sessionState !== 'ready'" @click="connect('continue')">继续会话</button>
+          <button class="config-button" type="button" :disabled="busy || sessionState !== 'ready'" @click="endSession">结束会话</button>
           <span class="status" :class="{ error: sessionState === 'error', connected: sessionState === 'ready', pending: sessionState === 'initializing' }" role="status"><i /> {{ statusText }}</span>
           <button class="icon-button" type="button" aria-label="工具栏按钮占位" disabled>
             <Sparkles :size="17" />
@@ -230,7 +271,7 @@ onBeforeUnmount(() => { disposed = true; controller?.abort() })
       </section>
 
       <div class="composer-area">
-        <div v-if="sessionState === 'error'" class="connection-error" role="alert">{{ sessionError }} <button type="button" class="config-button" @click="connect">重新连接</button></div>
+        <div v-if="sessionState === 'error'" class="connection-error" role="alert">{{ sessionError }} <button type="button" class="config-button" @click="connect('continue')">重新连接</button></div>
         <form class="interviewer-config" aria-label="面试官配置" @submit.prevent="saveConfig">
           <label>面试官身份<input v-model="interviewer.role_identity" placeholder="例如：资深后端面试官" :disabled="busy" required /></label>
           <label>面试要求<input v-model="interviewer.role_responsibilities" placeholder="例如：围绕项目经历逐步追问" :disabled="busy" required /></label>

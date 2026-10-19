@@ -13,7 +13,11 @@ class SessionNotConfiguredError(InterviewError):
     pass
 
 
-class SessionEndedError(InterviewError):
+class SessionConflictError(InterviewError):
+    pass
+
+
+class SessionGoneError(InterviewError):
     pass
 
 

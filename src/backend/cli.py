@@ -5,9 +5,11 @@ from fastapi.responses import JSONResponse
 
 from backend.errors import (
     InterviewError, InvalidPresetNameError, PresetNotFoundError,
-    SessionEndedError, SessionNotConfiguredError, SessionNotFoundError,
+    SessionNotConfiguredError, SessionNotFoundError,
+    SessionConflictError, SessionGoneError,
 )
 from backend.interview_routes import create_interview_router
+from backend.preset_routes import create_preset_router
 from runtime import Runtime
 
 
@@ -22,10 +24,10 @@ def create_app(runtime: Runtime) -> FastAPI:
     async def handle_interview_error(request: Request, exc: InterviewError):
         if isinstance(exc, (SessionNotFoundError, PresetNotFoundError)):
             status_code = 404
-        elif isinstance(exc, SessionEndedError):
-            status_code = 410
-        elif isinstance(exc, SessionNotConfiguredError):
+        elif isinstance(exc, (SessionNotConfiguredError, SessionConflictError)):
             status_code = 409
+        elif isinstance(exc, SessionGoneError):
+            status_code = 410
         elif isinstance(exc, InvalidPresetNameError):
             status_code = 400
         else:
@@ -54,6 +56,7 @@ def create_app(runtime: Runtime) -> FastAPI:
         return JSONResponse(status_code=500, content={"detail": "服务端处理失败，请查看后端日志。"})
 
     app.include_router(create_interview_router(runtime.graph))
+    app.include_router(create_preset_router(runtime.graph))
 
     @app.get("/")
     async def greeting():

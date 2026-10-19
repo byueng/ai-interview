@@ -25,7 +25,7 @@ async function loadApi() {
 const sessionId = 'c53208a9-db49-4064-9802-ffb548e9a0f5'
 const candidate = { education: '本科', position: '后端', language: 'Chinese' }
 const interviewer = { role_identity: '技术面试官', role_responsibilities: '围绕项目提问' }
-const turn = { role: 'Human', message: '你好', chat_round: 0, dtime: '2026-10-13T10:00:00+08:00' }
+const turn = { message: '你好', chat_round: 0 }
 const consume = async (stream) => { const events = []; for await (const event of stream) events.push(event); return events }
 
 function mockFetch(t, implementation) {
@@ -320,4 +320,73 @@ test('将 InterviewAgent 节点更新转换为回复文本和后端轮次', asyn
   } }), { chatRound: 2, messages: [{ id: 'reply-1', text: '你好！' }] })
   assert.deepEqual(api.readInterviewUpdate({ OtherAgent: {} }), { messages: [] })
   assert.deepEqual(api.readInterviewUpdate({ InterviewAgent: { chat_round: -1, messages: [{ type: 'human', content: '用户输入' }] } }), { chatRound: undefined, messages: [] })
+})
+
+function browserStorage(t, navigationType, initialSession = sessionId) {
+  const storage = new Map(initialSession ? [['ai-interview.session-id', initialSession]] : [])
+  const originalWindow = Object.getOwnPropertyDescriptor(globalThis, 'window')
+  Object.defineProperty(globalThis, 'window', { configurable: true, value: { sessionStorage: {
+    getItem: key => storage.get(key) ?? null,
+    setItem: (key, value) => storage.set(key, value),
+    removeItem: key => storage.delete(key),
+  } } })
+  t.mock.method(performance, 'getEntriesByType', () => [{ type: navigationType }])
+  t.after(() => {
+    if (originalWindow) Object.defineProperty(globalThis, 'window', originalWindow)
+    else delete globalThis.window
+  })
+  return storage
+}
+
+const snapshot = id => ({ session_id: id, status: 'active', chat_round: 2,
+  expires_at: 100000, candidate_config: candidate, interviewer_config: interviewer,
+  messages: [{ type: 'human', content: '历史输入' }, { type: 'ai', content: '历史回复' }],
+})
+
+test('刷新恢复后端配置、历史和轮次，不调用 begin', async t => {
+  browserStorage(t, 'reload')
+  const api = await loadApi()
+  const mock = mockFetch(t, async () => Response.json(snapshot(sessionId)))
+  assert.deepEqual(await api.openPageSession(), snapshot(sessionId))
+  assert.equal(mock.mock.callCount(), 1)
+  assert.equal(mock.mock.calls[0].arguments[0], `/interview/sessions/${sessionId}`)
+})
+
+test('新标签页即使复制了 sessionStorage 仍新建独立会话', async t => {
+  const storage = browserStorage(t, 'navigate')
+  const api = await loadApi()
+  const newId = 'ae57a316-7794-44a5-a038-7278c05547ef'
+  const mock = mockFetch(t, async url => Response.json(url.endsWith('/begin') ? { session_id: newId } : snapshot(newId)))
+  assert.equal((await api.openPageSession()).session_id, newId)
+  assert.equal(storage.get('ai-interview.session-id'), newId)
+  assert.equal(mock.mock.callCount(), 2)
+})
+
+test('旧会话失效或暂时失败时保留 ID 并提示，不偷偷新建或重发', async t => {
+  const storage = browserStorage(t, 'reload')
+  const api = await loadApi()
+  const mock = mockFetch(t, async () => Response.json({ detail: '会话不可用' }, { status: 404 }))
+  for (const status of [404, 410, 409, 500]) {
+    mock.mock.mockImplementation(async () => Response.json({ detail: '会话不可用' }, { status }))
+    await assert.rejects(api.openPageSession(), error => error.status === status)
+  }
+  assert.equal(mock.mock.callCount(), 4)
+  assert.ok(mock.mock.calls.every(call => !call.arguments[0].endsWith('/begin')))
+  assert.equal(storage.get('ai-interview.session-id'), sessionId)
+})
+
+test('结束会话确认响应；主动新建成功才替换当前 ID', async t => {
+  const storage = browserStorage(t, 'reload')
+  const api = await loadApi()
+  const mock = mockFetch(t, async () => Response.json({ session_id: sessionId, status: 'ended' }))
+  await api.endCurrentSession()
+  assert.equal(mock.mock.calls[0].arguments[0], `/interview/sessions/${sessionId}/end`)
+  assert.equal(mock.mock.calls[0].arguments[1].method, 'POST')
+  mock.mock.mockImplementation(async () => Response.json({ detail: '创建失败' }, { status: 500 }))
+  await assert.rejects(api.initializeSession())
+  assert.equal(storage.get('ai-interview.session-id'), sessionId)
+  const newId = 'ae57a316-7794-44a5-a038-7278c05547ef'
+  mock.mock.mockImplementation(async () => Response.json({ session_id: newId }))
+  assert.equal(await api.initializeSession(), newId)
+  assert.equal(storage.get('ai-interview.session-id'), newId)
 })
