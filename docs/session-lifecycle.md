@@ -36,6 +36,8 @@
 
 2026-10-20 验证结果：34 项后端测试（严格反序列化模式）、19 项前端测试、TypeScript 检查及生产构建全部通过；`git diff --check` 通过。
 
+同日合并回归：整合 `main` 的第三节预设路由拆分后，保留 `preset_service` 文件职责及 `load_preset_into_session` 会话协调入口，并将会话互斥和 JSON 配置写入应用到该入口。当前 worktree 的 37 项后端测试（含 3 项路由拆分测试）、19 项前端测试及生产构建全部通过。
+
 | 验收项 | 证据 |
 | --- | --- |
 | A/B 配置、模型输入、消息及轮次隔离 | `tests/test_session_lifecycle.py::test_interleaved_sessions_keep_model_input_and_history_isolated`；真实浏览器交错 A1 → B1 → A2 |
