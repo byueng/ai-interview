@@ -151,7 +151,7 @@ onBeforeUnmount(cleanup)
           <div><p class="eyebrow">INTERVIEW PRESETS</p><h2 id="preset-title">读取面试预设</h2></div>
           <button class="close-button" type="button" aria-label="关闭预设窗口" :disabled="!!reading || deleting" autofocus @click="close"><X :size="19" /></button>
         </header>
-        <p id="preset-help" class="muted">选择预设将更新当前会话的面试配置，成功后即可开始对话，无需再次点击“加载配置”。当前表单内容将被替换。</p>
+        <p id="preset-help" class="muted">选择预设将替换当前表单并保存到本次会话。载入后，点击“保存并进入面试室”即可开始练习。</p>
         <p v-if="reading" class="muted" role="status">正在更新会话配置，请等待完成；此时关闭窗口不能撤销后端更新。</p>
         <div class="list-heading"><span>预设文件</span><button ref="refreshButton" class="refresh-button" type="button" :disabled="loading || !!reading || !!pendingDelete || deleting" @click="refresh"><RefreshCw :size="13" aria-hidden="true" />刷新</button></div>
         <section v-if="pendingDelete" class="delete-confirmation" role="group" aria-labelledby="delete-preset-title">
@@ -178,42 +178,42 @@ onBeforeUnmount(cleanup)
             </li>
           </ul>
         </div>
-        <footer class="muted">来源：<code>src/data/interview_preset</code></footer>
+        <footer class="muted">每一份准备，都可以成为下一次练习的起点。</footer>
       </div>
     </dialog>
   </Teleport>
 </template>
 
 <style scoped>
-.preset-trigger { display: flex; align-items: center; justify-content: center; gap: 9px; flex-shrink: 0; width: 100%; margin: 0 0 16px; padding: 12px 14px; border: 1px solid rgba(191, 220, 239, .25); border-radius: 12px; color: #deedf5; background: linear-gradient(145deg, rgba(141, 184, 207, .22), rgba(91, 134, 160, .12)); font-size: 12px; cursor: pointer; }
-.preset-trigger:hover:not(:disabled) { background: rgba(141, 184, 207, .28); }
+.preset-trigger { display: flex; align-items: center; justify-content: center; gap: 9px; width: 100%; padding: 12px 14px; border: 1px solid #8d7954; border-radius: 2px; color: #d3bc92; background: transparent; font-size: 11px; cursor: pointer; }
+.preset-trigger:hover:not(:disabled) { background: #21344b; }
 button:disabled { opacity: .45; cursor: not-allowed; }
-.preset-dialog { width: min(540px, calc(100vw - 32px)); max-height: calc(100dvh - 40px); margin: auto; padding: 0; border: 1px solid rgba(191, 220, 239, .28); border-radius: 22px; color: #e8f0f5; background: linear-gradient(145deg, #203444, #101e2b); box-shadow: 0 28px 90px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(222, 239, 250, .1); }
-.preset-dialog::backdrop { background: rgba(3, 10, 18, .65); backdrop-filter: blur(6px); }
+.preset-dialog { width: min(540px, calc(100vw - 32px)); max-height: calc(100dvh - 40px); margin: auto; padding: 0; border: 1px solid #89734d; border-radius: 3px; color: var(--ink); background: var(--paper); box-shadow: 0 28px 90px #17201e50; }
+.preset-dialog::backdrop { background: #030a15cc; backdrop-filter: blur(3px); }
 .preset-content { padding: 24px; }
 header, .list-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-.eyebrow { margin: 0 0 8px; color: #92b4c8; font-size: 10px; letter-spacing: .15em; }
-h2 { margin: 0; font-size: 20px; font-weight: 500; }
-.close-button, .refresh-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; border: 1px solid rgba(191, 220, 239, .18); border-radius: 9px; color: #c6dce8; background: rgba(191, 220, 239, .06); cursor: pointer; }
+.eyebrow { margin: 0 0 8px; color: var(--muted); font-size: 9px; letter-spacing: .15em; }
+h2 { margin: 0; font: 400 25px/1.5 var(--serif); }
+.close-button, .refresh-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; border: 1px solid #5b5e58; border-radius: 2px; color: #c5b18f; background: transparent; cursor: pointer; }
 .close-button { width: 34px; height: 34px; flex-shrink: 0; }
 .refresh-button { padding: 7px 10px; font-size: 12px; }
-.muted { color: #98b2c3; font-size: 12px; line-height: 1.7; overflow-wrap: anywhere; }
+.muted { color: var(--muted); font-size: 11px; line-height: 1.8; overflow-wrap: anywhere; }
 #preset-help { margin: 18px 0 22px; }
-.list-heading { margin-bottom: 12px; color: #c6dce8; font-size: 12px; }
+.list-heading { margin-bottom: 12px; color: #c5b18f; font-size: 12px; }
 .preset-list { max-height: 42dvh; overflow-y: auto; }
 ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 9px; }
-.preset-row { display: flex; align-items: center; gap: 8px; padding-right: 12px; border: 1px solid rgba(191, 220, 239, .16); border-radius: 12px; background: rgba(7, 17, 27, .35); }
-.preset-file { display: flex; align-items: center; gap: 12px; flex: 1; min-width: 0; padding: 16px; border: 0; border-radius: 11px; color: #e0edf5; background: transparent; text-align: left; cursor: pointer; }
-.preset-file:hover:not(:disabled) { background: rgba(141, 184, 207, .13); }
+.preset-row { display: flex; align-items: center; gap: 8px; padding-right: 12px; border: 1px solid #4b5c6f; border-radius: 2px; background: var(--white); }
+.preset-file { display: flex; align-items: center; gap: 12px; flex: 1; min-width: 0; padding: 16px; border: 0; border-radius: 2px; color: var(--ink); background: transparent; text-align: left; cursor: pointer; }
+.preset-file:hover:not(:disabled) { background: #1d354c; }
 .preset-file span { flex: 1; min-width: 0; overflow-wrap: anywhere; font-size: 13px; }
-.preset-file svg { flex-shrink: 0; color: #98b2c3; }
-.delete-button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; flex-shrink: 0; padding: 8px 10px; border: 1px solid rgba(235, 165, 155, .24); border-radius: 9px; color: #e5afa5; background: rgba(164, 81, 73, .09); font-size: 12px; cursor: pointer; }
+.preset-file svg { flex-shrink: 0; color: #b99c67; }
+.delete-button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; flex-shrink: 0; padding: 8px 10px; border: 1px solid #835a50; border-radius: 2px; color: #dfaa9d; background: #342530; font-size: 11px; cursor: pointer; }
 .delete-button:hover:not(:disabled) { background: rgba(164, 81, 73, .22); border-color: rgba(235, 165, 155, .5); }
-.delete-confirmation { margin: 0 0 14px; padding: 14px; border: 1px solid rgba(235, 165, 155, .28); border-radius: 12px; background: rgba(164, 81, 73, .08); }
+.delete-confirmation { margin: 0 0 14px; padding: 14px; border: 1px solid #835a50; border-radius: 2px; background: #342530; }
 .delete-confirmation p { margin: 0 0 10px; font-size: 13px; overflow-wrap: anywhere; }
 .delete-actions { display: flex; justify-content: flex-end; gap: 8px; }
-.empty { padding: 24px 12px; margin: 0; text-align: center; color: #98b2c3; font-size: 13px; }
-.preset-error { color: #f0b7ae; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
-footer { margin-top: 22px; border-top: 1px solid rgba(191, 220, 239, .12); padding-top: 14px; }
+.empty { padding: 24px 12px; margin: 0; text-align: center; color: var(--muted); font-size: 12px; }
+.preset-error { color: #dfaa9d; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+footer { margin-top: 22px; border-top: 1px solid var(--line); padding-top: 14px; }
 @media (max-width: 580px) { .preset-content { padding: 18px; } }
 </style>

@@ -28,6 +28,124 @@ const interviewer = { role_identity: '技术面试官', role_responsibilities: '
 const turn = { role: 'Human', message: '你好', chat_round: 0, dtime: '2026-10-13T10:00:00+08:00' }
 const consume = async (stream) => { const events = []; for await (const event of stream) events.push(event); return events }
 
+async function loadInterviewStore() {
+  const candidateUrl = await moduleUrl('candidate')
+  const sseUrl = await moduleUrl('sse')
+  const interviewUrl = await moduleUrl('interview', { './candidate': candidateUrl, './sse': sseUrl })
+  const storeUrl = await moduleUrl('../state/interview', {
+    vue: import.meta.resolve('vue'), '../api/candidate': candidateUrl, '../api/interview': interviewUrl,
+  })
+  return import(storeUrl)
+}
+const storeSnapshot = (overrides = {}) => ({
+  session_id: sessionId, status: 'active', chat_round: 0, expires_at: 9999999999,
+  candidate_config: { ...candidate, language: 'zh-CN', resume: null }, interviewer_config: interviewer,
+  messages: [], ...overrides,
+})
+
+test('跨页面共享状态：恢复配置与历史，已有配置不重复提交', async (t) => {
+  const store = await loadInterviewStore()
+  const requests = mockFetch(t, async (url) => url.endsWith('/begin')
+    ? Response.json({ session_id: sessionId })
+    : Response.json(storeSnapshot({ chat_round: 1, messages: [{ type: 'human', content: '我的经历' }, { type: 'ai', content: '继续说说' }] })))
+  assert.equal(await store.connect('page'), true)
+  assert.equal(store.configured.value, true)
+  assert.equal(store.interview.messages.length, 2)
+  assert.equal(store.interview.round, 1)
+  const requestCount = requests.mock.callCount()
+  assert.equal(await store.saveConfiguration(), true)
+  assert.equal(requests.mock.callCount(), requestCount)
+  store.interview.candidate.position = '新的岗位'
+  assert.equal(store.configured.value, false)
+  assert.equal(store.canSend.value, false)
+})
+
+test('共享对话在进行中禁止重复发送和新建，完成后更新轮次并清空草稿', async (t) => {
+  const store = await loadInterviewStore()
+  let streamController
+  const requests = mockFetch(t, async (url) => {
+    if (url.endsWith('/begin')) return Response.json({ session_id: sessionId })
+    if (url.endsWith('/stream')) return new Response(new ReadableStream({ start(controller) { streamController = controller } }), { headers: { 'Content-Type': 'text/event-stream' } })
+    return Response.json(storeSnapshot())
+  })
+  await store.connect('page')
+  store.interview.draft = '我的回答'
+  const pending = store.sendMessage()
+  await new Promise(resolve => setImmediate(resolve))
+  assert.equal(store.busy.value, true)
+  assert.equal(store.canSend.value, false)
+  const count = requests.mock.callCount()
+  await store.sendMessage()
+  assert.equal(await store.connect('new'), false)
+  assert.equal(requests.mock.callCount(), count)
+  streamController.enqueue(new TextEncoder().encode(`event: message\ndata: ${JSON.stringify({ InterviewAgent: { chat_round: 1, messages: [{ type: 'ai', id: 'reply-1', content: '请介绍项目' }] } })}\n\nevent: done\ndata: ${JSON.stringify({ session_id: sessionId })}\n\n`))
+  streamController.close()
+  await pending
+  assert.equal(store.interview.sending, false)
+  assert.equal(store.interview.draft, '')
+  assert.equal(store.interview.round, 1)
+  assert.deepEqual(store.interview.messages.map(m => m.text), ['我的回答', '请介绍项目'])
+})
+
+test('连接中断保留不确定回答并阻止回车重发，同步后清除错误', async (t) => {
+  const store = await loadInterviewStore()
+  const requests = mockFetch(t, async (url) => {
+    if (url.endsWith('/begin')) return Response.json({ session_id: sessionId })
+    if (url.endsWith('/stream')) return responseStream('event: error\ndata: {"message":"测试中断"}\n\n')
+    return Response.json(storeSnapshot())
+  })
+  await store.connect('page')
+  store.interview.draft = '尚未确认的回答'
+  await store.sendMessage()
+  assert.match(store.interview.streamError, /同步会话/)
+  assert.equal(store.interview.messages[0].uncertain, true)
+  assert.equal(store.canSend.value, false)
+  const count = requests.mock.callCount()
+  await store.sendMessage()
+  assert.equal(requests.mock.callCount(), count)
+  await store.connect('continue')
+  assert.equal(store.interview.streamError, '')
+  assert.equal(store.interview.messages.length, 0)
+})
+
+test('结束失败保留会话和历史，确认成功后才进入结束状态', async (t) => {
+  const store = await loadInterviewStore()
+  let endSucceeded = false
+  mockFetch(t, async (url) => {
+    if (url.endsWith('/begin')) return Response.json({ session_id: sessionId })
+    if (url.endsWith('/end')) return endSucceeded ? Response.json({ session_id: sessionId, status: 'ended' }) : Response.json({ detail: '暂时不可用' }, { status: 503 })
+    return Response.json(storeSnapshot({ messages: [{ type: 'human', content: '保留这条对话' }] }))
+  })
+  await store.connect('page')
+  assert.equal(await store.finishSession(), false)
+  assert.equal(store.interview.status, 'ready')
+  assert.equal(store.interview.messages.length, 1)
+  endSucceeded = true
+  assert.equal(await store.finishSession(), true)
+  assert.equal(store.interview.status, 'ended')
+  assert.equal(store.interview.messages[0].text, '保留这条对话')
+})
+
+test('对话导出包含实际配置、轮次、双方内容与未确认标记', async (t) => {
+  const store = await loadInterviewStore()
+  store.interview.candidate.position = '后端工程师'
+  store.interview.round = 2
+  store.interview.messages = [{ id: 1, role: 'candidate', text: '我的回答', uncertain: true }, { id: 2, role: 'interviewer', text: '请继续介绍' }]
+  let exported
+  const link = { href: '', download: '', click: t.mock.fn() }
+  const oldDocument = globalThis.document
+  globalThis.document = { createElement: name => { assert.equal(name, 'a'); return link } }
+  t.after(() => { if (oldDocument === undefined) delete globalThis.document; else globalThis.document = oldDocument })
+  t.mock.method(URL, 'createObjectURL', blob => { exported = blob; return 'blob:local-test' })
+  store.downloadTranscript()
+  assert.equal(link.click.mock.callCount(), 1)
+  assert.equal(link.download, '面试对话记录.txt')
+  assert.equal(exported.type, 'text/plain;charset=utf-8')
+  assert.match(await exported.text(), /后端工程师 · 对话记录\n已完成 2 轮/)
+  assert.match(await exported.text(), /我（完成状态待确认）\n我的回答/)
+  assert.match(await exported.text(), /面试官\n请继续介绍/)
+})
+
 function mockFetch(t, implementation) {
   const original = globalThis.fetch
   const mock = t.mock.fn(implementation)
