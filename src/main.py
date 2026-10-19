@@ -7,7 +7,6 @@ from runtime import run_time
 
 def main():
     env_path = Path(__file__).resolve().parents[1] / ".env"
-    print(env_path)
     load_dotenv(env_path)
     uvicorn.run(
         "main:run_time",
