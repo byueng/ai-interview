@@ -1,0 +1,76 @@
+/* Shared motion layer. Transform/opacity keep layout and text stable. */
+.ambient-light {
+  position: fixed;
+  inset: -8%;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 18% 25%, #bca36a13, transparent 38%),
+    radial-gradient(ellipse at 80% 65%, #5b8fb41c, transparent 40%);
+  animation: ambient-drift 22s ease-in-out infinite alternate;
+}
+.scene-interview .ambient-light { display: none; }
+.scene-stories .ambient-light { opacity: .55; }
+@keyframes ambient-drift {
+  from { transform: translate3d(-1%, -1%, 0); opacity: .4; }
+  to { transform: translate3d(2%, 2%, 0); opacity: 1; }
+}
+@keyframes panel-arrive {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.page-heading, .characters-heading, .room-header {
+  animation: panel-arrive .55s ease-out both;
+}
+.settings-layout > *, .preparation-form > .form-section,
+.story-feature, .story-card, .article-profile, .article-body,
+.journey-step {
+  animation: panel-arrive .65s ease-out backwards;
+}
+.settings-layout > :nth-child(2), .story-card:nth-child(2), .journey-step:nth-child(2) { animation-delay: 70ms; }
+.settings-layout > :nth-child(3), .story-card:nth-child(3), .journey-step:nth-child(3),
+.preparation-form > .form-section:nth-child(2), .article-body { animation-delay: 140ms; }
+.story-card:nth-child(4), .journey-step:nth-child(4),
+.preparation-form > .form-section:nth-child(3) { animation-delay: 210ms; }
+.button svg, .header-cta svg, .story-read svg, .card-copy h3 svg,
+.back-stories svg { transition: transform .25s ease; }
+.form-section, .settings-aside, .journey-step, .story-card, .story-feature {
+  transition: border-color .3s ease, box-shadow .3s ease, transform .3s ease;
+}
+.form-section:focus-within { box-shadow: inset 0 0 0 1px #b99b6380, 0 0 22px #c3a16b0b; }
+.character-art .art-glyph { transition: transform .7s ease, opacity .7s ease; }
+.character-art::before { transition: transform .9s ease; }
+.resume-panel[aria-busy="true"] .resume-submit svg { animation: upload-lift 1.2s ease-in-out infinite; }
+@keyframes upload-lift {
+  0%, 100% { transform: translateY(2px); opacity: .5; }
+  50% { transform: translateY(-3px); opacity: 1; }
+}
+@media (hover: hover) and (pointer: fine) {
+  .button:hover:not(:disabled) svg, .header-cta:hover svg,
+  .story-feature:hover .story-read svg, .story-card:hover h3 svg { transform: translate(3px, -2px); }
+  .back-stories:hover svg { transform: translateX(-4px); }
+  .journey-step:hover { transform: translateY(-4px); box-shadow: 0 10px 25px #02070d45; }
+  .settings-aside:hover { box-shadow: inset 0 0 0 1px #b899637d, 0 10px 25px #02070d35; }
+  .story-feature:hover { border-color: #b99b63; }
+  .story-feature:hover .art-glyph, .story-card:hover .art-glyph { transform: translateY(-4px) scale(1.035); }
+  .story-feature:hover .character-art::before, .story-card:hover .character-art::before { transform: rotate(15deg); }
+}
+/* Honor both the OS preference and the in-app switch, including hover motion. */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .ambient-light { display: none; }
+  .app-frame *, .app-frame *::before, .app-frame *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .journey-step:hover, .story-card:hover, .button:hover svg,
+  .header-cta:hover svg, .story-read svg, .card-copy h3 svg,
+  .back-stories:hover svg, .character-art .art-glyph { transform: none !important; }
+  .character-art::before { transform: rotate(22deg) !important; }
+}
+html[data-reduce-motion="true"] .ambient-light { display: none; }
+html[data-reduce-motion="true"] .app-frame *,
+html[data-reduce-motion="true"] .app-frame *::before,
+html[data-reduce-motion="true"] .app-frame *::after { animation: none !important; transition: none !important; }
+html[data-reduce-motion="true"] :is(.journey-step:hover, .story-card:hover, .button:hover svg, .header-cta:hover svg, .story-read svg, .card-copy h3 svg, .back-stories:hover svg, .character-art .art-glyph) { transform: none !important; }
+html[data-reduce-motion="true"] .character-art::before { transform: rotate(22deg) !important; }

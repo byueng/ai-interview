@@ -11,7 +11,7 @@ export const interview = reactive({
   status: 'initializing' as 'initializing' | 'ready' | 'error' | 'ended',
   candidate: blankCandidate(), interviewer: blankInterviewer(),
   savedSignature: '', sessionError: '', configError: '', streamError: '', notice: '',
-  saving: false, loadingPreset: false, sending: false, round: 0, draft: '',
+  saving: false, uploadingResume: false, loadingPreset: false, sending: false, round: 0, draft: '',
   messages: [] as ConversationMessage[],
 })
 let messageId = 0
@@ -20,7 +20,7 @@ export const configuration = computed(() => ({
   candidate: { ...interview.candidate, position: interview.candidate.position.trim(), education: interview.candidate.education.trim() },
   interviewer: { role_identity: interview.interviewer.role_identity.trim(), role_responsibilities: interview.interviewer.role_responsibilities.trim() },
 }))
-export const busy = computed(() => interview.saving || interview.loadingPreset || interview.sending || interview.status === 'initializing')
+export const busy = computed(() => interview.saving || interview.uploadingResume || interview.loadingPreset || interview.sending || interview.status === 'initializing')
 export const configured = computed(() => !!interview.savedSignature && interview.savedSignature === JSON.stringify(configuration.value))
 export const complete = computed(() => !!configuration.value.candidate.position && !!configuration.value.candidate.education && !!configuration.value.interviewer.role_identity && !!configuration.value.interviewer.role_responsibilities)
 export const canSend = computed(() => interview.status === 'ready' && configured.value && !busy.value && !interview.streamError && !!interview.draft.trim())
@@ -42,7 +42,7 @@ function restore(snapshot: SessionSnapshot) {
 
 export function connect(mode: 'page' | 'continue' | 'new' = 'continue'): Promise<boolean> {
   if (connection) return connection
-  if (interview.sending || interview.saving || interview.loadingPreset) return Promise.resolve(false)
+  if (interview.sending || interview.saving || interview.uploadingResume || interview.loadingPreset) return Promise.resolve(false)
   interview.status = 'initializing'; interview.sessionError = ''
   connection = (async () => {
     try {

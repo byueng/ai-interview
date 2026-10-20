@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { ArrowRight, Check, Plus, SlidersHorizontal } from 'lucide-vue-next'
 import PresetPicker from '../components/PresetPicker.vue'
+import ResumeUpload from '../components/ResumeUpload.vue'
 import SessionNotice from '../components/SessionNotice.vue'
 import ConfirmDialog from '../components/ConfirmDialog.vue'
 import { applyPreset, busy, complete, configured, connect, interview, onPresetLoading, saveConfiguration } from '../state/interview'
@@ -19,6 +20,7 @@ const positions = ['后端工程师', '前端工程师', 'AI 应用工程师', '
     <SessionNotice />
     <div v-if="interview.status === 'ended' || interview.round > 0" class="info-banner"><p>{{ interview.status === 'ended' ? '上一场练习已结束。新建会话，开始新的准备。' : '当前练习已经开始。可以继续对话，或新建一场练习后调整配置。' }}</p><button class="text-button" :disabled="busy" @click="newDialog = true"><Plus :size="15" />新建练习</button></div>
     <div class="settings-layout">
+      <ResumeUpload />
       <form id="preparation-form" class="preparation-form" @submit.prevent="enterInterview">
         <fieldset class="form-section" :disabled="busy || interview.round > 0 || interview.status !== 'ready'">
           <legend><span>01</span> 关于你 <small>YOUR PROFILE</small></legend>
