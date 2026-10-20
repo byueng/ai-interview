@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onBeforeUnmount, ref } from 'vue'
+defineProps<{ rightSide?: boolean }>()
 const paused = ref(false)
 function syncVisibility() { paused.value = document.hidden }
 onMounted(() => {
@@ -20,7 +21,7 @@ const flakes = Array.from({ length: 64 }, (_, i) => ({
 </script>
 
 <template>
-  <div class="ambient-snow" :class="{ paused }" aria-hidden="true">
+  <div class="ambient-snow" :class="{ paused, 'snow-right-side': rightSide }" aria-hidden="true">
     <div class="winter-haze" /><div class="wind-veil" />
     <span v-for="(flake, index) in flakes" :key="index" class="snow-track" :style="flake"><i /></span>
   </div>
@@ -28,6 +29,17 @@ const flakes = Array.from({ length: 64 }, (_, i) => ({
 
 <style scoped>
 .ambient-snow { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; mask-image: linear-gradient(90deg,#000, #000b 25%,#0007 50%,#000d 80%,#000); }
+/* Scope the mask to the decorative overlay itself, never the page container. */
+.ambient-snow.snow-right-side {
+  -webkit-mask-image: linear-gradient(90deg, transparent 44%, #0002 54%, #0008 68%, #000 88%);
+  mask-image: linear-gradient(90deg, transparent 44%, #0002 54%, #0008 68%, #000 88%);
+}
+.snow-right-side .winter-haze {
+  background: radial-gradient(ellipse at 100% 45%, #81b7de2c, transparent 60%), linear-gradient(180deg, #8abce426, transparent 38%, transparent 62%, #8ebfe032);
+}
+.snow-right-side .wind-veil {
+  background: radial-gradient(ellipse at 75% 35%, #bbd9ef38, transparent 40%), radial-gradient(ellipse at 90% 75%, #b2d5ef2c, transparent 42%);
+}
 .snow-track { position: absolute; top: -12px; animation: snowfall var(--duration) var(--delay) linear infinite; }
 .snow-track i { display: block; width: var(--size); height: var(--size); border-radius: 50%; background: #e2effa; opacity: var(--alpha); box-shadow: 0 0 4px #dfedff3b; animation: snow-sway var(--sway) var(--delay) ease-in-out infinite alternate; }
 .snow-track:nth-child(4n) i { filter: blur(.6px); }
@@ -40,5 +52,5 @@ const flakes = Array.from({ length: 64 }, (_, i) => ({
 @keyframes winter-gust { 0%,100% { opacity: .35; transform: translate3d(8%,-2%,0); } 45% { opacity: 1; } 75% { opacity: .65; transform: translate3d(-9%,2%,0); } }
 @media (max-width: 640px) { .snow-track:nth-of-type(n+33) { display: none; } }
 @media (prefers-reduced-motion: reduce) { .ambient-snow { display: none; } }
-:global(html[data-reduce-motion="true"]) .ambient-snow { display: none; }
+:global(html[data-reduce-motion="true"] .ambient-snow) { display: none; }
 </style>

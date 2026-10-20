@@ -27,7 +27,7 @@ watch(() => interview.notice, value => {
   <div class="app-frame" :class="`scene-${String(route.name || 'home')}`">
     <div class="cathedral-backdrop" aria-hidden="true" />
     <div class="ambient-light" aria-hidden="true" />
-    <AmbientSnow v-if="route.name === 'home' || (route.name === 'stories' && !route.params.slug)" />
+    <AmbientSnow :right-side="route.name === 'home'" v-if="route.name === 'home' || (route.name === 'stories' && !route.params.slug)" />
     <div class="cathedral-leadwork" aria-hidden="true"><span /><span /><span /></div>
     <a class="skip-link" href="#main-content" @click.prevent="focusMain">跳到主要内容</a>
     <header class="site-header">
