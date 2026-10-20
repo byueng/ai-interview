@@ -185,7 +185,7 @@ test('默认中文不跟随浏览器语言；保留显式语言选择', async (t
     return url.endsWith('/begin') ? Response.json({ session_id: sessionId }) : Response.json(200)
   })
   await api.postCandidateConfig({ education: '本科', position: '后端' }, interviewer)
-  assert.equal(JSON.parse(calls[1].options.body).candidate.language, 'zh-CN')
+  assert.equal(JSON.parse(calls[1].options.body).candidate_config.language, 'zh-CN')
 })
 
 test('删除预设通过 POST 查询参数传完整文件名，不创建 session 或提交配置', async (t) => {
@@ -351,19 +351,19 @@ test('初始化并发复用；提交完整 Candidate 和 Interviewer；缓存 se
   assert.equal(api.getCachedSessionId(), sessionId)
   assert.equal(calls[1].url, '/interview/personal_information_config')
   assert.deepEqual(JSON.parse(calls[1].options.body), {
-    session_id: sessionId, candidate: { ...candidate, language: 'zh-CN', resume: null }, interviewer,
+    session_id: sessionId, candidate_config: { ...candidate, language: 'zh-CN', resume: null }, interviewer_config: interviewer,
   })
   await api.postCandidateConfig({ ...candidate, resume: 'resumes/demo.pdf' }, interviewer)
   assert.equal(calls.length, 3)
-  assert.equal(JSON.parse(calls[2].options.body).candidate.resume, 'resumes/demo.pdf')
+  assert.equal(JSON.parse(calls[2].options.body).candidate_config.resume, 'resumes/demo.pdf')
 })
 
 test('422 校验详情及异常成功响应会抛错', async (t) => {
   const api = await loadApi()
   const mock = mockFetch(t, async () => Response.json({ session_id: sessionId }))
   await api.initializeSession()
-  mock.mock.mockImplementation(async () => Response.json({ detail: [{ loc: ['body', 'interviewer'], msg: 'Field required' }] }, { status: 422 }))
-  await assert.rejects(api.postCandidateConfig(candidate, interviewer), error => error.status === 422 && error.message.includes('body.interviewer'))
+  mock.mock.mockImplementation(async () => Response.json({ detail: [{ loc: ['body', 'interviewer_config'], msg: 'Field required' }] }, { status: 422 }))
+  await assert.rejects(api.postCandidateConfig(candidate, interviewer), error => error.status === 422 && error.message.includes('body.interviewer_config'))
   mock.mock.mockImplementation(async () => Response.json(null))
   await assert.rejects(api.postCandidateConfig(candidate, interviewer), /成功标识/)
 })

@@ -43,8 +43,8 @@ function normalizeSupportedLanguage(value: string): string | undefined {
 
 export interface CandidateConfigRequest {
   session_id: string
-  candidate: CandidateConfig
-  interviewer: InterviewerConfig
+  candidate_config: CandidateConfig
+  interviewer_config: InterviewerConfig
 }
 
 export interface SessionInitializationResponse {
@@ -140,13 +140,13 @@ export async function postCandidateConfig(
   const sessionId = await getActiveSessionId(signal)
   const body: CandidateConfigRequest = {
     session_id: sessionId,
-    candidate: {
+    candidate_config: {
       language: resolveInterviewLanguage(candidateConfig.language),
       education: candidateConfig.education,
       position: candidateConfig.position,
       resume: candidateConfig.resume ?? null,
     },
-    interviewer: {
+    interviewer_config: {
       role_identity: interviewerConfig.role_identity,
       role_responsibilities: interviewerConfig.role_responsibilities,
     },

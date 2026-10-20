@@ -55,11 +55,11 @@ def create_interview_router(
 
     @router.post("/personal_information_config", status_code=200)
     async def personal_information_config(
-        session_id: Annotated[UUID, Body()], candidate: Candidate,
-        interviewer: Interviewer, request: Request,
+        session_id: Annotated[UUID, Body()], candidate_config: Candidate,
+        interviewer_config: Interviewer, request: Request,
     ):
         request.state.session_id = str(session_id)
-        await interview_service.configure_session(graph, session_id, candidate, interviewer)
+        await interview_service.configure_session(graph, session_id, candidate_config, interviewer_config)
         return 200
 
     @router.post("/upload_resume", status_code=200)

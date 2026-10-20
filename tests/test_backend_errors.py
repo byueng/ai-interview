@@ -86,8 +86,8 @@ class BackendErrorTests(TestCase):
     def configure(self, session=None, candidate=None):
         return self.client.post("/interview/personal_information_config", json={
             "session_id": self.session if session is None else session,
-            "candidate": PRESET["candidate_config"] if candidate is None else candidate,
-            "interviewer": PRESET["interviewer_config"],
+            "candidate_config": PRESET["candidate_config"] if candidate is None else candidate,
+            "interviewer_config": PRESET["interviewer_config"],
         })
 
     def stream(self, session=None):
@@ -330,7 +330,7 @@ class BackendErrorTests(TestCase):
             session = client.get("/interview/begin").json()["session_id"]
             self.assertEqual(client.post("/interview/personal_information_config", json={
                 "session_id": session,
-                "candidate": PRESET["candidate_config"], "interviewer": PRESET["interviewer_config"],
+                "candidate_config": PRESET["candidate_config"], "interviewer_config": PRESET["interviewer_config"],
             }).json(), 200)
             self.assertEqual(client.post("/interview/load_preset", params={"filename": "后端.json"}, json=session).status_code, 200)
             response = client.post("/interview/stream", json={

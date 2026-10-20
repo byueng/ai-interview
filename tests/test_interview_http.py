@@ -31,8 +31,8 @@ def configure(client: TestClient, session_id: str):
         "/interview/personal_information_config",
         json={
             "session_id": session_id,
-            "candidate": {"language": "zh-CN", "education": "本科", "position": "后端工程师", "resume": None},
-            "interviewer": {"role_identity": "技术面试官", "role_responsibilities": "围绕项目追问"},
+            "candidate_config": {"language": "zh-CN", "education": "本科", "position": "后端工程师", "resume": None},
+            "interviewer_config": {"role_identity": "技术面试官", "role_responsibilities": "围绕项目追问"},
         },
     )
 

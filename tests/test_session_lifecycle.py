@@ -22,8 +22,8 @@ from schemas import AgentRequest
 
 def configuration(session_id, position="岗位A"):
     return {"session_id": session_id,
-            "candidate": {"language": "zh-CN", "education": "本科", "position": position},
-            "interviewer": {"role_identity": "技术面试官", "role_responsibilities": position}}
+            "candidate_config": {"language": "zh-CN", "education": "本科", "position": position},
+            "interviewer_config": {"role_identity": "技术面试官", "role_responsibilities": position}}
 
 
 def request_body(session_id, message="你好", chat_round=0):
