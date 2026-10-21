@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "text_reviewer",
+  "scopeId": "lady-of-light",
+  "unitId": "lady-of-light",
+  "status": "approved",
+  "decision": "approved",
+  "reviewStatus": "approved",
+  "inputVersions": {
+    "src/data/character-journal/characters/arthas/units/lady-of-light/story.md": "4e8ba57ba113c4970a73923093b5d90c6f46573563d683075c55bf7de6a05adb",
+    "src/data/character-journal/characters/arthas/units/lady-of-light/profile.json": "d48666366f50c27b761f45cf0092184e62217e2e73353c4f39f25e0106acc5f3",
+    "src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "src/data/character-journal/characters/arthas/reading/middle.md": "8e795216aea546cc48c26c8ea72863fd05b4141c758151a9e2184b4990463ca4",
+    "src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/text_reviewer.txt": "5030db65e22edf97b940660c70a350420cec8b513935503e8572cf8bb0f6ebe0",
+    "src/workflows/character-journal/workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00312.json": "cf600f95e99a427d7fe2d89efb8bc6caa12d9123df100b0defaa8a5781cb61b4",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00313.json": "b74e39d2f6867e144bb038fe30e507aa8e48cab7fd288e78c4ec9ee2cd30d371",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00314.json": "76f77e5b729fc36431f26b3e6840839263fe52632429f995f059ff8f92b7cc22",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00315.json": "062ca8f0811e776932f7b616e44c529641ac553453d8ff54ecc2aa8193758046",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00316.json": "8471330377c95dccdbe9c0570825a46b4c7897697819ff742b85ce8fdf46d911",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00317.json": "3f3ea909495055d04902d7b05aaa30365a3d3dcd32fa792fe2f4eba4fb40c782",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00318.json": "4285a294a350b371767303e55f8ce4b22db3b326fb5142224e3fba4770f32517",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00319.json": "a1b11a6d0bff6bc30d0508d883fa77874dc913ade2523f3ffac0c487f22c8c2a",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00320.json": "8a7b4ac0309ef11e1b4a932399c4b423adc4a16638c1a2f9ad323220fec84469",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00321.json": "58559b357bdd02c6a4ce4c2e9e390e4f2f05d0efd5a513b863e0b0f61c42fa8f",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00322.json": "84b264faf25acc935e71c22aecb1fb93b4ae897f865c59be5d1935ebd3aab124",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00323.json": "55154fdea17ad550e6cc440ccbb9a0e12922e5d1cfd261719ce01c76b558217c"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00312",
+      "startRef": "text00312:p0001",
+      "endRef": "text00312:p0021"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00313",
+      "startRef": "text00313:p0001",
+      "endRef": "text00313:p0101"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00314",
+      "startRef": "text00314:p0001",
+      "endRef": "text00314:p0074"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00315",
+      "startRef": "text00315:p0001",
+      "endRef": "text00315:p0071"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00316",
+      "startRef": "text00316:p0001",
+      "endRef": "text00316:p0099"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00317",
+      "startRef": "text00317:p0001",
+      "endRef": "text00317:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00318",
+      "startRef": "text00318:p0001",
+      "endRef": "text00318:p0160"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00319",
+      "startRef": "text00319:p0001",
+      "endRef": "text00319:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00320",
+      "startRef": "text00320:p0001",
+      "endRef": "text00320:p0067"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00321",
+      "startRef": "text00321:p0001",
+      "endRef": "text00321:p0088"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00322",
+      "startRef": "text00322:p0001",
+      "endRef": "text00322:p0092"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00323",
+      "startRef": "text00323:p0001",
+      "endRef": "text00323:p0090"
+    }
+  ],
+  "reviewMethod": "完整审读初稿及profile、定向回查关键原文，修订后复核时间段落与最终版本哈希；未改作者文件。",
+  "checks": [
+    {
+      "topic": "chronology",
+      "status": "passed",
+      "detail": "而立吉安娜回望与青春主线分开；屠城后回访回忆定位修复；焚舟先于取剑。",
+      "sourceRefs": [
+        "text00312:p0018–p0021",
+        "text00320:p0002–p0008",
+        "text00321:p0074–p0088"
+      ]
+    },
+    {
+      "topic": "factsAndInterpretation",
+      "status": "passed",
+      "detail": "未断言全城感染或存在已验证救法；壁炉谷未施救不是治疗失败；背叛、不得不、自我赦免保留人物归因。",
+      "sourceRefs": [
+        "text00318:p0086–p0091",
+        "text00319:p0028–p0037",
+        "text00319:p0062–p0067",
+        "text00323:p0074–p0090"
+      ]
+    },
+    {
+      "topic": "swordAndAgency",
+      "status": "passed",
+      "detail": "警告、圣光治疗回应、耳语诱惑、主动转向魔剑并存；穆拉丁保持重伤及王子报死认知。",
+      "sourceRefs": [
+        "text00322:p0062–p0078",
+        "text00322:p0083–p0090"
+      ]
+    },
+    {
+      "topic": "narrativeAndScope",
+      "status": "passed",
+      "detail": "爱情、合作救援、决裂、北地和归乡因果完整；温暖不被结局抹除，无外部情节补写。"
+    }
+  ],
+  "subtitleCheck": {
+    "status": "approved",
+    "text": "光明女士",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00312:p0001",
+      "heading": "➣ 第二部　光明女士"
+    },
+    "detail": "原作text00312:p0001分部题名与正文副标题一致，主副标题分列。"
+  },
+  "lengthCheck": {
+    "status": "passed",
+    "hanIncludingHeadings": 3580,
+    "hanExcludingHeadingsAndSubtitle": 3532,
+    "target": [
+      3500,
+      4300
+    ]
+  },
+  "inputHashCheck": {
+    "status": "passed",
+    "allWriterInputHashesMatch": true
+  },
+  "reviewFindings": [
+    {
+      "id": "L01",
+      "status": "resolved",
+      "originalQuote": "三日后，吉安娜回到废城。她仍爱阿尔萨斯，也仍试图劝他不要踏入恶魔的陷阱，但拒绝陪他北行。",
+      "sourceRefs": [
+        "text00320:p0002",
+        "text00320:p0007–p0008",
+        "text00320:p0027"
+      ],
+      "detail": "初稿将回访当下和一天半前对话混接；修订明确回访时想起旧对话，现已符合原文。"
+    }
+  ],
+  "nextRole": "coordinator",
+  "retryCount": 1,
+  "downstreamGate": "本篇文本通过；整套及总览校核后按workflow进入绘图。"
+}

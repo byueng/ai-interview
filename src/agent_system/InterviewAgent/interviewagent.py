@@ -6,6 +6,9 @@ from agent_system.prompts.prompt_faction import render_prompt
 from agent_system.agent import Agent, InterviewUpdate
 
 class InterviewAgent(Agent):
+    def __init__(self):
+        pass
+
     def load_prompt(self, state: TaskState) -> str:
         if state.candidate_config is None or state.interviewer_config is None:
             raise ValueError("单次对话需要 candidate_config 和 interviewer_config。")

@@ -1,0 +1,548 @@
+{
+  "sourcePath": "E:\\魔兽官方小说\\12 迈向冰封王座：阿尔萨斯.epub",
+  "sha256": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+  "paragraphReferenceFormat": "documentId:pNNNN; sourceHref retains EPUB file and heading anchor",
+  "documents": [
+    {
+      "documentId": "text00302",
+      "sourceHref": "OEBPS/text00302.html",
+      "spineOrder": 0,
+      "paragraphs": 0,
+      "characters": 0,
+      "headings": [],
+      "textFile": "text00302.txt"
+    },
+    {
+      "documentId": "text00303",
+      "sourceHref": "OEBPS/text00303.html",
+      "spineOrder": 1,
+      "paragraphs": 7,
+      "characters": 78,
+      "headings": [
+        {
+          "ref": "text00303:p0001",
+          "tag": "h2",
+          "anchor": null,
+          "text": "版权信息"
+        }
+      ],
+      "textFile": "text00303.txt"
+    },
+    {
+      "documentId": "text00304",
+      "sourceHref": "OEBPS/text00304.html",
+      "spineOrder": 2,
+      "paragraphs": 37,
+      "characters": 168,
+      "headings": [
+        {
+          "ref": "text00304:p0001",
+          "tag": "h1",
+          "anchor": null,
+          "text": "迈向冰封王座：阿尔萨斯"
+        },
+        {
+          "ref": "text00304:p0002",
+          "tag": "h2",
+          "anchor": null,
+          "text": "目录"
+        }
+      ],
+      "textFile": "text00304.txt"
+    },
+    {
+      "documentId": "text00305",
+      "sourceHref": "OEBPS/text00305.html",
+      "spineOrder": 3,
+      "paragraphs": 8,
+      "characters": 737,
+      "headings": [
+        {
+          "ref": "text00305:p0001",
+          "tag": "h1",
+          "anchor": "split-heading-0",
+          "text": "➣ 导读"
+        }
+      ],
+      "textFile": "text00305.txt"
+    },
+    {
+      "documentId": "text00306",
+      "sourceHref": "OEBPS/text00306.html",
+      "spineOrder": 4,
+      "paragraphs": 35,
+      "characters": 3002,
+      "headings": [
+        {
+          "ref": "text00306:p0001",
+          "tag": "h1",
+          "anchor": "split-heading-0",
+          "text": "➣ 序章：梦"
+        }
+      ],
+      "textFile": "text00306.txt"
+    },
+    {
+      "documentId": "text00307",
+      "sourceHref": "OEBPS/text00307.html",
+      "spineOrder": 5,
+      "paragraphs": 96,
+      "characters": 8745,
+      "headings": [
+        {
+          "ref": "text00307:p0001",
+          "tag": "h1",
+          "anchor": "split-heading-0",
+          "text": "➣ 第一部　黄金男孩"
+        },
+        {
+          "ref": "text00307:p0002",
+          "tag": "h2",
+          "anchor": "split-heading-1",
+          "text": "第一章"
+        }
+      ],
+      "textFile": "text00307.txt"
+    },
+    {
+      "documentId": "text00308",
+      "sourceHref": "OEBPS/text00308.html",
+      "spineOrder": 6,
+      "paragraphs": 90,
+      "characters": 8425,
+      "headings": [
+        {
+          "ref": "text00308:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第二章"
+        }
+      ],
+      "textFile": "text00308.txt"
+    },
+    {
+      "documentId": "text00309",
+      "sourceHref": "OEBPS/text00309.html",
+      "spineOrder": 7,
+      "paragraphs": 112,
+      "characters": 9042,
+      "headings": [
+        {
+          "ref": "text00309:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第三章"
+        }
+      ],
+      "textFile": "text00309.txt"
+    },
+    {
+      "documentId": "text00310",
+      "sourceHref": "OEBPS/text00310.html",
+      "spineOrder": 8,
+      "paragraphs": 93,
+      "characters": 8523,
+      "headings": [
+        {
+          "ref": "text00310:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第四章"
+        }
+      ],
+      "textFile": "text00310.txt"
+    },
+    {
+      "documentId": "text00311",
+      "sourceHref": "OEBPS/text00311.html",
+      "spineOrder": 9,
+      "paragraphs": 50,
+      "characters": 5271,
+      "headings": [
+        {
+          "ref": "text00311:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第五章"
+        }
+      ],
+      "textFile": "text00311.txt"
+    },
+    {
+      "documentId": "text00312",
+      "sourceHref": "OEBPS/text00312.html",
+      "spineOrder": 10,
+      "paragraphs": 21,
+      "characters": 1606,
+      "headings": [
+        {
+          "ref": "text00312:p0001",
+          "tag": "h1",
+          "anchor": "split-heading-0",
+          "text": "➣ 第二部　光明女士"
+        },
+        {
+          "ref": "text00312:p0002",
+          "tag": "h2",
+          "anchor": "split-heading-1",
+          "text": "间奏"
+        }
+      ],
+      "textFile": "text00312.txt"
+    },
+    {
+      "documentId": "text00313",
+      "sourceHref": "OEBPS/text00313.html",
+      "spineOrder": 11,
+      "paragraphs": 101,
+      "characters": 10467,
+      "headings": [
+        {
+          "ref": "text00313:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第六章"
+        }
+      ],
+      "textFile": "text00313.txt"
+    },
+    {
+      "documentId": "text00314",
+      "sourceHref": "OEBPS/text00314.html",
+      "spineOrder": 12,
+      "paragraphs": 74,
+      "characters": 6508,
+      "headings": [
+        {
+          "ref": "text00314:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第七章"
+        }
+      ],
+      "textFile": "text00314.txt"
+    },
+    {
+      "documentId": "text00315",
+      "sourceHref": "OEBPS/text00315.html",
+      "spineOrder": 13,
+      "paragraphs": 71,
+      "characters": 5006,
+      "headings": [
+        {
+          "ref": "text00315:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第八章"
+        }
+      ],
+      "textFile": "text00315.txt"
+    },
+    {
+      "documentId": "text00316",
+      "sourceHref": "OEBPS/text00316.html",
+      "spineOrder": 14,
+      "paragraphs": 99,
+      "characters": 7772,
+      "headings": [
+        {
+          "ref": "text00316:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第九章"
+        }
+      ],
+      "textFile": "text00316.txt"
+    },
+    {
+      "documentId": "text00317",
+      "sourceHref": "OEBPS/text00317.html",
+      "spineOrder": 15,
+      "paragraphs": 95,
+      "characters": 8169,
+      "headings": [
+        {
+          "ref": "text00317:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十章"
+        }
+      ],
+      "textFile": "text00317.txt"
+    },
+    {
+      "documentId": "text00318",
+      "sourceHref": "OEBPS/text00318.html",
+      "spineOrder": 16,
+      "paragraphs": 160,
+      "characters": 13143,
+      "headings": [
+        {
+          "ref": "text00318:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十一章"
+        }
+      ],
+      "textFile": "text00318.txt"
+    },
+    {
+      "documentId": "text00319",
+      "sourceHref": "OEBPS/text00319.html",
+      "spineOrder": 17,
+      "paragraphs": 95,
+      "characters": 8056,
+      "headings": [
+        {
+          "ref": "text00319:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十二章"
+        }
+      ],
+      "textFile": "text00319.txt"
+    },
+    {
+      "documentId": "text00320",
+      "sourceHref": "OEBPS/text00320.html",
+      "spineOrder": 18,
+      "paragraphs": 67,
+      "characters": 4509,
+      "headings": [
+        {
+          "ref": "text00320:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十三章"
+        }
+      ],
+      "textFile": "text00320.txt"
+    },
+    {
+      "documentId": "text00321",
+      "sourceHref": "OEBPS/text00321.html",
+      "spineOrder": 19,
+      "paragraphs": 88,
+      "characters": 8261,
+      "headings": [
+        {
+          "ref": "text00321:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十四章"
+        }
+      ],
+      "textFile": "text00321.txt"
+    },
+    {
+      "documentId": "text00322",
+      "sourceHref": "OEBPS/text00322.html",
+      "spineOrder": 20,
+      "paragraphs": 92,
+      "characters": 8296,
+      "headings": [
+        {
+          "ref": "text00322:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十五章"
+        }
+      ],
+      "textFile": "text00322.txt"
+    },
+    {
+      "documentId": "text00323",
+      "sourceHref": "OEBPS/text00323.html",
+      "spineOrder": 21,
+      "paragraphs": 90,
+      "characters": 6493,
+      "headings": [
+        {
+          "ref": "text00323:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十六章"
+        }
+      ],
+      "textFile": "text00323.txt"
+    },
+    {
+      "documentId": "text00324",
+      "sourceHref": "OEBPS/text00324.html",
+      "spineOrder": 22,
+      "paragraphs": 30,
+      "characters": 2486,
+      "headings": [
+        {
+          "ref": "text00324:p0001",
+          "tag": "h1",
+          "anchor": "split-heading-0",
+          "text": "➣ 第三部　黑暗女王"
+        },
+        {
+          "ref": "text00324:p0002",
+          "tag": "h2",
+          "anchor": "split-heading-1",
+          "text": "间奏"
+        }
+      ],
+      "textFile": "text00324.txt"
+    },
+    {
+      "documentId": "text00325",
+      "sourceHref": "OEBPS/text00325.html",
+      "spineOrder": 23,
+      "paragraphs": 91,
+      "characters": 8413,
+      "headings": [
+        {
+          "ref": "text00325:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十七章"
+        }
+      ],
+      "textFile": "text00325.txt"
+    },
+    {
+      "documentId": "text00326",
+      "sourceHref": "OEBPS/text00326.html",
+      "spineOrder": 24,
+      "paragraphs": 96,
+      "characters": 8887,
+      "headings": [
+        {
+          "ref": "text00326:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十八章"
+        }
+      ],
+      "textFile": "text00326.txt"
+    },
+    {
+      "documentId": "text00327",
+      "sourceHref": "OEBPS/text00327.html",
+      "spineOrder": 25,
+      "paragraphs": 96,
+      "characters": 9978,
+      "headings": [
+        {
+          "ref": "text00327:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第十九章"
+        }
+      ],
+      "textFile": "text00327.txt"
+    },
+    {
+      "documentId": "text00328",
+      "sourceHref": "OEBPS/text00328.html",
+      "spineOrder": 26,
+      "paragraphs": 130,
+      "characters": 10984,
+      "headings": [
+        {
+          "ref": "text00328:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第二十章"
+        }
+      ],
+      "textFile": "text00328.txt"
+    },
+    {
+      "documentId": "text00329",
+      "sourceHref": "OEBPS/text00329.html",
+      "spineOrder": 27,
+      "paragraphs": 83,
+      "characters": 7318,
+      "headings": [
+        {
+          "ref": "text00329:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第二十一章"
+        }
+      ],
+      "textFile": "text00329.txt"
+    },
+    {
+      "documentId": "text00330",
+      "sourceHref": "OEBPS/text00330.html",
+      "spineOrder": 28,
+      "paragraphs": 100,
+      "characters": 8929,
+      "headings": [
+        {
+          "ref": "text00330:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第二十二章"
+        }
+      ],
+      "textFile": "text00330.txt"
+    },
+    {
+      "documentId": "text00331",
+      "sourceHref": "OEBPS/text00331.html",
+      "spineOrder": 29,
+      "paragraphs": 62,
+      "characters": 6053,
+      "headings": [
+        {
+          "ref": "text00331:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第二十三章"
+        }
+      ],
+      "textFile": "text00331.txt"
+    },
+    {
+      "documentId": "text00332",
+      "sourceHref": "OEBPS/text00332.html",
+      "spineOrder": 30,
+      "paragraphs": 127,
+      "characters": 11622,
+      "headings": [
+        {
+          "ref": "text00332:p0001",
+          "tag": "h2",
+          "anchor": "split-heading-0",
+          "text": "第二十四章"
+        }
+      ],
+      "textFile": "text00332.txt"
+    },
+    {
+      "documentId": "text00333",
+      "sourceHref": "OEBPS/text00333.html",
+      "spineOrder": 31,
+      "paragraphs": 59,
+      "characters": 4234,
+      "headings": [
+        {
+          "ref": "text00333:p0001",
+          "tag": "h1",
+          "anchor": "split-heading-0",
+          "text": "➣ 尾声巫妖王"
+        },
+        {
+          "ref": "text00333:p0057",
+          "tag": "h4",
+          "anchor": "split-heading-1",
+          "text": "❀ 关于作者 ❀"
+        }
+      ],
+      "textFile": "text00333.txt"
+    }
+  ],
+  "metadata": {
+    "title": "迈向冰封王座：阿尔萨斯",
+    "language": "zh-CN",
+    "creator": "【美】克里斯蒂·高登"
+  },
+  "totalCharacters": 211181
+}

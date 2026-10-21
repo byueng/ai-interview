@@ -1,0 +1,20 @@
+{
+  "characterId": "arthas",
+  "sourceVersion": "epub-v1",
+  "type": "user_supplied_epub",
+  "title": "迈向冰封王座：阿尔萨斯",
+  "author": "克里斯蒂·高登",
+  "path": "E:\\魔兽官方小说\\12 迈向冰封王座：阿尔萨斯.epub",
+  "sha256": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+  "manifest": "source/epub-v1/manifest.json",
+  "coverage": "source-coverage.json",
+  "boundary": "叙事止于text00333:p0056；排除作者简介和作品外后续情节。",
+  "overviewArtwork": {
+    "mode": "reuse_existing",
+    "assetPath": "src/frontend/src/assets/allegory-mural.png",
+    "sha256": "482d280ba1b8845b6b8cb9e60f9f3640ef04114323336dcfd6203b1d1deafb39",
+    "generationRequired": false,
+    "selectionReason": "用户指定复用前端当前使用的总览图；cathedral.css 引用已核实。",
+    "interpretation": "全生涯寓意画，不作为小说具体事件的事实依据。"
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "researcher",
+  "scopeId": "middle",
+  "status": "completed",
+  "sourceVersion": "epub-v1",
+  "inputVersions": {
+    "sourceEPUB": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+    "text00315.json": "062ca8f0811e776932f7b616e44c529641ac553453d8ff54ecc2aa8193758046",
+    "text00315.txt": "0963608fc17ce15075999b94f4cb39ba8b5b7dee5eadfe971a3c337cbc12fb59",
+    "text00316.json": "8471330377c95dccdbe9c0570825a46b4c7897697819ff742b85ce8fdf46d911",
+    "text00316.txt": "d4aec5cf6109f7aa894eee9683d8abb8f4a97af32b6c135fefa29f456f8f204c",
+    "text00317.json": "3f3ea909495055d04902d7b05aaa30365a3d3dcd32fa792fe2f4eba4fb40c782",
+    "text00317.txt": "ba244436e89a0d8783d0654721189e795e0f667fc0f325d99fd7fc35a1016263",
+    "text00318.json": "4285a294a350b371767303e55f8ce4b22db3b326fb5142224e3fba4770f32517",
+    "text00318.txt": "b01d25976d0916998ea2bc0885766f5cb4ab9b0ab56c85f8598a43097990a067",
+    "text00319.json": "a1b11a6d0bff6bc30d0508d883fa77874dc913ade2523f3ffac0c487f22c8c2a",
+    "text00319.txt": "c802fbadc809b8ce18d3da01f96d325d7cc501874315beac9bef7e680f4b9553",
+    "text00320.json": "8a7b4ac0309ef11e1b4a932399c4b423adc4a16638c1a2f9ad323220fec84469",
+    "text00320.txt": "df680cb583967dca09684a0a63840af8ded458ce1cfe15e551a12c28a089fa66",
+    "text00321.json": "58559b357bdd02c6a4ce4c2e9e390e4f2f05d0efd5a513b863e0b0f61c42fa8f",
+    "text00321.txt": "60c6b53cea20d9a11489e205bed35cb4acb4a69fb3147d7f6516564afd5e6be5",
+    "text00322.json": "84b264faf25acc935e71c22aecb1fb93b4ae897f865c59be5d1935ebd3aab124",
+    "text00322.txt": "492a27bc4fedbf8b0f8a48055450c66ae9a0e83d54970d024e009ba3fb3dfc56",
+    "text00323.json": "55154fdea17ad550e6cc440ccbb9a0e12922e5d1cfd261719ce01c76b558217c",
+    "text00323.txt": "ea8d8259ffc109473064ea52c0a58922722c62847f35cb2929b64f71dbea94e4"
+  },
+  "coverage": [
+    {
+      "documentId": "text00315",
+      "chapter": 8,
+      "firstRef": "text00315:p0001",
+      "lastRef": "text00315:p0071",
+      "blockCount": 71,
+      "status": "fully_read",
+      "readMethod": "complete sequential blocks in bounded batches",
+      "sha256": "062ca8f0811e776932f7b616e44c529641ac553453d8ff54ecc2aa8193758046",
+      "txtSha256": "0963608fc17ce15075999b94f4cb39ba8b5b7dee5eadfe971a3c337cbc12fb59"
+    },
+    {
+      "documentId": "text00316",
+      "chapter": 9,
+      "firstRef": "text00316:p0001",
+      "lastRef": "text00316:p0099",
+      "blockCount": 99,
+      "status": "fully_read",
+      "readMethod": "complete sequential blocks in bounded batches",
+      "sha256": "8471330377c95dccdbe9c0570825a46b4c7897697819ff742b85ce8fdf46d911",
+      "txtSha256": "d4aec5cf6109f7aa894eee9683d8abb8f4a97af32b6c135fefa29f456f8f204c"
+    },
+    {
+      "documentId": "text00317",
+      "chapter": 10,
+      "firstRef": "text00317:p0001",
+      "lastRef": "text00317:p0095",
+      "blockCount": 95,
+      "status": "fully_read",
+      "readMethod": "complete sequential blocks in bounded batches",
+      "sha256": "3f3ea909495055d04902d7b05aaa30365a3d3dcd32fa792fe2f4eba4fb40c782",
+      "txtSha256": "ba244436e89a0d8783d0654721189e795e0f667fc0f325d99fd7fc35a1016263"
+    },
+    {
+      "documentId": "text00318",
+      "chapter": 11,
+      "firstRef": "text00318:p0001",
+      "lastRef": "text00318:p0160",
+      "blockCount": 160,
+      "status": "fully_read",
+      "readMethod": "complete sequential blocks in bounded batches",
+      "sha256": "4285a294a350b371767303e55f8ce4b22db3b326fb5142224e3fba4770f32517",
+      "txtSha256": "b01d25976d0916998ea2bc0885766f5cb4ab9b0ab56c85f8598a43097990a067"
+    },
+    {
+      "documentId": "text00319",
+      "chapter": 12,
+      "firstRef": "text00319:p0001",
+      "lastRef": "text00319:p0095",
+      "blockCount": 95,
+      "status": "fully_read",
+      "readMethod": "complete sequential blocks in bounded batches",
+      "sha256": "a1b11a6d0bff6bc30d0508d883fa77874dc913ade2523f3ffac0c487f22c8c2a",
+      "txtSha256": "c802fbadc809b8ce18d3da01f96d325d7cc501874315beac9bef7e680f4b9553"
+    },
+    {
+      "documentId": "text00320",
+      "chapter": 13,
+      "firstRef": "text00320:p0001",
+      "lastRef": "text00320:p0067",
+      "blockCount": 67,
+      "status": "fully_read",
+      "readMethod": "complete sequential blocks in bounded batches",
+      "sha256": "8a7b4ac0309ef11e1b4a932399c4b423adc4a16638c1a2f9ad323220fec84469",
+      "txtSha256": "df680cb583967dca09684a0a63840af8ded458ce1cfe15e551a12c28a089fa66"
+    },
+    {
+      "documentId": "text00321",
+      "chapter": 14,
+      "firstRef": "text00321:p0001",
+      "lastRef": "text00321:p0088",
+      "blockCount": 88,
+      "status": "fully_read",
+      "readMethod": "complete sequential blocks in bounded batches",
+      "sha256": "58559b357bdd02c6a4ce4c2e9e390e4f2f05d0efd5a513b863e0b0f61c42fa8f",
+      "txtSha256": "60c6b53cea20d9a11489e205bed35cb4acb4a69fb3147d7f6516564afd5e6be5"
+    },
+    {
+      "documentId": "text00322",
+      "chapter": 15,
+      "firstRef": "text00322:p0001",
+      "lastRef": "text00322:p0092",
+      "blockCount": 92,
+      "status": "fully_read",
+      "readMethod": "complete sequential blocks in bounded batches",
+      "sha256": "84b264faf25acc935e71c22aecb1fb93b4ae897f865c59be5d1935ebd3aab124",
+      "txtSha256": "492a27bc4fedbf8b0f8a48055450c66ae9a0e83d54970d024e009ba3fb3dfc56"
+    },
+    {
+      "documentId": "text00323",
+      "chapter": 16,
+      "firstRef": "text00323:p0001",
+      "lastRef": "text00323:p0090",
+      "blockCount": 90,
+      "status": "fully_read",
+      "readMethod": "complete sequential blocks in bounded batches",
+      "sha256": "55154fdea17ad550e6cc440ccbb9a0e12922e5d1cfd261719ce01c76b558217c",
+      "txtSha256": "ea8d8259ffc109473064ea52c0a58922722c62847f35cb2929b64f71dbea94e4"
+    }
+  ],
+  "events": [
+    {
+      "id": "m01",
+      "title": "冬幕节退缩",
+      "fact": "吉安娜已经被王室当作家人；谈到未来孩子时，阿尔萨斯因担心自己成为坏丈夫、坏国王而提出暂退回朋友关系。",
+      "sourceRefs": [
+        "text00315:p0003-text00315:p0009",
+        "text00315:p0017-text00315:p0048"
+      ],
+      "interpretation": "恐惧损坏美好关系促使他先退缩，不是已不爱吉安娜。",
+      "originalSetting": false
+    },
+    {
+      "id": "m02",
+      "title": "用训练压住失恋",
+      "fact": "萨尔出逃后，泰瑞纳斯询问阿尔萨斯看法；王子主动提出搜捕反叛兽人。分手后加倍投入训练和冥想，试图摆脱思念，父王同意让他上战场。",
+      "sourceRefs": [
+        "text00315:p0050-text00315:p0071"
+      ],
+      "interpretation": "军事进步与情感逃避在本章同时存在。",
+      "originalSetting": false
+    },
+    {
+      "id": "m03",
+      "title": "调查瘟疫时重逢",
+      "fact": "安东尼达斯派吉安娜调查魔法瘟疫，阿尔萨斯护送。两人共同讨论兽人与瘟疫的可能联系；夜间重申相爱，阿尔萨斯想象任务后婚礼与孩子。",
+      "sourceRefs": [
+        "text00316:p0020-text00316:p0027",
+        "text00316:p0029-text00316:p0099"
+      ],
+      "interpretation": "希望和信任是真实的当时状态，不应用后来的结局覆盖这段暖意。",
+      "originalSetting": false
+    },
+    {
+      "id": "m04",
+      "title": "复仇原则已有提醒",
+      "fact": "阿尔萨斯回忆兽人杀使者并献祭俘虏；乌瑟尔阻止他狂怒冲锋，提醒圣骑士不以复仇为原则。",
+      "sourceRefs": [
+        "text00316:p0052-text00316:p0060"
+      ],
+      "interpretation": "保护未成的负罪感与无敌之死发生联想，愤怒在取剑前已存在。",
+      "originalSetting": false
+    },
+    {
+      "id": "m05",
+      "title": "初遇亡灵与污染谷仓",
+      "fact": "调查农场遭行尸袭击，阿尔萨斯命吉安娜烧屋；随后发现粮仓周围土地死亡和安多哈尔印章，怀疑粮食传播瘟疫，命全员戴手套。",
+      "sourceRefs": [
+        "text00317:p0007-text00317:p0055"
+      ],
+      "interpretation": "他起初仍以保护臣民、谨慎调查与战术应变行动。触土后他没有在吉安娜体内感到瘟疫，不应写成已感染后治愈。",
+      "originalSetting": false
+    },
+    {
+      "id": "m06",
+      "title": "确定通灵师敌手",
+      "fact": "两名精灵牧师及达格奥的矮人炮手协助。黑袍活人指挥亡灵后开传送门逃走；众人摧毁仓库，判断通灵师以瘟疫制造军队，转向安多哈尔。",
+      "sourceRefs": [
+        "text00317:p0060-text00317:p0095"
+      ],
+      "interpretation": "早先怀疑兽人被新证据修正；不能把怀疑写成兽人制造瘟疫的事实。",
+      "originalSetting": false
+    },
+    {
+      "id": "m07",
+      "title": "杀死克尔苏加德仍来迟",
+      "fact": "克尔苏加德自称命诅咒教派散发染疫粮食，并指向玛尔加尼斯和斯坦索姆。安多哈尔粮仓已空；阿尔萨斯追上并与部下杀死他。",
+      "sourceRefs": [
+        "text00318:p0006-text00318:p0046"
+      ],
+      "interpretation": "人物把未能拦截归咎自己，杀掉执行者却未解除已散出的危机。敌人的主从说法应标注为其自述。",
+      "originalSetting": false
+    },
+    {
+      "id": "m08",
+      "title": "壁炉谷近身见证转化",
+      "fact": "阿尔萨斯催军急行、压缩吉安娜休息；抵达壁炉谷后派她求援，亲见吃过粮食的人急死再起。他当时因惊恐没有尝试治疗；随后奋战到乌瑟尔与吉安娜援军抵达。",
+      "sourceRefs": [
+        "text00318:p0048-text00318:p0111"
+      ],
+      "interpretation": "不应声称已用圣光验证瘟疫绝不可治。治疗问题在这里仍是疑问。",
+      "originalSetting": false
+    },
+    {
+      "id": "m09",
+      "title": "误读赞扬并拒绝西行",
+      "fact": "战后阿尔萨斯把乌瑟尔赞扬听成责备，独自离开；先知劝其带人民渡海西行，预警执意杀敌反会送人民入敌手。阿尔萨斯拒绝，隐身跟随的吉安娜继续劝告。",
+      "sourceRefs": [
+        "text00318:p0112-text00318:p0160"
+      ],
+      "interpretation": "王冠责任被他理解为独自扭转一切；乌瑟尔强调损害最小化和承认限度。先知此处未具名。",
+      "originalSetting": false
+    },
+    {
+      "id": "m10",
+      "title": "斯坦索姆决裂",
+      "fact": "闻到染疫面包味后阿尔萨斯认定全城感染，命净化；吉安娜提出感染人数、致死剂量未知并请求研究时间，乌瑟尔拒命。阿尔萨斯解除其统帅权和属下圣骑士军职，吉安娜随乌瑟尔离开。",
+      "sourceRefs": [
+        "text00319:p0013-text00319:p0067"
+      ],
+      "interpretation": "将亲近者拒绝屠杀理解为背叛，并以不能接受自己会是凶手来压下疑虑；不是证明他判断正确。",
+      "originalSetting": false
+    },
+    {
+      "id": "m11",
+      "title": "屠城与北方邀约",
+      "fact": "法瑞克支持免于亡灵化的死亡，留下士兵随王子屠杀活人及亡灵、焚屋。第一名活人死于战锤时圣光不再闪耀。玛尔加尼斯展示转化居民，之后邀他去诺森德；阿尔萨斯誓追至大地尽头。",
+      "sourceRefs": [
+        "text00319:p0069-text00319:p0095"
+      ],
+      "interpretation": "玛尔加尼斯的出现强化其自我确信，却不解决全城感染未知的问题；屠城痛苦并未使其停手。",
+      "originalSetting": false
+    },
+    {
+      "id": "m12",
+      "title": "吉安娜选择另一种救人",
+      "fact": "三日后吉安娜走访惨城，回忆拒绝阿尔萨斯共同北行。乌瑟尔得知王子私调舰队，准备告知国王。吉安娜接受先知西迁卡利姆多的建议。",
+      "sourceRefs": [
+        "text00320:p0002-text00320:p0067"
+      ],
+      "interpretation": "她仍爱阿尔萨斯，拒绝不等于感情消失；她与乌瑟尔的自责也不能被当作屠城责任归因。",
+      "originalSetting": false
+    },
+    {
+      "id": "m13",
+      "title": "诺森德重逢与寻剑",
+      "fact": "登陆匕鞘湾后阿尔萨斯梦见符文剑让无敌恢复健康；约两周搜寻后重逢穆拉丁，获知霜之哀伤线索。他隐去屠城细节，与矮人合作寻剑和恶魔。",
+      "sourceRefs": [
+        "text00321:p0002-text00321:p0052"
+      ],
+      "interpretation": "梦是他的预兆解释，不是已发生的复活；老友情短暂恢复温度，随后被复仇目的吸收。",
+      "originalSetting": false
+    },
+    {
+      "id": "m14",
+      "title": "焚舟与嫁祸",
+      "fact": "父王依乌瑟尔请求召回远征军，阿尔萨斯为阻止士兵回家，雇佣当地人烧舰队，然后诬称佣兵擅自焚舟并率先攻击他们。",
+      "sourceRefs": [
+        "text00321:p0053-text00321:p0088",
+        "text00322:p0002-text00322:p0007"
+      ],
+      "interpretation": "强迫部属留下和牺牲雇佣兵发生在握剑前，是不可省略的主动选择。穆拉丁参与路径引导和焚舟，却明确谴责嫁祸。",
+      "originalSetting": false
+    },
+    {
+      "id": "m15",
+      "title": "在重围中夺剑",
+      "fact": "玛尔加尼斯围攻营地，穆拉丁带阿尔萨斯突围寻剑。守卫说要保护他，穆拉丁读出损伤灵魂的诅咒警告；王子仍宣称愿付任何代价。",
+      "sourceRefs": [
+        "text00322:p0008-text00322:p0080"
+      ],
+      "interpretation": "声称拯救祖国逐渐与对死者复仇、不能再次失败混合；警告是明确获知而非完全不知情。",
+      "originalSetting": false
+    },
+    {
+      "id": "m16",
+      "title": "放弃治疗而握剑",
+      "fact": "冰壳爆裂使穆拉丁腹部受创。阿尔萨斯祈祷，圣光回应并包裹手掌；霜之哀伤飞到面前和耳语诱引，他停止治疗、握剑。",
+      "sourceRefs": [
+        "text00322:p0081-text00322:p0092"
+      ],
+      "interpretation": "此刻尚有其他选择的文本证据非常关键。只能写本段重伤、被王子认定死去，不外推矮人最终生死。",
+      "originalSetting": false
+    },
+    {
+      "id": "m17",
+      "title": "复仇完成与耳语延续",
+      "fact": "持剑王子回营击破亡灵，玛尔加尼斯说耳语来自黑暗之王。阿尔萨斯依耳语杀死惊愕的恶魔，随后向暴风雪核心走去。",
+      "sourceRefs": [
+        "text00323:p0002-text00323:p0032"
+      ],
+      "interpretation": "敌人死去没有让任务结束，支配与欲望反而延续；此段没有展开暴雪中具体经历。",
+      "originalSetting": false
+    },
+    {
+      "id": "m18",
+      "title": "归乡弑父与无敌复起",
+      "fact": "阿尔萨斯获胜归来，苍白面容与骨白头发已改变；王座厅弑父，后文确认并称卫士被当作凶手。广场杀戮后他到旧农场，以亡灵术唤起埋葬七年的无敌。",
+      "sourceRefs": [
+        "text00323:p0034-text00323:p0090"
+      ],
+      "interpretation": "玫瑰枯萎、婚礼想象与归乡屠杀形成反差；复活爱马让他确信自己从未犯错，是主观自我赦免，不是叙述认可。",
+      "originalSetting": false
+    }
+  ],
+  "relationships": [
+    {
+      "people": "吉安娜",
+      "change": "相爱但惧责任而分手→调查时复合、信任配合→劝阻被视作质疑→拒绝屠城被视作背叛→她仍爱他但选择救民西迁",
+      "refs": [
+        "text00315:p0021-text00315:p0047",
+        "text00316:p0088-text00316:p0099",
+        "text00319:p0052-text00319:p0067",
+        "text00320:p0051-text00320:p0065"
+      ]
+    },
+    {
+      "people": "乌瑟尔",
+      "change": "导师劝节制复仇→驰援并盼其学会有限责任→拒绝屠杀遭撤职→促国王召回→被王子归责为焚舟原因",
+      "refs": [
+        "text00316:p0056-text00316:p0060",
+        "text00318:p0113-text00318:p0129",
+        "text00319:p0039-text00319:p0051",
+        "text00321:p0055-text00321:p0077"
+      ]
+    },
+    {
+      "people": "穆拉丁",
+      "change": "重逢老友带来笑声→合作寻剑且未获知屠城全貌→得知后仍陪伴但谴责嫁祸→反复警告符文剑→重伤时被取剑愿望置后",
+      "refs": [
+        "text00321:p0019-text00321:p0049",
+        "text00322:p0002-text00322:p0007",
+        "text00322:p0062-text00322:p0090"
+      ]
+    },
+    {
+      "people": "泰瑞纳斯及士兵",
+      "change": "父亲信任他上战场；士兵因其关怀而忠诚；他逐渐把召回当作阻挠，以烧船剥夺士兵选择，最后回宫弑父、使欢迎民众受害",
+      "refs": [
+        "text00315:p0062-text00315:p0071",
+        "text00320:p0019-text00320:p0024",
+        "text00321:p0062-text00321:p0088",
+        "text00323:p0041-text00323:p0060"
+      ]
+    },
+    {
+      "people": "无敌",
+      "change": "本范围以回忆、梦、尸马触发旧日负罪感；取剑后实际唤起亡灵马，再将旧日过失重释为宿命",
+      "refs": [
+        "text00316:p0059",
+        "text00318:p0111",
+        "text00321:p0010-text00321:p0011",
+        "text00323:p0074-text00323:p0086"
+      ]
+    }
+  ],
+  "subtitle": {
+    "origin": "pending",
+    "text": null,
+    "sourceRef": null,
+    "candidates": [],
+    "checkedScope": "text00315–text00323全部段落；每文件标题只有第八章至第十六章，未见独立原作副标题。第二部分部标题不在本块，须由整合员核对分部页。",
+    "note": "章末“直到大地的尽头”“所向无敌”为正文措辞，不自动视为原作副标题；如引用只能标正文引句，不能冒称原作副标题。",
+    "bodyPhraseRefs": [
+      "text00319:p0095",
+      "text00323:p0090"
+    ],
+    "reviewStatus": "pending"
+  },
+  "publicationAndArtSuggestions": {
+    "sourceChunkIsPublicationUnit": false,
+    "suggestion": "用户第二部分篇可保留统一篇章，并在篇内以重逢与救护、斯坦索姆决裂、北地取剑和归乡三个重心推进；若策划允许拆篇，斯坦索姆为自然转折，但不能未经用户批准固定分篇。",
+    "focus": "从不愿失去任何人的保护冲动，走向替所有人决定代价，再到拒认错误。",
+    "toneProgression": [
+      "冬幕节温情中不安",
+      "调查重逢的希望",
+      "救援的恐惧与急迫",
+      "斯坦索姆道德决裂",
+      "诺森德短暂友谊与冷硬",
+      "握剑及归乡的悲剧反讽"
+    ],
+    "chapterSceneCandidates": [
+      {
+        "scene": "阿尔萨斯与吉安娜在污染谷仓旁检查死土",
+        "refs": [
+          "text00317:p0043-text00317:p0058"
+        ],
+        "limits": "仍金发、圣骑士战锤，无霜之哀伤；保留合作与担忧的气氛。"
+      },
+      {
+        "scene": "斯坦索姆城外伸手未被接住",
+        "refs": [
+          "text00319:p0052-text00319:p0061"
+        ],
+        "limits": "雨天、战锤，吉安娜和乌瑟尔离去；不画成王子已握霜之哀伤。"
+      },
+      {
+        "scene": "冰洞中圣光治疗的手与漂浮符文剑之间的选择",
+        "refs": [
+          "text00322:p0083-text00322:p0090"
+        ],
+        "limits": "明确主场景为文本中的转向瞬间；穆拉丁受伤，避免以无依据死亡后状态作定论。"
+      },
+      {
+        "scene": "归乡枯萎玫瑰花瓣",
+        "refs": [
+          "text00323:p0037-text00323:p0047"
+        ],
+        "limits": "此时头发骨白、面容苍白；对照婚礼为内心想象，不把吉安娜画成现场人物。"
+      }
+    ],
+    "imageMode": "chapter_scene",
+    "style": "中世纪彩绘玻璃；不嵌文字；最终绘图等待正文及副标题审核",
+    "overviewUse": "经整合确认后，可将玫瑰、战锤、霜之哀伤和亡灵马作明确象征性命运概括，不能混作同一真实场景。"
+  },
+  "reviewFindings": [
+    "本块所有857段完整阅读，按顺序分批输出，无截断。",
+    "仅使用指定EPUB提取JSON正文；未联网，未用记忆补剧情。",
+    "事实与解读分栏；人物判断、敌人口述、梦境及回忆不可无条件改为客观事实。",
+    "全城感染、瘟疫可治性、穆拉丁最终命运、暴雪中经历均有证据边界。"
+  ],
+  "uncovered": [
+    "text00302–text00314及text00324–text00333未阅读。",
+    "第二部分部页的原作标题/副标题待其他阅读块确认。",
+    "本范围之外的角色结局、历史版本差异均不补写。"
+  ]
+}

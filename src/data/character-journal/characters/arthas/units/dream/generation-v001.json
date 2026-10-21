@@ -1,0 +1,30 @@
+{
+  "runId": "arthas-20261021-02",
+  "unitId": "dream",
+  "role": "illustrator",
+  "status": "generated_pending_review",
+  "tool": "image_gen.imagegen",
+  "model": "built-in default; not exposed",
+  "originalPath": "C:\\Users\\76353\\.codex\\generated_images\\01a15d8b-40bc-7972-a022-5acd17132f5f\\exec-90daeff7-0b84-4d58-94bc-947163c0c8a5.png",
+  "outputPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dream\\images\\cover-v001.png",
+  "outputSha256": "b8e5b3ea8dd14937abe8ed08b2e3ee22fe58bdf617ebd5fa9c1fd69287bdb90e",
+  "prompt": "制作一张横向16:9的完整中世纪彩绘玻璃作品，单一连续空间，无拼贴分镜。人物面孔、手、衣物、道具、建筑和背景全部由清晰深色铅条分割的彩色玻璃构成；扁平而有表情的中世纪造型，透光宝石色、细微玻璃气泡及不均匀纹理，拒绝摄影写实、塑料质感和普通插画外加玻璃边框。让铅条与故事轮廓融合，装饰性拱线仅服务空间。所有面孔、手势和关键道具完整位于画面横向15%至85%、纵向12%至88%的安全区；四边保留可裁切背景，锤顶等道具不得贴边。No text, no lettering, no readable runes, no captions, no watermark, no logo, no UI。不添加现实宗教十字架或无关圣像。\n\n在一座梦中的宽阔木梁大厅内，一张沉重雕花长桌连接且只容纳画中三位角色：远端中央略高的宽大雕花椅上坐着成年男人，衣着暗蓝、灰白长发，双臂向两侧微张；注意这把椅子不是王座，无王冠。按男人自身左侧坐着老迈但强壮的兽人，粗大下颌，脸上骷髅彩绘，姿态强势。另一侧是清瘦金发男孩，眼睛呈灰绿而略有白翳，面容苍白虚弱，刚用双手撑扶椅沿爬回座椅，抬头看向男人，目光仍有一点希望，不绝望。用瘦削与低垂肩膀表达病弱，不画脓疮、血痰和裸露伤口。背景一个大壁炉燃烧琥珀橘金色火焰，石地铺毛皮，龙头木雕承托火把；一扇敞开的门卷入冰蓝风雪，与炉火构成同一大厅的冷暖交界。长桌透视将三人连接；冰蓝和深紫围住暖火，为男孩的面容保留微暖光。梦境略有波动的玻璃线条，不能画成真实宫廷会议。没有刺杀动作、魔剑、冰封王座、其他客人或旁观者。",
+  "subtitle": {
+    "text": "梦",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00306:p0001",
+      "heading": "➣ 序章：梦"
+    },
+    "selectionReason": "原样复用序章题名中的主题词，适合全篇梦境框架；序章是结构标签，另存sourceLabel。",
+    "reviewStatus": "approved"
+  },
+  "inputVersions": {
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\story.md": "5fe731c9fb2e1112be60e558eac5dd311efe76c4e57db7cdbe90027156d874d1",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\profile.json": "1ac35da37ed853c21c77853894cd30fe703e163f3d7739778a33d0d53bdf9913",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\art-brief.md": "1ea90810779972a8224593bb9f3dadb81c75b4362289cc57cd2ef3eea97161c7",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\generation-prompt.txt": "9eabdfac7e0771a2f18f5fe29dcd3ba35278578267e4cc519da4cd1d2b69e063"
+  },
+  "retryCount": 0
+}

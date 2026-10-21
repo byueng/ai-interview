@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "visual_reviewer",
+  "scopeId": "lady-of-light",
+  "unitId": "lady-of-light",
+  "status": "approved_with_display_constraints",
+  "imageDecision": "approved",
+  "pageDecision": "not_verified",
+  "inspectionMethod": "view_image实际查看原图，读取已审核正文/profile、art-brief及generation；overview原图在此前准备批次已经实际观察。",
+  "imagePath": "src/data/character-journal/characters/arthas/units/lady-of-light/images/cover-v001.png",
+  "imageSha256": "368bde2007b4d3f630a1aa029063985a72b47f2de30abcc57c385f723f4edc3a",
+  "inputVersions": {
+    "src/data/character-journal/characters/arthas/units/lady-of-light/story.md": "4e8ba57ba113c4970a73923093b5d90c6f46573563d683075c55bf7de6a05adb",
+    "src/data/character-journal/characters/arthas/units/lady-of-light/profile.json": "b6c82eca02ab9946b781f36bc49f89a7fad12bdb6e7bec407ec5e3e52214a075",
+    "src/data/character-journal/characters/arthas/units/lady-of-light/art-brief.md": "ee7dccf9bb9cec2db4b6dec2cfc5c428c3c24ea21eef5f52d9068d206bec1834",
+    "src/data/character-journal/characters/arthas/units/lady-of-light/generation.json": "a3d6558be180031277d0d7869681a233c19ae7a1e7032c2ef7af777519cf250c",
+    "src/data/character-journal/characters/arthas/units/lady-of-light/images/cover-v001.png": "368bde2007b4d3f630a1aa029063985a72b47f2de30abcc57c385f723f4edc3a",
+    "src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/visual_reviewer.txt": "420cd4ff3e657aa1484c008c419e78d13b23bb50d413dcf01b74846931591855"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00312",
+      "startRef": "text00312:p0001",
+      "endRef": "text00312:p0021"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00313",
+      "startRef": "text00313:p0001",
+      "endRef": "text00313:p0101"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00314",
+      "startRef": "text00314:p0001",
+      "endRef": "text00314:p0074"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00315",
+      "startRef": "text00315:p0001",
+      "endRef": "text00315:p0071"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00316",
+      "startRef": "text00316:p0001",
+      "endRef": "text00316:p0099"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00317",
+      "startRef": "text00317:p0001",
+      "endRef": "text00317:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00318",
+      "startRef": "text00318:p0001",
+      "endRef": "text00318:p0160"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00319",
+      "startRef": "text00319:p0001",
+      "endRef": "text00319:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00320",
+      "startRef": "text00320:p0001",
+      "endRef": "text00320:p0067"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00321",
+      "startRef": "text00321:p0001",
+      "endRef": "text00321:p0088"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00322",
+      "startRef": "text00322:p0001",
+      "endRef": "text00322:p0092"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00323",
+      "startRef": "text00323:p0001",
+      "endRef": "text00323:p0090"
+    }
+  ],
+  "subtitle": {
+    "text": "光明女士",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00312:p0001",
+      "heading": "➣ 第二部　光明女士"
+    },
+    "selectionReason": "原样复用第二部题名；吉安娜的爱、判断与拒绝贯穿王子从希望走向决裂的阶段，不将她简化为失恋诱因。",
+    "reviewStatus": "approved"
+  },
+  "checks": [
+    {
+      "item": "storyConsistency",
+      "result": "pass",
+      "evidence": "实际观察城外雨中分离：金发圣骑士伸铁手套，金发女子骑马离去，年长圣骑士在前；两人手未相握，城中无火灾屠杀。"
+    },
+    {
+      "item": "charactersAndProps",
+      "result": "pass",
+      "evidence": "阶段为金发活人圣骑士、法师与年长导师，两匹马、手套及蓝灰旅行衣可辨；无魔剑、巫妖王盔。"
+    },
+    {
+      "item": "specificReinConnection",
+      "result": "not_verified",
+      "evidence": "图中乌瑟尔握着缰绳，但画面线条重叠，不能完全确认其中一条接到吉安娜的马；引领离开的整体关系清楚，此细节不推断为已证实。"
+    },
+    {
+      "item": "composition",
+      "result": "pass",
+      "evidence": "同一雨中空间，伸手与离去人物之间的空隙是焦点；无分镜。"
+    },
+    {
+      "item": "leadSegmentation",
+      "result": "pass",
+      "evidence": "人物、衣饰、建筑、天空和地面/海面均由清晰深色铅条分块。"
+    },
+    {
+      "item": "translucentGlass",
+      "result": "pass",
+      "evidence": "宝石色冷暖玻璃与不均匀纹理清楚；不呈摄影或塑料质感。"
+    },
+    {
+      "item": "medievalDecoration",
+      "result": "pass",
+      "evidence": "拱饰和窗花秩序服务整体构图。"
+    },
+    {
+      "item": "noEmbeddedText",
+      "result": "pass",
+      "evidence": "未见可读标题、水印或UI；总览剑上符号为装饰纹样而非可读正文。"
+    },
+    {
+      "item": "aspectRatio",
+      "result": "pass",
+      "evidence": "实际PNG 1672×941，保留原比例。"
+    },
+    {
+      "item": "cropSafetyInImage",
+      "result": "pass",
+      "evidence": "边缘人物下身与马身属于原构图取景；关键面孔、伸手和两人距离完整。统一采用完整原比例展示，不另裁切。"
+    },
+    {
+      "item": "pageCrop",
+      "result": "not_verified",
+      "evidence": "尚未查看真实页面；需协调员验证width:100%;height:auto及无cover裁切。"
+    },
+    {
+      "item": "fileExists",
+      "result": "pass",
+      "evidence": "已调用view_image实际观察本地原图，不凭prompt判断。"
+    },
+    {
+      "item": "versionConsistency",
+      "result": "pass",
+      "evidence": "实际图片与generation的SHA256一致；上游正文、profile、brief哈希与副标题一致。"
+    }
+  ],
+  "reviewFindings": [
+    {
+      "severity": "display_constraint",
+      "detail": "边缘人物下身与马身属于原构图取景；关键面孔、伸手和两人距离完整。统一采用完整原比例展示，不另裁切。"
+    },
+    {
+      "id": "V-LIGHT-REIN",
+      "severity": "non_blocking_observation",
+      "detail": "具体缰绳逐线连接未验证，不阻断核心：两骑离去、乌瑟尔前方引领、吉安娜未握王子之手已可辨；不宣称逐线核验通过。"
+    }
+  ],
+  "displayConstraints": [
+    "width:100%;height:auto",
+    "禁止cover裁切，保留原图完整比例",
+    "页面保持人物关系与伸手空隙"
+  ],
+  "nextRole": "coordinator",
+  "retryCount": 0
+}

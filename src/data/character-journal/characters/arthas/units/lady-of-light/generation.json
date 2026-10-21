@@ -1,0 +1,30 @@
+{
+  "runId": "arthas-20261021-02",
+  "unitId": "lady-of-light",
+  "role": "illustrator",
+  "status": "pending_visual_review",
+  "mode": "generated",
+  "tool": "image_gen.imagegen",
+  "model": "built-in default; not exposed",
+  "originalPath": "C:\\Users\\76353\\.codex\\generated_images\\01a15d8b-40bc-7972-a022-5acd17132f5f\\exec-1977e76f-23db-4afd-9946-e4270d9d7dfe.png",
+  "outputPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\lady-of-light\\images\\cover-v001.png",
+  "outputSha256": "368bde2007b4d3f630a1aa029063985a72b47f2de30abcc57c385f723f4edc3a",
+  "prompt": "制作一张横向16:9的完整中世纪彩绘玻璃作品，单一连续空间，无拼贴分镜。人物面孔、手、衣物、道具、建筑和背景全部由清晰深色铅条分割的彩色玻璃构成；扁平而有表情的中世纪造型，透光宝石色、细微玻璃气泡及不均匀纹理，拒绝摄影写实、塑料质感和普通插画外加玻璃边框。让铅条与故事轮廓融合，装饰性拱线仅服务空间。所有面孔、手势和关键道具完整位于画面横向15%至85%、纵向12%至88%的安全区；四边保留可裁切背景，锤顶等道具不得贴边。No text, no lettering, no readable runes, no captions, no watermark, no logo, no UI。不添加现实宗教十字架或无关圣像。\n\n画斯坦索姆城外雨中的单一告别场景，选择吉安娜已经骑上马、乌瑟尔牵着她的缰绳引领离开这一刻。左侧金发青年圣骑士阿尔萨斯穿着厚重铠甲，站在原地，戴铁手套的一只手仍向离去方向伸出，表情震惊和痛苦，不是胜利姿态。右侧金发吉安娜穿端庄蓝灰长袍与旅行披风，骑马背向他，微侧的脸上悲伤而坚决，双手握住鞍头；没有握住阿尔萨斯的手。沉着的年长圣骑士乌瑟尔骑在稍前的位置，一只手牵着吉安娜的马缰，正在带她离开。三人处于同一雨中空间；阿尔萨斯伸出的手与吉安娜之间留出一段可见的空隙作为焦点。远处是尚未被攻入的城市轮廓，少量肃立士兵退在背景；没有城内大火或屠杀现场。残余暖金落在伸出的手，蓝灰包围离去的人，少量沉红压低气氛，仍清晰可辨而非全黑。画面表达吉安娜主动拒绝暴行，不把她画成无助装饰。不要霜之哀伤、骨白头发、亡灵形态、巫妖王头盔、同时展开的战斗或血腥。",
+  "subtitle": {
+    "text": "光明女士",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00312:p0001",
+      "heading": "➣ 第二部　光明女士"
+    },
+    "selectionReason": "原样复用第二部题名；吉安娜的爱、判断与拒绝贯穿王子从希望走向决裂的阶段，不将她简化为失恋诱因。",
+    "reviewStatus": "approved"
+  },
+  "inputVersions": {
+    "src\\data\\character-journal\\characters\\arthas\\units\\lady-of-light\\story.md": "4e8ba57ba113c4970a73923093b5d90c6f46573563d683075c55bf7de6a05adb",
+    "src\\data\\character-journal\\characters\\arthas\\units\\lady-of-light\\profile.json": "b6c82eca02ab9946b781f36bc49f89a7fad12bdb6e7bec407ec5e3e52214a075",
+    "src\\data\\character-journal\\characters\\arthas\\units\\lady-of-light\\art-brief.md": "ee7dccf9bb9cec2db4b6dec2cfc5c428c3c24ea21eef5f52d9068d206bec1834"
+  },
+  "retryCount": 0
+}

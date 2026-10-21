@@ -1,0 +1,15 @@
+{
+  "unitId": "golden-boy",
+  "imagePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\images\\cover-v002.png",
+  "imageSha256": "0e654fd8d41881b60b02aaf19c6c3f0a60ff389c922e47a354b95616ddd83e0b",
+  "status": "reviewed_pending_user_feedback",
+  "observations": [
+    "原图的圣像人物、光环与主教冠已去除",
+    "三位主要人物面部可见玻璃拼块",
+    "低头单膝跪地、宽阔构图保留"
+  ],
+  "limitations": [
+    "远处小人物脸部细节弱于主要人物",
+    "本轮未做浏览器视觉验收"
+  ]
+}

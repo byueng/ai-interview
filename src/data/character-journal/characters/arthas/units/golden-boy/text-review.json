@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "text_reviewer",
+  "scopeId": "golden-boy",
+  "unitId": "golden-boy",
+  "status": "approved",
+  "decision": "approved",
+  "inputVersions": {
+    "src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "src/data/character-journal/characters/arthas/reading/early.json": "6dc22dff137d9c6f4307bbe4d13a9f11f6b77308574ebefc0c41c5e3ba23d403",
+    "src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/writer.txt": "33007889b16fd825bedd87c9d8b99144369f01db03c346c2a441c743a9db1d15",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00307.json": "860c8e22d46f1a4c599191a78607c1d620fe798613b8806e1a6a0f39d38165a1",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00308.json": "1e1b1057a9cdb8057fcb133669866dc5e33380ff47f18289aead65fc19ee1efd",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00309.json": "e8cf60ad49c3b877ad9a5a8562d6042267b7b29c464f34a73ad7e6131f1b06ab",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00310.json": "f501107202feae0eb05a1d8688cbfb8bed465a831f8806ff0465f6ac7284289c",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00311.json": "cdf1bc77aa89100c8393c6b94f368e78760588f77e2bc5253439e4ccd6af25a6",
+    "src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\story.md": "af21d44dcafc9d7a2be10f9eb3770a33073cea8a8d54a4fa26836e105afdb540",
+    "src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\profile.json": "4e3923291cc4bcf8f14792b9e3b350f94c08442a379fdd8c4d953d4f05dce423",
+    "src\\data\\character-journal\\workflow\\runs\\arthas-20261021-02\\delegations\\text_reviewer.txt": "5030db65e22edf97b940660c70a350420cec8b513935503e8572cf8bb0f6ebe0",
+    "src/workflows/character-journal/workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00307",
+      "startRef": "text00307:p0001",
+      "endRef": "text00307:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00308",
+      "startRef": "text00308:p0001",
+      "endRef": "text00308:p0090"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00309",
+      "startRef": "text00309:p0001",
+      "endRef": "text00309:p0112"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00310",
+      "startRef": "text00310:p0001",
+      "endRef": "text00310:p0093"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00311",
+      "startRef": "text00311:p0001",
+      "endRef": "text00311:p0050"
+    }
+  ],
+  "reviewMethod": "独立完整读取text00307至text00311全部正文块，并逐段对照稿件与profile；未改被审稿件。",
+  "checks": [
+    {
+      "id": "structure",
+      "status": "passed",
+      "finding": "标题、三节名称及顺序符合采用目录；按主题回收早年骑马经历，没有把叙事编排声明为严格逐年顺序。",
+      "sourceRefs": [
+        "text00308:p0042",
+        "text00309:p0071"
+      ]
+    },
+    {
+      "id": "subtitle",
+      "status": "passed",
+      "finding": "黄金男孩与原文第一部分题名完全一致；第一部另存sourceLabel；正文与profile一致。审核通过后由协调员更新pending，本审核不改profile。",
+      "sourceRefs": [
+        "text00307:p0001"
+      ]
+    },
+    {
+      "id": "childhood",
+      "status": "passed",
+      "finding": "正文第1–7段：产驹、平民友谊、父王听取诉求、安慰瓦里安、训练与吉安娜营地对照均有原文依据；仁政榜样及同情边界属于文内分析。",
+      "sourceRefs": [
+        "text00307:p0004",
+        "text00307:p0009",
+        "text00307:p0059",
+        "text00307:p0093",
+        "text00308:p0086",
+        "text00309:p0040",
+        "text00309:p0071"
+      ]
+    },
+    {
+      "id": "protection_and_prejudice",
+      "status": "passed",
+      "finding": "正文第8–11段：过早骑乘受伤、隐瞒、佳莉娅婚事压力、塔蕾莎遭遇与角斗场态度同时保留，未把善意改写为普遍无偏见。",
+      "sourceRefs": [
+        "text00308:p0053",
+        "text00308:p0058",
+        "text00309:p0107",
+        "text00310:p0021",
+        "text00310:p0053",
+        "text00310:p0055"
+      ]
+    },
+    {
+      "id": "invincible",
+      "status": "passed",
+      "finding": "正文第12–15段：将满十九岁前的冬天；后蹄滑倒但前腿碎裂；治疗者外出与风雪阻断及时救援；自责、刺心止痛、获救后隐瞒及誓言均成立。",
+      "sourceRefs": [
+        "text00310:p0062",
+        "text00310:p0067",
+        "text00310:p0072",
+        "text00310:p0075",
+        "text00310:p0076",
+        "text00310:p0079",
+        "text00310:p0084",
+        "text00310:p0091",
+        "text00310:p0093"
+      ]
+    },
+    {
+      "id": "light",
+      "status": "passed",
+      "finding": "正文第16–19段：乌瑟尔承认人皆有瑕疵、受封短暂等待后真实获得圣光、银锤减重和欢呼均准确；没有把荣耀说成虚假。末段父王今天自豪后的疑问按人物内心理解，与原文内心独白对应。",
+      "sourceRefs": [
+        "text00311:p0008",
+        "text00311:p0024",
+        "text00311:p0039",
+        "text00311:p0040",
+        "text00311:p0042",
+        "text00311:p0047"
+      ]
+    },
+    {
+      "id": "interpretation_boundary",
+      "status": "passed",
+      "finding": "没有补入后世武器、外部设定或用结局判定童年天性；失马的心理影响明确是分析，不把单次创伤当作堕落的必然原因。情绪与亲友温暖符合本篇基调。",
+      "sourceRefs": [
+        "text00310:p0092",
+        "text00310:p0093",
+        "text00311:p0040"
+      ]
+    }
+  ],
+  "lengthCheck": {
+    "status": "passed",
+    "method": "Unicode U+4E00–U+9FFF汉字计数，含标题及小节名",
+    "actual": 2368,
+    "expectedMin": 2200,
+    "expectedMax": 2800,
+    "profileCountMatches": true
+  },
+  "subtitle": {
+    "text": "黄金男孩",
+    "origin": "original",
+    "sourceRef": "text00307:p0001",
+    "reviewStatus": "approved"
+  },
+  "reviewFindings": [],
+  "nextRole": "coordinator",
+  "retryCount": 0,
+  "gate": "仅本分篇文本通过。协调员须完成其余分篇、跨篇一致性及总览校核后再按阶段依赖推进最终绘图。"
+}
