@@ -17,8 +17,8 @@ from backend.cli import create_app
 from backend.errors import InterviewError, StorageError
 from backend.interview_service import run_turn, save_state_snapshot
 from backend.storage import data_directory
-from interview_agent.agent import InterviewAgent
-from interview_agent.graph_builder import graph_build
+from agent_system.InterviewAgent.interviewagent import InterviewAgent
+from agent_system.graph_builder import graph_build
 from runtime import Runtime
 from schemas import AgentRequest
 

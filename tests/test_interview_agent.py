@@ -11,9 +11,9 @@ from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langgraph.checkpoint.memory import InMemorySaver
 
 from backend.interview_service import run_turn
-from interview_agent.agent import InterviewAgent
-from interview_agent.graph_builder import graph_build
-from interview_agent.model_config import ModelConfig, ModelConfigError
+from agent_system.InterviewAgent.interviewagent import InterviewAgent
+from agent_system.graph_builder import graph_build
+from agent_system.model_config import ModelConfig, ModelConfigError
 from schemas import AgentRequest, Candidate, Interviewer, TaskState
 
 

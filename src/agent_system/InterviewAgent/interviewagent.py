@@ -1,35 +1,9 @@
-from abc import ABC, abstractmethod
-from langchain_core.language_models.chat_models import BaseChatModel
-from langchain_core.messages import AIMessage, SystemMessage
-from langchain_openai import ChatOpenAI
-from typing import Any, TypedDict
-from dataclasses import asdict, dataclass, field
 
-from interview_agent.model_config import ModelConfig
+from langchain_core.messages import SystemMessage, AIMessage
+
 from schemas import Candidate, Interviewer, TaskState
-from interview_agent.prompts.prompt_faction import render_prompt
-
-def _create_llm() -> BaseChatModel:
-    return ChatOpenAI(**asdict(ModelConfig.validate_dotfile()))
-
-
-class InterviewUpdate(TypedDict):
-    messages: list[AIMessage]
-    chat_round: int
-
-
-@dataclass
-class Agent(ABC):
-    # 创建 Agent 时才加载客户端；允许测试注入模型，不在对象上保存会话状态。
-    llm: BaseChatModel = field(default_factory=_create_llm)
-
-    @abstractmethod
-    def load_prompt(self, *args: Any, **kwargs: Any) -> Any:
-        ...
-
-    @abstractmethod
-    async def __call__(self, *args: Any, **kwds: Any) -> Any:
-        ...
+from agent_system.prompts.prompt_faction import render_prompt
+from agent_system.agent import Agent, InterviewUpdate
 
 class InterviewAgent(Agent):
     def load_prompt(self, state: TaskState) -> str:
@@ -57,17 +31,3 @@ class InterviewAgent(Agent):
             raise TypeError("面试模型必须返回 AIMessage。")
         # 成功后才返回状态更新；失败不会推进轮次。
         return {"messages": [result], "chat_round": state.chat_round + 1}
-
-
-class AssessAgent(Agent):
-    pass
-
-class EvaluateAgent(Agent):
-    pass
-
-class AssistantAgent(Agent):
-    def load_prompt(self, *args: Any, **kwargs: Any) -> Any:
-        return super().load_prompt(*args, **kwargs)
-    
-    def __call__(self, *args: Any, **kwds: Any) -> Any:
-        pass

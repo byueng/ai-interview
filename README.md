@@ -103,7 +103,7 @@ ai-interview/
 │   ├── runtime.py        # 运行时资源组装
 │   ├── schemas.py        # 请求、配置与图状态模型
 │   ├── backend/          # 路由、业务服务与文件写入
-│   ├── interview_agent/  # Agent、执行图、提示词与模型配置
+│   ├── agent_system/     # Agent、执行图、提示词与模型配置
 │   ├── frontend/         # Vue 前端
 │   └── data/             # 本地生成数据，不纳入版本控制
 ├── tests/                # 后端测试

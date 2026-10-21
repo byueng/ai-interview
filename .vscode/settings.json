@@ -1,3 +1,4 @@
 {
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "python.defaultInterpreterPath": "E:\\program\\ai-interview\\.venv\\Scripts\\python.exe"
 }

@@ -1,7 +1,7 @@
 from langgraph.graph import StateGraph, END, START
 from langgraph.checkpoint.base import BaseCheckpointSaver
 from langgraph.graph.state import CompiledStateGraph
-from interview_agent.agent import InterviewAgent
+from agent_system.InterviewAgent.interviewagent import InterviewAgent
 from schemas import TaskState
 
 

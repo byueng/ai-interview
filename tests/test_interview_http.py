@@ -14,8 +14,8 @@ from backend.cli import create_app
 from backend.errors import SessionGoneError
 from backend.interview_service import create_session, end_session, graph_config_build, session_snapshot
 from backend.storage import data_directory
-from interview_agent.agent import InterviewAgent
-from interview_agent.graph_builder import graph_build
+from agent_system.InterviewAgent.interviewagent import InterviewAgent
+from agent_system.graph_builder import graph_build
 from runtime import Runtime
 
 
