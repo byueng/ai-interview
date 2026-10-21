@@ -89,8 +89,7 @@ npm.cmd run dev
 完成依赖安装后，在另一个 PowerShell 窗口从仓库根目录执行后端测试：
 
 ```powershell
-Set-Location .\src
-..\.venv\Scripts\python.exe -m unittest discover -s ..\tests -v
+.\.venv\Scripts\python.exe scripts/test_backend.py
 ```
 
 前端测试与构建检查，另开 PowerShell 窗口并从仓库根目录执行：
@@ -103,3 +102,7 @@ npm.cmd run build
 
 上述命令尚待 Windows 实机验证；即使模拟测试与构建通过，也不等于真实模型或完整 HTTP 链路验收通过。验证范围见[开发检查说明](../../README.md#开发检查)。
 注：如果更新代码后前端提示缺少依赖，请在 `src/frontend` 目录执行 `npm ci`，然后重启开发服务；如仍无法解决，请提交 Issue 并附上报错信息。
+
+### 后端测试停在第一项
+
+使用上面的测试入口先检查本机回环连接与 asyncio 初始化，预检最多 10 秒，测试最多 180 秒。Windows 的 TestClient 即使使用模拟模型，也需要异步事件循环的本机套接字；若出现 WinError 10013，表示当前执行环境拒绝套接字访问，不是业务断言失败。请在普通本机 PowerShell 中重试该命令；如果仍失败，检查本机安全软件或网络权限。不要通过跳过测试把环境故障标为验收通过。

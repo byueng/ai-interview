@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "writer",
+  "scopeId": "golden-boy",
+  "unitId": "golden-boy",
+  "kind": "section",
+  "displayOrder": 2,
+  "title": "第一篇：被寄予厚望的王子",
+  "sourceLabel": "第一部",
+  "subtitle": {
+    "text": "黄金男孩",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00307:p0001",
+      "heading": "➣ 第一部　黄金男孩"
+    },
+    "selectionReason": "原样复用第一部主题题名，覆盖童年成长到受封荣耀，保留早期真实光明。",
+    "reviewStatus": "approved"
+  },
+  "focus": "亲情、友谊、训练与责任如何塑造王子；失去无敌的负罪感与受封的真实喜悦并置。",
+  "tone": "温暖、明亮、少年意气；局部失落深重，但结尾有受封荣耀与希望。",
+  "keyEvents": [
+    "与无敌相伴",
+    "父亲与导师的期待、初识吉安娜",
+    "雪中失马、亲手终止痛苦与誓愿",
+    "圣光回应，加入白银之手"
+  ],
+  "interpretiveAngle": "失马是心理线索，不是注定堕落的判词；师长既约束也关爱。",
+  "subsections": [
+    "王子的世界",
+    "无敌与失去",
+    "圣光中的新骑士"
+  ],
+  "suggestedLength": {
+    "min": 2200,
+    "max": 2800,
+    "unit": "中文字，约数"
+  },
+  "imageMode": "chapter_scene",
+  "imageDirection": {
+    "count": 1,
+    "medium": "中世纪彩绘玻璃",
+    "scene": "受封仪式中，金发阿尔萨斯在祭坛前满面喜悦举起银色战锤，圣光照耀，亲友欢呼。",
+    "palette": "金黄、乳白与王室蓝，清澈明亮。",
+    "sourceRefs": [
+      "text00311:p0039–p0042"
+    ],
+    "representation": "当前阶段单场景。",
+    "constraints": [
+      "无白发、霜之哀伤、巫妖王头盔",
+      "不加预告堕落的阴影怪物"
+    ]
+  },
+  "acceptance": [
+    "真实呈现圣光接纳，不写成虚假荣耀",
+    "失马包含自身责任、无法及时救治与终止痛苦",
+    "温暖关系不是为后期暴行开脱，也不能被结局抹去"
+  ],
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00307",
+      "startRef": "text00307:p0001",
+      "endRef": "text00307:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00308",
+      "startRef": "text00308:p0001",
+      "endRef": "text00308:p0090"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00309",
+      "startRef": "text00309:p0001",
+      "endRef": "text00309:p0112"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00310",
+      "startRef": "text00310:p0001",
+      "endRef": "text00310:p0093"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00311",
+      "startRef": "text00311:p0001",
+      "endRef": "text00311:p0050"
+    }
+  ],
+  "status": "text_approved",
+  "reviewStatus": "approved",
+  "inputVersions": {
+    "src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "src/data/character-journal/characters/arthas/reading/early.json": "6dc22dff137d9c6f4307bbe4d13a9f11f6b77308574ebefc0c41c5e3ba23d403",
+    "src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/writer.txt": "33007889b16fd825bedd87c9d8b99144369f01db03c346c2a441c743a9db1d15",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00307.json": "860c8e22d46f1a4c599191a78607c1d620fe798613b8806e1a6a0f39d38165a1",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00308.json": "1e1b1057a9cdb8057fcb133669866dc5e33380ff47f18289aead65fc19ee1efd",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00309.json": "e8cf60ad49c3b877ad9a5a8562d6042267b7b29c464f34a73ad7e6131f1b06ab",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00310.json": "f501107202feae0eb05a1d8688cbfb8bed465a831f8806ff0465f6ac7284289c",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00311.json": "cdf1bc77aa89100c8393c6b94f368e78760588f77e2bc5253439e4ccd6af25a6"
+  },
+  "storyPath": "src/data/character-journal/characters/arthas/units/golden-boy/story.md",
+  "factEvidence": [
+    {
+      "id": "E02",
+      "kind": "fact",
+      "summary": "九岁的阿尔萨斯在巴尼尔农场协助亮鬃产驹，与平民佳力姆亲近，对新生马驹产生强烈联结。",
+      "sourceRefs": [
+        "text00307:p0004",
+        "text00307:p0005",
+        "text00307:p0009",
+        "text00307:p0012"
+      ]
+    },
+    {
+      "id": "E03",
+      "kind": "fact",
+      "summary": "得知暴风城失陷、莱恩死亡后，他真切同情瓦里安；秘密旁听会谈后，以邀请看马驹笨拙安慰丧亲的同龄人。",
+      "sourceRefs": [
+        "text00307:p0023",
+        "text00307:p0031",
+        "text00307:p0032",
+        "text00307:p0064",
+        "text00307:p0091",
+        "text00307:p0093",
+        "text00307:p0094"
+      ]
+    },
+    {
+      "id": "E04",
+      "kind": "fact",
+      "summary": "父王接见平民、尊重并庇护瓦里安的做法成为可见的仁政榜样；阿尔萨斯同时因被排除重大会议而生气。",
+      "sourceRefs": [
+        "text00307:p0058",
+        "text00307:p0059",
+        "text00307:p0062",
+        "text00307:p0073",
+        "text00307:p0085"
+      ]
+    },
+    {
+      "id": "E05",
+      "kind": "fact",
+      "summary": "阿尔萨斯在瓦里安面前感到训练不足；战后毁灭之锤受保护和逃脱的叙述，置于他对兽人的敌视认知中。",
+      "sourceRefs": [
+        "text00308:p0002",
+        "text00308:p0011",
+        "text00308:p0012",
+        "text00308:p0015",
+        "text00308:p0018",
+        "text00308:p0020"
+      ],
+      "interpretation": "逃脱部分标明小道消息与无人活报，不能把末尾可能已死当成事实；战败兽人的负面形容保留视角属性。"
+    },
+    {
+      "id": "E06",
+      "kind": "fact",
+      "summary": "十一岁时违背驯马师警告偷骑两岁无敌，摔落且马腿割伤；他隐瞒真相，被乌瑟尔识破并训诫。",
+      "sourceRefs": [
+        "text00308:p0024",
+        "text00308:p0042",
+        "text00308:p0044",
+        "text00308:p0049",
+        "text00308:p0053",
+        "text00308:p0054",
+        "text00308:p0058"
+      ]
+    },
+    {
+      "id": "E07",
+      "kind": "fact",
+      "summary": "礼拜时初识吉安娜；穆拉丁主动提出担任严格战技导师，父王许可，同时增加圣骑士和君主课程。",
+      "sourceRefs": [
+        "text00308:p0072",
+        "text00308:p0079",
+        "text00308:p0086",
+        "text00308:p0088",
+        "text00309:p0003"
+      ]
+    },
+    {
+      "id": "E08",
+      "kind": "fact",
+      "summary": "护送吉安娜前往达拉然时，他带她夜窥战俘营。吉安娜看到兽人家庭与婴儿而同情，阿尔萨斯仍把他们视作潜在杀手。",
+      "sourceRefs": [
+        "text00309:p0004",
+        "text00309:p0031",
+        "text00309:p0039",
+        "text00309:p0040",
+        "text00309:p0041",
+        "text00309:p0044",
+        "text00309:p0045"
+      ]
+    },
+    {
+      "id": "E09",
+      "kind": "fact",
+      "summary": "十四岁阿尔萨斯凭持续苦练令穆拉丁认输，赢得导师敬意；所学同时包括常规格斗和不拘仪式的实战技法。",
+      "sourceRefs": [
+        "text00309:p0065",
+        "text00309:p0066",
+        "text00309:p0070",
+        "text00309:p0071",
+        "text00309:p0072"
+      ]
+    },
+    {
+      "id": "E10",
+      "kind": "fact",
+      "summary": "佳莉娅被安排嫁普瑞斯托，向弟弟诉说失去选择权。阿尔萨斯同情却最终转向王室责任的说法，并骑无敌逃离压力。",
+      "sourceRefs": [
+        "text00309:p0090",
+        "text00309:p0092",
+        "text00309:p0095",
+        "text00309:p0101",
+        "text00309:p0103",
+        "text00309:p0107",
+        "text00309:p0109",
+        "text00309:p0110"
+      ]
+    },
+    {
+      "id": "E11",
+      "kind": "fact",
+      "summary": "十七岁突查敦霍尔德兼有财政监管和观看萨尔的好奇；他看出布莱克摩尔酗酒、塔蕾莎受辱，仍被角斗娱乐吸引，并忧心萨尔逃走传播战技。",
+      "sourceRefs": [
+        "text00310:p0005",
+        "text00310:p0006",
+        "text00310:p0010",
+        "text00310:p0012",
+        "text00310:p0018",
+        "text00310:p0021",
+        "text00310:p0022",
+        "text00310:p0037",
+        "text00310:p0038"
+      ]
+    },
+    {
+      "id": "E12",
+      "kind": "fact",
+      "summary": "塔蕾莎被送到房间时，他拒绝性服务；看到瘀伤后让她留下谈话以免她受罚。她称赞未来国王仁慈。随后补述佳莉娅婚约已因父王起疑重新考虑。",
+      "sourceRefs": [
+        "text00310:p0048",
+        "text00310:p0049",
+        "text00310:p0053",
+        "text00310:p0055",
+        "text00310:p0056",
+        "text00310:p0058"
+      ]
+    },
+    {
+      "id": "E13",
+      "kind": "fact",
+      "summary": "将满十九岁前的冬天，阿尔萨斯在雪中驱无敌跳越熟悉高地，马蹄在冰石上打滑，前腿碎裂；因风雪且治疗者远离，救援不可及。",
+      "sourceRefs": [
+        "text00310:p0062",
+        "text00310:p0064",
+        "text00310:p0066",
+        "text00310:p0067",
+        "text00310:p0072",
+        "text00310:p0074",
+        "text00310:p0075",
+        "text00310:p0076"
+      ]
+    },
+    {
+      "id": "E14",
+      "kind": "fact",
+      "summary": "他自责导致无敌受苦，亲手刺穿其心脏以终止痛苦；获救后让别人相信只是意外，并发誓不惜任何代价保护有需要者。",
+      "sourceRefs": [
+        "text00310:p0079",
+        "text00310:p0081",
+        "text00310:p0083",
+        "text00310:p0084",
+        "text00310:p0087",
+        "text00310:p0091",
+        "text00310:p0092",
+        "text00310:p0093"
+      ]
+    },
+    {
+      "id": "E15",
+      "kind": "fact",
+      "summary": "十九岁在暴风城受封白银之手圣骑士；乌瑟尔以人人有瑕疵而圣光仍爱人的教导安慰他。祝福迟迟未临造成恐慌，随后真正体验圣光。",
+      "sourceRefs": [
+        "text00311:p0008",
+        "text00311:p0009",
+        "text00311:p0010",
+        "text00311:p0028",
+        "text00311:p0032",
+        "text00311:p0036",
+        "text00311:p0039",
+        "text00311:p0040",
+        "text00311:p0041",
+        "text00311:p0049"
+      ],
+      "interpretation": "不能据暂时的沉默断言圣光拒绝他，也不能把受封写成彻底虚伪。"
+    },
+    {
+      "id": "E16",
+      "kind": "fact",
+      "summary": "受封的欢乐中，他把父王“今天”自豪等细节理解为不被理解，想摆脱王宫去做更有趣的事。",
+      "sourceRefs": [
+        "text00311:p0042",
+        "text00311:p0046",
+        "text00311:p0047",
+        "text00311:p0048",
+        "text00311:p0049"
+      ]
+    }
+  ],
+  "interpretationPolicy": "正文分析为基于事件的解读；失马不预定堕落，圣光体验真实；不增补外部情节。",
+  "chineseCharacterCount": 2368,
+  "nextRole": "text_reviewer",
+  "textApproval": {
+    "reviewPath": "src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\text-review.json",
+    "reviewSha256": "67317d77adcb7cccc4a5c67dba29136531c5ddacdf129e28929ff675532d6ff8",
+    "storySha256": "af21d44dcafc9d7a2be10f9eb3770a33073cea8a8d54a4fa26836e105afdb540"
+  }
+}

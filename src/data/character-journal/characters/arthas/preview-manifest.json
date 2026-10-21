@@ -1,0 +1,64 @@
+{
+  "runId": "arthas-20261021-02",
+  "status": "local_preview_ready",
+  "publishing": "local_preview_only",
+  "units": [
+    {
+      "unitId": "overview",
+      "displayOrder": 0,
+      "storyPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\overview\\story.md",
+      "storySha256": "714a1357e13c6e2bc18cf86e4346cfe104219c7ede3afb2c6b74bfefc4854cdc",
+      "imagePath": "E:\\program\\ai-interview\\src\\frontend\\src\\assets\\allegory-mural.png",
+      "imageSha256": "482d280ba1b8845b6b8cb9e60f9f3640ef04114323336dcfd6203b1d1deafb39",
+      "alt": "守护与占有：跨越人生阶段的象征性图景：曾经的守护愿望、关系的崩解与对力量的占有并置；画中人物和意象并非在同一时空真实相遇。",
+      "caption": "跨越人生阶段的象征性图景：曾经的守护愿望、关系的崩解与对力量的占有并置；画中人物和意象并非在同一时空真实相遇。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "dream",
+      "displayOrder": 1,
+      "storyPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dream\\story.md",
+      "storySha256": "5fe731c9fb2e1112be60e558eac5dd311efe76c4e57db7cdbe90027156d874d1",
+      "imagePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dream\\images\\cover-v002.png",
+      "imageSha256": "424f9c7994eff5c05c44bce31b617ecbee960a9310cc4d23f5f59587ba8419ab",
+      "alt": "梦：梦境中的长桌：男孩仍未放弃。",
+      "caption": "梦境中的长桌：男孩仍未放弃。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "golden-boy",
+      "displayOrder": 2,
+      "storyPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\story.md",
+      "storySha256": "af21d44dcafc9d7a2be10f9eb3770a33073cea8a8d54a4fa26836e105afdb540",
+      "imagePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\images\\cover-v001.png",
+      "imageSha256": "0e654fd8d41881b60b02aaf19c6c3f0a60ff389c922e47a354b95616ddd83e0b",
+      "alt": "黄金男孩：阿尔萨斯低头单膝跪地，接受圣光祝福。",
+      "caption": "圣光受封：低头单膝跪地的姿态与几何光芒装饰为艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "lady-of-light",
+      "displayOrder": 3,
+      "storyPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\lady-of-light\\story.md",
+      "storySha256": "4e8ba57ba113c4970a73923093b5d90c6f46573563d683075c55bf7de6a05adb",
+      "imagePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\lady-of-light\\images\\cover-v001.png",
+      "imageSha256": "368bde2007b4d3f630a1aa029063985a72b47f2de30abcc57c385f723f4edc3a",
+      "alt": "光明女士：城外告别：她仍爱他，却拒绝与他一起跨越那条界限。",
+      "caption": "城外告别：她仍爱他，却拒绝与他一起跨越那条界限。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "dark-lady",
+      "displayOrder": 4,
+      "storyPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\story.md",
+      "storySha256": "e5cfa6549237c202b1e2f33ee56189b1cd834fd09a1547cd1102a1c7d89b0909",
+      "imagePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\images\\cover-v001.png",
+      "imageSha256": "07dbc6a7590983cb3ce9ffc84e8dfe6ae7b4d15fc16069115a0a92570ac7dc53",
+      "alt": "黑暗女王：控制松动之后，曾被奴役的希尔瓦娜斯逼近失去行动能力的阿尔萨斯。",
+      "caption": "控制松动之后，曾被奴役的希尔瓦娜斯逼近失去行动能力的阿尔萨斯。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    }
+  ],
+  "pageReview": "E:\\program\\ai-interview\\src\\data\\character-journal\\workflow\\runs\\arthas-20261021-02\\page-review.json",
+  "imageRevision": "golden-boy-v001"
+}

@@ -6,7 +6,12 @@
 !/docs/README.md
 !/docs/releases/
 !/docs/setup/
-src/data/
+!/docs/roadmap.md
+!/docs/architecture.md
+!/docs/archive/
+/docs/archive/*
+!/docs/archive/v2.1.0-roadmap.md
+!src/data/character-journal
 .DS_Store
 __pycache__/
 *.pyc

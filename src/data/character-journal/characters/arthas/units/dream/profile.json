@@ -1,0 +1,176 @@
+{
+  "unitId": "dream",
+  "kind": "section",
+  "displayOrder": 1,
+  "title": "序篇：长桌上的三个人",
+  "sourceLabel": "序章",
+  "subtitle": {
+    "text": "梦",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00306:p0001",
+      "heading": "➣ 序章：梦"
+    },
+    "selectionReason": "原样复用序章题名中的主题词，适合全篇梦境框架；序章是结构标签，另存sourceLabel。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00306",
+      "startRef": "text00306:p0001",
+      "endRef": "text00306:p0035"
+    }
+  ],
+  "focus": "从风暴与梦中长桌进入内心冲突，保留男孩仍未放弃的悬念。",
+  "tone": "幽冷、悬疑；大厅有炉火，病弱男孩仍有希望，不能一片绝望。",
+  "imageMode": "chapter_scene",
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "writer",
+  "scopeId": "dream",
+  "status": "text_approved",
+  "reviewStatus": "approved",
+  "sourceVersion": "epub-v1",
+  "storyPath": "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dream/story.md",
+  "bodyPath": "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dream/story.md",
+  "chineseCharacterCount": 984,
+  "inputVersions": {
+    "E:/program/ai-interview/src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/writer.txt": "33007889b16fd825bedd87c9d8b99144369f01db03c346c2a441c743a9db1d15",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/reading/early.json": "6dc22dff137d9c6f4307bbe4d13a9f11f6b77308574ebefc0c41c5e3ba23d403",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00306.json": "d8416cb7abad64b525a481c00e6b82784952c5b7f57e1b46fe0711054b7e5249",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00332.json": "910e4e1e51585e8f1c29d1e45b9bc83f72827fb93fd9591710c803aba5e02dca",
+    "E:/program/ai-interview/src/workflows/character-journal/workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4"
+  },
+  "factEvidence": [
+    {
+      "id": "F01",
+      "kind": "source_fact",
+      "claim": "登王座后的长梦为后期框架，不是童年前史",
+      "sourceRefs": [
+        "text00332:p0122",
+        "text00332:p0123",
+        "text00306:p0019",
+        "text00306:p0029"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "source_fact",
+      "claim": "北地动物避寒、海象人避难及长者判断风暴非自然",
+      "sourceRefs": [
+        "text00306:p0003",
+        "text00306:p0004",
+        "text00306:p0006",
+        "text00306:p0007",
+        "text00306:p0008",
+        "text00306:p0009"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "source_fact",
+      "claim": "牦牛人无法控制此风雪而继续仪式与欢笑",
+      "sourceRefs": [
+        "text00306:p0011",
+        "text00306:p0012",
+        "text00306:p0014",
+        "text00306:p0015"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "source_fact",
+      "claim": "暖厅长桌三者全属梦境",
+      "sourceRefs": [
+        "text00306:p0017",
+        "text00306:p0018",
+        "text00306:p0019"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "source_fact",
+      "claim": "兽人曾为萨满、男孩病弱，男人判断他坚持不久",
+      "sourceRefs": [
+        "text00306:p0020",
+        "text00306:p0021",
+        "text00306:p0023",
+        "text00306:p0024",
+        "text00306:p0025"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "source_fact",
+      "claim": "男孩反驳、男人厌倦重复争斗并攥扶手",
+      "sourceRefs": [
+        "text00306:p0026",
+        "text00306:p0027",
+        "text00306:p0028",
+        "text00306:p0029"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "source_fact",
+      "claim": "催醒、幻变、敞门风雪、以力量诱使消灭男孩",
+      "sourceRefs": [
+        "text00306:p0031",
+        "text00306:p0032",
+        "text00306:p0033"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "source_fact",
+      "claim": "男孩爬回椅子，目光仍有希望，男人听清末句",
+      "sourceRefs": [
+        "text00306:p0034",
+        "text00306:p0035"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "kind": "interpretation",
+      "claim": "抵抗的舞蹈赋予庞大力量具体尺度",
+      "sourceRefs": [
+        "text00306:p0015"
+      ]
+    },
+    {
+      "kind": "interpretation",
+      "claim": "把倾听读为等待争论结束、主位高度不足以支配自己；正文以至少在这一刻和若、似乎限制",
+      "sourceRefs": [
+        "text00306:p0019",
+        "text00306:p0029"
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "text": "还没有全输。",
+      "sourceRef": "text00306:p0035"
+    }
+  ],
+  "supportingSourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00332",
+      "startRef": "text00332:p0116",
+      "endRef": "text00332:p0127",
+      "purpose": "仅复核登王座后框架，未展开后期身份与结局"
+    }
+  ],
+  "nextRole": "text_reviewer",
+  "textApproval": {
+    "reviewPath": "src\\data\\character-journal\\characters\\arthas\\units\\dream\\text-review.json",
+    "reviewSha256": "62cc6b86488fead83da6032a609ecbffa7edd7576968b154b4d562d75d1bbd93",
+    "storySha256": "5fe731c9fb2e1112be60e558eac5dd311efe76c4e57db7cdbe90027156d874d1"
+  }
+}

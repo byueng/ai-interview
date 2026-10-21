@@ -1,0 +1,881 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "sourceVersion": "epub-v1",
+  "scopeId": "whole-publication",
+  "status": "accepted",
+  "userAccepted": true,
+  "bibliography": {
+    "title": "迈向冰封王座：阿尔萨斯",
+    "author": "克里斯蒂·高登",
+    "edition": "用户提供EPUB；本地提取版epub-v1"
+  },
+  "structureReason": "推荐一个总览和四个详细分篇：梦、黄金男孩、光明女士、黑暗女王。依据这本书序章及三部的题名、关系重心和人物阶段，并契合用户偏好；不是通用固定篇数，也不是把early/middle/late阅读分块直接当发布分篇。第二部虽长，保留爱情—救援—决裂—归乡因果链，用篇内小节调节。尾声并入末篇，完成长桌梦框架与独占力量的最终选择，避免另开短篇割裂登顶与内在结局。",
+  "chronologyPolicy": [
+    "总览按人生事件顺序概述；展示在前，写作在所有分篇校核通过后。",
+    "梦是登王座后长梦的前置框架，不能当童年前史；序章分篇保留男孩的希望，身份及最终选择留给末篇回应。",
+    "text00312为而立吉安娜回望；text00324为已统治幽暗城的希尔瓦娜斯间奏。各在对应篇开头独立标记后时点，再明确回到主体往事，不硬接前章。",
+    "末篇戴盔后经历长梦，再到尾声梦中抉择与现实觉醒；未来幻象不列入既成事件，梦中斩除不是现实肉身谋杀。"
+  ],
+  "sharedAcceptance": [
+    "事实、角色认知、人物志解读分开；自我辩护不得升级为叙述者结论。",
+    "不补写尾声text00333:p0056以后游戏结局；排除导读、版权、作者介绍作为生平事件。",
+    "保留年龄及时间张力，不擅自换算绝对年份；人物误认死亡保持视角。",
+    "标题、副标题与来源标签分开；所有副标题候选待内容校核，当前不可进入最终绘图。",
+    "每单元一张中世纪彩绘玻璃，无嵌入文字；正文和图的装备、状态与阶段一致。"
+  ],
+  "units": [
+    {
+      "unitId": "overview",
+      "kind": "overview",
+      "displayOrder": 0,
+      "title": "阿尔萨斯人物总览",
+      "sourceLabel": "全书叙事范围",
+      "subtitle": {
+        "text": "守护与占有",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "整合阶段已核对全书标题，未发现适用于全人生总览的独立原作副标题。此为概括守护愿望如何转为支配欲的编辑候选；不是书名冒号后的文字，也不把尾声题名推广为全书副标题。",
+        "reviewStatus": "pending"
+      },
+      "focus": "简洁串起成长、责任、决裂和独占力量，提出守护与支配的核心矛盾，让读者进入分篇而不替代分篇。",
+      "tone": "克制、悲怆，有真实曾经拥有的温暖，避免先天恶人论。",
+      "keyEvents": [
+        "童年与无敌、受封圣骑士",
+        "相恋、瘟疫与斯坦索姆",
+        "北地取剑、归乡弑父",
+        "控制亡灵、反噬、冰冠登顶",
+        "长梦选择与觉醒"
+      ],
+      "interpretiveAngle": "以无力感、认可需求和控制欲为阅读线索，不主张童年创伤必然造成后来的暴行。",
+      "subsections": [
+        "曾想守护的人",
+        "逐渐替别人决定",
+        "王座上的最后选择"
+      ],
+      "suggestedLength": {
+        "min": 1000,
+        "max": 1400,
+        "unit": "中文字，约数"
+      },
+      "imageMode": "reuse_existing",
+      "imageDirection": {
+        "selectionBasis": "用户最新指定复用现有总览图；协调员核实cathedral.css第5、6行引用该文件，HomeView.vue显示上述图主题。",
+        "representation": "本书人生的悲剧性象征概括，非现实同场拼接；保留图注说明。",
+        "constraints": [
+          "不得误用未被引用的Arthas.jpg",
+          "复用图片不触发新图生成；发布前仍核对展示与象征图注",
+          "现有寓意图不是原文事实证据，不由画面反推小说事件。"
+        ],
+        "count": 1,
+        "generationRequired": false,
+        "existingTheme": "王与曾经的自己 / THE KING & THE CHILD",
+        "scene": "复用当前前端已引用的总览图；不生成新总览图。",
+        "mode": "reuse_existing",
+        "assetPath": "src/frontend/src/assets/allegory-mural.png",
+        "palette": "按现有图：暖金、火红至冰蓝；由协调员实际查看确认。"
+      },
+      "acceptance": [
+        "人生节点完整且不过度复述分篇",
+        "概述操纵与自主选择并存",
+        "总览复用src/frontend/src/assets/allegory-mural.png，跳过总览生成",
+        "象征图注明跨阶段，不能冒充真实事件"
+      ],
+      "sourceRanges": [
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00306",
+          "startRef": "text00306:p0001",
+          "endRef": "text00306:p0035"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00307",
+          "startRef": "text00307:p0001",
+          "endRef": "text00307:p0096"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00308",
+          "startRef": "text00308:p0001",
+          "endRef": "text00308:p0090"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00309",
+          "startRef": "text00309:p0001",
+          "endRef": "text00309:p0112"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00310",
+          "startRef": "text00310:p0001",
+          "endRef": "text00310:p0093"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00311",
+          "startRef": "text00311:p0001",
+          "endRef": "text00311:p0050"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00312",
+          "startRef": "text00312:p0001",
+          "endRef": "text00312:p0021"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00313",
+          "startRef": "text00313:p0001",
+          "endRef": "text00313:p0101"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00314",
+          "startRef": "text00314:p0001",
+          "endRef": "text00314:p0074"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00315",
+          "startRef": "text00315:p0001",
+          "endRef": "text00315:p0071"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00316",
+          "startRef": "text00316:p0001",
+          "endRef": "text00316:p0099"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00317",
+          "startRef": "text00317:p0001",
+          "endRef": "text00317:p0095"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00318",
+          "startRef": "text00318:p0001",
+          "endRef": "text00318:p0160"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00319",
+          "startRef": "text00319:p0001",
+          "endRef": "text00319:p0095"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00320",
+          "startRef": "text00320:p0001",
+          "endRef": "text00320:p0067"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00321",
+          "startRef": "text00321:p0001",
+          "endRef": "text00321:p0088"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00322",
+          "startRef": "text00322:p0001",
+          "endRef": "text00322:p0092"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00323",
+          "startRef": "text00323:p0001",
+          "endRef": "text00323:p0090"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00324",
+          "startRef": "text00324:p0001",
+          "endRef": "text00324:p0030"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00325",
+          "startRef": "text00325:p0001",
+          "endRef": "text00325:p0091"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00326",
+          "startRef": "text00326:p0001",
+          "endRef": "text00326:p0096"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00327",
+          "startRef": "text00327:p0001",
+          "endRef": "text00327:p0096"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00328",
+          "startRef": "text00328:p0001",
+          "endRef": "text00328:p0130"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00329",
+          "startRef": "text00329:p0001",
+          "endRef": "text00329:p0083"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00330",
+          "startRef": "text00330:p0001",
+          "endRef": "text00330:p0100"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00331",
+          "startRef": "text00331:p0001",
+          "endRef": "text00331:p0062"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00332",
+          "startRef": "text00332:p0001",
+          "endRef": "text00332:p0127"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00333",
+          "startRef": "text00333:p0001",
+          "endRef": "text00333:p0056"
+        }
+      ]
+    },
+    {
+      "unitId": "dream",
+      "kind": "section",
+      "displayOrder": 1,
+      "title": "序篇：长桌上的三个人",
+      "sourceLabel": "序章",
+      "subtitle": {
+        "text": "梦",
+        "origin": "original",
+        "sourceRef": {
+          "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+          "ref": "text00306:p0001",
+          "heading": "➣ 序章：梦"
+        },
+        "selectionReason": "原样复用序章题名中的主题词，适合全篇梦境框架；序章是结构标签，另存sourceLabel。",
+        "reviewStatus": "pending"
+      },
+      "focus": "从风暴与梦中长桌进入内心冲突，保留男孩仍未放弃的悬念。",
+      "tone": "幽冷、悬疑；大厅有炉火，病弱男孩仍有希望，不能一片绝望。",
+      "keyEvents": [
+        "北地居民经历异常风暴",
+        "虚幻大厅的三者相对",
+        "男孩坚持尚未全输"
+      ],
+      "interpretiveAngle": "内在争斗作为阅读问题提出，暂不提前解释全部身份和结局。",
+      "subsections": [
+        "风暴之中",
+        "尚未全输"
+      ],
+      "suggestedLength": {
+        "min": 900,
+        "max": 1300,
+        "unit": "中文字，约数"
+      },
+      "imageMode": "chapter_scene",
+      "imageDirection": {
+        "count": 1,
+        "medium": "中世纪彩绘玻璃",
+        "scene": "梦中长桌：男人居主位、兽人与病弱男孩相对，炉火和敞门风雪形成同一大厅的冷暖交界。",
+        "palette": "冰蓝、深紫围住琥珀炉火，为男孩保留微小暖光。",
+        "sourceRefs": [
+          "text00306:p0017–p0035"
+        ],
+        "representation": "原作明确虚幻的单场景，图注标梦境。",
+        "constraints": [
+          "不得画成真实宫廷会议",
+          "不加入尾声斩除动作"
+        ]
+      },
+      "acceptance": [
+        "明确梦境发生于后期框架",
+        "保留男孩抵抗及希望",
+        "不把象征身份写成三位现实同席的人"
+      ],
+      "sourceRanges": [
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00306",
+          "startRef": "text00306:p0001",
+          "endRef": "text00306:p0035"
+        }
+      ]
+    },
+    {
+      "unitId": "golden-boy",
+      "kind": "section",
+      "displayOrder": 2,
+      "title": "第一篇：被寄予厚望的王子",
+      "sourceLabel": "第一部",
+      "subtitle": {
+        "text": "黄金男孩",
+        "origin": "original",
+        "sourceRef": {
+          "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+          "ref": "text00307:p0001",
+          "heading": "➣ 第一部　黄金男孩"
+        },
+        "selectionReason": "原样复用第一部主题题名，覆盖童年成长到受封荣耀，保留早期真实光明。",
+        "reviewStatus": "pending"
+      },
+      "focus": "亲情、友谊、训练与责任如何塑造王子；失去无敌的负罪感与受封的真实喜悦并置。",
+      "tone": "温暖、明亮、少年意气；局部失落深重，但结尾有受封荣耀与希望。",
+      "keyEvents": [
+        "与无敌相伴",
+        "父亲与导师的期待、初识吉安娜",
+        "雪中失马、亲手终止痛苦与誓愿",
+        "圣光回应，加入白银之手"
+      ],
+      "interpretiveAngle": "失马是心理线索，不是注定堕落的判词；师长既约束也关爱。",
+      "subsections": [
+        "王子的世界",
+        "无敌与失去",
+        "圣光中的新骑士"
+      ],
+      "suggestedLength": {
+        "min": 2200,
+        "max": 2800,
+        "unit": "中文字，约数"
+      },
+      "imageMode": "chapter_scene",
+      "imageDirection": {
+        "count": 1,
+        "medium": "中世纪彩绘玻璃",
+        "scene": "受封仪式中，金发阿尔萨斯在祭坛前满面喜悦举起银色战锤，圣光照耀，亲友欢呼。",
+        "palette": "金黄、乳白与王室蓝，清澈明亮。",
+        "sourceRefs": [
+          "text00311:p0039–p0042"
+        ],
+        "representation": "当前阶段单场景。",
+        "constraints": [
+          "无白发、霜之哀伤、巫妖王头盔",
+          "不加预告堕落的阴影怪物"
+        ]
+      },
+      "acceptance": [
+        "真实呈现圣光接纳，不写成虚假荣耀",
+        "失马包含自身责任、无法及时救治与终止痛苦",
+        "温暖关系不是为后期暴行开脱，也不能被结局抹去"
+      ],
+      "sourceRanges": [
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00307",
+          "startRef": "text00307:p0001",
+          "endRef": "text00307:p0096"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00308",
+          "startRef": "text00308:p0001",
+          "endRef": "text00308:p0090"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00309",
+          "startRef": "text00309:p0001",
+          "endRef": "text00309:p0112"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00310",
+          "startRef": "text00310:p0001",
+          "endRef": "text00310:p0093"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00311",
+          "startRef": "text00311:p0001",
+          "endRef": "text00311:p0050"
+        }
+      ]
+    },
+    {
+      "unitId": "lady-of-light",
+      "kind": "section",
+      "displayOrder": 3,
+      "title": "第二篇：爱与救援的裂口",
+      "sourceLabel": "第二部",
+      "subtitle": {
+        "text": "光明女士",
+        "origin": "original",
+        "sourceRef": {
+          "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+          "ref": "text00312:p0001",
+          "heading": "➣ 第二部　光明女士"
+        },
+        "selectionReason": "原样复用第二部题名；吉安娜的爱、判断与拒绝贯穿王子从希望走向决裂的阶段，不将她简化为失恋诱因。",
+        "reviewStatus": "pending"
+      },
+      "focus": "爱情与共同救援的希望如何在瘟疫压力、权威冲突和复仇中瓦解；完整保留握剑前的主动越界。",
+      "tone": "亲密、明亮与合作起步，逐渐焦灼、决裂，最终寒冷而反讽。",
+      "keyEvents": [
+        "后时点吉安娜回望",
+        "相恋、退缩分手与调查重逢",
+        "斯坦索姆决裂与屠城",
+        "北行焚舟嫁祸、听警告后取剑",
+        "归乡弑父、无敌复起"
+      ],
+      "interpretiveAngle": "拒绝无力逐渐变成替所有人决定；角色自称被背叛与作品中他人的伦理选择分开。",
+      "subsections": [
+        "回望中的爱与共同愿望",
+        "瘟疫与斯坦索姆的分歧",
+        "焚舟之后，冰洞之前",
+        "归来的陌生人"
+      ],
+      "suggestedLength": {
+        "min": 3500,
+        "max": 4300,
+        "unit": "中文字，约数"
+      },
+      "imageMode": "chapter_scene",
+      "imageDirection": {
+        "count": 1,
+        "medium": "中世纪彩绘玻璃",
+        "scene": "斯坦索姆决裂现场：仍为金发圣骑士的阿尔萨斯与准备离开的吉安娜之间形成距离，以城外告别表达关系断裂。",
+        "palette": "残余暖金与蓝灰分离，少量沉红压低气氛；不全黑。",
+        "sourceRefs": [
+          "text00319:p0039–p0051"
+        ],
+        "representation": "当前阶段单场景，具体站位在art_director阶段回查原文。",
+        "constraints": [
+          "尚未取得霜之哀伤，不出现魔剑或亡灵形态",
+          "吉安娜有行动与选择，不作为装饰性受难者"
+        ]
+      },
+      "acceptance": [
+        "间奏标后时点，再回到相恋主线",
+        "全城感染与唯一方案均非已证实；也不虚构已验证的救治替代方案",
+        "焚舟在取剑前；取剑同时保留警告、圣光回应、耳语诱惑与主动选择",
+        "穆拉丁仅写重伤及王子的判断，不确认为死亡",
+        "没有把吉安娜拒绝暴行等同于客观背叛"
+      ],
+      "sourceRanges": [
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00312",
+          "startRef": "text00312:p0001",
+          "endRef": "text00312:p0021"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00313",
+          "startRef": "text00313:p0001",
+          "endRef": "text00313:p0101"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00314",
+          "startRef": "text00314:p0001",
+          "endRef": "text00314:p0074"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00315",
+          "startRef": "text00315:p0001",
+          "endRef": "text00315:p0071"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00316",
+          "startRef": "text00316:p0001",
+          "endRef": "text00316:p0099"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00317",
+          "startRef": "text00317:p0001",
+          "endRef": "text00317:p0095"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00318",
+          "startRef": "text00318:p0001",
+          "endRef": "text00318:p0160"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00319",
+          "startRef": "text00319:p0001",
+          "endRef": "text00319:p0095"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00320",
+          "startRef": "text00320:p0001",
+          "endRef": "text00320:p0067"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00321",
+          "startRef": "text00321:p0001",
+          "endRef": "text00321:p0088"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00322",
+          "startRef": "text00322:p0001",
+          "endRef": "text00322:p0092"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00323",
+          "startRef": "text00323:p0001",
+          "endRef": "text00323:p0090"
+        }
+      ]
+    },
+    {
+      "unitId": "dark-lady",
+      "kind": "section",
+      "displayOrder": 4,
+      "title": "第三篇：服从的代价",
+      "sourceLabel": "第三部；尾声",
+      "subtitle": {
+        "text": "黑暗女王",
+        "origin": "original",
+        "sourceRef": {
+          "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+          "ref": "text00324:p0001",
+          "heading": "➣ 第三部　黑暗女王"
+        },
+        "selectionReason": "原样复用第三部题名，以希尔瓦娜斯受奴役而抵抗的关系照见阿尔萨斯的控制与反噬；尾声为同一人物阶段的内在收束，不另扩用尾声题词作整篇副标题。",
+        "reviewStatus": "pending"
+      },
+      "focus": "从制造绝对服从到遭遇反抗，追踪他对他人的占有、对自身存亡的恐惧以及最后独占力量的选择。",
+      "tone": "压迫与抵抗交织，控制逐步失灵、求生紧迫，末尾冷寂；不把暴行写成英雄凯旋。",
+      "keyEvents": [
+        "幽暗城女王的后时点间奏",
+        "弑师、复活克尔苏加德与精灵战争",
+        "强制女妖化、军团行动与意志反抗",
+        "控制松动、伏击、返北求生",
+        "冰冠决斗、戴盔与长梦",
+        "梦中斩除残余人性和耐奥祖形象，现实觉醒"
+      ],
+      "interpretiveAngle": "受害者的抵抗暴露控制逻辑的代价；独占力量不是获得自由的无条件胜利。",
+      "subsections": [
+        "女王回望与被制造的服从",
+        "控制松动后的反噬",
+        "返北与王座",
+        "尾声：长桌的最后选择"
+      ],
+      "suggestedLength": {
+        "min": 3600,
+        "max": 4400,
+        "unit": "中文字，约数"
+      },
+      "imageMode": "chapter_scene",
+      "imageDirection": {
+        "count": 1,
+        "medium": "中世纪彩绘玻璃",
+        "scene": "控制松动后希尔瓦娜斯伏击阿尔萨斯的单一对峙场景：呈现受奴役者夺回行动和控制者陷入脆弱，具体武器与姿势待构图前原文复核。",
+        "palette": "冷紫、幽蓝、暗红，双方清楚可辨，以紧张对峙而非泛黑表现反噬。",
+        "sourceRefs": [
+          "text00330:p0047–p0074"
+        ],
+        "representation": "当前阶段单场景。",
+        "constraints": [
+          "此时尚未戴上巫妖王头盔",
+          "不拼接女妖化、登塔、梦中斩杀为同一现实场景",
+          "避免性化受害者及血腥猎奇"
+        ]
+      },
+      "acceptance": [
+        "第三部间奏不紧接弑父当作下一刻",
+        "强制女妖化、持续意志抵抗与后来的复仇分层写；施害者归咎不能当事实",
+        "达拉然没有吉安娜与阿尔萨斯当面对决",
+        "伊利丹倒地仍喘息、凯尔萨斯脱身，不写成两人被杀",
+        "尾声的男孩与耐奥祖为梦中形象，未来幻象不作已发生事件",
+        "结于现实觉醒text00333:p0056，回应序篇而不复述整段梦"
+      ],
+      "sourceRanges": [
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00324",
+          "startRef": "text00324:p0001",
+          "endRef": "text00324:p0030"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00325",
+          "startRef": "text00325:p0001",
+          "endRef": "text00325:p0091"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00326",
+          "startRef": "text00326:p0001",
+          "endRef": "text00326:p0096"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00327",
+          "startRef": "text00327:p0001",
+          "endRef": "text00327:p0096"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00328",
+          "startRef": "text00328:p0001",
+          "endRef": "text00328:p0130"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00329",
+          "startRef": "text00329:p0001",
+          "endRef": "text00329:p0083"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00330",
+          "startRef": "text00330:p0001",
+          "endRef": "text00330:p0100"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00331",
+          "startRef": "text00331:p0001",
+          "endRef": "text00331:p0062"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00332",
+          "startRef": "text00332:p0001",
+          "endRef": "text00332:p0127"
+        },
+        {
+          "sourceVersion": "epub-v1",
+          "documentId": "text00333",
+          "startRef": "text00333:p0001",
+          "endRef": "text00333:p0056"
+        }
+      ]
+    }
+  ],
+  "inputVersions": {
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\workflow\\runs\\arthas-20261021-02\\delegations\\planner.txt": "5eabf3889bf6e0de042abaa75b6207dfbb4dc83460100344eb736967d1f81cfb",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\workflow\\runs\\arthas-20261021-02\\task.json": "02e30fe1e2fced4dd7e422b1284d1d9dfcffa720d116fe2de9e2c6640eb6fe6a",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source-coverage.json": "907b9854e0f75a3a0e9e81825faecc34c9a16e6db35befe9c0e4bcea57dd697b",
+    "E:\\program\\ai-interview\\src\\workflows\\character-journal\\workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4",
+    "E:\\program\\ai-interview\\src\\workflows\\character-journal\\templates\\publication-plan.json": "6ebdbd0efb5cb07bc731f06cfdbfb2636db932603c76b5c3f2dbd889e7ed7e44",
+    "E:\\program\\ai-interview\\src\\workflows\\character-journal\\roles\\planner.toml": "f63bdbb168e71b334c20872c389259f7df7eb3f10d2ac9579ded8ff7ace74178",
+    "E:\\program\\ai-interview\\src\\workflows\\character-journal\\task-configs\\multi-section.md": "4814ce548ef4706a4ccf24bb49c8a0eb4d6a12e65a178dbc0099d914733a0196",
+    "E:\\program\\ai-interview\\src\\workflows\\character-journal\\task-configs\\subtitle-policy.md": "418fef9dc29a21208ef371df74b99480c3fb95aeac1dd6c536189ebf40a71bbe",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00306.txt": "28ac6487ef3c035d897a6d9aa3a61351e4190447a83fa560f967e0e22f74f17a",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00307.txt": "0c606f013ae550d6b378b1aa94cf5af4396af981128ae00b327ba2a37a621db3",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00311.txt": "b707541f502087579b50ef6a59defca2dd285e5a4345c1c4f815002278a44fb3",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00312.txt": "327c1a1e558fcfd3a3b3f7a7af3878b4fc7841a06b32134e497ac3e33bd0f82c",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00324.txt": "42c8593f08c3ffa33d7ac254dc142dfb9ff19ab7c73df9e8a15d99d79594368e"
+  },
+  "sourceSha256": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+  "readingCoverage": {
+    "narrativeDocuments": 28,
+    "sourceRanges": [
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00306",
+        "startRef": "text00306:p0001",
+        "endRef": "text00306:p0035"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00307",
+        "startRef": "text00307:p0001",
+        "endRef": "text00307:p0096"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00308",
+        "startRef": "text00308:p0001",
+        "endRef": "text00308:p0090"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00309",
+        "startRef": "text00309:p0001",
+        "endRef": "text00309:p0112"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00310",
+        "startRef": "text00310:p0001",
+        "endRef": "text00310:p0093"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00311",
+        "startRef": "text00311:p0001",
+        "endRef": "text00311:p0050"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00312",
+        "startRef": "text00312:p0001",
+        "endRef": "text00312:p0021"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00313",
+        "startRef": "text00313:p0001",
+        "endRef": "text00313:p0101"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00314",
+        "startRef": "text00314:p0001",
+        "endRef": "text00314:p0074"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00315",
+        "startRef": "text00315:p0001",
+        "endRef": "text00315:p0071"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00316",
+        "startRef": "text00316:p0001",
+        "endRef": "text00316:p0099"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00317",
+        "startRef": "text00317:p0001",
+        "endRef": "text00317:p0095"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00318",
+        "startRef": "text00318:p0001",
+        "endRef": "text00318:p0160"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00319",
+        "startRef": "text00319:p0001",
+        "endRef": "text00319:p0095"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00320",
+        "startRef": "text00320:p0001",
+        "endRef": "text00320:p0067"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00321",
+        "startRef": "text00321:p0001",
+        "endRef": "text00321:p0088"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00322",
+        "startRef": "text00322:p0001",
+        "endRef": "text00322:p0092"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00323",
+        "startRef": "text00323:p0001",
+        "endRef": "text00323:p0090"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00324",
+        "startRef": "text00324:p0001",
+        "endRef": "text00324:p0030"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00325",
+        "startRef": "text00325:p0001",
+        "endRef": "text00325:p0091"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00326",
+        "startRef": "text00326:p0001",
+        "endRef": "text00326:p0096"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00327",
+        "startRef": "text00327:p0001",
+        "endRef": "text00327:p0096"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00328",
+        "startRef": "text00328:p0001",
+        "endRef": "text00328:p0130"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00329",
+        "startRef": "text00329:p0001",
+        "endRef": "text00329:p0083"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00330",
+        "startRef": "text00330:p0001",
+        "endRef": "text00330:p0100"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00331",
+        "startRef": "text00331:p0001",
+        "endRef": "text00331:p0062"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00332",
+        "startRef": "text00332:p0001",
+        "endRef": "text00332:p0127"
+      },
+      {
+        "sourceVersion": "epub-v1",
+        "documentId": "text00333",
+        "startRef": "text00333:p0001",
+        "endRef": "text00333:p0056"
+      }
+    ],
+    "status": "passed",
+    "reportPath": "E:/program/ai-interview/src/data/character-journal/characters/arthas/source-coverage.json",
+    "basis": "依赖integrator通过记录与完整资料包；planner回查题名及选定场景，不声称独自重读全书。"
+  },
+  "planningGate": {
+    "artAuthorized": false,
+    "nextAction": "coordinator向用户展示目录",
+    "required": "用户明确采用完整目录后才进入正文；全部正文与副标题通过校核后才展开最终配图。",
+    "writingAuthorized": false
+  },
+  "imageReuseDecision": {
+    "origin": "用户最新明确指示，经coordinator传达",
+    "acceptedStructure": false,
+    "scope": "overview",
+    "assetPath": "src/frontend/src/assets/allegory-mural.png",
+    "sectionImages": "四个分篇仍各自按策划和审核后流程生成"
+  },
+  "userAcceptance": {
+    "message": "采用",
+    "date": "2026-10-21",
+    "acceptedProposalSha256": "722db01a79cdbbb8be73eb33aeef0c210f0335991ebc099187bb779bb14b9752"
+  }
+}

@@ -188,7 +188,12 @@ class BackendErrorTests(TestCase):
         target.write_text(json.dumps(PRESET), encoding="utf-8")
         directory = self.root / "interview_preset"
         directory.mkdir()
-        (directory / "link.json").symlink_to(target)
+        try:
+            (directory / "link.json").symlink_to(target)
+        except OSError as exc:
+            if getattr(exc, "winerror", None) == 1314:
+                self.skipTest("Windows user lacks symlink privilege (WinError 1314)")
+            raise
         self.assertEqual(self.load("link.json").status_code, 400)
         self.assertEqual(self.client.post("/interview/del_preset", params={"filename": "link.json"}).status_code, 400)
         self.assertTrue(target.exists())
@@ -232,7 +237,7 @@ class BackendErrorTests(TestCase):
 
     def test_configure_success_saves_only_configuration(self):
         self.assertEqual(self.configure().json(), 200)
-        saved = json.loads((self.root / "interview_preset" / "后端.json").read_text())
+        saved = json.loads((self.root / "interview_preset" / "后端.json").read_text(encoding="utf-8"))
         self.assertEqual(saved, PRESET)
 
     def test_bad_position_filename_does_not_update_session(self):
