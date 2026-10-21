@@ -13,3 +13,6 @@ __pycache__/
 src/frontend/node_modules/
 src/frontend/dist/
 *.tsbuildinfo
+
+# Generated public character-journal export
+src/frontend/public/character-journal/
