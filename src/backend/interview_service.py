@@ -145,7 +145,7 @@ async def run_turn(
             await graph.aupdate_state(graph_config_build(request.session_id), {"last_activity": time.time()})
         except Exception as exc:
             # CancelledError 继续向上传播；finally 会释放会话占用。
-            raise InterviewError("面试执行失败，请查看后端日志。") from exc
+            raise InterviewError(f"面试执行失败，请查看后端日志， detail: {exc}。") from exc
 
 
 @exclusive_session

@@ -3,11 +3,9 @@ from langchain_core.messages import SystemMessage, AIMessage
 
 from schemas import Candidate, Interviewer, TaskState
 from agent_system.prompts.prompt_faction import render_prompt
-from agent_system.agent import Agent, InterviewUpdate
+from agent_system.agent import Agent
 
 class InterviewAgent(Agent):
-    def __init__(self):
-        pass
 
     def load_prompt(self, state: TaskState) -> str:
         if state.candidate_config is None or state.interviewer_config is None:
@@ -25,7 +23,7 @@ class InterviewAgent(Agent):
             resume=str(candidate.resume or "未提供"),
         )
 
-    async def __call__(self, state: TaskState) -> InterviewUpdate:
+    async def __call__(self, state: TaskState):
         # 模板、模型调用异常保留原始类型和堆栈，由流程层补充上下文。
         prompt = self.load_prompt(state)
         messages = [SystemMessage(content=prompt), *state.messages]

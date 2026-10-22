@@ -12,11 +12,8 @@ from agent_system.prompts.prompt_faction import render_prompt
 def _create_llm() -> BaseChatModel:
     return ChatOpenAI(**asdict(ModelConfig.validate_dotfile()))
 
-
-class InterviewUpdate(TypedDict):
-    messages: list[AIMessage]
-    chat_round: int
-
+def interview_router(state) -> bool:
+    return False
 
 @dataclass
 class Agent(ABC):

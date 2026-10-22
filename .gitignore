@@ -1,5 +1,6 @@
 .venv/
 .env
+.langgraph_api/
 # Keep internal documentation local; publish only the documentation entry point,
 # release notes, and setup guides.
 /docs/*
