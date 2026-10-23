@@ -1,0 +1,40 @@
+{
+  "runId": "arthas-expansion-20261024",
+  "characterId": "arthas",
+  "status": "preview_ready",
+  "scope": "用户指定斯坦索姆屠杀与伊利丹对决两个节点",
+  "date": "2026-10-24",
+  "workflow": "E:/program/multi-agent-workflow/character-journal",
+  "units": [
+    {
+      "unitId": "stratholme",
+      "textStatus": "passed",
+      "visualStatus": "passed_with_limitations",
+      "imagePath": "units/stratholme/images/cover-v002.png",
+      "storyPath": "units/stratholme/story.md",
+      "imageSha256": "24269a1d7fe2f2156262b307437009b9bfde57c976b40d1618213b0a2ad3fbfa"
+    },
+    {
+      "unitId": "icecrown-duel",
+      "textStatus": "passed",
+      "visualStatus": "passed_with_limitations",
+      "imagePath": "units/icecrown-duel/images/cover-v002.png",
+      "storyPath": "units/icecrown-duel/story.md",
+      "imageSha256": "e12ffc8a5c0ae6df0c63e2842a4039a1e6a4607a61ff939822346ec93bb9bf7c"
+    }
+  ],
+  "previewPath": "preview.html",
+  "publicationStatus": "integrated_into_local_site",
+  "checks": [
+    "text_and_subtitles_reviewed",
+    "images_independently_viewed",
+    "image_hashes_and_preview_references_verified"
+  ],
+  "limitations": [
+    "Browser layout not verified",
+    "Icecrown upper wing margin is narrow; display complete image",
+    "Stratholme facial facets and tears are subtle at reading size"
+  ],
+  "retryCount": 1,
+  "integrationDate": "2026-10-24"
+}

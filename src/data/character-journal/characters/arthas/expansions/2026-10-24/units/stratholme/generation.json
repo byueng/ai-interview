@@ -1,0 +1,33 @@
+{
+  "runId": "arthas-expansion-20261024",
+  "unitId": "stratholme",
+  "tool": "image_gen.imagegen",
+  "model": "built-in default; not exposed",
+  "selectedVersion": 2,
+  "versions": [
+    {
+      "version": 1,
+      "mode": "generate",
+      "prompt": "Create one complete horizontal approximately 16:9 medieval stained-glass narrative artwork for an Arthas character biography. Scene: the exhausted young human paladin Arthas alone in the burned streets of Stratholme immediately after Mal'Ganis has escaped. This is the BEFORE Frostmourne period. One coherent moment, one main character, no montage. Theme: isolation, devastation and the inability of painful conviction to undo what has happened. Solemn, restrained, psychologically heavy, never triumphant.\n\nUse a pulled-back full-body composition. Arthas stands slightly left of center, occupying approximately 45 percent of image height, with enormous empty ruined urban space extending to the right and into smoky distance. He is barely standing: knees slightly yielding, shoulders collapsed forward, both hands gripping the upper shaft of a substantial long-handled warhammer planted vertically with its metal hammerhead resting flat on the cobbled street. His weight visibly rests on the handle. He is shaking and crying quietly, exhausted and angry, not theatrically screaming. Show a readable three-quarter downturned face, exhausted eyes and tightly held mouth. Keep the face, hands and entire hammer clear, comfortably away from image edges. Do not turn this into a close-up portrait or a heroic battle pose.\n\nHe is a natural-proportioned young adult human man with blond hair visible beneath an ordinary open-face paladin battle helmet, heavy silver plate armor and a dark blue cloak. Open-face helmet construction and precise armor ornament are artistic interpretation, not a claimed detail in the source. The helmet may shadow the brow but must leave the face legible; it is NOT the Lich King's spiked crown. His skin is living and natural, eyes do not glow. No white hair, no undead appearance, no sword or Frostmourne. Armor has convincing weight, thickness, joint structure and scorch discoloration; no gory wounds or blood close-ups.\n\nThe entire image is genuinely made of translucent colored glass pieces held in clearly visible dark lead cames: face, armor, cloak, warhammer, ruined buildings, cobbles, smoke and sky alike. Particularly important: the face itself has readable glass segmentation following forehead, brow ridge, nose bridge, cheekbones and jaw, with adjacent glass tones modeling a believable natural face. Do not render a painted smooth face inside a stained-glass border. Realistic anatomy and subtle expression, not cartoon, not photoreal skin, no plastic rendering. Jewel-like glass translucency, minute glass texture, nuanced lead-line thickness.\n\nForeground dark rubble and charred timber; middle ground isolated figure and small lingering embers; distant burned stone houses and broad smoke layers. The ruined street recedes diagonally into distance, largely empty, with no detailed bodies. Directional amber light from low lingering fires on the right gently illuminates one plane of the face and silver armor; opposite sides retain readable cool blue-gray shadows and modeled volume. Mainly charcoal gray, deep blue and silver, limited dark burgundy and ember amber. Restrained saturation, no uniform luminous wash, no huge explosive flames. Vast environmental scale conveys devastation without filling every space with ornament. A minimal geometric glass border is allowed but the scene must remain one continuous image.\n\nExclude Jaina, Uther, other foreground characters, departing riders, Mal'Ganis, ghosts, flashbacks, visions, throne, Frostmourne, swords, white hair, glowing eyes, Lich King helmet, gratuitous gore, crucifixes, crosses, halos, Christian icons, altars, church rituals, modern objects, web interface, panels, collage, embedded writing, readable text, captions, logos and watermark. No text in the image. Maintain full-width single-scene landscape and unobstructed key action.\n",
+      "originalPath": "C:/Users/76353/.codex/generated_images/01a169ca-c810-72a2-8096-a72cb584b3a6/exec-ded16f8c-17c9-4821-b199-f1d759bc264e.png",
+      "outputPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\expansions\\2026-10-24\\units\\stratholme\\images\\cover-v001.png",
+      "sha256": "24a0e60a0ad7b89a4696cf471aa0604d8abf14b3d8eab937777ecd653f1c9441",
+      "inputImage": null
+    },
+    {
+      "version": 2,
+      "mode": "edit",
+      "prompt": "Edit this image while preserving the single scene of exhausted blond human paladin Arthas leaning his full weight on the upright hammer in the ruined streets of Stratholme, silver plate, blue cloak, ordinary open-faced helmet, restrained despair, warm fire and cool smoke. Correct the stained glass material on his face: forehead, brows, nose bridge, both visible cheek planes, mouth region and jaw must be divided by visible DARK LEAD SEAMS into 10–16 distinct translucent colored glass panes. Lead seams MUST cross the internal face, not just its outline. Distinct amber ivory rose muted glass colors with small textured facets, credible natural proportions, readable exhausted expression and lowered head. No smooth painted skin. Also gently pull the camera back so his full standing figure occupies about 55 percent of image height rather than the current 75 percent, retaining the exact believable weight-bearing hammer pose and large empty street. Keep foreground and distance cohesive, all glass material. Preserve no other characters, no sword, no crown, no white hair, no crosses, no readable text, no blood or gore. Do not make him cheerful, heroic or kneeling.\n",
+      "originalPath": "C:/Users/76353/.codex/generated_images/01a169ca-c810-72a2-8096-a72cb584b3a6/exec-547fe0b2-17aa-4dfc-ae95-38f5acf25e28.png",
+      "outputPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\expansions\\2026-10-24\\units\\stratholme\\images\\cover-v002.png",
+      "sha256": "24269a1d7fe2f2156262b307437009b9bfde57c976b40d1618213b0a2ad3fbfa",
+      "inputImage": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\expansions\\2026-10-24\\units\\stratholme\\images\\cover-v001.png"
+    }
+  ],
+  "inputVersions": {
+    "story.md": "ac7b080b1bf37b168597e0cc96341680c8760cca8b8cfe7d0a009d704d50f7e5",
+    "profile.json": "9a53cd1aacbfda403c8057af7ff5820be7286c036141ecc30421c44fd70bedc4",
+    "text-review.json": "0b3acee2cdb9029e5b15a3e119f6919f1d754b5b9443da61e68da8acb106c360",
+    "generation-prompt.txt": "1ac130ca5fdbb76939697e803d9591f378488529da66602df18fcd4c4bd3d3d6"
+  }
+}
