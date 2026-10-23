@@ -1,15 +1,24 @@
 .venv/
 .env
+.langgraph_api/
 # Keep internal documentation local; publish only the documentation entry point,
 # release notes, and setup guides.
 /docs/*
 !/docs/README.md
 !/docs/releases/
 !/docs/setup/
-src/data/
+!/docs/roadmap.md
+!/docs/architecture.md
+!/docs/archive/
+/docs/archive/*
+!/docs/archive/v2.1.0-roadmap.md
+!src/data/character-journal
 .DS_Store
 __pycache__/
 *.pyc
 src/frontend/node_modules/
 src/frontend/dist/
 *.tsbuildinfo
+
+# Generated public character-journal export
+src/frontend/public/character-journal/

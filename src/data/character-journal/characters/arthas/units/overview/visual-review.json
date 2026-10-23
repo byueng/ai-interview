@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "visual_reviewer",
+  "scopeId": "overview",
+  "unitId": "overview",
+  "status": "approved_with_display_constraints",
+  "imageDecision": "approved",
+  "pageDecision": "not_verified",
+  "inspectionMethod": "view_image实际查看原图，读取已审核正文/profile、art-brief及generation；overview原图在此前准备批次已经实际观察。",
+  "imagePath": "src/frontend/src/assets/allegory-mural.png",
+  "imageSha256": "482d280ba1b8845b6b8cb9e60f9f3640ef04114323336dcfd6203b1d1deafb39",
+  "inputVersions": {
+    "src/data/character-journal/characters/arthas/units/overview/story.md": "714a1357e13c6e2bc18cf86e4346cfe104219c7ede3afb2c6b74bfefc4854cdc",
+    "src/data/character-journal/characters/arthas/units/overview/profile.json": "06e91a61356b11fe2fb8caf2d759a7161269fc5c88a95d7d24021b86037df262",
+    "src/data/character-journal/characters/arthas/units/overview/art-brief.md": "5bd251bc53baccb96904e4792451c56be94965711d2bc7520bdc787caea32289",
+    "src/data/character-journal/characters/arthas/units/overview/generation.json": "f35e04cd69395a668f0c7b1be9f14fd197186015a653670eeee805713e3168b3",
+    "src/frontend/src/assets/allegory-mural.png": "482d280ba1b8845b6b8cb9e60f9f3640ef04114323336dcfd6203b1d1deafb39",
+    "src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/visual_reviewer.txt": "420cd4ff3e657aa1484c008c419e78d13b23bb50d413dcf01b74846931591855"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00306",
+      "startRef": "text00306:p0001",
+      "endRef": "text00306:p0035"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00307",
+      "startRef": "text00307:p0001",
+      "endRef": "text00307:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00308",
+      "startRef": "text00308:p0001",
+      "endRef": "text00308:p0090"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00309",
+      "startRef": "text00309:p0001",
+      "endRef": "text00309:p0112"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00310",
+      "startRef": "text00310:p0001",
+      "endRef": "text00310:p0093"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00311",
+      "startRef": "text00311:p0001",
+      "endRef": "text00311:p0050"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00312",
+      "startRef": "text00312:p0001",
+      "endRef": "text00312:p0021"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00313",
+      "startRef": "text00313:p0001",
+      "endRef": "text00313:p0101"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00314",
+      "startRef": "text00314:p0001",
+      "endRef": "text00314:p0074"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00315",
+      "startRef": "text00315:p0001",
+      "endRef": "text00315:p0071"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00316",
+      "startRef": "text00316:p0001",
+      "endRef": "text00316:p0099"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00317",
+      "startRef": "text00317:p0001",
+      "endRef": "text00317:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00318",
+      "startRef": "text00318:p0001",
+      "endRef": "text00318:p0160"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00319",
+      "startRef": "text00319:p0001",
+      "endRef": "text00319:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00320",
+      "startRef": "text00320:p0001",
+      "endRef": "text00320:p0067"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00321",
+      "startRef": "text00321:p0001",
+      "endRef": "text00321:p0088"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00322",
+      "startRef": "text00322:p0001",
+      "endRef": "text00322:p0092"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00323",
+      "startRef": "text00323:p0001",
+      "endRef": "text00323:p0090"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00324",
+      "startRef": "text00324:p0001",
+      "endRef": "text00324:p0030"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00325",
+      "startRef": "text00325:p0001",
+      "endRef": "text00325:p0091"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00326",
+      "startRef": "text00326:p0001",
+      "endRef": "text00326:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00327",
+      "startRef": "text00327:p0001",
+      "endRef": "text00327:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00328",
+      "startRef": "text00328:p0001",
+      "endRef": "text00328:p0130"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00329",
+      "startRef": "text00329:p0001",
+      "endRef": "text00329:p0083"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00330",
+      "startRef": "text00330:p0001",
+      "endRef": "text00330:p0100"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00331",
+      "startRef": "text00331:p0001",
+      "endRef": "text00331:p0062"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00332",
+      "startRef": "text00332:p0001",
+      "endRef": "text00332:p0127"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00333",
+      "startRef": "text00333:p0001",
+      "endRef": "text00333:p0056"
+    }
+  ],
+  "subtitle": {
+    "text": "守护与占有",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "整合阶段已核对全书标题，未发现适用于全人生总览的独立原作副标题。此为概括守护愿望如何转为支配欲的编辑候选；不是书名冒号后的文字，也不把尾声题名推广为全书副标题。",
+    "reviewStatus": "approved"
+  },
+  "checks": [
+    {
+      "item": "storyConsistency",
+      "result": "pass",
+      "evidence": "实际查看既有总览：暖金城市、青年、中央巨剑及孩子、冷蓝冰座统一成寓意画；与守护到占有主题相符。"
+    },
+    {
+      "item": "charactersAndProps",
+      "result": "pass",
+      "evidence": "跨阶段人物、超常巨剑尺度及海上异兽属于已声明象征创作，不能作为小说真实同场、真实生物或事件证据。"
+    },
+    {
+      "item": "composition",
+      "result": "pass",
+      "evidence": "连续横幅玻璃构图，允许总览跨时并置；非多个网页卡片。"
+    },
+    {
+      "item": "leadSegmentation",
+      "result": "pass",
+      "evidence": "人物、衣饰、建筑、天空和地面/海面均由清晰深色铅条分块。"
+    },
+    {
+      "item": "translucentGlass",
+      "result": "pass",
+      "evidence": "宝石色冷暖玻璃与不均匀纹理清楚；不呈摄影或塑料质感。"
+    },
+    {
+      "item": "medievalDecoration",
+      "result": "pass",
+      "evidence": "拱饰和窗花秩序服务整体构图。"
+    },
+    {
+      "item": "noEmbeddedText",
+      "result": "pass",
+      "evidence": "未见可读标题、水印或UI；总览剑上符号为装饰纹样而非可读正文。"
+    },
+    {
+      "item": "aspectRatio",
+      "result": "pass",
+      "evidence": "实际PNG 1672×941，保留原比例。"
+    },
+    {
+      "item": "cropSafetyInImage",
+      "result": "pass",
+      "evidence": "必须显示brief象征图注；保留原图，中央剑与男孩、左侧青年、右侧冰座均不可裁去。"
+    },
+    {
+      "item": "pageCrop",
+      "result": "not_verified",
+      "evidence": "尚未查看真实页面；需协调员验证width:100%;height:auto及无cover裁切。"
+    },
+    {
+      "item": "fileExists",
+      "result": "pass",
+      "evidence": "已调用view_image实际观察本地原图，不凭prompt判断。"
+    },
+    {
+      "item": "versionConsistency",
+      "result": "pass",
+      "evidence": "实际图片与generation的SHA256一致；上游正文、profile、brief哈希与副标题一致。"
+    }
+  ],
+  "reviewFindings": [
+    {
+      "severity": "display_constraint",
+      "detail": "必须显示brief象征图注；保留原图，中央剑与男孩、左侧青年、右侧冰座均不可裁去。"
+    }
+  ],
+  "displayConstraints": [
+    "width:100%;height:auto",
+    "禁止cover裁切，保留原图完整比例",
+    "overview必须保留跨时象征图注"
+  ],
+  "nextRole": "coordinator",
+  "retryCount": 0
+}

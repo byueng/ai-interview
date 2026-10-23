@@ -1,0 +1,337 @@
+{
+  "unitId": "dark-lady",
+  "kind": "section",
+  "displayOrder": 4,
+  "title": "第三篇：服从的代价",
+  "sourceLabel": "第三部；尾声",
+  "subtitle": {
+    "text": "黑暗女王",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00324:p0001",
+      "heading": "➣ 第三部　黑暗女王"
+    },
+    "selectionReason": "原样复用第三部题名，以希尔瓦娜斯受奴役而抵抗的关系照见阿尔萨斯的控制与反噬；尾声为同一人物阶段的内在收束，不另扩用尾声题词作整篇副标题。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00324",
+      "startRef": "text00324:p0001",
+      "endRef": "text00324:p0030"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00325",
+      "startRef": "text00325:p0001",
+      "endRef": "text00325:p0091"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00326",
+      "startRef": "text00326:p0001",
+      "endRef": "text00326:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00327",
+      "startRef": "text00327:p0001",
+      "endRef": "text00327:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00328",
+      "startRef": "text00328:p0001",
+      "endRef": "text00328:p0130"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00329",
+      "startRef": "text00329:p0001",
+      "endRef": "text00329:p0083"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00330",
+      "startRef": "text00330:p0001",
+      "endRef": "text00330:p0100"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00331",
+      "startRef": "text00331:p0001",
+      "endRef": "text00331:p0062"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00332",
+      "startRef": "text00332:p0001",
+      "endRef": "text00332:p0127"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00333",
+      "startRef": "text00333:p0001",
+      "endRef": "text00333:p0056"
+    }
+  ],
+  "focus": "从制造绝对服从到遭遇反抗，追踪他对他人的占有、对自身存亡的恐惧以及最后独占力量的选择。",
+  "tone": "压迫与抵抗交织，控制逐步失灵、求生紧迫，末尾冷寂；不把暴行写成英雄凯旋。",
+  "imageMode": "chapter_scene",
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "writer",
+  "scopeId": "dark-lady",
+  "status": "text_approved",
+  "reviewStatus": "approved",
+  "sourceVersion": "epub-v1",
+  "storyPath": "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dark-lady/story.md",
+  "bodyPath": "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dark-lady/story.md",
+  "chineseCharacterCount": 3739,
+  "inputVersions": {
+    "E:/program/ai-interview/src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/writer.txt": "33007889b16fd825bedd87c9d8b99144369f01db03c346c2a441c743a9db1d15",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/reading/late.json": "fc653d36254f7779fc4ae935d3df7de533611d8c1728020dce65c5702471929a",
+    "E:/program/ai-interview/src/workflows/character-journal/workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00324.json": "c23cb94578afdb8a54620bf31c5437765c45b31a4145f82ad557e0bee569aff2",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00325.json": "862d8d933fc0b3e7e0f05b980b86279b6b0eeffd2b130331a806d503d8958b41",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00326.json": "55ee1f372f79e21a1c3e3d8abe4ac7c395c620bf8c8c6ac2edafa3c9022548cf",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00327.json": "724a11c221a09e8915289d123853fd349da91c6d5c3539c0906188ff32cdb4fd",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00328.json": "f148a8e6e03074975eda7a2c2cf5bef44cfd28dfa4b22c8da2d23b7e2ddd91b2",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00329.json": "f38c4b8a5d6f43436a14dfee750bccc6d7bc7079b0678b5c31c46918e5af756a",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00330.json": "7cb3ce438c7c9b3e8282f5610d21a01a06dc4d1b526ce418c1c19dc4885f57fa",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00331.json": "af56892a7d9f581cf4fdec16c6beff2ebd1cf8756417331c9a9c2d823fbf7662",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00332.json": "910e4e1e51585e8f1c29d1e45b9bc83f72827fb93fd9591710c803aba5e02dca",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00333.json": "c9f860be39b8d3897c5a855ed64f64687d04411b9c0a68629235b5e541baa150"
+  },
+  "factEvidence": [
+    {
+      "id": "F01",
+      "kind": "source_fact",
+      "claim": "后时点幽暗城菌株试验与复仇目标",
+      "sourceRefs": [
+        "text00324:p0003",
+        "text00324:p0011–p0029"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "source_fact",
+      "claim": "窃魂说法属提克迪奥斯；内心仍有悔意反驳",
+      "sourceRefs": [
+        "text00325:p0008–p0014"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "source_fact",
+      "claim": "格文拉德被杀、乌瑟尔先占优势后被杀、倾倒父灰",
+      "sourceRefs": [
+        "text00325:p0022–p0030",
+        "text00325:p0046–p0091"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "source_fact",
+      "claim": "亡灵服从被他视为更好忠诚",
+      "sourceRefs": [
+        "text00326:p0018–p0022"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "source_fact",
+      "claim": "希尔瓦娜斯守土、退守炸桥疏散",
+      "sourceRefs": [
+        "text00326:p0024–p0096",
+        "text00327:p0013–p0037"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "source_fact",
+      "claim": "强制女妖化、疼痛奴役、意志仍反抗",
+      "sourceRefs": [
+        "text00327:p0040–p0069"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "source_fact",
+      "claim": "银月陷落、无敌断腿修复、太阳井复活克尔苏加德",
+      "sourceRefs": [
+        "text00327:p0071–p0096"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "source_fact",
+      "claim": "后知被选中操纵与军团铺路",
+      "sourceRefs": [
+        "text00328:p0004–p0025"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "source_fact",
+      "claim": "吉安娜离开护民；未当面交战；杀安东尼达斯取书召唤",
+      "sourceRefs": [
+        "text00328:p0050–p0114"
+      ]
+    },
+    {
+      "id": "F10",
+      "kind": "source_fact",
+      "claim": "阿克蒙德移交统治、工具被弃的恐惧；诱伊利丹夺颅",
+      "sourceRefs": [
+        "text00328:p0118–p0130",
+        "text00329:p0002–p0026"
+      ]
+    },
+    {
+      "id": "F11",
+      "kind": "source_fact",
+      "claim": "回宫自称国王、力量衰减、希尔瓦娜斯恢复行动自主并结盟",
+      "sourceRefs": [
+        "text00329:p0034–p0083"
+      ]
+    },
+    {
+      "id": "F12",
+      "kind": "source_fact",
+      "claim": "亡灵反噬、秘道逃离、臣民变工具的判断",
+      "sourceRefs": [
+        "text00330:p0002–p0029"
+      ]
+    },
+    {
+      "id": "F13",
+      "kind": "source_fact",
+      "claim": "左肩麻痹毒箭、幽灵女孩与巫妖救援",
+      "sourceRefs": [
+        "text00330:p0034–p0074"
+      ]
+    },
+    {
+      "id": "F14",
+      "kind": "source_fact",
+      "claim": "希尔瓦娜斯拒绝新主、建立被遗忘者道路",
+      "sourceRefs": [
+        "text00330:p0076–p0100"
+      ]
+    },
+    {
+      "id": "F15",
+      "kind": "source_fact",
+      "claim": "返北受袭、地下捷径与明确自救动机",
+      "sourceRefs": [
+        "text00331:p0002–p0062",
+        "text00332:p0002–p0016"
+      ]
+    },
+    {
+      "id": "F16",
+      "kind": "source_fact",
+      "claim": "冰牢因释放符文剑而缺损、获力量、凯尔传送脱身",
+      "sourceRefs": [
+        "text00332:p0025–p0068"
+      ]
+    },
+    {
+      "id": "F17",
+      "kind": "source_fact",
+      "claim": "伊利丹受重伤仍喘息，被留给严寒",
+      "sourceRefs": [
+        "text00332:p0071–p0098"
+      ]
+    },
+    {
+      "id": "F18",
+      "kind": "source_fact",
+      "claim": "登塔回忆、碎冰戴盔交融",
+      "sourceRefs": [
+        "text00332:p0099–p0127"
+      ]
+    },
+    {
+      "id": "F19",
+      "kind": "source_fact",
+      "claim": "长桌梦回望、幻象非既成事实、辨认残余人性、梦中斩除两者",
+      "sourceRefs": [
+        "text00333:p0002–p0040"
+      ]
+    },
+    {
+      "id": "F20",
+      "kind": "source_fact",
+      "claim": "梦外感应与现实觉醒，结于开始了",
+      "sourceRefs": [
+        "text00333:p0042–p0056"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "kind": "interpretation",
+      "claim": "以无法拒绝衡量忠诚、残留爱与施害并存",
+      "sourceRefs": [
+        "text00326:p0019–p0022",
+        "text00327:p0083–p0089"
+      ]
+    },
+    {
+      "kind": "interpretation",
+      "claim": "对亡灵的爱依赖顺从、信任受制于力量",
+      "sourceRefs": [
+        "text00330:p0014–p0029",
+        "text00332:p0014–p0015"
+      ]
+    },
+    {
+      "kind": "interpretation",
+      "claim": "独占未必解脱，既要求服从又憎恨受制的意志得到保留",
+      "sourceRefs": [
+        "text00328:p0008",
+        "text00333:p0033–p0040"
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "text": "开始了。",
+      "sourceRef": "text00333:p0056"
+    }
+  ],
+  "readingCoverage": {
+    "documents": 10,
+    "firstRef": "text00324:p0001",
+    "lastRef": "text00333:p0056",
+    "allAssignedNarrativeRead": true,
+    "recoveredTruncation": "326:p0066–p0096及327:p0001–p0034另次完整输出补读",
+    "excluded": "333:p0057–p0059作者介绍；无游戏后续"
+  },
+  "nextRole": "text_reviewer",
+  "retryCount": 1,
+  "revision": 2,
+  "storySha256": "e5cfa6549237c202b1e2f33ee56189b1cd834fd09a1547cd1102a1c7d89b0909",
+  "revisionNotes": [
+    {
+      "detail": "按协调员转达审核发现，改为先说永生、再刺穿咽喉与心脏，乌瑟尔几乎立刻死去。",
+      "sourceRefs": [
+        "text00325:p0085",
+        "text00325:p0086",
+        "text00325:p0087"
+      ]
+    }
+  ],
+  "textApproval": {
+    "reviewPath": "src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\text-review.json",
+    "reviewSha256": "ff3950987da379743e511e07254c27bb90120f7d29cc60360fe73e7526e91858",
+    "storySha256": "e5cfa6549237c202b1e2f33ee56189b1cd834fd09a1547cd1102a1c7d89b0909"
+  }
+}

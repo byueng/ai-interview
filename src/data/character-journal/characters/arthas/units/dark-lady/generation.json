@@ -1,0 +1,30 @@
+{
+  "runId": "arthas-20261021-02",
+  "unitId": "dark-lady",
+  "role": "illustrator",
+  "status": "generated_pending_review",
+  "tool": "image_gen.imagegen",
+  "model": "built-in default; not exposed",
+  "originalPath": "C:\\Users\\76353\\.codex\\generated_images\\01a15d8b-40bc-7972-a022-5acd17132f5f\\exec-e9cb8817-98a7-4d99-9253-d05166cf15c4.png",
+  "outputPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\images\\cover-v001.png",
+  "outputSha256": "07dbc6a7590983cb3ce9ffc84e8dfe6ae7b4d15fc16069115a0a92570ac7dc53",
+  "prompt": "制作一张横向16:9的完整中世纪彩绘玻璃作品，单一连续空间，无拼贴分镜。人物面孔、手、衣物、道具、建筑和背景全部由清晰深色铅条分割的彩色玻璃构成；扁平而有表情的中世纪造型，透光宝石色、细微玻璃气泡及不均匀纹理，拒绝摄影写实、塑料质感和普通插画外加玻璃边框。让铅条与故事轮廓融合，装饰性拱线仅服务空间。所有面孔、手势和关键道具完整位于画面横向15%至85%、纵向12%至88%的安全区；四边保留可裁切背景，锤顶等道具不得贴边。No text, no lettering, no readable runes, no captions, no watermark, no logo, no UI。不添加现实宗教十字架或无关圣像。\n\n描绘林间伏击已经得手之后的单一紧张瞬间：左侧一匹骷髅战马无敌停在树影中，苍白、骨白长发的死亡骑士阿尔萨斯仍在马背上，身体虚弱倒伏在战马颈部，头吃力地侧向逼近者。他的左肩有一根箭杆，箭已射入，伤处由铠甲与阴影遮住，不流血；右手无力垂下，绝不能拔箭、挥剑、站立或反击。右侧希尔瓦娜斯已拥有实体躯体，蓝白皮肤，午夜黑发夹多道白色条纹，长耳，眼中细小红光；穿完整遮覆躯干的实用暗色游侠衣甲与长裤，不强调胸腰曲线。她在一臂距离缓慢走近，手中举着一把尚未落下的匕首，黑色长弓已经斜背在背上，双手不同时持弓射箭。她的神态冷峻、主动、有复仇决心；阿尔萨斯表现无法行动的惊恐与脆弱。背景仅幽暗树林与模糊的女妖轮廓，不加入尚未到来的克尔苏加德或救援，不拼接女妖化或王座。冷紫、幽蓝与少量暗红构成透光玻璃，两人和马颈轮廓清楚；紧张来自距离和动作差异，而非泛黑或血腥。阿尔萨斯此时没有巫妖王头盔或王冠。不要性感盔甲、裸露、虐杀伤口、匕首刺入身体或多个时刻拼贴。",
+  "subtitle": {
+    "text": "黑暗女王",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00324:p0001",
+      "heading": "➣ 第三部　黑暗女王"
+    },
+    "selectionReason": "原样复用第三部题名，以希尔瓦娜斯受奴役而抵抗的关系照见阿尔萨斯的控制与反噬；尾声为同一人物阶段的内在收束，不另扩用尾声题词作整篇副标题。",
+    "reviewStatus": "approved"
+  },
+  "inputVersions": {
+    "src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\story.md": "e5cfa6549237c202b1e2f33ee56189b1cd834fd09a1547cd1102a1c7d89b0909",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\profile.json": "9f4232ae90fe4e9ef343d0263bb211c5b95b8ce62aefb20dd4588bba96e202ae",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\art-brief.md": "167710c10bb5cd7140d3b942f6aa699164c239720071a62538b64ae36852270e",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\generation-prompt.txt": "dfd23a5e72da62eea865ea53f193ff51096c5e6e890fc35cdbfd5a6db15858fe"
+  },
+  "retryCount": 0
+}

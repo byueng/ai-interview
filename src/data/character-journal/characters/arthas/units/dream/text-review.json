@@ -1,0 +1,39 @@
+{
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "unitId": "dream",
+  "scopeId": "dream",
+  "role": "text_reviewer",
+  "status": "passed",
+  "inputVersions": {
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\story.md": "5fe731c9fb2e1112be60e558eac5dd311efe76c4e57db7cdbe90027156d874d1",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\profile.json": "40f2d874163ffe23307e4686e7b9c1e6e39baeb1ec5316ca3cc38641db87f780",
+    "src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00306.txt": "28ac6487ef3c035d897a6d9aa3a61351e4190447a83fa560f967e0e22f74f17a",
+    "src\\data\\character-journal\\workflow\\runs\\arthas-20261021-02\\delegations\\text_reviewer.txt": "5030db65e22edf97b940660c70a350420cec8b513935503e8572cf8bb0f6ebe0"
+  },
+  "reviewFindings": [
+    "逐段比对序章35段；风暴、避难、舞蹈、长桌三者、病弱男孩及末句引语吻合。",
+    "后期梦境框架明示，未提前披露尾声梦中结局。",
+    "抵抗、倾听与主位的解读在正文使用读到这里、若、似乎限定。",
+    "梦原作副标题与text00306:p0001一致，标题下单列；984中文字符合策划。"
+  ],
+  "subtitle": {
+    "text": "梦",
+    "status": "approved",
+    "sourceRef": "text00306:p0001"
+  },
+  "blockingFindings": [],
+  "nextRole": "coordinator",
+  "retryCount": 0,
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00306",
+      "startRef": "text00306:p0001",
+      "endRef": "text00306:p0035"
+    }
+  ],
+  "outputPaths": [
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\text-review.json"
+  ]
+}

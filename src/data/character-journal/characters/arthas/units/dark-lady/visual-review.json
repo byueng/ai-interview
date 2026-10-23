@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "visual_reviewer",
+  "scopeId": "dark-lady",
+  "unitId": "dark-lady",
+  "status": "approved_with_display_constraints",
+  "imageDecision": "approved",
+  "pageDecision": "not_verified",
+  "inspectionMethod": "view_image实际完整观察并读取brief和generation；对遮挡细节不声称逐处验证。",
+  "imagePath": "src/data/character-journal/characters/arthas/units/dark-lady/images/cover-v001.png",
+  "imageSha256": "07dbc6a7590983cb3ce9ffc84e8dfe6ae7b4d15fc16069115a0a92570ac7dc53",
+  "inputVersions": {
+    "src/data/character-journal/characters/arthas/units/dark-lady/story.md": "e5cfa6549237c202b1e2f33ee56189b1cd834fd09a1547cd1102a1c7d89b0909",
+    "src/data/character-journal/characters/arthas/units/dark-lady/profile.json": "9f4232ae90fe4e9ef343d0263bb211c5b95b8ce62aefb20dd4588bba96e202ae",
+    "src/data/character-journal/characters/arthas/units/dark-lady/art-brief.md": "167710c10bb5cd7140d3b942f6aa699164c239720071a62538b64ae36852270e",
+    "src/data/character-journal/characters/arthas/units/dark-lady/generation.json": "acae104db9efd4bade0d8cdbc940c37da71c103f149a1e3af81906f6e5952a02",
+    "src/data/character-journal/characters/arthas/units/dark-lady/generation-prompt.txt": "dfd23a5e72da62eea865ea53f193ff51096c5e6e890fc35cdbfd5a6db15858fe",
+    "src/data/character-journal/characters/arthas/units/dark-lady/images/cover-v001.png": "07dbc6a7590983cb3ce9ffc84e8dfe6ae7b4d15fc16069115a0a92570ac7dc53",
+    "src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/visual_reviewer.txt": "420cd4ff3e657aa1484c008c419e78d13b23bb50d413dcf01b74846931591855"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00324",
+      "startRef": "text00324:p0001",
+      "endRef": "text00324:p0030"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00325",
+      "startRef": "text00325:p0001",
+      "endRef": "text00325:p0091"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00326",
+      "startRef": "text00326:p0001",
+      "endRef": "text00326:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00327",
+      "startRef": "text00327:p0001",
+      "endRef": "text00327:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00328",
+      "startRef": "text00328:p0001",
+      "endRef": "text00328:p0130"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00329",
+      "startRef": "text00329:p0001",
+      "endRef": "text00329:p0083"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00330",
+      "startRef": "text00330:p0001",
+      "endRef": "text00330:p0100"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00331",
+      "startRef": "text00331:p0001",
+      "endRef": "text00331:p0062"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00332",
+      "startRef": "text00332:p0001",
+      "endRef": "text00332:p0127"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00333",
+      "startRef": "text00333:p0001",
+      "endRef": "text00333:p0056"
+    }
+  ],
+  "subtitle": {
+    "text": "黑暗女王",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00324:p0001",
+      "heading": "➣ 第三部　黑暗女王"
+    },
+    "selectionReason": "原样复用第三部题名，以希尔瓦娜斯受奴役而抵抗的关系照见阿尔萨斯的控制与反噬；尾声为同一人物阶段的内在收束，不另扩用尾声题词作整篇副标题。",
+    "reviewStatus": "approved"
+  },
+  "checks": [
+    {
+      "item": "storyConsistency",
+      "result": "pass",
+      "evidence": "实际图为林间伏击后逼近：阿尔萨斯肩中箭、身体倾靠坐骑、手臂下垂，希尔瓦娜斯举匕首尚未刺下。权力倒转清楚，无凯旋。"
+    },
+    {
+      "item": "charactersAndProps",
+      "result": "pass",
+      "evidence": "白发苍白死亡骑士无王冠头盔；骷髅面坐骑；希尔瓦娜斯长耳蓝白皮肤、黑发白条、背弓持匕首、遮覆游侠甲，与阶段相符。"
+    },
+    {
+      "item": "poseDetail",
+      "result": "not_verified",
+      "evidence": "倾靠与下垂手臂可见，手臂左右和颈部承重接触被甲片及马鬃遮挡，无法逐处确认；未见拔箭、挥剑或主动反击，不阻断核心。"
+    },
+    {
+      "item": "leadSegmentation",
+      "result": "pass",
+      "evidence": "人物面孔、衣甲、马、树林均由深色铅条分块。"
+    },
+    {
+      "item": "translucentGlass",
+      "result": "pass",
+      "evidence": "幽蓝冷紫中有透光斑驳和玻璃纹理，人物与背景清楚分离。"
+    },
+    {
+      "item": "medievalDecoration",
+      "result": "pass",
+      "evidence": "弧形装饰边与内部玻璃秩序统一。"
+    },
+    {
+      "item": "noEmbeddedText",
+      "result": "pass",
+      "evidence": "无可读文字、水印、标题或UI。"
+    },
+    {
+      "item": "singleScene",
+      "result": "pass",
+      "evidence": "同一树林瞬间，女妖轮廓在后，无巫妖救援、女妖化或王座拼贴。"
+    },
+    {
+      "item": "aspectRatio",
+      "result": "pass",
+      "evidence": "PNG实际1672×940，横向约16:9。"
+    },
+    {
+      "item": "cropSafetyInImage",
+      "result": "fail",
+      "evidence": "马头及背弓靠近左右边缘，未满足所有关键道具15%安全区；完整图关键内容仍可辨，应禁止额外裁切。"
+    },
+    {
+      "item": "pageCrop",
+      "result": "not_verified",
+      "evidence": "尚未查看真实页面；按统一width:100%;height:auto完整展示后由协调员实测。"
+    },
+    {
+      "item": "fileExists",
+      "result": "pass",
+      "evidence": "实际view_image观察版本化PNG。"
+    },
+    {
+      "item": "versionConsistency",
+      "result": "pass",
+      "evidence": "图片SHA256、生成输入与审核正文和副标题一致。"
+    }
+  ],
+  "reviewFindings": [
+    {
+      "id": "V-DARK-01",
+      "severity": "display_constraint",
+      "detail": "安全区不足，完整原比例展示禁止cover及隐藏溢出。"
+    },
+    {
+      "id": "V-DARK-02",
+      "severity": "non_blocking_observation",
+      "detail": "躯体倾靠和下垂手臂足以表达无力，具体左右手及马颈接触遮挡未验证。"
+    }
+  ],
+  "displayConstraints": [
+    "width:100%;height:auto",
+    "禁止cover或额外裁切",
+    "保留控制松动与反噬图注"
+  ],
+  "nextRole": "coordinator",
+  "retryCount": 0
+}

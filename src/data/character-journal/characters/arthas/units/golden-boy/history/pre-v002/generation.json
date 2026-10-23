@@ -1,0 +1,30 @@
+{
+  "runId": "arthas-20261021-02",
+  "unitId": "golden-boy",
+  "role": "illustrator",
+  "status": "generated_pending_review",
+  "tool": "image_gen.imagegen",
+  "model": "built-in default; not exposed",
+  "originalPath": "C:\\Users\\76353\\.codex\\generated_images\\01a15d8b-40bc-7972-a022-5acd17132f5f\\exec-4cb665f2-f0e0-4c06-b07d-fc0f37a62520.png",
+  "outputPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\images\\cover-v001.png",
+  "outputSha256": "ce136daace2f1505dc9d025008883f3f0efbde5a8272ccf87141e0fd4ddb71d2",
+  "prompt": "制作一张横向16:9的完整中世纪彩绘玻璃作品，单一连续空间，无拼贴分镜。人物面孔、手、衣物、道具、建筑和背景全部由清晰深色铅条分割的彩色玻璃构成；扁平而有表情的中世纪造型，透光宝石色、细微玻璃气泡及不均匀纹理，拒绝摄影写实、塑料质感和普通插画外加玻璃边框。让铅条与故事轮廓融合，装饰性拱线仅服务空间。所有面孔、手势和关键道具完整位于画面横向15%至85%、纵向12%至88%的安全区；四边保留可裁切背景，锤顶等道具不得贴边。No text, no lettering, no readable runes, no captions, no watermark, no logo, no UI。不添加现实宗教十字架或无关圣像。\n\n描绘暴风城大教堂中受封仪式结束的同一喜悦瞬间：十九岁的金发阿尔萨斯位于中央祭坛前，无遮面头盔，穿明亮重甲与仪式肩甲，双手满怀兴奋地把一柄巨大银色战锤举向空中。锤头完整，锤柄缠蓝色皮革，刻纹是不可读的几何装饰。头发仍是金色，面容年轻有生气，笑容开放；天窗暖金光照耀其身体，清晰表现真实接纳与希望。短胖、长白胡须的法奥在旁温暖微笑；导师与少量亲友围拢欢呼鼓掌，低于主角的视觉层次，不遮挡主角双手或锤头。教堂石拱和祭坛构成统一空间，观众只是背景群像。配色金黄、乳白、王室蓝，少量酒红与祖母绿点缀；整幅图明亮庄重而有青春喜悦，不是悲剧预告。没有白发、亡灵、霜之哀伤、巫妖王头盔、阴影怪物、未来事件或血迹。",
+  "subtitle": {
+    "text": "黄金男孩",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00307:p0001",
+      "heading": "➣ 第一部　黄金男孩"
+    },
+    "selectionReason": "原样复用第一部主题题名，覆盖童年成长到受封荣耀，保留早期真实光明。",
+    "reviewStatus": "approved"
+  },
+  "inputVersions": {
+    "src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\story.md": "af21d44dcafc9d7a2be10f9eb3770a33073cea8a8d54a4fa26836e105afdb540",
+    "src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\profile.json": "3a72aaffc28db58448ecac3f00bf401673a28441ea077027ee7da62079d017cf",
+    "src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\art-brief.md": "8027cccfe670a65ee07871c44096bfabeb16e7396dd7685264fb4b803da5b037",
+    "src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\generation-prompt.txt": "803d82c528c85de3e3f3c30ef9ff3b95c2a3849784a4c11c9555aafcdad0deee"
+  },
+  "retryCount": 0
+}

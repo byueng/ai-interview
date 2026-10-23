@@ -17,7 +17,7 @@ class Runtime:
 def run_time() -> FastAPI:
     # 在实际组装资源时加载 Agent，避免仅导入 HTTP 层就初始化模型配置。
     try:
-        from interview_agent.graph_builder import graph_build
+        from agent_system.graph_builder import graph_build
         from backend.cli import create_app
 
         checkpointer = InMemorySaver()

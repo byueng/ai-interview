@@ -1,0 +1,200 @@
+{
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "unitId": "overview",
+  "scopeId": "overview-and-collection",
+  "role": "text_reviewer",
+  "status": "passed",
+  "inputVersions": {
+    "src\\data\\character-journal\\characters\\arthas\\units\\overview\\profile.json": "5d53c1d26b8a9e35346b5d2844d4d86c52eca69553edb56a213513d4187e1e30",
+    "src\\data\\character-journal\\characters\\arthas\\units\\overview\\story.md": "714a1357e13c6e2bc18cf86e4346cfe104219c7ede3afb2c6b74bfefc4854cdc",
+    "src\\data\\character-journal\\workflow\\runs\\arthas-20261021-02\\cross-section-review.json": "b5916a2f5424f2ee851ec3b4d959e343f5f7bb2fdc8e783e14d989774fbbff0a"
+  },
+  "reviewFindings": [
+    "对照四篇已审正文完整阅读总览，早期温情、瘟疫不确定性、取剑诱导与主动选择、女妖反抗和梦境结尾均一致。",
+    "O01已修正：强制女妖化在复活克尔苏加德之前。",
+    "1123中文字符合1000–1400字要求，简述经历而非复制分篇；未续写小说外命运。",
+    "守护与占有明确为editorial，副标题与正文主题一致；总览图按用户指示复用。"
+  ],
+  "subtitle": {
+    "text": "守护与占有",
+    "origin": "editorial",
+    "status": "approved"
+  },
+  "blockingFindings": [],
+  "nextRole": "art_director",
+  "retryCount": 1,
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00306",
+      "startRef": "text00306:p0001",
+      "endRef": "text00306:p0035"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00307",
+      "startRef": "text00307:p0001",
+      "endRef": "text00307:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00308",
+      "startRef": "text00308:p0001",
+      "endRef": "text00308:p0090"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00309",
+      "startRef": "text00309:p0001",
+      "endRef": "text00309:p0112"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00310",
+      "startRef": "text00310:p0001",
+      "endRef": "text00310:p0093"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00311",
+      "startRef": "text00311:p0001",
+      "endRef": "text00311:p0050"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00312",
+      "startRef": "text00312:p0001",
+      "endRef": "text00312:p0021"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00313",
+      "startRef": "text00313:p0001",
+      "endRef": "text00313:p0101"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00314",
+      "startRef": "text00314:p0001",
+      "endRef": "text00314:p0074"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00315",
+      "startRef": "text00315:p0001",
+      "endRef": "text00315:p0071"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00316",
+      "startRef": "text00316:p0001",
+      "endRef": "text00316:p0099"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00317",
+      "startRef": "text00317:p0001",
+      "endRef": "text00317:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00318",
+      "startRef": "text00318:p0001",
+      "endRef": "text00318:p0160"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00319",
+      "startRef": "text00319:p0001",
+      "endRef": "text00319:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00320",
+      "startRef": "text00320:p0001",
+      "endRef": "text00320:p0067"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00321",
+      "startRef": "text00321:p0001",
+      "endRef": "text00321:p0088"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00322",
+      "startRef": "text00322:p0001",
+      "endRef": "text00322:p0092"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00323",
+      "startRef": "text00323:p0001",
+      "endRef": "text00323:p0090"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00324",
+      "startRef": "text00324:p0001",
+      "endRef": "text00324:p0030"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00325",
+      "startRef": "text00325:p0001",
+      "endRef": "text00325:p0091"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00326",
+      "startRef": "text00326:p0001",
+      "endRef": "text00326:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00327",
+      "startRef": "text00327:p0001",
+      "endRef": "text00327:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00328",
+      "startRef": "text00328:p0001",
+      "endRef": "text00328:p0130"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00329",
+      "startRef": "text00329:p0001",
+      "endRef": "text00329:p0083"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00330",
+      "startRef": "text00330:p0001",
+      "endRef": "text00330:p0100"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00331",
+      "startRef": "text00331:p0001",
+      "endRef": "text00331:p0062"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00332",
+      "startRef": "text00332:p0001",
+      "endRef": "text00332:p0127"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00333",
+      "startRef": "text00333:p0001",
+      "endRef": "text00333:p0056"
+    }
+  ],
+  "outputPaths": [
+    "src\\data\\character-journal\\characters\\arthas\\units\\overview\\text-review.json"
+  ]
+}

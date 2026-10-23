@@ -1,0 +1,49 @@
+{
+  "documentId": "text00303",
+  "sourceHref": "OEBPS/text00303.html",
+  "sourceSha256": "266fa0f541701832f6b75d926220ce4672f92203a9ea3d92a8d45cb486c7eab6",
+  "blocks": [
+    {
+      "ref": "text00303:p0001",
+      "tag": "h2",
+      "anchor": null,
+      "text": "版权信息"
+    },
+    {
+      "ref": "text00303:p0002",
+      "tag": "p",
+      "anchor": null,
+      "text": "书名：迈向冰封王座：阿尔萨斯"
+    },
+    {
+      "ref": "text00303:p0003",
+      "tag": "p",
+      "anchor": null,
+      "text": "作者：【美】克里斯蒂·高登"
+    },
+    {
+      "ref": "text00303:p0004",
+      "tag": "p",
+      "anchor": null,
+      "text": "译者：李镭"
+    },
+    {
+      "ref": "text00303:p0005",
+      "tag": "p",
+      "anchor": null,
+      "text": "出版社：新星出版社"
+    },
+    {
+      "ref": "text00303:p0006",
+      "tag": "p",
+      "anchor": null,
+      "text": "出版日期：2016-02-01"
+    },
+    {
+      "ref": "text00303:p0007",
+      "tag": "p",
+      "anchor": null,
+      "text": "ISBN：9787513314619"
+    }
+  ]
+}

@@ -1,13 +1,16 @@
 {
   "name": "interview-simulator-web-v2",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "test": "node --test tests/*.test.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "journal:sync": "node scripts/character-journal.mjs",
+    "predev": "npm run journal:sync",
+    "prebuild": "npm run journal:sync"
   },
   "dependencies": {
     "lucide-vue-next": "^0.468.0",

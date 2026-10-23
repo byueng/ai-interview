@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "visual_reviewer",
+  "scopeId": "golden-boy",
+  "unitId": "golden-boy",
+  "status": "approved_with_display_constraints",
+  "imageDecision": "approved",
+  "pageDecision": "not_verified",
+  "imagePath": "src/data/character-journal/characters/arthas/units/golden-boy/images/cover-v001.png",
+  "imageSha256": "ce136daace2f1505dc9d025008883f3f0efbde5a8272ccf87141e0fd4ddb71d2",
+  "inputVersions": {
+    "src/data/character-journal/characters/arthas/units/golden-boy/story.md": "af21d44dcafc9d7a2be10f9eb3770a33073cea8a8d54a4fa26836e105afdb540",
+    "src/data/character-journal/characters/arthas/units/golden-boy/profile.json": "3a72aaffc28db58448ecac3f00bf401673a28441ea077027ee7da62079d017cf",
+    "src/data/character-journal/characters/arthas/units/golden-boy/art-brief.md": "8027cccfe670a65ee07871c44096bfabeb16e7396dd7685264fb4b803da5b037",
+    "src/data/character-journal/characters/arthas/units/golden-boy/generation.json": "aa74ab9260b44bbf24a0d0ac9e17a57fabd27261251913e0b843c4b4a523443a",
+    "src/data/character-journal/characters/arthas/units/golden-boy/generation-prompt.txt": "803d82c528c85de3e3f3c30ef9ff3b95c2a3849784a4c11c9555aafcdad0deee",
+    "src/data/character-journal/characters/arthas/units/golden-boy/images/cover-v001.png": "ce136daace2f1505dc9d025008883f3f0efbde5a8272ccf87141e0fd4ddb71d2",
+    "src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/visual_reviewer.txt": "420cd4ff3e657aa1484c008c419e78d13b23bb50d413dcf01b74846931591855"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00307",
+      "startRef": "text00307:p0001",
+      "endRef": "text00307:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00308",
+      "startRef": "text00308:p0001",
+      "endRef": "text00308:p0090"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00309",
+      "startRef": "text00309:p0001",
+      "endRef": "text00309:p0112"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00310",
+      "startRef": "text00310:p0001",
+      "endRef": "text00310:p0093"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00311",
+      "startRef": "text00311:p0001",
+      "endRef": "text00311:p0050"
+    }
+  ],
+  "subtitle": {
+    "text": "黄金男孩",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00307:p0001",
+      "heading": "➣ 第一部　黄金男孩"
+    },
+    "selectionReason": "原样复用第一部主题题名，覆盖童年成长到受封荣耀，保留早期真实光明。",
+    "reviewStatus": "approved"
+  },
+  "inspectionMethod": "view_image实际观察完整图片，并读取brief及generation。",
+  "checks": [
+    {
+      "item": "storyConsistency",
+      "result": "pass",
+      "evidence": "暖金光下金发青年笑着举锤，亲友鼓掌，真实喜悦与受封主题一致，无悲剧预告。"
+    },
+    {
+      "item": "charactersAndProps",
+      "result": "pass",
+      "evidence": "年轻金发、明亮重甲及肩甲、银锤蓝柄、白胡须法奥均可辨；无白发主角、魔剑、亡灵或巫妖王盔。"
+    },
+    {
+      "item": "leadSegmentation",
+      "result": "pass",
+      "evidence": "甲胄、衣物、窗、石墙均有深色铅条组织；非普通插画仅加边框。"
+    },
+    {
+      "item": "translucentGlass",
+      "result": "pass",
+      "evidence": "金白与王室蓝玻璃有亮度层次及细微不均匀纹理。"
+    },
+    {
+      "item": "medievalDecoration",
+      "result": "pass",
+      "evidence": "拱形窗、几何窗花及统一装饰秩序。"
+    },
+    {
+      "item": "noEmbeddedText",
+      "result": "pass",
+      "evidence": "未见可读文字、水印或UI；锤面是几何太阳纹。"
+    },
+    {
+      "item": "singleScene",
+      "result": "pass",
+      "evidence": "连续大教堂与祭坛场景，无时空拼贴。"
+    },
+    {
+      "item": "aspectRatio",
+      "result": "pass",
+      "evidence": "1672×941横向近16:9。"
+    },
+    {
+      "item": "cropSafetyInImage",
+      "result": "fail",
+      "evidence": "锤顶位于画面约3%高度，超出brief纵向12%安全区；左右背景亲友亦贴边。不可cover裁切。"
+    },
+    {
+      "item": "pageCrop",
+      "result": "not_verified",
+      "evidence": "尚未实际查看预览页；协调员指定width:100%;height:auto完整展示，需页面阶段验证。"
+    },
+    {
+      "item": "fileExists",
+      "result": "pass",
+      "evidence": "实际view_image查看版本化PNG。"
+    },
+    {
+      "item": "versionConsistency",
+      "result": "pass",
+      "evidence": "生成图片及输入哈希匹配，副标题黄金男孩与已审核profile及brief一致。"
+    }
+  ],
+  "reviewFindings": [
+    {
+      "id": "V-GOLD-01",
+      "severity": "display_constraint",
+      "detail": "构图未满足12%顶部安全区，但完整原图中的锤头无切断；按协调员指定原比例完整展示可用，禁止cover、固定高度隐藏或顶部裁切。页面尚未验证。"
+    }
+  ],
+  "displayConstraints": [
+    "width:100%;height:auto",
+    "完整原比例显示，不使用cover或裁切",
+    "若以后改变容器需重新验收锤头与双手"
+  ],
+  "nextRole": "coordinator",
+  "retryCount": 0
+}

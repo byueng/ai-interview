@@ -1,0 +1,252 @@
+{
+  "unitId": "lady-of-light",
+  "kind": "section",
+  "displayOrder": 3,
+  "title": "第二篇：爱与救援的裂口",
+  "sourceLabel": "第二部",
+  "subtitle": {
+    "text": "光明女士",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00312:p0001",
+      "heading": "➣ 第二部　光明女士"
+    },
+    "selectionReason": "原样复用第二部题名；吉安娜的爱、判断与拒绝贯穿王子从希望走向决裂的阶段，不将她简化为失恋诱因。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00312",
+      "startRef": "text00312:p0001",
+      "endRef": "text00312:p0021"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00313",
+      "startRef": "text00313:p0001",
+      "endRef": "text00313:p0101"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00314",
+      "startRef": "text00314:p0001",
+      "endRef": "text00314:p0074"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00315",
+      "startRef": "text00315:p0001",
+      "endRef": "text00315:p0071"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00316",
+      "startRef": "text00316:p0001",
+      "endRef": "text00316:p0099"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00317",
+      "startRef": "text00317:p0001",
+      "endRef": "text00317:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00318",
+      "startRef": "text00318:p0001",
+      "endRef": "text00318:p0160"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00319",
+      "startRef": "text00319:p0001",
+      "endRef": "text00319:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00320",
+      "startRef": "text00320:p0001",
+      "endRef": "text00320:p0067"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00321",
+      "startRef": "text00321:p0001",
+      "endRef": "text00321:p0088"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00322",
+      "startRef": "text00322:p0001",
+      "endRef": "text00322:p0092"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00323",
+      "startRef": "text00323:p0001",
+      "endRef": "text00323:p0090"
+    }
+  ],
+  "focus": "爱情与共同救援的希望如何在瘟疫压力、权威冲突和复仇中瓦解；完整保留握剑前的主动越界。",
+  "tone": "亲密、明亮与合作起步，逐渐焦灼、决裂，最终寒冷而反讽。",
+  "imageMode": "chapter_scene",
+  "acceptance": [
+    "间奏标后时点，再回到相恋主线",
+    "全城感染与唯一方案均非已证实；也不虚构已验证的救治替代方案",
+    "焚舟在取剑前；取剑同时保留警告、圣光回应、耳语诱惑与主动选择",
+    "穆拉丁仅写重伤及王子的判断，不确认为死亡",
+    "没有把吉安娜拒绝暴行等同于客观背叛"
+  ],
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "writer",
+  "scopeId": "lady-of-light",
+  "sourceVersion": "epub-v1",
+  "status": "text_approved",
+  "bodyPath": "story.md",
+  "inputVersions": {
+    "src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/writer.txt": "33007889b16fd825bedd87c9d8b99144369f01db03c346c2a441c743a9db1d15",
+    "src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "src/data/character-journal/characters/arthas/reading/early.json": "6dc22dff137d9c6f4307bbe4d13a9f11f6b77308574ebefc0c41c5e3ba23d403",
+    "src/data/character-journal/characters/arthas/reading/middle.json": "c4b2ee107723e61d59de11df102bb70729ea52a9cb6d78d74646abc439e3cf9c",
+    "src/workflows/character-journal/workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00312.json": "cf600f95e99a427d7fe2d89efb8bc6caa12d9123df100b0defaa8a5781cb61b4",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00313.json": "b74e39d2f6867e144bb038fe30e507aa8e48cab7fd288e78c4ec9ee2cd30d371",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00314.json": "76f77e5b729fc36431f26b3e6840839263fe52632429f995f059ff8f92b7cc22",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00315.json": "062ca8f0811e776932f7b616e44c529641ac553453d8ff54ecc2aa8193758046",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00316.json": "8471330377c95dccdbe9c0570825a46b4c7897697819ff742b85ce8fdf46d911",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00317.json": "3f3ea909495055d04902d7b05aaa30365a3d3dcd32fa792fe2f4eba4fb40c782",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00318.json": "4285a294a350b371767303e55f8ce4b22db3b326fb5142224e3fba4770f32517",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00319.json": "a1b11a6d0bff6bc30d0508d883fa77874dc913ade2523f3ffac0c487f22c8c2a",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00320.json": "8a7b4ac0309ef11e1b4a932399c4b423adc4a16638c1a2f9ad323220fec84469",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00321.json": "58559b357bdd02c6a4ce4c2e9e390e4f2f05d0efd5a513b863e0b0f61c42fa8f",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00322.json": "84b264faf25acc935e71c22aecb1fb93b4ae897f865c59be5d1935ebd3aab124",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00323.json": "55154fdea17ad550e6cc440ccbb9a0e12922e5d1cfd261719ce01c76b558217c"
+  },
+  "factReferences": [
+    {
+      "topic": "回望与恋爱",
+      "sourceRefs": [
+        "text00312:p0003–p0021",
+        "text00313:p0023–p0101",
+        "text00314:p0002–p0074"
+      ]
+    },
+    {
+      "topic": "冬幕节分手与调查重逢",
+      "sourceRefs": [
+        "text00315:p0002–p0071",
+        "text00316:p0020–p0099"
+      ]
+    },
+    {
+      "topic": "农场与污染粮仓",
+      "sourceRefs": [
+        "text00317:p0007–p0095"
+      ]
+    },
+    {
+      "topic": "安多哈尔与壁炉谷",
+      "sourceRefs": [
+        "text00318:p0002–p0132"
+      ]
+    },
+    {
+      "topic": "先知与斯坦索姆",
+      "sourceRefs": [
+        "text00318:p0133–p0160",
+        "text00319:p0002–p0095"
+      ]
+    },
+    {
+      "topic": "吉安娜选择西迁",
+      "sourceRefs": [
+        "text00320:p0002–p0067"
+      ]
+    },
+    {
+      "topic": "北行、焚舟与嫁祸",
+      "sourceRefs": [
+        "text00321:p0002–p0088",
+        "text00322:p0002–p0007"
+      ]
+    },
+    {
+      "topic": "警告、治疗回应及取剑",
+      "sourceRefs": [
+        "text00322:p0008–p0092",
+        "text00323:p0002–p0004"
+      ]
+    },
+    {
+      "topic": "复仇与归乡",
+      "sourceRefs": [
+        "text00323:p0005–p0060"
+      ]
+    },
+    {
+      "topic": "无敌复起与自我赦免",
+      "sourceRefs": [
+        "text00323:p0061–p0090"
+      ]
+    }
+  ],
+  "interpretationPolicy": {
+    "originalSetting": false,
+    "interpretiveClaims": [
+      "对失去与拒绝的敏感",
+      "救援愿望逐渐被复仇和控制吞没",
+      "亡灵复起被王子用于自我赦免"
+    ],
+    "boundaries": [
+      "312是而立吉安娜后时点回望；313起明确返回年轻阶段",
+      "没有证实全城感染，也没有虚构已验证的治愈方案",
+      "焚舟嫁祸先于取剑；保留耳语诱惑和主动选择",
+      "圣光在322:p0086回应，停止治疗后取剑",
+      "穆拉丁仅记重伤及王子报死判断",
+      "吉安娜拒绝屠城非客观背叛",
+      "无敌复起非恢复原有活体；自认无错不是叙述裁定",
+      "不填补暴雪间隙，不引入323以后剧情",
+      "三日后回访废城是当下；拒绝北行及劝阻是一天半前对话的回忆（320:p0002、p0007–p0008、p0027）"
+    ]
+  },
+  "readingCoverage": {
+    "documentCount": 12,
+    "allAssignedBlocksRead": true,
+    "method": "sequential bounded source JSON block batches; source outputs untruncated"
+  },
+  "length": {
+    "hanCharacters": 3580,
+    "targetMin": 3500,
+    "targetMax": 4300,
+    "includesHeadings": true
+  },
+  "nextRole": "text_reviewer",
+  "revision": 1,
+  "revisionHistory": [
+    {
+      "revision": 1,
+      "reason": "依独立校核反馈区分废城回访与此前北行对话",
+      "sourceRefs": [
+        "text00320:p0002",
+        "text00320:p0007",
+        "text00320:p0008",
+        "text00320:p0027"
+      ],
+      "previousOutputVersions": {
+        "src/data/character-journal/characters/arthas/units/lady-of-light/story.md": "a6873827fadd5fe03b324cd366ae54f5e8e6bfba19f9ebf8d5a2841e056a9096",
+        "src/data/character-journal/characters/arthas/units/lady-of-light/profile.json": "078386e79c88e75cad610553d0bfd1c8aefbcfddb44cd58c62434ce492d88d5f"
+      }
+    }
+  ],
+  "reviewStatus": "approved",
+  "textApproval": {
+    "reviewPath": "src\\data\\character-journal\\characters\\arthas\\units\\lady-of-light\\text-review.json",
+    "reviewSha256": "3edac625ede24db4b4289d83f03cd2b60db18d450d2b2aaaa60e0d5cd51860d6",
+    "storySha256": "4e8ba57ba113c4970a73923093b5d90c6f46573563d683075c55bf7de6a05adb"
+  }
+}

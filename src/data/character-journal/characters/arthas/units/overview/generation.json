@@ -1,0 +1,26 @@
+{
+  "runId": "arthas-20261021-02",
+  "unitId": "overview",
+  "role": "illustrator",
+  "status": "pending_visual_review",
+  "mode": "reuse_existing",
+  "tool": null,
+  "model": null,
+  "originalPath": "E:\\program\\ai-interview\\src\\frontend\\src\\assets\\allegory-mural.png",
+  "outputPath": "E:\\program\\ai-interview\\src\\frontend\\src\\assets\\allegory-mural.png",
+  "outputSha256": "482d280ba1b8845b6b8cb9e60f9f3640ef04114323336dcfd6203b1d1deafb39",
+  "prompt": null,
+  "subtitle": {
+    "text": "守护与占有",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "整合阶段已核对全书标题，未发现适用于全人生总览的独立原作副标题。此为概括守护愿望如何转为支配欲的编辑候选；不是书名冒号后的文字，也不把尾声题名推广为全书副标题。",
+    "reviewStatus": "approved"
+  },
+  "inputVersions": {
+    "src\\data\\character-journal\\characters\\arthas\\units\\overview\\story.md": "714a1357e13c6e2bc18cf86e4346cfe104219c7ede3afb2c6b74bfefc4854cdc",
+    "src\\data\\character-journal\\characters\\arthas\\units\\overview\\profile.json": "06e91a61356b11fe2fb8caf2d759a7161269fc5c88a95d7d24021b86037df262",
+    "src\\data\\character-journal\\characters\\arthas\\units\\overview\\art-brief.md": "5bd251bc53baccb96904e4792451c56be94965711d2bc7520bdc787caea32289"
+  },
+  "retryCount": 0
+}

@@ -1,0 +1,33 @@
+{
+  "runId": "arthas-20261021-02",
+  "unitId": "dream",
+  "role": "illustrator",
+  "status": "generated_pending_review",
+  "tool": "image_gen.imagegen",
+  "model": "built-in default; not exposed",
+  "originalPath": "C:\\Users\\76353\\.codex\\generated_images\\01a15d8b-40bc-7972-a022-5acd17132f5f\\exec-a813eede-8f94-4877-8960-bd99ffc0c649.png",
+  "outputPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dream\\images\\cover-v002.png",
+  "outputSha256": "424f9c7994eff5c05c44bce31b617ecbee960a9310cc4d23f5f59587ba8419ab",
+  "prompt": "编辑提供的dream现有cover-v001图片，保持横向约16:9尺寸、同一梦境大厅、长桌、火炉、敞门风雪、三位角色，以及全图深色铅条和透光彩绘玻璃媒介。只进行以下连贯修正：\n\n1. 明确交换两侧角色位置：兽人必须在观看者画面右侧，即面向观众的中央男人自身左侧；金发病弱男孩必须在观看者画面左侧。男孩约在画面宽30%，成年男人50%，兽人70%。重新衔接桌椅、光照及身体，不能机械镜像或剪贴。\n2. 将三人全部向中心内收，所有头脸、肩背、双臂与手指完整位于横向15%–85%、纵向12%–88%安全区，兽人肩背不得贴边，外侧留背景供裁切。保持男孩撑扶座椅、怀着希望望向中央男人；兽人强势，男人在略高雕花椅上。\n3. 清空桌面全部烤肉、水果、盘子、酒杯与其他丰盛餐食，仅保留雕花长桌的木纹与玻璃分块，突出内在对峙。\n4. 中央男人是成年阿尔萨斯，保留灰白长发、暗蓝衣服，去掉明显老年胡须和深刻老年皱纹，脸型是成年而非老人；不增加头盔、王冠或魔剑。兽人仍老而强壮，骷髅脸彩绘；男孩仍金发瘦弱但非血腥病变。\n5. 保留冰蓝深紫与琥珀炉火的冷暖对照，为男孩保留暖光。人物、手、衣物、桌椅和背景继续全部由深色铅条分割的透光纹理玻璃构成，不变成普通油画、照片或玻璃边框插画。单一连续空间，恰好三人，无新增角色、无刺杀动作。No text, no lettering, no readable runes, no watermark, no logo, no UI。",
+  "subtitle": {
+    "text": "梦",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00306:p0001",
+      "heading": "➣ 序章：梦"
+    },
+    "selectionReason": "原样复用序章题名中的主题词，适合全篇梦境框架；序章是结构标签，另存sourceLabel。",
+    "reviewStatus": "approved"
+  },
+  "inputVersions": {
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\story.md": "5fe731c9fb2e1112be60e558eac5dd311efe76c4e57db7cdbe90027156d874d1",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\profile.json": "1ac35da37ed853c21c77853894cd30fe703e163f3d7739778a33d0d53bdf9913",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\art-brief.md": "23eb3735e663c18b6afa192c36d450e54a6bb42e30d7b21d32dc365498a841fd",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\edit-prompt-v002.txt": "f57317b4d21847d2bf49e614b801d526f925704f053882e0bad96792eab279d5",
+    "src\\data\\character-journal\\characters\\arthas\\units\\dream\\images\\cover-v001.png": "b8e5b3ea8dd14937abe8ed08b2e3ee22fe58bdf617ebd5fa9c1fd69287bdb90e"
+  },
+  "retryCount": 1,
+  "revision": 2,
+  "editTarget": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dream\\images\\cover-v001.png"
+}

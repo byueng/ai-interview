@@ -1,0 +1,350 @@
+{
+  "unitId": "overview",
+  "kind": "overview",
+  "displayOrder": 0,
+  "title": "阿尔萨斯人物总览",
+  "sourceLabel": "全书叙事范围",
+  "subtitle": {
+    "text": "守护与占有",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "整合阶段已核对全书标题，未发现适用于全人生总览的独立原作副标题。此为概括守护愿望如何转为支配欲的编辑候选；不是书名冒号后的文字，也不把尾声题名推广为全书副标题。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00306",
+      "startRef": "text00306:p0001",
+      "endRef": "text00306:p0035"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00307",
+      "startRef": "text00307:p0001",
+      "endRef": "text00307:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00308",
+      "startRef": "text00308:p0001",
+      "endRef": "text00308:p0090"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00309",
+      "startRef": "text00309:p0001",
+      "endRef": "text00309:p0112"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00310",
+      "startRef": "text00310:p0001",
+      "endRef": "text00310:p0093"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00311",
+      "startRef": "text00311:p0001",
+      "endRef": "text00311:p0050"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00312",
+      "startRef": "text00312:p0001",
+      "endRef": "text00312:p0021"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00313",
+      "startRef": "text00313:p0001",
+      "endRef": "text00313:p0101"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00314",
+      "startRef": "text00314:p0001",
+      "endRef": "text00314:p0074"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00315",
+      "startRef": "text00315:p0001",
+      "endRef": "text00315:p0071"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00316",
+      "startRef": "text00316:p0001",
+      "endRef": "text00316:p0099"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00317",
+      "startRef": "text00317:p0001",
+      "endRef": "text00317:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00318",
+      "startRef": "text00318:p0001",
+      "endRef": "text00318:p0160"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00319",
+      "startRef": "text00319:p0001",
+      "endRef": "text00319:p0095"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00320",
+      "startRef": "text00320:p0001",
+      "endRef": "text00320:p0067"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00321",
+      "startRef": "text00321:p0001",
+      "endRef": "text00321:p0088"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00322",
+      "startRef": "text00322:p0001",
+      "endRef": "text00322:p0092"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00323",
+      "startRef": "text00323:p0001",
+      "endRef": "text00323:p0090"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00324",
+      "startRef": "text00324:p0001",
+      "endRef": "text00324:p0030"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00325",
+      "startRef": "text00325:p0001",
+      "endRef": "text00325:p0091"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00326",
+      "startRef": "text00326:p0001",
+      "endRef": "text00326:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00327",
+      "startRef": "text00327:p0001",
+      "endRef": "text00327:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00328",
+      "startRef": "text00328:p0001",
+      "endRef": "text00328:p0130"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00329",
+      "startRef": "text00329:p0001",
+      "endRef": "text00329:p0083"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00330",
+      "startRef": "text00330:p0001",
+      "endRef": "text00330:p0100"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00331",
+      "startRef": "text00331:p0001",
+      "endRef": "text00331:p0062"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00332",
+      "startRef": "text00332:p0001",
+      "endRef": "text00332:p0127"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00333",
+      "startRef": "text00333:p0001",
+      "endRef": "text00333:p0056"
+    }
+  ],
+  "focus": "简洁串起成长、责任、决裂和独占力量，提出守护与支配的核心矛盾，让读者进入分篇而不替代分篇。",
+  "tone": "克制、悲怆，有真实曾经拥有的温暖，避免先天恶人论。",
+  "imageMode": "reuse_existing",
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "writer",
+  "scopeId": "overview",
+  "status": "text_approved",
+  "reviewStatus": "approved",
+  "sourceVersion": "epub-v1",
+  "storyPath": "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/overview/story.md",
+  "bodyPath": "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/overview/story.md",
+  "chineseCharacterCount": 1123,
+  "inputVersions": {
+    "E:/program/ai-interview/src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/writer.txt": "33007889b16fd825bedd87c9d8b99144369f01db03c346c2a441c743a9db1d15",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "E:/program/ai-interview/src/data/character-journal/workflow/runs/arthas-20261021-02/cross-section-review.json": "b5916a2f5424f2ee851ec3b4d959e343f5f7bb2fdc8e783e14d989774fbbff0a",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dream/story.md": "5fe731c9fb2e1112be60e558eac5dd311efe76c4e57db7cdbe90027156d874d1",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dream/profile.json": "1ac35da37ed853c21c77853894cd30fe703e163f3d7739778a33d0d53bdf9913",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dream/text-review.json": "62cc6b86488fead83da6032a609ecbffa7edd7576968b154b4d562d75d1bbd93",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/golden-boy/story.md": "af21d44dcafc9d7a2be10f9eb3770a33073cea8a8d54a4fa26836e105afdb540",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/golden-boy/profile.json": "3a72aaffc28db58448ecac3f00bf401673a28441ea077027ee7da62079d017cf",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/golden-boy/text-review.json": "67317d77adcb7cccc4a5c67dba29136531c5ddacdf129e28929ff675532d6ff8",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/lady-of-light/story.md": "4e8ba57ba113c4970a73923093b5d90c6f46573563d683075c55bf7de6a05adb",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/lady-of-light/profile.json": "b6c82eca02ab9946b781f36bc49f89a7fad12bdb6e7bec407ec5e3e52214a075",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/lady-of-light/text-review.json": "3edac625ede24db4b4289d83f03cd2b60db18d450d2b2aaaa60e0d5cd51860d6",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dark-lady/story.md": "e5cfa6549237c202b1e2f33ee56189b1cd834fd09a1547cd1102a1c7d89b0909",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dark-lady/profile.json": "9f4232ae90fe4e9ef343d0263bb211c5b95b8ce62aefb20dd4588bba96e202ae",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/dark-lady/text-review.json": "ff3950987da379743e511e07254c27bb90120f7d29cc60360fe73e7526e91858"
+  },
+  "factEvidence": [
+    {
+      "id": "F01",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "童年无敌与瓦里安、训练及受封真实圣光",
+      "sourceRefs": [
+        "text00307:p0004–p0012",
+        "text00307:p0091–p0094",
+        "text00309:p0065–p0075",
+        "text00311:p0039–p0042"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "失马自身责任、求援受阻、止痛与誓愿",
+      "sourceRefs": [
+        "text00310:p0062–p0093"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "恋爱、退缩、调查重逢与救援",
+      "sourceRefs": [
+        "text00313:p0089–p0101",
+        "text00314:p0068–p0074",
+        "text00315",
+        "text00316",
+        "text00317"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "斯坦索姆未知与拒绝屠城、北行焚舟嫁祸",
+      "sourceRefs": [
+        "text00319:p0017–p0051",
+        "text00321:p0053–p0088"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "取剑警告、圣光仍回应、停止治疗与耳语诱导",
+      "sourceRefs": [
+        "text00322:p0060–p0092"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "归乡弑父、无敌复起及自我赦免",
+      "sourceRefs": [
+        "text00323:p0041–p0090"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "弑师、亡灵服从、精灵战争、强制女妖化和独立意志",
+      "sourceRefs": [
+        "text00325:p0046–p0091",
+        "text00326:p0019–p0022",
+        "text00327:p0045–p0096"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "控制松动、毒箭伏击、臣民变工具",
+      "sourceRefs": [
+        "text00329:p0054–p0083",
+        "text00330:p0014–p0074"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "返北为自救、凯尔脱身、伊利丹仍喘息、戴盔",
+      "sourceRefs": [
+        "text00331:p0057",
+        "text00332:p0064–p0068",
+        "text00332:p0098",
+        "text00332:p0122–p0127"
+      ]
+    },
+    {
+      "id": "F10",
+      "kind": "source_fact_via_reviewed_sections",
+      "claim": "梦中主动斩除人性与耐奥祖形象、现实觉醒",
+      "sourceRefs": [
+        "text00333:p0021–p0040",
+        "text00333:p0053–p0056"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "kind": "interpretation",
+      "claim": "守护逐渐被理解为永不失去，忠诚逐渐被理解为绝对服从；此为人物志解读，不为原作副标题。",
+      "sourceRefs": [
+        "text00310:p0092–p0093",
+        "text00326:p0019–p0022",
+        "text00330:p0027–p0029",
+        "text00333:p0039"
+      ]
+    }
+  ],
+  "image": {
+    "mode": "reuse_existing",
+    "generationRequired": false,
+    "assetPath": "src/frontend/src/assets/allegory-mural.png",
+    "caption": "跨阶段的象征性概括：王与曾经的自己；并非原作中同时发生的真实场景。"
+  },
+  "nextRole": "text_reviewer",
+  "retryCount": 1,
+  "writingGate": {
+    "allSectionReviewsPassed": true,
+    "crossSectionReview": "passed",
+    "verifiedFinalStoryHashes": {
+      "src\\data\\character-journal\\characters\\arthas\\units\\dream\\story.md": "5fe731c9fb2e1112be60e558eac5dd311efe76c4e57db7cdbe90027156d874d1",
+      "src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\story.md": "af21d44dcafc9d7a2be10f9eb3770a33073cea8a8d54a4fa26836e105afdb540",
+      "src\\data\\character-journal\\characters\\arthas\\units\\lady-of-light\\story.md": "4e8ba57ba113c4970a73923093b5d90c6f46573563d683075c55bf7de6a05adb",
+      "src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\story.md": "e5cfa6549237c202b1e2f33ee56189b1cd834fd09a1547cd1102a1c7d89b0909"
+    }
+  },
+  "storySha256": "714a1357e13c6e2bc18cf86e4346cfe104219c7ede3afb2c6b74bfefc4854cdc",
+  "revision": 2,
+  "textApproval": {
+    "reviewPath": "src\\data\\character-journal\\characters\\arthas\\units\\overview\\text-review.json",
+    "reviewSha256": "f613f8837b2ae741583965b06333552e57d2d493756fb3734c9737d18f032901",
+    "storySha256": "714a1357e13c6e2bc18cf86e4346cfe104219c7ede3afb2c6b74bfefc4854cdc"
+  }
+}

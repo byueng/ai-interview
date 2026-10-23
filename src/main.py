@@ -12,7 +12,7 @@ def main():
         "main:run_time",
         host = "127.0.0.1",
         port = 7022,
-        reload=True,
+        reload=False,
         factory=True
     )
     

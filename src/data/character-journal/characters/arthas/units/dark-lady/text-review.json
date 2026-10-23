@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "text_reviewer",
+  "scopeId": "dark-lady",
+  "unitId": "dark-lady",
+  "status": "approved",
+  "decision": "approved",
+  "reviewStatus": "approved",
+  "inputVersions": {
+    "src/data/character-journal/characters/arthas/units/dark-lady/story.md": "e5cfa6549237c202b1e2f33ee56189b1cd834fd09a1547cd1102a1c7d89b0909",
+    "src/data/character-journal/characters/arthas/units/dark-lady/profile.json": "366138a5fa83200306500ab83cfb6b394a83f927db4bf65b9889b46e81e8ae6b",
+    "src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "src/data/character-journal/characters/arthas/reading/late.md": "942cf40b8415a895aec6745915a8134024f66c97e01dba41651e70a3f32fa1a3",
+    "src/data/character-journal/workflow/runs/arthas-20261021-02/delegations/text_reviewer.txt": "5030db65e22edf97b940660c70a350420cec8b513935503e8572cf8bb0f6ebe0",
+    "src/workflows/character-journal/workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00324.json": "c23cb94578afdb8a54620bf31c5437765c45b31a4145f82ad557e0bee569aff2",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00325.json": "862d8d933fc0b3e7e0f05b980b86279b6b0eeffd2b130331a806d503d8958b41",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00326.json": "55ee1f372f79e21a1c3e3d8abe4ac7c395c620bf8c8c6ac2edafa3c9022548cf",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00327.json": "724a11c221a09e8915289d123853fd349da91c6d5c3539c0906188ff32cdb4fd",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00328.json": "f148a8e6e03074975eda7a2c2cf5bef44cfd28dfa4b22c8da2d23b7e2ddd91b2",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00329.json": "f38c4b8a5d6f43436a14dfee750bccc6d7bc7079b0678b5c31c46918e5af756a",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00330.json": "7cb3ce438c7c9b3e8282f5610d21a01a06dc4d1b526ce418c1c19dc4885f57fa",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00331.json": "af56892a7d9f581cf4fdec16c6beff2ebd1cf8756417331c9a9c2d823fbf7662",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00332.json": "910e4e1e51585e8f1c29d1e45b9bc83f72827fb93fd9591710c803aba5e02dca",
+    "src/data/character-journal/characters/arthas/source/epub-v1/text00333.json": "c9f860be39b8d3897c5a855ed64f64687d04411b9c0a68629235b5e541baa150"
+  },
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00324",
+      "startRef": "text00324:p0001",
+      "endRef": "text00324:p0030"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00325",
+      "startRef": "text00325:p0001",
+      "endRef": "text00325:p0091"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00326",
+      "startRef": "text00326:p0001",
+      "endRef": "text00326:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00327",
+      "startRef": "text00327:p0001",
+      "endRef": "text00327:p0096"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00328",
+      "startRef": "text00328:p0001",
+      "endRef": "text00328:p0130"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00329",
+      "startRef": "text00329:p0001",
+      "endRef": "text00329:p0083"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00330",
+      "startRef": "text00330:p0001",
+      "endRef": "text00330:p0100"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00331",
+      "startRef": "text00331:p0001",
+      "endRef": "text00331:p0062"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00332",
+      "startRef": "text00332:p0001",
+      "endRef": "text00332:p0127"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00333",
+      "startRef": "text00333:p0001",
+      "endRef": "text00333:p0056"
+    }
+  ],
+  "reviewMethod": "全文审读正文/profile，核对策划与共享资料，定向回查报告所列关键原文；最终复核revision2修订段。未联网，未改作者文件。",
+  "checks": [
+    {
+      "topic": "chronology",
+      "result": "passed",
+      "detail": "后时点间奏先明示，随后返生前战争；戴盔—长梦—梦中斩除—现实觉醒顺序清楚。",
+      "sourceRefs": [
+        "text00324:p0003",
+        "text00332:p0122–p0127",
+        "text00333:p0053–p0056"
+      ]
+    },
+    {
+      "topic": "agencyAndInterpretation",
+      "result": "passed",
+      "detail": "女妖被强制召回和控制行为，同时保留意志抵抗；不将施害者归咎写成事实；后知被操纵未倒灌早年。",
+      "sourceRefs": [
+        "text00327:p0045–p0069",
+        "text00328:p0008–p0016",
+        "text00329:p0070–p0080"
+      ]
+    },
+    {
+      "topic": "causality",
+      "result": "passed",
+      "detail": "力量衰退、反噬与毒箭、返北求生、巫妖王冰牢缺损等均保持本版本叙事；阿努巴拉克反叛仅属猜疑。",
+      "sourceRefs": [
+        "text00330:p0047–p0073",
+        "text00331:p0057",
+        "text00332:p0014–p0016",
+        "text00332:p0025–p0030"
+      ]
+    },
+    {
+      "topic": "fateAndDream",
+      "result": "passed",
+      "detail": "凯尔传送脱身，伊利丹重伤喘息，梦中两形象斩除不是现实肉身死亡，幻象不作既成经历。",
+      "sourceRefs": [
+        "text00332:p0066–p0068",
+        "text00332:p0098",
+        "text00333:p0019",
+        "text00333:p0023–p0040"
+      ]
+    },
+    {
+      "topic": "quote",
+      "result": "passed",
+      "detail": "末句开始了与原文一致，终止于p0056。",
+      "sourceRefs": [
+        "text00333:p0056"
+      ]
+    }
+  ],
+  "subtitleCheck": {
+    "status": "approved",
+    "text": "黑暗女王",
+    "origin": "original",
+    "sourceRef": {
+      "edition": "用户EPUB《迈向冰封王座：阿尔萨斯》／epub-v1",
+      "ref": "text00324:p0001",
+      "heading": "➣ 第三部　黑暗女王"
+    },
+    "detail": "原作text00324:p0001题名与正文、副标题对象一致；尾声并入范围合理；协调员依本报告更新profile。"
+  },
+  "lengthCheck": {
+    "status": "passed",
+    "hanIncludingHeadings": 3784,
+    "hanExcludingHeadingsAndSubtitle": 3739,
+    "target": [
+      3600,
+      4400
+    ]
+  },
+  "inputHashCheck": {
+    "status": "passed"
+  },
+  "reviewFindings": [
+    {
+      "id": "D01",
+      "status": "resolved",
+      "originalQuote": "终于刺穿了乌瑟尔的心脏。他告诉这位将死的长者，自己打算永远活下去。",
+      "sourceRefs": [
+        "text00325:p0084–p0087"
+      ],
+      "finding": "初次发现刺心脏与永生宣告顺序倒置；作者revision2已改为先宣告、后刺咽喉与心脏、导师几乎立刻死亡，符合原文。"
+    }
+  ],
+  "nextRole": "coordinator",
+  "retryCount": 1,
+  "downstreamGate": "本篇文本通过；总览与整套校核通过后方可按workflow进入绘图。"
+}

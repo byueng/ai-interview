@@ -169,3 +169,28 @@ dialog::backdrop { background: #020813cb; backdrop-filter: blur(4px); }
   .brand-en { font-size: 6px; } .hero-actions { flex-wrap: wrap; } .hero h1 { font-size: 38px; }
   .settings-aside { grid-template-columns: 68px 1fr; gap: 12px; } .settings-aside .glass-rosette { width: 62px; height: 62px; }
 }
+
+/* Resume preparation: dedicated left column, stacked on smaller screens. */
+.content-page.settings-page { max-width: 1500px; }
+.settings-page .settings-layout { grid-template-columns: 245px minmax(0, 1fr) 260px; gap: 26px; }
+.settings-page .preparation-form { min-width: 0; }
+@media (max-width: 1200px) {
+  .settings-page .settings-layout { grid-template-columns: 225px minmax(0, 1fr); gap: 22px; }
+  .settings-page .settings-aside { grid-column: 2; border-radius: 0; }
+}
+@media (max-width: 760px) {
+  .settings-page .settings-layout { grid-template-columns: minmax(0, 1fr); }
+  .settings-page .settings-aside { grid-column: auto; }
+}
+/* A quiet reading space, independent of the interview scenes. */
+.scene-stories .cathedral-backdrop { background: radial-gradient(ellipse at 15% 20%, #24344088, transparent 65%), #0b141e; }
+.scene-stories .cathedral-leadwork { opacity: .35; }
+.scene-stories .site-header { justify-content: flex-start; }
+.scene-stories .primary-nav { margin-left: auto; }
+@media (max-width: 640px) {
+  .site-header { gap: 10px; }
+  .primary-nav { min-width: 0; gap: 0; }
+  .primary-nav a { min-width: 0; padding: 0 9px; font-size: 11px; }
+  .primary-nav .nav-number { display: none; }
+  .site-header .header-cta { display: none; }
+}

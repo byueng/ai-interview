@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+      "ai-interview": "./src/agent_system/graph_builder.py:graph_build"
+    },
+    "env": ".env"
+  }
