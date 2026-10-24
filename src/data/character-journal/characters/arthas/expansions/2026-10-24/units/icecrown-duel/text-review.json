@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-expansion-20261024",
+  "characterId": "arthas",
+  "unitId": "icecrown-duel",
+  "scopeId": "icecrown-duel",
+  "role": "text_reviewer",
+  "status": "passed",
+  "reviewDate": "2026-10-24",
+  "inputVersions": {
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/expansions/2026-10-24/units/icecrown-duel/story.md": "1e84bc2e66ed7e768f3a8f734d1cf3928c46d144dce9fc1568f795d56eebb818",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/expansions/2026-10-24/units/icecrown-duel/profile.json": "3606491e1a94cacb1b4e9250748d0bbc99e2ab191b49ce266b4eceed5e70eed0",
+    "E:/program/multi-agent-workflow/character-journal/roles/text_reviewer.toml": "379acc97cc75dfc0a5e082fefe22ba713933c4b59ac5917b33b6dd339fd8598a",
+    "E:/program/multi-agent-workflow/character-journal/task-configs/subtitle-policy.md": "418fef9dc29a21208ef371df74b99480c3fb95aeac1dd6c536189ebf40a71bbe",
+    "E:/program/multi-agent-workflow/character-journal/task-configs/multi-section.md": "4814ce548ef4706a4ccf24bb49c8a0eb4d6a12e65a178dbc0099d914733a0196",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00332.txt": "58ac6b9f215f29fb75a092f31d189adfb99e1363b95d2e0f3a550f8ce2f69b36"
+  },
+  "method": "完整读取当前 story.md/profile.json；直接回查关键原文，参照已通过整合资料及两项绑定配置；独立审核，不修改作者稿。",
+  "checks": [
+    {
+      "item": "战斗顺序",
+      "status": "pass",
+      "evidence": "压制、腾空拆刃、首次受创、变身绿火、倒地反刺完整区分；text00332:p0083–p0098。"
+    },
+    {
+      "item": "伊利丹结局边界",
+      "status": "pass",
+      "evidence": "留在雪地里的胜利明确胸膛起伏、尚在喘息，未确认死亡，符合p0098。"
+    },
+    {
+      "item": "依附与力量",
+      "status": "pass",
+      "evidence": "恢复力量来自巫妖王，对依附的分析有p0025–p0033支持；前战疲惫有p0079支持。"
+    },
+    {
+      "item": "登塔收束",
+      "status": "pass",
+      "evidence": "旧日劝告和更强召唤在p0101–p0113可回查，正文止于戴盔前。"
+    },
+    {
+      "item": "绘图关键事实",
+      "status": "pass",
+      "evidence": "p0095–p0097为绿火退去后第二次俯冲反击；伊利丹此时双刃分开，阿尔萨斯低位向上刺剑，尚无巫妖王头盔。"
+    }
+  ],
+  "subtitle": {
+    "text": "剑刃尽头的王座",
+    "evidence": "story标题下与profile一致；所用原文章名为数字章名，分部题名不准确覆盖独立节点，编辑副标题主题贴合且来源标识清楚。",
+    "status": "approved",
+    "origin": "editorial"
+  },
+  "reviewFindings": [],
+  "crossSectionConsistency": {
+    "evidence": "两篇为不同时期独立事件，圣骑士战锤与死亡骑士魔剑分开；不存在后期结局倒灌。",
+    "status": "pass"
+  },
+  "nextRole": "art_director",
+  "retryCount": 0,
+  "coordinatorAction": "依据通过记录将profile的subtitle.reviewStatus更新为approved；最终构图须沿用本记录所列最终副标题，不得沿用旧策划候选。",
+  "outputPaths": [
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/expansions/2026-10-24/units/icecrown-duel/text-review.json"
+  ]
+}

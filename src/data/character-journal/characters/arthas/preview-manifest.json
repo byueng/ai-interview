@@ -57,6 +57,28 @@
       "alt": "黑暗女王：控制松动之后，曾被奴役的希尔瓦娜斯逼近失去行动能力的阿尔萨斯。",
       "caption": "控制松动之后，曾被奴役的希尔瓦娜斯逼近失去行动能力的阿尔萨斯。",
       "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "stratholme",
+      "displayOrder": 5,
+      "storyPath": "units/stratholme/story.md",
+      "storySha256": "ac7b080b1bf37b168597e0cc96341680c8760cca8b8cfe7d0a009d704d50f7e5",
+      "imagePath": "units/stratholme/images/cover-v002.png",
+      "imageSha256": "24269a1d7fe2f2156262b307437009b9bfde57c976b40d1618213b0a2ad3fbfa",
+      "alt": "斯坦索姆战后，阿尔萨斯用锤柄撑住身体，在余火与烟尘中颤抖哭泣。依据原文 text00319:p0094；街道布局、开放面部的普通战盔及服饰细节为艺术诠释。画面表现其主观孤立与耗竭，不将他人的拒绝等同于背叛。",
+      "caption": "斯坦索姆战后，阿尔萨斯用锤柄撑住身体，在余火与烟尘中颤抖哭泣。依据原文 text00319:p0094；街道布局、开放面部的普通战盔及服饰细节为艺术诠释。画面表现其主观孤立与耗竭，不将他人的拒绝等同于背叛。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "icecrown-duel",
+      "displayOrder": 6,
+      "storyPath": "units/icecrown-duel/story.md",
+      "storySha256": "1e84bc2e66ed7e768f3a8f734d1cf3928c46d144dce9fc1568f795d56eebb818",
+      "imagePath": "units/icecrown-duel/images/cover-v002.png",
+      "imageSha256": "e12ffc8a5c0ae6df0c63e2842a4039a1e6a4607a61ff939822346ec93bb9bf7c",
+      "alt": "绿火退去后，阿尔萨斯从地面举起霜之哀伤，迎向再次俯冲的伊利丹。依据小说第二十四章绘制的彩绘玻璃艺术诠释；定格于第二次反击、剑锋尚未接触身体的瞬间。",
+      "caption": "绿火退去后，阿尔萨斯从地面举起霜之哀伤，迎向再次俯冲的伊利丹。依据小说第二十四章绘制的彩绘玻璃艺术诠释；定格于第二次反击、剑锋尚未接触身体的瞬间。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
     }
   ],
   "pageReview": "E:\\program\\ai-interview\\src\\data\\character-journal\\workflow\\runs\\arthas-20261021-02\\page-review.json",

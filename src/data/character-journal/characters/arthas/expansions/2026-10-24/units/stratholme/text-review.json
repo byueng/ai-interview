@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-expansion-20261024",
+  "characterId": "arthas",
+  "unitId": "stratholme",
+  "scopeId": "stratholme",
+  "role": "text_reviewer",
+  "status": "passed",
+  "reviewDate": "2026-10-24",
+  "inputVersions": {
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/expansions/2026-10-24/units/stratholme/story.md": "ac7b080b1bf37b168597e0cc96341680c8760cca8b8cfe7d0a009d704d50f7e5",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/expansions/2026-10-24/units/stratholme/profile.json": "df8f984dcd6f6c33640c10fd061bfa98170b17a41e41cedc9565053087930daa",
+    "E:/program/multi-agent-workflow/character-journal/roles/text_reviewer.toml": "379acc97cc75dfc0a5e082fefe22ba713933c4b59ac5917b33b6dd339fd8598a",
+    "E:/program/multi-agent-workflow/character-journal/task-configs/subtitle-policy.md": "418fef9dc29a21208ef371df74b99480c3fb95aeac1dd6c536189ebf40a71bbe",
+    "E:/program/multi-agent-workflow/character-journal/task-configs/multi-section.md": "4814ce548ef4706a4ccf24bb49c8a0eb4d6a12e65a178dbc0099d914733a0196",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00319.txt": "c802fbadc809b8ce18d3da01f96d325d7cc501874315beac9bef7e680f4b9553",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00320.txt": "df680cb583967dca09684a0a63840af8ded458ce1cfe15e551a12c28a089fa66"
+  },
+  "method": "完整读取当前 story.md/profile.json；直接回查关键原文，参照已通过整合资料及两项绑定配置；独立审核，不修改作者稿。",
+  "checks": [
+    {
+      "item": "主观抛弃与伦理拒绝",
+      "status": "pass",
+      "evidence": "伸出去的手明确写在他的感受里那就是抛弃；保留吉安娜与乌瑟尔拒绝命令的理由。text00319:p0026–p0067"
+    },
+    {
+      "item": "感染与替代方案不确定性",
+      "status": "pass",
+      "evidence": "第一节明确全城感染是断言、法师方案未经验证。text00319:p0028–p0038"
+    },
+    {
+      "item": "痛苦与行为责任",
+      "status": "pass",
+      "evidence": "盔甲里仍然有人在痛明确居民伤害不因王子痛苦减少，未把屠杀描写成唯一正确答案。p0072–p0082"
+    },
+    {
+      "item": "战后与回访时间",
+      "status": "pass",
+      "evidence": "锤柄撑身、颤抖哭泣对应p0094；三天后吉安娜回访及乌瑟尔自问对应text00320:p0002、p0031–p0035。"
+    },
+    {
+      "item": "绘图关键事实",
+      "status": "pass",
+      "evidence": "战后仅当前王子与废墟；金发圣骑士和战锤，不得画霜之哀伤或巫妖王头盔，不将已经离开的二人拼进战后。普通圣骑士头盔可用，原文text00319:p0074写他以头盔遮住面孔；开放面部形式属于应明确记录的艺术设定。"
+    }
+  ],
+  "subtitle": {
+    "text": "在爱与服从分开的地方",
+    "evidence": "story标题下与profile一致；所用原文章名为数字章名，分部题名不准确覆盖独立节点，编辑副标题主题贴合且来源标识清楚。",
+    "status": "approved",
+    "origin": "editorial"
+  },
+  "reviewFindings": [],
+  "crossSectionConsistency": {
+    "evidence": "两篇为不同时期独立事件，圣骑士战锤与死亡骑士魔剑分开；不存在后期结局倒灌。",
+    "status": "pass"
+  },
+  "nextRole": "art_director",
+  "retryCount": 0,
+  "coordinatorAction": "依据通过记录将profile的subtitle.reviewStatus更新为approved；最终构图须沿用本记录所列最终副标题，不得沿用旧策划候选。",
+  "outputPaths": [
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/expansions/2026-10-24/units/stratholme/text-review.json"
+  ]
+}

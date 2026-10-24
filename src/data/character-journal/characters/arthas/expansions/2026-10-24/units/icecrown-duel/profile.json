@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-expansion-20261024",
+  "characterId": "arthas",
+  "unitId": "icecrown-duel",
+  "kind": "supplementary-section",
+  "displayOrder": 2,
+  "version": "1.0.0",
+  "status": "pending_text_review",
+  "publicationStatus": "preview_only",
+  "title": "冰冠之下：阿尔萨斯与伊利丹",
+  "sourceLabel": "第二十四章",
+  "subtitle": {
+    "text": "剑刃尽头的王座",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "核对用户提供 EPUB 提取版 epub-v1 的 text00332 全章及 character-dossier.md 全书标题核查记录。本章原题仅为第二十四章；第三部题名黑暗女王侧重希尔瓦娜斯，不适用于以伊利丹决斗为中心的独立专题；尾声巫妖王属于后续梦境与觉醒。本范围没有适用的原作副标题，故以原创编辑小标题概括决斗通往王座、力量依附持续的主题。",
+    "reviewStatus": "approved"
+  },
+  "scopeId": "icecrown-duel",
+  "scope": {
+    "authorization": "用户明确指定扩展阿尔萨斯人物志两个节点，本单元负责与伊利丹的对决。",
+    "parentUnitId": "dark-lady",
+    "focus": "衰弱与重获力量；前战的消耗；冰冠下与伊利丹对决中的判断、创伤与反击；胜利之后继续走向王座。",
+    "start": "抵达冰冠前的衰弱与巫妖王赐力",
+    "end": "击败伊利丹后进入冰洞、登塔，止于戴盔之前",
+    "excluded": ["冰牢破碎与戴盔场面", "长梦与尾声", "作品范围外游戏剧情", "确认伊利丹死亡"]
+  },
+  "tone": "紧迫、冷峻，有近身搏杀的起伏；不将占有力量写作道德凯旋。",
+  "imageMode": "chapter_scene",
+  "imageConstraints": ["中世纪彩绘玻璃", "无嵌入文字", "阿尔萨斯白发、死亡骑士甲与霜之哀伤", "尚未佩戴巫妖王头盔", "伊利丹魔化、黑翼与绿色双刃", "以当前交锋为单一场景，不拼入后续登基"],
+  "sourceRanges": [{"sourceVersion":"epub-v1","documentId":"text00332","startRef":"text00332:p0001","endRef":"text00332:p0113"}],
+  "sections": [
+    {"heading":"重获力量的人","sourceRefs":["text00332:p0012–p0033"],"interpretation":"力量恢复依赖巫妖王；依附关系是对原文事件的明确解读。"},
+    {"heading":"最后的阻挡","sourceRefs":["text00332:p0034–p0068","text00332:p0070–p0082"],"interpretation":"前战留下的消耗及情绪教训；交易反噬为人物志解读，魔化原因及致谢有原文。"},
+    {"heading":"在绿火中举剑","sourceRefs":["text00332:p0083–p0098"],"interpretation":"按原文保留格挡压迫、腾空拆刃、首次受伤、变形绿火、倒地反刺的顺序；人剑一体为阿尔萨斯的确信与感受。"},
+    {"heading":"留在雪地里的胜利","sourceRefs":["text00332:p0098–p0113"],"interpretation":"明确伊利丹仍喘息；王座支配方向是标明为人物志角度的解读。"}
+  ],
+  "inputVersions": {
+    "workflow": "design-5",
+    "writerRole": "roles/writer.toml，2026-10-24 完整读取",
+    "subtitlePolicy": 1,
+    "multiSection": 1,
+    "source": "epub-v1",
+    "dossier": "arthas-20261021-02，whole-work，整合通过",
+    "originalPublicationPlan": "arthas-20261021-02，accepted",
+    "existingStory": "units/dark-lady/story.md，2026-10-24 读取",
+    "taskAuthorization": "2026-10-24 用户点名两个新增节点"
+  },
+  "checks": {
+    "chineseCharacterCount": 1514,
+    "sourceChronologyPreserved": true,
+    "illidanDeathNotAsserted": true,
+    "noPrematureHelm": true,
+    "noNetworkSynopsisUsed": true,
+    "subtitleMatchesStory": true,
+    "reviewStatus": "pending"
+  },
+  "nextRole": "text_reviewer",
+  "retryCount": 0
+}

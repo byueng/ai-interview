@@ -11,7 +11,7 @@
     "author": "克里斯蒂·高登",
     "edition": "用户提供EPUB；本地提取版epub-v1"
   },
-  "structureReason": "推荐一个总览和四个详细分篇：梦、黄金男孩、光明女士、黑暗女王。依据这本书序章及三部的题名、关系重心和人物阶段，并契合用户偏好；不是通用固定篇数，也不是把early/middle/late阅读分块直接当发布分篇。第二部虽长，保留爱情—救援—决裂—归乡因果链，用篇内小节调节。尾声并入末篇，完成长桌梦框架与独占力量的最终选择，避免另开短篇割裂登顶与内在结局。",
+  "structureReason": "推荐一个总览和四个详细分篇：梦、黄金男孩、光明女士、黑暗女王。依据这本书序章及三部的题名、关系重心和人物阶段，并契合用户偏好；不是通用固定篇数，也不是把early/middle/late阅读分块直接当发布分篇。第二部虽长，保留爱情—救援—决裂—归乡因果链，用篇内小节调节。尾声并入末篇，完成长桌梦框架与独占力量的最终选择，避免另开短篇割裂登顶与内在结局。 2026-10-24按用户确认追加斯坦索姆与冰冠对决两个独立专题，保留原有总览及四分篇顺序。",
   "chronologyPolicy": [
     "总览按人生事件顺序概述；展示在前，写作在所有分篇校核通过后。",
     "梦是登王座后长梦的前置框架，不能当童年前史；序章分篇保留男孩的希望，身份及最终选择留给末篇回应。",
@@ -665,6 +665,94 @@
           "endRef": "text00333:p0056"
         }
       ]
+    },
+    {
+      "imageMode": "chapter_scene",
+      "sourceRanges": [
+        "text00319:p0013–p0095"
+      ],
+      "image": {
+        "exclusions": [
+          "不将吉安娜与乌瑟尔的城外离开拼入战后同一画面",
+          "没有霜之哀伤、后期白发或巫妖王头盔",
+          "不画英雄凯旋，不以满幅血腥代替心理表达"
+        ],
+        "scene": "玛尔加尼斯离去后，金发阿尔萨斯把战锤竖地、靠锤柄撑住身体，在斯坦索姆废墟中颤抖哭泣。",
+        "source": "text00319:p0093–p0094"
+      },
+      "title": "斯坦索姆：无人接住的手",
+      "acceptance": [
+        "全城感染是阿尔萨斯判断，未逐人确认",
+        "吉安娜没有已验证解药，但提出不确定性和选择权",
+        "被抛弃和背叛明确归于其主观感受",
+        "未将痛苦当作屠城的免责依据",
+        "区分城外决裂、城内屠杀与战后崩溃的时间"
+      ],
+      "length": {
+        "min": 1400,
+        "max": 2200,
+        "unit": "中文字"
+      },
+      "subtitle": {
+        "reviewStatus": "approved",
+        "origin": "editorial",
+        "selectionReason": "核对epub-v1第十二章text00319:p0001–p0095与第十三章text00320:p0001–p0067，章标题仅为数字章名；共享资料包已核对全书标题。分部题名光明女士适用原有完整关系篇，不足以概括本专题的屠城、主观被抛弃体验及执行后果。本专题无适用独立原作副标题，创作编辑小标题，不冒充原作。",
+        "sourceRef": null,
+        "text": "在爱与服从分开的地方"
+      },
+      "tone": "绝望、孤独、愤怒后的崩溃",
+      "focus": "以绝望和主观被抛弃感展开屠城前后心理，保留平民遭受的暴力与他自身决定；不将旁人拒绝屠城定性为背叛。",
+      "unitId": "stratholme",
+      "displayOrder": 5,
+      "kind": "section",
+      "sourceLabel": "专题增补",
+      "reviewStatus": "approved",
+      "productionRecord": "expansions/2026-10-24/units/stratholme"
+    },
+    {
+      "imageMode": "chapter_scene",
+      "sourceRanges": [
+        "text00332:p0018–p0032",
+        "text00332:p0068–p0099"
+      ],
+      "image": {
+        "exclusions": [
+          "阿尔萨斯尚未戴巫妖王头盔",
+          "不将加冕或梦境拼入对决",
+          "不画伊利丹已死",
+          "不可把两次空中进攻与变身拼成多格"
+        ],
+        "scene": "绿火刚退，伊利丹持双刃从上方俯冲；阿尔萨斯在雪地低位用尽全力向上举刺霜之哀伤，定格反击接触之前。",
+        "source": "text00332:p0095–p0097"
+      },
+      "title": "冰冠之下：阿尔萨斯与伊利丹",
+      "acceptance": [
+        "伊利丹胸口仍起伏喘息，只写重伤被留在严寒中",
+        "绿火压制、退去、俯冲、向上反击顺序清楚",
+        "区分前段p0092受伤与末段p0097反击",
+        "巫妖王恢复力量不等于阿尔萨斯从未疲惫受伤",
+        "文本与人物外形装备依据所提供小说"
+      ],
+      "length": {
+        "min": 1400,
+        "max": 2200,
+        "unit": "中文字"
+      },
+      "subtitle": {
+        "text": "剑刃尽头的王座",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "核对用户提供 EPUB 提取版 epub-v1 的 text00332 全章及 character-dossier.md 全书标题核查记录。本章原题仅为第二十四章；第三部题名黑暗女王侧重希尔瓦娜斯，不适用于以伊利丹决斗为中心的独立专题；尾声巫妖王属于后续梦境与觉醒。本范围没有适用的原作副标题，故以原创编辑小标题概括决斗通往王座、力量依附持续的主题。",
+        "reviewStatus": "approved"
+      },
+      "tone": "寒冷、紧绷、危险中的决绝",
+      "focus": "冰封王座前阿尔萨斯与伊利丹的战斗，突出求生、受制于力量、遭到压制后的反击；不扩写游戏后续。",
+      "unitId": "icecrown-duel",
+      "displayOrder": 6,
+      "kind": "section",
+      "sourceLabel": "专题增补",
+      "reviewStatus": "approved",
+      "productionRecord": "expansions/2026-10-24/units/icecrown-duel"
     }
   ],
   "inputVersions": {
@@ -877,5 +965,14 @@
     "message": "采用",
     "date": "2026-10-21",
     "acceptedProposalSha256": "722db01a79cdbbb8be73eb33aeef0c210f0335991ebc099187bb779bb14b9752"
+  },
+  "expansionAcceptance": {
+    "date": "2026-10-24",
+    "unitIds": [
+      "stratholme",
+      "icecrown-duel"
+    ],
+    "userResponse": "可以",
+    "scope": "接入本地人物志页面"
   }
 }

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-expansion-20261024",
+  "characterId": "arthas",
+  "role": "planner",
+  "status": "scope_confirmed_by_user",
+  "createdDate": "2026-10-24",
+  "scope": "用户指定斯坦索姆屠杀与冰冠对决两个节点，替代此前三个主题候选",
+  "sourceVersion": "epub-v1",
+  "sourceBoundary": "止于 text00333:p0056，不补游戏后续",
+  "sourceVerification": "依赖既有 integrator 的完整覆盖结论，本次回查列出的选题原文与目录；未声称重新通读全书。",
+  "existingOverviewPolicy": "保留已有人物总览，不新增重复总览；将来纳入页面时仅增加专题导航。",
+  "planningGate": {
+    "userAcceptance": "用户明确指定斯坦索姆屠杀和与伊利丹的对决，并表示就这两个吧；本次节点和图文创作范围已授权。",
+    "artAuthorized": false,
+    "writingAuthorized": true,
+    "nextAction": "两篇作者并行创作，独立内容校核后进入构图和绘图"
+  },
+  "inputVersions": {
+    "E:/program/multi-agent-workflow/character-journal/README.md": "774d2a5fa400301abda329018ecf951d3455bad71cc9ea464688c0c70e978e54",
+    "E:/program/multi-agent-workflow/character-journal/workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4",
+    "E:/program/multi-agent-workflow/character-journal/roles/planner.toml": "f63bdbb168e71b334c20872c389259f7df7eb3f10d2ac9579ded8ff7ace74178",
+    "E:/program/multi-agent-workflow/character-journal/task-configs/multi-section.md": "4814ce548ef4706a4ccf24bb49c8a0eb4d6a12e65a178dbc0099d914733a0196",
+    "E:/program/multi-agent-workflow/character-journal/task-configs/subtitle-policy.md": "418fef9dc29a21208ef371df74b99480c3fb95aeac1dd6c536189ebf40a71bbe",
+    "E:/program/multi-agent-workflow/character-journal/task-configs/illustration-style.md": "0d8d47642e3173492ee5f63b93c37fd8bbea70c89c8ed80162a255fe5adfcff8",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/publication-plan.md": "bd057e5396cc38e20c20167eb1215e371f3bb322d5307995d20a5db73a342ce3",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source-coverage.json": "907b9854e0f75a3a0e9e81825faecc34c9a16e6db35befe9c0e4bcea57dd697b",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/sources.json": "b480e21456cb4a1bebd9ada1b172e3dc8f5143473391b49c89f0fd467b06d4dd",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dark-lady\\story.md": "e5cfa6549237c202b1e2f33ee56189b1cd834fd09a1547cd1102a1c7d89b0909",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\dream\\story.md": "5fe731c9fb2e1112be60e558eac5dd311efe76c4e57db7cdbe90027156d874d1",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\golden-boy\\story.md": "af21d44dcafc9d7a2be10f9eb3770a33073cea8a8d54a4fa26836e105afdb540",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\lady-of-light\\story.md": "4e8ba57ba113c4970a73923093b5d90c6f46573563d683075c55bf7de6a05adb",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\units\\overview\\story.md": "714a1357e13c6e2bc18cf86e4346cfe104219c7ede3afb2c6b74bfefc4854cdc",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00304.txt": "12be3d10072fed391854712b089cc15c77b376c305ecddba4128e5978309e831",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00310.txt": "018a8f58a8ca1a09eaa89ebc34ec5b17d89e69710f22ce346768518c554efde0",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00321.txt": "60c6b53cea20d9a11489e205bed35cb4acb4a69fb3147d7f6516564afd5e6be5",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00322.txt": "492a27bc4fedbf8b0f8a48055450c66ae9a0e83d54970d024e009ba3fb3dfc56",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00323.txt": "ea8d8259ffc109473064ea52c0a58922722c62847f35cb2929b64f71dbea94e4",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00326.txt": "dcc5a854ef727c154a6d0c4d99315009a3d6343a689582a6a4cc5bc1d2d512f1",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00330.txt": "aaacfd9efba1d86a9ba8e2bfc7a04ab15e5b142e7068af2fd88c94756dba88e2",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00319.txt": "c802fbadc809b8ce18d3da01f96d325d7cc501874315beac9bef7e680f4b9553",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00332.txt": "58ac6b9f215f29fb75a092f31d189adfb99e1363b95d2e0f3a550f8ce2f69b36"
+  },
+  "units": [
+    {
+      "imageMode": "chapter_scene",
+      "sourceRanges": [
+        "text00319:p0013–p0095"
+      ],
+      "image": {
+        "exclusions": [
+          "不将吉安娜与乌瑟尔的城外离开拼入战后同一画面",
+          "没有霜之哀伤、后期白发或巫妖王头盔",
+          "不画英雄凯旋，不以满幅血腥代替心理表达"
+        ],
+        "scene": "玛尔加尼斯离去后，金发阿尔萨斯把战锤竖地、靠锤柄撑住身体，在斯坦索姆废墟中颤抖哭泣。",
+        "source": "text00319:p0093–p0094"
+      },
+      "title": "斯坦索姆：灰烬中的王子",
+      "acceptance": [
+        "全城感染是阿尔萨斯判断，未逐人确认",
+        "吉安娜没有已验证解药，但提出不确定性和选择权",
+        "被抛弃和背叛明确归于其主观感受",
+        "未将痛苦当作屠城的免责依据",
+        "区分城外决裂、城内屠杀与战后崩溃的时间"
+      ],
+      "length": {
+        "min": 1400,
+        "max": 2200,
+        "unit": "中文字"
+      },
+      "subtitle": {
+        "selectionReason": "针对单一事件及主观感受创作，原作分部题名不准确覆盖该节点",
+        "text": "他以为自己被留下",
+        "origin": "editorial",
+        "reviewStatus": "pending",
+        "sourceRef": null
+      },
+      "tone": "绝望、孤独、愤怒后的崩溃",
+      "focus": "以绝望和主观被抛弃感展开屠城前后心理，保留平民遭受的暴力与他自身决定；不将旁人拒绝屠城定性为背叛。",
+      "unitId": "stratholme",
+      "displayOrder": 1,
+      "kind": "event_expansion"
+    },
+    {
+      "imageMode": "chapter_scene",
+      "sourceRanges": [
+        "text00332:p0018–p0032",
+        "text00332:p0068–p0099"
+      ],
+      "image": {
+        "exclusions": [
+          "阿尔萨斯尚未戴巫妖王头盔",
+          "不将加冕或梦境拼入对决",
+          "不画伊利丹已死",
+          "不可把两次空中进攻与变身拼成多格"
+        ],
+        "scene": "绿火刚退，伊利丹持双刃从上方俯冲；阿尔萨斯在雪地低位用尽全力向上举刺霜之哀伤，定格反击接触之前。",
+        "source": "text00332:p0095–p0097"
+      },
+      "title": "冰冠：王座之前的对决",
+      "acceptance": [
+        "伊利丹胸口仍起伏喘息，只写重伤被留在严寒中",
+        "绿火压制、退去、俯冲、向上反击顺序清楚",
+        "区分前段p0092受伤与末段p0097反击",
+        "巫妖王恢复力量不等于阿尔萨斯从未疲惫受伤",
+        "文本与人物外形装备依据所提供小说"
+      ],
+      "length": {
+        "min": 1400,
+        "max": 2200,
+        "unit": "中文字"
+      },
+      "subtitle": {
+        "selectionReason": "针对第24章冰冠单场对决创作，不复用覆盖整个第三部的黑暗女王",
+        "text": "向上刺出的最后一剑",
+        "origin": "editorial",
+        "reviewStatus": "pending",
+        "sourceRef": null
+      },
+      "tone": "寒冷、紧绷、危险中的决绝",
+      "focus": "冰封王座前阿尔萨斯与伊利丹的战斗，突出求生、受制于力量、遭到压制后的反击；不扩写游戏后续。",
+      "unitId": "icecrown-duel",
+      "displayOrder": 2,
+      "kind": "event_expansion"
+    }
+  ],
+  "sharedAcceptance": [
+    "只产出原创分析，不大段转载原文",
+    "正文每节附可回查的段落定位，事实、角色认知、编辑解读分开",
+    "副标题当前是编辑候选，须独立校核后确认",
+    "人物与时代装备符合原作；彩绘玻璃、自然造型、清晰面部玻璃分块、方向光、拉远视角、约16:9、单场景、无图中文字",
+    "正文与副标题通过后才形成最终 art-brief 和生成图片；实际查看图片才能通过视觉验收"
+  ],
+  "nextRole": "coordinator",
+  "outputPaths": [
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/expansions/2026-10-24/publication-plan.json",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/expansions/2026-10-24/publication-plan.md"
+  ]
+}

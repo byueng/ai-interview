@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-expansion-20261024",
+  "characterId": "arthas",
+  "unitId": "stratholme",
+  "kind": "expansion",
+  "displayOrder": 1,
+  "title": "斯坦索姆：无人接住的手",
+  "subtitle": {
+    "reviewStatus": "approved",
+    "origin": "editorial",
+    "selectionReason": "核对epub-v1第十二章text00319:p0001–p0095与第十三章text00320:p0001–p0067，章标题仅为数字章名；共享资料包已核对全书标题。分部题名光明女士适用原有完整关系篇，不足以概括本专题的屠城、主观被抛弃体验及执行后果。本专题无适用独立原作副标题，创作编辑小标题，不冒充原作。",
+    "sourceRef": null,
+    "text": "在爱与服从分开的地方"
+  },
+  "sourceVersion": "epub-v1",
+  "scopeId": "stratholme",
+  "scope": {
+    "type": "independent_event_expansion",
+    "authorization": "2026-10-24用户明确指定本次扩展两个节点，此为第一节点；仅本单元预览，不覆盖既有五篇",
+    "excludes": [
+      "诺森德取剑",
+      "冰冠对决",
+      "后续游戏剧情"
+    ],
+    "includes": [
+      "城外绝望与屠城决定",
+      "乌瑟尔和吉安娜拒绝及主观被抛弃体验",
+      "屠城痛苦与复仇转向",
+      "废城回访作为短尾声"
+    ]
+  },
+  "focus": "绝望如何令阿尔萨斯将爱与服从混为一谈，亲手排除异议；被抛弃的痛苦与屠城责任同时成立。",
+  "tone": "压迫、决裂、痛苦；保留旁人的理由和平民的主体性",
+  "sourceRanges": [
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00319",
+      "endRef": "text00319:p0095",
+      "startRef": "text00319:p0001"
+    },
+    {
+      "sourceVersion": "epub-v1",
+      "documentId": "text00320",
+      "endRef": "text00320:p0067",
+      "startRef": "text00320:p0001"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "城门前，时间已经不够",
+      "interpretation": "时间压力如何把真实威胁放大为全城死亡断言",
+      "sourceRefs": [
+        "text00319:p0002–p0038"
+      ]
+    },
+    {
+      "heading": "伸出去的手",
+      "interpretation": "拒绝命令被王子体验为拒绝自己；不客观裁定背叛",
+      "sourceRefs": [
+        "text00319:p0026–p0071"
+      ]
+    },
+    {
+      "heading": "盔甲里仍然有人在痛",
+      "interpretation": "内在痛苦并不能抵消平民承受的伤害",
+      "sourceRefs": [
+        "text00319:p0072–p0082"
+      ]
+    },
+    {
+      "heading": "留在火中的回答",
+      "interpretation": "追杀成为承受死者意义的手段，是人物志解读；拒绝者仍有爱与自责",
+      "sourceRefs": [
+        "text00319:p0083–p0095",
+        "text00320:p0002–p0006",
+        "text00320:p0009–p0011",
+        "text00320:p0031–p0044"
+      ]
+    }
+  ],
+  "interpretationPolicy": {
+    "originalSetting": false,
+    "quotationPolicy": "正文不长篇引用；心理阐释以相关原文动作及内心活动为根据",
+    "boundaries": [
+      "全城感染和屠城唯一正确均未证实",
+      "未虚构有效解药",
+      "抛弃与背叛仅为王子主观体验",
+      "战锤该刻无圣光不等于圣光永久抛弃他",
+      "乌瑟尔和吉安娜拒绝屠城有独立伦理理由",
+      "文学意象及因果解读不作新增事件"
+    ]
+  },
+  "imageMode": "chapter_scene",
+  "imageCandidate": {
+    "scene": "战后王子以锤柄撑身，颤抖哭泣",
+    "sourceRef": "text00319:p0094",
+    "status": "awaiting_text_review_and_art_direction"
+  },
+  "inputVersions": {
+    "E:/program/multi-agent-workflow/character-journal/roles/writer.toml": "74a7b3ab5745ff0cd5bffc27960d1c5bcb512d415ce3343d7543e2f0009235d9",
+    "E:/program/multi-agent-workflow/character-journal/workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4",
+    "E:/program/multi-agent-workflow/character-journal/task-configs/subtitle-policy.md": "418fef9dc29a21208ef371df74b99480c3fb95aeac1dd6c536189ebf40a71bbe",
+    "E:/program/multi-agent-workflow/character-journal/task-configs/multi-section.md": "4814ce548ef4706a4ccf24bb49c8a0eb4d6a12e65a178dbc0099d914733a0196",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/character-dossier.md": "4a19d85499086a55a26d22038fe7e72bbc6a6cb196a85f739b991bdd70e00277",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/publication-plan.json": "a2ecec7ed63a404f24e0e79d8449674b31c235069f60a76c0f9e0530e622d2d9",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/units/lady-of-light/story.md": "4e8ba57ba113c4970a73923093b5d90c6f46573563d683075c55bf7de6a05adb",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00319.txt": "c802fbadc809b8ce18d3da01f96d325d7cc501874315beac9bef7e680f4b9553",
+    "E:/program/ai-interview/src/data/character-journal/characters/arthas/source/epub-v1/text00320.txt": "df680cb583967dca09684a0a63840af8ded458ce1cfe15e551a12c28a089fa66"
+  },
+  "bodyPath": "story.md",
+  "length": {
+    "hanCharacters": 1573,
+    "targetMin": 1200,
+    "includesHeadings": true,
+    "targetMax": 1800
+  },
+  "role": "writer",
+  "status": "ready_for_text_review",
+  "reviewStatus": "pending",
+  "nextRole": "text_reviewer",
+  "retryCount": 0,
+  "revision": 1
+}
