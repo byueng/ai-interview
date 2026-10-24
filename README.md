@@ -32,10 +32,10 @@
 
 **[macOS →](docs/setup/README.macos.md) · [Windows →](docs/setup/README.windows.md) · [Linux →](docs/setup/README.linux.md)**
 
-| 平台                                    | Python 环境管理 | 说明                               |
-| --------------------------------------- | --------------- | ---------------------------------- |
-| [macOS](docs/setup/README.macos.md)     | uv              | 原有本地开发流程，使用 zsh / bash  |
-| [Windows](docs/setup/README.windows.md) | venv + pip      | 使用 PowerShell，不需要 uv；       |
+| 平台                                    | Python 环境管理 | 说明                                             |
+| --------------------------------------- | --------------- | ------------------------------------------------ |
+| [macOS](docs/setup/README.macos.md)     | uv              | 原有本地开发流程，使用 zsh / bash                |
+| [Windows](docs/setup/README.windows.md) | venv + pip      | 使用 PowerShell，不需要 uv；                     |
 | [Linux](docs/setup/README.linux.md)     | uv              | bash / zsh 流程已静态核对，尚未在 Linux 实机验收 |
 
 三份指南分别提供依赖安装、服务启动与开发检查命令。模型配置和使用说明在本页统一维护，避免重复与不同步。
