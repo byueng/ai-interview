@@ -7,6 +7,7 @@ from typing import Any
 
 from langchain_core.messages import AnyMessage
 from langgraph.graph.message import add_messages
+from langgraph.graph.state import CompiledStateGraph
 from pydantic import BaseModel, ConfigDict, field_validator
 from pydantic.types import UUID
 from typing_extensions import Annotated, List
@@ -87,3 +88,7 @@ class TaskState:
     status: str = "active"
     last_activity: float = 0
     dtime: datetime = field(default_factory=datetime.now)
+
+@dataclass
+class Runtime:
+    graph: CompiledStateGraph[TaskState, None, TaskState, TaskState]

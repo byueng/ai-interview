@@ -13,6 +13,7 @@
 /docs/archive/*
 !/docs/archive/v2.1.0-roadmap.md
 !src/data/character-journal
+!data/character-journal/
 .DS_Store
 __pycache__/
 *.pyc

@@ -40,3 +40,7 @@ def graph_build(
     graph.add_edge("InterviewAgent", END)
     # graph.add_conditional_edges("InterviewAgent", interview_router, {"True": END, "False": END})
     return graph.compile(checkpointer=checkpointer)
+
+def studio_graph():
+    """ using in langgraph.json """
+    return graph_build()
