@@ -1,0 +1,31 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-10",
+  "reviewer": "thrall_book13",
+  "reviewType": "independent_visual_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\10-stained-glass.png",
+  "imageSha256": "d5b2f732d82444b44f938c7b92fbdec09d3867c80627e26e5e1d125ceb2145a4",
+  "storySha256": "81e36d68c963d0400653203aa7ef3ffef896ce7b4acfb3aebe9f676f1378f0a4",
+  "profileSha256": "b224858769bec71a16cad6d9c99a16907f96e94740ff7e264406d54f94823183",
+  "artBriefSha256": "dee581ed077d45cba6fca597516f694070c7340982d577e413878a195f150bc4",
+  "promptSha256": "c188ea3a7f5ce5932baeddb15debbfc7542d2e65e55ae3a3e43349bc18d286fd",
+  "subtitle": "更大的责任没有消除旧的责任",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "勇士岛海岸对峙，萨尔红念珠破袍，在透光弧形风障后吃力抵御；白发吉安娜与聚焦之虹、蓄势海浪对应，不表现奥格瑞玛已淹或已经和解。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。"
+}

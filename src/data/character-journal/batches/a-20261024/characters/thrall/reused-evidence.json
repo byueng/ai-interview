@@ -1,0 +1,2245 @@
+{
+  "status": "existing_sources_reused",
+  "sources": [
+    {
+      "bookId": "02",
+      "evidencePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\02\\evidence.json",
+      "sourceSha256": "ade02716af7a3abef6fdcc542217133d46a8a7b7bf05202a56af02b0b22d1d0a",
+      "status": "completed",
+      "limitations": [
+        "本卷结束于首次阻击战暂胜，后续战争与穿越者归返须读后续卷，不据记忆补齐。",
+        "萨尔派遣时未想到布洛克斯负罪，与后文布洛克斯回忆萨尔曾安慰自己的叙述并存，保留场景及视角差异。"
+      ],
+      "subtitleCheck": {
+        "status": "checked_full_book",
+        "candidates": [],
+        "reason": "全文含目录、导读、24章全部核对；章名仅数字序号，未见适用于人物分篇的原作副标题。永恒之井为书名组成，不能自动转作副标题。后续整合全部引用材料后可由作者标记editorial创作。",
+        "sourceRefs": [
+          "OEBPS/text00033.html#p0001-p0029",
+          "OEBPS/text00036.html#p0001—OEBPS/text00059.html#p0001"
+        ]
+      }
+    },
+    {
+      "bookId": "05",
+      "evidencePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\05\\evidence.json",
+      "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+      "status": "completed",
+      "limitations": [
+        "本书未详述杜隆坦一家遇刺全过程，需10/18互证，不得由尾声扩写细节。",
+        "沙塔斯记忆模糊是原文自述限制。",
+        "年代仅保留书中相对时间，不外补游戏年份。",
+        "绿肤在饮血前已出现，不等于全部饮血；不能断言杜隆坦全程未被邪能影响。"
+      ],
+      "subtitleCheck": {
+        "originalApplicableSubtitle": null,
+        "checked": [
+          "版权",
+          "目录",
+          "引言",
+          "导读",
+          "序章",
+          "22数字章题",
+          "尾声",
+          "作者简介"
+        ],
+        "result": "无适用于A人物刊物的明确原文副标题；部落的崛起是书名，不自动转为人物副标题；最终编辑副标题须整合后审阅。"
+      }
+    },
+    {
+      "bookId": "10",
+      "evidencePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\10\\evidence.json",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "status": "completed",
+      "limitations": [
+        "结尾尚有兽人未解放。",
+        "273十二岁、274十年自婴儿发现、275十余年书信时间冲突；不强定年龄。",
+        "282p0029奥格瑞姆地狱咆哮、p0034德雷克摩尔疑译排异文。",
+        "序言古尔丹全灭德莱尼说法不可覆盖05幸存者事实。",
+        "塔蕾莎亲密朋友兄弟情不可擅自写恋爱。",
+        "不把仁慈军令抹平地震杀伤与威逼俘虏。"
+      ],
+      "subtitleCheck": {
+        "status": "checked",
+        "finding": "全书编号章题，无直接人物副标题；最终副标题留待整合"
+      }
+    },
+    {
+      "bookId": "11",
+      "evidencePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\11\\evidence.json",
+      "sourceSha256": "3801a08ca7b1da2ed5315d54ce902e3b46254bbe404b389311751eda5e65678b",
+      "status": "completed",
+      "limitations": [],
+      "subtitleCheck": {
+        "status": "checked",
+        "readScope": "全部12文档及八章",
+        "candidates": [
+          "激战",
+          "未解之谜",
+          "一位战士的传说",
+          "命令的桎梏",
+          "意志的审判",
+          "落魄返家",
+          "战鼓喧天",
+          "完美轮回"
+        ],
+        "finding": "存在主题章名；须按单元适用性审查，不能自动将其当作人物志副标题。全书未见独立适用的总览副标题。",
+        "reviewStatus": "pending"
+      }
+    },
+    {
+      "bookId": "18",
+      "evidencePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\18\\evidence.json",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "status": "completed",
+      "limitations": [
+        "本书不覆盖萨尔完整一生；仅按本书回忆提供早期节点。",
+        "时光分支、幻象、角色推测和实际发生事件须分别标识。",
+        "诺兹多姆未来堕落是否属于真实时线在结尾仍不确定。"
+      ],
+      "subtitleCheck": {
+        "finding": "本版为编号章题，未发现适用于人物志的独立原作副标题；巨龙的黄昏属于书名，不自动作为副标题。后续可创作 editorial 小标题但须内容校核。",
+        "candidates": [],
+        "status": "source_checked",
+        "checkedRange": "封面、版权、目录与第1—22章全部段落"
+      }
+    },
+    {
+      "bookId": "21",
+      "evidencePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\21\\evidence.json",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "status": "completed",
+      "limitations": [],
+      "subtitleCheck": {
+        "status": "checked",
+        "checkedRange": "已完整阅读的本版正文与本轮定点复核目录 text00621:p0001-p0045",
+        "finding": "目录为编号章名，无适用人物篇章副标题；战争罪行是书名，不自动充任人物副标题。"
+      }
+    },
+    {
+      "bookId": "26",
+      "evidencePath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\26\\evidence.json",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "status": "scoped_reference_read",
+      "limitations": [
+        "29个指定小节完整阅读，不宣称整卷读完。",
+        "作为补充独立标注，不能将跨作品后续事件塞进单本小说范围。",
+        "名称异译例如特蕾莎/塔蕾莎、阿格娜/阿格拉需按源文保留并建别名表。"
+      ],
+      "subtitleCheck": {
+        "status": "scoped_checked",
+        "note": "各小节标签仅为来源名，不自动成为人物志副标题"
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "02:facts:0",
+      "bookId": "02",
+      "jsonPointer": "/facts/0",
+      "raw": {
+        "id": "02-01",
+        "characters": [
+          "thrall"
+        ],
+        "type": "narrated_fact",
+        "summary": "战后萨尔统领兽人在新定居区筑屋、耕种，克拉苏斯认为他懂得将族人带回正途。",
+        "sourceRef": {
+          "href": "OEBPS/text00036.html",
+          "paragraphs": [
+            24,
+            26
+          ]
+        }
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "02:facts:1",
+      "bookId": "02",
+      "jsonPointer": "/facts/1",
+      "raw": {
+        "id": "02-02",
+        "characters": [
+          "thrall"
+        ],
+        "type": "narrated_fact",
+        "summary": "萨满卡尔萨感知吞吐时间的异象，脱险后决定向萨尔告警。",
+        "sourceRef": {
+          "href": "OEBPS/text00036.html",
+          "paragraphs": [
+            62,
+            83
+          ]
+        }
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "02:facts:3",
+      "bookId": "02",
+      "jsonPointer": "/facts/3",
+      "raw": {
+        "id": "02-04",
+        "characters": [
+          "thrall"
+        ],
+        "type": "narrated_fact",
+        "summary": "萨尔尊重长者，与卡尔萨平坐听取时间异象报告；判断需调查而非派整支军队，挑选可靠老兵布洛克斯，后者选择加斯卡尔同行。",
+        "sourceRef": {
+          "href": "OEBPS/text00038.html",
+          "paragraphs": [
+            15,
+            32
+          ]
+        }
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "02:facts:4",
+      "bookId": "02",
+      "jsonPointer": "/facts/4",
+      "raw": {
+        "id": "02-05",
+        "characters": [
+          "thrall"
+        ],
+        "type": "retrospective_fact",
+        "summary": "叙述回顾萨尔由奴隶、角斗士成为酋长，解放兽人、与人类缔约、研习萨满之道；继承奥格瑞姆的甲与毁灭之锤。",
+        "sourceRef": {
+          "href": "OEBPS/text00038.html",
+          "paragraphs": [
+            16,
+            23
+          ]
+        }
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "02:facts:14",
+      "bookId": "02",
+      "jsonPointer": "/facts/14",
+      "raw": {
+        "id": "02-15",
+        "characters": [
+          "thrall"
+        ],
+        "type": "narrated_fact",
+        "summary": "布洛克斯虽渴望战死，仍以完成萨尔侦察使命、保护族人为先；受追捕时克制杀欲使用斧背击退对手，最终被月之守卫制服。",
+        "sourceRef": {
+          "href": "OEBPS/text00041.html",
+          "paragraphs": [
+            19,
+            58
+          ]
+        }
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "02:facts:18",
+      "bookId": "02",
+      "jsonPointer": "/facts/18",
+      "raw": {
+        "id": "02-19",
+        "characters": [
+          "thrall"
+        ],
+        "type": "narrated_fact",
+        "summary": "被俘布洛克斯向善待他的泰兰德自报姓名，并说明效忠兽人酋长萨尔。",
+        "sourceRef": {
+          "href": "OEBPS/text00043.html",
+          "paragraphs": [
+            54,
+            60
+          ]
+        }
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "02:facts:20",
+      "bookId": "02",
+      "jsonPointer": "/facts/20",
+      "raw": {
+        "id": "02-21",
+        "characters": [
+          "thrall"
+        ],
+        "type": "retrospective_fact",
+        "summary": "布洛克斯梦回奉萨尔之命守住防线、等待援军而同伴尽亡的战役；回忆萨尔曾劝慰自己已尽全力，无愧战死同胞。须与第3章“派遣时未想到其负罪”并存，不抹平叙述层次。",
+        "sourceRef": {
+          "href": "OEBPS/text00044.html",
+          "paragraphs": [
+            2,
+            15
+          ]
+        }
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:0",
+      "bookId": "05",
+      "jsonPointer": "/events/0",
+      "raw": {
+        "id": "book05-e001",
+        "type": "source_fact",
+        "ref": "OEBPS/text00124.html:p0002-p0005",
+        "facts": "萨尔以部落领袖身份记录父亲、信任者及背叛者历史；明确这不是现部落故事，而是最初部落的崛起。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:1",
+      "bookId": "05",
+      "jsonPointer": "/events/1",
+      "raw": {
+        "id": "book05-e002",
+        "type": "source_fact",
+        "ref": "OEBPS/text00124.html:p0031-p0056",
+        "facts": "幼年杜隆坦与黑石奥格瑞姆相识，主动提议跨氏族友谊，争执后以长久友谊作为挑战。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:2",
+      "bookId": "05",
+      "jsonPointer": "/events/2",
+      "raw": {
+        "id": "book05-e003",
+        "type": "source_fact",
+        "ref": "OEBPS/text00125.html:p0002-p0009",
+        "facts": "萨尔框架回忆与凯恩会面，德雷克塔尔认为牛头人与大地先祖的关系将帮助兽人找回传统。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:3",
+      "bookId": "05",
+      "jsonPointer": "/events/3",
+      "raw": {
+        "id": "book05-e004",
+        "type": "source_fact",
+        "ref": "OEBPS/text00125.html:p0018-p0021,p0046-p0087",
+        "facts": "两氏族默许友谊延续；德莱尼瑞斯塔兰救两少年免于食人魔追杀，指出恐惧不耻、正确逃跑明智；杜隆坦记住泰尔莫幻象水晶咒语。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:4",
+      "bookId": "05",
+      "jsonPointer": "/events/4",
+      "raw": {
+        "id": "book05-e005",
+        "type": "source_fact",
+        "ref": "OEBPS/text00126.html:p0057-p0098",
+        "facts": "维伦款待两少年，听兽人文化，奥格瑞姆讲毁灭之锤预言；杜隆坦主动询问德莱尼来历、魔法，疑惑双方为何不增进交流。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:5",
+      "bookId": "05",
+      "jsonPointer": "/events/5",
+      "raw": {
+        "id": "book05-e006",
+        "type": "source_fact",
+        "ref": "OEBPS/text00127.html:p0002-p0005,p0006-p0034,p0055-p0078",
+        "facts": "萨尔框架首次参加重建后成人仪式有归属感；杜隆坦拒绝作弊，单斧猎带角雌塔布羊；见先祖时看不到塔尔克拉，确认不走萨满路；血脉将带救赎预言仅告卡舒尔，她担心腐蚀心灵而未告杜隆坦。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:6",
+      "bookId": "05",
+      "jsonPointer": "/events/6",
+      "raw": {
+        "id": "book05-e007",
+        "type": "source_fact",
+        "ref": "OEBPS/text00128.html:p0005-p0040,p0041-p0119",
+        "facts": "基尔加丹因维伦背离造成私人复仇欲，改派塔尔加斯独自侦查；杜隆坦尊重德拉卡拒绝求爱邀请，改平等战士狩猎，两人合杀巨狼并相吻；塔尔加斯暗中观察，基尔加丹拟利用兽人报复。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:7",
+      "bookId": "05",
+      "jsonPointer": "/events/7",
+      "raw": {
+        "id": "book05-e008",
+        "type": "source_fact",
+        "ref": "OEBPS/text00129.html:p0002-p0003,p0006-p0008,p0010-p0028,p0030-p0073",
+        "facts": "萨尔反思氏族归属曾被利用却也成为团结自救基础；卡舒尔猎牛时遇难，加拉德与食人魔戈隆交战伤亡，杜隆坦继任酋长、德雷克塔尔继任首席萨满；耐奥祖受鲁尔坎形象诱导渴望统一权力；杜隆坦虽反感召集信措辞，仍为族人赴会；奥格瑞姆向朋友坦陈忠诚黑手与理智疑虑冲突，宁舍锤换回父亲。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:8",
+      "bookId": "05",
+      "jsonPointer": "/events/8",
+      "raw": {
+        "id": "book05-e009",
+        "type": "source_fact",
+        "ref": "OEBPS/text00130.html:p0019-p0064",
+        "facts": "耐奥祖宣称德莱尼是敌；杜隆坦根据救命经历公开质疑动机及战胜可能；德雷克塔尔以卡舒尔幻象佐证，引导他将旧款待解读为阴谋；杜隆坦仍存疑，但不能将族人未来置于风险而同意备战。此为信念与诱导，并非德莱尼实际阴谋。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:9",
+      "bookId": "05",
+      "jsonPointer": "/events/9",
+      "raw": {
+        "id": "book05-e010",
+        "type": "source_fact",
+        "ref": "OEBPS/text00131.html:p0002-p0007,p0008-p0016,p0038-p0086",
+        "facts": "萨尔框架明确与吉安娜合作、与精灵并肩及牛头人被遗忘者结盟依赖超越外表分歧；战争训练侵占儿童生活，杜隆坦忧虑却实施；黑手奥格瑞姆袭击11名德莱尼猎人，奥格瑞姆起初怀疑随后沉迷杀戮；基尔加丹向耐奥祖显形。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:10",
+      "bookId": "05",
+      "jsonPointer": "/events/10",
+      "raw": {
+        "id": "book05-e011",
+        "type": "source_fact",
+        "ref": "OEBPS/text00132.html:p0002-p0008,p0015-p0037,p0047-p0082",
+        "facts": "萨尔拒绝用遗忘将兽人仅塑成受害者，承认自主选择，研究前人决定以避免重复；维伦因克乌雷衰弱无法远距沟通，拟赤手到圣山求和平；无武器信使被杀，耐奥祖仍反对立即杀维伦，古尔丹建议派霜狼捕获以试忠诚。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:11",
+      "bookId": "05",
+      "jsonPointer": "/events/11",
+      "raw": {
+        "id": "book05-e012",
+        "type": "source_fact",
+        "ref": "OEBPS/text00123.html:p0002-p0094",
+        "facts": "序章：萨格拉斯诱使艾瑞达领袖接受力量；维伦通过阿塔玛水晶看到堕落未来，克乌雷引导他带追随者撤离，塔尔加斯背叛告密；水晶裂成七块保护逃亡者，基尔加丹誓言追杀。人物预见与之后实际事件须分开。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:12",
+      "bookId": "05",
+      "jsonPointer": "/events/12",
+      "raw": {
+        "id": "book05-e013",
+        "type": "source_fact",
+        "ref": "OEBPS/text00133.html:p0002-p0004,p0005-p0018,p0071-p0094,p0100-p0144",
+        "facts": "杜隆坦奉命围捕维伦，仍希望谈判和平；命德雷克塔尔以火墙护俘、禁止箭杀，但容许辱骂剥衣且扣留两水晶。私下割断过紧绳索、给水并听取陈述，认为俘虏自愿被俘者无荣耀，拒绝交人，令护送五德莱尼安全出境。仍未完全相信德莱尼、明确若战场再遇不留情。萨尔框架将此视为保住荣誉。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:13",
+      "bookId": "05",
+      "jsonPointer": "/events/13",
+      "raw": {
+        "id": "book05-e014",
+        "type": "source_fact",
+        "ref": "OEBPS/text00133.html:p0145-p0156",
+        "facts": "维伦保留自行隐形的紫水晶，承认和平求援未改变战争态势，决定备战；克乌雷悲鸣被年轻萨满误解成祖灵愤怒，杜隆坦听出悲伤。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:14",
+      "bookId": "05",
+      "jsonPointer": "/events/14",
+      "raw": {
+        "id": "book05-e015",
+        "type": "source_fact",
+        "ref": "OEBPS/text00134.html:p0004-p0056,p0057-p0086",
+        "facts": "杜隆坦放维伦使耐奥祖惧怕基尔加丹并开始怀疑；红水晶愤怒之心增强指挥者及战士，黄水晶璀璨之辰增强专注；耐奥祖夜赴沃舒古见真正鲁尔坎等祖灵，被告知受骗，他意识到先前幻象皆诡计；古尔丹偷听并告密。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:15",
+      "bookId": "05",
+      "jsonPointer": "/events/15",
+      "raw": {
+        "id": "book05-e016",
+        "type": "source_fact",
+        "ref": "OEBPS/text00135.html:p0004-p0043,p0044-p0070",
+        "facts": "耐奥祖得知真相仍拒绝永久奴役人民，被基尔加丹废黜留作旁观者；古尔丹明知欺骗仍为权力合作。霜狼袭击德莱尼时元素拒绝不平衡的杀戮，15名族人含副手洛卡尔死亡；瑞斯塔兰因杜隆坦释放维伦而放走残余队伍，声明两不相欠；德拉卡视元素拒助为错误警告，杜隆坦决定查问。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:16",
+      "bookId": "05",
+      "jsonPointer": "/events/16",
+      "raw": {
+        "id": "book05-e017",
+        "type": "source_fact",
+        "ref": "OEBPS/text00136.html:p0005-p0052,p0053-p0137",
+        "facts": "古尔丹与黑手商定公开议会和秘密暗影议会，以术士魔法替代萨满；在科什哈格圣地折磨俘虏展示魔法。杜隆坦愤怒，奥格瑞姆阻他公开反对，以作战必需解释；德拉卡明确区分胜利与享受折磨；杜隆坦最终为氏族生存允许学习术士法术，非从未妥协。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:17",
+      "bookId": "05",
+      "jsonPointer": "/events/17",
+      "raw": {
+        "id": "book05-e018",
+        "type": "source_fact",
+        "ref": "OEBPS/text00137.html:p0005-p0020,p0022-p0050,p0053-p0096",
+        "facts": "黑手被选大酋长；杜隆坦面临本人及伴侣处死、氏族流放威胁，被迫让五名6至12岁霜狼儿童被魔法催长，现场痛苦并非无伤。奥格瑞姆事先警告监视，黑手命杜隆坦利用童年记忆打开泰尔莫幻象；杜隆坦为保护氏族接受，在希望失败仍念咒成功，联军突入。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:18",
+      "bookId": "05",
+      "jsonPointer": "/events/18",
+      "raw": {
+        "id": "book05-e019",
+        "type": "source_fact",
+        "ref": "OEBPS/text00138.html:p0002-p0003,p0004-p0044",
+        "facts": "泰尔莫屠城：杜隆坦原誓不杀无武器者儿童，却亲手在战斗杀死救命恩人瑞斯塔兰；止斧不杀女孩但女孩被碎手战士刺死；命停止破坏、救治伤员、搜物资，最终亲口命令杀掉所有找到的德莱尼幸存者（p0040-p0044）。不得美化为纯粹旁观或始终拒绝屠杀。萨尔框架以父亲处境解释自己维持联盟和平的动力。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:19",
+      "bookId": "05",
+      "jsonPointer": "/events/19",
+      "raw": {
+        "id": "book05-e020",
+        "type": "source_fact",
+        "ref": "OEBPS/text00139.html:p0005-p0020,p0021-p0071",
+        "facts": "杜隆坦拒绝将泰尔莫作为赏赐，黑手入住；古尔丹成立真正暗影议会。黑手通过军事压力与食人魔克罗结盟，承诺不虐打、食物住所武器；奥格瑞姆反对因私怨但服从战略，警告黑手之子不准暗杀新盟友。兽人皮肤出现淡绿。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:20",
+      "bookId": "05",
+      "jsonPointer": "/events/20",
+      "raw": {
+        "id": "book05-e021",
+        "type": "source_fact",
+        "ref": "OEBPS/text00140.html:p0002-p0004,p0005-p0038,p0039-p0069",
+        "facts": "萨尔框架以杜隆塔尔为家；大地干旱，杜隆坦德拉卡面对被迫迁往堡垒与食人魔结盟，意识故土文化败坏。维伦由幸存者描述恶魔确定基尔加丹幕后操纵。暗影议会留杜隆坦以利用温和派声望为政策背书；为防真实祖灵揭穿，封锁沃舒古。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:21",
+      "bookId": "05",
+      "jsonPointer": "/events/21",
+      "raw": {
+        "id": "book05-e022",
+        "type": "source_fact",
+        "ref": "OEBPS/text00141.html:p0002-p0006,p0007-p0033,p0034-p0068",
+        "facts": "萨尔写作框架称当时尚未见过祖灵，不能覆盖后来书18见父母等时间。古尔丹禁萨满与赴圣山；杜隆坦恐氏族受罚呵斥古恩服从，观察绿肤。部落攻陷卡拉波改黑暗神殿，杜隆坦因暴行呕吐；耐奥祖秘密写警告信，杜隆坦只告诉德拉卡，担忧奥格瑞姆誓言迫其告知黑手；决定宁受罚不奴役氏族。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:22",
+      "bookId": "05",
+      "jsonPointer": "/events/22",
+      "raw": {
+        "id": "book05-e023",
+        "type": "source_fact",
+        "ref": "OEBPS/text00142.html:p0006-p0041,p0042-p0048,p0060-p0122",
+        "facts": "玛诺洛斯供血，基尔加丹坦言永久奴役；饮血前杜隆坦德拉卡已绿肤。格罗玛什抢先饮、黑手随之；格里赛达因父亲拒绝未喝，奥格瑞姆以副手不可夺酋长荣耀为辞拒绝。杜隆坦未警告朋友以免暴露情报，但公开拒绝本人及全氏族饮血；信以古语说扭曲灵魂之血会永奴役，杜隆坦据此识别恶魔。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:23",
+      "bookId": "05",
+      "jsonPointer": "/events/23",
+      "raw": {
+        "id": "book05-e024",
+        "type": "source_fact",
+        "ref": "OEBPS/text00143.html:p0002-p0004,p0005-p0039,p0040-p0057",
+        "facts": "萨尔说明沙塔斯口述记录受记忆模糊限制。基尔加丹用绿水晶隐藏攻城器械、赋术士地狱火；杜隆坦仍随军参战，察觉被卷入他人与德莱尼私人冲突。基尔加丹玛诺洛斯离去，未找到维伦。维伦采拉洛希尔建议让大量自愿者留城牺牲，使敌误认种族已灭，携幸存者藏赞加沼泽及四水晶。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:24",
+      "bookId": "05",
+      "jsonPointer": "/events/24",
+      "raw": {
+        "id": "book05-e025",
+        "type": "source_fact",
+        "ref": "OEBPS/text00144.html:p0002-p0004,p0015-p0033,p0034-p0065",
+        "facts": "死亡时代：枯水饥病三年夺命多于战争；霜狼因拒血屡被攻击，奥格瑞姆提出补粮，杜隆坦为儿童接受。恢复元素联系失败。古尔丹被基尔加丹抛弃后受麦迪文梦中提议诱惑，交换入侵艾泽拉斯与解放萨格拉斯、神格允诺。允诺非已兑现事实。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:25",
+      "bookId": "05",
+      "jsonPointer": "/events/25",
+      "raw": {
+        "id": "book05-e026",
+        "type": "source_fact",
+        "ref": "OEBPS/text00145.html:p0002-p0004,p0005-p0032,p0033-p0084",
+        "facts": "萨尔评渡门既保种族生命又加诸他界伤痕。古尔丹以角斗分配水粮转移嗜血，杜隆坦公开反对、要求治大地；奥格瑞姆为氏族粮水参战。麦迪文设计黑暗之门并要求杀石匠献血，古尔丹再杀德莱尼儿童开门；杜隆坦与德拉卡试图阻止失败，多个氏族声援。斥候带回可食猎物清水；饥饿杜隆坦仍带希望和杀戮欲高喊为了部落穿门。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:26",
+      "bookId": "05",
+      "jsonPointer": "/events/26",
+      "raw": {
+        "id": "book05-e027",
+        "type": "source_fact",
+        "ref": "OEBPS/text00146.html:p0002-p0005",
+        "facts": "尾声萨尔简述霜狼渡门后被古尔丹放逐，定居奥特兰克；自己出生后父亲告诉奥格瑞姆秘密，遭谋杀；成年萨尔成奥格瑞姆朋友并自认实现战锤预言，以父亲与老友命名杜隆塔尔、奥格瑞玛。死亡细节本书仅概述。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "05:events:27",
+      "bookId": "05",
+      "jsonPointer": "/events/27",
+      "raw": {
+        "id": "book05-e028",
+        "type": "source_fact",
+        "ref": "OEBPS/text00146.html:p0006-p0028",
+        "facts": "伊崔格引入人类线人，萨尔亲递水、允许坏消息；线人报告飞船坠落、吉安娜下令救援、维伦在艾泽拉斯；萨尔忧联盟接受德莱尼会威胁和平。吉安娜布间谍为萨尔确信，非本场直接展示；救援为线人报告。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:0",
+      "bookId": "10",
+      "jsonPointer": "/events/0",
+      "raw": {
+        "chapter": 1,
+        "refs": [
+          "OEBPS/text00270.html:p0002-p0088"
+        ],
+        "fact": "杜隆坦德拉卡携未命名婴儿会奥格瑞姆揭恶魔契约，希望孩子未来；护卫间谍出卖，父母与狼死，婴儿遭遗弃，布莱克摩尔发现欲利用。非奥格瑞姆本人背叛。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:1",
+      "bookId": "10",
+      "jsonPointer": "/events/1",
+      "raw": {
+        "chapter": 2,
+        "refs": [
+          "OEBPS/text00271.html:p0002-p0103"
+        ],
+        "fact": "塔蕾莎建议乳养，视为弟弟；主人命名奴隶、教育识字却禁止自主，转战斗训练。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:2",
+      "bookId": "10",
+      "jsonPointer": "/events/2",
+      "raw": {
+        "chapter": 3,
+        "refs": [
+          "OEBPS/text00272.html:p0002-p0069"
+        ],
+        "fact": "军士长保护并教愤怒控制、仁慈，争取军事书；塔蕾莎藏信，萨尔血书回应。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:3",
+      "bookId": "10",
+      "jsonPointer": "/events/3",
+      "raw": {
+        "chapter": 4,
+        "refs": [
+          "OEBPS/text00273.html:p0002-p0049"
+        ],
+        "fact": "首次见同族，误解逃囚企图保护自己，逃囚被杀；布莱克摩尔谋兽人军推联盟；书信及襁褓推动寻根。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:4",
+      "bookId": "10",
+      "jsonPointer": "/events/4",
+      "raw": {
+        "chapter": 5,
+        "refs": [
+          "OEBPS/text00274.html:p0012-p0076"
+        ],
+        "fact": "九场角斗疲伤败食人魔，主人因输钱暴打，军士长制止道歉，萨尔决逃。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:5",
+      "bookId": "10",
+      "jsonPointer": "/events/5",
+      "raw": {
+        "chapter": 6,
+        "refs": [
+          "OEBPS/text00275.html:p0002-p0067"
+        ],
+        "fact": "塔蕾莎先放动物再火灾掩护破门逃亡，带补给地图刀，项链约定联络；她因父母拒同逃。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:6",
+      "bookId": "10",
+      "jsonPointer": "/events/6",
+      "raw": {
+        "chapter": 7,
+        "refs": [
+          "OEBPS/text00276.html:p0002-p0070"
+        ],
+        "fact": "选择集中营寻找同胞，捕获装不识字，被收信与刀；见麻木兽人遇凯尔格。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:7",
+      "bookId": "10",
+      "jsonPointer": "/events/7",
+      "raw": {
+        "chapter": 8,
+        "refs": [
+          "OEBPS/text00277.html:p0026-p0077"
+        ],
+        "fact": "凯尔格叙萨满战歌并斗殴掩护逃亡，萨尔誓解放；主人从刀信知塔蕾莎帮助。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:8",
+      "bookId": "10",
+      "jsonPointer": "/events/8",
+      "raw": {
+        "chapter": 9,
+        "refs": [
+          "OEBPS/text00278.html:p0002-p0063"
+        ],
+        "fact": "饥饿偷食杀扑来的狗，但停止杀村民认为非敌；战歌抓获，争取见格罗玛什试炼。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:9",
+      "bookId": "10",
+      "jsonPointer": "/events/9",
+      "raw": {
+        "chapter": 10,
+        "refs": [
+          "OEBPS/text00279.html:p0002-p0075"
+        ],
+        "fact": "胜三兽人不杀；宁死拒杀绑着人类孩子，格罗玛什赞赏仁慈承认曾杀幼童，令放还不得伤害；萨尔保留名字令主人后悔，识霜狼襁褓，知昔日逃囚喊保护他。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:10",
+      "bookId": "10",
+      "jsonPointer": "/events/10",
+      "raw": {
+        "chapter": 11,
+        "refs": [
+          "OEBPS/text00280.html:p0002-p0074"
+        ],
+        "fact": "学语言文化狩猎及萨满契约，为格罗玛什提供营情；冬天不利养军，离开引追兵寻霜狼；塔蕾莎受虐仍帮助。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:11",
+      "bookId": "10",
+      "jsonPointer": "/events/11",
+      "raw": {
+        "chapter": 12,
+        "refs": [
+          "OEBPS/text00281.html:p0002-p0073"
+        ],
+        "fact": "暴雪濒死获救，德雷克塔尔凭襁褓认父母及遇刺，劳动与反抗侮辱考谦卑自尊；狼山羊元素是自主契约非奴隶。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:12",
+      "bookId": "10",
+      "jsonPointer": "/events/12",
+      "raw": {
+        "chapter": 13,
+        "refs": [
+          "OEBPS/text00282.html:p0004-p0077"
+        ],
+        "fact": "雪歌选择结伴，德雷克塔尔述父母使命恶魔契约；萨尔禁食冥思五灵受洗，认自身渺小获认可。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:13",
+      "bookId": "10",
+      "jsonPointer": "/events/13",
+      "raw": {
+        "chapter": 14,
+        "refs": [
+          "OEBPS/text00283.html:p0002-p0087"
+        ],
+        "fact": "德雷克塔尔叙洪水杀平民请求被拒、强索家人复活失力，强调元素意愿；萨尔求鹿救饥荒，感谢并善用躯体；拒借元素力与陌生人比武胜，得知对方奥格瑞姆。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:14",
+      "bookId": "10",
+      "jsonPointer": "/events/14",
+      "raw": {
+        "chapter": 15,
+        "refs": [
+          "OEBPS/text00284.html:p0002-p0050"
+        ],
+        "fact": "奥格瑞姆承认测试，证实见过杜隆坦并因护卫间谍出卖父母自责；萨尔化装入营以幼苗开花唤希望，配合战歌霜狼解放。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:15",
+      "bookId": "10",
+      "jsonPointer": "/events/15",
+      "raw": {
+        "chapter": 16,
+        "refs": [
+          "OEBPS/text00285.html:p0002-p0088"
+        ],
+        "fact": "三次渗透后被认出转正面攻营；萨尔惩戒杀村民部下，禁止杀妇孺。第五营伏击请求马逃、根须捆敌并放过失战力卫兵；抓兰斯顿救囚徒撤退，地震毁营后无视伤者哀号。奥格瑞姆背刺濒死，要求萨尔拔矛继承甲锤及酋长，萨尔接任。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:16",
+      "bookId": "10",
+      "jsonPointer": "/events/16",
+      "raw": {
+        "chapter": 17,
+        "refs": [
+          "OEBPS/text00286.html:p0002-p0060"
+        ],
+        "fact": "树根威逼兰斯顿，知布莱克摩尔计划利用他统领兽人推翻联盟；同情其遭遇但继续解放，按承诺放俘虏并猫头鹰监视；葬奥格瑞姆及慧耳，决定攻敦霍尔德中枢。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:17",
+      "bookId": "10",
+      "jsonPointer": "/events/17",
+      "raw": {
+        "chapter": 18,
+        "refs": [
+          "OEBPS/text00287.html:p0002-p0078"
+        ],
+        "fact": "塔蕾莎获项链信号装病经密道带物资；萨尔要求侦察兵尊重她，计划先和谈；她因父母和避免暴露坚持回堡，赠项链给未来孩子，请求善待百姓；归来被截。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:18",
+      "bookId": "10",
+      "jsonPointer": "/events/18",
+      "raw": {
+        "chapter": 19,
+        "refs": [
+          "OEBPS/text00288.html:p0002-p0080"
+        ],
+        "fact": "举停战旗请求释放同胞承诺离开；布莱克摩尔公开政变图谋，抛塔蕾莎头颅（下令卫兵杀她）；萨尔悲愤召雷地震攻城，军士长接指挥，城破。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "10:events:19",
+      "bookId": "10",
+      "jsonPointer": "/events/19",
+      "raw": {
+        "chapter": 20,
+        "refs": [
+          "OEBPS/text00289.html:p0002-p0078"
+        ],
+        "fact": "萨尔封逃生密道逼决斗，对方丢剑后掷匕首，萨尔刺杀布莱克摩尔；对方临终称自己造就萨尔。未伤妇孺，给降兵家人食水及防身武器放行；让兰斯顿传和平贸易、释兽人及肥沃土地条件。撤空后摧城，项链交还福克斯顿父母；结尾尚有营地待解放。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "11:facts:15",
+      "bookId": "11",
+      "jsonPointer": "/facts/15",
+      "raw": {
+        "id": "11-f16",
+        "type": "fact",
+        "statement": "萨尔说明进攻意在救伊崔格而非征服，邀请他共建部落；尊重并放行提里奥。萨尔提及延续父亲事业，属于此时自我陈述。",
+        "characters": [
+          "tirion",
+          "thrall",
+          "durotan"
+        ],
+        "refs": [
+          "OEBPS/text00300.html#p0112-p0159"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:0",
+      "bookId": "18",
+      "jsonPointer": "/facts/0",
+      "raw": {
+        "ref": "OEBPS/text00526.html:p0002-p0104",
+        "facts": "大漩涡仪式因萨尔分心失败。离任和凯恩死讯令他愧疚；阿格娜指出酋长身份成了面具，追问他是谁。吉安娜与塔蕾莎被萨尔维护为勇敢朋友，绯闻明确不是事实。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:1",
+      "bookId": "18",
+      "jsonPointer": "/facts/1",
+      "raw": {
+        "ref": "OEBPS/text00527.html:p0002-p0076",
+        "facts": "龙族会议因魔枢战争争执，卡雷苟斯调停，阿瑞苟斯指责红龙；伊瑟拉警告暮光审判；暮光龙来袭。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:2",
+      "bookId": "18",
+      "jsonPointer": "/facts/2",
+      "raw": {
+        "ref": "OEBPS/text00528.html:p0002-p0114",
+        "facts": "暮光龙攻击掩护五色圣殿爆炸；考雷斯特拉兹能量痕迹引发叛变怀疑，真相未明。阿莱克丝塔萨撞碎同心宝珠离去，联军破裂。伊瑟拉认定萨尔为关键。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:3",
+      "bookId": "18",
+      "jsonPointer": "/facts/3",
+      "raw": {
+        "ref": "OEBPS/text00529.html:p0002-p0060",
+        "facts": "伊瑟拉派萨尔救菲拉斯小营地。他因自疑和轻视小任务推迟，在阿格娜劝谦卑后接受。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:4",
+      "bookId": "18",
+      "jsonPointer": "/facts/4",
+      "raw": {
+        "ref": "OEBPS/text00529.html:p0062-p0130",
+        "facts": "暮光教父占神殿，囚徒是克莉苟萨；死亡之翼命令抹杀萨尔，教父计划复活五头多彩龙克洛玛图斯。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:5",
+      "bookId": "18",
+      "jsonPointer": "/facts/5",
+      "raw": {
+        "ref": "OEBPS/text00530.html:p0002-p0100",
+        "facts": "萨尔接受暗夜精灵搜身，以萨满身份取得信任，劝火元素留古树重学真实的机会；共餐安睡。戴沙林揭示绿龙身份，古树记忆错乱表明时光异常；赠萨尔承载世代知识的橡果。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:6",
+      "bookId": "18",
+      "jsonPointer": "/facts/6",
+      "raw": {
+        "ref": "OEBPS/text00531.html:p0002-p0099",
+        "facts": "戴沙林载萨尔往时光之穴；说明绿龙与玛法里奥分享梦境。克鲁纳里斯解释萨尔逃离敦霍尔德的重要性。冥想前戴沙林被黑甲刺客杀害，萨尔受伤，由青铜龙送入时光之路。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:7",
+      "bookId": "18",
+      "jsonPointer": "/facts/7",
+      "raw": {
+        "ref": "OEBPS/text00532.html:p0027-p0102",
+        "facts": "杜隆坦向奥格瑞姆揭发古尔丹；受信卫兵格鲁卡出卖护送任务。杜隆坦德拉卡为婴儿战死。萨尔压抑救父母和杀刺客冲动，维护历史，将婴儿放在断臂父亲胸前，保证儿子会解救族人。杜隆坦微笑死去。萨尔理解无需成就也被父母深爱。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:8",
+      "bookId": "18",
+      "jsonPointer": "/facts/8",
+      "raw": {
+        "ref": "OEBPS/text00532.html:p0103-p0138",
+        "facts": "萨尔见诺兹多姆倒影；为不影响布莱克摩尔捡到婴儿，将追杀者撞进水中。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:9",
+      "bookId": "18",
+      "jsonPointer": "/facts/9",
+      "raw": {
+        "ref": "OEBPS/text00533.html:p0002-p0088",
+        "facts": "蓝龙围绕血统、选举、月之拥抱讨论继任；萨尔追随金光重访登陆卡利姆多等人生节点。麦迪文以编织比喻指引，萨尔进入塔蕾莎活着的异常时间线。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:10",
+      "bookId": "18",
+      "jsonPointer": "/facts/10",
+      "raw": {
+        "ref": "OEBPS/text00534.html:p0002-p0109",
+        "facts": "新月项链相同凹痕使异常时线塔蕾莎相信萨尔。她讲婴儿萨尔夭折、布莱克摩尔训练军队夺国等异常历史；萨尔说明她的善意使自己能够信任吉安娜、尊重兽人。塔蕾莎得知正史自己遇害仍重视生命意义，决定帮助他；时间开始重复。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:11",
+      "bookId": "18",
+      "jsonPointer": "/facts/11",
+      "raw": {
+        "ref": "OEBPS/text00535.html:p0002-p0024",
+        "facts": "伊瑟拉看到暮光审判毁灭未来；明确为可改变幻象，不是既成事件。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:12",
+      "bookId": "18",
+      "jsonPointer": "/facts/12",
+      "raw": {
+        "ref": "OEBPS/text00535.html:p0026-p0064",
+        "facts": "异常时线塔蕾莎称瓦里安统治暴风城，阿尔萨斯与吉安娜结婚育乌瑟尔王子；瓦里安是伴郎，两人如兄弟。须与真实时间线隔离，不用于吉安娜瓦里安正史生平。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:13",
+      "bookId": "18",
+      "jsonPointer": "/facts/13",
+      "raw": {
+        "ref": "OEBPS/text00535.html:p0065-p0139",
+        "facts": "橡果使萨尔得见异常时线克拉苏斯；定位魔法找不到布莱克摩尔。凭盔甲来源线索，萨尔确认追杀者是离开异常时线的布莱克摩尔。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:14",
+      "bookId": "18",
+      "jsonPointer": "/facts/14",
+      "raw": {
+        "ref": "OEBPS/text00536.html:p0002-p0079",
+        "facts": "萨尔认识到当下才真实，放下对过去未来的执迷，同时保留学习过去、计划未来的责任，找到并带回困于所有时刻的诺兹多姆。看到英雄成就外的私人细小时刻同样重要。诺兹多姆确认刺客是永恒军团爪牙并坦白另一未来中的自己是派遣者。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:15",
+      "bookId": "18",
+      "jsonPointer": "/facts/15",
+      "raw": {
+        "ref": "OEBPS/text00537.html:p0002-p0021",
+        "facts": "诺兹多姆解释在一个形成中的未来成为永恒军团首领，尚不知如何避免。萨尔为伊瑟拉与戴沙林答应继续帮助，接受寻找阿莱克丝塔萨的任务。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:16",
+      "bookId": "18",
+      "jsonPointer": "/facts/16",
+      "raw": {
+        "ref": "OEBPS/text00537.html:p0023-p0101",
+        "facts": "萨尔首次劝说凄凉之地绝望的阿莱克丝塔萨，用职责与世界需要施压失败，被火焰驱离；仍去魔枢寻求蓝龙联合。布莱克摩尔继续追踪。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:17",
+      "bookId": "18",
+      "jsonPointer": "/facts/17",
+      "raw": {
+        "ref": "OEBPS/text00538.html:p0002-p0124",
+        "facts": "卡雷苟斯反对杀死使者、以离开军团作担保留萨尔。萨尔谦逊讲述当下与简单不等于容易，倾听蓝龙议事，和卡雷分享戴沙林及追杀者经历。末尾阿瑞苟斯秘密拜见教父，读者知叛变而萨尔尚未知。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:18",
+      "bookId": "18",
+      "jsonPointer": "/facts/18",
+      "raw": {
+        "ref": "OEBPS/text00539.html:p0002-p0059",
+        "facts": "阿瑞苟斯欺骗献出姐姐，计划成为守护者后交出全族；受教父威胁。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:19",
+      "bookId": "18",
+      "jsonPointer": "/facts/19",
+      "raw": {
+        "ref": "OEBPS/text00539.html:p0061-p0144",
+        "facts": "萨尔以自己领导责任经验帮助畏惧改变的卡雷苟斯决心担当。月之拥抱中龙族选择对魔法之美开放而非阿瑞苟斯的权力呼号，卡雷苟斯获得真正守护者力量。阿瑞苟斯召来暮光龙。萨尔不再喊为了部落而明确为艾泽拉斯而战，与卡雷并肩空战。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:20",
+      "bookId": "18",
+      "jsonPointer": "/facts/20",
+      "raw": {
+        "ref": "OEBPS/text00540.html:p0002-p0105",
+        "facts": "布莱克摩尔杀阿瑞苟斯，用其血激活聚焦之虹，湍流之针赋克洛玛图斯生命。蓝龙追击反遭强敌压倒，萨尔被尾击扫落。克洛玛图斯虽身体腐朽却是活物，不应标成亡灵。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:21",
+      "bookId": "18",
+      "jsonPointer": "/facts/21",
+      "raw": {
+        "ref": "OEBPS/text00541.html:p0002-p0083",
+        "facts": "萨尔被积雪救下后陷绝望；想起阿格娜并向生命之灵开放，获救与新幻象，也真正理解阿莱克丝塔萨。击败追杀者，不以复仇喜悦而以纠正时线错误的自觉杀布莱克摩尔，摆脱奴役阴影。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:22",
+      "bookId": "18",
+      "jsonPointer": "/facts/22",
+      "raw": {
+        "ref": "OEBPS/text00542.html:p0002-p0040",
+        "facts": "纳里苟斯找到并救回萨尔；卡雷告知败退及敌人尚虚弱，萨尔承诺再劝红龙女王，新幻象先与她分享。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:23",
+      "bookId": "18",
+      "jsonPointer": "/facts/23",
+      "raw": {
+        "ref": "OEBPS/text00542.html:p0042-p0140",
+        "facts": "克洛玛图斯要求以克莉苟萨繁育多彩后代；她在押送途中击倒守卫、驾双足飞龙逃亡，为带回情报也为自由。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:24",
+      "bookId": "18",
+      "jsonPointer": "/facts/24",
+      "raw": {
+        "ref": "OEBPS/text00543.html:p0002-p0144",
+        "facts": "萨尔握住阿莱克丝塔萨手，分享生命之灵幻象：教派以克莉卵试验、污染所有庇护所龙卵，考雷斯特拉兹受感染后牺牲自我摧毁圣殿以止传染。萨尔赠古树橡果；萌芽唤醒生命缚誓者的自我与悲悯，泪水使荒地复苏。她带萨尔重返联军，不是遗忘悲痛而是继续承担。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:25",
+      "bookId": "18",
+      "jsonPointer": "/facts/25",
+      "raw": {
+        "ref": "OEBPS/text00544.html:p0002-p0086",
+        "facts": "三军会合，克莉苟萨归来独立证实幻象中自己经历，补充叛变和敌人情报；卡雷解锁链、萨尔治疗。伊瑟拉描述可改变的毁灭未来，阿莱克丝塔萨鼓舞全军。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:26",
+      "bookId": "18",
+      "jsonPointer": "/facts/26",
+      "raw": {
+        "ref": "OEBPS/text00545.html:p0002-p0098",
+        "facts": "萨尔参与作战计划，骑托拉斯塔萨以元素辅助。三守护者协同攻击仍败；诺兹多姆到来要求撤退，说明必须精神本质融合。因大地守护者缺位看似无法完整，萨尔提出办法。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:27",
+      "bookId": "18",
+      "jsonPointer": "/facts/27",
+      "raw": {
+        "ref": "OEBPS/text00546.html:p0002-p0105",
+        "facts": "萨尔以萨满沟通大地补位，主持古老仪式，突破仅仅编织达成融合；在暮光教父精神干扰下维持联结，四守护者白色异火击败克洛玛图斯。p0077明确他不是且不可能是守护者，不能写晋升第五守护巨龙。暮光教父逃走，读者获知其为大主教本尼迪塔斯，萨尔未获此知情。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "18:facts:28",
+      "bookId": "18",
+      "jsonPointer": "/facts/28",
+      "raw": {
+        "ref": "OEBPS/text00547.html:p0002-p0102",
+        "facts": "克洛玛图斯不能彻底摧毁，拟以奥术监狱看守。诺兹多姆揭示上古众神幕后联系，但真实暮光审判尚未来临。四守护者赠鳞片与友谊，缇珂送萨尔归大漩涡。萨尔向阿格娜承认面具与错误，接受古伊尔名字、相互许诺共度一生；次日继续治愈世界，不是小说已写婚礼或战胜死亡之翼。"
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:0",
+      "bookId": "21",
+      "jsonPointer": "/facts/0",
+      "raw": {
+        "id": "21-f01",
+        "characters": [
+          "thrall"
+        ],
+        "statement": "萨尔曾告知加尔鲁什其父牺牲结束诅咒；序言的父子相见是加尔鲁什梦境。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00623.html#p0002-p0021"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:1",
+      "bookId": "21",
+      "jsonPointer": "/facts/1",
+      "raw": {
+        "id": "21-f02",
+        "characters": [
+          "jaina",
+          "thrall",
+          "voljin"
+        ],
+        "statement": "吉安娜以塞拉摩幸存者身份赴审，对萨尔别头拒视，对新酋长沃金仍不信任；这些判断属于她此时视角。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00624.html#p0002-p0027"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:2",
+      "bookId": "21",
+      "jsonPointer": "/facts/2",
+      "raw": {
+        "id": "21-f03",
+        "characters": [
+          "varian"
+        ],
+        "statement": "瓦里安曾阻止萨尔杀死加尔鲁什，将其交付审判；当前与安度因关系明显缓和。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00624.html#p0007-p0008",
+          "OEBPS/text00624.html#p0037-p0038"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:3",
+      "bookId": "21",
+      "jsonPointer": "/facts/3",
+      "raw": {
+        "id": "21-f04",
+        "characters": [
+          "voljin"
+        ],
+        "statement": "沃金压住私人复仇愿望，担心处决让加尔鲁什成为殉道象征，接受公开争辩，提名贝恩但明确不是命令。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00625.html#p0008-p0014",
+          "OEBPS/text00625.html#p0046-p0071"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:4",
+      "bookId": "21",
+      "jsonPointer": "/facts/4",
+      "raw": {
+        "id": "21-f05",
+        "characters": [
+          "thrall"
+        ],
+        "statement": "萨尔抱着杜拉卡，支持贝恩担任辩护人，并承认加尔鲁什使兽人声誉受损。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00625.html#p0012-p0013",
+          "OEBPS/text00625.html#p0053-p0069"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:5",
+      "bookId": "21",
+      "jsonPointer": "/facts/5",
+      "raw": {
+        "id": "21-f06",
+        "characters": [
+          "varian",
+          "voljin"
+        ],
+        "statement": "瓦里安提名自己为控诉人，沃金用否决权后改荐泰兰德；虚晃一招是洛瑟玛等人的解释，瓦里安稍后自述更愿旁观。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00625.html#p0082-p0103",
+          "OEBPS/text00627.html#p0072-p0076"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:6",
+      "bookId": "21",
+      "jsonPointer": "/facts/6",
+      "raw": {
+        "id": "21-f07",
+        "characters": [
+          "malfurion"
+        ],
+        "statement": "玛法里奥关心泰兰德担任控诉人对她内心的影响，忧虑语言激发恨与谴责而非治疗启迪。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00626.html#p0059-p0077"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:7",
+      "bookId": "21",
+      "jsonPointer": "/facts/7",
+      "raw": {
+        "id": "21-f08",
+        "characters": [
+          "jaina"
+        ],
+        "statement": "吉安娜期待审判能给幸存者喘息，但持续思念亡友、创伤与仇恨，开口以加尔鲁什噎死为笑谈。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00627.html#p0060-p0077"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:8",
+      "bookId": "21",
+      "jsonPointer": "/facts/8",
+      "raw": {
+        "id": "21-f09",
+        "characters": [
+          "jaina",
+          "varian"
+        ],
+        "statement": "获知时光之相会重现灾难，吉安娜惊恐失神，由卡雷帮她回神；加尔鲁什挑衅后卡雷与瓦里安阻止她起身扰庭。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00628.html#p0029-p0038",
+          "OEBPS/text00628.html#p0053-p0060"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:9",
+      "bookId": "21",
+      "jsonPointer": "/facts/9",
+      "raw": {
+        "id": "21-f10",
+        "characters": [
+          "varian"
+        ],
+        "statement": "瓦里安希望庭审不流血，见儿子面对加尔鲁什的伤痛后也怀疑自己当初是否做对；克制并非始终毫无动摇。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00628.html#p0019-p0023",
+          "OEBPS/text00629.html#p0042-p0047"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:10",
+      "bookId": "21",
+      "jsonPointer": "/facts/10",
+      "raw": {
+        "id": "21-f11",
+        "characters": [
+          "thrall"
+        ],
+        "statement": "萨尔自责把权力交给加尔鲁什，抱子时立志保护未来；对历史影像被选择性使用保持警惕。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00630.html#p0002-p0007"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:11",
+      "bookId": "21",
+      "jsonPointer": "/facts/11",
+      "raw": {
+        "id": "21-f12",
+        "characters": [
+          "durotan",
+          "thrall"
+        ],
+        "statement": "庭审重演杜隆坦受德莱尼款待与多年后利用秘密攻城、杀瑞斯塔兰；萨尔面对父亲的责任。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00630.html#p0037-p0090"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:12",
+      "bookId": "21",
+      "jsonPointer": "/facts/12",
+      "raw": {
+        "id": "21-f13",
+        "characters": [
+          "durotan"
+        ],
+        "statement": "杜隆坦未杀冲来的女孩，痛哭其被另一兽人杀害，但仍下令杀光幸存者；当时未饮恶魔血。两种事实必须并存。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00631.html#p0002-p0019",
+          "OEBPS/text00631.html#p0034-p0067"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:13",
+      "bookId": "21",
+      "jsonPointer": "/facts/13",
+      "raw": {
+        "id": "21-f14",
+        "characters": [
+          "thrall"
+        ],
+        "statement": "萨尔回忆自己曾宁死拒杀人类幼童，格罗姆认可；所谓事实被扭曲是萨尔的评价，不否认实际屠杀。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00631.html#p0008-p0015"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:14",
+      "bookId": "21",
+      "jsonPointer": "/facts/14",
+      "raw": {
+        "id": "21-f15",
+        "characters": [
+          "varian"
+        ],
+        "statement": "瓦里安安慰受创的儿子，安度因把父亲的变化作为人能改变的亲身证据。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00631.html#p0024-p0025",
+          "OEBPS/text00635.html#p0033-p0040"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:15",
+      "bookId": "21",
+      "jsonPointer": "/facts/15",
+      "raw": {
+        "id": "21-f16",
+        "characters": [
+          "varian",
+          "thrall",
+          "jaina"
+        ],
+        "statement": "安度因证词重述塞拉摩和平会谈由放下武器走向贸易合作，后被暮光之锤袭击破坏；瓦里安曾误信萨尔带来刺客。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00634.html#p0032-p0044"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:16",
+      "bookId": "21",
+      "jsonPointer": "/facts/16",
+      "raw": {
+        "id": "21-f17",
+        "characters": [
+          "voljin"
+        ],
+        "statement": "沃金维护贝恩辩护职责，制止希尔瓦娜斯讥讽及贝恩以力相逼，同时承认要等公正裁决。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00635.html#p0045-p0063"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:17",
+      "bookId": "21",
+      "jsonPointer": "/facts/17",
+      "raw": {
+        "id": "21-f18",
+        "characters": [
+          "varian"
+        ],
+        "statement": "瓦里安虽不愿儿子见加尔鲁什，仍让安度因自主决定；对会面安全强硬，说明信任成长并不消除保护欲。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00636.html#p0036-p0065"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:18",
+      "bookId": "21",
+      "jsonPointer": "/facts/18",
+      "raw": {
+        "id": "21-f19",
+        "characters": [
+          "jaina"
+        ],
+        "statement": "温蕾萨把吉安娜餐桌上的死亡笑谈解读为赞同刺杀；不能据此把吉安娜列为知情共谋。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00637.html#p0038-p0049"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:19",
+      "bookId": "21",
+      "jsonPointer": "/facts/19",
+      "raw": {
+        "id": "21-f20",
+        "characters": [
+          "voljin",
+          "thrall"
+        ],
+        "statement": "沃金作证遭隔离与刺杀，拒绝顺着控诉人把推断说成事实；萨尔认可其理性。时光之相揭出加尔鲁什下令，沃金此前不知私语。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00638.html#p0012-p0053",
+          "OEBPS/text00638.html#p0055-p0109"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:20",
+      "bookId": "21",
+      "jsonPointer": "/facts/20",
+      "raw": {
+        "id": "21-f21",
+        "characters": [
+          "voljin"
+        ],
+        "statement": "辩护完整重放沃金威胁暗杀加尔鲁什的原话；需保留其复仇面，不能只有完美公正形象。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00639.html#p0020-p0042"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:21",
+      "bookId": "21",
+      "jsonPointer": "/facts/21",
+      "raw": {
+        "id": "21-f22",
+        "characters": [
+          "jaina"
+        ],
+        "statement": "吉安娜自觉成为曾排斥的仇恨者；卡雷担忧恨意持续侵蚀她与关系，两人尚未解决分歧。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00640.html#p0038-p0079"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:22",
+      "bookId": "21",
+      "jsonPointer": "/facts/22",
+      "raw": {
+        "id": "21-f23",
+        "characters": [
+          "thrall",
+          "voljin"
+        ],
+        "statement": "萨尔作证自述奴隶身世、建国、多族部落信念和退位理由；承认最初仅让加尔鲁什代理直到回来。听沃金求援后反抗库卡隆。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00641.html#p0008-p0094"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:23",
+      "bookId": "21",
+      "jsonPointer": "/facts/23",
+      "raw": {
+        "id": "21-f24",
+        "characters": [
+          "thrall"
+        ],
+        "statement": "辩护重演敦霍尔德公平决斗，追问萨尔为何欲直接杀加尔鲁什；原文同时明确塔蕾莎如姐弟的关系。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00642.html#p0065-p0101"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:24",
+      "bookId": "21",
+      "jsonPointer": "/facts/24",
+      "raw": {
+        "id": "21-f25",
+        "characters": [
+          "thrall"
+        ],
+        "statement": "萨尔庭上否认后悔或承担加尔鲁什罪行，随后被展示元素囚禁时自责与凯恩劝阻；这是内心、证词与情境张力，不能抹成始终坦然。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00642.html#p0104-p0123",
+          "OEBPS/text00643.html#p0002-p0028"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:25",
+      "bookId": "21",
+      "jsonPointer": "/facts/25",
+      "raw": {
+        "id": "21-f26",
+        "characters": [
+          "thrall"
+        ],
+        "statement": "面对质询，萨尔解释凡人无法预知未来且须从错误学习；此时改变先前处决意愿，赞同审判但保留有些损害不可纠正的判断。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00643.html#p0029-p0042"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:26",
+      "bookId": "21",
+      "jsonPointer": "/facts/26",
+      "raw": {
+        "id": "21-f27",
+        "characters": [
+          "thrall"
+        ],
+        "statement": "庭上末段灭世影像是未发生的可能未来，用于说明另一种选择风险，绝非主线已毁灭。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00643.html#p0043-p0050"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:27",
+      "bookId": "21",
+      "jsonPointer": "/facts/27",
+      "raw": {
+        "id": "21-f28",
+        "characters": [
+          "jaina"
+        ],
+        "statement": "听阿莱克丝塔萨受害叙述，吉安娜开始认可反复展示惨剧的伤害；对红龙仍能爱与原谅施害者感到震动。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00645.html#p0038-p0048",
+          "OEBPS/text00645.html#p0063-p0087"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:28",
+      "bookId": "21",
+      "jsonPointer": "/facts/28",
+      "raw": {
+        "id": "21-f29",
+        "characters": [
+          "jaina",
+          "varian"
+        ],
+        "statement": "贝恩受助与预警被揭，吉安娜面对昔日自我和家园；再次关心部落朋友并确认贝恩不知法力炸弹。瓦里安要求解释但未当场定叛。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00648.html#p0045-p0055",
+          "OEBPS/text00649.html#p0004-p0043"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:29",
+      "bookId": "21",
+      "jsonPointer": "/facts/29",
+      "raw": {
+        "id": "21-f30",
+        "characters": [
+          "jaina",
+          "varian"
+        ],
+        "statement": "争执中吉安娜强调个人资助、城邦自主与领袖身份；瓦里安强调外交沟通与儿子安危，随后接受破惧者归还出于荣誉的解释。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00650.html#p0002-p0028"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:30",
+      "bookId": "21",
+      "jsonPointer": "/facts/30",
+      "raw": {
+        "id": "21-f31",
+        "characters": [
+          "jaina"
+        ],
+        "statement": "吉安娜作证先疏散平民和所有儿童，再求援守城；罗宁牺牲、金迪遗骸等经历须保留创伤语境。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00651.html#p0005-p0112"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:31",
+      "bookId": "21",
+      "jsonPointer": "/facts/31",
+      "raw": {
+        "id": "21-f32",
+        "characters": [
+          "jaina",
+          "thrall",
+          "varian"
+        ],
+        "statement": "吉安娜承认曾想消灭所有部落并用聚焦之虹召唤海啸；萨尔与卡雷劝阻后由她选择停止，明确部落不等于加尔鲁什。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00652.html#p0003-p0065"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:32",
+      "bookId": "21",
+      "jsonPointer": "/facts/32",
+      "raw": {
+        "id": "21-f33",
+        "characters": [
+          "varian"
+        ],
+        "statement": "铁炉堡事件中威胁茉艾拉的武力与父亲恐惧并存；安度因劝阻后接受矮人自主，建立三锤议会；庭上承认自我约束需要持续努力。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00653.html#p0016-p0088"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:33",
+      "bookId": "21",
+      "jsonPointer": "/facts/33",
+      "raw": {
+        "id": "21-f34",
+        "characters": [
+          "jaina",
+          "voljin"
+        ],
+        "statement": "吉安娜仍有复仇冲动，同时关心贝恩；沃金来信理解达拉然创伤，她感谢理解并主动与卡雷重建关系，不能写作政治分歧全部消失。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00655.html#p0002-p0048"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:34",
+      "bookId": "21",
+      "jsonPointer": "/facts/34",
+      "raw": {
+        "id": "21-f35",
+        "characters": [
+          "jaina"
+        ],
+        "statement": "投毒由温蕾萨实施后悔并向安度因求助；吉安娜不是知情共谋。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00656.html#p0002-p0091"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:35",
+      "bookId": "21",
+      "jsonPointer": "/facts/35",
+      "raw": {
+        "id": "21-f36",
+        "characters": [
+          "thrall",
+          "varian"
+        ],
+        "statement": "萨尔认可加尔鲁什以战士尊严面对判决；瓦里安支持儿子探监的选择；二人察觉克罗米缺席异常。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00657.html#p0002-p0044"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:36",
+      "bookId": "21",
+      "jsonPointer": "/facts/36",
+      "raw": {
+        "id": "21-f37",
+        "characters": [
+          "jaina",
+          "thrall",
+          "voljin"
+        ],
+        "statement": "凯诺兹破坏时光之相，引入异时间线分身；嗜杀沃金、布莱克摩尔爪牙萨尔与仇恨吉安娜均非本世界实际履历。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00658.html#p0002-p0019",
+          "OEBPS/text00658.html#p0043-p0062"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:37",
+      "bookId": "21",
+      "jsonPointer": "/facts/37",
+      "raw": {
+        "id": "21-f38",
+        "characters": [
+          "varian"
+        ],
+        "statement": "瓦里安保卫白虎寺，与兽人萨满共同作战；负伤后放弃追杀扎伊拉，选择抢救中枪的吉安娜。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00659.html#p0048-p0090"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:38",
+      "bookId": "21",
+      "jsonPointer": "/facts/38",
+      "raw": {
+        "id": "21-f39",
+        "characters": [
+          "jaina"
+        ],
+        "statement": "吉安娜出手救瓦里安后中枪；结尾由赤精祝福恢复生命，不是萨尔或安度因单独治愈。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00659.html#p0085-p0090",
+          "OEBPS/text00660.html#p0011-p0028"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:39",
+      "bookId": "21",
+      "jsonPointer": "/facts/39",
+      "raw": {
+        "id": "21-f40",
+        "characters": [
+          "thrall"
+        ],
+        "statement": "萨尔依贝恩提醒接受另一种可能的自己，区分被奴役的萨尔与可选择的古伊尔；与伴侣孩子团聚。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00660.html#p0008-p0010"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:40",
+      "bookId": "21",
+      "jsonPointer": "/facts/40",
+      "raw": {
+        "id": "21-f41",
+        "characters": [
+          "thrall",
+          "jaina"
+        ],
+        "statement": "萨尔参与救治吉安娜但精疲力竭，赤精治愈后两人握手，给受损友谊修复的空间。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00660.html#p0013-p0028"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "21:facts:41",
+      "bookId": "21",
+      "jsonPointer": "/facts/41",
+      "raw": {
+        "id": "21-f42",
+        "characters": [
+          "thrall",
+          "voljin",
+          "varian"
+        ],
+        "statement": "天神说明审判也使众人反省自身，原判让加尔鲁什活下去学习；逃亡已发生，萨尔承诺寻找他，沃金仍为大酋长。",
+        "type": "fact",
+        "refs": [
+          "OEBPS/text00660.html#p0029-p0052"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:0",
+      "bookId": "26",
+      "jsonPointer": "/events/0",
+      "raw": {
+        "id": "chronicle-846",
+        "kind": "source_fact",
+        "characters": [
+          "thrall"
+        ],
+        "summary": "奴隶成长、特蕾莎帮助逃离、寻找氏族与身份。",
+        "sourceRefs": [
+          "text00846:p0001-p0013"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:1",
+      "bookId": "26",
+      "jsonPointer": "/events/1",
+      "raw": {
+        "id": "chronicle-847",
+        "kind": "source_fact",
+        "characters": [
+          "thrall",
+          "tirion"
+        ],
+        "summary": "学习萨满、继承酋长、敦霍尔德之战；提里奥保护伊崔格并遭放逐。",
+        "sourceRefs": [
+          "text00847:p0001-p0013"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:2",
+      "bookId": "26",
+      "jsonPointer": "/events/2",
+      "raw": {
+        "id": "chronicle-855",
+        "kind": "source_fact",
+        "characters": [
+          "jaina",
+          "thrall"
+        ],
+        "summary": "先知警告与两族迁徙背景。",
+        "sourceRefs": [
+          "text00855:p0001-p0007"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:3",
+      "bookId": "26",
+      "jsonPointer": "/events/3",
+      "raw": {
+        "id": "chronicle-862",
+        "kind": "source_fact",
+        "characters": [
+          "thrall",
+          "voljin"
+        ],
+        "summary": "暗矛结盟、森金死亡、沃金承担族人迁徙责任。",
+        "sourceRefs": [
+          "text00862:p0001-p0013"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:5",
+      "bookId": "26",
+      "jsonPointer": "/events/5",
+      "raw": {
+        "id": "chronicle-871",
+        "kind": "source_fact",
+        "characters": [
+          "thrall",
+          "jaina"
+        ],
+        "summary": "迁徙的艰难与萨尔帮助牛头人。",
+        "sourceRefs": [
+          "text00871:p0001-p0018"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:6",
+      "bookId": "26",
+      "jsonPointer": "/events/6",
+      "raw": {
+        "id": "chronicle-876",
+        "kind": "source_fact",
+        "characters": [
+          "thrall",
+          "jaina"
+        ],
+        "summary": "在先知见证下建立休战合作，而非初次见面便毫无保留信任。",
+        "sourceRefs": [
+          "text00876:p0001-p0010"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:7",
+      "bookId": "26",
+      "jsonPointer": "/events/7",
+      "raw": {
+        "id": "chronicle-877",
+        "kind": "source_fact",
+        "characters": [
+          "thrall"
+        ],
+        "summary": "营救格罗玛什、击败玛诺洛斯与兽人血之诅咒终结。",
+        "sourceRefs": [
+          "text00877:p0001-p0012"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:9",
+      "bookId": "26",
+      "jsonPointer": "/events/9",
+      "raw": {
+        "id": "chronicle-882",
+        "kind": "source_fact",
+        "characters": [
+          "malfurion",
+          "thrall",
+          "jaina"
+        ],
+        "summary": "联合防御海加尔；玛法里奥牺牲世界树赐福消灭阿克蒙德。",
+        "sourceRefs": [
+          "text00882:p0001-p0016"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:10",
+      "bookId": "26",
+      "jsonPointer": "/events/10",
+      "raw": {
+        "id": "chronicle-903",
+        "kind": "source_fact",
+        "characters": [
+          "thrall",
+          "jaina"
+        ],
+        "summary": "建立杜隆塔尔和塞拉摩，维持休战。",
+        "sourceRefs": [
+          "text00903:p0001-p0009"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:11",
+      "bookId": "26",
+      "jsonPointer": "/events/11",
+      "raw": {
+        "id": "chronicle-904",
+        "kind": "source_fact",
+        "characters": [
+          "thrall",
+          "jaina"
+        ],
+        "summary": "戴林侵袭；吉安娜在父亲与和平间抉择，实际致命一击来自雷克萨。",
+        "sourceRefs": [
+          "text00904:p0001-p0016"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:15",
+      "bookId": "26",
+      "jsonPointer": "/events/15",
+      "raw": {
+        "id": "chronicle-943",
+        "kind": "source_fact",
+        "characters": [
+          "varian",
+          "jaina",
+          "thrall"
+        ],
+        "summary": "塞拉摩峰会遭迦罗娜袭击破坏；不要混同小说仇恨之轮事件。",
+        "sourceRefs": [
+          "text00943:p0001-p0015"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:18",
+      "bookId": "26",
+      "jsonPointer": "/events/18",
+      "raw": {
+        "id": "chronicle-952",
+        "kind": "source_fact",
+        "characters": [
+          "thrall",
+          "jaina",
+          "varian"
+        ],
+        "summary": "幽暗城清叛后瓦里安欲战萨尔，吉安娜传送联盟制止冲突。",
+        "sourceRefs": [
+          "text00952:p0001-p0013"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:22",
+      "bookId": "26",
+      "jsonPointer": "/events/22",
+      "raw": {
+        "id": "chronicle-961",
+        "kind": "source_fact",
+        "characters": [
+          "thrall"
+        ],
+        "summary": "委任加尔鲁什、凯恩反对；决斗毒药原因在下一节补充。",
+        "sourceRefs": [
+          "text00961:p0001-p0013"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:24",
+      "bookId": "26",
+      "jsonPointer": "/events/24",
+      "raw": {
+        "id": "chronicle-963",
+        "kind": "source_fact",
+        "characters": [
+          "thrall"
+        ],
+        "summary": "纳格兰学习、阿格娜关系与返回后的责任震动。",
+        "sourceRefs": [
+          "text00963:p0001-p0011"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:26",
+      "bookId": "26",
+      "jsonPointer": "/events/26",
+      "raw": {
+        "id": "chronicle-972",
+        "kind": "source_fact",
+        "characters": [
+          "thrall"
+        ],
+        "summary": "守护巨龙旅程、蓝龙选举、帮助阿莱克丝塔萨重拾希望。",
+        "sourceRefs": [
+          "text00972:p0001-p0022"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:27",
+      "bookId": "26",
+      "jsonPointer": "/events/27",
+      "raw": {
+        "id": "chronicle-974",
+        "kind": "source_fact",
+        "characters": [
+          "thrall"
+        ],
+        "summary": "以凡人身份为巨龙之魂灌注大地之力，相关取回神器行动属不同英雄。",
+        "sourceRefs": [
+          "text00974:p0001-p0019"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    },
+    {
+      "id": "26:events:28",
+      "bookId": "26",
+      "jsonPointer": "/events/28",
+      "raw": {
+        "id": "chronicle-975",
+        "kind": "source_fact",
+        "characters": [
+          "thrall"
+        ],
+        "summary": "与守护巨龙和凡人联军共同击败死亡之翼；不同于18小说结尾。",
+        "sourceRefs": [
+          "text00975:p0001-p0018"
+        ]
+      },
+      "assignment": "context_for_thrall_not_all_events_are_his_actions"
+    }
+  ],
+  "missingBeforeIntegration": [
+    "13",
+    "16",
+    "19"
+  ],
+  "policy": "Do not reread books to regenerate these records. Check only specific disputed or insufficient passages."
+}

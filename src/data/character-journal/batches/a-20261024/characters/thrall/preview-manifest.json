@@ -1,0 +1,220 @@
+{
+  "character": "萨尔",
+  "status": "unpublished_draft",
+  "items": [
+    {
+      "id": "00",
+      "unitId": "thrall-overview",
+      "title": "萨尔：自由、家园与责任",
+      "subtitle": {
+        "text": "选择自己的名字，也面对选择的后果",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已核对全部本次来源；16号两个原作分部题仅适用灾变局部，其他核验未见能够覆盖全跨度的独立副标题，故采用编辑概括。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-overview/story.md",
+      "image": "images/00-stained-glass.png",
+      "characterCount": 1165,
+      "sourceLabel": "已读小说与《魔兽编年史 卷三》已读选段综合",
+      "imageMode": "life_synthesis"
+    },
+    {
+      "id": "01",
+      "unitId": "thrall-part-01",
+      "title": "锁链中的名字",
+      "subtitle": {
+        "text": "先被当作一个人",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-01/story.md",
+      "image": "images/01-stained-glass.png",
+      "characterCount": 1827,
+      "sourceLabel": "《部落的崛起》；《氏族之王》",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "02",
+      "unitId": "thrall-part-02",
+      "title": "为自己选择一个名字",
+      "subtitle": {
+        "text": "血脉之外，学会倾听",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-02/story.md",
+      "image": "images/02-stained-glass.png",
+      "characterCount": 1862,
+      "sourceLabel": "《氏族之王》",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "03",
+      "unitId": "thrall-part-03",
+      "title": "接过毁灭之锤",
+      "subtitle": {
+        "text": "自由之后，如何使用力量",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-03/story.md",
+      "image": "images/03-stained-glass.png",
+      "characterCount": 1834,
+      "sourceLabel": "《氏族之王》；《鲜血与荣耀》；《魔兽编年史 卷三》已读选段",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "04",
+      "unitId": "thrall-part-04",
+      "title": "让部落拥有家园",
+      "subtitle": {
+        "text": "盟友使一个民族走向共同体",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-04/story.md",
+      "image": "images/04-stained-glass.png",
+      "characterCount": 937,
+      "sourceLabel": "《魔兽编年史 卷三》已读选段；《仇恨之轮》",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "05",
+      "unitId": "thrall-part-05",
+      "title": "和平不能只靠承诺",
+      "subtitle": {
+        "text": "在偏见、查证与强制之间",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-05/story.md",
+      "image": "images/05-stained-glass.png",
+      "characterCount": 1884,
+      "sourceLabel": "《上古之战：永恒之井》；《仇恨之轮》；《部落的崛起》；《魔兽编年史 卷三》已读选段；《战争罪行》",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "06",
+      "unitId": "thrall-part-06",
+      "title": "一个接班决定",
+      "subtitle": {
+        "text": "大地将会哭泣……",
+        "origin": "original",
+        "sourceRef": {
+          "bookId": "16",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "ref": "text00444:p0001",
+          "version": "王坚译，新星出版社2019版"
+        },
+        "selectionReason": "采用16号上篇原题，主事件和取材均在第一至十六章。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-06/story.md",
+      "image": "images/06-stained-glass.png",
+      "characterCount": 1843,
+      "sourceLabel": "《浩劫：灾变的前奏》",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "07",
+      "unitId": "thrall-part-07",
+      "title": "卸下铠甲之后",
+      "subtitle": {
+        "text": "世界将会崩毁……",
+        "origin": "original",
+        "sourceRef": {
+          "bookId": "16",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "ref": "text00460:p0001",
+          "version": "王坚译，新星出版社2019版"
+        },
+        "selectionReason": "采用16号下篇原题，主事件位于第十七至三十二章；尾声仅作去向和代行措辞收束，26号为同一事件旁证。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-07/story.md",
+      "image": "images/07-stained-glass.png",
+      "characterCount": 1898,
+      "sourceLabel": "《浩劫：灾变的前奏》；《魔兽编年史 卷三》已读选段",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "08",
+      "unitId": "thrall-part-08",
+      "title": "英雄之外的自己",
+      "subtitle": {
+        "text": "无需功绩，也值得被爱",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-08/story.md",
+      "image": "images/08-stained-glass.png",
+      "characterCount": 1902,
+      "sourceLabel": "《萨尔：巨龙的黄昏》",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "09",
+      "unitId": "thrall-part-09",
+      "title": "以理解重新联结",
+      "subtitle": {
+        "text": "先听见悲痛，再谈责任",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-09/story.md",
+      "image": "images/09-stained-glass.png",
+      "characterCount": 2006,
+      "sourceLabel": "《萨尔：巨龙的黄昏》；《魔兽编年史 卷三》已读选段；《吉安娜·普罗德摩尔：战争之潮》",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "10",
+      "unitId": "thrall-part-10",
+      "title": "世界与旧盟友之间",
+      "subtitle": {
+        "text": "更大的责任没有消除旧的责任",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-10/story.md",
+      "image": "images/10-stained-glass.png",
+      "characterCount": 1969,
+      "sourceLabel": "《吉安娜·普罗德摩尔：战争之潮》",
+      "imageMode": "chapter_scene"
+    },
+    {
+      "id": "11",
+      "unitId": "thrall-part-11",
+      "title": "没有结束的审判",
+      "subtitle": {
+        "text": "承认可能的自己，承担未完的选择",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "story": "units/thrall-part-11/story.md",
+      "image": "images/11-stained-glass.png",
+      "characterCount": 2050,
+      "sourceLabel": "《战争罪行》",
+      "imageMode": "chapter_scene"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "runId": "batch-a-20261024-01",
+  "characterId": [
+    "tirion",
+    "thrall",
+    "durotan"
+  ],
+  "role": "researcher",
+  "inputVersions": {
+    "sourceSha256": "3801a08ca7b1da2ed5315d54ce902e3b46254bbe404b389311751eda5e65678b"
+  },
+  "outputPaths": [
+    "src\\data\\character-journal\\batches\\a-20261024\\books\\11\\evidence.json"
+  ],
+  "status": "completed",
+  "reviewFindings": [
+    "授勋梦境是回忆，尾章是跳时。",
+    "小说没有灰烬使者、泰兰之死、公开赦免或巫妖王终战，后续只能注明编年史补充。",
+    "卡兰德拉有实际责任与合理顾虑，不能扁平化为不懂荣誉的阻碍者。",
+    "萨尔与杜隆坦为跨人物复用证据，不因此宣称小说完整覆盖其人生。"
+  ],
+  "nextRole": "integrator",
+  "retryCount": 0,
+  "scopeId": "book11",
+  "sourceRanges": [
+    "OEBPS/text00290.html",
+    "OEBPS/text00291.html",
+    "OEBPS/text00292.html",
+    "OEBPS/text00293.html",
+    "OEBPS/text00294.html",
+    "OEBPS/text00295.html",
+    "OEBPS/text00296.html",
+    "OEBPS/text00297.html",
+    "OEBPS/text00298.html",
+    "OEBPS/text00299.html",
+    "OEBPS/text00300.html",
+    "OEBPS/text00301.html"
+  ]
+}

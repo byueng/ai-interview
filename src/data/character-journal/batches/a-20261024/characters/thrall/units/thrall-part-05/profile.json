@@ -1,0 +1,159 @@
+{
+  "unitId": "thrall-part-05",
+  "kind": "section",
+  "displayOrder": 5,
+  "title": "和平不能只靠承诺",
+  "sourceLabel": "《上古之战：永恒之井》；《仇恨之轮》；《部落的崛起》；《魔兽编年史 卷三》已读选段；《战争罪行》",
+  "subtitle": {
+    "text": "在偏见、查证与强制之间",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "02",
+      "sourceTitle": "上古之战：永恒之井",
+      "sourceSha256": "ade02716af7a3abef6fdcc542217133d46a8a7b7bf05202a56af02b0b22d1d0a",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00038:p0015-p0032",
+        "text00044:p0002-p0015"
+      ],
+      "evidenceId": "thrall-event-12",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "13",
+      "sourceTitle": "仇恨之轮",
+      "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00340:p0018-p0052",
+        "text00344:p0023-p0057",
+        "text00346:p0033-p0064"
+      ],
+      "evidenceId": "thrall-event-13",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "13",
+      "sourceTitle": "仇恨之轮",
+      "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00354:p0002-p0021",
+        "text00356:p0043-p0049",
+        "text00360:p0007-p0046",
+        "text00362:p0003-p0019"
+      ],
+      "evidenceId": "thrall-event-14",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "05",
+      "sourceTitle": "部落的崛起",
+      "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00124:p0002-p0005",
+        "text00131:p0002-p0007",
+        "text00132:p0002-p0008",
+        "text00138:p0002-p0003",
+        "text00145:p0002-p0004",
+        "text00146:p0002-p0028"
+      ],
+      "evidenceId": "thrall-event-15",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00943:p0001-p0015",
+        "text00952:p0001-p0013"
+      ],
+      "evidenceId": "thrall-event-16",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "21",
+      "sourceTitle": "战争罪行",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "sourceType": "novel_testimony_or_trial_present",
+      "refs": [
+        "text00634:p0032-p0044"
+      ],
+      "evidenceId": "thrall-event-16",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "新国治理与仇恨之轮危机；写史和后续峰会作为两侧旁证",
+  "characterChange": "从相信私人互信足够，到承认偏见、以公开行动维护和平而仍面对反复",
+  "focus": "主线为商船与伐林疑云、认错查证、止战处决及正式议盟的约定。写史作为主题侧栏，峰会和幽暗城只作结尾压力桥接。",
+  "tone": "紧张、理性、有所成就但不自满",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-12",
+      "event": "面对时间异常听卡尔萨意见，选择小队调查；派布洛克斯不是让他带整个部落参加上古战争。",
+      "classification": "integrated_source_facts",
+      "boundary": "布洛克斯后续经历不是萨尔亲历；未考虑负罪与此前安慰的叙述层次并存。"
+    },
+    {
+      "evidenceId": "thrall-event-13",
+      "event": "商船遇袭后萨尔先迁怒，接受质疑后为鲁莽道歉；伐林危机中拒将魔法嫌疑直接归罪吉安娜，先救农民、承认未知再查证。",
+      "classification": "integrated_source_facts",
+      "boundary": "不是天生不受偏见影响的完人；两人此时仍靠私人信任。"
+    },
+    {
+      "evidenceId": "thrall-event-14",
+      "event": "收到可信增兵情报后部署待命；伯克斯擅自挑战。萨尔在伤亡发生后强力止战、救下达文、公开处决叛徒并道歉撤军。双方约一周后在棘齿城议正式盟约。",
+      "classification": "integrated_source_facts",
+      "boundary": "已发生流血；结尾尚未签署条约；不能写根除两族仇恨。"
+    },
+    {
+      "evidenceId": "thrall-event-15",
+      "event": "萨尔记录旧部落，自觉承认兽人自主选择及对他界伤害，用父亲的妥协警戒自己；维伦幸存抵达消息令他担忧阵营未来。",
+      "classification": "integrated_source_facts",
+      "boundary": "写史框架与父辈叙事分层；无精确日期时不固定与02/13细粒度先后。"
+    },
+    {
+      "evidenceId": "thrall-event-16",
+      "event": "塞拉摩峰会本曾讨论贸易，却遭暮光之锤袭击；幽暗城事件后吉安娜传送联盟阻止瓦里安与萨尔开战。",
+      "classification": "integrated_source_facts",
+      "boundary": "不是13火刃危机同一事件；只用已读选段为治理压力桥接。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-12",
+    "thrall-event-13",
+    "thrall-event-14",
+    "thrall-event-15",
+    "thrall-event-16"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "建国只回指；不把13危机与后来的暮光峰会混写，不替13结尾补签约；下一篇转旱灾与接班压力。",
+  "independenceReason": "13号完整危机可独立展示治理手段及代价；旁证用于检验自我认识，不另开未经支撑的年代长篇。",
+  "lengthMode": "standard",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "f5a937cfda08685b11a75a99c63107458cf2a5d0e4035333b1a8aaad187f1dcf"
+}

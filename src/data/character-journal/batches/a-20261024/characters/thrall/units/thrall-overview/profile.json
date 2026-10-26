@@ -1,0 +1,629 @@
+{
+  "unitId": "thrall-overview",
+  "kind": "overview",
+  "displayOrder": 0,
+  "title": "萨尔：自由、家园与责任",
+  "sourceLabel": "已读小说与《魔兽编年史 卷三》已读选段综合",
+  "subtitle": {
+    "text": "选择自己的名字，也面对选择的后果",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已核对全部本次来源；16号两个原作分部题仅适用灾变局部，其他核验未见能够覆盖全跨度的独立副标题，故采用编辑概括。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "05",
+      "sourceTitle": "部落的崛起",
+      "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00132:p0002-p0008",
+        "text00137:p0005-p0096",
+        "text00138:p0004-p0044",
+        "text00142:p0060-p0122"
+      ],
+      "evidenceId": "thrall-event-01",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00270:p0002-p0088"
+      ],
+      "evidenceId": "thrall-event-02",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00271:p0002-p0103",
+        "text00272:p0002-p0069",
+        "text00273:p0002-p0049",
+        "text00274:p0012-p0076"
+      ],
+      "evidenceId": "thrall-event-03",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00275:p0002-p0067",
+        "text00276:p0002-p0070",
+        "text00277:p0026-p0077"
+      ],
+      "evidenceId": "thrall-event-04",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00278:p0002-p0063",
+        "text00279:p0002-p0075",
+        "text00280:p0002-p0074"
+      ],
+      "evidenceId": "thrall-event-05",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00281:p0002-p0073",
+        "text00282:p0004-p0077",
+        "text00283:p0002-p0087"
+      ],
+      "evidenceId": "thrall-event-06",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00284:p0002-p0050",
+        "text00285:p0002-p0088",
+        "text00286:p0002-p0060"
+      ],
+      "evidenceId": "thrall-event-07",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00287:p0002-p0078",
+        "text00288:p0002-p0080",
+        "text00289:p0002-p0078"
+      ],
+      "evidenceId": "thrall-event-08",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "11",
+      "sourceTitle": "鲜血与荣耀",
+      "sourceSha256": "3801a08ca7b1da2ed5315d54ce902e3b46254bbe404b389311751eda5e65678b",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00300:p0112-p0159"
+      ],
+      "evidenceId": "thrall-event-09",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00847:p0001-p0013"
+      ],
+      "evidenceId": "thrall-event-09",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00855:p0001-p0007",
+        "text00862:p0001-p0013",
+        "text00871:p0001-p0018",
+        "text00876:p0001-p0010",
+        "text00877:p0001-p0012",
+        "text00882:p0001-p0016"
+      ],
+      "evidenceId": "thrall-event-10",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00903:p0001-p0009",
+        "text00904:p0001-p0016"
+      ],
+      "evidenceId": "thrall-event-11",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "13",
+      "sourceTitle": "仇恨之轮",
+      "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00340:p0003-p0016"
+      ],
+      "evidenceId": "thrall-event-11",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "02",
+      "sourceTitle": "上古之战：永恒之井",
+      "sourceSha256": "ade02716af7a3abef6fdcc542217133d46a8a7b7bf05202a56af02b0b22d1d0a",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00038:p0015-p0032",
+        "text00044:p0002-p0015"
+      ],
+      "evidenceId": "thrall-event-12",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "13",
+      "sourceTitle": "仇恨之轮",
+      "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00340:p0018-p0052",
+        "text00344:p0023-p0057",
+        "text00346:p0033-p0064"
+      ],
+      "evidenceId": "thrall-event-13",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "13",
+      "sourceTitle": "仇恨之轮",
+      "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00354:p0002-p0021",
+        "text00356:p0043-p0049",
+        "text00360:p0007-p0046",
+        "text00362:p0003-p0019"
+      ],
+      "evidenceId": "thrall-event-14",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "05",
+      "sourceTitle": "部落的崛起",
+      "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00124:p0002-p0005",
+        "text00131:p0002-p0007",
+        "text00132:p0002-p0008",
+        "text00138:p0002-p0003",
+        "text00145:p0002-p0004",
+        "text00146:p0002-p0028"
+      ],
+      "evidenceId": "thrall-event-15",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00943:p0001-p0015",
+        "text00952:p0001-p0013"
+      ],
+      "evidenceId": "thrall-event-16",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "21",
+      "sourceTitle": "战争罪行",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "sourceType": "novel_testimony_or_trial_present",
+      "refs": [
+        "text00634:p0032-p0044"
+      ],
+      "evidenceId": "thrall-event-16",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00447:p0040-p0087",
+        "text00451:p0012-p0085",
+        "text00452:p0017-p0061"
+      ],
+      "evidenceId": "thrall-event-17",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00453:p0002-p0092",
+        "text00459:p0019-p0049"
+      ],
+      "evidenceId": "thrall-event-18",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00460:p0003-p0071",
+        "text00462:p0002-p0023",
+        "text00466:p0002-p0021",
+        "text00468:p0002-p0108",
+        "text00469:p0002-p0075"
+      ],
+      "evidenceId": "thrall-event-19",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00463:p0015-p0074",
+        "text00464:p0024-p0051",
+        "text00465:p0005-p0110",
+        "text00467:p0044-p0081"
+      ],
+      "evidenceId": "thrall-event-20",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00963:p0001-p0011"
+      ],
+      "evidenceId": "thrall-event-20",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00474:p0084-p0129",
+        "text00475:p0004-p0060",
+        "text00476:p0002-p0020"
+      ],
+      "evidenceId": "thrall-event-20",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00526:p0002-p0104",
+        "text00529:p0002-p0060",
+        "text00530:p0002-p0100"
+      ],
+      "evidenceId": "thrall-event-21",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00532:p0027-p0138",
+        "text00533:p0002-p0088",
+        "text00534:p0002-p0109",
+        "text00535:p0065-p0139"
+      ],
+      "evidenceId": "thrall-event-22",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00536:p0002-p0079",
+        "text00537:p0002-p0101",
+        "text00538:p0002-p0124",
+        "text00539:p0061-p0144"
+      ],
+      "evidenceId": "thrall-event-23",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00541:p0002-p0083",
+        "text00542:p0002-p0040",
+        "text00543:p0002-p0144",
+        "text00544:p0002-p0086"
+      ],
+      "evidenceId": "thrall-event-24",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00545:p0002-p0098",
+        "text00546:p0002-p0105",
+        "text00547:p0002-p0102"
+      ],
+      "evidenceId": "thrall-event-25",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00974:p0001-p0019",
+        "text00975:p0001-p0018"
+      ],
+      "evidenceId": "thrall-event-26",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00552:p0003-p0005"
+      ],
+      "evidenceId": "thrall-event-26",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00554:p0013-p0062"
+      ],
+      "evidenceId": "thrall-event-27",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00571:p0002-p0038"
+      ],
+      "evidenceId": "thrall-event-28",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00575:p0042-p0073",
+        "text00576:p0021-p0113"
+      ],
+      "evidenceId": "thrall-event-29",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00577:p0039-p0044",
+        "text00578:p0082-p0091",
+        "text00579:p0003-p0026"
+      ],
+      "evidenceId": "thrall-event-29",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "21",
+      "sourceTitle": "战争罪行",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "sourceType": "novel_testimony_or_trial_present",
+      "refs": [
+        "text00624:p0007-p0008",
+        "text00625:p0012-p0013",
+        "text00625:p0053-p0069",
+        "text00630:p0002-p0007",
+        "text00641:p0008-p0094"
+      ],
+      "evidenceId": "thrall-event-30",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "21",
+      "sourceTitle": "战争罪行",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "sourceType": "novel_testimony_or_trial_present",
+      "refs": [
+        "text00630:p0037-p0090",
+        "text00631:p0002-p0067",
+        "text00642:p0065-p0123",
+        "text00643:p0002-p0050"
+      ],
+      "evidenceId": "thrall-event-31",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "21",
+      "sourceTitle": "战争罪行",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "sourceType": "novel_testimony_or_trial_present",
+      "refs": [
+        "text00657:p0002-p0044",
+        "text00658:p0002-p0019",
+        "text00658:p0043-p0062",
+        "text00660:p0008-p0052"
+      ],
+      "evidenceId": "thrall-event-32",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "主世界失亲与奴隶成长至《战争罪行》结尾；父辈仅背景，时间旅行按成人经历层叙述",
+  "characterChange": "被定义的工具→争取自由与家园的领袖→学习倾听的世界萨满→仍须面对政治选择的凡人",
+  "focus": "用身份、倾听与责任三条线概述；明确成长并不消除判断失误，承担更大使命不能自动抵销具体后果。",
+  "tone": "有同情但保留审视，允许希望、哀伤与不确定并存",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-02",
+      "event": "婴儿失亲"
+    },
+    {
+      "evidenceId": "thrall-event-04",
+      "event": "逃亡与同族承诺"
+    },
+    {
+      "evidenceId": "thrall-event-06",
+      "event": "霜狼与萨满学习"
+    },
+    {
+      "evidenceId": "thrall-event-08",
+      "event": "敦霍尔德决裂"
+    },
+    {
+      "evidenceId": "thrall-event-10",
+      "event": "迁徙与共同敌人"
+    },
+    {
+      "evidenceId": "thrall-event-14",
+      "event": "止战与公共承诺"
+    },
+    {
+      "evidenceId": "thrall-event-18",
+      "event": "代理任命与被忽视的警告"
+    },
+    {
+      "evidenceId": "thrall-event-20",
+      "event": "离开后的代价"
+    },
+    {
+      "evidenceId": "thrall-event-22",
+      "event": "重访父母与异常时间线"
+    },
+    {
+      "evidenceId": "thrall-event-25",
+      "event": "萨满补位与接受古伊尔"
+    },
+    {
+      "evidenceId": "thrall-event-29",
+      "event": "勇士岛阻止灭城"
+    },
+    {
+      "evidenceId": "thrall-event-31",
+      "event": "父亲过失与自身任命责任"
+    },
+    {
+      "evidenceId": "thrall-event-32",
+      "event": "接受可能的自己与未完责任"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-01",
+    "thrall-event-02",
+    "thrall-event-03",
+    "thrall-event-04",
+    "thrall-event-05",
+    "thrall-event-06",
+    "thrall-event-07",
+    "thrall-event-08",
+    "thrall-event-09",
+    "thrall-event-10",
+    "thrall-event-11",
+    "thrall-event-12",
+    "thrall-event-13",
+    "thrall-event-14",
+    "thrall-event-15",
+    "thrall-event-16",
+    "thrall-event-17",
+    "thrall-event-18",
+    "thrall-event-19",
+    "thrall-event-20",
+    "thrall-event-21",
+    "thrall-event-22",
+    "thrall-event-23",
+    "thrall-event-24",
+    "thrall-event-25",
+    "thrall-event-26",
+    "thrall-event-27",
+    "thrall-event-28",
+    "thrall-event-29",
+    "thrall-event-30",
+    "thrall-event-31",
+    "thrall-event-32"
+  ],
+  "adjacentBoundaries": "总览提供阅读地图，不复述各篇详细场景；截止战争罪行，不假装覆盖完整生平。",
+  "independenceReason": "建立全局主线与材料终点，供读者选择分篇阅读。",
+  "imageMode": "life_synthesis",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "概述作品覆盖范围，不补全传。",
+    "主线是明确标记的策划解释，不能替人物裁决责任。",
+    "正文以后以已审分篇为基础再写；本次不执行。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "bece6c9067cbb17047059d96c68b4be6a4a65244505192027640410d20d3fc7c"
+}

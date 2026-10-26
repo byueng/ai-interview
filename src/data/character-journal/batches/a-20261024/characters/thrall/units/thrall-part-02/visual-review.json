@@ -1,0 +1,31 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-02",
+  "reviewer": "thrall_book13",
+  "reviewType": "independent_visual_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\02-stained-glass.png",
+  "imageSha256": "c0e990910af652e3a70785252c7bb5166034964ad95501dfc9c4492eac54dbaf",
+  "storySha256": "379d9db6900b5279977b7957aadc8ba52e1f85d680cd0e47319d75a68a75fcfe",
+  "profileSha256": "0a99a2cd665b6efa5cd0144624854b8b967a9b095b7b0fe17b44a30be26e1c53",
+  "artBriefSha256": "7f41e8ca6a04973b2c8d92c681a22792325d33ad372f9277d0766fc22e43acba",
+  "promptSha256": "d6b1cfe5052df25d0dfbb38d32d935629423952fd9e117a10d4180191228e200",
+  "subtitle": "血脉之外，学会倾听",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "洞穴内火光、皮帘入口、红眼黑下颌纹饰的格罗玛什，与蓝眼萨尔明确区分。男孩四肢捆束但无伤，萨尔空手拒杀。非露天营地，没有后期甲锤。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。"
+}

@@ -1,0 +1,1126 @@
+{
+  "bookId": "08",
+  "title": "穿越黑暗之门",
+  "sourcePath": "E:\\魔兽官方小说\\08 穿越黑暗之门.epub",
+  "sourceSha256": "f061e244912dc66d3125e8744c64c142b76a6545a1ccb5d45732b21584360950",
+  "runId": "batch-a-20261024-01",
+  "version": 1,
+  "status": "complete",
+  "method": "按manifest顺序完整阅读36文档，长章分连续批次，无跳段、无网络补充；锚点为提取正文段号。",
+  "coverage": [
+    {
+      "documentId": "text00203",
+      "href": "OEBPS/text00203.html",
+      "heading": "",
+      "paragraphs": 0,
+      "readRange": "empty_document",
+      "status": "read_complete",
+      "sourceDocumentSha256": "bd693af97a18962c0a78a3e4b4ccdebddc1d87264940c74fd7b794dd48d51c83"
+    },
+    {
+      "documentId": "text00204",
+      "href": "OEBPS/text00204.html",
+      "heading": "版权信息",
+      "paragraphs": 7,
+      "readRange": "p0001-p0007",
+      "status": "read_complete",
+      "sourceDocumentSha256": "f869fd6b8b9e54226d18d831ad8e7984dcd94dfc1cd09b833a678d62db1263ae"
+    },
+    {
+      "documentId": "text00205",
+      "href": "OEBPS/text00205.html",
+      "heading": "穿越黑暗之门",
+      "paragraphs": 36,
+      "readRange": "p0001-p0036",
+      "status": "read_complete",
+      "sourceDocumentSha256": "bebf399439ca05545d214b84969b13f0f269623e3533d2fa12ec2f0af2fa19fa"
+    },
+    {
+      "documentId": "text00206",
+      "href": "OEBPS/text00206.html",
+      "heading": "致我的家人和朋友，尤其是我可爱的妻子，",
+      "paragraphs": 5,
+      "readRange": "p0001-p0005",
+      "status": "read_complete",
+      "sourceDocumentSha256": "683408e972f462885cab8ab0e1de3c4410c7883b7ece56811a62b72ca1040db7"
+    },
+    {
+      "documentId": "text00207",
+      "href": "OEBPS/text00207.html",
+      "heading": "导读",
+      "paragraphs": 6,
+      "readRange": "p0001-p0006",
+      "status": "read_complete",
+      "sourceDocumentSha256": "1bdc9a8528919a4dae9ffad3831bf9505f7c91afc54040d0e27aee445967a1bb"
+    },
+    {
+      "documentId": "text00208",
+      "href": "OEBPS/text00208.html",
+      "heading": "序章",
+      "paragraphs": 45,
+      "readRange": "p0001-p0045",
+      "status": "read_complete",
+      "sourceDocumentSha256": "e72c2bfad7551559265b944eec4877a9c8d8e23780987c3a6c6258079e757b30"
+    },
+    {
+      "documentId": "text00209",
+      "href": "OEBPS/text00209.html",
+      "heading": "第一章",
+      "paragraphs": 37,
+      "readRange": "p0001-p0037",
+      "status": "read_complete",
+      "sourceDocumentSha256": "410715a5e65b3340d156543fe51bc29ab94e8e3f749cd14ccf58b078a5f9fb9f"
+    },
+    {
+      "documentId": "text00210",
+      "href": "OEBPS/text00210.html",
+      "heading": "第二章",
+      "paragraphs": 64,
+      "readRange": "p0001-p0064",
+      "status": "read_complete",
+      "sourceDocumentSha256": "b536fa463f7343b66fad928f10932feed535f771af35e1e5a76e3a9698bb38e1"
+    },
+    {
+      "documentId": "text00211",
+      "href": "OEBPS/text00211.html",
+      "heading": "第三章",
+      "paragraphs": 49,
+      "readRange": "p0001-p0049",
+      "status": "read_complete",
+      "sourceDocumentSha256": "265b9b2ad983cdff872b01ffff34d3c58ad2be36cf70769676e5a5c08754ba04"
+    },
+    {
+      "documentId": "text00212",
+      "href": "OEBPS/text00212.html",
+      "heading": "第四章",
+      "paragraphs": 46,
+      "readRange": "p0001-p0046",
+      "status": "read_complete",
+      "sourceDocumentSha256": "8069455d5574261108d6cc28332f18da18787fbd2dd50c6785d3dd9eca8467ce"
+    },
+    {
+      "documentId": "text00213",
+      "href": "OEBPS/text00213.html",
+      "heading": "第五章",
+      "paragraphs": 140,
+      "readRange": "p0001-p0140",
+      "status": "read_complete",
+      "sourceDocumentSha256": "3774ec5353bdcc59444248a167a5073a3bac7c29e07d16d7bdc75df13db8d03a"
+    },
+    {
+      "documentId": "text00214",
+      "href": "OEBPS/text00214.html",
+      "heading": "第六章",
+      "paragraphs": 70,
+      "readRange": "p0001-p0070",
+      "status": "read_complete",
+      "sourceDocumentSha256": "89afee92d54e492ae2461765b2fc4a2fe712e9d64706d532988cabbcc880030a"
+    },
+    {
+      "documentId": "text00215",
+      "href": "OEBPS/text00215.html",
+      "heading": "第七章",
+      "paragraphs": 80,
+      "readRange": "p0001-p0080",
+      "status": "read_complete",
+      "sourceDocumentSha256": "a2ce4790692a0f1d9759f86fc38fba5b0d78e3007fbf12795315657da1abada9"
+    },
+    {
+      "documentId": "text00216",
+      "href": "OEBPS/text00216.html",
+      "heading": "第八章",
+      "paragraphs": 84,
+      "readRange": "p0001-p0084",
+      "status": "read_complete",
+      "sourceDocumentSha256": "fc11f4935e66e1dd41b2cbda01bf2fc639e674458c214ce79841e8a584de9290"
+    },
+    {
+      "documentId": "text00217",
+      "href": "OEBPS/text00217.html",
+      "heading": "第九章",
+      "paragraphs": 101,
+      "readRange": "p0001-p0101",
+      "status": "read_complete",
+      "sourceDocumentSha256": "e65cbf36af51eee7a14b37bd163691b76d7cb213760170179eccaa1f15473814"
+    },
+    {
+      "documentId": "text00218",
+      "href": "OEBPS/text00218.html",
+      "heading": "第十章",
+      "paragraphs": 99,
+      "readRange": "p0001-p0099",
+      "status": "read_complete",
+      "sourceDocumentSha256": "88fa01adfd06f2eba9c5ddbe456240081bff6b5157a5d3d64e39b452c64013dd"
+    },
+    {
+      "documentId": "text00219",
+      "href": "OEBPS/text00219.html",
+      "heading": "第十一章",
+      "paragraphs": 51,
+      "readRange": "p0001-p0051",
+      "status": "read_complete",
+      "sourceDocumentSha256": "2902a361cc98bb0baa163d62c37119b43f7aca17aad4e25d71ca63e3295cf459"
+    },
+    {
+      "documentId": "text00220",
+      "href": "OEBPS/text00220.html",
+      "heading": "第十二章",
+      "paragraphs": 75,
+      "readRange": "p0001-p0075",
+      "status": "read_complete",
+      "sourceDocumentSha256": "1e2ac462ff4cc9a50afac8aa96a5c5909f8ce877846c4769c2fa1ed06e91c2d0"
+    },
+    {
+      "documentId": "text00221",
+      "href": "OEBPS/text00221.html",
+      "heading": "第十三章",
+      "paragraphs": 102,
+      "readRange": "p0001-p0102",
+      "status": "read_complete",
+      "sourceDocumentSha256": "fe2d5b8c4c4c4e420dba5103650686bce815a071e9da6338f49a731e9f0c6ff4"
+    },
+    {
+      "documentId": "text00222",
+      "href": "OEBPS/text00222.html",
+      "heading": "第十四章",
+      "paragraphs": 119,
+      "readRange": "p0001-p0119",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c84dfab56679c74dda668223b57c5d3ab63edc8b621aa0d4a391b1ab32fdc348"
+    },
+    {
+      "documentId": "text00223",
+      "href": "OEBPS/text00223.html",
+      "heading": "第十五章",
+      "paragraphs": 39,
+      "readRange": "p0001-p0039",
+      "status": "read_complete",
+      "sourceDocumentSha256": "6c1a614944855098cbc59e1045c453a7c79b125044cd952385e997f540f26009"
+    },
+    {
+      "documentId": "text00224",
+      "href": "OEBPS/text00224.html",
+      "heading": "第十六章",
+      "paragraphs": 86,
+      "readRange": "p0001-p0086",
+      "status": "read_complete",
+      "sourceDocumentSha256": "42de50fece94b7dacb61ef42ac0d054bdaea6bc2abbb0616be66b3caff1f634c"
+    },
+    {
+      "documentId": "text00225",
+      "href": "OEBPS/text00225.html",
+      "heading": "第十七章",
+      "paragraphs": 46,
+      "readRange": "p0001-p0046",
+      "status": "read_complete",
+      "sourceDocumentSha256": "d060231f13bc418cd4b796f39fe37f34520b1ff1ae597e6186991228f6d957ac"
+    },
+    {
+      "documentId": "text00226",
+      "href": "OEBPS/text00226.html",
+      "heading": "第十八章",
+      "paragraphs": 88,
+      "readRange": "p0001-p0088",
+      "status": "read_complete",
+      "sourceDocumentSha256": "291fe596684b1b6add3464490f65c00f989ecaa3c6b626c4427cdcadc51bb333"
+    },
+    {
+      "documentId": "text00227",
+      "href": "OEBPS/text00227.html",
+      "heading": "第十九章",
+      "paragraphs": 109,
+      "readRange": "p0001-p0109",
+      "status": "read_complete",
+      "sourceDocumentSha256": "682b9aba66b5f793990c51b4f435c74475107aeb5f94f0fcade926d4a2d0902b"
+    },
+    {
+      "documentId": "text00228",
+      "href": "OEBPS/text00228.html",
+      "heading": "第二十章",
+      "paragraphs": 91,
+      "readRange": "p0001-p0091",
+      "status": "read_complete",
+      "sourceDocumentSha256": "23d11a09b1fda896182ffbf4fc4b62adeeec8cd83ec90c446ce8276176538111"
+    },
+    {
+      "documentId": "text00229",
+      "href": "OEBPS/text00229.html",
+      "heading": "第二十一章",
+      "paragraphs": 123,
+      "readRange": "p0001-p0123",
+      "status": "read_complete",
+      "sourceDocumentSha256": "af253d6a48bcb04ae4664d3bdb99734e03c470653b35d59c161ff4449658ba47"
+    },
+    {
+      "documentId": "text00230",
+      "href": "OEBPS/text00230.html",
+      "heading": "第二十二章",
+      "paragraphs": 133,
+      "readRange": "p0001-p0133",
+      "status": "read_complete",
+      "sourceDocumentSha256": "ee58afd8d5627674ca557980d3b2ffc6ecccd312a21bb6aaab4afa6c21d83f1b"
+    },
+    {
+      "documentId": "text00231",
+      "href": "OEBPS/text00231.html",
+      "heading": "第二十三章",
+      "paragraphs": 36,
+      "readRange": "p0001-p0036",
+      "status": "read_complete",
+      "sourceDocumentSha256": "b52efaf731540aa23e0a81867d454109c3c2f1ba5099eb0baf75a3fad819f412"
+    },
+    {
+      "documentId": "text00232",
+      "href": "OEBPS/text00232.html",
+      "heading": "第二十四章",
+      "paragraphs": 72,
+      "readRange": "p0001-p0072",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c2f39c038661755c8d3d633cacaa20971e856f5ef3ff0c6d2fba74d74792d104"
+    },
+    {
+      "documentId": "text00233",
+      "href": "OEBPS/text00233.html",
+      "heading": "第二十五章",
+      "paragraphs": 30,
+      "readRange": "p0001-p0030",
+      "status": "read_complete",
+      "sourceDocumentSha256": "2e35ea76c35acccc283b6bd22c68a11e9a75cc1fe295f96a8eb37b77596fe0af"
+    },
+    {
+      "documentId": "text00234",
+      "href": "OEBPS/text00234.html",
+      "heading": "第二十六章",
+      "paragraphs": 93,
+      "readRange": "p0001-p0093",
+      "status": "read_complete",
+      "sourceDocumentSha256": "ff9963f5c16156428214f123917b32282e7f099ad5e5bd25ed498911eac04279"
+    },
+    {
+      "documentId": "text00235",
+      "href": "OEBPS/text00235.html",
+      "heading": "第二十七章",
+      "paragraphs": 74,
+      "readRange": "p0001-p0074",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c2b2017efa3caea0fb3e67b82c1618e8ceebc981ce1bd2a1e66cd0bcd11a36dc"
+    },
+    {
+      "documentId": "text00236",
+      "href": "OEBPS/text00236.html",
+      "heading": "第二十八章",
+      "paragraphs": 16,
+      "readRange": "p0001-p0016",
+      "status": "read_complete",
+      "sourceDocumentSha256": "6ca740a2648568a4eb24ad49aad5bdf4175aa9630425ded9b6690b18c23fb879"
+    },
+    {
+      "documentId": "text00237",
+      "href": "OEBPS/text00237.html",
+      "heading": "尾声",
+      "paragraphs": 25,
+      "readRange": "p0001-p0025",
+      "status": "read_complete",
+      "sourceDocumentSha256": "cbd952ceacb4d67421ed2bda8abe152d0f3af788b0f3c4d48aa6ff77a58176e2"
+    },
+    {
+      "documentId": "text00238",
+      "href": "OEBPS/text00238.html",
+      "heading": "关于作者",
+      "paragraphs": 3,
+      "readRange": "p0001-p0003",
+      "status": "read_complete",
+      "sourceDocumentSha256": "64a493bc046d5f56876ec848a005e395c26420aeec01aa124fcdc025141665ca"
+    }
+  ],
+  "facts": [
+    {
+      "id": "08-F01",
+      "type": "source_observation",
+      "statement": "德拉诺在第二次战争败退中凋敝；耐奥祖见黑暗之门熄灭，血魔带来古尔丹死亡与部落败讯。",
+      "evidence": [
+        {
+          "documentId": "text00208",
+          "href": "OEBPS/text00208.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0045"
+        }
+      ]
+    },
+    {
+      "id": "08-F02",
+      "type": "source_observation",
+      "statement": "门毁两年后，血魔说明艾泽拉斯仍有空间裂隙，提出重开门夺神器再赴其他世界；耐奥祖重新听取计划。",
+      "evidence": [
+        {
+          "documentId": "text00209",
+          "href": "OEBPS/text00209.html",
+          "paragraphStart": "p0015",
+          "paragraphEnd": "p0037"
+        }
+      ]
+    },
+    {
+      "id": "08-F03",
+      "type": "source_observation",
+      "statement": "瓦里安已加冕，主持重建暴风城，真诚感谢范克里夫和石工协会；泰瑞纳斯为其成长自豪。",
+      "evidence": [
+        {
+          "documentId": "text00210",
+          "href": "OEBPS/text00210.html",
+          "paragraphStart": "p0007",
+          "paragraphEnd": "p0020"
+        }
+      ]
+    },
+    {
+      "id": "08-F04",
+      "type": "source_observation",
+      "statement": "卡德加说明毁掉实体门并未消除裂隙，法师群抑制污染却不能恢复南部土地；瓦里安肯定他们已取得的成果。",
+      "evidence": [
+        {
+          "documentId": "text00210",
+          "href": "OEBPS/text00210.html",
+          "paragraphStart": "p0022",
+          "paragraphEnd": "p0034"
+        }
+      ]
+    },
+    {
+      "id": "08-F05",
+      "type": "source_observation",
+      "statement": "卡德加坦承不知何时或多少兽人可能再来，请求洛萨之子军队，瓦里安支持提前准备；他让奥蕾莉亚找图拉扬协调并盼二人和解。",
+      "evidence": [
+        {
+          "documentId": "text00210",
+          "href": "OEBPS/text00210.html",
+          "paragraphStart": "p0041",
+          "paragraphEnd": "p0062"
+        }
+      ]
+    },
+    {
+      "id": "08-F06",
+      "type": "source_observation",
+      "statement": "格罗玛什称杜隆坦是已死老友；白爪氏族因同情霜狼受摧残，耐奥祖回忆警告杜隆坦、暗影议会杀死他，认为他高贵。",
+      "evidence": [
+        {
+          "documentId": "text00211",
+          "href": "OEBPS/text00211.html",
+          "paragraphStart": "p0015",
+          "paragraphEnd": "p0039"
+        }
+      ]
+    },
+    {
+      "id": "08-F07",
+      "type": "source_observation",
+      "statement": "格罗玛什从胡尔坎取得古尔丹之颅，杀死胡尔坎并以屠杀全族包括幼儿威胁塔加尔重新加入。",
+      "evidence": [
+        {
+          "documentId": "text00212",
+          "href": "OEBPS/text00212.html",
+          "paragraphStart": "p0025",
+          "paragraphEnd": "p0046"
+        }
+      ]
+    },
+    {
+      "id": "08-F08",
+      "type": "source_observation",
+      "statement": "图拉扬参与暴风城重建并制止儿童过早的种族仇恨；与奥蕾莉亚争论复仇、正义和圣光普照，保留半数守军而派达纳斯援守望堡。",
+      "evidence": [
+        {
+          "documentId": "text00213",
+          "href": "OEBPS/text00213.html",
+          "paragraphStart": "p0019",
+          "paragraphEnd": "p0090"
+        }
+      ]
+    },
+    {
+      "id": "08-F09",
+      "type": "source_observation",
+      "statement": "奥蕾莉亚哀悼利拉斯与亲友；达纳斯如实告知新兵危险、不用谎话鼓动；门重开后新兵阵线崩溃。",
+      "evidence": [
+        {
+          "documentId": "text00213",
+          "href": "OEBPS/text00213.html",
+          "paragraphStart": "p0091",
+          "paragraphEnd": "p0140"
+        }
+      ]
+    },
+    {
+      "id": "08-F10",
+      "type": "source_observation",
+      "statement": "德拉诺石拱稳定裂隙，部落回返；格罗玛什攻守望堡实为掩护神器行动。霜狼并未参与该部落行动。",
+      "evidence": [
+        {
+          "documentId": "text00214",
+          "href": "OEBPS/text00214.html",
+          "paragraphStart": "p0022",
+          "paragraphEnd": "p0070"
+        }
+      ]
+    },
+    {
+      "id": "08-F11",
+      "type": "source_observation",
+      "statement": "奥特兰克王位争论延续，匹瑞诺德仍被软禁而未正式退位；普瑞斯托影响各王判断。",
+      "evidence": [
+        {
+          "documentId": "text00215",
+          "href": "OEBPS/text00215.html",
+          "paragraphStart": "p0028",
+          "paragraphEnd": "p0079"
+        }
+      ]
+    },
+    {
+      "id": "08-F12",
+      "type": "source_observation",
+      "statement": "血魔潜入暴风城发现麦迪文之书已遭窃，以奥特兰克匕首认出线索并藏走证物。",
+      "evidence": [
+        {
+          "documentId": "text00216",
+          "href": "OEBPS/text00216.html",
+          "paragraphStart": "p0005",
+          "paragraphEnd": "p0021"
+        }
+      ]
+    },
+    {
+      "id": "08-F13",
+      "type": "source_observation",
+      "statement": "死亡之翼换取自身及货物过门而助血魔；安排奥妮克希亚和奈法利安控制黑石山黑手兄弟。",
+      "evidence": [
+        {
+          "documentId": "text00216",
+          "href": "OEBPS/text00216.html",
+          "paragraphStart": "p0051",
+          "paragraphEnd": "p0084"
+        }
+      ]
+    },
+    {
+      "id": "08-F14",
+      "type": "source_observation",
+      "statement": "匹瑞诺德承认盗取麦迪文之书，以书交换黑龙袭灭联盟驻军，儿子奥里登指责其再毁家族名声。",
+      "evidence": [
+        {
+          "documentId": "text00218",
+          "href": "OEBPS/text00218.html",
+          "paragraphStart": "p0034",
+          "paragraphEnd": "p0062"
+        }
+      ]
+    },
+    {
+      "id": "08-F15",
+      "type": "source_observation",
+      "statement": "死亡骑士夺达拉然之眼，肯瑞托抵抗未果，萨希拉战死，血魔乘死亡之翼逃走。",
+      "evidence": [
+        {
+          "documentId": "text00219",
+          "href": "OEBPS/text00219.html",
+          "paragraphStart": "p0017",
+          "paragraphEnd": "p0051"
+        }
+      ]
+    },
+    {
+      "id": "08-F16",
+      "type": "source_observation",
+      "statement": "芬瑞斯和塔加尔夺萨格拉斯权杖；芬瑞斯拒拉格诺克为萨格拉斯之眼继续冒险。",
+      "evidence": [
+        {
+          "documentId": "text00220",
+          "href": "OEBPS/text00220.html",
+          "paragraphStart": "p0026",
+          "paragraphEnd": "p0047"
+        }
+      ]
+    },
+    {
+      "id": "08-F17",
+      "type": "source_observation",
+      "statement": "血魔与黑龙神秘货车返德拉诺，格罗玛什战歌氏族及少数其他战士留守艾泽拉斯。",
+      "evidence": [
+        {
+          "documentId": "text00220",
+          "href": "OEBPS/text00220.html",
+          "paragraphStart": "p0049",
+          "paragraphEnd": "p0075"
+        }
+      ]
+    },
+    {
+      "id": "08-F18",
+      "type": "source_observation",
+      "statement": "卡德加立即应对达纳斯警讯、安慰战败者；施法防塔并承认耐力未知；接受图拉扬认为进攻只是牵制的修正。",
+      "evidence": [
+        {
+          "documentId": "text00217",
+          "href": "OEBPS/text00217.html",
+          "paragraphStart": "p0019",
+          "paragraphEnd": "p0063"
+        }
+      ]
+    },
+    {
+      "id": "08-F19",
+      "type": "source_observation",
+      "statement": "图拉扬制止刀割审俘，改圣光逼供；卡德加由所获线索推断神器计划，指出需要麦迪文书彻底封门，但同意先保住眼前防线。",
+      "evidence": [
+        {
+          "documentId": "text00217",
+          "href": "OEBPS/text00217.html",
+          "paragraphStart": "p0064",
+          "paragraphEnd": "p0100"
+        }
+      ]
+    },
+    {
+      "id": "08-F20",
+      "type": "source_observation",
+      "statement": "安东尼达斯通过梦境通报黑龙与宝物失窃；卡德加在梦中恢复青年形象，承认怀念失去的青春但麦迪文必须被阻止，醒后回到老年身体。",
+      "evidence": [
+        {
+          "documentId": "text00221",
+          "href": "OEBPS/text00221.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0021"
+        }
+      ]
+    },
+    {
+      "id": "08-F21",
+      "type": "source_observation",
+      "statement": "卡德加审贾兹·碎魂者，虽厌恶酷刑仍以魔法加压获取耐奥祖开其他世界之门计划；明确封门须古尔丹之颅及麦迪文书。",
+      "evidence": [
+        {
+          "documentId": "text00221",
+          "href": "OEBPS/text00221.html",
+          "paragraphStart": "p0026",
+          "paragraphEnd": "p0060"
+        }
+      ]
+    },
+    {
+      "id": "08-F22",
+      "type": "source_observation",
+      "statement": "图拉扬幻见圣光普照各世界并拒以他者牺牲换艾泽拉斯安全；卡德加识破撤军为神器得手后的回返，被碎魂者掐喉，图拉扬救下他。",
+      "evidence": [
+        {
+          "documentId": "text00221",
+          "href": "OEBPS/text00221.html",
+          "paragraphStart": "p0061",
+          "paragraphEnd": "p0085"
+        }
+      ]
+    },
+    {
+      "id": "08-F23",
+      "type": "source_observation",
+      "statement": "卡德加提出远征德拉诺杀耐奥祖取书与颅、封门；图拉扬将计划通知联盟国王，准备离开本世界。",
+      "evidence": [
+        {
+          "documentId": "text00221",
+          "href": "OEBPS/text00221.html",
+          "paragraphStart": "p0091",
+          "paragraphEnd": "p0102"
+        }
+      ]
+    },
+    {
+      "id": "08-F24",
+      "type": "source_observation",
+      "statement": "卡德加支持休整以保全跨门部队，劝图拉扬给奥蕾莉亚空间；她把家传项链分三并留给姐妹消息，愿拯救其他世界。",
+      "evidence": [
+        {
+          "documentId": "text00222",
+          "href": "OEBPS/text00222.html",
+          "paragraphStart": "p0007",
+          "paragraphEnd": "p0020"
+        }
+      ]
+    },
+    {
+      "id": "08-F25",
+      "type": "source_observation",
+      "statement": "卡德加判断兽人可能毁门阻追，无法拆解陌生机械便用魔法投远，使炸弹在远处爆炸；格罗玛什发现所谓护盾实是背叛。",
+      "evidence": [
+        {
+          "documentId": "text00222",
+          "href": "OEBPS/text00222.html",
+          "paragraphStart": "p0065",
+          "paragraphEnd": "p0083"
+        }
+      ]
+    },
+    {
+      "id": "08-F26",
+      "type": "source_observation",
+      "statement": "跨界远征以自愿为原则；卡德加穿门识出早年幻象景象，先否认后承认见过，明言自己22岁、惧未好好活过便死；见白骨大道仍随军奋战。",
+      "evidence": [
+        {
+          "documentId": "text00222",
+          "href": "OEBPS/text00222.html",
+          "paragraphStart": "p0085",
+          "paragraphEnd": "p0119"
+        }
+      ]
+    },
+    {
+      "id": "08-F27",
+      "type": "source_observation",
+      "statement": "血魔交齐三神器；死亡之翼强迫耐奥祖让出古尔丹之颅，耐奥祖与血魔均不知他取颅目的。",
+      "evidence": [
+        {
+          "documentId": "text00223",
+          "href": "OEBPS/text00223.html",
+          "paragraphStart": "p0012",
+          "paragraphEnd": "p0039"
+        }
+      ]
+    },
+    {
+      "id": "08-F28",
+      "type": "source_observation",
+      "statement": "远征数月建荣耀堡，艾泽拉斯门权争夺令补给时断时续；卡德加结合麦迪文星图识出神器与星座共鸣，算出55天后持续3天的施法窗口。",
+      "evidence": [
+        {
+          "documentId": "text00224",
+          "href": "OEBPS/text00224.html",
+          "paragraphStart": "p0008",
+          "paragraphEnd": "p0037"
+        }
+      ]
+    },
+    {
+      "id": "08-F29",
+      "type": "source_observation",
+      "statement": "卡德加质问奥蕾莉亚自毁式复仇，坦言17岁衰老、现22岁，因无选择且失去青春爱情机会而愤怒，随后为迁怒道歉。",
+      "evidence": [
+        {
+          "documentId": "text00224",
+          "href": "OEBPS/text00224.html",
+          "paragraphStart": "p0043",
+          "paragraphEnd": "p0055"
+        }
+      ]
+    },
+    {
+      "id": "08-F30",
+      "type": "source_observation",
+      "statement": "卡德加提出帮助空战方案并带同伴离开让恋人私谈；奥蕾莉亚承认幸存者自责，与图拉扬和解。",
+      "evidence": [
+        {
+          "documentId": "text00224",
+          "href": "OEBPS/text00224.html",
+          "paragraphStart": "p0056",
+          "paragraphEnd": "p0086"
+        }
+      ]
+    },
+    {
+      "id": "08-F31",
+      "type": "source_observation",
+      "statement": "耐奥祖知道炸弹真相且有意抛弃格罗玛什，又留卡加斯及丹塔格拖延联盟，自赴黑暗神殿施法。",
+      "evidence": [
+        {
+          "documentId": "text00225",
+          "href": "OEBPS/text00225.html",
+          "paragraphStart": "p0013",
+          "paragraphEnd": "p0046"
+        }
+      ]
+    },
+    {
+      "id": "08-F32",
+      "type": "source_observation",
+      "statement": "卡德加独战丹塔格，以法杖和剑破攻势、吸收能量球再斩首，获知耐奥祖已撤走。",
+      "evidence": [
+        {
+          "documentId": "text00226",
+          "href": "OEBPS/text00226.html",
+          "paragraphStart": "p0034",
+          "paragraphEnd": "p0060"
+        }
+      ]
+    },
+    {
+      "id": "08-F33",
+      "type": "source_observation",
+      "statement": "卡德加追踪发现颅北行而眼与书朝西南；明确两者均需取得，图拉扬分兵，卡德加随北行队。",
+      "evidence": [
+        {
+          "documentId": "text00226",
+          "href": "OEBPS/text00226.html",
+          "paragraphStart": "p0062",
+          "paragraphEnd": "p0088"
+        }
+      ]
+    },
+    {
+      "id": "08-F34",
+      "type": "source_observation",
+      "statement": "耐奥祖与血魔击退狮鹫队并俘库德兰，入奥金顿躲追兵，遇沃匹尔和布莱卡特等暗影议会幸存者。",
+      "evidence": [
+        {
+          "documentId": "text00227",
+          "href": "OEBPS/text00227.html",
+          "paragraphStart": "p0023",
+          "paragraphEnd": "p0109"
+        }
+      ]
+    },
+    {
+      "id": "08-F35",
+      "type": "source_observation",
+      "statement": "达纳斯接受游侠劝告让疲兵休息，与鸦人格瑞兹克合作得知库德兰尚活，改半军潜入奥金顿。",
+      "evidence": [
+        {
+          "documentId": "text00228",
+          "href": "OEBPS/text00228.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0091"
+        }
+      ]
+    },
+    {
+      "id": "08-F36",
+      "type": "source_observation",
+      "statement": "达纳斯与德莱尼牧师尼姆兰互相核实后合作，受眩目之光布列斯特朗灵魂认可；鸦人与德莱尼暂搁敌意。",
+      "evidence": [
+        {
+          "documentId": "text00229",
+          "href": "OEBPS/text00229.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0044"
+        }
+      ]
+    },
+    {
+      "id": "08-F37",
+      "type": "source_observation",
+      "statement": "尼姆兰救治库德兰但不能消尽伤痕；基尔罗格以命拖住达纳斯让耐奥祖传送逃走，达纳斯尊重该敌手并继续追击。",
+      "evidence": [
+        {
+          "documentId": "text00229",
+          "href": "OEBPS/text00229.html",
+          "paragraphStart": "p0053",
+          "paragraphEnd": "p0123"
+        }
+      ]
+    },
+    {
+      "id": "08-F38",
+      "type": "source_observation",
+      "statement": "卡德加救图拉扬而手臂烧伤；以共同抗幼龙赢取接触戈隆机会，在格鲁尔死亡威胁下勉强保证能抗死亡之翼，后确认颅亦在其处。",
+      "evidence": [
+        {
+          "documentId": "text00230",
+          "href": "OEBPS/text00230.html",
+          "paragraphStart": "p0012",
+          "paragraphEnd": "p0068"
+        }
+      ]
+    },
+    {
+      "id": "08-F39",
+      "type": "source_observation",
+      "statement": "联盟发现车货是龙蛋；卡德加主张毁蛋，图拉扬为无抵抗幼体犹豫后执行；面对死亡之翼悲痛怒火，卡德加后悔执意毁蛋。",
+      "evidence": [
+        {
+          "documentId": "text00230",
+          "href": "OEBPS/text00230.html",
+          "paragraphStart": "p0071",
+          "paragraphEnd": "p0094"
+        }
+      ]
+    },
+    {
+      "id": "08-F40",
+      "type": "source_observation",
+      "statement": "强力魔法无效后，卡德加观察固定龙身的金属甲，以学徒基础魔法剥离甲片迫死亡之翼撤退，得颅；拒颅中诱惑、装袋隔离，仍惧黑龙报复。",
+      "evidence": [
+        {
+          "documentId": "text00230",
+          "href": "OEBPS/text00230.html",
+          "paragraphStart": "p0104",
+          "paragraphEnd": "p0132"
+        }
+      ]
+    },
+    {
+      "id": "08-F41",
+      "type": "source_observation",
+      "statement": "盖亚安拒卡加斯征病人，保护染水痘的加尔鲁什，称纳格兰玛格汉未受污染；卡加斯辱骂后退隐；她不知格罗玛什生死却安慰其子。",
+      "evidence": [
+        {
+          "documentId": "text00231",
+          "href": "OEBPS/text00231.html",
+          "paragraphStart": "p0010",
+          "paragraphEnd": "p0036"
+        }
+      ]
+    },
+    {
+      "id": "08-F42",
+      "type": "source_observation",
+      "statement": "卡德加向鸦人展示古尔丹之颅，图拉扬澄清非他们杀古尔丹；卡德加辨影月谷恶魔污染、要求避开，成为阻止仪式的关键。",
+      "evidence": [
+        {
+          "documentId": "text00232",
+          "href": "OEBPS/text00232.html",
+          "paragraphStart": "p0019",
+          "paragraphEnd": "p0036"
+        }
+      ]
+    },
+    {
+      "id": "08-F43",
+      "type": "source_observation",
+      "statement": "图拉扬在血魔法术中克服自我怀疑、击碎其肉身，但血魔灵魂逃走；卡德加等进入神殿。",
+      "evidence": [
+        {
+          "documentId": "text00232",
+          "href": "OEBPS/text00232.html",
+          "paragraphStart": "p0051",
+          "paragraphEnd": "p0072"
+        }
+      ]
+    },
+    {
+      "id": "08-F44",
+      "type": "source_observation",
+      "statement": "卡德加夺达拉然之眼；耐奥祖反击并杀指责抛弃妇孺的奥布瑞斯，宣称自己即部落，带少数亲随穿隙逃离。",
+      "evidence": [
+        {
+          "documentId": "text00233",
+          "href": "OEBPS/text00233.html",
+          "paragraphStart": "p0016",
+          "paragraphEnd": "p0030"
+        }
+      ]
+    },
+    {
+      "id": "08-F45",
+      "type": "source_observation",
+      "statement": "卡德加承认不知如何追耐奥祖；借神殿能量觉察过多裂隙将撕裂德拉诺、可能殃及艾泽拉斯，护盾保同伴与军队后决定立刻封门。",
+      "evidence": [
+        {
+          "documentId": "text00234",
+          "href": "OEBPS/text00234.html",
+          "paragraphStart": "p0008",
+          "paragraphEnd": "p0030"
+        }
+      ]
+    },
+    {
+      "id": "08-F46",
+      "type": "source_observation",
+      "statement": "濒死奥布瑞斯因耐奥祖背叛而把麦迪文书交给卡德加；他承诺尽力阻耐奥祖，读书确认封门办法后骑狮鹫赶回。",
+      "evidence": [
+        {
+          "documentId": "text00234",
+          "href": "OEBPS/text00234.html",
+          "paragraphStart": "p0034",
+          "paragraphEnd": "p0048"
+        }
+      ]
+    },
+    {
+      "id": "08-F47",
+      "type": "source_observation",
+      "statement": "卡德加在同伴保护及众法师供能下封闭裂隙，派年轻矮人携神器回肯瑞托，自己须留下确保灾变不传播；门毁时矮人与袋发光尖叫，本文未确认其抵达。",
+      "evidence": [
+        {
+          "documentId": "text00234",
+          "href": "OEBPS/text00234.html",
+          "paragraphStart": "p0059",
+          "paragraphEnd": "p0080"
+        }
+      ]
+    },
+    {
+      "id": "08-F48",
+      "type": "source_observation",
+      "statement": "面对可能死亡，卡德加感激拯救家园且伙伴同在；发现残存裂隙后引导同伴冒险穿过，自己最后冲入。",
+      "evidence": [
+        {
+          "documentId": "text00234",
+          "href": "OEBPS/text00234.html",
+          "paragraphStart": "p0081",
+          "paragraphEnd": "p0093"
+        }
+      ]
+    },
+    {
+      "id": "08-F49",
+      "type": "source_observation",
+      "statement": "术士欲抽雷克萨生命，战狼哈拉萨救主被吸干，雷克萨杀术士报仇。",
+      "evidence": [
+        {
+          "documentId": "text00235",
+          "href": "OEBPS/text00235.html",
+          "paragraphStart": "p0012",
+          "paragraphEnd": "p0028"
+        }
+      ]
+    },
+    {
+      "id": "08-F50",
+      "type": "source_observation",
+      "statement": "格罗玛什误信儿子与世界尽毁、主张继续战争；雷克萨拒无意义嗜血离开，格罗玛什力排杀留意见准其寻找平静，也私下自问能否找回平静。",
+      "evidence": [
+        {
+          "documentId": "text00235",
+          "href": "OEBPS/text00235.html",
+          "paragraphStart": "p0044",
+          "paragraphEnd": "p0074"
+        }
+      ]
+    },
+    {
+      "id": "08-F51",
+      "type": "source_observation",
+      "statement": "卡德加等法师护众穿隙，返残存德拉诺；判断重力空间乃至时间失常；图拉扬救其免地裂，众人返回荣耀堡，计划寻幸存者、盟友。",
+      "evidence": [
+        {
+          "documentId": "text00236",
+          "href": "OEBPS/text00236.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0016"
+        }
+      ]
+    },
+    {
+      "id": "08-F52",
+      "type": "source_observation",
+      "statement": "耐奥祖与亲随穿隙后被基尔加丹拘束折磨，非成功抵达自由新世界。",
+      "evidence": [
+        {
+          "documentId": "text00237",
+          "href": "OEBPS/text00237.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0025"
+        }
+      ]
+    }
+  ],
+  "inferences": [
+    {
+      "id": "08-I01",
+      "type": "editorial_inference",
+      "statement": "卡德加可围绕守门责任、失去青春、在知识有限时修正方案、留下封门的代价组织；不是纯粹战力升级。",
+      "basedOn": [
+        "08-F04",
+        "08-F20",
+        "08-F21",
+        "08-F29",
+        "08-F40",
+        "08-F47"
+      ]
+    },
+    {
+      "id": "08-I02",
+      "type": "editorial_inference",
+      "statement": "瓦里安本卷适合连接难民少年与重建国王，不足推出后来石工冲突的全部因果。",
+      "basedOn": [
+        "08-F03",
+        "08-F05"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "characters": [
+        "khadgar",
+        "图拉扬"
+      ],
+      "nature": "互救、信任与军事魔法分工；仍有情报判断和行动紧迫性的摩擦",
+      "factIds": [
+        "08-F18",
+        "08-F22",
+        "08-F25",
+        "08-F38",
+        "08-F45",
+        "08-F47",
+        "08-F51"
+      ]
+    },
+    {
+      "characters": [
+        "khadgar",
+        "奥蕾莉亚"
+      ],
+      "nature": "劝其放弃自毁复仇并暴露自己的青春创痛，后相互支持",
+      "factIds": [
+        "08-F24",
+        "08-F29",
+        "08-F30"
+      ]
+    },
+    {
+      "characters": [
+        "varian",
+        "范克里夫",
+        "泰瑞纳斯"
+      ],
+      "nature": "重建中公开与个人感谢、获长辈认可",
+      "factIds": [
+        "08-F03"
+      ]
+    },
+    {
+      "characters": [
+        "durotan",
+        "格罗玛什",
+        "耐奥祖"
+      ],
+      "nature": "死后被怀念，耐奥祖仍有警告与死亡的回忆",
+      "factIds": [
+        "08-F06"
+      ]
+    }
+  ],
+  "aCharacterRelevance": {
+    "khadgar": "核心主角，远征与封门，含自身痛苦、道德代价和局限",
+    "varian": "第二章加冕重建与联盟安全决策",
+    "durotan": "第三章死后回忆",
+    "thrall": "未见具名直接行动；霜狼、格罗玛什和玛格汉背景不得代写萨尔经历",
+    "jaina": "未见具名直接行动；戴林舰队不可当其个人经历",
+    "voljin": "未见具名直接行动",
+    "tirion": "未见具名直接行动",
+    "malfurion": "未见具名直接行动"
+  },
+  "reusableOtherLeads": [
+    "图拉扬：战争伦理、对圣光与自我定位的变化，奥蕾莉亚恋情",
+    "奥蕾莉亚：丧亲、幸存者负罪和复仇中自毁，关系修复",
+    "耐奥祖：罪疚到权力、自保，抛弃人民",
+    "雷克萨：哈拉萨之死、拒纯粹嗜血并离部落",
+    "格罗玛什：被牺牲、维系残军与平静的疑问",
+    "达纳斯、库德兰、尼姆兰：跨种族合作与战友互救",
+    "盖亚安与加尔鲁什：病村照顾及父亲信息的不确定性"
+  ],
+  "subtitleCheck": {
+    "status": "complete_none_applicable",
+    "scope": "全部36文档正文及目录标题",
+    "originalCandidate": null,
+    "reason": "正文序章、第一至二十八章、尾声均无语义章节副标题；书名/数字章号/导读不是适用人物副标题。",
+    "next": "整合后策划可生成并明确标为editorial，不声称原文副标题"
+  },
+  "gaps": [],
+  "limits": [
+    "事实条目包含明确标注的角色判断/记忆；不得将猜测、信仰或他人消息提升为客观全知事实。",
+    "text00210:p0052洛萨遭袭相关措辞与07决斗场景不一致，跨书整合需保留版本语境。",
+    "text00215匹瑞诺德软禁仍待正式退位，与07去位措辞有状态差异。",
+    "text00234:p0070-0077矮人携神器穿门结局未确认，不声称已交肯瑞托。",
+    "本卷封门被人物称永久；后续世界状态须用其他原文验证，不能凭本卷否定后续再开门。",
+    "text00235格罗玛什认为加尔鲁什死亡是误判，text00231已见其存活病中。",
+    "研究分块不是最终发布章；与06/07及其他书整合后按人物完整经历规划。"
+  ]
+}

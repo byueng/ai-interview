@@ -1,0 +1,784 @@
+{
+  "runId": "batch-a-20261024-01",
+  "bookId": "21",
+  "version": 4,
+  "status": "completed",
+  "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+  "coverage": [
+    {
+      "documentId": "text00619",
+      "paragraphs": 0,
+      "status": "read_complete",
+      "readRange": "empty_document"
+    },
+    {
+      "documentId": "text00620",
+      "paragraphs": 7,
+      "status": "read_complete",
+      "readRange": "p0001-p0007"
+    },
+    {
+      "documentId": "text00621",
+      "paragraphs": 45,
+      "status": "read_complete",
+      "readRange": "p0001-p0045"
+    },
+    {
+      "documentId": "text00622",
+      "paragraphs": 12,
+      "status": "read_complete",
+      "readRange": "p0001-p0012"
+    },
+    {
+      "documentId": "text00623",
+      "paragraphs": 21,
+      "status": "read_complete",
+      "readRange": "p0001-p0021"
+    },
+    {
+      "documentId": "text00624",
+      "paragraphs": 43,
+      "status": "read_complete",
+      "readRange": "p0001-p0043"
+    },
+    {
+      "documentId": "text00625",
+      "paragraphs": 108,
+      "status": "read_complete",
+      "readRange": "p0001-p0108"
+    },
+    {
+      "documentId": "text00626",
+      "paragraphs": 77,
+      "status": "read_complete",
+      "readRange": "p0001-p0077"
+    },
+    {
+      "documentId": "text00627",
+      "paragraphs": 77,
+      "status": "read_complete",
+      "readRange": "p0001-p0077"
+    },
+    {
+      "documentId": "text00628",
+      "paragraphs": 60,
+      "status": "read_complete",
+      "readRange": "p0001-p0060"
+    },
+    {
+      "documentId": "text00629",
+      "paragraphs": 63,
+      "status": "read_complete",
+      "readRange": "p0001-p0063"
+    },
+    {
+      "documentId": "text00630",
+      "paragraphs": 90,
+      "status": "read_complete",
+      "readRange": "p0001-p0090"
+    },
+    {
+      "documentId": "text00631",
+      "paragraphs": 91,
+      "status": "read_complete",
+      "readRange": "p0001-p0091"
+    },
+    {
+      "documentId": "text00632",
+      "paragraphs": 74,
+      "status": "read_complete",
+      "readRange": "p0001-p0074"
+    },
+    {
+      "documentId": "text00633",
+      "paragraphs": 131,
+      "status": "read_complete",
+      "readRange": "p0001-p0131"
+    },
+    {
+      "documentId": "text00634",
+      "paragraphs": 100,
+      "status": "read_complete",
+      "readRange": "p0001-p0100"
+    },
+    {
+      "documentId": "text00635",
+      "paragraphs": 89,
+      "status": "read_complete",
+      "readRange": "p0001-p0089"
+    },
+    {
+      "documentId": "text00636",
+      "paragraphs": 113,
+      "status": "read_complete",
+      "readRange": "p0001-p0113"
+    },
+    {
+      "documentId": "text00637",
+      "paragraphs": 73,
+      "status": "read_complete",
+      "readRange": "p0001-p0073"
+    },
+    {
+      "documentId": "text00638",
+      "paragraphs": 109,
+      "status": "read_complete",
+      "readRange": "p0001-p0109"
+    },
+    {
+      "documentId": "text00639",
+      "paragraphs": 42,
+      "status": "read_complete",
+      "readRange": "p0001-p0042"
+    },
+    {
+      "documentId": "text00640",
+      "paragraphs": 94,
+      "status": "read_complete",
+      "readRange": "p0001-p0094"
+    },
+    {
+      "documentId": "text00641",
+      "paragraphs": 98,
+      "status": "read_complete",
+      "readRange": "p0001-p0098"
+    },
+    {
+      "documentId": "text00642",
+      "paragraphs": 123,
+      "status": "read_complete",
+      "readRange": "p0001-p0123"
+    },
+    {
+      "documentId": "text00643",
+      "paragraphs": 50,
+      "status": "read_complete",
+      "readRange": "p0001-p0050"
+    },
+    {
+      "documentId": "text00644",
+      "paragraphs": 84,
+      "status": "read_complete",
+      "readRange": "p0001-p0084"
+    },
+    {
+      "documentId": "text00645",
+      "paragraphs": 87,
+      "status": "read_complete",
+      "readRange": "p0001-p0087"
+    },
+    {
+      "documentId": "text00646",
+      "paragraphs": 75,
+      "status": "read_complete",
+      "readRange": "p0001-p0075"
+    },
+    {
+      "documentId": "text00647",
+      "paragraphs": 86,
+      "status": "read_complete",
+      "readRange": "p0001-p0086"
+    },
+    {
+      "documentId": "text00648",
+      "paragraphs": 83,
+      "status": "read_complete",
+      "readRange": "p0001-p0083"
+    },
+    {
+      "documentId": "text00649",
+      "paragraphs": 57,
+      "status": "read_complete",
+      "readRange": "p0001-p0057"
+    },
+    {
+      "documentId": "text00650",
+      "paragraphs": 54,
+      "status": "read_complete",
+      "readRange": "p0001-p0054"
+    },
+    {
+      "documentId": "text00651",
+      "paragraphs": 112,
+      "status": "read_complete",
+      "readRange": "p0001-p0112"
+    },
+    {
+      "documentId": "text00652",
+      "paragraphs": 107,
+      "status": "read_complete",
+      "readRange": "p0001-p0107"
+    },
+    {
+      "documentId": "text00653",
+      "paragraphs": 113,
+      "status": "read_complete",
+      "readRange": "p0001-p0113"
+    },
+    {
+      "documentId": "text00654",
+      "paragraphs": 46,
+      "status": "read_complete",
+      "readRange": "p0001-p0046"
+    },
+    {
+      "documentId": "text00655",
+      "paragraphs": 48,
+      "status": "read_complete",
+      "readRange": "p0001-p0048"
+    },
+    {
+      "documentId": "text00656",
+      "paragraphs": 109,
+      "status": "read_complete",
+      "readRange": "p0001-p0109"
+    },
+    {
+      "documentId": "text00657",
+      "paragraphs": 73,
+      "status": "read_complete",
+      "readRange": "p0001-p0073"
+    },
+    {
+      "documentId": "text00658",
+      "paragraphs": 80,
+      "status": "read_complete",
+      "readRange": "p0001-p0080"
+    },
+    {
+      "documentId": "text00659",
+      "paragraphs": 90,
+      "status": "read_complete",
+      "readRange": "p0001-p0090"
+    },
+    {
+      "documentId": "text00660",
+      "paragraphs": 52,
+      "status": "read_complete",
+      "readRange": "p0001-p0052"
+    },
+    {
+      "documentId": "text00661",
+      "paragraphs": 15,
+      "status": "read_complete",
+      "readRange": "p0001-p0015"
+    }
+  ],
+  "facts": [
+    {
+      "id": "21-f01",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔曾告知加尔鲁什其父牺牲结束诅咒；序言的父子相见是加尔鲁什梦境。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00623.html#p0002-p0021"
+      ]
+    },
+    {
+      "id": "21-f02",
+      "characters": [
+        "jaina",
+        "thrall",
+        "voljin"
+      ],
+      "statement": "吉安娜以塞拉摩幸存者身份赴审，对萨尔别头拒视，对新酋长沃金仍不信任；这些判断属于她此时视角。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00624.html#p0002-p0027"
+      ]
+    },
+    {
+      "id": "21-f03",
+      "characters": [
+        "varian"
+      ],
+      "statement": "瓦里安曾阻止萨尔杀死加尔鲁什，将其交付审判；当前与安度因关系明显缓和。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00624.html#p0007-p0008",
+        "OEBPS/text00624.html#p0037-p0038"
+      ]
+    },
+    {
+      "id": "21-f04",
+      "characters": [
+        "voljin"
+      ],
+      "statement": "沃金压住私人复仇愿望，担心处决让加尔鲁什成为殉道象征，接受公开争辩，提名贝恩但明确不是命令。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00625.html#p0008-p0014",
+        "OEBPS/text00625.html#p0046-p0071"
+      ]
+    },
+    {
+      "id": "21-f05",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔抱着杜拉卡，支持贝恩担任辩护人，并承认加尔鲁什使兽人声誉受损。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00625.html#p0012-p0013",
+        "OEBPS/text00625.html#p0053-p0069"
+      ]
+    },
+    {
+      "id": "21-f06",
+      "characters": [
+        "varian",
+        "voljin"
+      ],
+      "statement": "瓦里安提名自己为控诉人，沃金用否决权后改荐泰兰德；虚晃一招是洛瑟玛等人的解释，瓦里安稍后自述更愿旁观。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00625.html#p0082-p0103",
+        "OEBPS/text00627.html#p0072-p0076"
+      ]
+    },
+    {
+      "id": "21-f07",
+      "characters": [
+        "malfurion"
+      ],
+      "statement": "玛法里奥关心泰兰德担任控诉人对她内心的影响，忧虑语言激发恨与谴责而非治疗启迪。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00626.html#p0059-p0077"
+      ]
+    },
+    {
+      "id": "21-f08",
+      "characters": [
+        "jaina"
+      ],
+      "statement": "吉安娜期待审判能给幸存者喘息，但持续思念亡友、创伤与仇恨，开口以加尔鲁什噎死为笑谈。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00627.html#p0060-p0077"
+      ]
+    },
+    {
+      "id": "21-f09",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "statement": "获知时光之相会重现灾难，吉安娜惊恐失神，由卡雷帮她回神；加尔鲁什挑衅后卡雷与瓦里安阻止她起身扰庭。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00628.html#p0029-p0038",
+        "OEBPS/text00628.html#p0053-p0060"
+      ]
+    },
+    {
+      "id": "21-f10",
+      "characters": [
+        "varian"
+      ],
+      "statement": "瓦里安希望庭审不流血，见儿子面对加尔鲁什的伤痛后也怀疑自己当初是否做对；克制并非始终毫无动摇。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00628.html#p0019-p0023",
+        "OEBPS/text00629.html#p0042-p0047"
+      ]
+    },
+    {
+      "id": "21-f11",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔自责把权力交给加尔鲁什，抱子时立志保护未来；对历史影像被选择性使用保持警惕。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00630.html#p0002-p0007"
+      ]
+    },
+    {
+      "id": "21-f12",
+      "characters": [
+        "durotan",
+        "thrall"
+      ],
+      "statement": "庭审重演杜隆坦受德莱尼款待与多年后利用秘密攻城、杀瑞斯塔兰；萨尔面对父亲的责任。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00630.html#p0037-p0090"
+      ]
+    },
+    {
+      "id": "21-f13",
+      "characters": [
+        "durotan"
+      ],
+      "statement": "杜隆坦未杀冲来的女孩，痛哭其被另一兽人杀害，但仍下令杀光幸存者；当时未饮恶魔血。两种事实必须并存。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00631.html#p0002-p0019",
+        "OEBPS/text00631.html#p0034-p0067"
+      ]
+    },
+    {
+      "id": "21-f14",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔回忆自己曾宁死拒杀人类幼童，格罗姆认可；所谓事实被扭曲是萨尔的评价，不否认实际屠杀。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00631.html#p0008-p0015"
+      ]
+    },
+    {
+      "id": "21-f15",
+      "characters": [
+        "varian"
+      ],
+      "statement": "瓦里安安慰受创的儿子，安度因把父亲的变化作为人能改变的亲身证据。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00631.html#p0024-p0025",
+        "OEBPS/text00635.html#p0033-p0040"
+      ]
+    },
+    {
+      "id": "21-f16",
+      "characters": [
+        "varian",
+        "thrall",
+        "jaina"
+      ],
+      "statement": "安度因证词重述塞拉摩和平会谈由放下武器走向贸易合作，后被暮光之锤袭击破坏；瓦里安曾误信萨尔带来刺客。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00634.html#p0032-p0044"
+      ]
+    },
+    {
+      "id": "21-f17",
+      "characters": [
+        "voljin"
+      ],
+      "statement": "沃金维护贝恩辩护职责，制止希尔瓦娜斯讥讽及贝恩以力相逼，同时承认要等公正裁决。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00635.html#p0045-p0063"
+      ]
+    },
+    {
+      "id": "21-f18",
+      "characters": [
+        "varian"
+      ],
+      "statement": "瓦里安虽不愿儿子见加尔鲁什，仍让安度因自主决定；对会面安全强硬，说明信任成长并不消除保护欲。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00636.html#p0036-p0065"
+      ]
+    },
+    {
+      "id": "21-f19",
+      "characters": [
+        "jaina"
+      ],
+      "statement": "温蕾萨把吉安娜餐桌上的死亡笑谈解读为赞同刺杀；不能据此把吉安娜列为知情共谋。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00637.html#p0038-p0049"
+      ]
+    },
+    {
+      "id": "21-f20",
+      "characters": [
+        "voljin",
+        "thrall"
+      ],
+      "statement": "沃金作证遭隔离与刺杀，拒绝顺着控诉人把推断说成事实；萨尔认可其理性。时光之相揭出加尔鲁什下令，沃金此前不知私语。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00638.html#p0012-p0053",
+        "OEBPS/text00638.html#p0055-p0109"
+      ]
+    },
+    {
+      "id": "21-f21",
+      "characters": [
+        "voljin"
+      ],
+      "statement": "辩护完整重放沃金威胁暗杀加尔鲁什的原话；需保留其复仇面，不能只有完美公正形象。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00639.html#p0020-p0042"
+      ]
+    },
+    {
+      "id": "21-f22",
+      "characters": [
+        "jaina"
+      ],
+      "statement": "吉安娜自觉成为曾排斥的仇恨者；卡雷担忧恨意持续侵蚀她与关系，两人尚未解决分歧。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00640.html#p0038-p0079"
+      ]
+    },
+    {
+      "id": "21-f23",
+      "characters": [
+        "thrall",
+        "voljin"
+      ],
+      "statement": "萨尔作证自述奴隶身世、建国、多族部落信念和退位理由；承认最初仅让加尔鲁什代理直到回来。听沃金求援后反抗库卡隆。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00641.html#p0008-p0094"
+      ]
+    },
+    {
+      "id": "21-f24",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "辩护重演敦霍尔德公平决斗，追问萨尔为何欲直接杀加尔鲁什；原文同时明确塔蕾莎如姐弟的关系。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00642.html#p0065-p0101"
+      ]
+    },
+    {
+      "id": "21-f25",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔庭上否认后悔或承担加尔鲁什罪行，随后被展示元素囚禁时自责与凯恩劝阻；这是内心、证词与情境张力，不能抹成始终坦然。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00642.html#p0104-p0123",
+        "OEBPS/text00643.html#p0002-p0028"
+      ]
+    },
+    {
+      "id": "21-f26",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "面对质询，萨尔解释凡人无法预知未来且须从错误学习；此时改变先前处决意愿，赞同审判但保留有些损害不可纠正的判断。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00643.html#p0029-p0042"
+      ]
+    },
+    {
+      "id": "21-f27",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "庭上末段灭世影像是未发生的可能未来，用于说明另一种选择风险，绝非主线已毁灭。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00643.html#p0043-p0050"
+      ]
+    },
+    {
+      "id": "21-f28",
+      "characters": [
+        "jaina"
+      ],
+      "statement": "听阿莱克丝塔萨受害叙述，吉安娜开始认可反复展示惨剧的伤害；对红龙仍能爱与原谅施害者感到震动。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00645.html#p0038-p0048",
+        "OEBPS/text00645.html#p0063-p0087"
+      ]
+    },
+    {
+      "id": "21-f29",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "statement": "贝恩受助与预警被揭，吉安娜面对昔日自我和家园；再次关心部落朋友并确认贝恩不知法力炸弹。瓦里安要求解释但未当场定叛。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00648.html#p0045-p0055",
+        "OEBPS/text00649.html#p0004-p0043"
+      ]
+    },
+    {
+      "id": "21-f30",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "statement": "争执中吉安娜强调个人资助、城邦自主与领袖身份；瓦里安强调外交沟通与儿子安危，随后接受破惧者归还出于荣誉的解释。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00650.html#p0002-p0028"
+      ]
+    },
+    {
+      "id": "21-f31",
+      "characters": [
+        "jaina"
+      ],
+      "statement": "吉安娜作证先疏散平民和所有儿童，再求援守城；罗宁牺牲、金迪遗骸等经历须保留创伤语境。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00651.html#p0005-p0112"
+      ]
+    },
+    {
+      "id": "21-f32",
+      "characters": [
+        "jaina",
+        "thrall",
+        "varian"
+      ],
+      "statement": "吉安娜承认曾想消灭所有部落并用聚焦之虹召唤海啸；萨尔与卡雷劝阻后由她选择停止，明确部落不等于加尔鲁什。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00652.html#p0003-p0065"
+      ]
+    },
+    {
+      "id": "21-f33",
+      "characters": [
+        "varian"
+      ],
+      "statement": "铁炉堡事件中威胁茉艾拉的武力与父亲恐惧并存；安度因劝阻后接受矮人自主，建立三锤议会；庭上承认自我约束需要持续努力。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00653.html#p0016-p0088"
+      ]
+    },
+    {
+      "id": "21-f34",
+      "characters": [
+        "jaina",
+        "voljin"
+      ],
+      "statement": "吉安娜仍有复仇冲动，同时关心贝恩；沃金来信理解达拉然创伤，她感谢理解并主动与卡雷重建关系，不能写作政治分歧全部消失。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00655.html#p0002-p0048"
+      ]
+    },
+    {
+      "id": "21-f35",
+      "characters": [
+        "jaina"
+      ],
+      "statement": "投毒由温蕾萨实施后悔并向安度因求助；吉安娜不是知情共谋。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00656.html#p0002-p0091"
+      ]
+    },
+    {
+      "id": "21-f36",
+      "characters": [
+        "thrall",
+        "varian"
+      ],
+      "statement": "萨尔认可加尔鲁什以战士尊严面对判决；瓦里安支持儿子探监的选择；二人察觉克罗米缺席异常。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00657.html#p0002-p0044"
+      ]
+    },
+    {
+      "id": "21-f37",
+      "characters": [
+        "jaina",
+        "thrall",
+        "voljin"
+      ],
+      "statement": "凯诺兹破坏时光之相，引入异时间线分身；嗜杀沃金、布莱克摩尔爪牙萨尔与仇恨吉安娜均非本世界实际履历。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00658.html#p0002-p0019",
+        "OEBPS/text00658.html#p0043-p0062"
+      ]
+    },
+    {
+      "id": "21-f38",
+      "characters": [
+        "varian"
+      ],
+      "statement": "瓦里安保卫白虎寺，与兽人萨满共同作战；负伤后放弃追杀扎伊拉，选择抢救中枪的吉安娜。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00659.html#p0048-p0090"
+      ]
+    },
+    {
+      "id": "21-f39",
+      "characters": [
+        "jaina"
+      ],
+      "statement": "吉安娜出手救瓦里安后中枪；结尾由赤精祝福恢复生命，不是萨尔或安度因单独治愈。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00659.html#p0085-p0090",
+        "OEBPS/text00660.html#p0011-p0028"
+      ]
+    },
+    {
+      "id": "21-f40",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔依贝恩提醒接受另一种可能的自己，区分被奴役的萨尔与可选择的古伊尔；与伴侣孩子团聚。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00660.html#p0008-p0010"
+      ]
+    },
+    {
+      "id": "21-f41",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "statement": "萨尔参与救治吉安娜但精疲力竭，赤精治愈后两人握手，给受损友谊修复的空间。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00660.html#p0013-p0028"
+      ]
+    },
+    {
+      "id": "21-f42",
+      "characters": [
+        "thrall",
+        "voljin",
+        "varian"
+      ],
+      "statement": "天神说明审判也使众人反省自身，原判让加尔鲁什活下去学习；逃亡已发生，萨尔承诺寻找他，沃金仍为大酋长。",
+      "type": "fact",
+      "refs": [
+        "OEBPS/text00660.html#p0029-p0052"
+      ]
+    }
+  ],
+  "nextDocument": null,
+  "textualIssues": [
+    {
+      "ref": "text00627:p0002",
+      "issue": "句序有错位，保留版本问题。"
+    }
+  ],
+  "boundaries": [
+    "导读是编者文字，未来剧情不作为小说事件已证实处理。",
+    "时光之相重演与现实庭审分层，人物发言不自动等于全知事实。",
+    "尾声是加尔鲁什抵达另一时空的纳格兰，不延展为本批杜隆坦的主世界人生。",
+    "吉安娜接受分身的具体对话未呈现，不能虚构。",
+    "已读章节均已归档，无未保存阅读断点。"
+  ],
+  "subtitleCheck": {
+    "status": "checked",
+    "checkedRange": "已完整阅读的本版正文与本轮定点复核目录 text00621:p0001-p0045",
+    "finding": "目录为编号章名，无适用人物篇章副标题；战争罪行是书名，不自动充任人物副标题。"
+  }
+}

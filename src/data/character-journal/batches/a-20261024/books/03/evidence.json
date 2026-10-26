@@ -1,0 +1,1359 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-03",
+  "bookId": "03",
+  "title": "上古之战：恶魔之魂",
+  "sourceSha256": "1cf0637c338575793eb5f6d9e30ce2097dda78ecce7b7e25c76c1ff635d76ffb",
+  "status": "partial",
+  "inputVersion": "manifest.json+sourceSha256",
+  "coverage": [
+    {
+      "documentId": "text00060",
+      "href": "OEBPS/text00060.html",
+      "heading": "",
+      "readParagraphs": [],
+      "totalParagraphs": 0,
+      "status": "empty_document",
+      "sha256": "5ab0c1b4eb97b1e6a6ae02678e3f088f41863254e9e4824ebbc98ec60ce7c0fd"
+    },
+    {
+      "documentId": "text00061",
+      "href": "OEBPS/text00061.html",
+      "heading": "版权信息",
+      "readParagraphs": [
+        1,
+        7
+      ],
+      "totalParagraphs": 7,
+      "status": "fully_read",
+      "sha256": "bbd7158617dc9c5acb9d51dd69c19d13b53992c6eac7988212fa43692ac9c9b1"
+    },
+    {
+      "documentId": "text00062",
+      "href": "OEBPS/text00062.html",
+      "heading": "上古之战：恶魔之魂",
+      "readParagraphs": [
+        1,
+        29
+      ],
+      "totalParagraphs": 29,
+      "status": "fully_read",
+      "sha256": "4d486cb1df5f64427101235efe71af4cbb26982ee626df1b5e2a66c9b5513397"
+    },
+    {
+      "documentId": "text00063",
+      "href": "OEBPS/text00063.html",
+      "heading": "致敬托马斯·桑尼加勒特，",
+      "readParagraphs": [
+        1,
+        3
+      ],
+      "totalParagraphs": 3,
+      "status": "fully_read",
+      "sha256": "ea7e7034664eb4d06949a0e172bbf558ad50dfcd44d1241c69a8bc03261bc287"
+    },
+    {
+      "documentId": "text00064",
+      "href": "OEBPS/text00064.html",
+      "heading": "第一章",
+      "readParagraphs": [
+        1,
+        107
+      ],
+      "totalParagraphs": 107,
+      "status": "fully_read",
+      "sha256": "16ef8144488fbf2fd51e49726e3ec2698726549987cbb089000bd7af53282ad2"
+    },
+    {
+      "documentId": "text00065",
+      "href": "OEBPS/text00065.html",
+      "heading": "第二章",
+      "readParagraphs": [
+        1,
+        151
+      ],
+      "totalParagraphs": 151,
+      "status": "fully_read",
+      "sha256": "ffc004818c0dff3879d0ee3d76810e1b39246d81e951a3386bb899afc905e4d4"
+    },
+    {
+      "documentId": "text00066",
+      "href": "OEBPS/text00066.html",
+      "heading": "第三章",
+      "readParagraphs": [
+        1,
+        148
+      ],
+      "totalParagraphs": 148,
+      "status": "fully_read",
+      "sha256": "7073f292bea73ac39ab053318fdb409b8fba97db76d6f40913c8bca881f9d59c"
+    },
+    {
+      "documentId": "text00067",
+      "href": "OEBPS/text00067.html",
+      "heading": "第四章",
+      "readParagraphs": [
+        1,
+        131
+      ],
+      "totalParagraphs": 131,
+      "status": "fully_read",
+      "sha256": "540ec8ce2648d3de8e8caf468eeec2869f7c3d73df13d847230196de1a67c7ee"
+    },
+    {
+      "documentId": "text00068",
+      "href": "OEBPS/text00068.html",
+      "heading": "第五章",
+      "readParagraphs": [
+        1,
+        127
+      ],
+      "totalParagraphs": 127,
+      "status": "fully_read",
+      "sha256": "ecc34c164d0d9e9b1307429b959aa420fc251993b7d2232e578d2b1bc0b9a494"
+    },
+    {
+      "documentId": "text00069",
+      "href": "OEBPS/text00069.html",
+      "heading": "第六章",
+      "readParagraphs": [
+        1,
+        104
+      ],
+      "totalParagraphs": 104,
+      "status": "fully_read",
+      "sha256": "e1157807feeb8b91bf6de0efbd5c142c9a80390805487ca38c55bd1dd6ee88e8"
+    },
+    {
+      "documentId": "text00070",
+      "href": "OEBPS/text00070.html",
+      "heading": "第七章",
+      "readParagraphs": [
+        1,
+        135
+      ],
+      "totalParagraphs": 135,
+      "status": "fully_read",
+      "sha256": "6148f3acd29ab9f0f94db893b5312677e7bfc4b22e23507233a7c439a5be38d7"
+    },
+    {
+      "documentId": "text00071",
+      "href": "OEBPS/text00071.html",
+      "heading": "第八章",
+      "readParagraphs": [
+        1,
+        142
+      ],
+      "totalParagraphs": 142,
+      "status": "fully_read",
+      "sha256": "c0786dd01955ea4ee9cb909223ecfaa4c5d82345ad444355c943345534b7c9f6"
+    },
+    {
+      "documentId": "text00072",
+      "href": "OEBPS/text00072.html",
+      "heading": "第九章",
+      "readParagraphs": [
+        1,
+        150
+      ],
+      "totalParagraphs": 150,
+      "status": "fully_read",
+      "sha256": "22339eac6764ffd86fcc23f2cfafdadc7740bc15cd796ac7973e968e1cb52bb9"
+    },
+    {
+      "documentId": "text00073",
+      "href": "OEBPS/text00073.html",
+      "heading": "第十章",
+      "readParagraphs": [
+        1,
+        160
+      ],
+      "totalParagraphs": 160,
+      "status": "fully_read",
+      "sha256": "5b6b589b4e799eb920d2b8e4bbc99382426395c06685adca32ca801b21087276"
+    },
+    {
+      "documentId": "text00074",
+      "href": "OEBPS/text00074.html",
+      "heading": "第十一章",
+      "readParagraphs": [
+        1,
+        145
+      ],
+      "totalParagraphs": 145,
+      "status": "fully_read",
+      "sha256": "0dd2c3d4fe51b6e974e7ff97a37b37ab351a0e4e158d77c4762b7548e56eb0ec"
+    },
+    {
+      "documentId": "text00075",
+      "href": "OEBPS/text00075.html",
+      "heading": "第十二章",
+      "readParagraphs": [
+        1,
+        163
+      ],
+      "totalParagraphs": 163,
+      "status": "fully_read",
+      "sha256": "2373f595e0ae15a0c0bedc9982bcab5ca9c8126bd35dcb43be7ddca59fcf8bba"
+    },
+    {
+      "documentId": "text00076",
+      "href": "OEBPS/text00076.html",
+      "heading": "第十三章",
+      "readParagraphs": [
+        1,
+        120
+      ],
+      "totalParagraphs": 120,
+      "status": "fully_read",
+      "sha256": "6731d407588a2a601c103fc304c618b56196fdbef1f845071efb4c86b390f63e"
+    },
+    {
+      "documentId": "text00077",
+      "href": "OEBPS/text00077.html",
+      "heading": "第十四章",
+      "readParagraphs": [
+        1,
+        141
+      ],
+      "totalParagraphs": 141,
+      "status": "fully_read",
+      "sha256": "c598a06ae115d149fa9bede98f9dd99d2016b004958d8f0b4fb9b13d5f853ce4"
+    },
+    {
+      "documentId": "text00078",
+      "href": "OEBPS/text00078.html",
+      "heading": "第十五章",
+      "readParagraphs": [
+        1,
+        143
+      ],
+      "totalParagraphs": 143,
+      "status": "fully_read",
+      "sha256": "2ad9177f4114f6a3697b24eaff4667ed2e3e112845fe297d11e253d9336d09b5"
+    },
+    {
+      "documentId": "text00079",
+      "href": "OEBPS/text00079.html",
+      "heading": "第十六章",
+      "readParagraphs": [
+        1,
+        132
+      ],
+      "totalParagraphs": 132,
+      "status": "fully_read",
+      "sha256": "80c132255ccdd02b1d983c6c5e988c33ee7a7aa760116afc6d644d0c925c4aa0"
+    },
+    {
+      "documentId": "text00080",
+      "href": "OEBPS/text00080.html",
+      "heading": "第十七章",
+      "readParagraphs": [
+        1,
+        140
+      ],
+      "totalParagraphs": 140,
+      "status": "fully_read",
+      "sha256": "79cf9880e6a4c55a2ec46f505867aecb62b5e7fef97a4bbd8d9510a08db8cd12"
+    },
+    {
+      "documentId": "text00081",
+      "href": "OEBPS/text00081.html",
+      "heading": "第十八章",
+      "readParagraphs": [
+        1,
+        160
+      ],
+      "totalParagraphs": 160,
+      "status": "fully_read",
+      "sha256": "89b0a9544c3ca2927ab2a7b06b30cc5c1fdbf0aa948ec1cfea7c20b05936a206"
+    },
+    {
+      "documentId": "text00082",
+      "href": "OEBPS/text00082.html",
+      "heading": "第十九章",
+      "readParagraphs": [
+        1,
+        138
+      ],
+      "totalParagraphs": 138,
+      "status": "fully_read",
+      "sha256": "a2cca3c4dba51bcb245fe30cc5c47523a088540ff1341e72c3a5cfe4920d9d00"
+    },
+    {
+      "documentId": "text00083",
+      "href": "OEBPS/text00083.html",
+      "heading": "第二十章",
+      "readParagraphs": [
+        1,
+        130
+      ],
+      "totalParagraphs": 130,
+      "status": "fully_read",
+      "sha256": "f5c59255bd000e55e2f071df5f229bed45198bad1ce1690b5a00b3334677de8e"
+    },
+    {
+      "documentId": "text00084",
+      "href": "OEBPS/text00084.html",
+      "heading": "第二十一章",
+      "readParagraphs": [
+        1,
+        128
+      ],
+      "totalParagraphs": 128,
+      "status": "fully_read",
+      "sha256": "daa36474ab24508d49e9d5a39896d0009b83cc9d7cbf6955fcce167c64256df2"
+    }
+  ],
+  "facts": [
+    {
+      "id": "03-01",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "耐萨里奥脑中持续声音挑动其猜疑盟友，用金色圆盘吸收被囚艾瑞达术士，将护符藏起并向阿莱克丝塔萨承诺很快到会；声音来源本章尚未具名。",
+      "sourceRef": {
+        "href": "OEBPS/text00064.html",
+        "paragraphs": [
+          2,
+          61
+        ]
+      }
+    },
+    {
+      "id": "03-02",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛诺洛斯在玛法里奥毁塔后重建传送门，瓦罗森接替萨维斯受女王重用；通道另一端阿克蒙德协助加强并准备降临。",
+      "sourceRef": {
+        "href": "OEBPS/text00064.html",
+        "paragraphs": [
+          62,
+          107
+        ]
+      }
+    },
+    {
+      "id": "03-03",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥受拉文凯斯赞誉却不自认英雄，记得同伴救援；回忆数月前主动寻塞纳留斯求学。为战局担忧，盼半神更多援助。",
+      "sourceRef": {
+        "href": "OEBPS/text00065.html",
+        "paragraphs": [
+          4,
+          14
+        ]
+      }
+    },
+    {
+      "id": "03-04",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥日行惯例从降低井魔法干扰发展为喜欢阳光，感到被改造自然之物的压抑却承认各族建文明权利；与伊利丹日益疏远，不认同弟弟把自然法术用于任意摧毁。",
+      "sourceRef": {
+        "href": "OEBPS/text00065.html",
+        "paragraphs": [
+          15,
+          41
+        ]
+      }
+    },
+    {
+      "id": "03-05",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "兄弟遇恶魔伏击，玛法里奥推开弟弟以风和树根杀敌，却遭邪能兽吸魔；加洛德率队救下二人。发现士兵被残杀后玛法里奥制止伊利丹争辩，接受护卫并承认仍须学习。",
+      "sourceRef": {
+        "href": "OEBPS/text00065.html",
+        "paragraphs": [
+          43,
+          83
+        ]
+      }
+    },
+    {
+      "id": "03-06",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "为查龙族失联，年轻考雷斯特拉兹离队；克拉苏斯与其交换鳞片并融合身体以减轻分离痛苦，随后感到敌方传送门再开。",
+      "sourceRef": {
+        "href": "OEBPS/text00065.html",
+        "paragraphs": [
+          84,
+          151
+        ]
+      }
+    },
+    {
+      "id": "03-07",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "萨格拉斯折磨并重塑萨维斯，保留其魔法假眼，使之成为长角兽蹄的新仆从；阿克蒙德抵达后迎接他，艾萨拉认出旧顾问。",
+      "sourceRef": {
+        "href": "OEBPS/text00066.html",
+        "paragraphs": [
+          2,
+          19
+        ]
+      },
+      "additionalSourceRefs": [
+        {
+          "href": "OEBPS/text00066.html",
+          "paragraphs": [
+            129,
+            148
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-08",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥理解族人崇拜女王，自己尚有忠心却承认若为救世界必须终结其罪恶；拉文凯斯继续直攻都城并拒绝与矮人、牛头人结盟。克拉苏斯鼓励玛法里奥勿压抑对泰兰德的感情，并警告阿克蒙德来临。",
+      "sourceRef": {
+        "href": "OEBPS/text00066.html",
+        "paragraphs": [
+          20,
+          108
+        ]
+      }
+    },
+    {
+      "id": "03-09",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥认为布洛克斯近战经验被族人偏见浪费；见泰兰德披甲领新手祭司出征，担心战争改变众人，未能像弟弟流利示爱；仍会受精灵大军声势鼓舞而乐观。",
+      "sourceRef": {
+        "href": "OEBPS/text00067.html",
+        "paragraphs": [
+          2,
+          37
+        ]
+      }
+    },
+    {
+      "id": "03-10",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥行军途中响应林地呼唤，加洛德跟随；塞纳留斯识别其对重入梦境的恐惧，说明半神仍争执战术，利用一天补授自然力量技巧并承诺护送归队。",
+      "sourceRef": {
+        "href": "OEBPS/text00067.html",
+        "paragraphs": [
+          39,
+          77
+        ]
+      }
+    },
+    {
+      "id": "03-11",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "考雷斯特拉兹穿过隔绝结界见聚集龙族，得知各军团参与耐萨里奥的秘密仪式，诺兹多姆虽未到但已送精华，克拉苏斯缺席被允许；金色圆盘名为巨龙之魂。",
+      "sourceRef": {
+        "href": "OEBPS/text00067.html",
+        "paragraphs": [
+          78,
+          131
+        ]
+      }
+    },
+    {
+      "id": "03-12",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "萨维斯以军团指挥官权势诱惑瓦罗森；瓦罗森想到自己也变萨特而挣脱，怀疑萨维斯不再忠于女王。",
+      "sourceRef": {
+        "href": "OEBPS/text00068.html",
+        "paragraphs": [
+          2,
+          19
+        ]
+      }
+    },
+    {
+      "id": "03-13",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "泰兰德一度将来人误认玛法里奥而心动；看清伊利丹后拒绝深入伴侣话题，伊利丹察觉她退缩，称日后再来。",
+      "sourceRef": {
+        "href": "OEBPS/text00068.html",
+        "paragraphs": [
+          20,
+          34
+        ]
+      }
+    },
+    {
+      "id": "03-14",
+      "characters": [
+        "thrall"
+      ],
+      "type": "narrated_fact",
+      "summary": "布洛克斯向泰兰德坦陈曾把萨尔侦察任务视作寻求战死机会；如今认识为求死可能牺牲别人，与众人为生命作战相悖，决心改正，获女祭司祝福。",
+      "sourceRef": {
+        "href": "OEBPS/text00068.html",
+        "paragraphs": [
+          35,
+          58
+        ]
+      }
+    },
+    {
+      "id": "03-15",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "克拉苏斯说明记忆受扰，不保证旧历史重演，仍记得玛法里奥为关键人物并决心保护；罗宁为妻儿未来决定全力迎战。",
+      "sourceRef": {
+        "href": "OEBPS/text00068.html",
+        "paragraphs": [
+          60,
+          75
+        ]
+      }
+    },
+    {
+      "id": "03-16",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "拉文凯斯绕道救难民，玛法里奥一日受教后归队，利用根须在污染土地生长缠住恶魔并给盟军让路；表面速胜实为伏击，军团从伪装云层落入军阵。",
+      "sourceRef": {
+        "href": "OEBPS/text00068.html",
+        "paragraphs": [
+          76,
+          127
+        ]
+      }
+    },
+    {
+      "id": "03-17",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥感知云中恶魔，用风触弟弟脸颊令其注意警报，又吹走腐蚀雨；空中和北方伏击击溃守军，拉文凯斯最终下令撤退。",
+      "sourceRef": {
+        "href": "OEBPS/text00069.html",
+        "paragraphs": [
+          2,
+          40
+        ]
+      }
+    },
+    {
+      "id": "03-18",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥接受克拉苏斯舍术士、阻主力以减少总伤亡的取舍；请求植物自愿牺牲织根墙，感受其伤而落泪，借昆虫视野联结远处狂风，助守军脱离。",
+      "sourceRef": {
+        "href": "OEBPS/text00069.html",
+        "paragraphs": [
+          41,
+          68
+        ]
+      }
+    },
+    {
+      "id": "03-19",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "阿克蒙德沿昆虫联结攻击玛法里奥精神；德鲁伊唤醒古岩，使地裂迫其自保，切断连接脱险；泰兰德将其扶上坐骑撤离，他才知道自己的豹已被撕碎。",
+      "sourceRef": {
+        "href": "OEBPS/text00069.html",
+        "paragraphs": [
+          69,
+          104
+        ]
+      }
+    },
+    {
+      "id": "03-20",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "萨维斯利用佩罗萨恩疲惫、野心与渴望被重用，诱其自愿成为萨特，施法变形时无视痛苦求饶。",
+      "sourceRef": {
+        "href": "OEBPS/text00070.html",
+        "paragraphs": [
+          2,
+          59
+        ]
+      }
+    },
+    {
+      "id": "03-21",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "拉文凯斯判断困守堡垒只会被耗死，放弃苏拉玛，军民被追至海加尔山附近；布洛克斯以威势疏导难民，加洛德仿效恢复秩序。克拉苏斯决定寻找玛法里奥转守为攻。",
+      "sourceRef": {
+        "href": "OEBPS/text00070.html",
+        "paragraphs": [
+          60,
+          94
+        ]
+      }
+    },
+    {
+      "id": "03-22",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "龙族向巨龙之魂献精华，索莉多米代表缺席诺兹多姆；考雷斯特拉兹压下疑心献力，耐萨里奥带神器离去私下完成。年轻红龙意识到圆盘也能击败龙类。",
+      "sourceRef": {
+        "href": "OEBPS/text00070.html",
+        "paragraphs": [
+          95,
+          135
+        ]
+      }
+    },
+    {
+      "id": "03-23",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥梦见与泰兰德婚育、伊利丹变阿克蒙德劫走她；只是噩梦，醒后说明尚未确定关系。泰兰德借豹让虚弱的他寻找外来同伴。",
+      "sourceRef": {
+        "href": "OEBPS/text00071.html",
+        "paragraphs": [
+          2,
+          39
+        ]
+      }
+    },
+    {
+      "id": "03-24",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥通过夜刃豹和宠物的气味记忆寻找同伴，与伊利丹重逢，弟弟闻泰兰德救他显嫉意。两位法师发现三名月之守卫因给伊利丹供能累成残废。",
+      "sourceRef": {
+        "href": "OEBPS/text00071.html",
+        "paragraphs": [
+          40,
+          66
+        ]
+      }
+    },
+    {
+      "id": "03-25",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥参与克拉苏斯组织的变化焦点联合魔法反击，与罗宁、伊利丹和月之守卫击退军团、保住海加尔山前战线。其乘胜直追想法受克拉苏斯纠正：阶段胜利意义是族人活下来，不能逞一时得意。",
+      "sourceRef": {
+        "href": "OEBPS/text00071.html",
+        "paragraphs": [
+          74,
+          142
+        ]
+      }
+    },
+    {
+      "id": "03-26",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "萨格拉斯命玛诺洛斯等人活捉玛法里奥，欲亲手折磨破坏传送门者；此为敌方计划，玛法里奥当时不知。",
+      "sourceRef": {
+        "href": "OEBPS/text00072.html",
+        "paragraphs": [
+          2,
+          17
+        ]
+      }
+    },
+    {
+      "id": "03-27",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "泰兰德救助并带走失散少女珊蒂斯·羽月，分享仅有食物；治好卡利欧斯的邪能兽伤势，从两日前阵后遇袭及鞭声得知杀手逼近，赶去警告。",
+      "sourceRef": {
+        "href": "OEBPS/text00072.html",
+        "paragraphs": [
+          18,
+          90
+        ]
+      }
+    },
+    {
+      "id": "03-28",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "耐萨里奥施法时被落石砸伤，带血鳞片划伤巨龙之魂；地精米克罗解释只有创造矩阵却未献精华的黑龙自身之物是神器弱点。黑龙优先修复圆盘，暂停其他冶炼计划。",
+      "sourceRef": {
+        "href": "OEBPS/text00072.html",
+        "paragraphs": [
+          91,
+          150
+        ]
+      }
+    },
+    {
+      "id": "03-29",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "结盟再次遭拒后，克拉苏斯决定亲赴龙族，玛法里奥主动引其求塞纳留斯援助；未寻导师踪迹，克服畏惧半入梦境联系，却被袭击打断。",
+      "sourceRef": {
+        "href": "OEBPS/text00073.html",
+        "paragraphs": [
+          2,
+          66
+        ]
+      }
+    },
+    {
+      "id": "03-30",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "哈卡率杀手围攻二人，玛法里奥召树抗敌、以叶刃断鞭救克拉苏斯；受劝不信恶魔承诺，宣告宁死不降。",
+      "sourceRef": {
+        "href": "OEBPS/text00073.html",
+        "paragraphs": [
+          67,
+          94
+        ]
+      }
+    },
+    {
+      "id": "03-31",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "泰兰德率祭司救援，玛法里奥先夺剑杀卫兵，见她被哈卡缠住便不顾警告撞敌、刺伤肘部。遭鞭打时以所学缓痛但知道肉身仍会损毁，激起云层雷电杀哈卡，使召唤邪能兽消失。",
+      "sourceRef": {
+        "href": "OEBPS/text00073.html",
+        "paragraphs": [
+          95,
+          135
+        ]
+      }
+    },
+    {
+      "id": "03-32",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "塞纳留斯送两只角鹰兽，众人据此认为玛法里奥应同行；他因能引导坐骑及联系生命守护者选择离去，与泰兰德拥抱，接受祝福并承诺速归。",
+      "sourceRef": {
+        "href": "OEBPS/text00073.html",
+        "paragraphs": [
+          136,
+          160
+        ]
+      }
+    },
+    {
+      "id": "03-33",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "泰兰德向拉文凯斯解释二人求援及战胜哈卡；领主怒其擅离又赞战功，最终不罚加洛德，伊利丹承诺填补战力空缺。",
+      "sourceRef": {
+        "href": "OEBPS/text00074.html",
+        "paragraphs": [
+          2,
+          38
+        ]
+      }
+    },
+    {
+      "id": "03-34",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "伊利丹贬低兄长德鲁伊之路、要求泰兰德与自己结合，遭其维护玛法里奥并斥责；他认定她已选兄长。布洛克斯折返保护她。罗宁因哈卡提前死亡担忧历史改变。",
+      "sourceRef": {
+        "href": "OEBPS/text00074.html",
+        "paragraphs": [
+          39,
+          79
+        ]
+      }
+    },
+    {
+      "id": "03-35",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "克拉苏斯担心耐萨里奥背叛但受禁言法术和记忆缺失约束；二人骑角鹰兽遭两黑龙追击，玛法里奥信任法师手势指引，绕峰配合引两龙相撞，继续求援。",
+      "sourceRef": {
+        "href": "OEBPS/text00074.html",
+        "paragraphs": [
+          80,
+          145
+        ]
+      }
+    },
+    {
+      "id": "03-36",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "伊利丹因泰兰德选择兄长嫉恨，脑中声音诱其让哥哥死于战场或落入军团；他两次明确拒绝手足相残。暗处长蹄身影操纵后得意离去，不可把诱惑等同已实施谋害。",
+      "sourceRef": {
+        "href": "OEBPS/text00075.html",
+        "paragraphs": [
+          2,
+          38
+        ]
+      }
+    },
+    {
+      "id": "03-37",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "角鹰兽撞龙族屏障，玛法里奥召风接住跌落的克拉苏斯；法师承认无力突破，向其揭露红龙身份及暂不能变形，但仍保留时空秘密。",
+      "sourceRef": {
+        "href": "OEBPS/text00075.html",
+        "paragraphs": [
+          42,
+          85
+        ]
+      }
+    },
+    {
+      "id": "03-38",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "为求援，玛法里奥主动克服先前恐惧进入翡翠梦境；照克拉苏斯所教反复提塞纳留斯，触动伊瑟拉母亲般情绪，虽受斥仍获准传话。",
+      "sourceRef": {
+        "href": "OEBPS/text00075.html",
+        "paragraphs": [
+          86,
+          148
+        ]
+      }
+    },
+    {
+      "id": "03-39",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥在龙神之厅以梦境形态观察四守护巨龙，偷偷削弱与伊瑟拉联结探查巨龙之魂，发现黑龙力量环控其他精华，内藏不亚于军团的邪恶。",
+      "sourceRef": {
+        "href": "OEBPS/text00075.html",
+        "paragraphs": [
+          149,
+          163
+        ]
+      }
+    },
+    {
+      "id": "03-40",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "瓦罗森发现佩罗萨恩已变萨特，推知失踪法师接受同样改造；担心新萨特集团影响女王，决定报告。",
+      "sourceRef": {
+        "href": "OEBPS/text00076.html",
+        "paragraphs": [
+          2,
+          31
+        ]
+      }
+    },
+    {
+      "id": "03-41",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥欲去除圆盘掩饰魔法以揭露真相，被耐萨里奥反击；回忆囚禁经验躲过牢笼，逃进梦境又遭追杀，领悟感知可能虚幻而消解火焰痛觉，返回肉身前中咒。",
+      "sourceRef": {
+        "href": "OEBPS/text00076.html",
+        "paragraphs": [
+          32,
+          58
+        ]
+      }
+    },
+    {
+      "id": "03-42",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥发现自己也无法直言耐萨里奥之事，与克拉苏斯以暗示互通受禁言的困境，决定立即离开；他推测同伴知圆盘秘密，不能写成克拉苏斯此刻已完全记起。",
+      "sourceRef": {
+        "href": "OEBPS/text00076.html",
+        "paragraphs": [
+          59,
+          84
+        ]
+      }
+    },
+    {
+      "id": "03-43",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "巨虫吞掉一只角鹰兽，另一只坚持复仇不愿载人逃走。玛法里奥向植物致歉取刺、借风放大为矛伤虫；克拉苏斯冒险开传送门，玛法里奥拒绝独逃，拉起倒地同伴一起穿门。",
+      "sourceRef": {
+        "href": "OEBPS/text00076.html",
+        "paragraphs": [
+          85,
+          120
+        ]
+      }
+    },
+    {
+      "id": "03-44",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "罗宁、布洛克斯、加洛德率侦察队入苏拉玛废墟，发现被复活的死者；加洛德带队撤离，二位外来者断后，罗宁施反亡灵蓝火。",
+      "sourceRef": {
+        "href": "OEBPS/text00077.html",
+        "paragraphs": [
+          2,
+          89
+        ]
+      }
+    },
+    {
+      "id": "03-45",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "坐骑着火导致布洛克斯与队伍走散；他循气味发现两恐惧魔王操控尸体，因厌恶亵渎灵魂与担心同伴而袭击，罗宁助其杀敌，亡者重归安息。兽人接受共骑帮助以免拖累盟友。",
+      "sourceRef": {
+        "href": "OEBPS/text00077.html",
+        "paragraphs": [
+          90,
+          141
+        ]
+      }
+    },
+    {
+      "id": "03-46",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "伊利丹受声音持续诱惑，但尚认为伤兄长如自断臂；得知死灵法术后想学以战胜军团并赢回泰兰德。萨维斯明确为腐化幕后者，意图利用弟弟向玛法里奥复仇并爬到恶魔统帅之上。",
+      "sourceRef": {
+        "href": "OEBPS/text00078.html",
+        "paragraphs": [
+          2,
+          30
+        ]
+      }
+    },
+    {
+      "id": "03-47",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "二人误传至母亲之树加尼尔，巨虫被坍塌传送门切断；玛法里奥叫醒沉迷美梦的克拉苏斯、在其俯视巨树险跌落时拉回。艾维娜接待二人，称塞纳留斯器重学生。",
+      "sourceRef": {
+        "href": "OEBPS/text00078.html",
+        "paragraphs": [
+          31,
+          94
+        ]
+      }
+    },
+    {
+      "id": "03-48",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "艾维娜用羽毛给克拉苏斯临时羽翼、减轻玛法里奥体重，令前者背后者离开；转达塞纳留斯支持，二人仍受禁言无法揭露龙族危机。临别由她话语意识到树上飞鸟为亡者灵魂。",
+      "sourceRef": {
+        "href": "OEBPS/text00078.html",
+        "paragraphs": [
+          95,
+          143
+        ]
+      }
+    },
+    {
+      "id": "03-49",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "罗宁与伊利丹借月亮守卫引导永恒之井能量施展声波，击退恶魔；罗宁抵抗神明般力量的诱惑，施法后与守卫倒下，伊利丹因借用他人力量仍能站立。伊利丹朝想象中的兄长宣称井水才是拯救之道。",
+      "sourceRef": {
+        "href": "OEBPS/text00079.html",
+        "paragraphs": [
+          2,
+          50
+        ]
+      }
+    },
+    {
+      "id": "03-50",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "阿莱克丝塔萨秘密命年轻克莱奥斯特拉兹寻找克拉苏斯，透露二者为不同时代的同一人，并强调未来并不必然固定。",
+      "sourceRef": {
+        "href": "OEBPS/text00079.html",
+        "paragraphs": [
+          51,
+          90
+        ]
+      }
+    },
+    {
+      "id": "03-51",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "年轻克莱奥斯特拉兹突破屏障寻找另一自己，遭两条黑龙伏击；虽杀死敌人却重伤失去知觉。",
+      "sourceRef": {
+        "href": "OEBPS/text00079.html",
+        "paragraphs": [
+          92,
+          132
+        ]
+      }
+    },
+    {
+      "id": "03-52",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥在克拉苏斯共感年轻自己的伤势而坠落时以草地缓冲救援，借其龙鳞建立远距离联结，辨出年轻红龙与两黑龙战斗后的濒死状态。",
+      "sourceRef": {
+        "href": "OEBPS/text00080.html",
+        "paragraphs": [
+          5,
+          49
+        ]
+      }
+    },
+    {
+      "id": "03-53",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥借塞纳留斯传授的动物治疗技巧，请求土地与植物自愿献出生命，经鳞片传递能量救活两个克拉苏斯。周围植被枯黑令他惊惧自己与军团相似，随后意识到根木尚活能再生；两人决定回军队。",
+      "sourceRef": {
+        "href": "OEBPS/text00080.html",
+        "paragraphs": [
+          50,
+          79
+        ]
+      }
+    },
+    {
+      "id": "03-54",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "泰兰德照料珊蒂斯并禁止未受训练的她上前线；大祭司战死前指定泰兰德继任。她怀疑经验不足，得知姐妹一致支持后接受至少至战争结束，拒绝撤离前线和正式仪式，继续穿甲救治伤兵。",
+      "sourceRef": {
+        "href": "OEBPS/text00080.html",
+        "paragraphs": [
+          81,
+          140
+        ]
+      }
+    },
+    {
+      "id": "03-55",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "艾萨拉看到战乱废墟仍期待净化疆域，查阅罗宁、克拉苏斯及风怒双胞胎影像后命瓦罗森解决拉文凯斯；这是敌方行动，玛法里奥未在场。",
+      "sourceRef": {
+        "href": "OEBPS/text00081.html",
+        "paragraphs": [
+          2,
+          56
+        ]
+      }
+    },
+    {
+      "id": "03-56",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "罗宁发现恶魔退却可能诱敌，寻找拉文凯斯却被星眼耽搁；阿克蒙德汇集其他地区援军将精灵引入乌拉伊丘陵包围。",
+      "sourceRef": {
+        "href": "OEBPS/text00081.html",
+        "paragraphs": [
+          58,
+          107
+        ]
+      }
+    },
+    {
+      "id": "03-57",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "泰兰德首次统领整个姐妹会，分配前线与三名后方治疗者，以保存信仰传承和救治能力，指定玛琳达作为战死后的继任者；命珊蒂斯留下但女孩擅自追去。",
+      "sourceRef": {
+        "href": "OEBPS/text00081.html",
+        "paragraphs": [
+          125,
+          160
+        ]
+      }
+    },
+    {
+      "id": "03-58",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "年轻红龙接回玛法里奥与克拉苏斯，却因追逐末日守卫陷入空中围攻；玛法里奥以藤蔓与强风协助脱困。拖延使他们未能赶在巨龙军团出发前揭露黑龙阴谋。",
+      "sourceRef": {
+        "href": "OEBPS/text00082.html",
+        "paragraphs": [
+          2,
+          107
+        ]
+      }
+    },
+    {
+      "id": "03-59",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "伊利丹不顾法术误伤同胞，罗宁赶去制止却见巨龙大军到场，认出将发生历史灾难。",
+      "sourceRef": {
+        "href": "OEBPS/text00082.html",
+        "paragraphs": [
+          125,
+          138
+        ]
+      }
+    },
+    {
+      "id": "03-60",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "耐萨里奥先以圆盘摧毁恶魔，再禁锢龙群并屠杀暗夜精灵迫使两方臣服；红龙女王劝阻无效。背叛公开令克拉苏斯禁言咒失效，他无意采用后世称谓恶魔之魂。",
+      "sourceRef": {
+        "href": "OEBPS/text00083.html",
+        "paragraphs": [
+          19,
+          89
+        ]
+      }
+    },
+    {
+      "id": "03-61",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥起初提出利用圆盘救族人，克拉苏斯提醒邪恶腐化力量不应成为求生之道，玛法里奥认可；年轻红龙冒险撞击黑龙，两人赶往友军。",
+      "sourceRef": {
+        "href": "OEBPS/text00083.html",
+        "paragraphs": [
+          90,
+          105
+        ]
+      }
+    },
+    {
+      "id": "03-62",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥同意经克拉苏斯辅助与泰兰德建立联结而非联系弟弟；两人迅速感应，泰兰德坚持亲自找坐骑接应，他接受建议。克拉苏斯观察到双方深厚感情。",
+      "sourceRef": {
+        "href": "OEBPS/text00083.html",
+        "paragraphs": [
+          107,
+          130
+        ]
+      }
+    },
+    {
+      "id": "03-63",
+      "characters": [],
+      "type": "narrated_fact",
+      "summary": "年轻红龙使黑龙分心，让群龙暂获自由；耐萨里奥以恶魔之魂反击蓝龙，玛里苟斯被击飞、其军团生命与魔法被抽干，其他龙被风卷走。黑龙身体裂隙涌火后离去，恶魔恢复进攻。",
+      "sourceRef": {
+        "href": "OEBPS/text00084.html",
+        "paragraphs": [
+          2,
+          58
+        ]
+      }
+    },
+    {
+      "id": "03-64",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "克拉苏斯目睹同胞惨剧并尝试变形失败，玛法里奥扶起安慰；泰兰德带坐骑接应并主动拥抱玛法里奥，双方表达担心。",
+      "sourceRef": {
+        "href": "OEBPS/text00084.html",
+        "paragraphs": [
+          59,
+          77
+        ]
+      }
+    },
+    {
+      "id": "03-65",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "返程遭敌军突破与地狱火冲击，两位姐妹战死、克拉苏斯被坐骑带走；玛法里奥以沙尘助战后拉出负伤泰兰德，求植物水分喂她，以其他人平安的谎言安慰并内疚。",
+      "sourceRef": {
+        "href": "OEBPS/text00084.html",
+        "paragraphs": [
+          78,
+          110
+        ]
+      }
+    },
+    {
+      "id": "03-66",
+      "characters": [
+        "malfurion"
+      ],
+      "type": "narrated_fact",
+      "summary": "玛法里奥发觉监视者，借口找克拉苏斯离开侦察；见年轻女难民逃走但因挂念泰兰德未追。返回时见萨维斯复生为萨特站在泰兰德身旁，凭水晶眼认出。",
+      "sourceRef": {
+        "href": "OEBPS/text00084.html",
+        "paragraphs": [
+          111,
+          128
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "characters": [
+        "malfurion",
+        "泰兰德"
+      ],
+      "type": "source_supported",
+      "summary": "相互救援、精神联结和拥抱逐渐明确感情；第八章成家场景仅为梦境。",
+      "factRefs": [
+        "03-23",
+        "03-31",
+        "03-32",
+        "03-62",
+        "03-64",
+        "03-65"
+      ]
+    },
+    {
+      "characters": [
+        "malfurion",
+        "伊利丹"
+      ],
+      "type": "source_supported",
+      "summary": "兄长持续救援弟弟，弟弟嫉妒兄长与泰兰德关系并倾向破坏性法术；受诱惑时曾两次拒绝伤害兄长。",
+      "factRefs": [
+        "03-05",
+        "03-34",
+        "03-36",
+        "03-46",
+        "03-49",
+        "03-59"
+      ]
+    },
+    {
+      "characters": [
+        "malfurion",
+        "克拉苏斯",
+        "克莱奥斯特拉兹"
+      ],
+      "type": "source_supported",
+      "summary": "互相救援与教学合作；玛法里奥应用治疗知识救两位红龙，承认邪恶圆盘不宜用于救族人。",
+      "factRefs": [
+        "03-43",
+        "03-52",
+        "03-53",
+        "03-58",
+        "03-61"
+      ]
+    },
+    {
+      "characters": [
+        "thrall",
+        "布洛克斯"
+      ],
+      "type": "character_recollection",
+      "summary": "布洛克斯回顾被派遣任务时曾寻求战死，后来认为求死将使别人遭殃，转为保护活人。",
+      "factRefs": [
+        "03-14"
+      ]
+    }
+  ],
+  "inferences": [],
+  "originalSettings": [],
+  "subtitleCheck": {
+    "status": "pending",
+    "candidates": [],
+    "reason": "目录只见数字章名；未全文读完。"
+  },
+  "gaps": [
+    "第22至24章及作者介绍未读取；用户收窄范围停止。续读 text00085:p0001。",
+    "第五章p94三外来者名单含伊利丹，与上下文矛盾；不得据此判定其为穿越者。",
+    "第十六章p91将另一守护巨龙配偶名写作泰兰德，疑似译名错误，不据此设定人物身份。"
+  ],
+  "paragraphRangeConvention": "所有双数paragraphs/readParagraphs表示含首尾区间",
+  "readButUnrecorded": [],
+  "otherReusableCharacters": [
+    "泰兰德",
+    "伊利丹",
+    "克拉苏斯",
+    "克莱奥斯特拉兹",
+    "罗宁",
+    "布洛克斯",
+    "珊蒂斯",
+    "加洛德",
+    "耐萨里奥",
+    "艾萨拉",
+    "萨维斯",
+    "阿莱克丝塔萨",
+    "伊瑟拉",
+    "玛里苟斯",
+    "艾维娜"
+  ]
+}

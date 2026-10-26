@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-08",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "249c08502fdfc05f0f9d37566163a1d4bbdfe3b14296c1e98cc6d6fd7e2c70cf",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "无需功绩，也值得被爱",
+    "origin": "editorial",
+    "sourceRef": null
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

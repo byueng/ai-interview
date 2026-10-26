@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-10",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "81e36d68c963d0400653203aa7ef3ffef896ce7b4acfb3aebe9f676f1378f0a4",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "更大的责任没有消除旧的责任",
+    "origin": "editorial",
+    "sourceRef": null
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

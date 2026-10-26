@@ -1,0 +1,693 @@
+{
+  "runId": "batch-a-20261024-01",
+  "bookId": "13",
+  "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+  "status": "completed",
+  "coverage": [
+    {
+      "documentId": "text00334",
+      "paragraphs": 0,
+      "status": "full_read",
+      "sourcePath": "source/text00334.txt",
+      "originalHtmlSha256": "eb29e24426743af4a2c66c659d39935c03eca99a2870c78f9adde8ba1ba581b6"
+    },
+    {
+      "documentId": "text00335",
+      "paragraphs": 7,
+      "status": "full_read",
+      "sourcePath": "source/text00335.txt",
+      "originalHtmlSha256": "a999f9302d8bab879a8fa27888abe0555e8765559971600a9573ab1bf4d729b9"
+    },
+    {
+      "documentId": "text00336",
+      "paragraphs": 33,
+      "status": "full_read",
+      "sourcePath": "source/text00336.txt",
+      "originalHtmlSha256": "6412712449288405ef6765345a4bc9cdd0cd817dc930b4d766f1746f0fd81651"
+    },
+    {
+      "documentId": "text00337",
+      "paragraphs": 5,
+      "status": "full_read",
+      "sourcePath": "source/text00337.txt",
+      "originalHtmlSha256": "13ed69c6c6c5e5d1ae043497cc9838bc2327c35e12dbdaf8f5948788f715120a"
+    },
+    {
+      "documentId": "text00338",
+      "paragraphs": 92,
+      "status": "full_read",
+      "sourcePath": "source/text00338.txt",
+      "originalHtmlSha256": "13a99a00b16721edb1fa65910603466ed35e4a446258912157cb5dd6338905fd"
+    },
+    {
+      "documentId": "text00339",
+      "paragraphs": 70,
+      "status": "full_read",
+      "sourcePath": "source/text00339.txt",
+      "originalHtmlSha256": "49f1888d04bca20c400bdac6e2a1f8790e93b5cc5e869fb2668ada1b129377fe"
+    },
+    {
+      "documentId": "text00340",
+      "paragraphs": 133,
+      "status": "full_read",
+      "sourcePath": "source/text00340.txt",
+      "originalHtmlSha256": "0d78f6183c807c6b1af812fe6ce4b6612be9a9b0c05edae4a2a3672ac7345669"
+    },
+    {
+      "documentId": "text00341",
+      "paragraphs": 50,
+      "status": "full_read",
+      "sourcePath": "source/text00341.txt",
+      "originalHtmlSha256": "83e9713cda42be57ed447d28967706a6a3e0ee635a441fb43305df9392ae904a"
+    },
+    {
+      "documentId": "text00342",
+      "paragraphs": 56,
+      "status": "full_read",
+      "sourcePath": "source/text00342.txt",
+      "originalHtmlSha256": "8447e32a04ef8727dd4975820a7fd82f8592d3ba940383231d78d13e30d67e6e"
+    },
+    {
+      "documentId": "text00343",
+      "paragraphs": 77,
+      "status": "full_read",
+      "sourcePath": "source/text00343.txt",
+      "originalHtmlSha256": "e8a223f9112ce599df4593770d6741d50fae36e817468aa707ad297516367e41"
+    },
+    {
+      "documentId": "text00344",
+      "paragraphs": 57,
+      "status": "full_read",
+      "sourcePath": "source/text00344.txt",
+      "originalHtmlSha256": "c884c34a880bda0b3c5c606d7110b5ac21e1311dc98e68c6670d269ccc1b2aea"
+    },
+    {
+      "documentId": "text00345",
+      "paragraphs": 98,
+      "status": "full_read",
+      "sourcePath": "source/text00345.txt",
+      "originalHtmlSha256": "2d69558af3abe5bac1c9906ee40eb0e8fcacff3b6855d2b70d8816b043a6dd21"
+    },
+    {
+      "documentId": "text00346",
+      "paragraphs": 64,
+      "status": "full_read",
+      "sourcePath": "source/text00346.txt",
+      "originalHtmlSha256": "3848414f56031aaf751bb5710538984d510f24c1bcf99a8e0ec4a4e7c30695fb"
+    },
+    {
+      "documentId": "text00347",
+      "paragraphs": 47,
+      "status": "full_read",
+      "sourcePath": "source/text00347.txt",
+      "originalHtmlSha256": "b9f7a97c446f76862e1f6affb4da263c3efcc8e63199adcd8f45900a14db74e6"
+    },
+    {
+      "documentId": "text00348",
+      "paragraphs": 56,
+      "status": "full_read",
+      "sourcePath": "source/text00348.txt",
+      "originalHtmlSha256": "828e8bbef525c7c4ec71deb71986d641353675f97642cc1e3f187eb3e65fbcf6"
+    },
+    {
+      "documentId": "text00349",
+      "paragraphs": 107,
+      "status": "full_read",
+      "sourcePath": "source/text00349.txt",
+      "originalHtmlSha256": "e87c305553d7c7aecd60befdc7c9978c9cfe0e74601d2296b8a43eb04c5e8007"
+    },
+    {
+      "documentId": "text00350",
+      "paragraphs": 51,
+      "status": "full_read",
+      "sourcePath": "source/text00350.txt",
+      "originalHtmlSha256": "ce23ef3c7538b829a7a0fcea5509af066c5150761df7c7b13ce4c257e5dfd37c"
+    },
+    {
+      "documentId": "text00351",
+      "paragraphs": 53,
+      "status": "full_read",
+      "sourcePath": "source/text00351.txt",
+      "originalHtmlSha256": "0bab58074c55ecbb5dd7b7c4f5b833c81cf521c16c29f85037612e313782b49e"
+    },
+    {
+      "documentId": "text00352",
+      "paragraphs": 47,
+      "status": "full_read",
+      "sourcePath": "source/text00352.txt",
+      "originalHtmlSha256": "4db7cbe2fd7091e218d01018536523aa1a4a2e48c8ce7f956bc1dda013568774"
+    },
+    {
+      "documentId": "text00353",
+      "paragraphs": 93,
+      "status": "full_read",
+      "sourcePath": "source/text00353.txt",
+      "originalHtmlSha256": "f4736459655b4f1b9e04702a567d585a9356f0c113723ea969b9ef8138b1ff93"
+    },
+    {
+      "documentId": "text00354",
+      "paragraphs": 34,
+      "status": "full_read",
+      "sourcePath": "source/text00354.txt",
+      "originalHtmlSha256": "b5b50e30dd9515a7c4092a5b3cb68986cce5a8558dbd9a28094aac151b72216a"
+    },
+    {
+      "documentId": "text00355",
+      "paragraphs": 82,
+      "status": "full_read",
+      "sourcePath": "source/text00355.txt",
+      "originalHtmlSha256": "4efdbe900fcf5ba3e3187befd44aa9a95c7a79eaa970fc89348d20d057ef9365"
+    },
+    {
+      "documentId": "text00356",
+      "paragraphs": 49,
+      "status": "full_read",
+      "sourcePath": "source/text00356.txt",
+      "originalHtmlSha256": "d52677aa3a282f6d952d97a3ec0005ff29734a47d6fb68eefb59e955b4c866e3"
+    },
+    {
+      "documentId": "text00357",
+      "paragraphs": 53,
+      "status": "full_read",
+      "sourcePath": "source/text00357.txt",
+      "originalHtmlSha256": "3caf96386b3e7ce36d6d80acaeebe2ce74421dbb490d8e4ecf7a9ed41c374af3"
+    },
+    {
+      "documentId": "text00358",
+      "paragraphs": 29,
+      "status": "full_read",
+      "sourcePath": "source/text00358.txt",
+      "originalHtmlSha256": "6c06fe8ef246e89653c041db93057aadfd81eb60ab11323f9126aa22ea137924"
+    },
+    {
+      "documentId": "text00359",
+      "paragraphs": 41,
+      "status": "full_read",
+      "sourcePath": "source/text00359.txt",
+      "originalHtmlSha256": "fd7eb81b98618bb32a405fb8c5b47fdd7f55a217dac0a8c8d32f93593a38a7c6"
+    },
+    {
+      "documentId": "text00360",
+      "paragraphs": 48,
+      "status": "full_read",
+      "sourcePath": "source/text00360.txt",
+      "originalHtmlSha256": "95a22bea98aed4aaf0fad2b5d26dfff015e42be3fdcccd96d0e7078daccf49a8"
+    },
+    {
+      "documentId": "text00361",
+      "paragraphs": 33,
+      "status": "full_read",
+      "sourcePath": "source/text00361.txt",
+      "originalHtmlSha256": "0c8ddf95f93465361ec30cf7a5e872638f2c5b2d37e52bc9c470153df57f677a"
+    },
+    {
+      "documentId": "text00362",
+      "paragraphs": 42,
+      "status": "full_read",
+      "sourcePath": "source/text00362.txt",
+      "originalHtmlSha256": "6473509390d65a29b3d807aeea1740fa9d812c9c81e6a7b52e9a57bf55bdf6c5"
+    },
+    {
+      "documentId": "text00363",
+      "paragraphs": 5,
+      "status": "full_read",
+      "sourcePath": "source/text00363.txt",
+      "originalHtmlSha256": "88d19324835aad54610fe4ab3f1b315653053d18931f14583405b1ddf18da725"
+    },
+    {
+      "documentId": "text00364",
+      "paragraphs": 2,
+      "status": "full_read",
+      "sourcePath": "source/text00364.txt",
+      "originalHtmlSha256": "38a2578b21d2fe0ffe07205760f463a442552b729be5f040439eddefce0896e5"
+    },
+    {
+      "documentId": "text00365",
+      "paragraphs": 2,
+      "status": "full_read",
+      "sourcePath": "source/text00365.txt",
+      "originalHtmlSha256": "e356f23a70a44d03c2861294b5b033a8100b6dfe3bf34f522c8992464f216533"
+    }
+  ],
+  "facts": [
+    {
+      "id": "13-f01",
+      "classification": "third-party",
+      "statement": "博利克把萨尔解放奴隶视作生活新起点；商船受袭与人类舰船未援助促成争端。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00339:p0004",
+        "text00339:p0045",
+        "text00339:p0059-p0068"
+      ]
+    },
+    {
+      "id": "13-f02",
+      "classification": "fact",
+      "statement": "萨尔与吉安娜持配对符文石私下联系，在剃刀岭会面；此时盟约依赖私人信任，没有正式协议。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00340:p0003-p0018"
+      ]
+    },
+    {
+      "id": "13-f03",
+      "classification": "fact",
+      "statement": "萨尔仅据本方船员证词愤怒指责，吉安娜要求查证；他恢复冷静并为鲁莽道歉，承认奴役创伤使自己易作最坏推断。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00340:p0018-p0051"
+      ]
+    },
+    {
+      "id": "13-f04",
+      "classification": "fact",
+      "statement": "吉安娜建议正式协议延续两人离去后的和平，萨尔认为值得考虑；这时尚未签订。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00340:p0050-p0052"
+      ]
+    },
+    {
+      "id": "13-f05",
+      "classification": "fact",
+      "statement": "萨尔将吉安娜微笑联想到塔蕾莎，并承认女性角色偏见需学习；吉安娜反驳女人命运由出生决定。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00340:p0055-p0068"
+      ]
+    },
+    {
+      "id": "13-f06",
+      "classification": "fact",
+      "statement": "吉安娜要求独立调查，拒绝克里斯托夫趁机向北方城堡增兵。",
+      "characters": [
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00340:p0097-p0133"
+      ]
+    },
+    {
+      "id": "13-f07",
+      "classification": "fact",
+      "statement": "萨尔批准愿意解甲归田的兽人；拜洛克以自由生活回报为忠诚理由，遇火刃袭击。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00342:p0008-p0018",
+        "text00342:p0022-p0056"
+      ]
+    },
+    {
+      "id": "13-f08",
+      "classification": "fact",
+      "statement": "萨尔有意采用冷石王座厅营造威严，同时抵制伯克斯排斥人类论，维护吉安娜信誉。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00344:p0002-p0017"
+      ]
+    },
+    {
+      "id": "13-f09",
+      "classification": "fact",
+      "statement": "伐林致雷霆蜥蜴危及农田，萨尔不以魔法嫌疑定罪吉安娜，承认未知，命救援农户、约友调查。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00344:p0023-p0057"
+      ]
+    },
+    {
+      "id": "13-f10",
+      "classification": "fact",
+      "statement": "吉安娜亲查伐林魔法，先搬迁蜥蜴失败，安抚兽群后发现结界并遇艾格文。",
+      "characters": [
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00345:p0031-p0048",
+        "text00345:p0052-p0098"
+      ]
+    },
+    {
+      "id": "13-f11",
+      "classification": "fact",
+      "statement": "雷克萨带回重伤拜洛克；萨尔先询问伤势允许治疗，拒绝因六个人行为向所有人类开战，重申联手吉安娜对付叛徒且不先发攻击。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00346:p0033-p0064"
+      ]
+    },
+    {
+      "id": "13-f12",
+      "classification": "fact",
+      "statement": "施特罗沃调查火刃遭恶魔杀害；克里斯托夫阻止追查并擅自增兵，双方贸易摩擦被放大为战争借口。",
+      "characters": [
+        "jaina",
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00347:p0028-p0047",
+        "text00348:p0040-p0056",
+        "text00350:p0013-p0051"
+      ]
+    },
+    {
+      "id": "13-f13",
+      "classification": "fact",
+      "statement": "吉安娜得知艾格文经历与所读英雄史不同；两人困于兹莫德勒结界。",
+      "characters": [
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00349:p0004-p0029",
+        "text00351:p0002-p0014",
+        "text00351:p0037-p0053"
+      ]
+    },
+    {
+      "id": "13-f14",
+      "classification": "fact",
+      "statement": "克里斯托夫自认能利用恶魔消灭兽人，谎报吉安娜和洛伦娜被火刃兽人绑架，命达文开战。",
+      "characters": [
+        "jaina",
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00352:p0035-p0047"
+      ]
+    },
+    {
+      "id": "13-f15",
+      "classification": "fact",
+      "statement": "吉安娜请艾格文教穿透术，借洛伦娜外部接应脱困；她以人民责任劝服艾格文重返抗魔，得知其复活麦迪文。",
+      "characters": [
+        "jaina",
+        "khadgar"
+      ],
+      "sourceRefs": [
+        "text00353:p0061-p0093"
+      ]
+    },
+    {
+      "id": "13-f16",
+      "classification": "fact",
+      "statement": "萨尔处理民间纠纷；收到可信斥候洛坎报告人类增兵，亦获卡尔萨赞同，遂下令陆海集结应对进攻，准备被动战争，不是预先知晓恶魔阴谋。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00354:p0002-p0021"
+      ]
+    },
+    {
+      "id": "13-f17",
+      "classification": "fact",
+      "statement": "伯克斯暗中与兹莫德勒合谋，奴役创伤促使其选择恶魔消灭人类，自己认为萨尔对人类过于乐观。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00354:p0022-p0034"
+      ]
+    },
+    {
+      "id": "13-f18",
+      "classification": "fact",
+      "statement": "吉安娜完成蜥蜴安置返回，揭破克里斯托夫勾结；驱魔后克里斯托夫临死承认受控。她需同时止战与打击恶魔，取符文石联系萨尔。",
+      "characters": [
+        "jaina",
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00355:p0004-p0020",
+        "text00355:p0032-p0082"
+      ]
+    },
+    {
+      "id": "13-f19",
+      "classification": "fact",
+      "statement": "伯克斯以萨尔名义要求人类一小时拆除北方城堡，不从即攻击；这是越过萨尔集合待命命令的行为。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00356:p0043-p0049",
+        "text00360:p0041"
+      ]
+    },
+    {
+      "id": "13-f20",
+      "classification": "fact",
+      "statement": "北方城堡实际爆发伤亡惨重的混战，里奇视角不记得谁先动手，不可将萨尔止战写为避免了全部流血。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00358:p0002-p0029",
+        "text00360:p0002-p0014"
+      ]
+    },
+    {
+      "id": "13-f21",
+      "classification": "fact",
+      "statement": "萨尔以地震、风暴、巨浪打断厮杀，飞艇降临，公开说明伯克斯行为不代表自身意志，命部队撤退。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00360:p0007-p0026"
+      ]
+    },
+    {
+      "id": "13-f22",
+      "classification": "fact",
+      "statement": "萨尔据部下所报火刃护符与吉安娜查明恶魔的通知揭露伯克斯，反对把部分人类的奴役行为视为屠灭人类理由。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00360:p0027-p0032"
+      ]
+    },
+    {
+      "id": "13-f23",
+      "classification": "fact",
+      "statement": "伯克斯当众表示愿与千魔交易杀尽人类，并袭击达文；萨尔击倒他，以酋长身份宣判为各族死者偿命并亲手处决。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00360:p0031-p0038"
+      ]
+    },
+    {
+      "id": "13-f24",
+      "classification": "fact",
+      "statement": "萨尔向达文代表杜隆塔尔道歉，承认来迟，澄清原命令为集合待命，带伤亡者撤走，同时保留应对人类主动挑战的条件。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00360:p0039-p0043"
+      ]
+    },
+    {
+      "id": "13-f25",
+      "classification": "third-party",
+      "statement": "达文认为萨尔止战的威望不仅来自强力，还来自讲话令战士真正放下武器。",
+      "characters": [
+        "thrall"
+      ],
+      "sourceRefs": [
+        "text00360:p0044-p0046"
+      ]
+    },
+    {
+      "id": "13-f26",
+      "classification": "fact",
+      "statement": "吉安娜耗尽体力难破术士屏障，艾格文传递剩余力量相助；二人将兹莫德勒及术士驱逐扭曲虚空，洛伦娜护卫，吉安娜传送撤离。萨尔未在洞穴参战。",
+      "characters": [
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00359:p0009-p0038",
+        "text00361:p0004-p0033",
+        "text00362:p0021-p0029"
+      ]
+    },
+    {
+      "id": "13-f27",
+      "classification": "fact",
+      "statement": "事后萨尔因亲近副官背叛增强警戒，带护卫会友；双方承认恶魔利用了真实且未消解的两族仇恨，不能把冲突归为纯粹外力或认为族群已自然和解。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00362:p0003-p0011"
+      ]
+    },
+    {
+      "id": "13-f28",
+      "classification": "fact",
+      "statement": "萨尔与吉安娜同意一周后在中立棘齿城商讨正式盟约细节，萨尔拟带卡尔萨；本书结束未展示签字条款或协议已实施。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00362:p0012-p0019"
+      ]
+    },
+    {
+      "id": "13-f29",
+      "classification": "fact",
+      "statement": "吉安娜聘康复后的艾格文为内务总管；艾格文提醒火刃威胁未必终结，不能写本书永久清除火刃。",
+      "characters": [
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00362:p0027-p0042"
+      ]
+    },
+    {
+      "id": "13-f30",
+      "classification": "paratext",
+      "statement": "版本附录将事件定位为魔兽世界剧情前一年、联合击败燃烧军团后三年；只用相对时期，避免无来源绝对年份。",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "sourceRefs": [
+        "text00364:p0002"
+      ]
+    }
+  ],
+  "nextDocument": null,
+  "limitations": [
+    "完整阅读本版所有提取文档：24章、尾声及前后附录，空白封面已核查。",
+    "故事内观点、恶魔谎言与偏见须归属发言者；事实记录中嵌入主观动机不得当成普遍种族真理。",
+    "导读/时间轴是出版附录，不作人物当时知识；导读对未来战争之潮的评论不回灌至本书阶段。",
+    "与后续版本冲突以issues保留，整合不可静默消除。"
+  ],
+  "version": 3,
+  "inferences": [
+    {
+      "id": "13-i01",
+      "classification": "inference",
+      "statement": "萨尔和平实践并非天性毫无偏见：他会受奴役创伤与本方群情影响，但能认错、承认未知、调查并限制集体归罪。",
+      "basedOn": [
+        "13-f03",
+        "13-f05",
+        "13-f09",
+        "13-f11"
+      ]
+    },
+    {
+      "id": "13-i02",
+      "classification": "inference",
+      "statement": "本书可支撑从私人信任转向公共承诺的治理弧线；结局是制度化谈判起点，非彻底化解世仇。",
+      "basedOn": [
+        "13-f04",
+        "13-f27",
+        "13-f28"
+      ]
+    },
+    {
+      "id": "13-i03",
+      "classification": "inference",
+      "statement": "止战伴随公开处决与强制力量，不能把萨尔塑造成拒绝一切暴力的和平主义者；也不能略去部署军队被部下利用的治理漏洞。",
+      "basedOn": [
+        "13-f16",
+        "13-f19",
+        "13-f21",
+        "13-f23",
+        "13-f24"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "13-conflict-daelin",
+      "statement": "本书叙述萨尔亲手杀戴林，与编年史卷三雷克萨终结戴林的证据冲突，待整合保留版本差异。",
+      "sourceRefs": [
+        "text00340:p0016"
+      ]
+    },
+    {
+      "id": "13-geography",
+      "statement": "本书称杜隆塔尔肥沃耕地、粮食充足；不可无声替代后期资源匮乏描写，需时间/版本标注。",
+      "sourceRefs": [
+        "text00342:p0014"
+      ]
+    },
+    {
+      "id": "13-limited-knowledge",
+      "statement": "不能将第15章克里斯托夫、第17章伯克斯私通的读者知识写成萨尔在部署时已知。萨尔证据于23章公开。",
+      "sourceRefs": [
+        "text00352:p0038-p0047",
+        "text00354:p0021-p0034",
+        "text00360:p0028"
+      ]
+    },
+    {
+      "id": "13-old-setting",
+      "statement": "导读明确艾格文与埃兰感情设定已不具时效性；若八人背景用到麦迪文身世须注明此版历史差异。",
+      "sourceRefs": [
+        "text00337:p0004",
+        "text00351:p0031-p0036"
+      ]
+    },
+    {
+      "id": "13-confession-control",
+      "statement": "克里斯托夫自认为合作，临终承认被恶魔控制；不可简化成所有仇恨都由恶魔凭空植入。",
+      "sourceRefs": [
+        "text00352:p0011-p0017",
+        "text00355:p0067",
+        "text00362:p0010-p0011"
+      ]
+    }
+  ],
+  "subtitleCandidates": [],
+  "subtitleCheck": {
+    "status": "completed_for_book_scope",
+    "scope": "本书封面提取、版权、完整目录、24章、尾声、鸣谢、历史时间轴、作者简介",
+    "finding": "仅书名仇恨之轮与数字章序、尾声等结构标题；未发现适用于萨尔人物志篇章的独立原作副标题。书名可为sourceLabel，不自动作original subtitle。仅在本书范围可使用editorial；跨书单元仍须合并其余书核验。",
+    "sourceRefs": [
+      "text00335:p0002",
+      "text00336:p0001-p0033"
+    ],
+    "reviewStatus": "pending"
+  },
+  "characterBoundaries": {
+    "thrall": "本书重点是杜隆塔尔建国后治理、与吉安娜盟友信任危机、止战与约定正式盟约，不重述少年解放史，不提前投射塞拉摩毁灭。",
+    "jaina": "独立调查、处理公共灾害、承认英雄复杂性、与艾格文合作、委托萨尔止战与邀请艾格文行政相助。",
+    "khadgar": "仅复述杀死麦迪文的背景，不是本书人物主线。",
+    "others": "其余A批人物无足够直接素材；杜隆坦仅提名父子关系，不新增完整弧线。"
+  }
+}

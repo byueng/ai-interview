@@ -1,0 +1,669 @@
+{
+  "runId": "batch-a-20261024-01",
+  "role": "writer",
+  "scope": "thrall-part-08 through thrall-part-11",
+  "authorizationBasis": "本轮协调员传达用户已经批准策划并授权正文配图；旧方案待审字段属于历史元数据，本任务不修改。",
+  "inputVersions": {
+    "publication-plan.json": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+    "integration.json": "278e0f6b566748d5478dcfa756ad63819a7e0f55b28a4e21babc3c5ab03b0f30"
+  },
+  "readingPolicy": "复用18/19/21证据；为配图仅定点核对衣着、手势与场景原文，未重读全书。",
+  "additionalEvidenceUsed": [
+    {
+      "bookId": "18",
+      "refs": [
+        "text00531:p0002-p0099",
+        "text00540:p0002-p0105"
+      ],
+      "purpose": "仅连接小营地至时光旅途，以及克洛玛图斯战败坠落的已读事实，不扩写新阶段。"
+    },
+    {
+      "bookId": "21",
+      "refs": [
+        "text00624:p0002-p0027"
+      ],
+      "purpose": "吉安娜在庭审初仍回避萨尔的已读事实。"
+    }
+  ],
+  "units": [
+    {
+      "unitId": "thrall-part-08",
+      "draftPath": "characters/thrall/drafts/08.txt",
+      "draftSha256": "594bef31b0c0c2804c4aa5710b026a923b1ade1e08a5138821edf4544714ca2c",
+      "hanCharacterCount": 1902,
+      "title": "英雄之外的自己",
+      "subtitle": {
+        "text": "无需功绩，也值得被爱",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "sourceRanges": [
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00526:p0002-p0104",
+            "text00529:p0002-p0060",
+            "text00530:p0002-p0100"
+          ],
+          "evidenceId": "thrall-event-21",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00532:p0027-p0138",
+            "text00533:p0002-p0088",
+            "text00534:p0002-p0109",
+            "text00535:p0065-p0139"
+          ],
+          "evidenceId": "thrall-event-22",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ],
+      "keyFacts": [
+        {
+          "eventId": "thrall-event-21",
+          "chronologicalOrder": 21,
+          "stage": "大漩涡自疑与小任务",
+          "statement": "负罪与酋长身份令萨尔分心；阿格娜问他是谁。他接受伊瑟拉看似微小的救援任务，听取火元素而非强压，获得古树橡果。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "18",
+              "refs": [
+                "text00526:p0002-p0104",
+                "text00529:p0002-p0060",
+                "text00530:p0002-p0100"
+              ]
+            }
+          ],
+          "boundary": "不把英雄身份作为全部自我；小营地经历为后续橡果与同理心铺垫。"
+        },
+        {
+          "eventId": "thrall-event-22",
+          "chronologicalOrder": 22,
+          "stage": "重访父母与异常时间线",
+          "statement": "成人萨尔亲见父母临终，克制改变历史，明白无需功绩也被爱；异常时线塔蕾莎仍活着，帮他认识善意如何塑造信任。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "18",
+              "refs": [
+                "text00532:p0027-p0138",
+                "text00533:p0002-p0088",
+                "text00534:p0002-p0109",
+                "text00535:p0065-p0139"
+              ]
+            }
+          ],
+          "boundary": "父母之死为真实过去重访；塔蕾莎活着、萨尔婴儿夭折、布莱克摩尔夺国均为异常分支。"
+        }
+      ],
+      "interpretationPolicy": "正文评论为作者基于事件的解释，不伪称人物未见于原著的内心独白；无虚构对白。",
+      "artScene": {
+        "scene": "菲拉斯古树下，萨尔弯腰拾起橡果后将它合拢在手心，戴沙林在旁。只画这一实际瞬间，不叠加父母或塔蕾莎。",
+        "sourceRefs": [
+          "18/text00530:p0093-p0097"
+        ],
+        "environmentRefs": [
+          "18/text00530:p0072-p0079"
+        ],
+        "costumeAndWeapons": {
+          "thrall": "绿色兽人，简朴萨满长袍；颜色未由本段指定，不当作原著事实。毁灭之锤为此阶段随身武器，可不入画，不能持锤又双手捧橡果。",
+          "supportRefs": [
+            "18/text00526:p0022",
+            "18/text00530:p0019-p0030"
+          ],
+          "other": "戴沙林此刻为绿发暗夜精灵外形；不画成巨龙。",
+          "otherRefs": [
+            "18/text00530:p0030",
+            "18/text00530:p0078-p0082"
+          ]
+        },
+        "emotion": "敬畏、珍视、谦卑；以照拂一个小生命的具体行动映照人物价值不只取决于伟业。",
+        "avoid": [
+          "史诗战场",
+          "将橡果画成神器武器",
+          "混入未在场家人",
+          "幽灵或跨时线人物拼贴"
+        ],
+        "medium": "一整幅中世纪彩绘玻璃：铅条分格、透光彩色玻璃、无嵌入文字；非油画、非数字写实、非多卡片拼贴",
+        "subtitle": "无需功绩，也值得被爱",
+        "subtitleOrigin": "editorial",
+        "imageMode": "chapter_scene",
+        "status": "scene_suggestion_for_coordinator_review"
+      },
+      "selfReview": {
+        "titleSubtitlePreserved": true,
+        "withinRequestedLength": true,
+        "noNewProseDialogue": true,
+        "timelineBoundariesMaintained": true,
+        "noPostWarCrimesExtension": true,
+        "notAnIndependentExternalReview": true
+      }
+    },
+    {
+      "unitId": "thrall-part-09",
+      "draftPath": "characters/thrall/drafts/09.txt",
+      "draftSha256": "bda425e0f5111b41972b553a3857ae50e7aa159d224e8a37a310a8885e17df2e",
+      "hanCharacterCount": 2006,
+      "title": "以理解重新联结",
+      "subtitle": {
+        "text": "先听见悲痛，再谈责任",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "sourceRanges": [
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00536:p0002-p0079",
+            "text00537:p0002-p0101",
+            "text00538:p0002-p0124",
+            "text00539:p0061-p0144"
+          ],
+          "evidenceId": "thrall-event-23",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00541:p0002-p0083",
+            "text00542:p0002-p0040",
+            "text00543:p0002-p0144",
+            "text00544:p0002-p0086"
+          ],
+          "evidenceId": "thrall-event-24",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00545:p0002-p0098",
+            "text00546:p0002-p0105",
+            "text00547:p0002-p0102"
+          ],
+          "evidenceId": "thrall-event-25",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "26",
+          "sourceTitle": "魔兽编年史 卷三",
+          "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+          "sourceType": "chronicle_selected_sections",
+          "refs": [
+            "text00974:p0001-p0019",
+            "text00975:p0001-p0018"
+          ],
+          "evidenceId": "thrall-event-26",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00552:p0003-p0005"
+          ],
+          "evidenceId": "thrall-event-26",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ],
+      "keyFacts": [
+        {
+          "eventId": "thrall-event-23",
+          "chronologicalOrder": 23,
+          "stage": "活在当下与继续担当",
+          "statement": "萨尔找回诺兹多姆，理解私人细小时刻价值；首次劝红龙女王以职责施压失败，后与卡雷苟斯相互支持，战斗目标由部落扩展到艾泽拉斯。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "18",
+              "refs": [
+                "text00536:p0002-p0079",
+                "text00537:p0002-p0101",
+                "text00538:p0002-p0124",
+                "text00539:p0061-p0144"
+              ]
+            }
+          ],
+          "boundary": "活在当下不等于不学历史或不规划未来；龙族选出卡雷，非萨尔任命。"
+        },
+        {
+          "eventId": "thrall-event-24",
+          "chronologicalOrder": 24,
+          "stage": "理解悲痛与重新联结",
+          "statement": "绝望中想到阿格娜向生命之灵开放；击败异时线布莱克摩尔。再劝红龙女王以共享真相、橡果生命而非命令，揭明克拉苏斯牺牲，联结恢复。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "18",
+              "refs": [
+                "text00541:p0002-p0083",
+                "text00542:p0002-p0040",
+                "text00543:p0002-p0144",
+                "text00544:p0002-p0086"
+              ]
+            }
+          ],
+          "boundary": "生命幻象后有克莉苟萨独立证实部分经历；萨尔不是最初即全知，红龙并未忘却痛苦。"
+        },
+        {
+          "eventId": "thrall-event-25",
+          "chronologicalOrder": 25,
+          "stage": "萨满补位与接受古伊尔",
+          "statement": "萨尔主持仪式联结大地，使四守护者合力击败克洛玛图斯；接受友谊与古伊尔之名，和阿格娜许诺共度一生、继续疗愈世界。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "18",
+              "refs": [
+                "text00545:p0002-p0098",
+                "text00546:p0002-p0105",
+                "text00547:p0002-p0102"
+              ]
+            }
+          ],
+          "boundary": "明确不是第五守护巨龙；克洛玛图斯难以彻底摧毁须封存；本书未杀死亡之翼、未描写婚礼。"
+        },
+        {
+          "eventId": "thrall-event-26",
+          "chronologicalOrder": 26,
+          "stage": "死亡之翼终战（补充）",
+          "statement": "萨尔以凡人萨满承担大地能量、使用巨龙之魂，与守护巨龙和凡人联军共胜死亡之翼。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "26",
+              "refs": [
+                "text00974:p0001-p0019",
+                "text00975:p0001-p0018"
+              ]
+            },
+            {
+              "bookId": "19",
+              "refs": [
+                "text00552:p0003-p0005"
+              ]
+            }
+          ],
+          "boundary": "神器取回属其他英雄和诺兹多姆行动；只支持阶段概述，不擅补未读战斗细节。"
+        }
+      ],
+      "interpretationPolicy": "正文评论为作者基于事件的解释，不伪称人物未见于原著的内心独白；无虚构对白。",
+      "artScene": {
+        "scene": "凄凉之地，萨尔把橡果交到精灵形态阿莱克丝塔萨掌中；一寸嫩芽刚长出，两人注视它。单一实景，重心为手掌、种子与悲伤的面容。",
+        "sourceRefs": [
+          "18/text00543:p0113-p0120"
+        ],
+        "costumeAndWeapons": {
+          "thrall": "萨满长袍，绿色皮肤，非酋长铠甲。长袍具体色样无明确依据，保持简朴。双手用于握手与交付橡果，不持锤。",
+          "supportRefs": [
+            "18/text00537:p0081",
+            "18/text00543:p0113-p0116"
+          ],
+          "other": "阿莱克丝塔萨为精灵形态；本段未提供精确服装款式，宜以手掌和肩面近景减少臆造，不调用后世游戏皮肤。",
+          "otherRefs": [
+            "18/text00543:p0119"
+          ]
+        },
+        "emotion": "悲痛中开始接受安慰，温柔而克制，不画成狂喜凯旋。",
+        "avoid": [
+          "龙形女王收橡果",
+          "第五守护巨龙形态的萨尔",
+          "跨场景龙战",
+          "浮在背景的克拉苏斯幽灵"
+        ],
+        "medium": "一整幅中世纪彩绘玻璃：铅条分格、透光彩色玻璃、无嵌入文字；非油画、非数字写实、非多卡片拼贴",
+        "subtitle": "先听见悲痛，再谈责任",
+        "subtitleOrigin": "editorial",
+        "imageMode": "chapter_scene",
+        "status": "scene_suggestion_for_coordinator_review"
+      },
+      "selfReview": {
+        "titleSubtitlePreserved": true,
+        "withinRequestedLength": true,
+        "noNewProseDialogue": true,
+        "timelineBoundariesMaintained": true,
+        "noPostWarCrimesExtension": true,
+        "notAnIndependentExternalReview": true
+      }
+    },
+    {
+      "unitId": "thrall-part-10",
+      "draftPath": "characters/thrall/drafts/10.txt",
+      "draftSha256": "18f063cae65cfea2740ae9407db697d0c701eb4dc1a3e0bf5b4151b4a79b1347",
+      "hanCharacterCount": 1969,
+      "title": "世界与旧盟友之间",
+      "subtitle": {
+        "text": "更大的责任没有消除旧的责任",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "sourceRanges": [
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00554:p0013-p0062"
+          ],
+          "evidenceId": "thrall-event-27",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00571:p0002-p0038"
+          ],
+          "evidenceId": "thrall-event-28",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00575:p0042-p0073",
+            "text00576:p0021-p0113"
+          ],
+          "evidenceId": "thrall-event-29",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00577:p0039-p0044",
+            "text00578:p0082-p0091",
+            "text00579:p0003-p0026"
+          ],
+          "evidenceId": "thrall-event-29",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ],
+      "keyFacts": [
+        {
+          "eventId": "thrall-event-27",
+          "chronologicalOrder": 27,
+          "stage": "世界职责与旧盟友分歧",
+          "statement": "萨尔以古伊尔、大地之环领袖自居，拒绝吉安娜要求介入加尔鲁什政策；与阿格娜的爱助自我完整，但未解决政治责任。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "19",
+              "refs": [
+                "text00554:p0013-p0062"
+              ]
+            }
+          ],
+          "boundary": "将离任作为阶段转变，不把16代理任命当作一次性永久退位声明。"
+        },
+        {
+          "eventId": "thrall-event-28",
+          "chronologicalOrder": 28,
+          "stage": "塞拉摩毁灭后的选择",
+          "statement": "接伊崔格信误以为吉安娜已死，萨尔自责并欲惩加尔鲁什；努波顿准他自由离开，他仍选择留下紧迫修复任务。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "19",
+              "refs": [
+                "text00571:p0002-p0038"
+              ]
+            }
+          ],
+          "boundary": "不是他毫不知情无动于衷，也不是被大地之环禁止离开；政治与世界责任冲突保留。"
+        },
+        {
+          "eventId": "thrall-event-29",
+          "chronologicalOrder": 29,
+          "stage": "勇士岛阻止灭城",
+          "statement": "元素警告将临海啸，萨尔独赴勇士岛发现吉安娜生还，以风障拖延神器力量，宁冒死也不许屠戮无辜；与卡雷共同劝说，最终由吉安娜主动撤浪。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "19",
+              "refs": [
+                "text00575:p0042-p0073",
+                "text00576:p0021-p0113"
+              ]
+            },
+            {
+              "bookId": "19",
+              "refs": [
+                "text00577:p0039-p0044",
+                "text00578:p0082-p0091",
+                "text00579:p0003-p0026"
+              ]
+            }
+          ],
+          "boundary": "并非萨尔击败她或单独说服；他不阻她与加尔鲁什作战。友情此时破裂，未即时和好，未复任酋长。 吉安娜事后才知道联盟舰队也会被海啸毁灭，不能反推萨尔事先知晓舰队计划；结尾感激仍非复交。"
+        }
+      ],
+      "interpretationPolicy": "正文评论为作者基于事件的解释，不伪称人物未见于原著的内心独白；无虚构对白。",
+      "artScene": {
+        "scene": "勇士岛对峙，萨尔以风障艰难抵住吉安娜的力量。聚焦之虹与蓄势海水在吉安娜一侧；城尚未被淹，画面不包含事后握手或和解。",
+        "sourceRefs": [
+          "19/text00576:p0043-p0071"
+        ],
+        "costumeAndWeapons": {
+          "thrall": "简单破旧萨满长袍、红色大念珠、黑发，毁灭之锤随身；不是黑色酋长全甲。攻击动作选择施法，锤可不入画。",
+          "supportRefs": [
+            "19/text00554:p0016"
+          ],
+          "jaina": "已遭塞拉摩灾难，白发而非会面时整头金发；聚焦之虹是力量来源，非普通法杖。不要添加未经原文支持的新武器。",
+          "otherRefs": [
+            "19/text00570:p0023-p0052",
+            "19/text00576:p0021-p0042"
+          ]
+        },
+        "emotion": "紧迫、痛苦、保护无辜的坚定；双方关系破裂。",
+        "avoid": [
+          "淹毁奥格瑞玛既成事实",
+          "萨尔胜利姿态压倒吉安娜",
+          "即时和好",
+          "暗示单靠萨尔最终说服"
+        ],
+        "medium": "一整幅中世纪彩绘玻璃：铅条分格、透光彩色玻璃、无嵌入文字；非油画、非数字写实、非多卡片拼贴",
+        "subtitle": "更大的责任没有消除旧的责任",
+        "subtitleOrigin": "editorial",
+        "imageMode": "chapter_scene",
+        "status": "scene_suggestion_for_coordinator_review"
+      },
+      "selfReview": {
+        "titleSubtitlePreserved": true,
+        "withinRequestedLength": true,
+        "noNewProseDialogue": true,
+        "timelineBoundariesMaintained": true,
+        "noPostWarCrimesExtension": true,
+        "notAnIndependentExternalReview": true
+      }
+    },
+    {
+      "unitId": "thrall-part-11",
+      "draftPath": "characters/thrall/drafts/11.txt",
+      "draftSha256": "e0f30c2ab3d1250248d670c80f4efc46169bf5a087c278a76975ef043a88aeef",
+      "hanCharacterCount": 2050,
+      "title": "没有结束的审判",
+      "subtitle": {
+        "text": "承认可能的自己，承担未完的选择",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "sourceRanges": [
+        {
+          "bookId": "21",
+          "sourceTitle": "战争罪行",
+          "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+          "sourceType": "novel_testimony_or_trial_present",
+          "refs": [
+            "text00624:p0007-p0008",
+            "text00625:p0012-p0013",
+            "text00625:p0053-p0069",
+            "text00630:p0002-p0007",
+            "text00641:p0008-p0094"
+          ],
+          "evidenceId": "thrall-event-30",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "21",
+          "sourceTitle": "战争罪行",
+          "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+          "sourceType": "novel_testimony_or_trial_present",
+          "refs": [
+            "text00630:p0037-p0090",
+            "text00631:p0002-p0067",
+            "text00642:p0065-p0123",
+            "text00643:p0002-p0050"
+          ],
+          "evidenceId": "thrall-event-31",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "21",
+          "sourceTitle": "战争罪行",
+          "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+          "sourceType": "novel_testimony_or_trial_present",
+          "refs": [
+            "text00657:p0002-p0044",
+            "text00658:p0002-p0019",
+            "text00658:p0043-p0062",
+            "text00660:p0008-p0052"
+          ],
+          "evidenceId": "thrall-event-32",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ],
+      "keyFacts": [
+        {
+          "eventId": "thrall-event-30",
+          "chronologicalOrder": 30,
+          "stage": "反抗暴政至庭审",
+          "statement": "21证词回述萨尔听沃金求援后反抗库卡隆；攻城后欲处决加尔鲁什被瓦里安阻止，庭审支持贝恩辩护、抱子承诺未来。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "21",
+              "refs": [
+                "text00624:p0007-p0008",
+                "text00625:p0012-p0013",
+                "text00625:p0053-p0069",
+                "text00630:p0002-p0007",
+                "text00641:p0008-p0094"
+              ]
+            }
+          ],
+          "boundary": "仅证词覆盖的起义桥接，不扩写未提供围城全流程；沃金已任大酋长。"
+        },
+        {
+          "eventId": "thrall-event-31",
+          "chronologicalOrder": 31,
+          "stage": "父亲过失与自身任命责任",
+          "statement": "父亲屠城影像与幼童记忆触动萨尔；庭上否认后悔和承担加尔鲁什罪行，却面对凯恩警告及自身负罪重现。他承认凡人犯错须学习，转向认可审判仍知损害不可全补。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "21",
+              "refs": [
+                "text00630:p0037-p0090",
+                "text00631:p0002-p0067",
+                "text00642:p0065-p0123",
+                "text00643:p0002-p0050"
+              ]
+            }
+          ],
+          "boundary": "不能替萨尔宣判无责，也不能把加尔鲁什个人罪责转嫁；影像中的末日未真实发生。"
+        },
+        {
+          "eventId": "thrall-event-32",
+          "chronologicalOrder": 32,
+          "stage": "接受可能的自己与未完责任",
+          "statement": "逃亡危机引入奴役分身，萨尔接受另一种可能、选择古伊尔，与家人团聚；参与救吉安娜但最终赤精施救，握手仅表示修复空间；承诺找回加尔鲁什。",
+          "classification": "integrated_source_facts",
+          "sources": [
+            {
+              "bookId": "21",
+              "refs": [
+                "text00657:p0002-p0044",
+                "text00658:p0002-p0019",
+                "text00658:p0043-p0062",
+                "text00660:p0008-p0052"
+              ]
+            }
+          ],
+          "boundary": "截止21结尾；不写追捕后续、德拉诺事件、后续决斗。"
+        }
+      ],
+      "interpretationPolicy": "正文评论为作者基于事件的解释，不伪称人物未见于原著的内心独白；无虚构对白。",
+      "artScene": {
+        "scene": "赤精救回吉安娜之后，她与萨尔握手。使用两人肩部与手掌为主的单一近景，表现疲惫和有限的重新接近，不表现已经消失的全部隔阂。",
+        "sourceRefs": [
+          "21/text00660:p0013-p0028"
+        ],
+        "costumeAndWeapons": {
+          "thrall": "本段没有足够精确服装细节；取近景只表现绿色手掌和朴素袖口，不引入酋长铠甲或新增武器，不拿毁灭之锤施放治疗。",
+          "jaina": "灾后白发阶段；本段衣服染血可弱化以避免成为血腥主体，不能画回金发少女。",
+          "supportRefs": [
+            "21/text00660:p0016",
+            "19/text00578:p0060"
+          ]
+        },
+        "emotion": "精疲力竭后的关切与谨慎希望，不是政治争议全消的庆典。",
+        "avoid": [
+          "萨尔施法治愈吉安娜",
+          "萨尔复位大酋长",
+          "未来德拉诺场景",
+          "跨时间线分身与握手混图"
+        ],
+        "medium": "一整幅中世纪彩绘玻璃：铅条分格、透光彩色玻璃、无嵌入文字；非油画、非数字写实、非多卡片拼贴",
+        "subtitle": "承认可能的自己，承担未完的选择",
+        "subtitleOrigin": "editorial",
+        "imageMode": "chapter_scene",
+        "status": "scene_suggestion_for_coordinator_review"
+      },
+      "selfReview": {
+        "titleSubtitlePreserved": true,
+        "withinRequestedLength": true,
+        "noNewProseDialogue": true,
+        "timelineBoundariesMaintained": true,
+        "noPostWarCrimesExtension": true,
+        "notAnIndependentExternalReview": true
+      }
+    }
+  ],
+  "outputStatus": "drafts_completed_self_checked_pending_coordinator_review",
+  "noImagesGeneratedByThisWriter": true
+}

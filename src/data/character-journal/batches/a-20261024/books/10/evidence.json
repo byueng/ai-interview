@@ -1,0 +1,427 @@
+{
+  "characterRelevance": {
+    "malfurion": "无独立事件",
+    "khadgar": "无独立事件",
+    "tirion": "无独立事件",
+    "varian": "无独立事件",
+    "thrall": "核心",
+    "jaina": "无独立事件",
+    "durotan": "开篇遇刺及父辈遗产",
+    "voljin": "无独立事件"
+  },
+  "bookId": "10",
+  "gaps": [
+    "结尾尚有兽人未解放。",
+    "273十二岁、274十年自婴儿发现、275十余年书信时间冲突；不强定年龄。",
+    "282p0029奥格瑞姆地狱咆哮、p0034德雷克摩尔疑译排异文。",
+    "序言古尔丹全灭德莱尼说法不可覆盖05幸存者事实。",
+    "塔蕾莎亲密朋友兄弟情不可擅自写恋爱。",
+    "不把仁慈军令抹平地震杀伤与威逼俘虏。"
+  ],
+  "runId": "batch-a-20261024-01",
+  "readingNotes": [
+    "第1章杜隆坦德拉卡向奥格瑞姆揭露恶魔契约，护卫叛变暗杀，非奥格瑞姆背叛；布莱克摩尔收养婴儿谋权",
+    "第2至6章塔蕾莎乳养建议、兄弟情书信、军士长仁慈教育、竞技场九战后暴打促逃，火灾逃亡和项链联络",
+    "第7至8章集中营凯尔格介绍萨满与战歌；277p0026-0053牺牲掩护萨尔逃亡，p0062-0077布莱克摩尔发现书信",
+    "278p0002-0022村庄偷食误杀狗但拒杀村民；p0024-0063战歌抓获试炼",
+    "279p0002-0014胜三战士不杀；p0019-0050拒杀被绑孩子，格罗玛什承认自己杀过幼童并要求改变，放男孩；p0056-0075保留奴隶名复仇，襁褓辨霜狼，逃亡兽人喊的是保护他",
+    "280p0002-0021文化萨满契约学习与解放计划，p0037-0045塔蕾莎受虐不掩饰伤痕，p0046-0074学习语言狩猎，冬季延缓解放，离开引开追兵寻霜狼",
+    "281p0002-0038风雪濒死霜狼救，德雷克塔尔揭父母身份；p0041-0049襁褓灵性证实谋杀；p0050-0073劳役与自尊试验，元素非奴隶契约",
+    "282p0004-0013雪歌主动选择萨尔；p0014-0035德雷克塔尔叙父母使命恶魔契约与萎靡判断（主观推断）；p0040-0077五元素认可的萨满受洗，敬畏互惠非役使；原文p0029奥格瑞姆地狱咆哮、p0034德雷克摩尔疑笔误，不静默混为新人物",
+    "年龄表述冲突：274p0002十年自婴儿被发现 vs27312岁及275十余年书信，暂不定绝对年龄",
+    "第14—20章事实及定位见 evidence.json events。"
+  ],
+  "nextUnread": null,
+  "inferences": [
+    "成长可归纳为脱物化、自尊与多重师承：研究推断，非原文标题。",
+    "282p0027萎靡成因是德雷克塔尔判断；286p0028-0031主人心理是萨尔内心分析，不作医学诊断。"
+  ],
+  "reusableOthers": [
+    "塔蕾莎",
+    "德拉卡",
+    "奥格瑞姆",
+    "格罗玛什",
+    "德雷克塔尔",
+    "军士长",
+    "布莱克摩尔",
+    "兰斯顿"
+  ],
+  "inputVersion": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+  "unrecordedReadMaterial": [],
+  "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+  "status": "completed",
+  "title": "氏族之王",
+  "subtitleCheck": {
+    "status": "checked",
+    "finding": "全书编号章题，无直接人物副标题；最终副标题留待整合"
+  },
+  "events": [
+    {
+      "chapter": 1,
+      "refs": [
+        "OEBPS/text00270.html:p0002-p0088"
+      ],
+      "fact": "杜隆坦德拉卡携未命名婴儿会奥格瑞姆揭恶魔契约，希望孩子未来；护卫间谍出卖，父母与狼死，婴儿遭遗弃，布莱克摩尔发现欲利用。非奥格瑞姆本人背叛。"
+    },
+    {
+      "chapter": 2,
+      "refs": [
+        "OEBPS/text00271.html:p0002-p0103"
+      ],
+      "fact": "塔蕾莎建议乳养，视为弟弟；主人命名奴隶、教育识字却禁止自主，转战斗训练。"
+    },
+    {
+      "chapter": 3,
+      "refs": [
+        "OEBPS/text00272.html:p0002-p0069"
+      ],
+      "fact": "军士长保护并教愤怒控制、仁慈，争取军事书；塔蕾莎藏信，萨尔血书回应。"
+    },
+    {
+      "chapter": 4,
+      "refs": [
+        "OEBPS/text00273.html:p0002-p0049"
+      ],
+      "fact": "首次见同族，误解逃囚企图保护自己，逃囚被杀；布莱克摩尔谋兽人军推联盟；书信及襁褓推动寻根。"
+    },
+    {
+      "chapter": 5,
+      "refs": [
+        "OEBPS/text00274.html:p0012-p0076"
+      ],
+      "fact": "九场角斗疲伤败食人魔，主人因输钱暴打，军士长制止道歉，萨尔决逃。"
+    },
+    {
+      "chapter": 6,
+      "refs": [
+        "OEBPS/text00275.html:p0002-p0067"
+      ],
+      "fact": "塔蕾莎先放动物再火灾掩护破门逃亡，带补给地图刀，项链约定联络；她因父母拒同逃。"
+    },
+    {
+      "chapter": 7,
+      "refs": [
+        "OEBPS/text00276.html:p0002-p0070"
+      ],
+      "fact": "选择集中营寻找同胞，捕获装不识字，被收信与刀；见麻木兽人遇凯尔格。"
+    },
+    {
+      "chapter": 8,
+      "refs": [
+        "OEBPS/text00277.html:p0026-p0077"
+      ],
+      "fact": "凯尔格叙萨满战歌并斗殴掩护逃亡，萨尔誓解放；主人从刀信知塔蕾莎帮助。"
+    },
+    {
+      "chapter": 9,
+      "refs": [
+        "OEBPS/text00278.html:p0002-p0063"
+      ],
+      "fact": "饥饿偷食杀扑来的狗，但停止杀村民认为非敌；战歌抓获，争取见格罗玛什试炼。"
+    },
+    {
+      "chapter": 10,
+      "refs": [
+        "OEBPS/text00279.html:p0002-p0075"
+      ],
+      "fact": "胜三兽人不杀；宁死拒杀绑着人类孩子，格罗玛什赞赏仁慈承认曾杀幼童，令放还不得伤害；萨尔保留名字令主人后悔，识霜狼襁褓，知昔日逃囚喊保护他。"
+    },
+    {
+      "chapter": 11,
+      "refs": [
+        "OEBPS/text00280.html:p0002-p0074"
+      ],
+      "fact": "学语言文化狩猎及萨满契约，为格罗玛什提供营情；冬天不利养军，离开引追兵寻霜狼；塔蕾莎受虐仍帮助。"
+    },
+    {
+      "chapter": 12,
+      "refs": [
+        "OEBPS/text00281.html:p0002-p0073"
+      ],
+      "fact": "暴雪濒死获救，德雷克塔尔凭襁褓认父母及遇刺，劳动与反抗侮辱考谦卑自尊；狼山羊元素是自主契约非奴隶。"
+    },
+    {
+      "chapter": 13,
+      "refs": [
+        "OEBPS/text00282.html:p0004-p0077"
+      ],
+      "fact": "雪歌选择结伴，德雷克塔尔述父母使命恶魔契约；萨尔禁食冥思五灵受洗，认自身渺小获认可。"
+    },
+    {
+      "chapter": 14,
+      "refs": [
+        "OEBPS/text00283.html:p0002-p0087"
+      ],
+      "fact": "德雷克塔尔叙洪水杀平民请求被拒、强索家人复活失力，强调元素意愿；萨尔求鹿救饥荒，感谢并善用躯体；拒借元素力与陌生人比武胜，得知对方奥格瑞姆。"
+    },
+    {
+      "chapter": 15,
+      "refs": [
+        "OEBPS/text00284.html:p0002-p0050"
+      ],
+      "fact": "奥格瑞姆承认测试，证实见过杜隆坦并因护卫间谍出卖父母自责；萨尔化装入营以幼苗开花唤希望，配合战歌霜狼解放。"
+    },
+    {
+      "chapter": 16,
+      "refs": [
+        "OEBPS/text00285.html:p0002-p0088"
+      ],
+      "fact": "三次渗透后被认出转正面攻营；萨尔惩戒杀村民部下，禁止杀妇孺。第五营伏击请求马逃、根须捆敌并放过失战力卫兵；抓兰斯顿救囚徒撤退，地震毁营后无视伤者哀号。奥格瑞姆背刺濒死，要求萨尔拔矛继承甲锤及酋长，萨尔接任。"
+    },
+    {
+      "chapter": 17,
+      "refs": [
+        "OEBPS/text00286.html:p0002-p0060"
+      ],
+      "fact": "树根威逼兰斯顿，知布莱克摩尔计划利用他统领兽人推翻联盟；同情其遭遇但继续解放，按承诺放俘虏并猫头鹰监视；葬奥格瑞姆及慧耳，决定攻敦霍尔德中枢。"
+    },
+    {
+      "chapter": 18,
+      "refs": [
+        "OEBPS/text00287.html:p0002-p0078"
+      ],
+      "fact": "塔蕾莎获项链信号装病经密道带物资；萨尔要求侦察兵尊重她，计划先和谈；她因父母和避免暴露坚持回堡，赠项链给未来孩子，请求善待百姓；归来被截。"
+    },
+    {
+      "chapter": 19,
+      "refs": [
+        "OEBPS/text00288.html:p0002-p0080"
+      ],
+      "fact": "举停战旗请求释放同胞承诺离开；布莱克摩尔公开政变图谋，抛塔蕾莎头颅（下令卫兵杀她）；萨尔悲愤召雷地震攻城，军士长接指挥，城破。"
+    },
+    {
+      "chapter": 20,
+      "refs": [
+        "OEBPS/text00289.html:p0002-p0078"
+      ],
+      "fact": "萨尔封逃生密道逼决斗，对方丢剑后掷匕首，萨尔刺杀布莱克摩尔；对方临终称自己造就萨尔。未伤妇孺，给降兵家人食水及防身武器放行；让兰斯顿传和平贸易、释兽人及肥沃土地条件。撤空后摧城，项链交还福克斯顿父母；结尾尚有营地待解放。"
+    }
+  ],
+  "coverage": [
+    {
+      "heading": "",
+      "paragraphs": 0,
+      "readParagraphRange": "empty",
+      "status": "full_read",
+      "documentId": "text00265",
+      "sha256": "0baf7070a304ec7c88dd4a48b83e223547be7008bc3d284ae9771662113e7fba",
+      "href": "OEBPS/text00265.html"
+    },
+    {
+      "heading": "版权信息",
+      "paragraphs": 7,
+      "readParagraphRange": "p0001-p0007",
+      "status": "full_read",
+      "documentId": "text00266",
+      "sha256": "300bb9a55e33ddbb40a3b6f7db7ba34fc4a1d41cafa30892dcb647d6fe79fa54",
+      "href": "OEBPS/text00266.html"
+    },
+    {
+      "heading": "氏族之王",
+      "paragraphs": 26,
+      "readParagraphRange": "p0001-p0026",
+      "status": "full_read",
+      "documentId": "text00267",
+      "sha256": "349a98ced4c5fe9a338ba37201ac66f849acd79cd74b292e3ebf21947a0ac68c",
+      "href": "OEBPS/text00267.html"
+    },
+    {
+      "heading": "导读",
+      "paragraphs": 7,
+      "readParagraphRange": "p0001-p0007",
+      "status": "full_read",
+      "documentId": "text00268",
+      "sha256": "e04e2598ec1040c814b0fd2e660952e20e9b555eda2a214cc71c77028eac5236",
+      "href": "OEBPS/text00268.html"
+    },
+    {
+      "heading": "序言",
+      "paragraphs": 14,
+      "readParagraphRange": "p0001-p0014",
+      "status": "full_read",
+      "documentId": "text00269",
+      "sha256": "2745a6b8d9058c01d4fb8679a18ae6435b50fd0c59ed953718c5fe6006902d6b",
+      "href": "OEBPS/text00269.html"
+    },
+    {
+      "heading": "第一章",
+      "paragraphs": 88,
+      "readParagraphRange": "p0001-p0088",
+      "status": "full_read",
+      "documentId": "text00270",
+      "sha256": "94bfc2e49d2abe7d777ea0afd1014dbe8757d228e6daaf44d0b46c16e5ca7484",
+      "href": "OEBPS/text00270.html"
+    },
+    {
+      "heading": "第二章",
+      "paragraphs": 103,
+      "readParagraphRange": "p0001-p0103",
+      "status": "full_read",
+      "documentId": "text00271",
+      "sha256": "afcb9f6e17d2e57aeee2a8cf8410211f56209bd7656c2d12e5990333112a4d6a",
+      "href": "OEBPS/text00271.html"
+    },
+    {
+      "heading": "第三章",
+      "paragraphs": 69,
+      "readParagraphRange": "p0001-p0069",
+      "status": "full_read",
+      "documentId": "text00272",
+      "sha256": "ebc74246636007d2dfdaab434992e6fa99147ff343587a84f0dd2b08979f2286",
+      "href": "OEBPS/text00272.html"
+    },
+    {
+      "heading": "第四章",
+      "paragraphs": 49,
+      "readParagraphRange": "p0001-p0049",
+      "status": "full_read",
+      "documentId": "text00273",
+      "sha256": "b20942881f6cccf3817d7629b338209cbcfe0403680b11e2ffa3fa8fc844ef91",
+      "href": "OEBPS/text00273.html"
+    },
+    {
+      "heading": "第五章",
+      "paragraphs": 76,
+      "readParagraphRange": "p0001-p0076",
+      "status": "full_read",
+      "documentId": "text00274",
+      "sha256": "9c9b9b4f81467ca05c2651fef4084dd130db5f621527025f5551bc1e5285229e",
+      "href": "OEBPS/text00274.html"
+    },
+    {
+      "heading": "第六章",
+      "paragraphs": 67,
+      "readParagraphRange": "p0001-p0067",
+      "status": "full_read",
+      "documentId": "text00275",
+      "sha256": "ca58ebd70507cbda1c285a5e9cdf8e8de26a694a334bcb8e3d2cf198f595e8b3",
+      "href": "OEBPS/text00275.html"
+    },
+    {
+      "heading": "第七章",
+      "paragraphs": 70,
+      "readParagraphRange": "p0001-p0070",
+      "status": "full_read",
+      "documentId": "text00276",
+      "sha256": "3b11229c7c62bccedb32a44bdebdf7d90288cd182f81a98360ff0d543ab77c7b",
+      "href": "OEBPS/text00276.html"
+    },
+    {
+      "heading": "第八章",
+      "paragraphs": 77,
+      "readParagraphRange": "p0001-p0077",
+      "status": "full_read",
+      "documentId": "text00277",
+      "sha256": "f8121fe57d432a7b964399a70f67173cc84f4f622c567e6c86cb64a06bcddf37",
+      "href": "OEBPS/text00277.html"
+    },
+    {
+      "heading": "第九章",
+      "paragraphs": 63,
+      "readParagraphRange": "p0001-p0063",
+      "status": "full_read",
+      "documentId": "text00278",
+      "sha256": "4484040609fc24ebf178498d733ac8251c95e14837e3bf728a898e940c393d5d",
+      "href": "OEBPS/text00278.html"
+    },
+    {
+      "heading": "第十章",
+      "paragraphs": 75,
+      "readParagraphRange": "p0001-p0075",
+      "status": "full_read",
+      "documentId": "text00279",
+      "sha256": "7c7547070c26cbc718b72b5366554e799d84bcdb4a8a62c7ebf7ec621a78be56",
+      "href": "OEBPS/text00279.html"
+    },
+    {
+      "heading": "第十一章",
+      "paragraphs": 74,
+      "readParagraphRange": "p0001-p0074",
+      "status": "full_read",
+      "documentId": "text00280",
+      "sha256": "df4fa48bee02e01e1dde5822e55839522fc8958b9772a490138c1ca2bf5238bc",
+      "href": "OEBPS/text00280.html"
+    },
+    {
+      "heading": "第十二章",
+      "paragraphs": 73,
+      "readParagraphRange": "p0001-p0073",
+      "status": "full_read",
+      "documentId": "text00281",
+      "sha256": "8422d2094be024dba5f7a98d44c344306ad5576dd5996e3ee019e5deed754f6c",
+      "href": "OEBPS/text00281.html"
+    },
+    {
+      "heading": "第十三章",
+      "paragraphs": 77,
+      "readParagraphRange": "p0001-p0077",
+      "status": "full_read",
+      "documentId": "text00282",
+      "sha256": "cd305b092ea459a6964ed5002cfb9c8186093ba553b7831d3dfe365dc9146ac8",
+      "href": "OEBPS/text00282.html"
+    },
+    {
+      "heading": "第十四章",
+      "paragraphs": 87,
+      "readParagraphRange": "p0001-p0087",
+      "status": "full_read",
+      "documentId": "text00283",
+      "sha256": "76a19bab2c5e4a73355fb6330183ec41660208884057852eeaf15f4e69a2f7d0",
+      "href": "OEBPS/text00283.html"
+    },
+    {
+      "heading": "第十五章",
+      "paragraphs": 76,
+      "readParagraphRange": "p0001-p0076",
+      "status": "full_read",
+      "documentId": "text00284",
+      "sha256": "0a8b2fac7acc6fc88fb202fc4d7f8e8330e1e0e16df57b698dc8ab0200f37193",
+      "href": "OEBPS/text00284.html"
+    },
+    {
+      "heading": "第十六章",
+      "paragraphs": 88,
+      "readParagraphRange": "p0001-p0088",
+      "status": "full_read",
+      "documentId": "text00285",
+      "sha256": "80c834475ec3b12b478efb327bdbcb1a72fc0e464d8acd5599263f0f064e049c",
+      "href": "OEBPS/text00285.html"
+    },
+    {
+      "heading": "第十七章",
+      "paragraphs": 60,
+      "readParagraphRange": "p0001-p0060",
+      "status": "full_read",
+      "documentId": "text00286",
+      "sha256": "69ebea1aba0318ff353c00d3d016fe16c10807799306518dfdca0473e3acea2e",
+      "href": "OEBPS/text00286.html"
+    },
+    {
+      "heading": "第十八章",
+      "paragraphs": 78,
+      "readParagraphRange": "p0001-p0078",
+      "status": "full_read",
+      "documentId": "text00287",
+      "sha256": "ef70fff6230e9e72b5c029ce9e0b59853bc81a2e17d4428cde298a0426f6b7c5",
+      "href": "OEBPS/text00287.html"
+    },
+    {
+      "heading": "第十九章",
+      "paragraphs": 80,
+      "readParagraphRange": "p0001-p0080",
+      "status": "full_read",
+      "documentId": "text00288",
+      "sha256": "83fc842ec2ebdc72a17b9f6096d1e07bee3806043cddff44e677ec72bdf13b46",
+      "href": "OEBPS/text00288.html"
+    },
+    {
+      "heading": "第二十章",
+      "paragraphs": 78,
+      "readParagraphRange": "p0001-p0078",
+      "status": "full_read",
+      "documentId": "text00289",
+      "sha256": "4e26115758e220f621d4be59ee4826636e8afd542e79e2c75b3d3fe1073a3dd7",
+      "href": "OEBPS/text00289.html"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "bookId": "16",
+  "title": "浩劫：灾变的前奏",
+  "sourcePath": "E:\\魔兽官方小说\\16 浩劫：灾变的前奏.epub",
+  "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+  "documents": [
+    {
+      "documentId": "text00438",
+      "href": "OEBPS/text00438.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00438.txt",
+      "sha256": "bba854337a121abfd13327251c38d301cd0d6abcf1eab0c9a0b3cd1c4f26e0f3"
+    },
+    {
+      "documentId": "text00439",
+      "href": "OEBPS/text00439.html",
+      "paragraphs": 7,
+      "characters": 217,
+      "heading": "版权信息",
+      "path": "source/text00439.txt",
+      "sha256": "571d8f0ff294feb3fd69a6617ecd5f33d667797e6ed57ae4cfaf3ead96fd85b8"
+    },
+    {
+      "documentId": "text00440",
+      "href": "OEBPS/text00440.html",
+      "paragraphs": 45,
+      "characters": 1087,
+      "heading": "浩劫：灾变的前奏",
+      "path": "source/text00440.txt",
+      "sha256": "017c333d86e637499625000bc502a295001076f61363a62dba6b6bbd32589adf"
+    },
+    {
+      "documentId": "text00441",
+      "href": "OEBPS/text00441.html",
+      "paragraphs": 3,
+      "characters": 497,
+      "heading": "谨以本书献给我优秀而忠实的读者们。是你们让《阿尔萨斯：迈向冰封王座》成为暴雪（和我自己）的第一本《纽约时报》畅销书，是你们让我能够有机会从事这份我深爱着的工作。我会孜孜不倦地继续为你们创作最棒的书籍。",
+      "path": "source/text00441.txt",
+      "sha256": "aa980149b0e6d90cfa74bd7f05413f3e6d413c0a8a22544233639a84da96b6ca"
+    },
+    {
+      "documentId": "text00442",
+      "href": "OEBPS/text00442.html",
+      "paragraphs": 6,
+      "characters": 722,
+      "heading": "导读",
+      "path": "source/text00442.txt",
+      "sha256": "7a00762d5a81f2a0065f825409838d59b209353d9df1b5c80f719da2b5885847"
+    },
+    {
+      "documentId": "text00443",
+      "href": "OEBPS/text00443.html",
+      "paragraphs": 28,
+      "characters": 3087,
+      "heading": "序章",
+      "path": "source/text00443.txt",
+      "sha256": "da8230c4871331021992f9f11c2246eb69a8eee87a29c8bd1b5a36f83187b017"
+    },
+    {
+      "documentId": "text00444",
+      "href": "OEBPS/text00444.html",
+      "paragraphs": 62,
+      "characters": 7504,
+      "heading": "上篇 大地将会哭泣……",
+      "path": "source/text00444.txt",
+      "sha256": "28f4bfb052f156763d1196b4b2b0bd591b47f6e5f00d9747679171ad926dc7eb"
+    },
+    {
+      "documentId": "text00445",
+      "href": "OEBPS/text00445.html",
+      "paragraphs": 49,
+      "characters": 5193,
+      "heading": "第二章",
+      "path": "source/text00445.txt",
+      "sha256": "a8826bef97a53cf0b1b7ef3ef29533b4b6bbcb8d31bd74104bd4b1ad0a859d5f"
+    },
+    {
+      "documentId": "text00446",
+      "href": "OEBPS/text00446.html",
+      "paragraphs": 80,
+      "characters": 8109,
+      "heading": "第三章",
+      "path": "source/text00446.txt",
+      "sha256": "0c262996a9eb0728790d4af72d92f218ce599d4a09f76bacb706bbfca27935fa"
+    },
+    {
+      "documentId": "text00447",
+      "href": "OEBPS/text00447.html",
+      "paragraphs": 87,
+      "characters": 10460,
+      "heading": "第四章",
+      "path": "source/text00447.txt",
+      "sha256": "bcf6c1471bff58b41d1858bb13262762fb8477300b191d47142bf30ee348d0ba"
+    },
+    {
+      "documentId": "text00448",
+      "href": "OEBPS/text00448.html",
+      "paragraphs": 40,
+      "characters": 3893,
+      "heading": "第五章",
+      "path": "source/text00448.txt",
+      "sha256": "3cef8a216bc50288d425997fe2882af212ba1df443c44c653935e557e804d565"
+    },
+    {
+      "documentId": "text00449",
+      "href": "OEBPS/text00449.html",
+      "paragraphs": 59,
+      "characters": 5985,
+      "heading": "第六章",
+      "path": "source/text00449.txt",
+      "sha256": "4a9397a4f473450aae480ae6a5edd4f58bfe04447894e23f56732ca709639b35"
+    },
+    {
+      "documentId": "text00450",
+      "href": "OEBPS/text00450.html",
+      "paragraphs": 90,
+      "characters": 6629,
+      "heading": "第七章",
+      "path": "source/text00450.txt",
+      "sha256": "8c5b41c6b7f6a5454f2cd304de23a1aa06dd77b70580c1eef24e6b4e14d90921"
+    },
+    {
+      "documentId": "text00451",
+      "href": "OEBPS/text00451.html",
+      "paragraphs": 85,
+      "characters": 8015,
+      "heading": "第八章",
+      "path": "source/text00451.txt",
+      "sha256": "fbc9b48636614935da89a0401ef7a62513e5ec89bc29478733a5a26e687e4438"
+    },
+    {
+      "documentId": "text00452",
+      "href": "OEBPS/text00452.html",
+      "paragraphs": 74,
+      "characters": 6237,
+      "heading": "第九章",
+      "path": "source/text00452.txt",
+      "sha256": "0cb87201c419cfeeb151be2a309d851e944ab698e217838bf66a6027877e336d"
+    },
+    {
+      "documentId": "text00453",
+      "href": "OEBPS/text00453.html",
+      "paragraphs": 92,
+      "characters": 9112,
+      "heading": "第十章",
+      "path": "source/text00453.txt",
+      "sha256": "ba995df16bef78d97365bc73d2e2ade984734c2a806066d3aea2a831acf429a2"
+    },
+    {
+      "documentId": "text00454",
+      "href": "OEBPS/text00454.html",
+      "paragraphs": 83,
+      "characters": 7789,
+      "heading": "第十一章",
+      "path": "source/text00454.txt",
+      "sha256": "9e8a24a63ef7958436094afce59177f0514918896e375b6efbd7671b5c9b1d2c"
+    },
+    {
+      "documentId": "text00455",
+      "href": "OEBPS/text00455.html",
+      "paragraphs": 106,
+      "characters": 8216,
+      "heading": "第十二章",
+      "path": "source/text00455.txt",
+      "sha256": "7b069261c57ebf1532c25ee6470214d899b76c5a67ba8d0c41dac6bdd6723132"
+    },
+    {
+      "documentId": "text00456",
+      "href": "OEBPS/text00456.html",
+      "paragraphs": 62,
+      "characters": 6432,
+      "heading": "第十三章",
+      "path": "source/text00456.txt",
+      "sha256": "d4e6a118a5a0f6af020c25a5302fd46fd74bb42aacf775046b25ef60d1340e1c"
+    },
+    {
+      "documentId": "text00457",
+      "href": "OEBPS/text00457.html",
+      "paragraphs": 62,
+      "characters": 6062,
+      "heading": "第十四章",
+      "path": "source/text00457.txt",
+      "sha256": "a50d6398757295fc40b055155aaa5f33a2601c252970d33e28108b751f682d2d"
+    },
+    {
+      "documentId": "text00458",
+      "href": "OEBPS/text00458.html",
+      "paragraphs": 49,
+      "characters": 4968,
+      "heading": "第十五章",
+      "path": "source/text00458.txt",
+      "sha256": "99dc6cca526391107e42f0ac87fcf9f6bc7708069e1a0c796ba0cc2402cd72a8"
+    },
+    {
+      "documentId": "text00459",
+      "href": "OEBPS/text00459.html",
+      "paragraphs": 49,
+      "characters": 5772,
+      "heading": "第十六章",
+      "path": "source/text00459.txt",
+      "sha256": "26c7165a89dae0e0ea1b4a94e1a5751babec38f218d271bffdb8d5ec2155f61a"
+    },
+    {
+      "documentId": "text00460",
+      "href": "OEBPS/text00460.html",
+      "paragraphs": 71,
+      "characters": 5797,
+      "heading": "下篇 世界将会崩毁……",
+      "path": "source/text00460.txt",
+      "sha256": "08257f17132619a2c8894c1cb9288b80f14004f4c1860aa960dad1996f7ef511"
+    },
+    {
+      "documentId": "text00461",
+      "href": "OEBPS/text00461.html",
+      "paragraphs": 78,
+      "characters": 6865,
+      "heading": "第十八章",
+      "path": "source/text00461.txt",
+      "sha256": "f7b9d787159f3f4b6117d3c8e9672ec7fdf789b84ee2f711c674ef77488cc62d"
+    },
+    {
+      "documentId": "text00462",
+      "href": "OEBPS/text00462.html",
+      "paragraphs": 62,
+      "characters": 5448,
+      "heading": "第十九章",
+      "path": "source/text00462.txt",
+      "sha256": "706a61623d651106a46e762620086cd9a7191030d6aeea86eec4dd9feb961b89"
+    },
+    {
+      "documentId": "text00463",
+      "href": "OEBPS/text00463.html",
+      "paragraphs": 74,
+      "characters": 7132,
+      "heading": "第二十章",
+      "path": "source/text00463.txt",
+      "sha256": "f1d337d4c2a5fd987a159969634d26feee5d31ea78d1ad7bdeb353e5175f5416"
+    },
+    {
+      "documentId": "text00464",
+      "href": "OEBPS/text00464.html",
+      "paragraphs": 87,
+      "characters": 8915,
+      "heading": "第二十一章",
+      "path": "source/text00464.txt",
+      "sha256": "533055f5607296b77be3b502cb0bcec69f4dcd1658d409cd39aef74244451374"
+    },
+    {
+      "documentId": "text00465",
+      "href": "OEBPS/text00465.html",
+      "paragraphs": 110,
+      "characters": 10855,
+      "heading": "第二十二章",
+      "path": "source/text00465.txt",
+      "sha256": "3093e5fe9c9abbfc5fe668aae3581e3d245ada9c784546bd1840a146f0099661"
+    },
+    {
+      "documentId": "text00466",
+      "href": "OEBPS/text00466.html",
+      "paragraphs": 81,
+      "characters": 7341,
+      "heading": "第二十三章",
+      "path": "source/text00466.txt",
+      "sha256": "fcd37b033b2e840e744c6d4edb2352618bef25b897abd2c07671a76eeb69d89b"
+    },
+    {
+      "documentId": "text00467",
+      "href": "OEBPS/text00467.html",
+      "paragraphs": 81,
+      "characters": 6537,
+      "heading": "第二十四章",
+      "path": "source/text00467.txt",
+      "sha256": "af782afb5327de91ac943c500fad3431fd713f11613cd992c66326e32e712258"
+    },
+    {
+      "documentId": "text00468",
+      "href": "OEBPS/text00468.html",
+      "paragraphs": 108,
+      "characters": 9819,
+      "heading": "第二十五章",
+      "path": "source/text00468.txt",
+      "sha256": "b0126cb717658b0ca0987e8bf08e2dc045cb2f56a73052c80616684e541e2777"
+    },
+    {
+      "documentId": "text00469",
+      "href": "OEBPS/text00469.html",
+      "paragraphs": 106,
+      "characters": 9978,
+      "heading": "第二十六章",
+      "path": "source/text00469.txt",
+      "sha256": "1325212e209a249b694ae380577a566409816d5981cb328b8876ce6009a1f370"
+    },
+    {
+      "documentId": "text00470",
+      "href": "OEBPS/text00470.html",
+      "paragraphs": 100,
+      "characters": 9497,
+      "heading": "第二十七章",
+      "path": "source/text00470.txt",
+      "sha256": "5b2a65adeea57b34feccaba5b51959c78683b0d2da3571681de624409df192fa"
+    },
+    {
+      "documentId": "text00471",
+      "href": "OEBPS/text00471.html",
+      "paragraphs": 82,
+      "characters": 7653,
+      "heading": "第二十八章",
+      "path": "source/text00471.txt",
+      "sha256": "19f0e4ea606103718003c867f025a523d2cf8177b52cac981bebb0036762bb87"
+    },
+    {
+      "documentId": "text00472",
+      "href": "OEBPS/text00472.html",
+      "paragraphs": 79,
+      "characters": 7752,
+      "heading": "第二十九章",
+      "path": "source/text00472.txt",
+      "sha256": "54e3a6b145a7aa1090297821327758cdf24949a75a4c1b4683abeead83aa6954"
+    },
+    {
+      "documentId": "text00473",
+      "href": "OEBPS/text00473.html",
+      "paragraphs": 81,
+      "characters": 7825,
+      "heading": "第三十章",
+      "path": "source/text00473.txt",
+      "sha256": "7b6c35313d0df0b96a332d28f4d992393aacb6705c039cb3957f3b869c47a127"
+    },
+    {
+      "documentId": "text00474",
+      "href": "OEBPS/text00474.html",
+      "paragraphs": 129,
+      "characters": 11803,
+      "heading": "第三十一章",
+      "path": "source/text00474.txt",
+      "sha256": "f67c3bdc5b2b19a8dfca7ebbd34e87f09e539276d664e4f4f9989711adce4b1a"
+    },
+    {
+      "documentId": "text00475",
+      "href": "OEBPS/text00475.html",
+      "paragraphs": 64,
+      "characters": 6434,
+      "heading": "第三十二章",
+      "path": "source/text00475.txt",
+      "sha256": "a9b9ebbea26339af5af1c56a2fd3c7b0f97fa9b1b88176e6d3ad23a2daa02e53"
+    },
+    {
+      "documentId": "text00476",
+      "href": "OEBPS/text00476.html",
+      "paragraphs": 20,
+      "characters": 1529,
+      "heading": "尾声",
+      "path": "source/text00476.txt",
+      "sha256": "7751f4310cd9e3df6b2ddba95e5066142124a82b007a1530fb2906ad3c12dabc"
+    },
+    {
+      "documentId": "text00477",
+      "href": "OEBPS/text00477.html",
+      "paragraphs": 3,
+      "characters": 357,
+      "heading": "注释",
+      "path": "source/text00477.txt",
+      "sha256": "85b055a68301f6d2e76af88350daa7cbf46da82e624e42188dbe92fc11c378f8"
+    },
+    {
+      "documentId": "text00478",
+      "href": "OEBPS/text00478.html",
+      "paragraphs": 4,
+      "characters": 459,
+      "heading": "战斗仍在继续",
+      "path": "source/text00478.txt",
+      "sha256": "218b0f3cc00f822d4c053b663ec86698e35c6848ecc80e1869dadfc3c5dc4615"
+    },
+    {
+      "documentId": "text00479",
+      "href": "OEBPS/text00479.html",
+      "paragraphs": 16,
+      "characters": 2138,
+      "heading": "延展阅读",
+      "path": "source/text00479.txt",
+      "sha256": "e28dbe3ffd6b589759a89debf5500b44dbd888fdb58c7a4a0632edc130e74c21"
+    },
+    {
+      "documentId": "text00480",
+      "href": "OEBPS/text00480.html",
+      "paragraphs": 2,
+      "characters": 182,
+      "heading": "关于作者",
+      "path": "source/text00480.txt",
+      "sha256": "0fe5c8fbcddf3c7d68daba31fe487dc13e289364dd460e399dd3c601510463a8"
+    }
+  ],
+  "readStatus": "pending"
+}

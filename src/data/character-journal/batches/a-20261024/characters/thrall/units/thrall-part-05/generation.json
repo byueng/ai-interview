@@ -1,0 +1,26 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-05",
+  "tool": "image_gen.imagegen",
+  "mode": "built_in",
+  "actualPrompt": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 在偏见、查证与强制之间. Single moment at Northwatch battlefield after Thrall arrives to command his forces to stop fighting: green orc chief Thrall with blue eyes and black braids stands firmly with the square-headed Doomhammer raised overhead as he declares his command, not striking anyone; weary orc and human soldiers in the background lower weapons, remain separate and wary. Understated dark armor with no invented ornate heraldry, no post-Cataclysm shaman robe. Distant stone fort and coastal ground, dark grey storm clouds, wet sand after the great wave receded, an orc zeppelin and its rope ladder distant overhead, not a glorious victory. Battle has already had consequences, show exhaustion and dropped shields but no gore. No execution, no treaty scene, no magical demon looming overhead. Moral seriousness, restraint backed by power.",
+  "transparent_background": false,
+  "originalPath": "C:\\Users\\76353\\.codex\\generated_images\\01a169e8-36dc-7d10-9c57-8ae23ac247fd\\exec-0457ca8b-29af-48de-b661-49de99996a25.png",
+  "finalPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\05-stained-glass.png",
+  "sha256": "0271da8ca327515983d4451ed1e2ca9794a7629cf5ad4d38d78398428d34f360",
+  "subtitle": {
+    "text": "在偏见、查证与强制之间",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "storySha256": "f5a937cfda08685b11a75a99c63107458cf2a5d0e4035333b1a8aaad187f1dcf",
+  "promptSource": "characters/thrall/image-prompts.json",
+  "attempts": 1,
+  "status": "generated_visual_review_passed",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  }
+}

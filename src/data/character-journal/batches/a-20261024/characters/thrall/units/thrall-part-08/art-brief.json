@@ -1,0 +1,48 @@
+{
+  "unitId": "thrall-part-08",
+  "subtitle": {
+    "text": "无需功绩，也值得被爱",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "storySha256": "249c08502fdfc05f0f9d37566163a1d4bbdfe3b14296c1e98cc6d6fd7e2c70cf",
+  "artScene": {
+    "scene": "菲拉斯古树下，萨尔弯腰拾起橡果后将它合拢在手心，戴沙林在旁。只画这一实际瞬间，不叠加父母或塔蕾莎。",
+    "sourceRefs": [
+      "18/text00530:p0093-p0097"
+    ],
+    "environmentRefs": [
+      "18/text00530:p0072-p0079"
+    ],
+    "costumeAndWeapons": {
+      "thrall": "绿色兽人，简朴萨满长袍；颜色未由本段指定，不当作原著事实。毁灭之锤为此阶段随身武器，可不入画，不能持锤又双手捧橡果。",
+      "supportRefs": [
+        "18/text00526:p0022",
+        "18/text00530:p0019-p0030"
+      ],
+      "other": "戴沙林此刻为绿发暗夜精灵外形；不画成巨龙。",
+      "otherRefs": [
+        "18/text00530:p0030",
+        "18/text00530:p0078-p0082"
+      ]
+    },
+    "emotion": "敬畏、珍视、谦卑；以照拂一个小生命的具体行动映照人物价值不只取决于伟业。",
+    "avoid": [
+      "史诗战场",
+      "将橡果画成神器武器",
+      "混入未在场家人",
+      "幽灵或跨时线人物拼贴"
+    ],
+    "medium": "一整幅中世纪彩绘玻璃：铅条分格、透光彩色玻璃、无嵌入文字；非油画、非数字写实、非多卡片拼贴",
+    "subtitle": "无需功绩，也值得被爱",
+    "subtitleOrigin": "editorial",
+    "imageMode": "chapter_scene",
+    "status": "scene_suggestion_for_coordinator_review"
+  },
+  "style": "中世纪彩绘玻璃；面孔、人物和全环境均为玻璃铅条；无嵌入文字",
+  "sourceUncertainty": "未被原文限定的衣纹、色样、取景与布景属艺术处理，不作为史实",
+  "status": "approved_for_generation",
+  "prompt": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 无需功绩，也值得被爱. Single moment beneath an ancient living tree in Feralas: adult green-skinned orc Thrall with blue eyes and black braids, simple earth-brown shaman robe, reverently holding a small ordinary acorn he has just picked up from the ground. Nearby Desharin appears as a green-haired purple-skinned male night elf, long ears, watching quietly; NOT a dragon. Massive old tree trunk and deep forest foliage dominate environment; quiet shafts of filtered green and amber light. Small acorn, not glowing magical weapon. Thrall's face shows humility and wonder. No armor, no family apparitions, no timeline collage, no hammer held in his occupied hands."
+}

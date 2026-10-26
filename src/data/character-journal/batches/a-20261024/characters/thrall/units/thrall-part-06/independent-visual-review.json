@@ -1,0 +1,31 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-06",
+  "reviewer": "thrall_book13",
+  "reviewType": "independent_visual_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\06-stained-glass.png",
+  "imageSha256": "f18b58fc8b69eee6f0bd7450e30a09f1a5dcb963fd39093d163cf594d2c3a1e7",
+  "storySha256": "839a4c832e46ca2537cd35f78cbd0feb23b5b1ea65ede88d3904d035c9762656",
+  "profileSha256": "71fc837bc3c624f080bd2ccfe5bc7b79b20297413ff2d462f43b1955772b9f8a",
+  "artBriefSha256": "6fa984cb2d12341a050c2e9565f354d948484c9dc4df2a93f2ae779b7bcbe296",
+  "promptSha256": "227e7710a3f9b490f5188cde8b5f668633221056046068e12256953558149ea7",
+  "subtitle": "大地将会哭泣……",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "夜间奥格瑞玛枯树恶魔头骨旁，两人争论，凯恩抱臂，萨尔着甲；无死者、毒药或后期袍装。面孔铅条与情绪清晰。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。"
+}

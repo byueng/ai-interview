@@ -1,0 +1,31 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-11",
+  "reviewer": "thrall_book13",
+  "reviewType": "independent_visual_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\11-stained-glass.png",
+  "imageSha256": "1fb9f290b12e1d00685ecc51f490fbf6e49c14e2e25935b2d223a8b0b32ae7df",
+  "storySha256": "02556fb765935cdda4ba5e1595ffc4342b0a9fa323efbb095abfaa3789d0f5de",
+  "profileSha256": "1a4b71f376be60414608d70eaf1f0763b69d24b425bc0179d88f711c2900a133",
+  "artBriefSha256": "c12995f6217d67bf6d19f566bc0725683b912c18a61aa383d4ef32fcf1756b52",
+  "promptSha256": "e5967d28f1911e4f1d43a0eccc0f4bad68e904dd10f88abd1030c24fd9f6f97c",
+  "subtitle": "承认可能的自己，承担未完的选择",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "白发吉安娜与袍装萨尔轻握手，神情疲惫克制；无萨尔施法治疗、武器、王位或分身。属于关系修复空间而非政治庆典。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。"
+}

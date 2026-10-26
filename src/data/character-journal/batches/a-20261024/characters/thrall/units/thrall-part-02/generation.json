@@ -1,0 +1,20 @@
+{
+  "unitId": "thrall-part-02",
+  "method": "built_in_image_gen",
+  "operation": "edit",
+  "prompt": "Edit this illustration, keeping the leaded stained-glass medium across ALL faces, hands, characters and background, young Thrall's face, the nonviolent refusal composition, child kept clothed and no visible wounds. Correct the location: the entire scene is INSIDE a dim rocky CAVE, not an outdoor tent camp. Remove trees, tents, lake and blue sky; replace with dark rock glass planes and torchlight. Correct Grom at left: deep green skin, RED eyes, a very prominent huge CHARCOAL-BLACK TATTOOED LOWER JAW, long black braids, many STEEL EAR RINGS, red-and-black leather clothing with hanging iron chains. He has just emerged from a hide-covered INNER CAVE DOORWAY. He is approving Thrall's refusal but remains stern. Thrall's empty hands and BLUE eyes unchanged; keep no Doomhammer or chief armor. Child seated on cave ground, loosely bound wrists and ankles; no weapon near child, no harm depicted. No text, no watermark.",
+  "currentArtDirection": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance only: 血脉之外，学会倾听. One continuous scene INSIDE a dim rocky CAVE: immediately after young Thrall refuses to kill the captive human boy, Grom Hellscream emerges from a hide-covered inner cave doorway and approves his courage. Thrall is a young clean-shaven green orc with BLUE eyes and black hair, plain worn unadorned clothing, empty hands. The clothed human boy remains nearby on the ground, wrists and ankles bound, dirt on clothes, no visible wounds or blood; no weapons pointed at him. Grom is taller, deep green skin, RED eyes, very prominent huge CHARCOAL-BLACK TATTOOED LOWER JAW, long black braids, many steel ear rings, RED AND BLACK LEATHER clothing with hanging iron chains. Keep Grom visually distinct from Thrall. Torchlight in cave; no outdoor tents, no blue sky, no village or landscape. Neither young Thrall's inherited armor nor Doomhammer present. Tense moral courage giving way to recognition, no sadistic spectacle.",
+  "subtitle": {
+    "text": "血脉之外，学会倾听",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "pending"
+  },
+  "sourceOutput": "C:\\Users\\76353\\.codex\\generated_images\\01a169ce-f6d8-7743-baae-e8d14ce0464b\\exec-c74717e1-d54d-442f-ae38-ca2fdb4ddd33.png",
+  "finalPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\02-stained-glass.png",
+  "finalSha256": "c0e990910af652e3a70785252c7bb5166034964ad95501dfc9c4492eac54dbaf",
+  "storySha256": "379d9db6900b5279977b7957aadc8ba52e1f85d680cd0e47319d75a68a75fcfe",
+  "status": "generated_visual_review_passed",
+  "editInput": "images/02-stained-glass-superseded-v1.png"
+}

@@ -1,0 +1,31 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-07",
+  "reviewer": "thrall_book13",
+  "reviewType": "independent_visual_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\07-stained-glass.png",
+  "imageSha256": "fffd7c983d53a161935893eac6235829d5ff78c30d9c9302ff9dbf150d25a4a2",
+  "storySha256": "02025eb80364e852d27c9ec762dd912527b128fd476d6a8f63fa7d7b3616b485",
+  "profileSha256": "4d643d99716061e53b44bfe5857fa67e5853586580542acf345cd22260ce5c92",
+  "artBriefSha256": "40661a1fa0a43acf6856ab2fb0a436ced0721e7b81795ecfacef51ad94d7be65",
+  "promptSha256": "417fc884a799b7e8cc1b2481f210b98aed98a4ebdc75648775ea1a642f700e93",
+  "subtitle": "世界将会崩毁……",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "夕阳下未点燃火葬堆；凯恩为牛头人遗体，萨尔棕袍念珠赤脚、掌托小片木矛，完整黑甲放旁。无灵魂、额外旁观者或举锤，符合自主卸甲与悲痛。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。"
+}

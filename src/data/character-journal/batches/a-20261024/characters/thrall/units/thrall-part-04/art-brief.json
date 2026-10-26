@@ -1,0 +1,39 @@
+{
+  "unitId": "thrall-part-04",
+  "subtitle": {
+    "text": "盟友使一个民族走向共同体",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "storySha256": "d9db214f504533363dc21bac4b4f91ed9d2261b22a306c8df6c4582b5d3a38ae",
+  "artScene": {
+    "scene": "先知促成萨尔与吉安娜休战合作；只呈现三者会面这一有据事件，不添加签约、握手、下跪或战斗。",
+    "sourceRefs": [
+      "26/text00876:p0001-p0010"
+    ],
+    "clothingAndWeapons": "当时为大酋长阶段，不能使用灾变后棕袍与念珠。该选段证据未记录具体服装、武器持握和建筑细节，建议以上半身会面表现为主，不突出未经核实的装备；若需完整装备造型，须由协调员定点补核。",
+    "mood": "戒心尚在，合作开始；沉静、审慎的希望。",
+    "visualLimits": [
+      "不混入暗矛、牛头人或海加尔战斗形成跨事件拼贴",
+      "不写成已经签订正式盟约"
+    ],
+    "medium": "一张完整的中世纪彩绘玻璃作品；铅条分隔玻璃色块，不是普通绘画叠加窗框",
+    "imageMode": "chapter_scene",
+    "subtitle": {
+      "text": "盟友使一个民族走向共同体",
+      "origin": "editorial",
+      "sourceRef": null,
+      "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+      "reviewStatus": "pending"
+    },
+    "embeddedText": false,
+    "status": "scene_proposal_for_art_director_not_generated"
+  },
+  "style": "中世纪彩绘玻璃；面孔、人物和全环境均为玻璃铅条；无嵌入文字",
+  "sourceUncertainty": "未被原文限定的衣纹、色样、取景与布景属艺术处理，不作为史实",
+  "status": "approved_for_generation",
+  "prompt": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 盟友使一个民族走向共同体. One scene: the Prophet Medivh brings Thrall and Jaina together to make a truce during the journey in Kalimdor. Three adults only: young adult green orc Thrall with blue eyes and black braids at left, blonde human mage Jaina in modest blue-white clothing at right, a hooded older human prophet between and slightly behind. They listen cautiously, no handshake or signed treaty. Thrall is still chief: understated dark armor visible only at shoulder, no later shaman robe or prayer beads. Inside the mountaintop CAVE in Stonetalon Mountains, dark rock walls and an opening with distant rock peaks; armed followers are only indistinct silhouettes in the far background. Deep blue and amber light slowly reaching all three, guarded hope. No battle montage, no extra allied species.",
+  "targetedVerification": "已定点核对原文场景位置、时段及动作，提示词优先于初始scene提案中的宽泛布景。"
+}

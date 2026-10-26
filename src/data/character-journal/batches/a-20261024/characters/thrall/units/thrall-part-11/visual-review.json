@@ -1,0 +1,28 @@
+{
+  "unitId": "thrall-part-11",
+  "status": "passed",
+  "reviewer": "thrall_book19_generator_self_review",
+  "imageSha256": "1fb9f290b12e1d00685ecc51f490fbf6e49c14e2e25935b2d223a8b0b32ae7df",
+  "storySha256": "02556fb765935cdda4ba5e1595ffc4342b0a9fa323efbb095abfaa3789d0f5de",
+  "subtitle": "承认可能的自己，承担未完的选择",
+  "checks": {
+    "fullFrameStainedGlass": true,
+    "facialLeadCamesVisible": true,
+    "handsReadable": true,
+    "noTextOrWatermark": true,
+    "goldenStreakOnWhiteHair": true,
+    "singleScene": true,
+    "approvedSceneMatch": true
+  },
+  "notes": [
+    "疲惫二人握手；没有治疗光束或萨尔施法，含有限希望而非庆典。"
+  ],
+  "limitations": [
+    "衣纹、玻璃色样及非特定岩岸/庭院细节为艺术处理，不增加原著剧情。"
+  ],
+  "method": "view_image inspection of saved final PNG",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  }
+}

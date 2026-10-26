@@ -1,0 +1,523 @@
+{
+  "runId": "batch-a-20261024-01",
+  "bookId": "05",
+  "title": "部落的崛起",
+  "status": "completed",
+  "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+  "sourcePath": "E:\\魔兽官方小说\\05 部落的崛起.epub",
+  "inputVersion": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+  "readMethod": "按manifest顺序完整读取；序章和第1—22章及尾声逐段阅读；封面无文本，导读作者介绍归为副文本",
+  "coverage": [
+    {
+      "documentId": "text00118",
+      "heading": "",
+      "href": "OEBPS/text00118.html",
+      "paragraphs": 0,
+      "readRanges": null,
+      "status": "read_full",
+      "sha256": "e874d639fcba9fbe026a751d717ad73e9cf66ea0a8aa9eddd21b5c7be438e82c"
+    },
+    {
+      "documentId": "text00119",
+      "heading": "版权信息",
+      "href": "OEBPS/text00119.html",
+      "paragraphs": 7,
+      "readRanges": "p0001-p0007",
+      "status": "read_full",
+      "sha256": "1a6f2df58db541131dac6d1f97ca54551bc647220444741a8acd38eff73f74d3"
+    },
+    {
+      "documentId": "text00120",
+      "heading": "部落的崛起",
+      "href": "OEBPS/text00120.html",
+      "paragraphs": 31,
+      "readRanges": "p0001-p0031",
+      "status": "read_full",
+      "sha256": "e462bd213ad38a96b723b03831bff8af89fd893a8bd8f073186b0072ba79c263"
+    },
+    {
+      "documentId": "text00121",
+      "heading": "引言",
+      "href": "OEBPS/text00121.html",
+      "paragraphs": 5,
+      "readRanges": "p0001-p0005",
+      "status": "read_full",
+      "sha256": "178fa1c0075aefa817dff97ddab0fd5e6f8e801bf8dd662cca10f3c4a068aed1"
+    },
+    {
+      "documentId": "text00122",
+      "heading": "导读",
+      "href": "OEBPS/text00122.html",
+      "paragraphs": 7,
+      "readRanges": "p0001-p0007",
+      "status": "read_full",
+      "sha256": "81f6f73d9fcd50cbaf6b94505d79e758d7c3b5c4013a1186258f24e92f92efbc"
+    },
+    {
+      "documentId": "text00123",
+      "heading": "序章",
+      "href": "OEBPS/text00123.html",
+      "paragraphs": 94,
+      "readRanges": "p0001-p0094",
+      "status": "read_full",
+      "sha256": "d00df9294c2b9521195e96bd74289ee207c14d865b8a1aed161e63a9dbd8ef6b"
+    },
+    {
+      "documentId": "text00124",
+      "heading": "第一章",
+      "href": "OEBPS/text00124.html",
+      "paragraphs": 56,
+      "readRanges": "p0001-p0056",
+      "status": "read_full",
+      "sha256": "33d6f2be7deb1c7e1d6f9a252d6cc9363d092563a820b4cd75009ba05ecd511c"
+    },
+    {
+      "documentId": "text00125",
+      "heading": "第二章",
+      "href": "OEBPS/text00125.html",
+      "paragraphs": 87,
+      "readRanges": "p0001-p0087",
+      "status": "read_full",
+      "sha256": "6c3bbe6c4fb91ae3adb8a2522bc133484aee9b19cd5b49e1c0584b15129dfb11"
+    },
+    {
+      "documentId": "text00126",
+      "heading": "第三章",
+      "href": "OEBPS/text00126.html",
+      "paragraphs": 121,
+      "readRanges": "p0001-p0121",
+      "status": "read_full",
+      "sha256": "eef3b80f91f377ede5dc7438f6cd81196aae3d7c08a24499a008ccc2e61d3c53"
+    },
+    {
+      "documentId": "text00127",
+      "heading": "第四章",
+      "href": "OEBPS/text00127.html",
+      "paragraphs": 79,
+      "readRanges": "p0001-p0079",
+      "status": "read_full",
+      "sha256": "440471a6d04df48d1ea2954ebc08cebbe11022bcb7cff3d4de743af1e81ea89e"
+    },
+    {
+      "documentId": "text00128",
+      "heading": "第五章",
+      "href": "OEBPS/text00128.html",
+      "paragraphs": 119,
+      "readRanges": "p0001-p0119",
+      "status": "read_full",
+      "sha256": "46500f65f4fa5b59779aff89eff7c618da7c8e1271047591a662bfd30c5d1cd8"
+    },
+    {
+      "documentId": "text00129",
+      "heading": "第六章",
+      "href": "OEBPS/text00129.html",
+      "paragraphs": 73,
+      "readRanges": "p0001-p0073",
+      "status": "read_full",
+      "sha256": "3b216f8231d44d9402a18bc41539a6764272301db935417e8a066d8262986b5d"
+    },
+    {
+      "documentId": "text00130",
+      "heading": "第七章",
+      "href": "OEBPS/text00130.html",
+      "paragraphs": 64,
+      "readRanges": "p0001-p0064",
+      "status": "read_full",
+      "sha256": "5cfb543a7b0c226f189fcae90e8cf494429cc1e27e6c679003899b44bbe6b29b"
+    },
+    {
+      "documentId": "text00131",
+      "heading": "第八章",
+      "href": "OEBPS/text00131.html",
+      "paragraphs": 86,
+      "readRanges": "p0001-p0086",
+      "status": "read_full",
+      "sha256": "22d834e0cf14911f1eb317eaa9688cfbc0e21a73091a68972fad62cb2a28f3e5"
+    },
+    {
+      "documentId": "text00132",
+      "heading": "第九章",
+      "href": "OEBPS/text00132.html",
+      "paragraphs": 82,
+      "readRanges": "p0001-p0082",
+      "status": "read_full",
+      "sha256": "c74b144e9c6cc0eca84b494f096346a67fc9bc22e5469f3a90922d8d0389b75f"
+    },
+    {
+      "documentId": "text00133",
+      "heading": "第十章",
+      "href": "OEBPS/text00133.html",
+      "paragraphs": 156,
+      "readRanges": "p0001-p0156",
+      "status": "read_full",
+      "sha256": "d7a97b4ce760cf1a0941bb5a8fff1ea9af92d2f0bf7eaea7bda8d4ad24900409"
+    },
+    {
+      "documentId": "text00134",
+      "heading": "第十一章",
+      "href": "OEBPS/text00134.html",
+      "paragraphs": 86,
+      "readRanges": "p0001-p0086",
+      "status": "read_full",
+      "sha256": "59de83c6477cb09b33e86eb03e22d4b14375925edc58a8b02000949fb16c8c46"
+    },
+    {
+      "documentId": "text00135",
+      "heading": "第十二章",
+      "href": "OEBPS/text00135.html",
+      "paragraphs": 70,
+      "readRanges": "p0001-p0070",
+      "status": "read_full",
+      "sha256": "d5ca2e92844e94f8ef64f61f27a59a8fa3eb4f6fcf4a0ec0df87bb55218b7a10"
+    },
+    {
+      "documentId": "text00136",
+      "heading": "第十三章",
+      "href": "OEBPS/text00136.html",
+      "paragraphs": 137,
+      "readRanges": "p0001-p0137",
+      "status": "read_full",
+      "sha256": "229d51205e23f1e012c3ec3aee895ee64055199b6bb0beeb37b79cd4c1043b34"
+    },
+    {
+      "documentId": "text00137",
+      "heading": "第十四章",
+      "href": "OEBPS/text00137.html",
+      "paragraphs": 96,
+      "readRanges": "p0001-p0096",
+      "status": "read_full",
+      "sha256": "0d07e483fbc9cf21abf1c45054be2c72d8d03d9292316694c06999bd8ba77b61"
+    },
+    {
+      "documentId": "text00138",
+      "heading": "第十五章",
+      "href": "OEBPS/text00138.html",
+      "paragraphs": 44,
+      "readRanges": "p0001-p0044",
+      "status": "read_full",
+      "sha256": "1c20dde15a3426c575986e7893ab898ccf7b54f44783255c4dd5d4e86e6f6e72"
+    },
+    {
+      "documentId": "text00139",
+      "heading": "第十六章",
+      "href": "OEBPS/text00139.html",
+      "paragraphs": 71,
+      "readRanges": "p0001-p0071",
+      "status": "read_full",
+      "sha256": "8df6402efccfd54964e11866e3146d9756ac814e7257819b50ed7e28db019616"
+    },
+    {
+      "documentId": "text00140",
+      "heading": "第十七章",
+      "href": "OEBPS/text00140.html",
+      "paragraphs": 69,
+      "readRanges": "p0001-p0069",
+      "status": "read_full",
+      "sha256": "51b371553e8a9b1ac8b851c231d8a350c079af087fa8322c7d342656109cf454"
+    },
+    {
+      "documentId": "text00141",
+      "heading": "第十八章",
+      "href": "OEBPS/text00141.html",
+      "paragraphs": 68,
+      "readRanges": "p0001-p0068",
+      "status": "read_full",
+      "sha256": "f43d8d6038ce44d5d44f95bea8de368154b9d777380c7929f09f877dcdb3e239"
+    },
+    {
+      "documentId": "text00142",
+      "heading": "第十九章",
+      "href": "OEBPS/text00142.html",
+      "paragraphs": 122,
+      "readRanges": "p0001-p0122",
+      "status": "read_full",
+      "sha256": "9392316d0c887e3af3c370e4dc7be83739427a57a693bc08528eb9eac69fd850"
+    },
+    {
+      "documentId": "text00143",
+      "heading": "第二十章",
+      "href": "OEBPS/text00143.html",
+      "paragraphs": 57,
+      "readRanges": "p0001-p0057",
+      "status": "read_full",
+      "sha256": "c4a02556ac958b966be217d5a5049e109911374c36b464295cf5a601f218aa0a"
+    },
+    {
+      "documentId": "text00144",
+      "heading": "第二十一章",
+      "href": "OEBPS/text00144.html",
+      "paragraphs": 65,
+      "readRanges": "p0001-p0065",
+      "status": "read_full",
+      "sha256": "8384c27754db8e6469bbafe56fe60cad7e14085d4eeadb3418000403b946b4b5"
+    },
+    {
+      "documentId": "text00145",
+      "heading": "第二十二章",
+      "href": "OEBPS/text00145.html",
+      "paragraphs": 84,
+      "readRanges": "p0001-p0084",
+      "status": "read_full",
+      "sha256": "acb2726fd6cea4d756ce1c3abacecdf66e9880bf0e357f4159f61163b77bb52a"
+    },
+    {
+      "documentId": "text00146",
+      "heading": "尾声",
+      "href": "OEBPS/text00146.html",
+      "paragraphs": 28,
+      "readRanges": "p0001-p0028",
+      "status": "read_full",
+      "sha256": "f974ad076acf97cd34ca5f19ef4a81edddf49bbf5a6baa458e9edb3f97517ec1"
+    },
+    {
+      "documentId": "text00147",
+      "heading": "关于作者",
+      "href": "OEBPS/text00147.html",
+      "paragraphs": 3,
+      "readRanges": "p0001-p0003",
+      "status": "read_full",
+      "sha256": "b45098b15089eb317f0ccb24f843585ee1c67c3e2fcf1fc55b99c8be0c89ee79"
+    }
+  ],
+  "events": [
+    {
+      "id": "book05-e001",
+      "type": "source_fact",
+      "ref": "OEBPS/text00124.html:p0002-p0005",
+      "facts": "萨尔以部落领袖身份记录父亲、信任者及背叛者历史；明确这不是现部落故事，而是最初部落的崛起。"
+    },
+    {
+      "id": "book05-e002",
+      "type": "source_fact",
+      "ref": "OEBPS/text00124.html:p0031-p0056",
+      "facts": "幼年杜隆坦与黑石奥格瑞姆相识，主动提议跨氏族友谊，争执后以长久友谊作为挑战。"
+    },
+    {
+      "id": "book05-e003",
+      "type": "source_fact",
+      "ref": "OEBPS/text00125.html:p0002-p0009",
+      "facts": "萨尔框架回忆与凯恩会面，德雷克塔尔认为牛头人与大地先祖的关系将帮助兽人找回传统。"
+    },
+    {
+      "id": "book05-e004",
+      "type": "source_fact",
+      "ref": "OEBPS/text00125.html:p0018-p0021,p0046-p0087",
+      "facts": "两氏族默许友谊延续；德莱尼瑞斯塔兰救两少年免于食人魔追杀，指出恐惧不耻、正确逃跑明智；杜隆坦记住泰尔莫幻象水晶咒语。"
+    },
+    {
+      "id": "book05-e005",
+      "type": "source_fact",
+      "ref": "OEBPS/text00126.html:p0057-p0098",
+      "facts": "维伦款待两少年，听兽人文化，奥格瑞姆讲毁灭之锤预言；杜隆坦主动询问德莱尼来历、魔法，疑惑双方为何不增进交流。"
+    },
+    {
+      "id": "book05-e006",
+      "type": "source_fact",
+      "ref": "OEBPS/text00127.html:p0002-p0005,p0006-p0034,p0055-p0078",
+      "facts": "萨尔框架首次参加重建后成人仪式有归属感；杜隆坦拒绝作弊，单斧猎带角雌塔布羊；见先祖时看不到塔尔克拉，确认不走萨满路；血脉将带救赎预言仅告卡舒尔，她担心腐蚀心灵而未告杜隆坦。"
+    },
+    {
+      "id": "book05-e007",
+      "type": "source_fact",
+      "ref": "OEBPS/text00128.html:p0005-p0040,p0041-p0119",
+      "facts": "基尔加丹因维伦背离造成私人复仇欲，改派塔尔加斯独自侦查；杜隆坦尊重德拉卡拒绝求爱邀请，改平等战士狩猎，两人合杀巨狼并相吻；塔尔加斯暗中观察，基尔加丹拟利用兽人报复。"
+    },
+    {
+      "id": "book05-e008",
+      "type": "source_fact",
+      "ref": "OEBPS/text00129.html:p0002-p0003,p0006-p0008,p0010-p0028,p0030-p0073",
+      "facts": "萨尔反思氏族归属曾被利用却也成为团结自救基础；卡舒尔猎牛时遇难，加拉德与食人魔戈隆交战伤亡，杜隆坦继任酋长、德雷克塔尔继任首席萨满；耐奥祖受鲁尔坎形象诱导渴望统一权力；杜隆坦虽反感召集信措辞，仍为族人赴会；奥格瑞姆向朋友坦陈忠诚黑手与理智疑虑冲突，宁舍锤换回父亲。"
+    },
+    {
+      "id": "book05-e009",
+      "type": "source_fact",
+      "ref": "OEBPS/text00130.html:p0019-p0064",
+      "facts": "耐奥祖宣称德莱尼是敌；杜隆坦根据救命经历公开质疑动机及战胜可能；德雷克塔尔以卡舒尔幻象佐证，引导他将旧款待解读为阴谋；杜隆坦仍存疑，但不能将族人未来置于风险而同意备战。此为信念与诱导，并非德莱尼实际阴谋。"
+    },
+    {
+      "id": "book05-e010",
+      "type": "source_fact",
+      "ref": "OEBPS/text00131.html:p0002-p0007,p0008-p0016,p0038-p0086",
+      "facts": "萨尔框架明确与吉安娜合作、与精灵并肩及牛头人被遗忘者结盟依赖超越外表分歧；战争训练侵占儿童生活，杜隆坦忧虑却实施；黑手奥格瑞姆袭击11名德莱尼猎人，奥格瑞姆起初怀疑随后沉迷杀戮；基尔加丹向耐奥祖显形。"
+    },
+    {
+      "id": "book05-e011",
+      "type": "source_fact",
+      "ref": "OEBPS/text00132.html:p0002-p0008,p0015-p0037,p0047-p0082",
+      "facts": "萨尔拒绝用遗忘将兽人仅塑成受害者，承认自主选择，研究前人决定以避免重复；维伦因克乌雷衰弱无法远距沟通，拟赤手到圣山求和平；无武器信使被杀，耐奥祖仍反对立即杀维伦，古尔丹建议派霜狼捕获以试忠诚。"
+    },
+    {
+      "id": "book05-e012",
+      "type": "source_fact",
+      "ref": "OEBPS/text00123.html:p0002-p0094",
+      "facts": "序章：萨格拉斯诱使艾瑞达领袖接受力量；维伦通过阿塔玛水晶看到堕落未来，克乌雷引导他带追随者撤离，塔尔加斯背叛告密；水晶裂成七块保护逃亡者，基尔加丹誓言追杀。人物预见与之后实际事件须分开。"
+    },
+    {
+      "id": "book05-e013",
+      "type": "source_fact",
+      "ref": "OEBPS/text00133.html:p0002-p0004,p0005-p0018,p0071-p0094,p0100-p0144",
+      "facts": "杜隆坦奉命围捕维伦，仍希望谈判和平；命德雷克塔尔以火墙护俘、禁止箭杀，但容许辱骂剥衣且扣留两水晶。私下割断过紧绳索、给水并听取陈述，认为俘虏自愿被俘者无荣耀，拒绝交人，令护送五德莱尼安全出境。仍未完全相信德莱尼、明确若战场再遇不留情。萨尔框架将此视为保住荣誉。"
+    },
+    {
+      "id": "book05-e014",
+      "type": "source_fact",
+      "ref": "OEBPS/text00133.html:p0145-p0156",
+      "facts": "维伦保留自行隐形的紫水晶，承认和平求援未改变战争态势，决定备战；克乌雷悲鸣被年轻萨满误解成祖灵愤怒，杜隆坦听出悲伤。"
+    },
+    {
+      "id": "book05-e015",
+      "type": "source_fact",
+      "ref": "OEBPS/text00134.html:p0004-p0056,p0057-p0086",
+      "facts": "杜隆坦放维伦使耐奥祖惧怕基尔加丹并开始怀疑；红水晶愤怒之心增强指挥者及战士，黄水晶璀璨之辰增强专注；耐奥祖夜赴沃舒古见真正鲁尔坎等祖灵，被告知受骗，他意识到先前幻象皆诡计；古尔丹偷听并告密。"
+    },
+    {
+      "id": "book05-e016",
+      "type": "source_fact",
+      "ref": "OEBPS/text00135.html:p0004-p0043,p0044-p0070",
+      "facts": "耐奥祖得知真相仍拒绝永久奴役人民，被基尔加丹废黜留作旁观者；古尔丹明知欺骗仍为权力合作。霜狼袭击德莱尼时元素拒绝不平衡的杀戮，15名族人含副手洛卡尔死亡；瑞斯塔兰因杜隆坦释放维伦而放走残余队伍，声明两不相欠；德拉卡视元素拒助为错误警告，杜隆坦决定查问。"
+    },
+    {
+      "id": "book05-e017",
+      "type": "source_fact",
+      "ref": "OEBPS/text00136.html:p0005-p0052,p0053-p0137",
+      "facts": "古尔丹与黑手商定公开议会和秘密暗影议会，以术士魔法替代萨满；在科什哈格圣地折磨俘虏展示魔法。杜隆坦愤怒，奥格瑞姆阻他公开反对，以作战必需解释；德拉卡明确区分胜利与享受折磨；杜隆坦最终为氏族生存允许学习术士法术，非从未妥协。"
+    },
+    {
+      "id": "book05-e018",
+      "type": "source_fact",
+      "ref": "OEBPS/text00137.html:p0005-p0020,p0022-p0050,p0053-p0096",
+      "facts": "黑手被选大酋长；杜隆坦面临本人及伴侣处死、氏族流放威胁，被迫让五名6至12岁霜狼儿童被魔法催长，现场痛苦并非无伤。奥格瑞姆事先警告监视，黑手命杜隆坦利用童年记忆打开泰尔莫幻象；杜隆坦为保护氏族接受，在希望失败仍念咒成功，联军突入。"
+    },
+    {
+      "id": "book05-e019",
+      "type": "source_fact",
+      "ref": "OEBPS/text00138.html:p0002-p0003,p0004-p0044",
+      "facts": "泰尔莫屠城：杜隆坦原誓不杀无武器者儿童，却亲手在战斗杀死救命恩人瑞斯塔兰；止斧不杀女孩但女孩被碎手战士刺死；命停止破坏、救治伤员、搜物资，最终亲口命令杀掉所有找到的德莱尼幸存者（p0040-p0044）。不得美化为纯粹旁观或始终拒绝屠杀。萨尔框架以父亲处境解释自己维持联盟和平的动力。"
+    },
+    {
+      "id": "book05-e020",
+      "type": "source_fact",
+      "ref": "OEBPS/text00139.html:p0005-p0020,p0021-p0071",
+      "facts": "杜隆坦拒绝将泰尔莫作为赏赐，黑手入住；古尔丹成立真正暗影议会。黑手通过军事压力与食人魔克罗结盟，承诺不虐打、食物住所武器；奥格瑞姆反对因私怨但服从战略，警告黑手之子不准暗杀新盟友。兽人皮肤出现淡绿。"
+    },
+    {
+      "id": "book05-e021",
+      "type": "source_fact",
+      "ref": "OEBPS/text00140.html:p0002-p0004,p0005-p0038,p0039-p0069",
+      "facts": "萨尔框架以杜隆塔尔为家；大地干旱，杜隆坦德拉卡面对被迫迁往堡垒与食人魔结盟，意识故土文化败坏。维伦由幸存者描述恶魔确定基尔加丹幕后操纵。暗影议会留杜隆坦以利用温和派声望为政策背书；为防真实祖灵揭穿，封锁沃舒古。"
+    },
+    {
+      "id": "book05-e022",
+      "type": "source_fact",
+      "ref": "OEBPS/text00141.html:p0002-p0006,p0007-p0033,p0034-p0068",
+      "facts": "萨尔写作框架称当时尚未见过祖灵，不能覆盖后来书18见父母等时间。古尔丹禁萨满与赴圣山；杜隆坦恐氏族受罚呵斥古恩服从，观察绿肤。部落攻陷卡拉波改黑暗神殿，杜隆坦因暴行呕吐；耐奥祖秘密写警告信，杜隆坦只告诉德拉卡，担忧奥格瑞姆誓言迫其告知黑手；决定宁受罚不奴役氏族。"
+    },
+    {
+      "id": "book05-e023",
+      "type": "source_fact",
+      "ref": "OEBPS/text00142.html:p0006-p0041,p0042-p0048,p0060-p0122",
+      "facts": "玛诺洛斯供血，基尔加丹坦言永久奴役；饮血前杜隆坦德拉卡已绿肤。格罗玛什抢先饮、黑手随之；格里赛达因父亲拒绝未喝，奥格瑞姆以副手不可夺酋长荣耀为辞拒绝。杜隆坦未警告朋友以免暴露情报，但公开拒绝本人及全氏族饮血；信以古语说扭曲灵魂之血会永奴役，杜隆坦据此识别恶魔。"
+    },
+    {
+      "id": "book05-e024",
+      "type": "source_fact",
+      "ref": "OEBPS/text00143.html:p0002-p0004,p0005-p0039,p0040-p0057",
+      "facts": "萨尔说明沙塔斯口述记录受记忆模糊限制。基尔加丹用绿水晶隐藏攻城器械、赋术士地狱火；杜隆坦仍随军参战，察觉被卷入他人与德莱尼私人冲突。基尔加丹玛诺洛斯离去，未找到维伦。维伦采拉洛希尔建议让大量自愿者留城牺牲，使敌误认种族已灭，携幸存者藏赞加沼泽及四水晶。"
+    },
+    {
+      "id": "book05-e025",
+      "type": "source_fact",
+      "ref": "OEBPS/text00144.html:p0002-p0004,p0015-p0033,p0034-p0065",
+      "facts": "死亡时代：枯水饥病三年夺命多于战争；霜狼因拒血屡被攻击，奥格瑞姆提出补粮，杜隆坦为儿童接受。恢复元素联系失败。古尔丹被基尔加丹抛弃后受麦迪文梦中提议诱惑，交换入侵艾泽拉斯与解放萨格拉斯、神格允诺。允诺非已兑现事实。"
+    },
+    {
+      "id": "book05-e026",
+      "type": "source_fact",
+      "ref": "OEBPS/text00145.html:p0002-p0004,p0005-p0032,p0033-p0084",
+      "facts": "萨尔评渡门既保种族生命又加诸他界伤痕。古尔丹以角斗分配水粮转移嗜血，杜隆坦公开反对、要求治大地；奥格瑞姆为氏族粮水参战。麦迪文设计黑暗之门并要求杀石匠献血，古尔丹再杀德莱尼儿童开门；杜隆坦与德拉卡试图阻止失败，多个氏族声援。斥候带回可食猎物清水；饥饿杜隆坦仍带希望和杀戮欲高喊为了部落穿门。"
+    },
+    {
+      "id": "book05-e027",
+      "type": "source_fact",
+      "ref": "OEBPS/text00146.html:p0002-p0005",
+      "facts": "尾声萨尔简述霜狼渡门后被古尔丹放逐，定居奥特兰克；自己出生后父亲告诉奥格瑞姆秘密，遭谋杀；成年萨尔成奥格瑞姆朋友并自认实现战锤预言，以父亲与老友命名杜隆塔尔、奥格瑞玛。死亡细节本书仅概述。"
+    },
+    {
+      "id": "book05-e028",
+      "type": "source_fact",
+      "ref": "OEBPS/text00146.html:p0006-p0028",
+      "facts": "伊崔格引入人类线人，萨尔亲递水、允许坏消息；线人报告飞船坠落、吉安娜下令救援、维伦在艾泽拉斯；萨尔忧联盟接受德莱尼会威胁和平。吉安娜布间谍为萨尔确信，非本场直接展示；救援为线人报告。"
+    }
+  ],
+  "characterRelevance": {
+    "varian": "未见独立人物事件",
+    "khadgar": "未见独立人物事件",
+    "voljin": "未见独立人物事件",
+    "jaina": "text00131:p0003合作抗军团；尾声救援德莱尼报告及萨尔对间谍的推定",
+    "durotan": "核心人物：跨界友谊与爱情—保护氏族导致妥协—屠城责任—拒血底线—渡门；不可净化其参与暴行事实",
+    "malfurion": "未见独立人物事件",
+    "thrall": "章首写史者框架及尾声现实场景，区别父辈历史和本人亲历；反复拒绝仅受害者叙事",
+    "tirion": "未见独立人物事件"
+  },
+  "reusableCharacters": [
+    "德拉卡",
+    "奥格瑞姆",
+    "德雷克塔尔",
+    "维伦",
+    "耐奥祖",
+    "古尔丹",
+    "黑手",
+    "格罗玛什",
+    "基尔加丹",
+    "玛诺洛斯",
+    "麦迪文",
+    "瑞斯塔兰",
+    "卡舒尔",
+    "伊崔格"
+  ],
+  "inferences": [
+    {
+      "claim": "杜隆坦的核心不是始终正确，而是责任驱动的妥协怎样逐步扩大，直到永久奴役成为不可越线处。",
+      "basis": [
+        "OEBPS/text00136.html:p0135",
+        "OEBPS/text00138.html:p0042",
+        "OEBPS/text00142.html:p0092-p0107"
+      ],
+      "type": "editorial_inference"
+    },
+    {
+      "claim": "父辈史使萨尔的联盟和平策略具有自我警戒意味，而非天真乐观。",
+      "basis": [
+        "OEBPS/text00132.html:p0002-p0008",
+        "OEBPS/text00138.html:p0002-p0003",
+        "OEBPS/text00146.html:p0023-p0028"
+      ],
+      "type": "editorial_inference"
+    }
+  ],
+  "subtitleCheck": {
+    "originalApplicableSubtitle": null,
+    "checked": [
+      "版权",
+      "目录",
+      "引言",
+      "导读",
+      "序章",
+      "22数字章题",
+      "尾声",
+      "作者简介"
+    ],
+    "result": "无适用于A人物刊物的明确原文副标题；部落的崛起是书名，不自动转为人物副标题；最终编辑副标题须整合后审阅。"
+  },
+  "sectionBoundaryAdvice": [
+    "杜隆坦：幼年跨氏族/德莱尼相识与成年、德拉卡关系（1—6章）；战备疑虑到放维伦（7—10）；为氏族接受术士及参与泰尔莫屠杀（11—16）；故土破坏、警告信与拒血（17—19）；屠城后饥荒至渡门（20—22）；放逐与身亡用尾声概述再跨书补全。",
+    "萨尔：章首伦理框架集中用作后见之明，不能把父亲场景写成萨尔亲历。"
+  ],
+  "gaps": [
+    "本书未详述杜隆坦一家遇刺全过程，需10/18互证，不得由尾声扩写细节。",
+    "沙塔斯记忆模糊是原文自述限制。",
+    "年代仅保留书中相对时间，不外补游戏年份。",
+    "绿肤在饮血前已出现，不等于全部饮血；不能断言杜隆坦全程未被邪能影响。"
+  ],
+  "nextResponsibleRole": "integrator"
+}

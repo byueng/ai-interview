@@ -1,0 +1,114 @@
+{
+  "unitId": "thrall-part-10",
+  "kind": "section",
+  "displayOrder": 10,
+  "title": "世界与旧盟友之间",
+  "sourceLabel": "《吉安娜·普罗德摩尔：战争之潮》",
+  "subtitle": {
+    "text": "更大的责任没有消除旧的责任",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00554:p0013-p0062"
+      ],
+      "evidenceId": "thrall-event-27",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00571:p0002-p0038"
+      ],
+      "evidenceId": "thrall-event-28",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00575:p0042-p0073",
+        "text00576:p0021-p0113"
+      ],
+      "evidenceId": "thrall-event-29",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00577:p0039-p0044",
+        "text00578:p0082-p0091",
+        "text00579:p0003-p0026"
+      ],
+      "evidenceId": "thrall-event-29",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "战争之潮：拒绝政治干预、塞拉摩毁灭消息至勇士岛与余波",
+  "characterChange": "从自认已转向世界使命，到被旧关系和灾难迫使面对离任选择的后果",
+  "focus": "保留拒绝吉安娜请求、收到噩耗的自责及自由留下修复世界的选择；勇士岛主写保护平民的底线与友情破裂并存。",
+  "tone": "疏离、震惊、紧迫、克制的痛苦",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-27",
+      "event": "萨尔以古伊尔、大地之环领袖自居，拒绝吉安娜要求介入加尔鲁什政策；与阿格娜的爱助自我完整，但未解决政治责任。",
+      "classification": "integrated_source_facts",
+      "boundary": "将离任作为阶段转变，不把16代理任命当作一次性永久退位声明。"
+    },
+    {
+      "evidenceId": "thrall-event-28",
+      "event": "接伊崔格信误以为吉安娜已死，萨尔自责并欲惩加尔鲁什；努波顿准他自由离开，他仍选择留下紧迫修复任务。",
+      "classification": "integrated_source_facts",
+      "boundary": "不是他毫不知情无动于衷，也不是被大地之环禁止离开；政治与世界责任冲突保留。"
+    },
+    {
+      "evidenceId": "thrall-event-29",
+      "event": "元素警告将临海啸，萨尔独赴勇士岛发现吉安娜生还，以风障拖延神器力量，宁冒死也不许屠戮无辜；与卡雷共同劝说，最终由吉安娜主动撤浪。",
+      "classification": "integrated_source_facts",
+      "boundary": "并非萨尔击败她或单独说服；他不阻她与加尔鲁什作战。友情此时破裂，未即时和好，未复任酋长。 吉安娜事后才知道联盟舰队也会被海啸毁灭，不能反推萨尔事先知晓舰队计划；结尾感激仍非复交。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-27",
+    "thrall-event-28",
+    "thrall-event-29"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "终战只接上一篇一句；撤浪由吉安娜主动决定，卡雷亦参与，不写即时复交或复任；庭审归下篇。",
+  "independenceReason": "不能把救世胜利当作政治问题终结；此篇使世界使命与公共责任发生具体碰撞。",
+  "lengthMode": "standard",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "81e36d68c963d0400653203aa7ef3ffef896ce7b4acfb3aebe9f676f1378f0a4"
+}

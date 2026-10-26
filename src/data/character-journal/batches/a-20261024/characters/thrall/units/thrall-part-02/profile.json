@@ -1,0 +1,86 @@
+{
+  "unitId": "thrall-part-02",
+  "kind": "section",
+  "displayOrder": 2,
+  "title": "为自己选择一个名字",
+  "sourceLabel": "《氏族之王》",
+  "subtitle": {
+    "text": "血脉之外，学会倾听",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00278:p0002-p0063",
+        "text00279:p0002-p0075",
+        "text00280:p0002-p0074"
+      ],
+      "evidenceId": "thrall-event-05",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00281:p0002-p0073",
+        "text00282:p0004-p0077",
+        "text00283:p0002-p0087"
+      ],
+      "evidenceId": "thrall-event-06",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "战歌试炼、寻得霜狼至五灵接纳",
+  "characterChange": "从渴望同族承认到以仁慈、劳动与尊重建立自尊",
+  "focus": "把拒杀孩子、重释萨尔之名、雪歌结伴及请求元素连成价值选择，不写血统自动授予力量。",
+  "tone": "探索、温暖、克制的希望",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-05",
+      "event": "萨尔过战歌试炼且宁死不杀无辜孩子，格罗玛什认可；他决定用行动改变奴隶之名意义，辨襁褓寻霜狼。",
+      "classification": "integrated_source_facts",
+      "boundary": "此时保留萨尔名字与后来接受古伊尔不是矛盾。"
+    },
+    {
+      "evidenceId": "thrall-event-06",
+      "event": "德雷克塔尔认出血脉、训练劳动谦卑与自尊；雪歌自主结伴、五灵接纳；萨尔学到请求而非奴役元素。",
+      "classification": "integrated_source_facts",
+      "boundary": "不把父亲血统当作自动取得萨满资格；动物元素均非奴隶。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-05",
+    "thrall-event-06"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "承接寻族动机；止于精神资格形成，不提前写奥格瑞姆交权。",
+  "independenceReason": "这是获得文化归属与萨满方法的阶段，转折不同于逃亡和取得政治权力。",
+  "lengthMode": "standard",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "379d9db6900b5279977b7957aadc8ba52e1f85d680cd0e47319d75a68a75fcfe"
+}

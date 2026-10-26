@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-09",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "1af1b8777d6275666b5ab2d87beeecfec6eff4ea4b267a5e8f93a8f1ef915ed1",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "先听见悲痛，再谈责任",
+    "origin": "editorial",
+    "sourceRef": null
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

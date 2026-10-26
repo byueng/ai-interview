@@ -1,0 +1,138 @@
+{
+  "unitId": "thrall-part-09",
+  "kind": "section",
+  "displayOrder": 9,
+  "title": "以理解重新联结",
+  "sourceLabel": "《萨尔：巨龙的黄昏》；《魔兽编年史 卷三》已读选段；《吉安娜·普罗德摩尔：战争之潮》",
+  "subtitle": {
+    "text": "先听见悲痛，再谈责任",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00536:p0002-p0079",
+        "text00537:p0002-p0101",
+        "text00538:p0002-p0124",
+        "text00539:p0061-p0144"
+      ],
+      "evidenceId": "thrall-event-23",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00541:p0002-p0083",
+        "text00542:p0002-p0040",
+        "text00543:p0002-p0144",
+        "text00544:p0002-p0086"
+      ],
+      "evidenceId": "thrall-event-24",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00545:p0002-p0098",
+        "text00546:p0002-p0105",
+        "text00547:p0002-p0102"
+      ],
+      "evidenceId": "thrall-event-25",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00974:p0001-p0019",
+        "text00975:p0001-p0018"
+      ],
+      "evidenceId": "thrall-event-26",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "19",
+      "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00552:p0003-p0005"
+      ],
+      "evidenceId": "thrall-event-26",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "找回诺兹多姆、两次劝说红龙女王、巨龙联结至后续终战简述",
+  "characterChange": "从习惯要求别人尽责，到以共情与生命联结协助他人，接受古伊尔与共同生活",
+  "focus": "对照首次职责施压失败与后来分享悲痛；橡果回收前篇铺垫。克洛玛图斯之战为小说高潮，死亡之翼终战另标编年史短过渡。",
+  "tone": "挫折、理解、合作与有限的安定",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-23",
+      "event": "萨尔找回诺兹多姆，理解私人细小时刻价值；首次劝红龙女王以职责施压失败，后与卡雷苟斯相互支持，战斗目标由部落扩展到艾泽拉斯。",
+      "classification": "integrated_source_facts",
+      "boundary": "活在当下不等于不学历史或不规划未来；龙族选出卡雷，非萨尔任命。"
+    },
+    {
+      "evidenceId": "thrall-event-24",
+      "event": "绝望中想到阿格娜向生命之灵开放；击败异时线布莱克摩尔。再劝红龙女王以共享真相、橡果生命而非命令，揭明克拉苏斯牺牲，联结恢复。",
+      "classification": "integrated_source_facts",
+      "boundary": "生命幻象后有克莉苟萨独立证实部分经历；萨尔不是最初即全知，红龙并未忘却痛苦。"
+    },
+    {
+      "evidenceId": "thrall-event-25",
+      "event": "萨尔主持仪式联结大地，使四守护者合力击败克洛玛图斯；接受友谊与古伊尔之名，和阿格娜许诺共度一生、继续疗愈世界。",
+      "classification": "integrated_source_facts",
+      "boundary": "明确不是第五守护巨龙；克洛玛图斯难以彻底摧毁须封存；本书未杀死亡之翼、未描写婚礼。"
+    },
+    {
+      "evidenceId": "thrall-event-26",
+      "event": "萨尔以凡人萨满承担大地能量、使用巨龙之魂，与守护巨龙和凡人联军共胜死亡之翼。",
+      "classification": "integrated_source_facts",
+      "boundary": "神器取回属其他英雄和诺兹多姆行动；只支持阶段概述，不擅补未读战斗细节。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-23",
+    "thrall-event-24",
+    "thrall-event-25",
+    "thrall-event-26"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "不重复时间旅行；严格分开两场龙战，止于胜利与世界修复职责，不将后来政治分歧提前定论。",
+  "independenceReason": "理解他人的方法变化在此得到外部行动验证，和前篇自我认识既相接又不同。",
+  "lengthMode": "standard",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "1af1b8777d6275666b5ab2d87beeecfec6eff4ea4b267a5e8f93a8f1ef915ed1"
+}

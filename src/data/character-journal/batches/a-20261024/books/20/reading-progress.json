@@ -1,0 +1,18 @@
+{
+  "runId": "batch-a-20261024-01",
+  "bookId": "20",
+  "status": "not_started",
+  "reason": "用户收窄为可继承文件与共享证据库，在开始本书前停止",
+  "resumeAt": {
+    "documentId": "text00581",
+    "href": "OEBPS/text00581.html",
+    "path": "source/text00581.txt",
+    "paragraph": null,
+    "note": "从manifest第一项开始核对；此项为空文档，尚未标记已读。",
+    "firstNonemptyDocumentId": "text00582",
+    "firstNonemptyParagraph": "p0001"
+  },
+  "completedDocuments": [],
+  "readButUnrecorded": [],
+  "nextResponsibleRole": "researcher"
+}

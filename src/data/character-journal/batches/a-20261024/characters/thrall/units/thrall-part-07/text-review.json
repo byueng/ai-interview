@@ -1,0 +1,24 @@
+{
+  "unitId": "thrall-part-07",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "02025eb80364e852d27c9ec762dd912527b128fd476d6a8f63fa7d7b3616b485",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "世界将会崩毁……",
+    "origin": "original",
+    "sourceRef": {
+      "bookId": "16",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "ref": "text00460:p0001",
+      "version": "王坚译，新星出版社2019版"
+    }
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

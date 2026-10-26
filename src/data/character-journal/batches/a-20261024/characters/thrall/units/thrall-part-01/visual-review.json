@@ -1,0 +1,31 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-01",
+  "reviewer": "thrall_book13",
+  "reviewType": "independent_visual_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\01-stained-glass.png",
+  "imageSha256": "614fd1fa1e65338f56fd8199090302b91af257f5f20584475dc6eff8cdd6d41c",
+  "storySha256": "d2704f197f8e057d3511cc1490e9eabb9bc4d6eace9169a4975b8859cf0ed944",
+  "profileSha256": "c035ee66b742543f24df834a3f1dfb7866cf7813e2cc3df7eae75bf37389f705",
+  "artBriefSha256": "5c084e070f28983a2dccf549e52b2f61f52bf20a91a3da0dfcc23885960cb25b",
+  "promptSha256": "1a6986d033b89bce915e61427352a6b170d47563f2a30151f11f0eeed5c691ee",
+  "subtitle": "先被当作一个人",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "夜空和油灯明确夜间读信；书与折信、无胡须青年、朴素衣物相符。无塔蕾莎实体、后期武器铠甲或额外镣铐。面部、手、纸及环境均有玻璃分格。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。"
+}

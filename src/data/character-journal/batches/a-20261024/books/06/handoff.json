@@ -1,0 +1,216 @@
+{
+  "nextResponsibleRole": "integrator",
+  "checks": {
+    "wholeBookRead": true,
+    "subtitleChecked": true,
+    "noNetworkSupplement": true,
+    "sourceAnchors": true,
+    "factInferenceSeparated": true,
+    "paragraphCoverageComplete": true
+  },
+  "artifacts": [
+    "books/06/evidence.json"
+  ],
+  "sourceChunkId": "book-06",
+  "runId": "batch-a-20261024-01",
+  "role": "researcher",
+  "status": "complete",
+  "unitId": "book-06",
+  "inputVersions": {
+    "protocol": "researcher-instructions.txt",
+    "sourceSha256": "5d1a1257a04a7e8c8f3c88e684db18eb824d2e983250410be7d467deac5187d9",
+    "manifest": "manifest.json"
+  },
+  "sourceRanges": [
+    {
+      "status": "read_complete",
+      "heading": "",
+      "readRange": "empty_document",
+      "paragraphs": 0,
+      "href": "OEBPS/text00148.html",
+      "documentId": "text00148"
+    },
+    {
+      "status": "read_complete",
+      "heading": "版权信息",
+      "readRange": "p0001-p0007",
+      "paragraphs": 7,
+      "href": "OEBPS/text00149.html",
+      "documentId": "text00149"
+    },
+    {
+      "status": "read_complete",
+      "heading": "最后的守护者",
+      "readRange": "p0001-p0024",
+      "paragraphs": 24,
+      "href": "OEBPS/text00150.html",
+      "documentId": "text00150"
+    },
+    {
+      "status": "read_complete",
+      "heading": "导读",
+      "readRange": "p0001-p0006",
+      "paragraphs": 6,
+      "href": "OEBPS/text00151.html",
+      "documentId": "text00151"
+    },
+    {
+      "status": "read_complete",
+      "heading": "序章",
+      "readRange": "p0001-p0023",
+      "paragraphs": 23,
+      "href": "OEBPS/text00152.html",
+      "documentId": "text00152"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第一章",
+      "readRange": "p0001-p0090",
+      "paragraphs": 90,
+      "href": "OEBPS/text00153.html",
+      "documentId": "text00153"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第二章",
+      "readRange": "p0001-p0164",
+      "paragraphs": 164,
+      "href": "OEBPS/text00154.html",
+      "documentId": "text00154"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第三章",
+      "readRange": "p0001-p0144",
+      "paragraphs": 144,
+      "href": "OEBPS/text00155.html",
+      "documentId": "text00155"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第四章",
+      "readRange": "p0001-p0129",
+      "paragraphs": 129,
+      "href": "OEBPS/text00156.html",
+      "documentId": "text00156"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第五章",
+      "readRange": "p0001-p0127",
+      "paragraphs": 127,
+      "href": "OEBPS/text00157.html",
+      "documentId": "text00157"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第六章",
+      "readRange": "p0001-p0115",
+      "paragraphs": 115,
+      "href": "OEBPS/text00158.html",
+      "documentId": "text00158"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第七章",
+      "readRange": "p0001-p0126",
+      "paragraphs": 126,
+      "href": "OEBPS/text00159.html",
+      "documentId": "text00159"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第八章",
+      "readRange": "p0001-p0129",
+      "paragraphs": 129,
+      "href": "OEBPS/text00160.html",
+      "documentId": "text00160"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第九章",
+      "readRange": "p0001-p0078",
+      "paragraphs": 78,
+      "href": "OEBPS/text00161.html",
+      "documentId": "text00161"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十章",
+      "readRange": "p0001-p0105",
+      "paragraphs": 105,
+      "href": "OEBPS/text00162.html",
+      "documentId": "text00162"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十一章",
+      "readRange": "p0001-p0135",
+      "paragraphs": 135,
+      "href": "OEBPS/text00163.html",
+      "documentId": "text00163"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十二章",
+      "readRange": "p0001-p0130",
+      "paragraphs": 130,
+      "href": "OEBPS/text00164.html",
+      "documentId": "text00164"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十三章",
+      "readRange": "p0001-p0116",
+      "paragraphs": 116,
+      "href": "OEBPS/text00165.html",
+      "documentId": "text00165"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十四章",
+      "readRange": "p0001-p0142",
+      "paragraphs": 142,
+      "href": "OEBPS/text00166.html",
+      "documentId": "text00166"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十五章",
+      "readRange": "p0001-p0153",
+      "paragraphs": 153,
+      "href": "OEBPS/text00167.html",
+      "documentId": "text00167"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十六章",
+      "readRange": "p0001-p0072",
+      "paragraphs": 72,
+      "href": "OEBPS/text00168.html",
+      "documentId": "text00168"
+    },
+    {
+      "status": "read_complete",
+      "heading": "尾声",
+      "readRange": "p0001-p0034",
+      "paragraphs": 34,
+      "href": "OEBPS/text00169.html",
+      "documentId": "text00169"
+    },
+    {
+      "status": "read_complete",
+      "heading": "关于作者",
+      "readRange": "p0001-p0003",
+      "paragraphs": 3,
+      "href": "OEBPS/text00170.html",
+      "documentId": "text00170"
+    }
+  ],
+  "notes": [
+    "仅用户提供版本；译本与其他作品冲突须保留，不以记忆校正。",
+    "未来幻象与当下事件分别处理；卡德加此书结尾尚未实际经历德拉诺战斗。"
+  ],
+  "readButUnrecorded": [],
+  "resumeAt": null
+}

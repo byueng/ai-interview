@@ -1,0 +1,56 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-05",
+  "sourceChunkId": "book-05-full",
+  "role": "researcher",
+  "status": "completed",
+  "inputVersion": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+  "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+  "sourceRanges": [
+    "OEBPS/text00118.html",
+    "OEBPS/text00119.html",
+    "OEBPS/text00120.html",
+    "OEBPS/text00121.html",
+    "OEBPS/text00122.html",
+    "OEBPS/text00123.html",
+    "OEBPS/text00124.html",
+    "OEBPS/text00125.html",
+    "OEBPS/text00126.html",
+    "OEBPS/text00127.html",
+    "OEBPS/text00128.html",
+    "OEBPS/text00129.html",
+    "OEBPS/text00130.html",
+    "OEBPS/text00131.html",
+    "OEBPS/text00132.html",
+    "OEBPS/text00133.html",
+    "OEBPS/text00134.html",
+    "OEBPS/text00135.html",
+    "OEBPS/text00136.html",
+    "OEBPS/text00137.html",
+    "OEBPS/text00138.html",
+    "OEBPS/text00139.html",
+    "OEBPS/text00140.html",
+    "OEBPS/text00141.html",
+    "OEBPS/text00142.html",
+    "OEBPS/text00143.html",
+    "OEBPS/text00144.html",
+    "OEBPS/text00145.html",
+    "OEBPS/text00146.html",
+    "OEBPS/text00147.html"
+  ],
+  "artifacts": [
+    "books/05/evidence.json"
+  ],
+  "checks": {
+    "factsTraceable": true,
+    "fullTextRead": true,
+    "noFinalProseOrArt": true,
+    "subtitleChecked": true,
+    "inferenceSeparated": true
+  },
+  "nextResponsibleRole": "integrator",
+  "remainingWork": [
+    "跨书人物整合",
+    "批准策划前不写正文或配图"
+  ]
+}

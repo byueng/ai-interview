@@ -1,0 +1,825 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "researcher",
+  "scopeId": "early",
+  "sourceVersion": "epub-v1",
+  "status": "complete",
+  "coverage": [
+    {
+      "documentId": "text00303",
+      "sourceHref": "OEBPS/text00303.html",
+      "firstRef": "text00303:p0001",
+      "lastRef": "text00303:p0007",
+      "blockCount": 7,
+      "characters": 78,
+      "heading": [
+        "版权信息"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "documentId": "text00304",
+      "sourceHref": "OEBPS/text00304.html",
+      "firstRef": "text00304:p0001",
+      "lastRef": "text00304:p0037",
+      "blockCount": 37,
+      "characters": 168,
+      "heading": [
+        "迈向冰封王座：阿尔萨斯",
+        "目录"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          37
+        ]
+      ]
+    },
+    {
+      "documentId": "text00305",
+      "sourceHref": "OEBPS/text00305.html",
+      "firstRef": "text00305:p0001",
+      "lastRef": "text00305:p0008",
+      "blockCount": 8,
+      "characters": 737,
+      "heading": [
+        "➣ 导读"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "documentId": "text00306",
+      "sourceHref": "OEBPS/text00306.html",
+      "firstRef": "text00306:p0001",
+      "lastRef": "text00306:p0035",
+      "blockCount": 35,
+      "characters": 3002,
+      "heading": [
+        "➣ 序章：梦"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          35
+        ]
+      ]
+    },
+    {
+      "documentId": "text00307",
+      "sourceHref": "OEBPS/text00307.html",
+      "firstRef": "text00307:p0001",
+      "lastRef": "text00307:p0096",
+      "blockCount": 96,
+      "characters": 8745,
+      "heading": [
+        "➣ 第一部　黄金男孩",
+        "第一章"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          40
+        ],
+        [
+          41,
+          70
+        ],
+        [
+          71,
+          96
+        ]
+      ]
+    },
+    {
+      "documentId": "text00308",
+      "sourceHref": "OEBPS/text00308.html",
+      "firstRef": "text00308:p0001",
+      "lastRef": "text00308:p0090",
+      "blockCount": 90,
+      "characters": 8425,
+      "heading": [
+        "第二章"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          45
+        ],
+        [
+          46,
+          90
+        ]
+      ]
+    },
+    {
+      "documentId": "text00309",
+      "sourceHref": "OEBPS/text00309.html",
+      "firstRef": "text00309:p0001",
+      "lastRef": "text00309:p0112",
+      "blockCount": 112,
+      "characters": 9042,
+      "heading": [
+        "第三章"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          50
+        ],
+        [
+          51,
+          85
+        ],
+        [
+          86,
+          112
+        ]
+      ]
+    },
+    {
+      "documentId": "text00310",
+      "sourceHref": "OEBPS/text00310.html",
+      "firstRef": "text00310:p0001",
+      "lastRef": "text00310:p0093",
+      "blockCount": 93,
+      "characters": 8523,
+      "heading": [
+        "第四章"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          45
+        ],
+        [
+          46,
+          93
+        ]
+      ]
+    },
+    {
+      "documentId": "text00311",
+      "sourceHref": "OEBPS/text00311.html",
+      "firstRef": "text00311:p0001",
+      "lastRef": "text00311:p0050",
+      "blockCount": 50,
+      "characters": 5271,
+      "heading": [
+        "第五章"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          27
+        ],
+        [
+          28,
+          50
+        ]
+      ]
+    },
+    {
+      "documentId": "text00312",
+      "sourceHref": "OEBPS/text00312.html",
+      "firstRef": "text00312:p0001",
+      "lastRef": "text00312:p0021",
+      "blockCount": 21,
+      "characters": 1606,
+      "heading": [
+        "➣ 第二部　光明女士",
+        "间奏"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          21
+        ]
+      ]
+    },
+    {
+      "documentId": "text00313",
+      "sourceHref": "OEBPS/text00313.html",
+      "firstRef": "text00313:p0001",
+      "lastRef": "text00313:p0101",
+      "blockCount": 101,
+      "characters": 10467,
+      "heading": [
+        "第六章"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          35
+        ],
+        [
+          36,
+          67
+        ],
+        [
+          68,
+          101
+        ]
+      ]
+    },
+    {
+      "documentId": "text00314",
+      "sourceHref": "OEBPS/text00314.html",
+      "firstRef": "text00314:p0001",
+      "lastRef": "text00314:p0074",
+      "blockCount": 74,
+      "characters": 6508,
+      "heading": [
+        "第七章"
+      ],
+      "readStatus": "complete",
+      "readMethod": "JSON blocks sequential slices, untruncated tool output",
+      "batches": [
+        [
+          1,
+          38
+        ],
+        [
+          39,
+          74
+        ]
+      ]
+    }
+  ],
+  "coverageSummary": {
+    "documents": 12,
+    "blocks": 724,
+    "characters": 62572,
+    "allAssignedBlocksRead": true,
+    "outputTruncationDuringNarrativeReading": false
+  },
+  "inputVersions": {
+    "text00303.json": "5fd70257d161b3336103fad2918142f85f90497322a9d7706889ad7d64c75bc2",
+    "text00303.txt": "9c4660802c3ae1dba9c727f0dbaf7c2b658cff580b294eb3862c40e4033cd0b4",
+    "text00304.json": "71c039dbe2bd3df2f2ca37d3fb38538ae507c47ab9d7d14d25cf713d3d4157f4",
+    "text00304.txt": "12be3d10072fed391854712b089cc15c77b376c305ecddba4128e5978309e831",
+    "text00305.json": "af0db7592982c80762b5be4cf72935866b15ab677c2aaa24d1697a6177d5f4ea",
+    "text00305.txt": "5cfebbd3b9823f494873468205c78f883540e16271b837640394f43f224c1abd",
+    "text00306.json": "d8416cb7abad64b525a481c00e6b82784952c5b7f57e1b46fe0711054b7e5249",
+    "text00306.txt": "28ac6487ef3c035d897a6d9aa3a61351e4190447a83fa560f967e0e22f74f17a",
+    "text00307.json": "860c8e22d46f1a4c599191a78607c1d620fe798613b8806e1a6a0f39d38165a1",
+    "text00307.txt": "0c606f013ae550d6b378b1aa94cf5af4396af981128ae00b327ba2a37a621db3",
+    "text00308.json": "1e1b1057a9cdb8057fcb133669866dc5e33380ff47f18289aead65fc19ee1efd",
+    "text00308.txt": "cab14f84440df68372779a8069e33b637b1d05a4c74ad714b39c026c2f31976b",
+    "text00309.json": "e8cf60ad49c3b877ad9a5a8562d6042267b7b29c464f34a73ad7e6131f1b06ab",
+    "text00309.txt": "86db9bc39dd2c73dd691a4ecb35e1d65e18ccd8977876f64314a710ccdb82f88",
+    "text00310.json": "f501107202feae0eb05a1d8688cbfb8bed465a831f8806ff0465f6ac7284289c",
+    "text00310.txt": "018a8f58a8ca1a09eaa89ebc34ec5b17d89e69710f22ce346768518c554efde0",
+    "text00311.json": "cdf1bc77aa89100c8393c6b94f368e78760588f77e2bc5253439e4ccd6af25a6",
+    "text00311.txt": "b707541f502087579b50ef6a59defca2dd285e5a4345c1c4f815002278a44fb3",
+    "text00312.json": "cf600f95e99a427d7fe2d89efb8bc6caa12d9123df100b0defaa8a5781cb61b4",
+    "text00312.txt": "327c1a1e558fcfd3a3b3f7a7af3878b4fc7841a06b32134e497ac3e33bd0f82c",
+    "text00313.json": "b74e39d2f6867e144bb038fe30e507aa8e48cab7fd288e78c4ec9ee2cd30d371",
+    "text00313.txt": "1d746d583b5818f2d899d22a353d78f9e5188bad39146ac4cbb38d6dee6b3140",
+    "text00314.json": "76f77e5b729fc36431f26b3e6840839263fe52632429f995f059ff8f92b7cc22",
+    "text00314.txt": "69ae0240d15a2200cb3a587bb3f6b358fd4b421159409bdfdb890eb81cac3116",
+    "sourceEPUB": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+    "task.json": "77041da6034a2cb2705cf41fcaa6128591ed1f8d23626d211b325d95f8cb852f",
+    "researcher.txt": "e39253aa540d5ba32a39bc2143e989d602f08de2c6ede418e6be4d46d305efb5"
+  },
+  "events": [
+    {
+      "id": "E01",
+      "kind": "fact",
+      "summary": "序章以北方非自然风暴和梦中人类男人、骷髅面兽人、病弱男孩的争论构成框架；男孩坚持尚未全输。",
+      "sourceRefs": [
+        "text00306:p0007",
+        "text00306:p0018",
+        "text00306:p0019",
+        "text00306:p0024",
+        "text00306:p0027",
+        "text00306:p0033",
+        "text00306:p0035"
+      ],
+      "interpretation": "序章没有明文给三者全部点名；身份和象征意义须跨章核对。不能把梦中桌前场景写成现实会晤。"
+    },
+    {
+      "id": "E02",
+      "kind": "fact",
+      "summary": "九岁的阿尔萨斯在巴尼尔农场协助亮鬃产驹，与平民佳力姆亲近，对新生马驹产生强烈联结。",
+      "sourceRefs": [
+        "text00307:p0004",
+        "text00307:p0005",
+        "text00307:p0009",
+        "text00307:p0012"
+      ]
+    },
+    {
+      "id": "E03",
+      "kind": "fact",
+      "summary": "得知暴风城失陷、莱恩死亡后，他真切同情瓦里安；秘密旁听会谈后，以邀请看马驹笨拙安慰丧亲的同龄人。",
+      "sourceRefs": [
+        "text00307:p0023",
+        "text00307:p0031",
+        "text00307:p0032",
+        "text00307:p0064",
+        "text00307:p0091",
+        "text00307:p0093",
+        "text00307:p0094"
+      ]
+    },
+    {
+      "id": "E04",
+      "kind": "fact",
+      "summary": "父王接见平民、尊重并庇护瓦里安的做法成为可见的仁政榜样；阿尔萨斯同时因被排除重大会议而生气。",
+      "sourceRefs": [
+        "text00307:p0058",
+        "text00307:p0059",
+        "text00307:p0062",
+        "text00307:p0073",
+        "text00307:p0085"
+      ]
+    },
+    {
+      "id": "E05",
+      "kind": "fact",
+      "summary": "阿尔萨斯在瓦里安面前感到训练不足；战后毁灭之锤受保护和逃脱的叙述，置于他对兽人的敌视认知中。",
+      "sourceRefs": [
+        "text00308:p0002",
+        "text00308:p0011",
+        "text00308:p0012",
+        "text00308:p0015",
+        "text00308:p0018",
+        "text00308:p0020"
+      ],
+      "interpretation": "逃脱部分标明小道消息与无人活报，不能把末尾可能已死当成事实；战败兽人的负面形容保留视角属性。"
+    },
+    {
+      "id": "E06",
+      "kind": "fact",
+      "summary": "十一岁时违背驯马师警告偷骑两岁无敌，摔落且马腿割伤；他隐瞒真相，被乌瑟尔识破并训诫。",
+      "sourceRefs": [
+        "text00308:p0024",
+        "text00308:p0042",
+        "text00308:p0044",
+        "text00308:p0049",
+        "text00308:p0053",
+        "text00308:p0054",
+        "text00308:p0058"
+      ]
+    },
+    {
+      "id": "E07",
+      "kind": "fact",
+      "summary": "礼拜时初识吉安娜；穆拉丁主动提出担任严格战技导师，父王许可，同时增加圣骑士和君主课程。",
+      "sourceRefs": [
+        "text00308:p0072",
+        "text00308:p0079",
+        "text00308:p0086",
+        "text00308:p0088",
+        "text00309:p0003"
+      ]
+    },
+    {
+      "id": "E08",
+      "kind": "fact",
+      "summary": "护送吉安娜前往达拉然时，他带她夜窥战俘营。吉安娜看到兽人家庭与婴儿而同情，阿尔萨斯仍把他们视作潜在杀手。",
+      "sourceRefs": [
+        "text00309:p0004",
+        "text00309:p0031",
+        "text00309:p0039",
+        "text00309:p0040",
+        "text00309:p0041",
+        "text00309:p0044",
+        "text00309:p0045"
+      ]
+    },
+    {
+      "id": "E09",
+      "kind": "fact",
+      "summary": "十四岁阿尔萨斯凭持续苦练令穆拉丁认输，赢得导师敬意；所学同时包括常规格斗和不拘仪式的实战技法。",
+      "sourceRefs": [
+        "text00309:p0065",
+        "text00309:p0066",
+        "text00309:p0070",
+        "text00309:p0071",
+        "text00309:p0072"
+      ]
+    },
+    {
+      "id": "E10",
+      "kind": "fact",
+      "summary": "佳莉娅被安排嫁普瑞斯托，向弟弟诉说失去选择权。阿尔萨斯同情却最终转向王室责任的说法，并骑无敌逃离压力。",
+      "sourceRefs": [
+        "text00309:p0090",
+        "text00309:p0092",
+        "text00309:p0095",
+        "text00309:p0101",
+        "text00309:p0103",
+        "text00309:p0107",
+        "text00309:p0109",
+        "text00309:p0110"
+      ]
+    },
+    {
+      "id": "E11",
+      "kind": "fact",
+      "summary": "十七岁突查敦霍尔德兼有财政监管和观看萨尔的好奇；他看出布莱克摩尔酗酒、塔蕾莎受辱，仍被角斗娱乐吸引，并忧心萨尔逃走传播战技。",
+      "sourceRefs": [
+        "text00310:p0005",
+        "text00310:p0006",
+        "text00310:p0010",
+        "text00310:p0012",
+        "text00310:p0018",
+        "text00310:p0021",
+        "text00310:p0022",
+        "text00310:p0037",
+        "text00310:p0038"
+      ]
+    },
+    {
+      "id": "E12",
+      "kind": "fact",
+      "summary": "塔蕾莎被送到房间时，他拒绝性服务；看到瘀伤后让她留下谈话以免她受罚。她称赞未来国王仁慈。随后补述佳莉娅婚约已因父王起疑重新考虑。",
+      "sourceRefs": [
+        "text00310:p0048",
+        "text00310:p0049",
+        "text00310:p0053",
+        "text00310:p0055",
+        "text00310:p0056",
+        "text00310:p0058"
+      ]
+    },
+    {
+      "id": "E13",
+      "kind": "fact",
+      "summary": "将满十九岁前的冬天，阿尔萨斯在雪中驱无敌跳越熟悉高地，马蹄在冰石上打滑，前腿碎裂；因风雪且治疗者远离，救援不可及。",
+      "sourceRefs": [
+        "text00310:p0062",
+        "text00310:p0064",
+        "text00310:p0066",
+        "text00310:p0067",
+        "text00310:p0072",
+        "text00310:p0074",
+        "text00310:p0075",
+        "text00310:p0076"
+      ]
+    },
+    {
+      "id": "E14",
+      "kind": "fact",
+      "summary": "他自责导致无敌受苦，亲手刺穿其心脏以终止痛苦；获救后让别人相信只是意外，并发誓不惜任何代价保护有需要者。",
+      "sourceRefs": [
+        "text00310:p0079",
+        "text00310:p0081",
+        "text00310:p0083",
+        "text00310:p0084",
+        "text00310:p0087",
+        "text00310:p0091",
+        "text00310:p0092",
+        "text00310:p0093"
+      ]
+    },
+    {
+      "id": "E15",
+      "kind": "fact",
+      "summary": "十九岁在暴风城受封白银之手圣骑士；乌瑟尔以人人有瑕疵而圣光仍爱人的教导安慰他。祝福迟迟未临造成恐慌，随后真正体验圣光。",
+      "sourceRefs": [
+        "text00311:p0008",
+        "text00311:p0009",
+        "text00311:p0010",
+        "text00311:p0028",
+        "text00311:p0032",
+        "text00311:p0036",
+        "text00311:p0039",
+        "text00311:p0040",
+        "text00311:p0041",
+        "text00311:p0049"
+      ],
+      "interpretation": "不能据暂时的沉默断言圣光拒绝他，也不能把受封写成彻底虚伪。"
+    },
+    {
+      "id": "E16",
+      "kind": "fact",
+      "summary": "受封的欢乐中，他把父王“今天”自豪等细节理解为不被理解，想摆脱王宫去做更有趣的事。",
+      "sourceRefs": [
+        "text00311:p0042",
+        "text00311:p0046",
+        "text00311:p0047",
+        "text00311:p0048",
+        "text00311:p0049"
+      ]
+    },
+    {
+      "id": "E17",
+      "kind": "fact",
+      "summary": "第二部间奏跳到而立吉安娜与艾格文谈论巫妖王及往事，明确把成年后的回望与少年主线隔开。",
+      "sourceRefs": [
+        "text00312:p0012",
+        "text00312:p0015",
+        "text00312:p0018",
+        "text00312:p0021"
+      ]
+    },
+    {
+      "id": "E18",
+      "kind": "fact",
+      "summary": "受封后赴达拉然学习实为接近吉安娜；宴会上安东尼达斯解释兽人可能处在恶魔能量戒断状态，吉安娜反对屠杀。夏末野餐雪球嬉戏后两人初吻。",
+      "sourceRefs": [
+        "text00313:p0031",
+        "text00313:p0034",
+        "text00313:p0036",
+        "text00313:p0054",
+        "text00313:p0061",
+        "text00313:p0062",
+        "text00313:p0063",
+        "text00313:p0064",
+        "text00313:p0089",
+        "text00313:p0095",
+        "text00313:p0098"
+      ]
+    },
+    {
+      "id": "E19",
+      "kind": "fact",
+      "summary": "秘密恋情被凯尔萨斯撞见，公开追求与名誉保护发生争执；阿尔萨斯因自觉不如凯尔而嫉妒，经吉安娜确认选择而缓解。他仍持续训练，并把无敌之死解释为训练开始太晚。",
+      "sourceRefs": [
+        "text00314:p0019",
+        "text00314:p0020",
+        "text00314:p0021",
+        "text00314:p0027",
+        "text00314:p0028",
+        "text00314:p0032",
+        "text00314:p0033"
+      ]
+    },
+    {
+      "id": "E20",
+      "kind": "fact",
+      "summary": "双方长辈默许恋情，他渐接公共职责；万圣节把点火荣耀交给吉安娜，与民同庆并在当夜发展亲密关系。满足中突然恐惧被拒绝，要求她永不拒绝自己。",
+      "sourceRefs": [
+        "text00314:p0035",
+        "text00314:p0037",
+        "text00314:p0051",
+        "text00314:p0053",
+        "text00314:p0056",
+        "text00314:p0064",
+        "text00314:p0068",
+        "text00314:p0069",
+        "text00314:p0071",
+        "text00314:p0073",
+        "text00314:p0074"
+      ]
+    }
+  ],
+  "relationshipsAndMotivations": [
+    {
+      "id": "R01",
+      "kind": "interpretation",
+      "summary": "泰瑞纳斯：关怀人民的父亲与政治责任的施加者并存。阿尔萨斯敬爱、渴望认可，也对被排除或被评价异常敏感。",
+      "sourceRefs": [
+        "text00307:p0053",
+        "text00307:p0059",
+        "text00307:p0062",
+        "text00309:p0099",
+        "text00311:p0047"
+      ]
+    },
+    {
+      "id": "R02",
+      "kind": "interpretation",
+      "summary": "乌瑟尔：严格训练并给予仁慈信仰解释，受封时含泪；不能扁平化为冷酷导师。阿尔萨斯接受力量，却仍抵触冥想与限制。",
+      "sourceRefs": [
+        "text00308:p0055",
+        "text00311:p0009",
+        "text00311:p0024",
+        "text00314:p0032",
+        "text00314:p0033"
+      ]
+    },
+    {
+      "id": "R03",
+      "kind": "interpretation",
+      "summary": "穆拉丁：严厉但真诚认可的武术导师；阿尔萨斯由羞窘转为顽强争取尊敬和亲爱。",
+      "sourceRefs": [
+        "text00308:p0037",
+        "text00308:p0088",
+        "text00309:p0071",
+        "text00309:p0075"
+      ]
+    },
+    {
+      "id": "R04",
+      "kind": "interpretation",
+      "summary": "无敌：从新生命见证、自由伙伴到创伤中心；保护欲、隐瞒过错与绝不再无能为力的誓愿在此交织。",
+      "sourceRefs": [
+        "text00307:p0012",
+        "text00308:p0039",
+        "text00309:p0110",
+        "text00310:p0079",
+        "text00310:p0091",
+        "text00310:p0092",
+        "text00314:p0033"
+      ]
+    },
+    {
+      "id": "R05",
+      "kind": "interpretation",
+      "summary": "吉安娜：朋友和共同冒险者转为恋人；她的兽人伦理、学术志业独立于恋爱。王子体贴、带来快乐，同时对拒绝和失去敏感。",
+      "sourceRefs": [
+        "text00309:p0044",
+        "text00313:p0046",
+        "text00313:p0099",
+        "text00314:p0027",
+        "text00314:p0069",
+        "text00314:p0073"
+      ]
+    },
+    {
+      "id": "R06",
+      "kind": "interpretation",
+      "summary": "瓦里安：失去父亲的同龄人、战技对照及持续友人；其战争创伤也给阿尔萨斯提供理解兽人的先入框架。",
+      "sourceRefs": [
+        "text00307:p0091",
+        "text00308:p0016",
+        "text00311:p0006",
+        "text00313:p0061"
+      ]
+    },
+    {
+      "id": "R07",
+      "kind": "interpretation",
+      "summary": "普通人/被俘兽人：对巴尼尔、卫兵、塔蕾莎有具体的平等亲近与保护行动，对兽人却接受非人化和差别待遇；善意具有边界。",
+      "sourceRefs": [
+        "text00307:p0009",
+        "text00307:p0037",
+        "text00310:p0055",
+        "text00309:p0043",
+        "text00310:p0022"
+      ]
+    }
+  ],
+  "subtitleCandidates": [
+    {
+      "text": "梦",
+      "origin": "original",
+      "sourceRef": "epub-v1/text00306:p0001",
+      "exactHeading": "➣ 序章：梦",
+      "sourceLabel": "序章",
+      "status": "candidate_for_review",
+      "selectionReason": "原作序章标题中的主题词；可用于相应序章分篇，需协调员确定标题与副标题拆分，并非书名冒号后文字。"
+    },
+    {
+      "text": "黄金男孩",
+      "origin": "original",
+      "sourceRef": "epub-v1/text00307:p0001",
+      "exactHeading": "➣ 第一部　黄金男孩",
+      "sourceLabel": "第一部",
+      "status": "candidate_for_review",
+      "selectionReason": "整部完整读毕，与童年至圣骑士受封阶段直接对应；第一部标签须另存。"
+    },
+    {
+      "text": "光明女士",
+      "origin": "original",
+      "sourceRef": "epub-v1/text00312:p0001",
+      "exactHeading": "➣ 第二部　光明女士",
+      "sourceLabel": "第二部",
+      "status": "candidate_for_review",
+      "selectionReason": "分部原作题名已验证，但本块只读间奏及6–7章，须其余资料整合后确认整篇适用性。"
+    },
+    {
+      "text": "黑暗女王",
+      "origin": "original",
+      "sourceRef": "epub-v1/text00304:p0026",
+      "exactHeading": "➣ 第三部 黑暗女王",
+      "sourceLabel": "第三部",
+      "status": "pending_full_section_read",
+      "selectionReason": "仅目录证据，本阅读员未读第三部正文，不对此部主题作结论。"
+    }
+  ],
+  "planningAndArtSuggestions": [
+    {
+      "scope": "序章",
+      "focus": "梦中意志争夺与北方世界承受的异象",
+      "tone": "幽冷、悬疑，病弱男孩仍有抵抗希望",
+      "imageMode": "chapter_scene",
+      "scene": "梦中长桌三者与厅门风雪；必须标明是梦境",
+      "refs": [
+        "text00306:p0017",
+        "text00306:p0018",
+        "text00306:p0019",
+        "text00306:p0032",
+        "text00306:p0035"
+      ],
+      "caution": "不预先把人物命名或将象征当实事；待整合其他章解释。"
+    },
+    {
+      "scope": "第一部",
+      "focus": "温暖成长、责任期待及保护誓愿怎样形成",
+      "tone": "温情与明亮为主，失马创伤作为转折，受封仍有荣耀与希望",
+      "imageMode": "chapter_scene",
+      "scene": "首选圣光大教堂受封举锤；备选九岁男孩与新生马驹。失马若选则单独悲怆场景，不能统治全篇情绪",
+      "refs": [
+        "text00307:p0012",
+        "text00310:p0080",
+        "text00311:p0024",
+        "text00311:p0040",
+        "text00311:p0042"
+      ],
+      "caution": "十九岁圣骑士为银锤与蓝色仪式元素，不能持后期符文剑或穿巫妖王甲。"
+    },
+    {
+      "scope": "第二部开端（不是全篇定案）",
+      "focus": "爱情、公共责任增长与不能承受失去的暗线",
+      "tone": "青春、亲密、春夏生机和节庆金橙；保留不安而不提前变成末路",
+      "imageMode": "chapter_scene",
+      "scene": "吉安娜点燃万圣节稻草人、阿尔萨斯陪伴、民众欢呼；或夏末雪球游戏",
+      "refs": [
+        "text00313:p0082",
+        "text00313:p0089",
+        "text00314:p0051",
+        "text00314:p0056",
+        "text00314:p0062"
+      ],
+      "caution": "应结合后续8–16章决定第二部真正转折与主图，不以本块替代整部策划。"
+    }
+  ],
+  "reviewFindings": [
+    {
+      "severity": "note",
+      "topic": "年龄口径",
+      "detail": "第二章p0024明确十一岁；下一章开头p0003称十二岁而p0003同称吉安娜来访同一星期；p0073与第三章p0043还涉及两人的年龄差。属于原版局部连续性张力，勿强行制作精确公历年表。",
+      "sourceRefs": [
+        "text00308:p0024",
+        "text00308:p0073",
+        "text00309:p0003",
+        "text00309:p0043"
+      ]
+    },
+    {
+      "severity": "note",
+      "topic": "视角与传闻",
+      "detail": "序章人物身份未全部点名；毁灭之锤越狱路线部分来自小道消息；导读的电影剧本传言不得当小说事实。",
+      "sourceRefs": [
+        "text00306:p0018",
+        "text00308:p0020",
+        "text00305:p0004"
+      ]
+    },
+    {
+      "severity": "note",
+      "topic": "时间双轨",
+      "detail": "序章/间奏是后期框架，第一部到第7章为往昔。不能将而立吉安娜的知识归给少女吉安娜。",
+      "sourceRefs": [
+        "text00306:p0019",
+        "text00312:p0018",
+        "text00312:p0021"
+      ]
+    },
+    {
+      "severity": "note",
+      "topic": "圣光认可",
+      "detail": "仪式先有沉默，但随后圣光明确进入身体并使他举锤，不能简单判为拒绝或假圣骑士。",
+      "sourceRefs": [
+        "text00311:p0036",
+        "text00311:p0040",
+        "text00311:p0042"
+      ]
+    }
+  ],
+  "factPolicy": "events are textual facts; attached interpretation and relationships are explicitly interpretations. No external plot supplementation, no invented original setting.",
+  "uncovered": [
+    "text00302（空白封面，未分派）",
+    "text00315–text00333全部正文及尾声/作者介绍；目录中标题只能证明题名，不能证明未读事件。"
+  ],
+  "nextRole": "integrator",
+  "publicationGate": "仅阅读材料；目录策划须用户确认后才写最终正文与生成最终图。"
+}

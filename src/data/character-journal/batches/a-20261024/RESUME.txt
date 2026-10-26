@@ -1,0 +1,64 @@
+A 批可复用交接入口（2026-10-24）
+
+当前状态：thrall_content_completed_unpublished；范围：thrall_approved_plan_prose_and_illustrations_only
+当前指令：Thrall approved plan completed: 12 prose units and 12 stained-glass illustrations. See characters/thrall/production-run.json and preview.html. No publication authorized. Other seven characters checkpointed.
+A 批八人：萨尔、吉安娜、沃金、提里奥·弗丁、卡德加、玛法里奥、瓦里安、杜隆坦（主世界）。
+
+入口文件：
+1. run.json：范围、人物书目、权限状态。
+2. task-slots.json：四个逻辑槽位及历史负责者；跨对话依赖文件，不依赖存活的 agent。
+3. shared/books.json：全书/部分/限定范围读取状态与断点。
+4. shared/evidence.json：各书证据的无损汇总，每条保留原字段、原文件和 JSON 指针。
+5. shared/characters.json：八人书目和显式标注证据索引；未标注条目仍须检查分书文件。
+6. books/<ID>/：manifest、提取原文、证据、进度、交接；这些是权威记录。
+7. shared/checksums.json：交接快照校验值；修改源记录后需重新生成索引。
+
+继承规则：
+先读本文件和 run.json，再读相关 books/<ID>/handoff 与 progress。一本书一个阅读负责人；
+已读内容直接复用，只续读明确未读部分。需要核查时定点返回出处，不按人物重复全书。
+不要将文件已提取误作已阅读，不要将编年史选段误作全卷已读。
+12 号书是校验同源版本后复用旧阅读：原段落坐标属于旧提取，遵守其 limitations，不直接套用新提取坐标。
+事实、人物主观判断、编者导读、梦境、异时间线必须区分。杜隆坦不混入电影线。
+原证据格式不完全一致，汇总保留原貌；整合者后续再审核归一、时间线和版本冲突。
+未来若获准恢复：未读书研究 -> 八人物证据整合 -> 总览及分篇策划 -> 统一用户审阅。
+策划完成状态见各人物任务及 planPath；不因保存证据或策划自动进入写作、配图、发布。
+后续明确授权及正文配图成果见各人物 productionPath；该记录优先于旧策划快照中的停止标记，发布仍需授权。
+萨尔旧任务 thrall-20261024-01 的研究承接于此，不重复建立另一套阅读。
+不修改阿尔萨斯任务、共享前端或发布状态。
+
+书籍快照：
+02《上古之战：永恒之井》：completed；证据 56 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+03《上古之战：恶魔之魂》：partial；证据 66 条；下一断点：text00085
+04《上古之战：天崩地裂》：pending；证据 0 条；下一断点：text00089
+05《部落的崛起》：completed；证据 28 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+06《最后的守护者》：complete；证据 21 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+07《黑暗之潮》：complete；证据 40 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+08《穿越黑暗之门》：complete；证据 52 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+10《氏族之王》：completed；证据 20 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+11《鲜血与荣耀》：completed；证据 17 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+12《迈向冰封王座：阿尔萨斯》：reused_verified_source_version；证据 22 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+13《仇恨之轮》：completed；证据 30 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+15《狼族之心》：pending；证据 0 条；下一断点：text00397
+16《浩劫：灾变的前奏》：completed；证据 43 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+17《怒风》：pending；证据 0 条；下一断点：text00481
+18《萨尔：巨龙的黄昏》：completed；证据 29 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+19《吉安娜·普罗德摩尔：战争之潮》：completed；证据 44 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+20《沃金：部落的暗影》：not_started；证据 0 条；下一断点：text00581
+21《战争罪行》：completed；证据 42 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+24《魔兽编年史 卷一》：scoped_reference_read；证据 9 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+25《魔兽编年史 卷二》：scoped_reference_read；证据 10 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+26《魔兽编年史 卷三》：scoped_reference_read；证据 29 条；下一断点：见该书 coverage/handoff（完成或限定范围不自动续读）
+
+人物产物状态：
+萨尔：content_completed_unpublished；整合：characters/thrall/integration.json；策划：characters/thrall/publication-plan.json
+吉安娜：checkpointed；整合：尚未交付；策划：尚未交付
+沃金：checkpointed；整合：尚未交付；策划：尚未交付
+提里奥·弗丁：checkpointed；整合：尚未交付；策划：尚未交付
+卡德加：checkpointed；整合：尚未交付；策划：尚未交付
+玛法里奥：checkpointed；整合：尚未交付；策划：尚未交付
+瓦里安：checkpointed；整合：尚未交付；策划：尚未交付
+杜隆坦（主世界线）：checkpointed；整合：尚未交付；策划：尚未交付
+
+characters/<人物>/integration.json 与 publication-plan.json 是最终阶段产物；integration-notes.json、reused-evidence.json 是前期工作记录，不能覆盖最终状态。
+重建索引：在工作区运行 python docs/character-journal-batch-20261024/build-reuse-index.py。
+重建只处理已保存证据，不读取新章节，也不补造缺失事实。

@@ -1,0 +1,31 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-overview",
+  "reviewer": "thrall_book13",
+  "reviewType": "independent_visual_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\00-stained-glass.png",
+  "imageSha256": "cab3739553eaaf4de0e658189eb47024f60432401707da72b13b6d62b17350df",
+  "storySha256": "bece6c9067cbb17047059d96c68b4be6a4a65244505192027640410d20d3fc7c",
+  "profileSha256": "996101eec1945998c547a65a70783b0f852241a4e8c9fa569b615108bb05fec1",
+  "artBriefSha256": "5388b8caac6a015fd85c73bd56a3cc5aa1382a2d3a7deb1a961232a55f0e0163",
+  "promptSha256": "2e629370c18e2744fdc7b94466bccf186839fd997c7f06c81eb8260c6c2aecd0",
+  "subtitle": "选择自己的名字，也面对选择的后果",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "完整连续象征构图；断链、掌中嫩苗、锤、大地家园及元素流动构成整体，袍装与武器为允许的跨阶段概括。脸内及手部可见铅条，非仅边框玻璃。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。"
+}

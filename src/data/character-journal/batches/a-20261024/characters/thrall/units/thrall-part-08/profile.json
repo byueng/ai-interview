@@ -1,0 +1,87 @@
+{
+  "unitId": "thrall-part-08",
+  "kind": "section",
+  "displayOrder": 8,
+  "title": "英雄之外的自己",
+  "sourceLabel": "《萨尔：巨龙的黄昏》",
+  "subtitle": {
+    "text": "无需功绩，也值得被爱",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00526:p0002-p0104",
+        "text00529:p0002-p0060",
+        "text00530:p0002-p0100"
+      ],
+      "evidenceId": "thrall-event-21",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "18",
+      "sourceTitle": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00532:p0027-p0138",
+        "text00533:p0002-p0088",
+        "text00534:p0002-p0109",
+        "text00535:p0065-p0139"
+      ],
+      "evidenceId": "thrall-event-22",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "大漩涡自疑、小营地任务至重访父母与异常时线相见",
+  "characterChange": "从依赖大酋长和救世职责定义自我，到理解亲情和善意不以功绩交换",
+  "focus": "小任务保留橡果铺垫；真实过去的父母与异常分支的塔蕾莎分别标示，重心是得到新的自我理解。",
+  "tone": "不安、亲密、哀伤中的释然",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-21",
+      "event": "负罪与酋长身份令萨尔分心；阿格娜问他是谁。他接受伊瑟拉看似微小的救援任务，听取火元素而非强压，获得古树橡果。",
+      "classification": "integrated_source_facts",
+      "boundary": "不把英雄身份作为全部自我；小营地经历为后续橡果与同理心铺垫。"
+    },
+    {
+      "evidenceId": "thrall-event-22",
+      "event": "成人萨尔亲见父母临终，克制改变历史，明白无需功绩也被爱；异常时线塔蕾莎仍活着，帮他认识善意如何塑造信任。",
+      "classification": "integrated_source_facts",
+      "boundary": "父母之死为真实过去重访；塔蕾莎活着、萨尔婴儿夭折、布莱克摩尔夺国均为异常分支。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-21",
+    "thrall-event-22"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "不重述早年全部情节；不提前给出龙族重联结果，止于私人价值被重新看见。",
+  "independenceReason": "身份追问与重访亲人形成内向弧线；避免将整部巨龙小说压成一次升级任务。",
+  "lengthMode": "standard",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "249c08502fdfc05f0f9d37566163a1d4bbdfe3b14296c1e98cc6d6fd7e2c70cf"
+}

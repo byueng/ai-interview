@@ -1,0 +1,306 @@
+{
+  "bookId": "19",
+  "title": "吉安娜·普罗德摩尔：战争之潮",
+  "sourcePath": "E:\\魔兽官方小说\\19 吉安娜·普罗德摩尔：战争之潮.epub",
+  "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+  "documents": [
+    {
+      "documentId": "text00548",
+      "href": "OEBPS/text00548.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00548.txt",
+      "sha256": "a0aeb67d6f7328791b35eca83321c34f6a1a7e51085e84da0681c796bdef311e"
+    },
+    {
+      "documentId": "text00549",
+      "href": "OEBPS/text00549.html",
+      "paragraphs": 7,
+      "characters": 219,
+      "heading": "版权信息",
+      "path": "source/text00549.txt",
+      "sha256": "e9492e96adf7c79876a6a54bec71080c7c288d765905a3897752f063c4c57a01"
+    },
+    {
+      "documentId": "text00550",
+      "href": "OEBPS/text00550.html",
+      "paragraphs": 32,
+      "characters": 975,
+      "heading": "吉安娜·普罗德摩尔：战争之潮",
+      "path": "source/text00550.txt",
+      "sha256": "7c392eafc49c0a58ec6a22a8b975e2398162f1e6e773d67c104d9fd6f45911fd"
+    },
+    {
+      "documentId": "text00551",
+      "href": "OEBPS/text00551.html",
+      "paragraphs": 5,
+      "characters": 226,
+      "heading": "谨以此书献给我亲爱的父亲，詹姆斯·R·高登（1920－2011）。",
+      "path": "source/text00551.txt",
+      "sha256": "5669e8d5ce17615d8f4b341df83566888ddd616cd9dd7469c7f97899ef11105f"
+    },
+    {
+      "documentId": "text00552",
+      "href": "OEBPS/text00552.html",
+      "paragraphs": 98,
+      "characters": 10292,
+      "heading": "➣ 第一章　失踪的神器",
+      "path": "source/text00552.txt",
+      "sha256": "c7c2af8251ee12768b9a046e95f6ded9e23f83d0424a120cd89d87ad947fea8e"
+    },
+    {
+      "documentId": "text00553",
+      "href": "OEBPS/text00553.html",
+      "paragraphs": 108,
+      "characters": 12349,
+      "heading": "➣ 第二章　一触即发",
+      "path": "source/text00553.txt",
+      "sha256": "957fe3acafde32be04e5ee786df78aa9089348f61fa156e41f3587e08123280c"
+    },
+    {
+      "documentId": "text00554",
+      "href": "OEBPS/text00554.html",
+      "paragraphs": 62,
+      "characters": 5992,
+      "heading": "➣ 第三章　会面",
+      "path": "source/text00554.txt",
+      "sha256": "21cba500d6d08693f282d523286a5b2b67d61247379ae859d281a008a617f37f"
+    },
+    {
+      "documentId": "text00555",
+      "href": "OEBPS/text00555.html",
+      "paragraphs": 77,
+      "characters": 7409,
+      "heading": "➣ 第四章　侏儒女孩",
+      "path": "source/text00555.txt",
+      "sha256": "2f57f55267d43699c1e25ce9a12f8c225060c8484fd4c7832702d51ec244afde"
+    },
+    {
+      "documentId": "text00556",
+      "href": "OEBPS/text00556.html",
+      "paragraphs": 114,
+      "characters": 9891,
+      "heading": "➣ 第五章　访客",
+      "path": "source/text00556.txt",
+      "sha256": "85bb70c412bc59337a3520e727c0cadb7f5253a09de305119da17cab9d9ed6f2"
+    },
+    {
+      "documentId": "text00557",
+      "href": "OEBPS/text00557.html",
+      "paragraphs": 117,
+      "characters": 9840,
+      "heading": "➣ 第六章　固守要塞",
+      "path": "source/text00557.txt",
+      "sha256": "49fbaa2b5ef9fb4d1ca6bb106dac8523c9b510c91fd478320ee3860e3126ae41"
+    },
+    {
+      "documentId": "text00558",
+      "href": "OEBPS/text00558.html",
+      "paragraphs": 86,
+      "characters": 7664,
+      "heading": "➣ 第七章　北望城堡",
+      "path": "source/text00558.txt",
+      "sha256": "b4c821b20021bbfe14c606f11f43ec1fa8cf91204cc7ea6b2d83f7024c768366"
+    },
+    {
+      "documentId": "text00559",
+      "href": "OEBPS/text00559.html",
+      "paragraphs": 87,
+      "characters": 9606,
+      "heading": "➣ 第八章　激战",
+      "path": "source/text00559.txt",
+      "sha256": "fee4aa38f5d952a95414d7e3e7ce539572224c93159b38bbfca6edaea423a855"
+    },
+    {
+      "documentId": "text00560",
+      "href": "OEBPS/text00560.html",
+      "paragraphs": 117,
+      "characters": 11165,
+      "heading": "➣ 第九章　外交官的魅力",
+      "path": "source/text00560.txt",
+      "sha256": "b01a13cd08aa41be6ce8006db21e62c8f810d2a935139dd2ce0841dbd85ccefa"
+    },
+    {
+      "documentId": "text00561",
+      "href": "OEBPS/text00561.html",
+      "paragraphs": 115,
+      "characters": 10285,
+      "heading": "➣ 第十章　蛰伏的危险",
+      "path": "source/text00561.txt",
+      "sha256": "94aea84e1520fd0c23c7f96fc1f76852e648fb349ba1b94278c64598f76486da"
+    },
+    {
+      "documentId": "text00562",
+      "href": "OEBPS/text00562.html",
+      "paragraphs": 106,
+      "characters": 10005,
+      "heading": "➣ 第十一章　鲜血与雷霆号",
+      "path": "source/text00562.txt",
+      "sha256": "eda3df5252cd160595bd818bce923846c56759108e9cbc759bb4c1cd648164ff"
+    },
+    {
+      "documentId": "text00563",
+      "href": "OEBPS/text00563.html",
+      "paragraphs": 69,
+      "characters": 7213,
+      "heading": "➣ 第十二章　空之议院",
+      "path": "source/text00563.txt",
+      "sha256": "a192d84b21d23cc3612fd9424dec6ede7523bdaaa67ad645997938a119e30e58"
+    },
+    {
+      "documentId": "text00564",
+      "href": "OEBPS/text00564.html",
+      "paragraphs": 82,
+      "characters": 7698,
+      "heading": "➣ 第十三章　我即塞拉摩",
+      "path": "source/text00564.txt",
+      "sha256": "04ad30cb6b818e16b7bcccbc05aeee942a11354e0246ab1c8a97ce529be3afa4"
+    },
+    {
+      "documentId": "text00565",
+      "href": "OEBPS/text00565.html",
+      "paragraphs": 82,
+      "characters": 8280,
+      "heading": "➣ 第十四章　圣光的援助",
+      "path": "source/text00565.txt",
+      "sha256": "9d02eb3961971a1422d85692427bdfd2f02a19e1ee1118fc8db822a2694b28e3"
+    },
+    {
+      "documentId": "text00566",
+      "href": "OEBPS/text00566.html",
+      "paragraphs": 81,
+      "characters": 8128,
+      "heading": "➣ 第十五章　兵临城下",
+      "path": "source/text00566.txt",
+      "sha256": "f6a76f7ff1edbba1f49674fd92b8653479db419df846e787e7742f2c5fedfa98"
+    },
+    {
+      "documentId": "text00567",
+      "href": "OEBPS/text00567.html",
+      "paragraphs": 71,
+      "characters": 7300,
+      "heading": "➣ 第十六章　战鼓喧天",
+      "path": "source/text00567.txt",
+      "sha256": "08891c1d547c50a72ad6ed5b31456fc0409e408d20a945fb170a17bbfe5ec619"
+    },
+    {
+      "documentId": "text00568",
+      "href": "OEBPS/text00568.html",
+      "paragraphs": 118,
+      "characters": 9999,
+      "heading": "➣ 第十七章　碎裂的城门",
+      "path": "source/text00568.txt",
+      "sha256": "f5ee1386a7fcbc58267c44a843b5df45304a5682a84211eab3177764a2fc84bf"
+    },
+    {
+      "documentId": "text00569",
+      "href": "OEBPS/text00569.html",
+      "paragraphs": 112,
+      "characters": 10683,
+      "heading": "➣ 第十八章　法力炸弹",
+      "path": "source/text00569.txt",
+      "sha256": "646c6fcefc6210f0f810ad4d9c73d2f9ec627243e79ec4e90423f81c3148b4aa"
+    },
+    {
+      "documentId": "text00570",
+      "href": "OEBPS/text00570.html",
+      "paragraphs": 101,
+      "characters": 11066,
+      "heading": "➣ 第十九章　废墟与创伤",
+      "path": "source/text00570.txt",
+      "sha256": "233d8de8d49cc08c48fc727937355c79c5296d95fad49d9363a87ced41ba8359"
+    },
+    {
+      "documentId": "text00571",
+      "href": "OEBPS/text00571.html",
+      "paragraphs": 90,
+      "characters": 10277,
+      "heading": "➣ 第二十章　不可行的和平",
+      "path": "source/text00571.txt",
+      "sha256": "967cddd1deffc5e7f3570fa9fb67ce82f9d7be051e05922a1783edac08a42a57"
+    },
+    {
+      "documentId": "text00572",
+      "href": "OEBPS/text00572.html",
+      "paragraphs": 70,
+      "characters": 7426,
+      "heading": "➣ 第二十一章　疯狂的加尔鲁什",
+      "path": "source/text00572.txt",
+      "sha256": "0cb5c84d816df7826a5b46e1d646a93b5e3b7e4be4c3b2e2452962063c6e5d82"
+    },
+    {
+      "documentId": "text00573",
+      "href": "OEBPS/text00573.html",
+      "paragraphs": 73,
+      "characters": 8642,
+      "heading": "➣ 第二十二章　第二次造访",
+      "path": "source/text00573.txt",
+      "sha256": "d364a8a44230c237114f5f7e9011a53e2287aa27025390588ced31928394fb00"
+    },
+    {
+      "documentId": "text00574",
+      "href": "OEBPS/text00574.html",
+      "paragraphs": 116,
+      "characters": 11507,
+      "heading": "➣ 第二十三章　联盟的公民",
+      "path": "source/text00574.txt",
+      "sha256": "c98c142a6490ffd53263c017405625da89c2f6da3699a88cac0d20f2b9dbd298"
+    },
+    {
+      "documentId": "text00575",
+      "href": "OEBPS/text00575.html",
+      "paragraphs": 110,
+      "characters": 9641,
+      "heading": "➣ 第二十四章　完美计划",
+      "path": "source/text00575.txt",
+      "sha256": "9c68361b02ee32e4f587fd57b44d70fbb078a25bbb68b8e25bf4ae977a9f3337"
+    },
+    {
+      "documentId": "text00576",
+      "href": "OEBPS/text00576.html",
+      "paragraphs": 113,
+      "characters": 10781,
+      "heading": "➣ 第二十五章　聚焦能量",
+      "path": "source/text00576.txt",
+      "sha256": "4625567953bb2fecb8cf8c1efd91a19467f6c98a1236861df3810f37f916be2f"
+    },
+    {
+      "documentId": "text00577",
+      "href": "OEBPS/text00577.html",
+      "paragraphs": 73,
+      "characters": 7527,
+      "heading": "➣ 第二十六章　刃拳湾海战",
+      "path": "source/text00577.txt",
+      "sha256": "e9bae90ba409ce75da6b516e6e2e059d33a8069e82829cf23d25901e840b57dc"
+    },
+    {
+      "documentId": "text00578",
+      "href": "OEBPS/text00578.html",
+      "paragraphs": 108,
+      "characters": 9413,
+      "heading": "➣ 第二十七章　浴火重生",
+      "path": "source/text00578.txt",
+      "sha256": "b30190fc5009feb441b4c131601f3635732afc601f98c5276dc9262ebe04bdc6"
+    },
+    {
+      "documentId": "text00579",
+      "href": "OEBPS/text00579.html",
+      "paragraphs": 71,
+      "characters": 6591,
+      "heading": "➣ 尾声　薪火相继",
+      "path": "source/text00579.txt",
+      "sha256": "cefd69b054c710708726402b9f07c6758bcfcb62781a4626ed4655b70755a7c1"
+    },
+    {
+      "documentId": "text00580",
+      "href": "OEBPS/text00580.html",
+      "paragraphs": 6,
+      "characters": 1023,
+      "heading": "在此，我想对埃德·施莱辛格、詹姆斯·沃、米奇·尼尔之子，以及罗素·布劳尔表示特别的感谢。谢谢他们一直以来对我的鼓励和支持。谢谢你们。同样，我还要感谢帕克特家族的罗布、贝威、克里斯和莱恩。愿所有作者都能被提供这样一个可以安心写作的避风港。",
+      "path": "source/text00580.txt",
+      "sha256": "4902bf70442655cce75d1bbcb28f1d1215b9a3a5d3b07bd7bebc32fc6292c508"
+    }
+  ],
+  "readStatus": "pending"
+}

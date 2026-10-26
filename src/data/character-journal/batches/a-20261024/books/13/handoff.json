@@ -1,0 +1,194 @@
+{
+  "runId": "batch-a-20261024-01",
+  "characterId": "shared-a",
+  "role": "researcher",
+  "inputVersions": {
+    "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+    "evidenceVersion": 3
+  },
+  "outputPaths": [
+    "books/13/evidence.json",
+    "books/13/reading-progress.json",
+    "books/13/handoff.json"
+  ],
+  "status": "completed",
+  "reviewFindings": [
+    "全部32文档逐段顺序阅读，24章和尾声完整。",
+    "未生成正文/配图。",
+    "保留戴林死亡行动者等版本差异、人物主观见解和结局边界。"
+  ],
+  "nextRole": "integrator",
+  "retryCount": 0,
+  "scopeId": "book-13",
+  "sourceRanges": [
+    {
+      "documentId": "text00334",
+      "fromParagraph": null,
+      "toParagraph": 0
+    },
+    {
+      "documentId": "text00335",
+      "fromParagraph": 1,
+      "toParagraph": 7
+    },
+    {
+      "documentId": "text00336",
+      "fromParagraph": 1,
+      "toParagraph": 33
+    },
+    {
+      "documentId": "text00337",
+      "fromParagraph": 1,
+      "toParagraph": 5
+    },
+    {
+      "documentId": "text00338",
+      "fromParagraph": 1,
+      "toParagraph": 92
+    },
+    {
+      "documentId": "text00339",
+      "fromParagraph": 1,
+      "toParagraph": 70
+    },
+    {
+      "documentId": "text00340",
+      "fromParagraph": 1,
+      "toParagraph": 133
+    },
+    {
+      "documentId": "text00341",
+      "fromParagraph": 1,
+      "toParagraph": 50
+    },
+    {
+      "documentId": "text00342",
+      "fromParagraph": 1,
+      "toParagraph": 56
+    },
+    {
+      "documentId": "text00343",
+      "fromParagraph": 1,
+      "toParagraph": 77
+    },
+    {
+      "documentId": "text00344",
+      "fromParagraph": 1,
+      "toParagraph": 57
+    },
+    {
+      "documentId": "text00345",
+      "fromParagraph": 1,
+      "toParagraph": 98
+    },
+    {
+      "documentId": "text00346",
+      "fromParagraph": 1,
+      "toParagraph": 64
+    },
+    {
+      "documentId": "text00347",
+      "fromParagraph": 1,
+      "toParagraph": 47
+    },
+    {
+      "documentId": "text00348",
+      "fromParagraph": 1,
+      "toParagraph": 56
+    },
+    {
+      "documentId": "text00349",
+      "fromParagraph": 1,
+      "toParagraph": 107
+    },
+    {
+      "documentId": "text00350",
+      "fromParagraph": 1,
+      "toParagraph": 51
+    },
+    {
+      "documentId": "text00351",
+      "fromParagraph": 1,
+      "toParagraph": 53
+    },
+    {
+      "documentId": "text00352",
+      "fromParagraph": 1,
+      "toParagraph": 47
+    },
+    {
+      "documentId": "text00353",
+      "fromParagraph": 1,
+      "toParagraph": 93
+    },
+    {
+      "documentId": "text00354",
+      "fromParagraph": 1,
+      "toParagraph": 34
+    },
+    {
+      "documentId": "text00355",
+      "fromParagraph": 1,
+      "toParagraph": 82
+    },
+    {
+      "documentId": "text00356",
+      "fromParagraph": 1,
+      "toParagraph": 49
+    },
+    {
+      "documentId": "text00357",
+      "fromParagraph": 1,
+      "toParagraph": 53
+    },
+    {
+      "documentId": "text00358",
+      "fromParagraph": 1,
+      "toParagraph": 29
+    },
+    {
+      "documentId": "text00359",
+      "fromParagraph": 1,
+      "toParagraph": 41
+    },
+    {
+      "documentId": "text00360",
+      "fromParagraph": 1,
+      "toParagraph": 48
+    },
+    {
+      "documentId": "text00361",
+      "fromParagraph": 1,
+      "toParagraph": 33
+    },
+    {
+      "documentId": "text00362",
+      "fromParagraph": 1,
+      "toParagraph": 42
+    },
+    {
+      "documentId": "text00363",
+      "fromParagraph": 1,
+      "toParagraph": 5
+    },
+    {
+      "documentId": "text00364",
+      "fromParagraph": 1,
+      "toParagraph": 2
+    },
+    {
+      "documentId": "text00365",
+      "fromParagraph": 1,
+      "toParagraph": 2
+    }
+  ],
+  "checks": {
+    "fullTextRead": true,
+    "sourceEPUBHashVerified": true,
+    "unrecordedReadMaterial": [],
+    "allOriginalHtmlHashesMatch": true,
+    "hashMeaning": "manifest.documents.sha256为EPUB原始HTML字节哈希，并非提取TXT字节哈希。"
+  },
+  "factsCount": 30,
+  "inferencesCount": 3
+}

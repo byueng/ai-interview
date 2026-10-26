@@ -1,0 +1,384 @@
+{
+  "runId": "batch-a-20261024-01",
+  "bookId": "18",
+  "status": "completed",
+  "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+  "inputVersion": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+  "coverage": [
+    {
+      "documentId": "text00523",
+      "href": "OEBPS/text00523.html",
+      "paragraphs": 0,
+      "readRanges": null,
+      "status": "read_full",
+      "sha256": "a0f84046530479d54164ae7a855d146d5f6e424b4dc20673d6ee15dea09029a6"
+    },
+    {
+      "documentId": "text00524",
+      "href": "OEBPS/text00524.html",
+      "paragraphs": 7,
+      "readRanges": "p0001-p0007",
+      "status": "read_full",
+      "sha256": "520d0cc80994daf0f8b8e1aa7363704789b02de7d64761cbd53ab839aa87e103"
+    },
+    {
+      "documentId": "text00525",
+      "href": "OEBPS/text00525.html",
+      "paragraphs": 26,
+      "readRanges": "p0001-p0026",
+      "status": "read_full",
+      "sha256": "5ec15b390c04cd9a234bb56dffca09cf8e9ade1026be46caa6590b5776359fa4"
+    },
+    {
+      "documentId": "text00526",
+      "href": "OEBPS/text00526.html",
+      "paragraphs": 104,
+      "readRanges": "p0001-p0104",
+      "status": "read_full",
+      "sha256": "e34bbc42f1eae98ac4d6603c2980c53550f20dec530e734dacc9fe969ab63f91"
+    },
+    {
+      "documentId": "text00527",
+      "href": "OEBPS/text00527.html",
+      "paragraphs": 76,
+      "readRanges": "p0001-p0076",
+      "status": "read_full",
+      "sha256": "d9c29a1c55a7707fcdd12ac7df73c5115771f2c39e0fdd69c5a98be3e98a2c9a"
+    },
+    {
+      "documentId": "text00528",
+      "href": "OEBPS/text00528.html",
+      "paragraphs": 114,
+      "readRanges": "p0001-p0114",
+      "status": "read_full",
+      "sha256": "67f95354dc972e48a00385d95874fa2c9271ebf2ba7040f368b571831eab7809"
+    },
+    {
+      "documentId": "text00529",
+      "href": "OEBPS/text00529.html",
+      "paragraphs": 130,
+      "readRanges": "p0001-p0130",
+      "status": "read_full",
+      "sha256": "e3ddaf8b87872613890cf242dd14b362b3077ec26a066327891db08371059b4a"
+    },
+    {
+      "documentId": "text00530",
+      "href": "OEBPS/text00530.html",
+      "paragraphs": 100,
+      "readRanges": "p0001-p0100",
+      "status": "read_full",
+      "sha256": "33f33962120437f6271797557c7df3c9b5def8b88134b2bad7f6cf22db838640"
+    },
+    {
+      "documentId": "text00531",
+      "href": "OEBPS/text00531.html",
+      "paragraphs": 99,
+      "readRanges": "p0001-p0099",
+      "status": "read_full",
+      "sha256": "3843489eca937c6963096e0742578ff6183cdb15a706027b73ad438827af08fe"
+    },
+    {
+      "documentId": "text00532",
+      "href": "OEBPS/text00532.html",
+      "paragraphs": 138,
+      "readRanges": "p0001-p0138",
+      "status": "read_full",
+      "sha256": "74e90e46ac6301f67a2a3d2a8e9534819ee73fca7982a7cd5f22c71588508c69"
+    },
+    {
+      "documentId": "text00533",
+      "href": "OEBPS/text00533.html",
+      "paragraphs": 88,
+      "readRanges": "p0001-p0088",
+      "status": "read_full",
+      "sha256": "4487a031ed8b89b9e16db2c59de82e00d1c9fb7df38793aaa06f4f636166fbcd"
+    },
+    {
+      "documentId": "text00534",
+      "href": "OEBPS/text00534.html",
+      "paragraphs": 109,
+      "readRanges": "p0001-p0109",
+      "status": "read_full",
+      "sha256": "a1507913dacfc5cd4520b6cc1245e4c35d530afb48ed69fdfd18964bd35f56dc"
+    },
+    {
+      "documentId": "text00535",
+      "href": "OEBPS/text00535.html",
+      "paragraphs": 139,
+      "readRanges": "p0001-p0139",
+      "status": "read_full",
+      "sha256": "daf3b675bc28adf5b388ce5c042f87a1b47e127f198a3b6272eb9e060b2cebc6"
+    },
+    {
+      "documentId": "text00536",
+      "href": "OEBPS/text00536.html",
+      "paragraphs": 79,
+      "readRanges": "p0001-p0079",
+      "status": "read_full",
+      "sha256": "fcbd97616016e41251554de9a2a6127a3e6eb1532276748ed8cea12ffa29a97c"
+    },
+    {
+      "documentId": "text00537",
+      "href": "OEBPS/text00537.html",
+      "paragraphs": 101,
+      "readRanges": "p0001-p0101",
+      "status": "read_full",
+      "sha256": "60d5a10358906e6b576bba44c718d39da790ed9b07ba369e8b32adddee2e7576"
+    },
+    {
+      "documentId": "text00538",
+      "href": "OEBPS/text00538.html",
+      "paragraphs": 124,
+      "readRanges": "p0001-p0124",
+      "status": "read_full",
+      "sha256": "ce84aac1360f624b3a2bc08ddbd00c73955447cd508de32112aa60d60481dfda"
+    },
+    {
+      "documentId": "text00539",
+      "href": "OEBPS/text00539.html",
+      "paragraphs": 144,
+      "readRanges": "p0001-p0144",
+      "status": "read_full",
+      "sha256": "2e541aa3c03a535f596ac00757823552c0830778cf262921fbd9f7205b51e298"
+    },
+    {
+      "documentId": "text00540",
+      "href": "OEBPS/text00540.html",
+      "paragraphs": 105,
+      "readRanges": "p0001-p0105",
+      "status": "read_full",
+      "sha256": "4d9c22e17a05e594d74d9176d56fd573ec3909b23becfd216478531c00240011"
+    },
+    {
+      "documentId": "text00541",
+      "href": "OEBPS/text00541.html",
+      "paragraphs": 83,
+      "readRanges": "p0001-p0083",
+      "status": "read_full",
+      "sha256": "ece11c2aa4ae2d1b0c4541d17f41409293c9b2e5801da1ea392f96af903d0ec7"
+    },
+    {
+      "documentId": "text00542",
+      "href": "OEBPS/text00542.html",
+      "paragraphs": 140,
+      "readRanges": "p0001-p0140",
+      "status": "read_full",
+      "sha256": "c74cf89c963c46281b95f6df032cf4c786a647b60c5eed96da35b6d4e152ecf2"
+    },
+    {
+      "documentId": "text00543",
+      "href": "OEBPS/text00543.html",
+      "paragraphs": 144,
+      "readRanges": "p0001-p0144",
+      "status": "read_full",
+      "sha256": "d48a26d8aa1a35fa09587bf66fb636419cf2ba5e5b85235003a4a05b65446034"
+    },
+    {
+      "documentId": "text00544",
+      "href": "OEBPS/text00544.html",
+      "paragraphs": 86,
+      "readRanges": "p0001-p0086",
+      "status": "read_full",
+      "sha256": "511b6696290a82c4cf50c17a0412fd94dc766a6f5daf723e0ffd7dd600568818"
+    },
+    {
+      "documentId": "text00545",
+      "href": "OEBPS/text00545.html",
+      "paragraphs": 98,
+      "readRanges": "p0001-p0098",
+      "status": "read_full",
+      "sha256": "072abfb3f02f7592347140fafdcb2f3bd90ae60f15ac8508eb85311ea825e976"
+    },
+    {
+      "documentId": "text00546",
+      "href": "OEBPS/text00546.html",
+      "paragraphs": 105,
+      "readRanges": "p0001-p0105",
+      "status": "read_full",
+      "sha256": "bb0166d3e4bfcc7fa5c4639fdedd5d7ef7d97681fa1021ccac89184d85d39273"
+    },
+    {
+      "documentId": "text00547",
+      "href": "OEBPS/text00547.html",
+      "paragraphs": 102,
+      "readRanges": "p0001-p0102",
+      "status": "read_full",
+      "sha256": "299c8863f3b6a667716abfdcbbc7f8e66a50a2447c501b08514300d6435ab8ea"
+    }
+  ],
+  "facts": [
+    {
+      "ref": "OEBPS/text00526.html:p0002-p0104",
+      "facts": "大漩涡仪式因萨尔分心失败。离任和凯恩死讯令他愧疚；阿格娜指出酋长身份成了面具，追问他是谁。吉安娜与塔蕾莎被萨尔维护为勇敢朋友，绯闻明确不是事实。"
+    },
+    {
+      "ref": "OEBPS/text00527.html:p0002-p0076",
+      "facts": "龙族会议因魔枢战争争执，卡雷苟斯调停，阿瑞苟斯指责红龙；伊瑟拉警告暮光审判；暮光龙来袭。"
+    },
+    {
+      "ref": "OEBPS/text00528.html:p0002-p0114",
+      "facts": "暮光龙攻击掩护五色圣殿爆炸；考雷斯特拉兹能量痕迹引发叛变怀疑，真相未明。阿莱克丝塔萨撞碎同心宝珠离去，联军破裂。伊瑟拉认定萨尔为关键。"
+    },
+    {
+      "ref": "OEBPS/text00529.html:p0002-p0060",
+      "facts": "伊瑟拉派萨尔救菲拉斯小营地。他因自疑和轻视小任务推迟，在阿格娜劝谦卑后接受。"
+    },
+    {
+      "ref": "OEBPS/text00529.html:p0062-p0130",
+      "facts": "暮光教父占神殿，囚徒是克莉苟萨；死亡之翼命令抹杀萨尔，教父计划复活五头多彩龙克洛玛图斯。"
+    },
+    {
+      "ref": "OEBPS/text00530.html:p0002-p0100",
+      "facts": "萨尔接受暗夜精灵搜身，以萨满身份取得信任，劝火元素留古树重学真实的机会；共餐安睡。戴沙林揭示绿龙身份，古树记忆错乱表明时光异常；赠萨尔承载世代知识的橡果。"
+    },
+    {
+      "ref": "OEBPS/text00531.html:p0002-p0099",
+      "facts": "戴沙林载萨尔往时光之穴；说明绿龙与玛法里奥分享梦境。克鲁纳里斯解释萨尔逃离敦霍尔德的重要性。冥想前戴沙林被黑甲刺客杀害，萨尔受伤，由青铜龙送入时光之路。"
+    },
+    {
+      "ref": "OEBPS/text00532.html:p0027-p0102",
+      "facts": "杜隆坦向奥格瑞姆揭发古尔丹；受信卫兵格鲁卡出卖护送任务。杜隆坦德拉卡为婴儿战死。萨尔压抑救父母和杀刺客冲动，维护历史，将婴儿放在断臂父亲胸前，保证儿子会解救族人。杜隆坦微笑死去。萨尔理解无需成就也被父母深爱。"
+    },
+    {
+      "ref": "OEBPS/text00532.html:p0103-p0138",
+      "facts": "萨尔见诺兹多姆倒影；为不影响布莱克摩尔捡到婴儿，将追杀者撞进水中。"
+    },
+    {
+      "ref": "OEBPS/text00533.html:p0002-p0088",
+      "facts": "蓝龙围绕血统、选举、月之拥抱讨论继任；萨尔追随金光重访登陆卡利姆多等人生节点。麦迪文以编织比喻指引，萨尔进入塔蕾莎活着的异常时间线。"
+    },
+    {
+      "ref": "OEBPS/text00534.html:p0002-p0109",
+      "facts": "新月项链相同凹痕使异常时线塔蕾莎相信萨尔。她讲婴儿萨尔夭折、布莱克摩尔训练军队夺国等异常历史；萨尔说明她的善意使自己能够信任吉安娜、尊重兽人。塔蕾莎得知正史自己遇害仍重视生命意义，决定帮助他；时间开始重复。"
+    },
+    {
+      "ref": "OEBPS/text00535.html:p0002-p0024",
+      "facts": "伊瑟拉看到暮光审判毁灭未来；明确为可改变幻象，不是既成事件。"
+    },
+    {
+      "ref": "OEBPS/text00535.html:p0026-p0064",
+      "facts": "异常时线塔蕾莎称瓦里安统治暴风城，阿尔萨斯与吉安娜结婚育乌瑟尔王子；瓦里安是伴郎，两人如兄弟。须与真实时间线隔离，不用于吉安娜瓦里安正史生平。"
+    },
+    {
+      "ref": "OEBPS/text00535.html:p0065-p0139",
+      "facts": "橡果使萨尔得见异常时线克拉苏斯；定位魔法找不到布莱克摩尔。凭盔甲来源线索，萨尔确认追杀者是离开异常时线的布莱克摩尔。"
+    },
+    {
+      "ref": "OEBPS/text00536.html:p0002-p0079",
+      "facts": "萨尔认识到当下才真实，放下对过去未来的执迷，同时保留学习过去、计划未来的责任，找到并带回困于所有时刻的诺兹多姆。看到英雄成就外的私人细小时刻同样重要。诺兹多姆确认刺客是永恒军团爪牙并坦白另一未来中的自己是派遣者。"
+    },
+    {
+      "ref": "OEBPS/text00537.html:p0002-p0021",
+      "facts": "诺兹多姆解释在一个形成中的未来成为永恒军团首领，尚不知如何避免。萨尔为伊瑟拉与戴沙林答应继续帮助，接受寻找阿莱克丝塔萨的任务。"
+    },
+    {
+      "ref": "OEBPS/text00537.html:p0023-p0101",
+      "facts": "萨尔首次劝说凄凉之地绝望的阿莱克丝塔萨，用职责与世界需要施压失败，被火焰驱离；仍去魔枢寻求蓝龙联合。布莱克摩尔继续追踪。"
+    },
+    {
+      "ref": "OEBPS/text00538.html:p0002-p0124",
+      "facts": "卡雷苟斯反对杀死使者、以离开军团作担保留萨尔。萨尔谦逊讲述当下与简单不等于容易，倾听蓝龙议事，和卡雷分享戴沙林及追杀者经历。末尾阿瑞苟斯秘密拜见教父，读者知叛变而萨尔尚未知。"
+    },
+    {
+      "ref": "OEBPS/text00539.html:p0002-p0059",
+      "facts": "阿瑞苟斯欺骗献出姐姐，计划成为守护者后交出全族；受教父威胁。"
+    },
+    {
+      "ref": "OEBPS/text00539.html:p0061-p0144",
+      "facts": "萨尔以自己领导责任经验帮助畏惧改变的卡雷苟斯决心担当。月之拥抱中龙族选择对魔法之美开放而非阿瑞苟斯的权力呼号，卡雷苟斯获得真正守护者力量。阿瑞苟斯召来暮光龙。萨尔不再喊为了部落而明确为艾泽拉斯而战，与卡雷并肩空战。"
+    },
+    {
+      "ref": "OEBPS/text00540.html:p0002-p0105",
+      "facts": "布莱克摩尔杀阿瑞苟斯，用其血激活聚焦之虹，湍流之针赋克洛玛图斯生命。蓝龙追击反遭强敌压倒，萨尔被尾击扫落。克洛玛图斯虽身体腐朽却是活物，不应标成亡灵。"
+    },
+    {
+      "ref": "OEBPS/text00541.html:p0002-p0083",
+      "facts": "萨尔被积雪救下后陷绝望；想起阿格娜并向生命之灵开放，获救与新幻象，也真正理解阿莱克丝塔萨。击败追杀者，不以复仇喜悦而以纠正时线错误的自觉杀布莱克摩尔，摆脱奴役阴影。"
+    },
+    {
+      "ref": "OEBPS/text00542.html:p0002-p0040",
+      "facts": "纳里苟斯找到并救回萨尔；卡雷告知败退及敌人尚虚弱，萨尔承诺再劝红龙女王，新幻象先与她分享。"
+    },
+    {
+      "ref": "OEBPS/text00542.html:p0042-p0140",
+      "facts": "克洛玛图斯要求以克莉苟萨繁育多彩后代；她在押送途中击倒守卫、驾双足飞龙逃亡，为带回情报也为自由。"
+    },
+    {
+      "ref": "OEBPS/text00543.html:p0002-p0144",
+      "facts": "萨尔握住阿莱克丝塔萨手，分享生命之灵幻象：教派以克莉卵试验、污染所有庇护所龙卵，考雷斯特拉兹受感染后牺牲自我摧毁圣殿以止传染。萨尔赠古树橡果；萌芽唤醒生命缚誓者的自我与悲悯，泪水使荒地复苏。她带萨尔重返联军，不是遗忘悲痛而是继续承担。"
+    },
+    {
+      "ref": "OEBPS/text00544.html:p0002-p0086",
+      "facts": "三军会合，克莉苟萨归来独立证实幻象中自己经历，补充叛变和敌人情报；卡雷解锁链、萨尔治疗。伊瑟拉描述可改变的毁灭未来，阿莱克丝塔萨鼓舞全军。"
+    },
+    {
+      "ref": "OEBPS/text00545.html:p0002-p0098",
+      "facts": "萨尔参与作战计划，骑托拉斯塔萨以元素辅助。三守护者协同攻击仍败；诺兹多姆到来要求撤退，说明必须精神本质融合。因大地守护者缺位看似无法完整，萨尔提出办法。"
+    },
+    {
+      "ref": "OEBPS/text00546.html:p0002-p0105",
+      "facts": "萨尔以萨满沟通大地补位，主持古老仪式，突破仅仅编织达成融合；在暮光教父精神干扰下维持联结，四守护者白色异火击败克洛玛图斯。p0077明确他不是且不可能是守护者，不能写晋升第五守护巨龙。暮光教父逃走，读者获知其为大主教本尼迪塔斯，萨尔未获此知情。"
+    },
+    {
+      "ref": "OEBPS/text00547.html:p0002-p0102",
+      "facts": "克洛玛图斯不能彻底摧毁，拟以奥术监狱看守。诺兹多姆揭示上古众神幕后联系，但真实暮光审判尚未来临。四守护者赠鳞片与友谊，缇珂送萨尔归大漩涡。萨尔向阿格娜承认面具与错误，接受古伊尔名字、相互许诺共度一生；次日继续治愈世界，不是小说已写婚礼或战胜死亡之翼。"
+    }
+  ],
+  "characterRelevance": {
+    "tirion": "未发现实质人物弧线",
+    "khadgar": "未发现实质人物弧线",
+    "durotan": "第7章亲见死亡与父子告别，须结合其他书整理事件顺序",
+    "varian": "第10章仅异常时间线报告，不能并入正史",
+    "voljin": "未发现实质人物弧线",
+    "malfurion": "第6章绿龙共享梦境关系简述",
+    "jaina": "主线友谊、塔蕾莎影响；第10章婚姻育儿仅异常时间线",
+    "thrall": "主角：身份、责任、关系与当下的自我修复"
+  },
+  "otherReusableCharacters": [
+    "阿格娜",
+    "塔蕾莎",
+    "考雷斯特拉兹/克拉苏斯",
+    "阿莱克丝塔萨",
+    "卡雷苟斯",
+    "伊瑟拉",
+    "诺兹多姆",
+    "克莉苟萨",
+    "阿瑞苟斯",
+    "布莱克摩尔",
+    "本尼迪塔斯",
+    "戴沙林",
+    "缇珂"
+  ],
+  "inferences": [
+    {
+      "type": "editorial_inference",
+      "statement": "核心弧线是从职责面具与过去创伤，走向接纳爱、活在当下、以谦卑联结他人；不能以救世功绩替代私人生命价值。",
+      "refs": [
+        "text00526:p0097-p0104",
+        "text00532:p0099-p0102",
+        "text00536:p0053-p0056",
+        "text00547:p0071-p0102"
+      ]
+    }
+  ],
+  "originalSettings": [],
+  "subtitleCheck": {
+    "finding": "本版为编号章题，未发现适用于人物志的独立原作副标题；巨龙的黄昏属于书名，不自动作为副标题。后续可创作 editorial 小标题但须内容校核。",
+    "candidates": [],
+    "status": "source_checked",
+    "checkedRange": "封面、版权、目录与第1—22章全部段落"
+  },
+  "gaps": [
+    "本书不覆盖萨尔完整一生；仅按本书回忆提供早期节点。",
+    "时光分支、幻象、角色推测和实际发生事件须分别标识。",
+    "诺兹多姆未来堕落是否属于真实时线在结尾仍不确定。"
+  ],
+  "sectionBoundaryAdvice": [
+    "第1—5章：失衡与小任务启程；第5章橡果为贯穿线索。",
+    "第6—11章：时光试炼、双亲与塔蕾莎、当下意识。",
+    "第12—15章：劝红龙失败、蓝龙新生及战败。",
+    "第16—19章：爱与生命之灵、脱离奴役阴影、红龙复苏。",
+    "第20—22章：融合共战、胜利边界、归家接受古伊尔；只是策划候选，非固定分篇。"
+  ],
+  "readingProvenance": "第1至6章上轮已完整逐章读取；第7至10章本轮完整读取。前置封面无正文、版权目录已读。"
+}

@@ -1,0 +1,9 @@
+萨尔图文已完成，未发布。
+
+入口：preview.html；纯文字：萨尔人物志-全文.txt。
+12篇正文约21177汉字、12幅中世纪彩绘玻璃；各单元units/<unitId>/保留正文、来源、文本审核、构图、生成和视觉审核。
+生成方式：内置image_gen；实际提示词见各单元generation.json，统一构图提示词见image-prompts.json，修正提示词见image-edit-prompts.json。
+用户已批准此前策划并明确授权正文和配图；旧publication-plan.json为审批前不可变快照，授权以production-run.json为准。
+不重复读书。共享证据保持558条，新增仅定点场景核对。其他七人物停在原断点。
+失败画风与被替换版本不进入预览；图片艺术细节不是原文证据。
+本地产物已完成，不代表发布获准。

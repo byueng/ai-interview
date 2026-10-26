@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-04",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "d9db214f504533363dc21bac4b4f91ed9d2261b22a306c8df6c4582b5d3a38ae",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "盟友使一个民族走向共同体",
+    "origin": "editorial",
+    "sourceRef": null
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

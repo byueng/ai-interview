@@ -1,0 +1,126 @@
+{
+  "unitId": "thrall-part-01",
+  "kind": "section",
+  "displayOrder": 1,
+  "title": "锁链中的名字",
+  "sourceLabel": "《部落的崛起》；《氏族之王》",
+  "subtitle": {
+    "text": "先被当作一个人",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "05",
+      "sourceTitle": "部落的崛起",
+      "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00132:p0002-p0008",
+        "text00137:p0005-p0096",
+        "text00138:p0004-p0044",
+        "text00142:p0060-p0122"
+      ],
+      "evidenceId": "thrall-event-01",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00270:p0002-p0088"
+      ],
+      "evidenceId": "thrall-event-02",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00271:p0002-p0103",
+        "text00272:p0002-p0069",
+        "text00273:p0002-p0049",
+        "text00274:p0012-p0076"
+      ],
+      "evidenceId": "thrall-event-03",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "10",
+      "sourceTitle": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00275:p0002-p0067",
+        "text00276:p0002-p0070",
+        "text00277:p0026-p0077"
+      ],
+      "evidenceId": "thrall-event-04",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "失亲、敦霍尔德成长至逃离收容所",
+  "characterChange": "从被利用的孩子到主动寻找同族、愿意承担解放责任的人",
+  "focus": "以教育与虐待并存为起点，突出军士长、塔蕾莎及凯尔格给予的帮助；父辈仅交代身世，不提前灌入成年写史结论。",
+  "tone": "压抑中生出信任与主动性",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-01",
+      "event": "杜隆坦反对永久奴役、拒血，却曾参与强迫催长儿童、攻泰尔莫并命杀幸存者；萨尔后来写史反对将兽人仅塑造成受害者。",
+      "classification": "integrated_source_facts",
+      "boundary": "父辈行为是背景；萨尔成年写史、庭审知情另列，不是婴儿知识。"
+    },
+    {
+      "evidenceId": "thrall-event-02",
+      "event": "父母向奥格瑞姆告发古尔丹，护卫间谍出卖；孤儿被布莱克摩尔发现并计划利用。",
+      "classification": "integrated_source_facts",
+      "boundary": "奥格瑞姆未亲自背叛；18时间旅行为成人重访同一历史。"
+    },
+    {
+      "evidenceId": "thrall-event-03",
+      "event": "布莱克摩尔以教育和角斗训练塑造工具；军士长教控制怒意与仁慈、塔蕾莎以姐弟般关爱和书信承认其人格。",
+      "classification": "integrated_source_facts",
+      "boundary": "不以教育抵销虐待；年龄互相抵牾，使用相对阶段。"
+    },
+    {
+      "evidenceId": "thrall-event-04",
+      "event": "塔蕾莎火灾掩护逃出；萨尔主动入营寻找同族，凯尔格帮助再逃，见萎靡兽人而立志解放。",
+      "classification": "integrated_source_facts",
+      "boundary": "她有家庭责任拒同逃；不是萨尔独力脱身。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-01",
+    "thrall-event-02",
+    "thrall-event-03",
+    "thrall-event-04"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "开篇只交代父辈背景；止于自由不再只是个人逃离，战歌与霜狼留给下一篇。",
+  "independenceReason": "早期人格和自由意志的形成有完整因果，应与萨满资格和领袖继任分开。",
+  "lengthMode": "standard",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "d2704f197f8e057d3511cc1490e9eabb9bc4d6eace9169a4975b8859cf0ed944"
+}

@@ -1,0 +1,302 @@
+{
+  "runId": "batch-a-20261024-01",
+  "characterId": "shared",
+  "role": "researcher",
+  "scopeId": "book-16",
+  "unitId": "book-16",
+  "bookId": "16",
+  "inputVersions": {
+    "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+    "sourcePath": "E:\\魔兽官方小说\\16 浩劫：灾变的前奏.epub"
+  },
+  "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+  "status": "completed",
+  "sourceRanges": [
+    {
+      "documentId": "text00438",
+      "href": "OEBPS/text00438.html",
+      "paragraphs": 0,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00439",
+      "href": "OEBPS/text00439.html",
+      "paragraphs": 7,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00440",
+      "href": "OEBPS/text00440.html",
+      "paragraphs": 45,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00441",
+      "href": "OEBPS/text00441.html",
+      "paragraphs": 3,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00442",
+      "href": "OEBPS/text00442.html",
+      "paragraphs": 6,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00443",
+      "href": "OEBPS/text00443.html",
+      "paragraphs": 28,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00444",
+      "href": "OEBPS/text00444.html",
+      "paragraphs": 62,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00445",
+      "href": "OEBPS/text00445.html",
+      "paragraphs": 49,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00446",
+      "href": "OEBPS/text00446.html",
+      "paragraphs": 80,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00447",
+      "href": "OEBPS/text00447.html",
+      "paragraphs": 87,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00448",
+      "href": "OEBPS/text00448.html",
+      "paragraphs": 40,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00449",
+      "href": "OEBPS/text00449.html",
+      "paragraphs": 59,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00450",
+      "href": "OEBPS/text00450.html",
+      "paragraphs": 90,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00451",
+      "href": "OEBPS/text00451.html",
+      "paragraphs": 85,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00452",
+      "href": "OEBPS/text00452.html",
+      "paragraphs": 74,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00453",
+      "href": "OEBPS/text00453.html",
+      "paragraphs": 92,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00454",
+      "href": "OEBPS/text00454.html",
+      "paragraphs": 83,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00455",
+      "href": "OEBPS/text00455.html",
+      "paragraphs": 106,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00456",
+      "href": "OEBPS/text00456.html",
+      "paragraphs": 62,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00457",
+      "href": "OEBPS/text00457.html",
+      "paragraphs": 62,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00458",
+      "href": "OEBPS/text00458.html",
+      "paragraphs": 49,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00459",
+      "href": "OEBPS/text00459.html",
+      "paragraphs": 49,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00460",
+      "href": "OEBPS/text00460.html",
+      "paragraphs": 71,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00461",
+      "href": "OEBPS/text00461.html",
+      "paragraphs": 78,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00462",
+      "href": "OEBPS/text00462.html",
+      "paragraphs": 62,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00463",
+      "href": "OEBPS/text00463.html",
+      "paragraphs": 74,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00464",
+      "href": "OEBPS/text00464.html",
+      "paragraphs": 87,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00465",
+      "href": "OEBPS/text00465.html",
+      "paragraphs": 110,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00466",
+      "href": "OEBPS/text00466.html",
+      "paragraphs": 81,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00467",
+      "href": "OEBPS/text00467.html",
+      "paragraphs": 81,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00468",
+      "href": "OEBPS/text00468.html",
+      "paragraphs": 108,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00469",
+      "href": "OEBPS/text00469.html",
+      "paragraphs": 106,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00470",
+      "href": "OEBPS/text00470.html",
+      "paragraphs": 100,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00471",
+      "href": "OEBPS/text00471.html",
+      "paragraphs": 82,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00472",
+      "href": "OEBPS/text00472.html",
+      "paragraphs": 79,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00473",
+      "href": "OEBPS/text00473.html",
+      "paragraphs": 81,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00474",
+      "href": "OEBPS/text00474.html",
+      "paragraphs": 129,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00475",
+      "href": "OEBPS/text00475.html",
+      "paragraphs": 64,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00476",
+      "href": "OEBPS/text00476.html",
+      "paragraphs": 20,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00477",
+      "href": "OEBPS/text00477.html",
+      "paragraphs": 3,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00478",
+      "href": "OEBPS/text00478.html",
+      "paragraphs": 4,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00479",
+      "href": "OEBPS/text00479.html",
+      "paragraphs": 16,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00480",
+      "href": "OEBPS/text00480.html",
+      "paragraphs": 2,
+      "status": "full_read"
+    }
+  ],
+  "outputPaths": [
+    "books/16/evidence.json",
+    "books/16/reading-progress.json",
+    "books/16/handoff.json"
+  ],
+  "reviewFindings": [
+    "全部43文档按manifest顺序完整阅读，含空封面及附录；正文为序章、1—32章、尾声。",
+    "导读、注释、营销续页、延展阅读、作者介绍为副文本；延展阅读提供检索方向，不等于其引述书已读。",
+    "text00451:p0027与p0031关于是否为违约道歉措辞存在张力；text00452:p0020、p0059支持仅就违约道歉而非谴责暴力方式，应保留版本措辞。",
+    "预言、启蒙幻象、人物反事实与政治判断不可直接转成客观已发生史实。",
+    "尾声称继续代行，不能以常识改写永久退位；加兹鲁维称夫人不构成婚礼证据。",
+    "本书未叙写大漩涡后续救世过程；需别书证据。"
+  ],
+  "nextRole": "integrator",
+  "nextResponsibleRole": "integrator",
+  "retryCount": 0,
+  "checks": {
+    "fullTextRead": true,
+    "coverageHonest": true,
+    "noFinalProseOrArt": true,
+    "subtitleExactScopeVerified": true
+  },
+  "unrecordedReadMaterial": [],
+  "nextUnread": null,
+  "remainingWork": [
+    "整合角色证据和时间线；策划待用户审阅，研究完成不代表策划批准"
+  ],
+  "updatedAt": "2026-10-24"
+}

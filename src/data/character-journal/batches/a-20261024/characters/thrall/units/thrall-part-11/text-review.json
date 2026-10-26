@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-11",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "02556fb765935cdda4ba5e1595ffc4342b0a9fa323efbb095abfaa3789d0f5de",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "承认可能的自己，承担未完的选择",
+    "origin": "editorial",
+    "sourceRef": null
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

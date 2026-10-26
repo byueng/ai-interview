@@ -1,0 +1,31 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-04",
+  "reviewer": "thrall_book13",
+  "reviewType": "generation_self_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\04-stained-glass.png",
+  "imageSha256": "2a2dc6c7af2a218563558b2524cc2ae829a31a5268953887067036f477c5ea46",
+  "storySha256": "d9db214f504533363dc21bac4b4f91ed9d2261b22a306c8df6c4582b5d3a38ae",
+  "profileSha256": "439da9c3766c1be53d29d9a567a642c0ccab033e9ca49dc7166f25383a8f42e8",
+  "artBriefSha256": "1ccb0f099a9ec3ef8200f83f395c2f6afa83034335754a13abf99d45d9415ce0",
+  "promptSha256": "f13ba8cefac0f36089d358e40642e49eb99b65839824111bf7faa33110242625",
+  "subtitle": "盟友使一个民族走向共同体",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "石爪山顶洞穴内三人谨慎交谈，先知居中，洞口山峰及远处随从轮廓。无握手签约；萨尔是着甲酋长而非后期袍装。三张脸和全环境均铅条分格。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。"
+}

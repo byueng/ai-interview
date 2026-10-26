@@ -1,0 +1,196 @@
+{
+  "bookId": "24",
+  "sourceSha256": "7be225f815be01fb8ab261fb4723cf4eb06f6b087e2ceb152e3234ca18267815",
+  "status": "scoped_reference_read",
+  "coverageMode": "selected_complete_sections_not_whole_book",
+  "coverage": [
+    {
+      "documentId": "text00773",
+      "firstRef": "text00773:p0001",
+      "lastRef": "text00773:p0012",
+      "status": "read"
+    },
+    {
+      "documentId": "text00774",
+      "firstRef": "text00774:p0001",
+      "lastRef": "text00774:p0019",
+      "status": "read"
+    },
+    {
+      "documentId": "text00775",
+      "firstRef": "text00775:p0001",
+      "lastRef": "text00775:p0016",
+      "status": "read"
+    },
+    {
+      "documentId": "text00776",
+      "firstRef": "text00776:p0001",
+      "lastRef": "text00776:p0009",
+      "status": "read"
+    },
+    {
+      "documentId": "text00777",
+      "firstRef": "text00777:p0001",
+      "lastRef": "text00777:p0013",
+      "status": "read"
+    },
+    {
+      "documentId": "text00778",
+      "firstRef": "text00778:p0001",
+      "lastRef": "text00778:p0008",
+      "status": "read"
+    },
+    {
+      "documentId": "text00779",
+      "firstRef": "text00779:p0001",
+      "lastRef": "text00779:p0019",
+      "status": "read"
+    },
+    {
+      "documentId": "text00782",
+      "firstRef": "text00782:p0001",
+      "lastRef": "text00782:p0014",
+      "status": "read"
+    },
+    {
+      "documentId": "text00783",
+      "firstRef": "text00783:p0001",
+      "lastRef": "text00783:p0009",
+      "status": "read"
+    },
+    {
+      "documentId": "text00784",
+      "firstRef": "text00784:p0001",
+      "lastRef": "text00784:p0008",
+      "status": "read"
+    },
+    {
+      "documentId": "text00785",
+      "firstRef": "text00785:p0001",
+      "lastRef": "text00785:p0015",
+      "status": "read"
+    },
+    {
+      "documentId": "text00786",
+      "firstRef": "text00786:p0001",
+      "lastRef": "text00786:p0008",
+      "status": "read"
+    },
+    {
+      "documentId": "text00789",
+      "firstRef": "text00789:p0001",
+      "lastRef": "text00789:p0012",
+      "status": "read"
+    }
+  ],
+  "events": [
+    {
+      "id": "first-druid",
+      "kind": "source_fact",
+      "summary": "玛法里奥师从塞纳留斯，探索翡翠梦境；在战争中击败萨维斯并寻求外援。",
+      "sourceRefs": [
+        "text00775:p0002-p0016"
+      ],
+      "characters": [
+        "malfurion"
+      ]
+    },
+    {
+      "id": "coalition",
+      "kind": "source_fact",
+      "summary": "战争中的联军和巨龙参与；奈萨里奥的背叛破坏联军。",
+      "sourceRefs": [
+        "text00776:p0002-p0009"
+      ],
+      "characters": [
+        "malfurion"
+      ]
+    },
+    {
+      "id": "brothers",
+      "kind": "source_fact",
+      "summary": "伊利丹背离和返归的叙述带有编年史的解释立场；与小说并列核对，不能抹去差异。",
+      "sourceRefs": [
+        "text00777:p0002-p0013"
+      ],
+      "characters": [
+        "malfurion"
+      ]
+    },
+    {
+      "id": "sundering",
+      "kind": "source_fact",
+      "summary": "玛法里奥决定破坏永恒之井，使用巨龙之魂扰乱传送门；胜利伴随大分裂。",
+      "sourceRefs": [
+        "text00779:p0008-p0017"
+      ],
+      "characters": [
+        "malfurion"
+      ]
+    },
+    {
+      "id": "new-well",
+      "kind": "source_fact",
+      "summary": "玛法里奥囚禁伊利丹；巨龙赐福世界树并使德鲁伊与梦境相连。",
+      "sourceRefs": [
+        "text00782:p0003-p0014"
+      ],
+      "characters": [
+        "malfurion"
+      ]
+    },
+    {
+      "id": "watch",
+      "kind": "source_fact",
+      "summary": "玛法里奥推进德鲁伊传统，长期睡眠的职责由泰兰德的现实守卫互补。",
+      "sourceRefs": [
+        "text00783:p0002-p0007"
+      ],
+      "characters": [
+        "malfurion"
+      ]
+    },
+    {
+      "id": "regulation",
+      "kind": "source_fact",
+      "summary": "萨特战争与狼人的失控促成塞纳里奥议会监管；玛法里奥将狼人送入梦境。",
+      "sourceRefs": [
+        "text00784:p0002-p0008"
+      ],
+      "characters": [
+        "malfurion"
+      ]
+    },
+    {
+      "id": "long-vigil",
+      "kind": "source_fact",
+      "summary": "战后治愈土地、数十年梦境休眠，泰兰德负担日常政治事务。",
+      "sourceRefs": [
+        "text00786:p0002-p0008"
+      ],
+      "characters": [
+        "malfurion"
+      ]
+    },
+    {
+      "id": "nightmare-roots",
+      "kind": "source_fact",
+      "summary": "范达尔擅种世界树，安达希尔触及尤格萨隆牢笼，腐化渗入梦境；玛法里奥对未经许可的行为愤怒。",
+      "sourceRefs": [
+        "text00789:p0002-p0012"
+      ],
+      "characters": [
+        "malfurion"
+      ]
+    }
+  ],
+  "subtitleCheck": {
+    "status": "scoped_checked",
+    "note": "所读为编年史章节标签；不自动转换为人物志副标题。"
+  },
+  "limitations": [
+    "仅完整阅读已列出的13个相关小节，其余章节未语义阅读。",
+    "此卷用于补充背景与冲突核对，不代替上古之战三部曲完整阅读。"
+  ],
+  "uncovered": "其余章节不在本次补充资料使用范围"
+}

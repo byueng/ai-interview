@@ -1,0 +1,526 @@
+{
+  "bookId": "26",
+  "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+  "status": "scoped_reference_read",
+  "coverageMode": "selected_complete_sections_not_whole_book",
+  "coverage": [
+    {
+      "documentId": "text00846",
+      "firstRef": "text00846:p0001",
+      "lastRef": "text00846:p0013",
+      "status": "read"
+    },
+    {
+      "documentId": "text00847",
+      "firstRef": "text00847:p0001",
+      "lastRef": "text00847:p0013",
+      "status": "read"
+    },
+    {
+      "documentId": "text00855",
+      "firstRef": "text00855:p0001",
+      "lastRef": "text00855:p0007",
+      "status": "read"
+    },
+    {
+      "documentId": "text00862",
+      "firstRef": "text00862:p0001",
+      "lastRef": "text00862:p0013",
+      "status": "read"
+    },
+    {
+      "documentId": "text00869",
+      "firstRef": "text00869:p0001",
+      "lastRef": "text00869:p0011",
+      "status": "read"
+    },
+    {
+      "documentId": "text00871",
+      "firstRef": "text00871:p0001",
+      "lastRef": "text00871:p0018",
+      "status": "read"
+    },
+    {
+      "documentId": "text00876",
+      "firstRef": "text00876:p0001",
+      "lastRef": "text00876:p0010",
+      "status": "read"
+    },
+    {
+      "documentId": "text00877",
+      "firstRef": "text00877:p0001",
+      "lastRef": "text00877:p0012",
+      "status": "read"
+    },
+    {
+      "documentId": "text00879",
+      "firstRef": "text00879:p0001",
+      "lastRef": "text00879:p0014",
+      "status": "read"
+    },
+    {
+      "documentId": "text00882",
+      "firstRef": "text00882:p0001",
+      "lastRef": "text00882:p0016",
+      "status": "read"
+    },
+    {
+      "documentId": "text00903",
+      "firstRef": "text00903:p0001",
+      "lastRef": "text00903:p0009",
+      "status": "read"
+    },
+    {
+      "documentId": "text00904",
+      "firstRef": "text00904:p0001",
+      "lastRef": "text00904:p0016",
+      "status": "read"
+    },
+    {
+      "documentId": "text00907",
+      "firstRef": "text00907:p0001",
+      "lastRef": "text00907:p0008",
+      "status": "read"
+    },
+    {
+      "documentId": "text00918",
+      "firstRef": "text00918:p0001",
+      "lastRef": "text00918:p0016",
+      "status": "read"
+    },
+    {
+      "documentId": "text00942",
+      "firstRef": "text00942:p0001",
+      "lastRef": "text00942:p0015",
+      "status": "read"
+    },
+    {
+      "documentId": "text00943",
+      "firstRef": "text00943:p0001",
+      "lastRef": "text00943:p0015",
+      "status": "read"
+    },
+    {
+      "documentId": "text00947",
+      "firstRef": "text00947:p0001",
+      "lastRef": "text00947:p0013",
+      "status": "read"
+    },
+    {
+      "documentId": "text00951",
+      "firstRef": "text00951:p0001",
+      "lastRef": "text00951:p0013",
+      "status": "read"
+    },
+    {
+      "documentId": "text00952",
+      "firstRef": "text00952:p0001",
+      "lastRef": "text00952:p0013",
+      "status": "read"
+    },
+    {
+      "documentId": "text00955",
+      "firstRef": "text00955:p0001",
+      "lastRef": "text00955:p0013",
+      "status": "read"
+    },
+    {
+      "documentId": "text00956",
+      "firstRef": "text00956:p0001",
+      "lastRef": "text00956:p0023",
+      "status": "read"
+    },
+    {
+      "documentId": "text00958",
+      "firstRef": "text00958:p0001",
+      "lastRef": "text00958:p0014",
+      "status": "read"
+    },
+    {
+      "documentId": "text00961",
+      "firstRef": "text00961:p0001",
+      "lastRef": "text00961:p0013",
+      "status": "read"
+    },
+    {
+      "documentId": "text00962",
+      "firstRef": "text00962:p0001",
+      "lastRef": "text00962:p0018",
+      "status": "read"
+    },
+    {
+      "documentId": "text00963",
+      "firstRef": "text00963:p0001",
+      "lastRef": "text00963:p0011",
+      "status": "read"
+    },
+    {
+      "documentId": "text00969",
+      "firstRef": "text00969:p0001",
+      "lastRef": "text00969:p0014",
+      "status": "read"
+    },
+    {
+      "documentId": "text00972",
+      "firstRef": "text00972:p0001",
+      "lastRef": "text00972:p0022",
+      "status": "read"
+    },
+    {
+      "documentId": "text00974",
+      "firstRef": "text00974:p0001",
+      "lastRef": "text00974:p0019",
+      "status": "read"
+    },
+    {
+      "documentId": "text00975",
+      "firstRef": "text00975:p0001",
+      "lastRef": "text00975:p0018",
+      "status": "read"
+    }
+  ],
+  "events": [
+    {
+      "id": "chronicle-846",
+      "kind": "source_fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "奴隶成长、特蕾莎帮助逃离、寻找氏族与身份。",
+      "sourceRefs": [
+        "text00846:p0001-p0013"
+      ]
+    },
+    {
+      "id": "chronicle-847",
+      "kind": "source_fact",
+      "characters": [
+        "thrall",
+        "tirion"
+      ],
+      "summary": "学习萨满、继承酋长、敦霍尔德之战；提里奥保护伊崔格并遭放逐。",
+      "sourceRefs": [
+        "text00847:p0001-p0013"
+      ]
+    },
+    {
+      "id": "chronicle-855",
+      "kind": "source_fact",
+      "characters": [
+        "jaina",
+        "thrall"
+      ],
+      "summary": "先知警告与两族迁徙背景。",
+      "sourceRefs": [
+        "text00855:p0001-p0007"
+      ]
+    },
+    {
+      "id": "chronicle-862",
+      "kind": "source_fact",
+      "characters": [
+        "thrall",
+        "voljin"
+      ],
+      "summary": "暗矛结盟、森金死亡、沃金承担族人迁徙责任。",
+      "sourceRefs": [
+        "text00862:p0001-p0013"
+      ]
+    },
+    {
+      "id": "chronicle-869",
+      "kind": "source_fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "吉安娜离开达拉然，带领避难者西迁。",
+      "sourceRefs": [
+        "text00869:p0001-p0011"
+      ]
+    },
+    {
+      "id": "chronicle-871",
+      "kind": "source_fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "迁徙的艰难与萨尔帮助牛头人。",
+      "sourceRefs": [
+        "text00871:p0001-p0018"
+      ]
+    },
+    {
+      "id": "chronicle-876",
+      "kind": "source_fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "在先知见证下建立休战合作，而非初次见面便毫无保留信任。",
+      "sourceRefs": [
+        "text00876:p0001-p0010"
+      ]
+    },
+    {
+      "id": "chronicle-877",
+      "kind": "source_fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "营救格罗玛什、击败玛诺洛斯与兽人血之诅咒终结。",
+      "sourceRefs": [
+        "text00877:p0001-p0012"
+      ]
+    },
+    {
+      "id": "chronicle-879",
+      "kind": "source_fact",
+      "characters": [
+        "malfurion"
+      ],
+      "summary": "泰兰德唤醒玛法里奥、重聚及释放伊利丹的分歧。",
+      "sourceRefs": [
+        "text00879:p0001-p0014"
+      ]
+    },
+    {
+      "id": "chronicle-882",
+      "kind": "source_fact",
+      "characters": [
+        "malfurion",
+        "thrall",
+        "jaina"
+      ],
+      "summary": "联合防御海加尔；玛法里奥牺牲世界树赐福消灭阿克蒙德。",
+      "sourceRefs": [
+        "text00882:p0001-p0016"
+      ]
+    },
+    {
+      "id": "chronicle-903",
+      "kind": "source_fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "建立杜隆塔尔和塞拉摩，维持休战。",
+      "sourceRefs": [
+        "text00903:p0001-p0009"
+      ]
+    },
+    {
+      "id": "chronicle-904",
+      "kind": "source_fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "戴林侵袭；吉安娜在父亲与和平间抉择，实际致命一击来自雷克萨。",
+      "sourceRefs": [
+        "text00904:p0001-p0016"
+      ]
+    },
+    {
+      "id": "chronicle-907",
+      "kind": "source_fact",
+      "characters": [
+        "varian"
+      ],
+      "summary": "绑架、灵魂分裂、失忆；安度因与伯瓦尔留守。",
+      "sourceRefs": [
+        "text00907:p0001-p0008"
+      ]
+    },
+    {
+      "id": "chronicle-918",
+      "kind": "source_fact",
+      "characters": [
+        "tirion"
+      ],
+      "summary": "提里奥向达里安解释慈悲与牺牲对于救赎的意义。",
+      "sourceRefs": [
+        "text00918:p0001-p0016"
+      ]
+    },
+    {
+      "id": "chronicle-942",
+      "kind": "source_fact",
+      "characters": [
+        "varian",
+        "jaina"
+      ],
+      "summary": "角斗士身份、吉安娜和艾格文辨认、两半灵魂因共同救子而合作，战后合一。",
+      "sourceRefs": [
+        "text00942:p0001-p0015"
+      ]
+    },
+    {
+      "id": "chronicle-943",
+      "kind": "source_fact",
+      "characters": [
+        "varian",
+        "jaina",
+        "thrall"
+      ],
+      "summary": "塞拉摩峰会遭迦罗娜袭击破坏；不要混同小说仇恨之轮事件。",
+      "sourceRefs": [
+        "text00943:p0001-p0015"
+      ]
+    },
+    {
+      "id": "chronicle-947",
+      "kind": "source_fact",
+      "characters": [
+        "tirion"
+      ],
+      "summary": "圣光之愿礼拜堂净化灰烬使者、击退巫妖王、建立银色北伐军。",
+      "sourceRefs": [
+        "text00947:p0001-p0013"
+      ]
+    },
+    {
+      "id": "chronicle-951",
+      "kind": "source_fact",
+      "characters": [],
+      "summary": "天谴之门灾难背景；后续伯瓦尔状态以同卷后文修正早期视角。",
+      "sourceRefs": [
+        "text00951:p0001-p0013"
+      ]
+    },
+    {
+      "id": "chronicle-952",
+      "kind": "source_fact",
+      "characters": [
+        "thrall",
+        "jaina",
+        "varian"
+      ],
+      "summary": "幽暗城清叛后瓦里安欲战萨尔，吉安娜传送联盟制止冲突。",
+      "sourceRefs": [
+        "text00952:p0001-p0013"
+      ]
+    },
+    {
+      "id": "chronicle-955",
+      "kind": "source_fact",
+      "characters": [
+        "tirion"
+      ],
+      "summary": "以精英突袭代替送大军成为亡灵，锦标赛与灰烬审判军。",
+      "sourceRefs": [
+        "text00955:p0001-p0013"
+      ]
+    },
+    {
+      "id": "chronicle-956",
+      "kind": "source_fact",
+      "characters": [
+        "tirion",
+        "varian"
+      ],
+      "summary": "提里奥打破寒冰并击碎霜之哀伤，勇士合力取胜；他愿承担狱卒职责，最终由伯瓦尔接替。",
+      "sourceRefs": [
+        "text00956:p0001-p0023"
+      ]
+    },
+    {
+      "id": "chronicle-958",
+      "kind": "source_fact",
+      "characters": [
+        "malfurion"
+      ],
+      "summary": "梦魇战争与解救、有限净化；仅编年史概述，不能代替怒风原文细节。",
+      "sourceRefs": [
+        "text00958:p0001-p0014"
+      ]
+    },
+    {
+      "id": "chronicle-961",
+      "kind": "source_fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "委任加尔鲁什、凯恩反对；决斗毒药原因在下一节补充。",
+      "sourceRefs": [
+        "text00961:p0001-p0013"
+      ]
+    },
+    {
+      "id": "chronicle-962",
+      "kind": "source_fact",
+      "characters": [
+        "varian"
+      ],
+      "summary": "因儿子被困而潜入铁炉堡，听取安度因劝阻放过茉艾拉、建立三锤议会。",
+      "sourceRefs": [
+        "text00962:p0001-p0018"
+      ]
+    },
+    {
+      "id": "chronicle-963",
+      "kind": "source_fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "纳格兰学习、阿格娜关系与返回后的责任震动。",
+      "sourceRefs": [
+        "text00963:p0001-p0011"
+      ]
+    },
+    {
+      "id": "chronicle-969",
+      "kind": "source_fact",
+      "characters": [
+        "malfurion"
+      ],
+      "summary": "海加尔保卫战背景；具体行动不能由团体叙述任意归给个人。",
+      "sourceRefs": [
+        "text00969:p0001-p0014"
+      ]
+    },
+    {
+      "id": "chronicle-972",
+      "kind": "source_fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "守护巨龙旅程、蓝龙选举、帮助阿莱克丝塔萨重拾希望。",
+      "sourceRefs": [
+        "text00972:p0001-p0022"
+      ]
+    },
+    {
+      "id": "chronicle-974",
+      "kind": "source_fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "以凡人身份为巨龙之魂灌注大地之力，相关取回神器行动属不同英雄。",
+      "sourceRefs": [
+        "text00974:p0001-p0019"
+      ]
+    },
+    {
+      "id": "chronicle-975",
+      "kind": "source_fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "与守护巨龙和凡人联军共同击败死亡之翼；不同于18小说结尾。",
+      "sourceRefs": [
+        "text00975:p0001-p0018"
+      ]
+    }
+  ],
+  "subtitleCheck": {
+    "status": "scoped_checked",
+    "note": "各小节标签仅为来源名，不自动成为人物志副标题"
+  },
+  "limitations": [
+    "29个指定小节完整阅读，不宣称整卷读完。",
+    "作为补充独立标注，不能将跨作品后续事件塞进单本小说范围。",
+    "名称异译例如特蕾莎/塔蕾莎、阿格娜/阿格拉需按源文保留并建别名表。"
+  ],
+  "uncovered": "所列小节之外未语义阅读"
+}

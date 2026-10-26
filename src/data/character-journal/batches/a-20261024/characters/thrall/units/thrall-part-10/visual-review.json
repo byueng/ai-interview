@@ -1,0 +1,28 @@
+{
+  "unitId": "thrall-part-10",
+  "status": "passed",
+  "reviewer": "thrall_book19_generator_self_review",
+  "imageSha256": "d5b2f732d82444b44f938c7b92fbdec09d3867c80627e26e5e1d125ceb2145a4",
+  "storySha256": "81e36d68c963d0400653203aa7ef3ffef896ce7b4acfb3aebe9f676f1378f0a4",
+  "subtitle": "更大的责任没有消除旧的责任",
+  "checks": {
+    "fullFrameStainedGlass": true,
+    "facialLeadCamesVisible": true,
+    "handsReadable": true,
+    "noTextOrWatermark": true,
+    "goldenStreakOnWhiteHair": true,
+    "singleScene": true,
+    "approvedSceneMatch": true
+  },
+  "notes": [
+    "风障对峙、巨浪与岩岸；无城市淹毁、无和解。初稿城堡背景已用内置编辑移除。"
+  ],
+  "limitations": [
+    "衣纹、玻璃色样及非特定岩岸/庭院细节为艺术处理，不增加原著剧情。"
+  ],
+  "method": "view_image inspection of saved final PNG",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  }
+}

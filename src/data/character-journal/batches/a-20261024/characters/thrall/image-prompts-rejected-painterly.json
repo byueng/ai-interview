@@ -1,0 +1,77 @@
+{
+  "mode": "built_in_imagegen",
+  "images": [
+    {
+      "id": "00",
+      "prompt": "Use case: illustration-story. Create a landscape 3:2 editorial illustration, cover for a Chinese biographical essay series about Thrall from Warcraft, no text. Mature green-skinned orc Thrall, black hair in two braids, blue eyes, strong brow, small upward lower tusks, thoughtful weary dignified expression, brown earth-tone shaman robes with red cloth details. Three-quarter portrait in foreground. Behind him a restrained symbolic panorama: a stone prison doorway in shadow at left, distant ochre desert orc settlement and open sky at right. A heavy square dark-metal Doomhammer rests low beside him, not swung. Original painterly epic fantasy book illustration, visible brush texture, natural anatomy, nuanced amber and teal light, atmospheric depth, restrained not bombastic. Theme freedom, home, responsibility; symbolic montage not a literal single historical scene. No logos, no lettering, no watermark, no modern objects. Consistent intelligent gentle face rather than monstrous villain.",
+      "image": "images/00.png",
+      "nature": "symbolic_life_synthesis"
+    },
+    {
+      "id": "01",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. A young adult Thrall, a green-skinned orc with blue eyes, long dark hair, youthful clean-shaven face and small tusks, wearing a simple worn linen tunic. He sits alone at a crude wooden table studying an open book in a shadowy medieval stone room at Durnholde. Small high barred window, a shaft of warm daylight across his hands. Theme education and dignity within captivity. No armor, no Doomhammer, no heroic insignia, no readable text on pages.",
+      "image": "images/01.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "02",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Young adult Thrall, youthful clean-shaven green orc with blue eyes and long black hair tied back, wears simple fur-lined brown travelling clothes. He kneels respectfully on snowy ground at the edge of a mountain pine forest, one empty hand touching earth. A white she-wolf stands calmly beside him. Subtle wind and pale dawn light suggest listening to the elements, no summoned giant elemental creatures, no glowing magical armor, no Doomhammer. Theme finding belonging through humility.",
+      "image": "images/02.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "03",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Young adult Thrall, green orc with blue eyes, long black braids and youthful face, stands soberly among freed orcs, holding a heavy square-headed dark-metal Doomhammer vertically at rest. Plain dark plate armor, no crown. The foreground face is reflective rather than celebrating; a distant medieval stone camp gate stands open, liberated families leave in the background. A thematic illustration of liberation and inherited responsibility, not a fabricated specific coronation. No severed heads, no gore, no triumphalist slaughter.",
+      "image": "images/03.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "04",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Adult Thrall seen in three-quarter rear view from a ridge, green-skinned with long black braids, wearing dark armor and red cloth, looking toward a small emerging orc settlement in an arid ochre canyon. At a respectful distance stand an adult male darkspear troll with long tusks and a large tauren with horns, all facing the settlement. Simple timber, earth shelters, distant mountains, wide dawn horizon. Theme new shared home and multiple peoples, no vast imperial city, no modern buildings.",
+      "image": "images/04.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "05",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Adult Thrall in dark armor and red cloth and blonde human mage Jaina Proudmoore in modest blue and white robes stand apart facing each other at a rough wooden table with an unlettered map. A modest borderland negotiation camp beside dry scrub and woodland, a few distant guards without visible heraldry. Tense attentive expressions, hands open, no embrace or handshake. Thematic scene about fragile peace and difficult negotiation, not depiction of an invented signed treaty. No text, no magical demon explanation shown.",
+      "image": "images/05.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "06",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Adult Thrall in dark armor and red cloth faces Garrosh Hellscream, a large brown-skinned bald orc with red tattoos and heavy warrior shoulder armor. Both stand in a sparse timber orc council hall. Thrall has an earnest troubled expression, Garrosh appears resolute but wary. No throne coronation, no crown, no transfer of magical weapon; Doomhammer remains with Thrall. An open doorway reveals harsh dry daylight. Thematic image of a consequential temporary delegation of leadership, political responsibility rather than celebration.",
+      "image": "images/06.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "07",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Adult Thrall, green-skinned orc with blue eyes, long black braids, now in humble brown shaman robes, sits on rocky ground in an alien red-brown landscape under broad sky. His intact dark plate armor rests carefully on the ground beside him. A female brown-skinned orc shaman with braided dark hair stands quietly farther back. Thrall's hands are relaxed, listening to wind and earth. No shattered armor or shattered hammer, no wedding, no romantic embrace. Theme learning to listen after setting down rank.",
+      "image": "images/07.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "08",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Adult Thrall in simple brown shaman robes, green skin, blue eyes, long black braids and small beard, sits alone by a quiet rocky shore looking at his own reflection in still shallow water. Hands empty, heavy shoulders softened, thoughtful vulnerable expression. Modest natural scale, no throne or battle, no hallucinatory family reunion, no alternate timeline characters. Thematic introspective illustration about worth beyond achievements; cool morning mist and a small warm ray of sun.",
+      "image": "images/08.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "09",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Adult Thrall, green-skinned orc shaman in simple brown robes with black braids, stands very small and respectfully before an enormous grieving red dragon resting on a rocky mountain ledge. The red dragon's face is intelligent and sorrowful, head lowered to listen, not attacking. Huge scale difference, muted red scales, misty mountainous sky, warm light gently reaching both. Theme listening to grief and restoring connection. Thrall is not riding, controlling or transforming into a dragon. No five-headed dragon, no battle victory.",
+      "image": "images/09.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "10",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Adult green orc Thrall in brown shaman robes stands on wet stone at the edge of a dark sea, one open hand raised toward distant Jaina, a human mage with predominantly white hair and a dark streak wearing blue-white robes. A vast suspended arc of ocean water looms in the background without crashing onto a city. Their posture is separated and tense, no reconciliation or embrace, storm light. Thematic illustration of confrontation and competing responsibilities, not a claim Thrall alone resolves it. No dead bodies or celebratory hero pose.",
+      "image": "images/10.png",
+      "nature": "interpretive_chapter_illustration"
+    },
+    {
+      "id": "11",
+      "prompt": "Use case: illustration-story. Asset type: landscape 3:2 chapter illustration for a Warcraft Thrall biography. Original high-quality painterly epic fantasy illustration, visible fine brush texture, grounded natural anatomy, cinematic but restrained light, rich muted earth colors, thoughtful humane characterization. No text, no lettering, no logos, no watermark. Maintain coherent facial identity of Thrall across the series, with age and attire appropriate to the chapter. This is interpretive art, not documentary evidence. Adult Thrall, green-skinned orc with blue eyes, black braids and small beard, in brown shaman robes stands alone on the stone steps outside an East Asian-inspired Pandaren temple courthouse, looking out across misty hills. Sober, unresolved expression, unarmed open hands, no victory gesture, no captured prisoner, no alternate-universe duplicate. Late afternoon light, quiet aftermath. Theme accountability and an unfinished judgment, not acquittal or coronation.",
+      "image": "images/11.png",
+      "nature": "interpretive_chapter_illustration"
+    }
+  ]
+}

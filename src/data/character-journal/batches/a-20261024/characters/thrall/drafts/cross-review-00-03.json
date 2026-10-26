@@ -1,0 +1,155 @@
+{
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "role": "cross_section_text_reviewer",
+  "scopeId": "thrall-overview-and-parts-01-03",
+  "status": "needs_minor_correction",
+  "method": "完整读00—03并对照策划/整合、10共享逐章证据及sources-00-03；未重读原著。",
+  "units": [
+    {
+      "unitId": "thrall-overview",
+      "path": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\drafts\\00.txt",
+      "sha256": "005df88e275af1e39b4e3f7c46dc86c139bbf57e30b83c7469e6d14d99af841b",
+      "status": "needs_minor_correction",
+      "subtitleMatchesPlan": true,
+      "findings": [
+        {
+          "id": "review-00-name-01",
+          "severity": "required_minor_correction",
+          "unitId": "thrall-overview",
+          "location": "第7正文段，起句在艾格拉陪伴下重新学习",
+          "current": "艾格拉",
+          "expected": "阿格娜",
+          "reason": "integration.aliases指定本小说译名阿格娜；08—11及16/18/19证据亦如此，艾格拉不是本批核定异译。",
+          "basis": [
+            "characters/thrall/integration.json#aliases",
+            "books/16/evidence.json",
+            "books/18/evidence.json"
+          ],
+          "requestedAction": "由主代理或作者统一为阿格娜并更新正文哈希及sources元数据；校核员不改稿。"
+        }
+      ],
+      "checks": [
+        "概述止于战争罪行，未声称全生平。",
+        "代理任命与责任并列，未以世界使命自动免责。",
+        "龙族合作与死亡之翼终战区分，未独占功绩。"
+      ],
+      "sourceEventIds": [
+        "thrall-event-01",
+        "thrall-event-02",
+        "thrall-event-03",
+        "thrall-event-04",
+        "thrall-event-05",
+        "thrall-event-06",
+        "thrall-event-07",
+        "thrall-event-08",
+        "thrall-event-09",
+        "thrall-event-10",
+        "thrall-event-11",
+        "thrall-event-12",
+        "thrall-event-13",
+        "thrall-event-14",
+        "thrall-event-15",
+        "thrall-event-16",
+        "thrall-event-17",
+        "thrall-event-18",
+        "thrall-event-19",
+        "thrall-event-20",
+        "thrall-event-21",
+        "thrall-event-22",
+        "thrall-event-23",
+        "thrall-event-24",
+        "thrall-event-25",
+        "thrall-event-26",
+        "thrall-event-27",
+        "thrall-event-28",
+        "thrall-event-29",
+        "thrall-event-30",
+        "thrall-event-31",
+        "thrall-event-32"
+      ]
+    },
+    {
+      "unitId": "thrall-part-01",
+      "path": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\drafts\\01.txt",
+      "sha256": "3c1905896bf3cc108411b7d6e3f8de4077e84a0a16ed211e761cd65d48436bb9",
+      "status": "passed",
+      "subtitleMatchesPlan": true,
+      "findings": [],
+      "checks": [
+        "父母遇害仅背景，明确婴儿无知情；未说奥格瑞姆亲自背叛。",
+        "塔蕾莎与军士长、凯尔格协助均有据，未写爱情或萨尔独力逃亡。",
+        "未给冲突绝对年龄；截至再逃与承诺，未跨入战歌试炼。"
+      ],
+      "sourceEventIds": [
+        "thrall-event-01",
+        "thrall-event-02",
+        "thrall-event-03",
+        "thrall-event-04"
+      ]
+    },
+    {
+      "unitId": "thrall-part-02",
+      "path": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\drafts\\02.txt",
+      "sha256": "832ae69dc611d06f3a42f890ad03ae894525232788b270b6ae1e8ee338c67608",
+      "status": "passed",
+      "subtitleMatchesPlan": true,
+      "findings": [],
+      "checks": [
+        "战歌拒杀孩子与霜狼学习分开，未将试炼全归同一氏族。",
+        "劳动与反抗侮辱的谦卑/自尊试验、雪歌主动结伴、五灵接纳有10号章节12—14证据。",
+        "德雷克塔尔请求洪水杀平民被拒、强求复活失力、萨尔求鹿救饥荒均有10章14证据。",
+        "血脉不直接授予萨满资格，止于精神与伦理学习。"
+      ],
+      "sourceEventIds": [
+        "thrall-event-05",
+        "thrall-event-06"
+      ]
+    },
+    {
+      "unitId": "thrall-part-03",
+      "path": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\drafts\\03.txt",
+      "sha256": "d4f3e4009730fb081e12ab8658fa7455850132b2788a80390f462cc477de7b7a",
+      "status": "passed",
+      "subtitleMatchesPlan": true,
+      "findings": [],
+      "checks": [
+        "私人比武未借元素、继承甲锤、根须威逼和营地伤亡均有据。",
+        "明确萨尔见到塔蕾莎被害后的头颅，非目睹杀害过程。",
+        "对方丢剑后掷匕首、撤空再毁堡、项链归还父母有据。",
+        "未宣称解放全体完成；伊崔格营救只作领袖伦理旁证，未夺提里奥功劳。"
+      ],
+      "sourceEventIds": [
+        "thrall-event-07",
+        "thrall-event-08",
+        "thrall-event-09"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "review-00-name-01",
+      "severity": "required_minor_correction",
+      "unitId": "thrall-overview",
+      "location": "第7正文段，起句在艾格拉陪伴下重新学习",
+      "current": "艾格拉",
+      "expected": "阿格娜",
+      "reason": "integration.aliases指定本小说译名阿格娜；08—11及16/18/19证据亦如此，艾格拉不是本批核定异译。",
+      "basis": [
+        "characters/thrall/integration.json#aliases",
+        "books/16/evidence.json",
+        "books/18/evidence.json"
+      ],
+      "requestedAction": "由主代理或作者统一为阿格娜并更新正文哈希及sources元数据；校核员不改稿。"
+    }
+  ],
+  "editsMade": false,
+  "nextRole": "coordinator",
+  "note": "唯一需修正项为总览姓名统一；正文实质时间线、篇界和副标题通过。",
+  "coordinatorResolution": {
+    "issue": "总览误写艾格拉",
+    "resolution": "已统一为阿格娜；对照稿件确认",
+    "currentDraftSha256": "9ff0d9aa274fee61461957e98fcdcbded2151ea6187d082e233ac6f500f53139",
+    "status": "resolved"
+  }
+}

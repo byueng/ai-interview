@@ -1,0 +1,34 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-08",
+  "reviewer": "thrall_book13",
+  "reviewType": "independent_visual_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\08-stained-glass.png",
+  "imageSha256": "6b91e89578d35db5d96eee19e932a0b85333c88c2d3e5139d35b9a900c1b7380",
+  "storySha256": "249c08502fdfc05f0f9d37566163a1d4bbdfe3b14296c1e98cc6d6fd7e2c70cf",
+  "profileSha256": "6e276a98eae795ffe19fa1f1e62b75b5ba2426dd8a511f65903c9bdb78fb73a4",
+  "artBriefSha256": "b8035e8a68a94c0fdb56f12b020660fbe356a97815ea00a166561a50e4a85b9c",
+  "promptSha256": "2839c440ff5ecac385e286738a405020d56de471d5441a0f0f601f657c368560",
+  "subtitle": "无需功绩，也值得被爱",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "古树下检视小橡果，戴沙林以绿发紫肤暗夜精灵形态在旁；简袍无甲，手无锤，无家人幻影。暖绿光线与谦卑情绪相符。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。",
+  "nonBlockingNotes": [
+    "画面选择拾起后端详、尚未合拢手掌的连续动作瞬间；不构成新事件。"
+  ]
+}

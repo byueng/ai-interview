@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-03",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "92633178a7f93cb932fbaefc3992f127019aefa9a0c52fd4e3ac8c6c4bc8e62d",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "自由之后，如何使用力量",
+    "origin": "editorial",
+    "sourceRef": null
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

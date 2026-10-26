@@ -1,0 +1,27 @@
+{
+  "unitId": "thrall-part-03",
+  "subtitle": {
+    "text": "自由之后，如何使用力量",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "storySha256": "92633178a7f93cb932fbaefc3992f127019aefa9a0c52fd4e3ac8c6c4bc8e62d",
+  "artScene": {
+    "mode": "chapter_scene",
+    "scene": "萨尔潜入收容所，在萎靡的兽人囚徒面前令种子萌芽开花；以掌边嫩芽和逐渐抬头的面孔集中表达解放首先需要希望。",
+    "sourceRefs": [
+      "10/OEBPS/text00284.html:p0002-p0050"
+    ],
+    "costumeAndWeapons": "发生于奥格瑞姆移交甲锤之前，萨尔采取混入囚徒的身份；绝不携毁灭之锤或穿继任护甲。证据未细录伪装衣料，采用无纹囚徒衣物属待导演核验的美术处理。",
+    "emotion": "安静的惊讶与恢复行动意愿的希望；不要套用敦霍尔德决战的悲愤。",
+    "subtitle": "自由之后，如何使用力量",
+    "medium": "中世纪彩绘玻璃，铅条分格与透光色片；无嵌入文字。"
+  },
+  "style": "中世纪彩绘玻璃；面孔、人物和全环境均为玻璃铅条；无嵌入文字",
+  "sourceUncertainty": "未被原文限定的衣纹、色样、取景与布景属艺术处理，不作为史实",
+  "status": "approved_for_generation",
+  "prompt": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 自由之后，如何使用力量. Single documented scene before Thrall inherits armor or Doomhammer: young green orc Thrall, blue eyes, black hair and no beard, kneels in an orc internment camp among weary adult orc prisoners. He has coaxed a small seed to sprout and flower before them; show a tiny living sprout growing from a small handful of dirt in his open palm, prisoners slowly looking up with quiet wonder. Plain unadorned worn cloth clothing and a modest camp enclosure AT MIDNIGHT, guards asleep in distant posts, dim cool night light, no grand magical explosion. NO Doomhammer, NO chief armor, NO throne. Warm living green and pale amber emerge among muted grey panes. Hope beginning to restore the will to act.",
+  "targetedVerification": "已定点核对原文场景位置、时段及动作，提示词优先于初始scene提案中的宽泛布景。"
+}

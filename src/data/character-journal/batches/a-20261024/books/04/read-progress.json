@@ -1,0 +1,11 @@
+{
+  "status": "pending",
+  "stopReason": "user_scope_narrowed_to_inheritable_files",
+  "lastFullyRead": null,
+  "next": "text00089",
+  "nextParagraph": null,
+  "nextHref": "OEBPS/text00089.html",
+  "nextPath": "source/text00089.txt",
+  "emptyDocumentAction": "verify empty then advance in manifest order",
+  "readButUnrecorded": []
+}

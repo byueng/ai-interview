@@ -1,0 +1,801 @@
+{
+  "bookId": "24",
+  "title": "魔兽编年史 卷一",
+  "sourcePath": "E:\\魔兽官方小说\\24 魔兽编年史 卷一.epub",
+  "sourceSha256": "7be225f815be01fb8ab261fb4723cf4eb06f6b087e2ceb152e3234ca18267815",
+  "documents": [
+    {
+      "documentId": "text00724",
+      "href": "OEBPS/text00724.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00724.txt",
+      "sha256": "fad9e57d735428e9a48e14a5d2b6c8e6a728002dc30ab6c870c196a8654075f7"
+    },
+    {
+      "documentId": "text00725",
+      "href": "OEBPS/text00725.html",
+      "paragraphs": 7,
+      "characters": 218,
+      "heading": "版权信息",
+      "path": "source/text00725.txt",
+      "sha256": "fdc1abbf34cea2138f95c5bf5b1d864983cf7ed7bcf0f3addde78671faaac9b5"
+    },
+    {
+      "documentId": "text00726",
+      "href": "OEBPS/text00726.html",
+      "paragraphs": 104,
+      "characters": 3177,
+      "heading": "魔兽编年史 卷一",
+      "path": "source/text00726.txt",
+      "sha256": "b8abbd6961a4808629f85389966349589e1388b05234f515c4de00ef7ade7077"
+    },
+    {
+      "documentId": "text00727",
+      "href": "OEBPS/text00727.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00727.txt",
+      "sha256": "80c99dc6fe5d179b9c293550841e9f17ddffa5248cdd775726b0551446958c96"
+    },
+    {
+      "documentId": "text00728",
+      "href": "OEBPS/text00728.html",
+      "paragraphs": 12,
+      "characters": 951,
+      "heading": "序言",
+      "path": "source/text00728.txt",
+      "sha256": "91679572c41828d2530e8a0028dcdac9c0fa05c9a634d6e67497a7e8a152305d"
+    },
+    {
+      "documentId": "text00729",
+      "href": "OEBPS/text00729.html",
+      "paragraphs": 13,
+      "characters": 1193,
+      "heading": "引言",
+      "path": "source/text00729.txt",
+      "sha256": "b65337c4df4453508a67f005a3e64a48901f230c76400118a238708894d2bce2"
+    },
+    {
+      "documentId": "text00730",
+      "href": "OEBPS/text00730.html",
+      "paragraphs": 3,
+      "characters": 168,
+      "heading": "引文：宇宙论",
+      "path": "source/text00730.txt",
+      "sha256": "e78e7f447c157977402109ceb9eb5f6f97141608aacc68ac079204ab8863fb4c"
+    },
+    {
+      "documentId": "text00731",
+      "href": "OEBPS/text00731.html",
+      "paragraphs": 30,
+      "characters": 1321,
+      "heading": "宇宙之力",
+      "path": "source/text00731.txt",
+      "sha256": "2758e3de681289278331538ceef874ccafd2df99edd479abdca08684068ec942"
+    },
+    {
+      "documentId": "text00732",
+      "href": "OEBPS/text00732.html",
+      "paragraphs": 12,
+      "characters": 962,
+      "heading": "四方诸界",
+      "path": "source/text00732.txt",
+      "sha256": "7c18a6b0f63e00599bbe581939eff261ca566715d014ff8297935e2ecfe55db1"
+    },
+    {
+      "documentId": "text00733",
+      "href": "OEBPS/text00733.html",
+      "paragraphs": 22,
+      "characters": 1546,
+      "heading": "寰宇众灵",
+      "path": "source/text00733.txt",
+      "sha256": "8914d833d286576cae4d0f49787050ad4625abc87186bc46f6a45d9bd1abc6d8"
+    },
+    {
+      "documentId": "text00734",
+      "href": "OEBPS/text00734.html",
+      "paragraphs": 1,
+      "characters": 26,
+      "heading": "第一章\n创世神话",
+      "path": "source/text00734.txt",
+      "sha256": "8452b64e42bd6668cbffa6afc34900106eafab8eac24e5d3ca2a32cb3311487a"
+    },
+    {
+      "documentId": "text00735",
+      "href": "OEBPS/text00735.html",
+      "paragraphs": 15,
+      "characters": 1394,
+      "heading": "起源",
+      "path": "source/text00735.txt",
+      "sha256": "7c4fd3641a707d47ea0b742e918e34d8fc0ae4ac85566ce7273b1ee188b377c1"
+    },
+    {
+      "documentId": "text00736",
+      "href": "OEBPS/text00736.html",
+      "paragraphs": 17,
+      "characters": 1291,
+      "heading": "泰坦与宇宙秩序的建立",
+      "path": "source/text00736.txt",
+      "sha256": "93bf1e45b45d2fda8d9269ee6eacb2f392988621f0d5866c1ccaaa28993c5689"
+    },
+    {
+      "documentId": "text00737",
+      "href": "OEBPS/text00737.html",
+      "paragraphs": 5,
+      "characters": 591,
+      "heading": "虚空领主与上古之神的诞生",
+      "path": "source/text00737.txt",
+      "sha256": "20be3f057e413c1751bde77ff2216944ad81d774b259ab90f9b63998e953960d"
+    },
+    {
+      "documentId": "text00738",
+      "href": "OEBPS/text00738.html",
+      "paragraphs": 6,
+      "characters": 739,
+      "heading": "恶魔的崛起",
+      "path": "source/text00738.txt",
+      "sha256": "3813e3dba83f366d45377c39bf426533b173c5fc9184a3787f7ced0af85e4b01"
+    },
+    {
+      "documentId": "text00739",
+      "href": "OEBPS/text00739.html",
+      "paragraphs": 13,
+      "characters": 1660,
+      "heading": "萨格拉斯与阿格拉玛",
+      "path": "source/text00739.txt",
+      "sha256": "85e490d450fb86de661569aeb2194728b79cff52e59e835da0a6aa8c3132c8c3"
+    },
+    {
+      "documentId": "text00740",
+      "href": "OEBPS/text00740.html",
+      "paragraphs": 18,
+      "characters": 2016,
+      "heading": "虚空的意志",
+      "path": "source/text00740.txt",
+      "sha256": "d3469f1eeee6d90c1483cf5f01b75716455aa6b7dff681baf44b847e0a432588"
+    },
+    {
+      "documentId": "text00741",
+      "href": "OEBPS/text00741.html",
+      "paragraphs": 1,
+      "characters": 28,
+      "heading": "第二章\n原始艾泽拉斯",
+      "path": "source/text00741.txt",
+      "sha256": "417cd50d14078f132d6d0f39d25a3f3bbe4bbdf717ca66a9af8692b7067a03d3"
+    },
+    {
+      "documentId": "text00742",
+      "href": "OEBPS/text00742.html",
+      "paragraphs": 11,
+      "characters": 1423,
+      "heading": "元素的统治",
+      "path": "source/text00742.txt",
+      "sha256": "c27348a1d06016dbda04eb1cdee3cf0d0808d2a10a15f28885b11386fd555f42"
+    },
+    {
+      "documentId": "text00743",
+      "href": "OEBPS/text00743.html",
+      "paragraphs": 10,
+      "characters": 1185,
+      "heading": "上古之神的到来",
+      "path": "source/text00743.txt",
+      "sha256": "c27b1f6d5458faf7039f793d1dfd52640566f06e84a74660bacdfac0e4d2cec2"
+    },
+    {
+      "documentId": "text00744",
+      "href": "OEBPS/text00744.html",
+      "paragraphs": 13,
+      "characters": 1591,
+      "heading": "艾泽拉斯的发现",
+      "path": "source/text00744.txt",
+      "sha256": "7e1aa661274d0a55efb0abe7a01e34054046bb4765161fe9c7a2c9a5f2f17fa0"
+    },
+    {
+      "documentId": "text00745",
+      "href": "OEBPS/text00745.html",
+      "paragraphs": 14,
+      "characters": 1734,
+      "heading": "泰坦造物的怒火",
+      "path": "source/text00745.txt",
+      "sha256": "d452932a7e528c78b174288500c9a1ec6d8b84f29fb004ab382b837662909531"
+    },
+    {
+      "documentId": "text00746",
+      "href": "OEBPS/text00746.html",
+      "paragraphs": 15,
+      "characters": 1821,
+      "heading": "黑暗帝国的衰落",
+      "path": "source/text00746.txt",
+      "sha256": "b603145918c8bd2dbc16c00e99c448f0862dc3c1f810e87a650690c1a4eda646"
+    },
+    {
+      "documentId": "text00747",
+      "href": "OEBPS/text00747.html",
+      "paragraphs": 14,
+      "characters": 1874,
+      "heading": "永恒之井与世界熔炉",
+      "path": "source/text00747.txt",
+      "sha256": "0a7f94a40104ce7bca5cf86246034cd21173d6d85f232e852d3e5618a67fec1f"
+    },
+    {
+      "documentId": "text00748",
+      "href": "OEBPS/text00748.html",
+      "paragraphs": 26,
+      "characters": 1937,
+      "heading": "艾泽拉斯的秩序",
+      "path": "source/text00748.txt",
+      "sha256": "46514e81dca0bb28f3fb4b67447278cf49055c69f0a729106e23cb419e0cfaa2"
+    },
+    {
+      "documentId": "text00749",
+      "href": "OEBPS/text00749.html",
+      "paragraphs": 5,
+      "characters": 498,
+      "heading": "万神殿的离去",
+      "path": "source/text00749.txt",
+      "sha256": "3d43b09d871fde01964184324bc5b36fcc8ae3c284283fbdc0622949e3f49e24"
+    },
+    {
+      "documentId": "text00750",
+      "href": "OEBPS/text00750.html",
+      "paragraphs": 14,
+      "characters": 1927,
+      "heading": "迦拉克隆",
+      "path": "source/text00750.txt",
+      "sha256": "7d64d0ef5e903f2fa23248b304300b661c1f58836180b2765dd21debaf261f99"
+    },
+    {
+      "documentId": "text00751",
+      "href": "OEBPS/text00751.html",
+      "paragraphs": 16,
+      "characters": 1798,
+      "heading": "巨龙军团的诞生",
+      "path": "source/text00751.txt",
+      "sha256": "5bdd11b0d28c1c97a793ff267facce5cfd870fd8994d56143a114514f89586e1"
+    },
+    {
+      "documentId": "text00752",
+      "href": "OEBPS/text00752.html",
+      "paragraphs": 11,
+      "characters": 1477,
+      "heading": "奥丁与腾空而起的英灵殿",
+      "path": "source/text00752.txt",
+      "sha256": "c2fa20c8ca9020a6eb6b7b74eb33bf781403949f76d02b24ee4e79d820a9d2ed"
+    },
+    {
+      "documentId": "text00753",
+      "href": "OEBPS/text00753.html",
+      "paragraphs": 28,
+      "characters": 3153,
+      "heading": "萨格拉斯的背叛",
+      "path": "source/text00753.txt",
+      "sha256": "428ff7bf2ccf4c4645b5aa95ff488558e0fc8c9dfce89889d53b2cf98514658b"
+    },
+    {
+      "documentId": "text00754",
+      "href": "OEBPS/text00754.html",
+      "paragraphs": 24,
+      "characters": 2631,
+      "heading": "燃烧的远征",
+      "path": "source/text00754.txt",
+      "sha256": "83d3f2d8378a53268124975a75ee671e5a869eb389e029e5e0e8019aa5a551a2"
+    },
+    {
+      "documentId": "text00755",
+      "href": "OEBPS/text00755.html",
+      "paragraphs": 19,
+      "characters": 2427,
+      "heading": "洛肯的背叛",
+      "path": "source/text00755.txt",
+      "sha256": "d740f11da2a7f511293596f651428d3cb7be62380254a887a05fa8e18487c122"
+    },
+    {
+      "documentId": "text00756",
+      "href": "OEBPS/text00756.html",
+      "paragraphs": 9,
+      "characters": 1041,
+      "heading": "英灵殿的封闭",
+      "path": "source/text00756.txt",
+      "sha256": "e919d4ef72fda90fe0eb053e7ab5bbf974f1c9b67800f6e983680f3b34da9362"
+    },
+    {
+      "documentId": "text00757",
+      "href": "OEBPS/text00757.html",
+      "paragraphs": 13,
+      "characters": 1589,
+      "heading": "守护者的衰落",
+      "path": "source/text00757.txt",
+      "sha256": "d2c2596b76fba4a8aa0eab3c0682482b3b3a7ee8e85157a6c847e0916697890b"
+    },
+    {
+      "documentId": "text00758",
+      "href": "OEBPS/text00758.html",
+      "paragraphs": 7,
+      "characters": 708,
+      "heading": "莱的离去",
+      "path": "source/text00758.txt",
+      "sha256": "410d80ffe04af9d3baf3d5c62981ee6de7363822b58a9b13779a68fb01088948"
+    },
+    {
+      "documentId": "text00759",
+      "href": "OEBPS/text00759.html",
+      "paragraphs": 19,
+      "characters": 2260,
+      "heading": "蔑冬之战",
+      "path": "source/text00759.txt",
+      "sha256": "68a7eee57ca3c8073b8ceace67c6093f39635e8c3173a2229af8b63761479a23"
+    },
+    {
+      "documentId": "text00760",
+      "href": "OEBPS/text00760.html",
+      "paragraphs": 23,
+      "characters": 2915,
+      "heading": "诺甘农圆盘",
+      "path": "source/text00760.txt",
+      "sha256": "58bac8db4ab024e2fc96738166b4d6953dd93b15dd2e372366248aa69a640ec1"
+    },
+    {
+      "documentId": "text00761",
+      "href": "OEBPS/text00761.html",
+      "paragraphs": 14,
+      "characters": 1534,
+      "heading": "巨人之子——人类的崛起",
+      "path": "source/text00761.txt",
+      "sha256": "e5cb658c915c7f2aa1f63997ea2feb75c3b2ea5e1a26d9b6d0c0e9dae1e2cd25"
+    },
+    {
+      "documentId": "text00762",
+      "href": "OEBPS/text00762.html",
+      "paragraphs": 1,
+      "characters": 27,
+      "heading": "第三章\n古卡利姆多",
+      "path": "source/text00762.txt",
+      "sha256": "0d4f554b538492c5d75bc7d754cc40a3744d8b960c3c25f0889b966f029952ee"
+    },
+    {
+      "documentId": "text00763",
+      "href": "OEBPS/text00763.html",
+      "paragraphs": 29,
+      "characters": 3646,
+      "heading": "祖尔帝国与亚基虫族的觉醒\n黑暗之门开启前16000年",
+      "path": "source/text00763.txt",
+      "sha256": "544a32d552ca99d363d2835331b3f00e82e68f414077176bb65c18d3460db0c8"
+    },
+    {
+      "documentId": "text00764",
+      "href": "OEBPS/text00764.html",
+      "paragraphs": 4,
+      "characters": 319,
+      "heading": "蛛魔、其拉虫人与螳螂妖",
+      "path": "source/text00764.txt",
+      "sha256": "2a4c32ddead29499345986d980cca0d0d63782c1a73819fe763b139e5f3aa482"
+    },
+    {
+      "documentId": "text00765",
+      "href": "OEBPS/text00765.html",
+      "paragraphs": 13,
+      "characters": 1532,
+      "heading": "螳螂妖的循环",
+      "path": "source/text00765.txt",
+      "sha256": "4acb3db70cbda1eb45cf43bc88ff2fc65470de2ff14d2c479c66c74aceac5bb0"
+    },
+    {
+      "documentId": "text00766",
+      "href": "OEBPS/text00766.html",
+      "paragraphs": 10,
+      "characters": 1131,
+      "heading": "百王时代\n黑暗之门开启前15000年",
+      "path": "source/text00766.txt",
+      "sha256": "31f5c8340c37fee2b3714d584a3e6b67ead648922ebbb7ea9b05bf3a3ef2fecb"
+    },
+    {
+      "documentId": "text00767",
+      "href": "OEBPS/text00767.html",
+      "paragraphs": 18,
+      "characters": 2140,
+      "heading": "雷电之王\n黑暗之门开启前15000—12200年",
+      "path": "source/text00767.txt",
+      "sha256": "f64e05a4bdcbc500149b7d3d82469c98408f794956e9efae5e3c0dc572ac2d03"
+    },
+    {
+      "documentId": "text00768",
+      "href": "OEBPS/text00768.html",
+      "paragraphs": 15,
+      "characters": 1955,
+      "heading": "两大帝国",
+      "path": "source/text00768.txt",
+      "sha256": "2423b93adef2cb730266b8ae2fdb562f9fa2e79c31671f5da17c32b0dbddf796"
+    },
+    {
+      "documentId": "text00769",
+      "href": "OEBPS/text00769.html",
+      "paragraphs": 18,
+      "characters": 2071,
+      "heading": "雷电之殒",
+      "path": "source/text00769.txt",
+      "sha256": "36c4224f702281332551c7a895f840b13fa227a990c2a19e02a88e201fbd7ad1"
+    },
+    {
+      "documentId": "text00770",
+      "href": "OEBPS/text00770.html",
+      "paragraphs": 21,
+      "characters": 2368,
+      "heading": "熊猫人的革命\n黑暗之门开启前12000年",
+      "path": "source/text00770.txt",
+      "sha256": "b7730bbe6c873b3574d486cd5a07b1b37756c94d99c350106951a0800361cf2c"
+    },
+    {
+      "documentId": "text00771",
+      "href": "OEBPS/text00771.html",
+      "paragraphs": 11,
+      "characters": 1363,
+      "heading": "野牛人的迁徙",
+      "path": "source/text00771.txt",
+      "sha256": "b7b6cb45264914fc87dd46e39b942423634887231be805c432af82fc2390cba5"
+    },
+    {
+      "documentId": "text00772",
+      "href": "OEBPS/text00772.html",
+      "paragraphs": 13,
+      "characters": 1705,
+      "heading": "赞达拉的入侵\n黑暗之门开启前11900年",
+      "path": "source/text00772.txt",
+      "sha256": "5283abe6b5854cdea4da9b8e810f0a2eefdea862944988b60a0e8a0ebe6fa731"
+    },
+    {
+      "documentId": "text00773",
+      "href": "OEBPS/text00773.html",
+      "paragraphs": 12,
+      "characters": 1575,
+      "heading": "永恒之井与暗夜精灵的崛起\n黑暗之门开启前15000-10000年",
+      "path": "source/text00773.txt",
+      "sha256": "92848ed75abbab03623fc6c93f4083dd65cc58b92131264660c75d802eaa7289"
+    },
+    {
+      "documentId": "text00774",
+      "href": "OEBPS/text00774.html",
+      "paragraphs": 19,
+      "characters": 2180,
+      "heading": "艾萨拉女王",
+      "path": "source/text00774.txt",
+      "sha256": "200605bdcf00578ac44ceb7ba13488c453df5613761acc2f3f26112570068a83"
+    },
+    {
+      "documentId": "text00775",
+      "href": "OEBPS/text00775.html",
+      "paragraphs": 16,
+      "characters": 1888,
+      "heading": "上古之战\n黑暗之门开启前10000年",
+      "path": "source/text00775.txt",
+      "sha256": "8061bf23a66f1f0b9b336f9ed59bdd22ad9b156bef160ed19c440e7655d19ab9"
+    },
+    {
+      "documentId": "text00776",
+      "href": "OEBPS/text00776.html",
+      "paragraphs": 9,
+      "characters": 1034,
+      "heading": "死亡之翼与巨龙之魂",
+      "path": "source/text00776.txt",
+      "sha256": "aa33f772c07ea74c6204409191b64de9e9eef1317fd2f852fbf4a8a3ad347acd"
+    },
+    {
+      "documentId": "text00777",
+      "href": "OEBPS/text00777.html",
+      "paragraphs": 13,
+      "characters": 1327,
+      "heading": "伊利丹的背叛",
+      "path": "source/text00777.txt",
+      "sha256": "727888e41825d1a5d214d2ae018b99071cab716e1e249f60c53304b54b42e875"
+    },
+    {
+      "documentId": "text00778",
+      "href": "OEBPS/text00778.html",
+      "paragraphs": 8,
+      "characters": 1108,
+      "heading": "苏拉玛与创世之柱",
+      "path": "source/text00778.txt",
+      "sha256": "2d8a73b56b7cf6eee394bd9c0c63f1391f6e0e3782ee9532bac185d91fa4f5bd"
+    },
+    {
+      "documentId": "text00779",
+      "href": "OEBPS/text00779.html",
+      "paragraphs": 19,
+      "characters": 2224,
+      "heading": "辛艾萨莉的沉没与大分裂",
+      "path": "source/text00779.txt",
+      "sha256": "051ea2b9f96fe4839d46c34599fd6e15bc5979b399849f950c81ecaa398410f4"
+    },
+    {
+      "documentId": "text00780",
+      "href": "OEBPS/text00780.html",
+      "paragraphs": 14,
+      "characters": 1297,
+      "heading": "少昊的罪责\n黑暗之门开启前10000年",
+      "path": "source/text00780.txt",
+      "sha256": "2d6a356454ae6f8b713ba6c8a9aac558c3a15665cccd317703c8f0d7ec8c1e19"
+    },
+    {
+      "documentId": "text00781",
+      "href": "OEBPS/text00781.html",
+      "paragraphs": 1,
+      "characters": 26,
+      "heading": "第四章\n新的世界",
+      "path": "source/text00781.txt",
+      "sha256": "84439ef1f9e8fe937349d6e05b6edeb6722413c569aca7fa66a8f58ba5db3a76"
+    },
+    {
+      "documentId": "text00782",
+      "href": "OEBPS/text00782.html",
+      "paragraphs": 14,
+      "characters": 1577,
+      "heading": "海加尔山与世界之树\n黑暗之门开启前10000年",
+      "path": "source/text00782.txt",
+      "sha256": "e4170a2c698923fb0433f7e0adb7abd37e6804e9db1b131d3b403de1a51ce42e"
+    },
+    {
+      "documentId": "text00783",
+      "href": "OEBPS/text00783.html",
+      "paragraphs": 9,
+      "characters": 1052,
+      "heading": "哨兵部队\n黑暗之门开启前9400年",
+      "path": "source/text00783.txt",
+      "sha256": "fadaf4230c10498cde4cef0f8d24a3c1059e709a40112b3212f4f1c779d5fb29"
+    },
+    {
+      "documentId": "text00784",
+      "href": "OEBPS/text00784.html",
+      "paragraphs": 8,
+      "characters": 858,
+      "heading": "萨特之战\n黑暗之门开启前9300年",
+      "path": "source/text00784.txt",
+      "sha256": "622f9f00aaf4c8aa5c86736a9c5497af9d14dcff5dca4949ac39bec7315b254f"
+    },
+    {
+      "documentId": "text00785",
+      "href": "OEBPS/text00785.html",
+      "paragraphs": 15,
+      "characters": 1856,
+      "heading": "高等精灵的流亡\n黑暗之门开启前7300年",
+      "path": "source/text00785.txt",
+      "sha256": "c11d8536e4f2e39b81a7d2218dfbe1e6c301563044c0b5d73197027467867012"
+    },
+    {
+      "documentId": "text00786",
+      "href": "OEBPS/text00786.html",
+      "paragraphs": 8,
+      "characters": 834,
+      "heading": "长期卫戍\n黑暗之门开启前7300年",
+      "path": "source/text00786.txt",
+      "sha256": "7d1e9b79e8242f9ee422ca5acfc729efe324c011fe90d143ef8fa5343c607445"
+    },
+    {
+      "documentId": "text00787",
+      "href": "OEBPS/text00787.html",
+      "paragraphs": 16,
+      "characters": 1955,
+      "heading": "奎尔萨拉斯的建立\n在黑暗之门开启前6800年",
+      "path": "source/text00787.txt",
+      "sha256": "93222bfbd618d5f1f182a135f3e04831cfdf5bcb69d18e4f967d545b5eaa0c57"
+    },
+    {
+      "documentId": "text00788",
+      "href": "OEBPS/text00788.html",
+      "paragraphs": 8,
+      "characters": 1042,
+      "heading": "晶歌的诅咒\n黑暗之门开启前6000年",
+      "path": "source/text00788.txt",
+      "sha256": "9834b8bc223d1d60528072266ed49eda034c704feb55f201ab0a6644b7fe70d4"
+    },
+    {
+      "documentId": "text00789",
+      "href": "OEBPS/text00789.html",
+      "paragraphs": 12,
+      "characters": 1702,
+      "heading": "砍伐安达希尔\n黑暗之门开启前4500年",
+      "path": "source/text00789.txt",
+      "sha256": "ee61d51dd19bc1a9717e71f3f9081e8e97e6135562f456924ba2dd55c4f59975"
+    },
+    {
+      "documentId": "text00790",
+      "href": "OEBPS/text00790.html",
+      "paragraphs": 7,
+      "characters": 1000,
+      "heading": "侏儒的出逃\n黑暗之门开启前3000年",
+      "path": "source/text00790.txt",
+      "sha256": "2ee92b4b4b7ba9bb4ef4783c052a83bdce9e2041dc3cde89a35a3f74d1d76b86"
+    },
+    {
+      "documentId": "text00791",
+      "href": "OEBPS/text00791.html",
+      "paragraphs": 14,
+      "characters": 1939,
+      "heading": "阿拉索的崛起\n黑暗之门开启前2800年",
+      "path": "source/text00791.txt",
+      "sha256": "a57151b6f497c2fb937c09f66a96255247992214e06c2a09cf5c66eded2f488b"
+    },
+    {
+      "documentId": "text00792",
+      "href": "OEBPS/text00792.html",
+      "paragraphs": 9,
+      "characters": 993,
+      "heading": "巨魔战争第一部分：围攻奎尔萨拉斯\n黑暗之门开启前2800年",
+      "path": "source/text00792.txt",
+      "sha256": "2fb4eb1f8d56a292eef94e74d6f9ac80012d0f7d09b84579863735f38396c9f6"
+    },
+    {
+      "documentId": "text00793",
+      "href": "OEBPS/text00793.html",
+      "paragraphs": 23,
+      "characters": 2829,
+      "heading": "巨魔战争第二部分：火从天降",
+      "path": "source/text00793.txt",
+      "sha256": "16119986d42a3f9b778d02d79bac9211f6354fa64d46eb53b9252bddfc562485"
+    },
+    {
+      "documentId": "text00794",
+      "href": "OEBPS/text00794.html",
+      "paragraphs": 8,
+      "characters": 952,
+      "heading": "阿拉索的扩张\n黑暗之门开启前2700年",
+      "path": "source/text00794.txt",
+      "sha256": "8cf721e5bb55bac2d76a950725abcfa7109b9623314c7c2e5803d67a4fa47fa6"
+    },
+    {
+      "documentId": "text00795",
+      "href": "OEBPS/text00795.html",
+      "paragraphs": 11,
+      "characters": 1496,
+      "heading": "提瑞斯法议会\n黑暗之门开启前2680年",
+      "path": "source/text00795.txt",
+      "sha256": "b96c2ba0604922890d36ab94bc40707bd05775c007aa93858be3832e173f1369"
+    },
+    {
+      "documentId": "text00796",
+      "href": "OEBPS/text00796.html",
+      "paragraphs": 12,
+      "characters": 1493,
+      "heading": "第一任守护者\n黑暗之门开启前2610年",
+      "path": "source/text00796.txt",
+      "sha256": "b46f91bfd9aa69605121e3b8a503e20f3ff83d1950b4459d5039b3804d40ea27"
+    },
+    {
+      "documentId": "text00797",
+      "href": "OEBPS/text00797.html",
+      "paragraphs": 9,
+      "characters": 1240,
+      "heading": "铁炉堡与矮人的觉醒\n黑暗之门开启前2500年",
+      "path": "source/text00797.txt",
+      "sha256": "8825e142f59e3af7e460689e81ac3283d2d442f2230a5805e46d09f49a6ea064"
+    },
+    {
+      "documentId": "text00798",
+      "href": "OEBPS/text00798.html",
+      "paragraphs": 12,
+      "characters": 1346,
+      "heading": "古拉巴什内战\n黑暗之门开启前1500年",
+      "path": "source/text00798.txt",
+      "sha256": "09e33c0e0a1a1c15565cb1a0f9be1817a2fd7055cada33e80d6a46aa7e669e18"
+    },
+    {
+      "documentId": "text00799",
+      "href": "OEBPS/text00799.html",
+      "paragraphs": 11,
+      "characters": 1223,
+      "heading": "埃雷萨拉斯与伊莫塔尔的囚禁\n黑暗之门开启前1200年",
+      "path": "source/text00799.txt",
+      "sha256": "13ba3d5372c16c2a8d1300a04b1f1eb703f6c21de6d0fc9039e30044243399e5"
+    },
+    {
+      "documentId": "text00800",
+      "href": "OEBPS/text00800.html",
+      "paragraphs": 15,
+      "characters": 1698,
+      "heading": "阿拉索的分裂\n黑暗之门开启前1200年",
+      "path": "source/text00800.txt",
+      "sha256": "f3bb1682798a8d6b31b654322b4428f148241b1aea70889866b92d02026069b6"
+    },
+    {
+      "documentId": "text00801",
+      "href": "OEBPS/text00801.html",
+      "paragraphs": 15,
+      "characters": 1889,
+      "heading": "玛拉顿和半人马的崛起\n黑暗之门开启前1100年",
+      "path": "source/text00801.txt",
+      "sha256": "d2e35d0ea97a62f486225c797b4d27f7770e2de3168811d12e54f195066a15f9"
+    },
+    {
+      "documentId": "text00802",
+      "href": "OEBPS/text00802.html",
+      "paragraphs": 19,
+      "characters": 2059,
+      "heading": "流沙之战\n黑暗之门开启前975年",
+      "path": "source/text00802.txt",
+      "sha256": "2f55a2ea636df66888c574c8244cbafff0a1b319d0c994e37f55cca2c5a78ea5"
+    },
+    {
+      "documentId": "text00803",
+      "href": "OEBPS/text00803.html",
+      "paragraphs": 16,
+      "characters": 1926,
+      "heading": "守护者艾格文\n黑暗之门开启前823年",
+      "path": "source/text00803.txt",
+      "sha256": "7c708535c4d1d91c54b3cec1c5c1bed7c066e61426fc39fd67838c683c93d319"
+    },
+    {
+      "documentId": "text00804",
+      "href": "OEBPS/text00804.html",
+      "paragraphs": 9,
+      "characters": 929,
+      "heading": "刘浪与迷踪岛\n黑暗之门开启前800年",
+      "path": "source/text00804.txt",
+      "sha256": "e20a624da0289400c1544c9a4d6052ea8cd1b0a545b41c7a786d3d237872c114"
+    },
+    {
+      "documentId": "text00805",
+      "href": "OEBPS/text00805.html",
+      "paragraphs": 11,
+      "characters": 1443,
+      "heading": "艾格文的消失\n黑暗之门开启前600年",
+      "path": "source/text00805.txt",
+      "sha256": "ca74837eb78c22ea559916456a98856e7c1446a72af4e85e95314b62f862e1b8"
+    },
+    {
+      "documentId": "text00806",
+      "href": "OEBPS/text00806.html",
+      "paragraphs": 18,
+      "characters": 2019,
+      "heading": "三锤之战\n黑暗之门开启前230年",
+      "path": "source/text00806.txt",
+      "sha256": "55ca7b77e82e386886466fadd97bb3b029d1842b4d264794b562a7ca129de4ca"
+    },
+    {
+      "documentId": "text00807",
+      "href": "OEBPS/text00807.html",
+      "paragraphs": 9,
+      "characters": 1082,
+      "heading": "余波与重建",
+      "path": "source/text00807.txt",
+      "sha256": "2686cbb92c4ddd1ee059ba898e208bcaab3820afd051d8204cb3e77288da269f"
+    },
+    {
+      "documentId": "text00808",
+      "href": "OEBPS/text00808.html",
+      "paragraphs": 12,
+      "characters": 1218,
+      "heading": "科赞的解放\n黑暗之门开启前100年",
+      "path": "source/text00808.txt",
+      "sha256": "9b34068aa136f6ecd98d0898808c65a070b8ae86a6ebb0e493c4b29802204050"
+    },
+    {
+      "documentId": "text00809",
+      "href": "OEBPS/text00809.html",
+      "paragraphs": 15,
+      "characters": 1886,
+      "heading": "暴风城与豺狼人战争\n黑暗之门开启前75年",
+      "path": "source/text00809.txt",
+      "sha256": "18852188f204849fe0d26b29898aa8bb2c7dd49994296aeb3f3746765132a7fc"
+    },
+    {
+      "documentId": "text00810",
+      "href": "OEBPS/text00810.html",
+      "paragraphs": 20,
+      "characters": 2429,
+      "heading": "最后的守护者\n黑暗之门开启前45年",
+      "path": "source/text00810.txt",
+      "sha256": "a970fba5ca30b514fb682c6bbc29ea369c752f3df6fa4494bd476464c74dd8a0"
+    },
+    {
+      "documentId": "text00811",
+      "href": "OEBPS/text00811.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00811.txt",
+      "sha256": "799509840fe9ec7952a34b1c91f0148ebf79bc68114c5bd79c77de5b4ff5ab77"
+    }
+  ],
+  "readStatus": "pending"
+}

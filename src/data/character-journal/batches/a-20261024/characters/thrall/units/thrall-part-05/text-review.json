@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-05",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "f5a937cfda08685b11a75a99c63107458cf2a5d0e4035333b1a8aaad187f1dcf",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "在偏见、查证与强制之间",
+    "origin": "editorial",
+    "sourceRef": null
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

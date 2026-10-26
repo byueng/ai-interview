@@ -1,0 +1,114 @@
+{
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "role": "independent_plan_reviewer",
+  "version": 2,
+  "reviewType": "internal_planning_consistency_only",
+  "status": "passed_internal_review",
+  "userAccepted": false,
+  "writingAuthorized": false,
+  "artAuthorized": false,
+  "publicationAuthorized": false,
+  "inputVersions": {
+    "publication-plan.json": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+    "review.txt": "254136b8fca1d2527f990bc0d492c5771243746a99ab1fb324c9ed5cf6828e1f",
+    "integration.json": "278e0f6b566748d5478dcfa756ad63819a7e0f55b28a4e21babc3c5ab03b0f30"
+  },
+  "summary": "唯一需改项已同步修正并复核输入哈希，内部策划一致性复核通过；仍待用户整体审阅，不是用户批准或正文审核。",
+  "checks": {
+    "allRequiredUnitFieldsPresent": true,
+    "allSourceRangeFilesAndParagraphEndpointsValid": true,
+    "all32IntegrationEventsAssignedExactlyOnceToSections": true,
+    "overviewOverlapIsIntentionalSynthesis": true,
+    "reviewTxtMatchesStructuredUnitFieldsAndRanges": true,
+    "original16SubtitlesMatchSourceWording": true,
+    "chronicleUsedAsBriefScopedBridges": true,
+    "noUnauthorizedProseOrImageProductionInReviewedOutputs": true,
+    "allUnitsProposedAndUserAcceptedFalse": true,
+    "onlyMustFixResolved": true,
+    "planInputHashesMatchCurrentFiles": true
+  },
+  "findings": [
+    {
+      "id": "thrall-plan-review-001",
+      "severity": "must_fix",
+      "unitId": "thrall-part-03",
+      "relatedArtifacts": [
+        "publication-plan.json:units/thrall-part-03/keyEvents/thrall-event-08",
+        "review.txt:thrall-part-03",
+        "integration.json:timeline/thrall-event-08"
+      ],
+      "problem": "“目睹塔蕾莎被杀后攻城”容易将发现她已经被害写成在场目睹处死过程。萨尔看到的是被抛下的头颅；这是明确的知情方式与场景边界，后续作者不应据此虚构现场处刑。",
+      "sourceRefs": [
+        "10/text00288:p0042-p0044",
+        "10/text00288:p0063"
+      ],
+      "requestedChange": "改为“见到塔蕾莎被害后的头颅后攻城”或“得知塔蕾莎已遭杀害后攻城”，同步整合事件和易读策划，保留事实出处。",
+      "verification": "定点核对原文确认：p0042-44从布袋抛下头颅；p0063回叙布莱克摩尔此前命卫兵处死。",
+      "resolution": {
+        "status": "resolved",
+        "text": "见到塔蕾莎被害后的头颅后攻城",
+        "verifiedArtifacts": [
+          "integration.json v3",
+          "publication-plan.json v2",
+          "review.txt"
+        ],
+        "method": "仅检查指定措辞、版本及publication-plan输入哈希，没有重新通读小说。"
+      }
+    }
+  ],
+  "advisories": [
+    {
+      "unitId": "thrall-part-01",
+      "relatedUnits": [
+        "thrall-part-05",
+        "thrall-part-11"
+      ],
+      "note": "父辈背景、成年写史和庭审回望在语义上会触及相同往事；现有边界已允许区分，无需改变11篇结构。展开正文时第01篇仅压缩父辈背景，写史评价归第05篇，庭审新冲击归第11篇。",
+      "requiresRevision": false
+    },
+    {
+      "unitId": "thrall-part-07",
+      "note": "原作下篇副标题适用主事件；16尾声及26仅收束/同事件旁证，当前说明足够，不能后续把这副标题扩大到第08篇。",
+      "requiresRevision": false
+    }
+  ],
+  "passedReviewDetails": [
+    {
+      "unitIds": [
+        "thrall-part-06",
+        "thrall-part-07"
+      ],
+      "detail": "16上/下篇标题文字与原文text00444:p0001、text00460:p0001一致；第06篇主来源均在上篇，第07篇在下篇，尾声明确仅收束。"
+    },
+    {
+      "unitIds": [
+        "thrall-part-04",
+        "thrall-part-05",
+        "thrall-part-09",
+        "thrall-part-11"
+      ],
+      "detail": "迁徙/建国短篇，峰会/幽暗城桥接，死亡之翼终战简述，以及围城证词桥接均有明确密度限制；无须为保持等长扩写薄材料。"
+    },
+    {
+      "unitIds": [
+        "thrall-part-08",
+        "thrall-part-09"
+      ],
+      "detail": "自我认识与理解他人各有重心，橡果铺垫和回收形成有意连续；异常时线与真实过去、克洛玛图斯与死亡之翼均有区分。"
+    },
+    {
+      "unitIds": [
+        "thrall-part-10",
+        "thrall-part-11"
+      ],
+      "detail": "19的自责却留守、共同阻止海啸且未复交，与21的庭上答辩/内心负罪和有限修复分别处理，未以世界职责豁免政治后果。"
+    }
+  ],
+  "nextStep": "提交用户整体审阅；userAccepted保持false，正文、配图和发布仍未授权。",
+  "previousInputVersions": {
+    "publication-plan.json": "dc58f39d9eac9d59b64e33f28a7fddb449a42cbc6c719934d2fc17b144e71f65",
+    "review.txt": "c55e191c6b57407de2d77439a08d121b9e543b4dd315013e7e2d90772c97e642",
+    "integration.json": "7661ed50b53248cbca5cff92d54bf2dd52e89b63f9c12fa09da3299d165c38e2"
+  }
+}

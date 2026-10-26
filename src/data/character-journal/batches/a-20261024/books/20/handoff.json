@@ -1,0 +1,37 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-20",
+  "sourceChunkId": "book-20",
+  "role": "researcher",
+  "status": "not_started",
+  "inputVersions": {
+    "protocol": "researcher-instructions.txt",
+    "manifest": "manifest.json",
+    "sourceSha256": "a3c3af3d45ec43ddc908277d327689af22536a749a7a236f930eb3640af436fd"
+  },
+  "artifacts": [
+    "books/20/evidence.json",
+    "books/20/reading-progress.json"
+  ],
+  "checks": {
+    "wholeBookRead": false,
+    "paragraphCoverageComplete": false,
+    "subtitleChecked": false,
+    "factInferenceSeparated": true,
+    "noNetworkSupplement": true
+  },
+  "nextResponsibleRole": "researcher",
+  "resumeAt": {
+    "documentId": "text00581",
+    "href": "OEBPS/text00581.html",
+    "path": "source/text00581.txt",
+    "paragraph": null,
+    "note": "从manifest第一项开始核对；此项为空文档，尚未标记已读。",
+    "firstNonemptyDocumentId": "text00582",
+    "firstNonemptyParagraph": "p0001"
+  },
+  "readButUnrecorded": [],
+  "notes": [
+    "仅继承槽位，不包含研究结论；未来按manifest顺序完整阅读并同时提取A批所有人物。"
+  ]
+}

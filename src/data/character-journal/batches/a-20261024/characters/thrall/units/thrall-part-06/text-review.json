@@ -1,0 +1,24 @@
+{
+  "unitId": "thrall-part-06",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "839a4c832e46ca2537cd35f78cbd0feb23b5b1ea65ede88d3904d035c9762656",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "大地将会哭泣……",
+    "origin": "original",
+    "sourceRef": {
+      "bookId": "16",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "ref": "text00444:p0001",
+      "version": "王坚译，新星出版社2019版"
+    }
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

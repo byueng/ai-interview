@@ -1,0 +1,356 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-08",
+  "sourceChunkId": "book-08",
+  "role": "researcher",
+  "status": "complete",
+  "inputVersions": {
+    "protocol": "researcher-instructions.txt",
+    "manifest": "manifest.json",
+    "sourceSha256": "f061e244912dc66d3125e8744c64c142b76a6545a1ccb5d45732b21584360950"
+  },
+  "artifacts": [
+    "books/08/evidence.json"
+  ],
+  "checks": {
+    "wholeBookRead": true,
+    "paragraphCoverageComplete": true,
+    "subtitleChecked": true,
+    "sourceAnchors": true,
+    "factInferenceSeparated": true,
+    "noNetworkSupplement": true
+  },
+  "sourceRanges": [
+    {
+      "documentId": "text00203",
+      "href": "OEBPS/text00203.html",
+      "heading": "",
+      "paragraphs": 0,
+      "readRange": "empty_document",
+      "status": "read_complete",
+      "sourceDocumentSha256": "bd693af97a18962c0a78a3e4b4ccdebddc1d87264940c74fd7b794dd48d51c83"
+    },
+    {
+      "documentId": "text00204",
+      "href": "OEBPS/text00204.html",
+      "heading": "版权信息",
+      "paragraphs": 7,
+      "readRange": "p0001-p0007",
+      "status": "read_complete",
+      "sourceDocumentSha256": "f869fd6b8b9e54226d18d831ad8e7984dcd94dfc1cd09b833a678d62db1263ae"
+    },
+    {
+      "documentId": "text00205",
+      "href": "OEBPS/text00205.html",
+      "heading": "穿越黑暗之门",
+      "paragraphs": 36,
+      "readRange": "p0001-p0036",
+      "status": "read_complete",
+      "sourceDocumentSha256": "bebf399439ca05545d214b84969b13f0f269623e3533d2fa12ec2f0af2fa19fa"
+    },
+    {
+      "documentId": "text00206",
+      "href": "OEBPS/text00206.html",
+      "heading": "致我的家人和朋友，尤其是我可爱的妻子，",
+      "paragraphs": 5,
+      "readRange": "p0001-p0005",
+      "status": "read_complete",
+      "sourceDocumentSha256": "683408e972f462885cab8ab0e1de3c4410c7883b7ece56811a62b72ca1040db7"
+    },
+    {
+      "documentId": "text00207",
+      "href": "OEBPS/text00207.html",
+      "heading": "导读",
+      "paragraphs": 6,
+      "readRange": "p0001-p0006",
+      "status": "read_complete",
+      "sourceDocumentSha256": "1bdc9a8528919a4dae9ffad3831bf9505f7c91afc54040d0e27aee445967a1bb"
+    },
+    {
+      "documentId": "text00208",
+      "href": "OEBPS/text00208.html",
+      "heading": "序章",
+      "paragraphs": 45,
+      "readRange": "p0001-p0045",
+      "status": "read_complete",
+      "sourceDocumentSha256": "e72c2bfad7551559265b944eec4877a9c8d8e23780987c3a6c6258079e757b30"
+    },
+    {
+      "documentId": "text00209",
+      "href": "OEBPS/text00209.html",
+      "heading": "第一章",
+      "paragraphs": 37,
+      "readRange": "p0001-p0037",
+      "status": "read_complete",
+      "sourceDocumentSha256": "410715a5e65b3340d156543fe51bc29ab94e8e3f749cd14ccf58b078a5f9fb9f"
+    },
+    {
+      "documentId": "text00210",
+      "href": "OEBPS/text00210.html",
+      "heading": "第二章",
+      "paragraphs": 64,
+      "readRange": "p0001-p0064",
+      "status": "read_complete",
+      "sourceDocumentSha256": "b536fa463f7343b66fad928f10932feed535f771af35e1e5a76e3a9698bb38e1"
+    },
+    {
+      "documentId": "text00211",
+      "href": "OEBPS/text00211.html",
+      "heading": "第三章",
+      "paragraphs": 49,
+      "readRange": "p0001-p0049",
+      "status": "read_complete",
+      "sourceDocumentSha256": "265b9b2ad983cdff872b01ffff34d3c58ad2be36cf70769676e5a5c08754ba04"
+    },
+    {
+      "documentId": "text00212",
+      "href": "OEBPS/text00212.html",
+      "heading": "第四章",
+      "paragraphs": 46,
+      "readRange": "p0001-p0046",
+      "status": "read_complete",
+      "sourceDocumentSha256": "8069455d5574261108d6cc28332f18da18787fbd2dd50c6785d3dd9eca8467ce"
+    },
+    {
+      "documentId": "text00213",
+      "href": "OEBPS/text00213.html",
+      "heading": "第五章",
+      "paragraphs": 140,
+      "readRange": "p0001-p0140",
+      "status": "read_complete",
+      "sourceDocumentSha256": "3774ec5353bdcc59444248a167a5073a3bac7c29e07d16d7bdc75df13db8d03a"
+    },
+    {
+      "documentId": "text00214",
+      "href": "OEBPS/text00214.html",
+      "heading": "第六章",
+      "paragraphs": 70,
+      "readRange": "p0001-p0070",
+      "status": "read_complete",
+      "sourceDocumentSha256": "89afee92d54e492ae2461765b2fc4a2fe712e9d64706d532988cabbcc880030a"
+    },
+    {
+      "documentId": "text00215",
+      "href": "OEBPS/text00215.html",
+      "heading": "第七章",
+      "paragraphs": 80,
+      "readRange": "p0001-p0080",
+      "status": "read_complete",
+      "sourceDocumentSha256": "a2ce4790692a0f1d9759f86fc38fba5b0d78e3007fbf12795315657da1abada9"
+    },
+    {
+      "documentId": "text00216",
+      "href": "OEBPS/text00216.html",
+      "heading": "第八章",
+      "paragraphs": 84,
+      "readRange": "p0001-p0084",
+      "status": "read_complete",
+      "sourceDocumentSha256": "fc11f4935e66e1dd41b2cbda01bf2fc639e674458c214ce79841e8a584de9290"
+    },
+    {
+      "documentId": "text00217",
+      "href": "OEBPS/text00217.html",
+      "heading": "第九章",
+      "paragraphs": 101,
+      "readRange": "p0001-p0101",
+      "status": "read_complete",
+      "sourceDocumentSha256": "e65cbf36af51eee7a14b37bd163691b76d7cb213760170179eccaa1f15473814"
+    },
+    {
+      "documentId": "text00218",
+      "href": "OEBPS/text00218.html",
+      "heading": "第十章",
+      "paragraphs": 99,
+      "readRange": "p0001-p0099",
+      "status": "read_complete",
+      "sourceDocumentSha256": "88fa01adfd06f2eba9c5ddbe456240081bff6b5157a5d3d64e39b452c64013dd"
+    },
+    {
+      "documentId": "text00219",
+      "href": "OEBPS/text00219.html",
+      "heading": "第十一章",
+      "paragraphs": 51,
+      "readRange": "p0001-p0051",
+      "status": "read_complete",
+      "sourceDocumentSha256": "2902a361cc98bb0baa163d62c37119b43f7aca17aad4e25d71ca63e3295cf459"
+    },
+    {
+      "documentId": "text00220",
+      "href": "OEBPS/text00220.html",
+      "heading": "第十二章",
+      "paragraphs": 75,
+      "readRange": "p0001-p0075",
+      "status": "read_complete",
+      "sourceDocumentSha256": "1e2ac462ff4cc9a50afac8aa96a5c5909f8ce877846c4769c2fa1ed06e91c2d0"
+    },
+    {
+      "documentId": "text00221",
+      "href": "OEBPS/text00221.html",
+      "heading": "第十三章",
+      "paragraphs": 102,
+      "readRange": "p0001-p0102",
+      "status": "read_complete",
+      "sourceDocumentSha256": "fe2d5b8c4c4c4e420dba5103650686bce815a071e9da6338f49a731e9f0c6ff4"
+    },
+    {
+      "documentId": "text00222",
+      "href": "OEBPS/text00222.html",
+      "heading": "第十四章",
+      "paragraphs": 119,
+      "readRange": "p0001-p0119",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c84dfab56679c74dda668223b57c5d3ab63edc8b621aa0d4a391b1ab32fdc348"
+    },
+    {
+      "documentId": "text00223",
+      "href": "OEBPS/text00223.html",
+      "heading": "第十五章",
+      "paragraphs": 39,
+      "readRange": "p0001-p0039",
+      "status": "read_complete",
+      "sourceDocumentSha256": "6c1a614944855098cbc59e1045c453a7c79b125044cd952385e997f540f26009"
+    },
+    {
+      "documentId": "text00224",
+      "href": "OEBPS/text00224.html",
+      "heading": "第十六章",
+      "paragraphs": 86,
+      "readRange": "p0001-p0086",
+      "status": "read_complete",
+      "sourceDocumentSha256": "42de50fece94b7dacb61ef42ac0d054bdaea6bc2abbb0616be66b3caff1f634c"
+    },
+    {
+      "documentId": "text00225",
+      "href": "OEBPS/text00225.html",
+      "heading": "第十七章",
+      "paragraphs": 46,
+      "readRange": "p0001-p0046",
+      "status": "read_complete",
+      "sourceDocumentSha256": "d060231f13bc418cd4b796f39fe37f34520b1ff1ae597e6186991228f6d957ac"
+    },
+    {
+      "documentId": "text00226",
+      "href": "OEBPS/text00226.html",
+      "heading": "第十八章",
+      "paragraphs": 88,
+      "readRange": "p0001-p0088",
+      "status": "read_complete",
+      "sourceDocumentSha256": "291fe596684b1b6add3464490f65c00f989ecaa3c6b626c4427cdcadc51bb333"
+    },
+    {
+      "documentId": "text00227",
+      "href": "OEBPS/text00227.html",
+      "heading": "第十九章",
+      "paragraphs": 109,
+      "readRange": "p0001-p0109",
+      "status": "read_complete",
+      "sourceDocumentSha256": "682b9aba66b5f793990c51b4f435c74475107aeb5f94f0fcade926d4a2d0902b"
+    },
+    {
+      "documentId": "text00228",
+      "href": "OEBPS/text00228.html",
+      "heading": "第二十章",
+      "paragraphs": 91,
+      "readRange": "p0001-p0091",
+      "status": "read_complete",
+      "sourceDocumentSha256": "23d11a09b1fda896182ffbf4fc4b62adeeec8cd83ec90c446ce8276176538111"
+    },
+    {
+      "documentId": "text00229",
+      "href": "OEBPS/text00229.html",
+      "heading": "第二十一章",
+      "paragraphs": 123,
+      "readRange": "p0001-p0123",
+      "status": "read_complete",
+      "sourceDocumentSha256": "af253d6a48bcb04ae4664d3bdb99734e03c470653b35d59c161ff4449658ba47"
+    },
+    {
+      "documentId": "text00230",
+      "href": "OEBPS/text00230.html",
+      "heading": "第二十二章",
+      "paragraphs": 133,
+      "readRange": "p0001-p0133",
+      "status": "read_complete",
+      "sourceDocumentSha256": "ee58afd8d5627674ca557980d3b2ffc6ecccd312a21bb6aaab4afa6c21d83f1b"
+    },
+    {
+      "documentId": "text00231",
+      "href": "OEBPS/text00231.html",
+      "heading": "第二十三章",
+      "paragraphs": 36,
+      "readRange": "p0001-p0036",
+      "status": "read_complete",
+      "sourceDocumentSha256": "b52efaf731540aa23e0a81867d454109c3c2f1ba5099eb0baf75a3fad819f412"
+    },
+    {
+      "documentId": "text00232",
+      "href": "OEBPS/text00232.html",
+      "heading": "第二十四章",
+      "paragraphs": 72,
+      "readRange": "p0001-p0072",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c2f39c038661755c8d3d633cacaa20971e856f5ef3ff0c6d2fba74d74792d104"
+    },
+    {
+      "documentId": "text00233",
+      "href": "OEBPS/text00233.html",
+      "heading": "第二十五章",
+      "paragraphs": 30,
+      "readRange": "p0001-p0030",
+      "status": "read_complete",
+      "sourceDocumentSha256": "2e35ea76c35acccc283b6bd22c68a11e9a75cc1fe295f96a8eb37b77596fe0af"
+    },
+    {
+      "documentId": "text00234",
+      "href": "OEBPS/text00234.html",
+      "heading": "第二十六章",
+      "paragraphs": 93,
+      "readRange": "p0001-p0093",
+      "status": "read_complete",
+      "sourceDocumentSha256": "ff9963f5c16156428214f123917b32282e7f099ad5e5bd25ed498911eac04279"
+    },
+    {
+      "documentId": "text00235",
+      "href": "OEBPS/text00235.html",
+      "heading": "第二十七章",
+      "paragraphs": 74,
+      "readRange": "p0001-p0074",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c2b2017efa3caea0fb3e67b82c1618e8ceebc981ce1bd2a1e66cd0bcd11a36dc"
+    },
+    {
+      "documentId": "text00236",
+      "href": "OEBPS/text00236.html",
+      "heading": "第二十八章",
+      "paragraphs": 16,
+      "readRange": "p0001-p0016",
+      "status": "read_complete",
+      "sourceDocumentSha256": "6ca740a2648568a4eb24ad49aad5bdf4175aa9630425ded9b6690b18c23fb879"
+    },
+    {
+      "documentId": "text00237",
+      "href": "OEBPS/text00237.html",
+      "heading": "尾声",
+      "paragraphs": 25,
+      "readRange": "p0001-p0025",
+      "status": "read_complete",
+      "sourceDocumentSha256": "cbd952ceacb4d67421ed2bda8abe152d0f3af788b0f3c4d48aa6ff77a58176e2"
+    },
+    {
+      "documentId": "text00238",
+      "href": "OEBPS/text00238.html",
+      "heading": "关于作者",
+      "paragraphs": 3,
+      "readRange": "p0001-p0003",
+      "status": "read_complete",
+      "sourceDocumentSha256": "64a493bc046d5f56876ec848a005e395c26420aeec01aa124fcdc025141665ca"
+    }
+  ],
+  "nextResponsibleRole": "integrator",
+  "notes": [
+    "建议按卡德加守门责任及代价整合，勿跳过酷刑/毁蛋决策。",
+    "瓦里安本书只提供重建时期证据；其他A人物缺失不可补写。"
+  ],
+  "readButUnrecorded": [],
+  "resumeAt": null
+}

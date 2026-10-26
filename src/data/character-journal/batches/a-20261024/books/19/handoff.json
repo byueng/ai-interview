@@ -1,0 +1,40 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-19",
+  "sourceChunkId": "book-19",
+  "role": "researcher",
+  "status": "completed",
+  "inputVersions": {
+    "protocol": "researcher-instructions.txt",
+    "manifest": "manifest.json",
+    "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+    "evidenceOutputVersion": 6
+  },
+  "artifacts": [
+    "books/19/evidence.json",
+    "books/19/reading-progress.json"
+  ],
+  "checks": {
+    "wholeBookRead": true,
+    "paragraphCoverageComplete": true,
+    "subtitleChecked": true,
+    "factInferenceSeparated": true,
+    "noNetworkSupplement": true,
+    "originalEpubSha256Verified": true
+  },
+  "nextResponsibleRole": "integrator",
+  "resumeAt": null,
+  "readButUnrecorded": [],
+  "notes": [
+    "全书33个文档按顺序完整阅读，含空封面、版权、目录、献词、27章、尾声、致谢；无网络补充。",
+    "主任务萨尔；其他人物证据供A批复用。manifest.readStatus原始提取标记未改，实际阅读以本handoff、reading-progress与evidence.coverage为准。",
+    "44条事实、2条推断；事实内明确人物观点、估计、幻象与预言，不视作无条件客观结论。",
+    "策划仍待用户审阅；本槽位未写正文、配图或人物策划。"
+  ],
+  "reviewFindings": [
+    "萨尔不是再次成为守护巨龙，也不是此书结束重任大酋长。",
+    "主动选择修复世界不是土灵之环禁止其离开；救城不是支持加尔鲁什，也未恢复与吉安娜的友谊。",
+    "萨尔与卡雷共同帮助吉安娜止住海啸，不写成萨尔单挑压服她或独自解除神器。",
+    "保留第9章对安东尼达斯告别回忆与12号书待对照的来源差异。"
+  ]
+}

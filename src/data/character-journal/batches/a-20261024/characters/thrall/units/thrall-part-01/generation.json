@@ -1,0 +1,20 @@
+{
+  "unitId": "thrall-part-01",
+  "method": "built_in_image_gen",
+  "operation": "edit",
+  "prompt": "Edit this existing stained-glass image. Preserve the young green orc Thrall's exact face, pose, paper letter, open book, glass panes and lead-line style. Correct ONLY time and lighting: the source scene is at NIGHT in a dim prison cell, lit by a small warm lamp. Replace daylight beyond the window with very dark blue night, no sun or golden sky. Add a subtle small lamp glow off-frame or a modest oil lamp near the table; keep papers softly readable by lamplight, glass material strong across all faces and surroundings. Straw visible near floor if within frame. No text or watermark. Preserve quiet moved expression.",
+  "currentArtDirection": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 先被当作一个人. Young adult Thrall, green-skinned orc, blue eyes, long black hair, no beard, small tusks, seated privately reading Taretha's letter concealed in an open book at Durnholde. Focus on his large careful hands, the folded letter and moved attentive face. Plain undecorated cloth shirt, modest stone interior in dim warm lamplight at night, straw visible on the floor, NO daylight. Taretha is NOT physically present. No shackles added, no armor, no Doomhammer. Paper contains abstract non-readable marks, no letters. Quiet warmth and recognition of his humanity within captivity.",
+  "subtitle": {
+    "text": "先被当作一个人",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "pending"
+  },
+  "sourceOutput": "C:\\Users\\76353\\.codex\\generated_images\\01a169ce-f6d8-7743-baae-e8d14ce0464b\\exec-1076a30b-09a7-4f7b-9a8f-98d2ea837263.png",
+  "finalPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\01-stained-glass.png",
+  "finalSha256": "614fd1fa1e65338f56fd8199090302b91af257f5f20584475dc6eff8cdd6d41c",
+  "storySha256": "d2704f197f8e057d3511cc1490e9eabb9bc4d6eace9169a4975b8859cf0ed944",
+  "status": "generated_visual_review_passed",
+  "editInput": "images/01-stained-glass-superseded-v1.png"
+}

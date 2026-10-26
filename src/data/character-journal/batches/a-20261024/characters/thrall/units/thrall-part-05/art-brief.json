@@ -1,0 +1,41 @@
+{
+  "unitId": "thrall-part-05",
+  "subtitle": {
+    "text": "在偏见、查证与强制之间",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "storySha256": "f5a937cfda08685b11a75a99c63107458cf2a5d0e4035333b1a8aaad187f1dcf",
+  "artScene": {
+    "scene": "北方城堡战场萨尔公开命部队停战、撤退；表现命令之后战士停止厮杀的单一场景。",
+    "sourceRefs": [
+      "13/text00360:p0007-p0026",
+      "13/text00360:p0039-p0046"
+    ],
+    "clothingAndWeapons": "此时仍是大酋长，禁止后期棕袍、凯恩治愈碎片。源证据确认地震、风暴、巨浪与飞艇到场，不确认该瞬间具体盔甲纹样或持锤姿势；不添加挥锤斩杀画面，服装细部需定点核实或低细节处理。",
+    "mood": "强力中保持克制，战斗已造成伤亡后的肃穆；不是庆功。",
+    "visualLimits": [
+      "不得把止战画成避免了全部流血",
+      "不同时拼入处决伯克斯和私下会谈",
+      "无血腥特写"
+    ],
+    "medium": "一张完整的中世纪彩绘玻璃作品；铅条分隔玻璃色块，不是普通绘画叠加窗框",
+    "imageMode": "chapter_scene",
+    "subtitle": {
+      "text": "在偏见、查证与强制之间",
+      "origin": "editorial",
+      "sourceRef": null,
+      "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+      "reviewStatus": "pending"
+    },
+    "embeddedText": false,
+    "status": "scene_proposal_for_art_director_not_generated"
+  },
+  "style": "中世纪彩绘玻璃；面孔、人物和全环境均为玻璃铅条；无嵌入文字",
+  "sourceUncertainty": "未被原文限定的衣纹、色样、取景与布景属艺术处理，不作为史实",
+  "status": "approved_for_generation",
+  "prompt": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 在偏见、查证与强制之间. Single moment at Northwatch battlefield after Thrall arrives to command his forces to stop fighting: green orc chief Thrall with blue eyes and black braids stands firmly with the square-headed Doomhammer raised overhead as he declares his command, not striking anyone; weary orc and human soldiers in the background lower weapons, remain separate and wary. Understated dark armor with no invented ornate heraldry, no post-Cataclysm shaman robe. Distant stone fort and coastal ground, dark grey storm clouds, wet sand after the great wave receded, an orc zeppelin and its rope ladder distant overhead, not a glorious victory. Battle has already had consequences, show exhaustion and dropped shields but no gore. No execution, no treaty scene, no magical demon looming overhead. Moral seriousness, restraint backed by power.",
+  "targetedVerification": "已定点核对原文场景位置、时段及动作，提示词优先于初始scene提案中的宽泛布景。"
+}

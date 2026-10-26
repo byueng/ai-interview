@@ -1,0 +1,351 @@
+{
+  "bookId": "20",
+  "title": "沃金：部落的暗影",
+  "sourcePath": "E:\\魔兽官方小说\\20 沃金：部落的暗影.epub",
+  "sourceSha256": "a3c3af3d45ec43ddc908277d327689af22536a749a7a236f930eb3640af436fd",
+  "documents": [
+    {
+      "documentId": "text00581",
+      "href": "OEBPS/text00581.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00581.txt",
+      "sha256": "b0d7d4e05881672f743c2da4bc933445461c89e4dd3b31ed0c845213eb6747c7"
+    },
+    {
+      "documentId": "text00582",
+      "href": "OEBPS/text00582.html",
+      "paragraphs": 7,
+      "characters": 217,
+      "heading": "版权信息",
+      "path": "source/text00582.txt",
+      "sha256": "ae4d5561e950d5d389ff6cd3a48f08f4e3432b71713151d32e341a07f1c6922b"
+    },
+    {
+      "documentId": "text00583",
+      "href": "OEBPS/text00583.html",
+      "paragraphs": 38,
+      "characters": 1166,
+      "heading": "沃金：部落的暗影",
+      "path": "source/text00583.txt",
+      "sha256": "61bfa4718081ea99b23681e563cdb94928789a016550a07c9f6fbe238639ac4b"
+    },
+    {
+      "documentId": "text00584",
+      "href": "OEBPS/text00584.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00584.txt",
+      "sha256": "26f081d0468777f855fd84dd4c3228dc19996a33987974470db63dca79229264"
+    },
+    {
+      "documentId": "text00585",
+      "href": "OEBPS/text00585.html",
+      "paragraphs": 78,
+      "characters": 7178,
+      "heading": "➣ 第一章　酿酒坊",
+      "path": "source/text00585.txt",
+      "sha256": "ace3004f5e9226c141cae9c7c165cde56fa0d04f0d3ca2b86fde972542267fce"
+    },
+    {
+      "documentId": "text00586",
+      "href": "OEBPS/text00586.html",
+      "paragraphs": 87,
+      "characters": 9014,
+      "heading": "➣ 第二章　父亲与旅途",
+      "path": "source/text00586.txt",
+      "sha256": "3e717b84202c32741b18832fe00a76d3c1419c04eacc6b6d2fdf31f6a250878a"
+    },
+    {
+      "documentId": "text00587",
+      "href": "OEBPS/text00587.html",
+      "paragraphs": 62,
+      "characters": 6024,
+      "heading": "➣ 第三章　平衡的奥义",
+      "path": "source/text00587.txt",
+      "sha256": "ab1b6202ee6f6b95705c6de04d3a5cea45c16194d5d44808202bbc9add7077de"
+    },
+    {
+      "documentId": "text00588",
+      "href": "OEBPS/text00588.html",
+      "paragraphs": 65,
+      "characters": 6682,
+      "heading": "➣ 第四章　影踪禅院",
+      "path": "source/text00588.txt",
+      "sha256": "eb18dcdf5a301c1fa49fe60210a3c2a1b6eef7be4dbcb18570eac396bbbe3685"
+    },
+    {
+      "documentId": "text00589",
+      "href": "OEBPS/text00589.html",
+      "paragraphs": 58,
+      "characters": 6196,
+      "heading": "➣ 第五章　机会棋",
+      "path": "source/text00589.txt",
+      "sha256": "8468ba9876717dc2d82ea24b49180a7b991443746127c4032d8286435e48c9b2"
+    },
+    {
+      "documentId": "text00590",
+      "href": "OEBPS/text00590.html",
+      "paragraphs": 52,
+      "characters": 5983,
+      "heading": "➣ 第六章　教学与训练",
+      "path": "source/text00590.txt",
+      "sha256": "935a35f419e1dc5a76943898c666aa1f250a584a7c310350a785169ecff8faba"
+    },
+    {
+      "documentId": "text00591",
+      "href": "OEBPS/text00591.html",
+      "paragraphs": 66,
+      "characters": 6808,
+      "heading": "➣ 第七章　风雪侵袭",
+      "path": "source/text00591.txt",
+      "sha256": "367a49d1062976c0afe5407323b05230f544fb1ef0a4270765644601a33209b3"
+    },
+    {
+      "documentId": "text00592",
+      "href": "OEBPS/text00592.html",
+      "paragraphs": 79,
+      "characters": 6870,
+      "heading": "➣ 第八章　画卷里的家乡",
+      "path": "source/text00592.txt",
+      "sha256": "a2c24a0139eaaeee049136a2f0efb4af59e07cfe6acf9e5147be4f9064fb34d6"
+    },
+    {
+      "documentId": "text00593",
+      "href": "OEBPS/text00593.html",
+      "paragraphs": 88,
+      "characters": 6690,
+      "heading": "➣ 第九章　断掉的记忆链",
+      "path": "source/text00593.txt",
+      "sha256": "363107a2d66e4e988bb71a0b099d78a93dd17d704815ac950edb418bfafba151"
+    },
+    {
+      "documentId": "text00594",
+      "href": "OEBPS/text00594.html",
+      "paragraphs": 62,
+      "characters": 6200,
+      "heading": "➣ 第十章　赞达拉的火焰",
+      "path": "source/text00594.txt",
+      "sha256": "2b92d3448b46aae8f98c2060c69d3e8926a0b615a4afb7a8c6465fe37a92345b"
+    },
+    {
+      "documentId": "text00595",
+      "href": "OEBPS/text00595.html",
+      "paragraphs": 59,
+      "characters": 6631,
+      "heading": "➣ 第十一章　雅丽亚",
+      "path": "source/text00595.txt",
+      "sha256": "e36033a0a7fbc67eb469ede78a008173929f4bd0b2e6018175c8ae0daf8e4b76"
+    },
+    {
+      "documentId": "text00596",
+      "href": "OEBPS/text00596.html",
+      "paragraphs": 74,
+      "characters": 6594,
+      "heading": "➣ 第十二章　巨魔的生活哲学",
+      "path": "source/text00596.txt",
+      "sha256": "921d49906e4d45dd1b2f5ab679cb816e8d82db37e2c96f149fd620677fff54e5"
+    },
+    {
+      "documentId": "text00597",
+      "href": "OEBPS/text00597.html",
+      "paragraphs": 59,
+      "characters": 6031,
+      "heading": "➣ 第十三章　战前准备",
+      "path": "source/text00597.txt",
+      "sha256": "a0adf3e3503be0812a73d29dee4d3c6f07ca406024ddd5e79be4017de3fef15f"
+    },
+    {
+      "documentId": "text00598",
+      "href": "OEBPS/text00598.html",
+      "paragraphs": 98,
+      "characters": 8413,
+      "heading": "➣ 第十四章　真正的猎手",
+      "path": "source/text00598.txt",
+      "sha256": "c80b95f5f295f6bf84a468c32aeb2ea027a799b375e9ea826bc00490b6012e95"
+    },
+    {
+      "documentId": "text00599",
+      "href": "OEBPS/text00599.html",
+      "paragraphs": 73,
+      "characters": 6500,
+      "heading": "➣ 第十五章　为信仰而战",
+      "path": "source/text00599.txt",
+      "sha256": "8cf84194c1f274bf2ea43cac161ae19c54996660c6f0de4ccd361b2ac8f97f59"
+    },
+    {
+      "documentId": "text00600",
+      "href": "OEBPS/text00600.html",
+      "paragraphs": 77,
+      "characters": 6669,
+      "heading": "➣ 第十六章　精妙计划",
+      "path": "source/text00600.txt",
+      "sha256": "89b6c6e19d04f8ccae8f11d0073626b8e768480f272b68e3ba5fa0a059a06a96"
+    },
+    {
+      "documentId": "text00601",
+      "href": "OEBPS/text00601.html",
+      "paragraphs": 73,
+      "characters": 6125,
+      "heading": "➣ 第十七章　领袖之路",
+      "path": "source/text00601.txt",
+      "sha256": "5879252657733ead146916c31cd68b2ae882975e07398127279d2d15495fdb14"
+    },
+    {
+      "documentId": "text00602",
+      "href": "OEBPS/text00602.html",
+      "paragraphs": 67,
+      "characters": 6226,
+      "heading": "➣ 第十八章　关键的日志",
+      "path": "source/text00602.txt",
+      "sha256": "81c5df2bd7f7dad8206a7bfd494f683258a395be983da8864750b0025c72a8a0"
+    },
+    {
+      "documentId": "text00603",
+      "href": "OEBPS/text00603.html",
+      "paragraphs": 54,
+      "characters": 5925,
+      "heading": "➣ 第十九章　雷电之王",
+      "path": "source/text00603.txt",
+      "sha256": "cee54e27b991f61db3bc05bcf6194bc212b86c803d5fee228e98b9c5ef128a2d"
+    },
+    {
+      "documentId": "text00604",
+      "href": "OEBPS/text00604.html",
+      "paragraphs": 74,
+      "characters": 6308,
+      "heading": "➣ 第二十章　值得捍卫的土地",
+      "path": "source/text00604.txt",
+      "sha256": "dbbd92eeeb62024546091376943571ce973aed55ef151201e2793f4dad4367f2"
+    },
+    {
+      "documentId": "text00605",
+      "href": "OEBPS/text00605.html",
+      "paragraphs": 65,
+      "characters": 6094,
+      "heading": "➣ 第二十一章　七名武僧",
+      "path": "source/text00605.txt",
+      "sha256": "6ad69f3a78e6b056f53e652c870fa05d8dfd56ea38d38e2602558e454e759182"
+    },
+    {
+      "documentId": "text00606",
+      "href": "OEBPS/text00606.html",
+      "paragraphs": 99,
+      "characters": 8974,
+      "heading": "➣ 第二十二章　对战",
+      "path": "source/text00606.txt",
+      "sha256": "91498eb6db6da16717c59960684e1c8d589e6ea296621ea375c2143550f19f0d"
+    },
+    {
+      "documentId": "text00607",
+      "href": "OEBPS/text00607.html",
+      "paragraphs": 60,
+      "characters": 6627,
+      "heading": "➣ 第二十三章　座上之宾",
+      "path": "source/text00607.txt",
+      "sha256": "2fdb4a132c126efbdf36fda2d1513065de9ba35dc04ad7dcdb7ba1699310102c"
+    },
+    {
+      "documentId": "text00608",
+      "href": "OEBPS/text00608.html",
+      "paragraphs": 63,
+      "characters": 6420,
+      "heading": "➣ 第二十四章　祭品",
+      "path": "source/text00608.txt",
+      "sha256": "a076a9a363a61eec08a897679a8b8d5e0c4a3fe17f3e22d9d744249bd162e927"
+    },
+    {
+      "documentId": "text00609",
+      "href": "OEBPS/text00609.html",
+      "paragraphs": 65,
+      "characters": 6817,
+      "heading": "➣ 第二十五章　黄金镣铐",
+      "path": "source/text00609.txt",
+      "sha256": "ba92fcc69167e1fcf8fbfcb3b56f7fd0f2fdd388f484db0ea283ca08c35ab443"
+    },
+    {
+      "documentId": "text00610",
+      "href": "OEBPS/text00610.html",
+      "paragraphs": 64,
+      "characters": 6411,
+      "heading": "➣ 第二十六章　帝国的残片",
+      "path": "source/text00610.txt",
+      "sha256": "f2e0eed6eed4eed6e60663158e27e1994713f93b2e8d914dbd6973c510e6038e"
+    },
+    {
+      "documentId": "text00611",
+      "href": "OEBPS/text00611.html",
+      "paragraphs": 78,
+      "characters": 7502,
+      "heading": "➣ 第二十七章　一支利剑",
+      "path": "source/text00611.txt",
+      "sha256": "e4325ffe5a7e13d7a0e3fed344a047607fedcda9fbcf5629be946a1982c99e09"
+    },
+    {
+      "documentId": "text00612",
+      "href": "OEBPS/text00612.html",
+      "paragraphs": 77,
+      "characters": 6773,
+      "heading": "➣ 第二十八章　逃回禅院",
+      "path": "source/text00612.txt",
+      "sha256": "40f9971b83b419b82680a1d6c2b0d7a3d02b931da849fe23998f8cb7d405a848"
+    },
+    {
+      "documentId": "text00613",
+      "href": "OEBPS/text00613.html",
+      "paragraphs": 45,
+      "characters": 5012,
+      "heading": "➣ 第二十九章　猎手的英雄色彩",
+      "path": "source/text00613.txt",
+      "sha256": "e1b6c2cf87dfa560485cf3322cb31e59fe771f1ad0c5e24ba929603e6d40346e"
+    },
+    {
+      "documentId": "text00614",
+      "href": "OEBPS/text00614.html",
+      "paragraphs": 63,
+      "characters": 5677,
+      "heading": "➣ 第三十章　幸福蓝图",
+      "path": "source/text00614.txt",
+      "sha256": "bc5fd693b8f9a67e180704ac0ec23a92abfb529c451fa15b096a7a0dadca0908"
+    },
+    {
+      "documentId": "text00615",
+      "href": "OEBPS/text00615.html",
+      "paragraphs": 51,
+      "characters": 5964,
+      "heading": "➣ 第三十一章　光荣传统",
+      "path": "source/text00615.txt",
+      "sha256": "4e22bd76c648449b9d1484a87e0aa5582f92e6b5a570635ae88e022bb549bc01"
+    },
+    {
+      "documentId": "text00616",
+      "href": "OEBPS/text00616.html",
+      "paragraphs": 47,
+      "characters": 4919,
+      "heading": "➣ 第三十二章　激战爆发",
+      "path": "source/text00616.txt",
+      "sha256": "78025e3ff6b936ff54cb031518f2a67f252ebc1db16e1fe533c46300f649864a"
+    },
+    {
+      "documentId": "text00617",
+      "href": "OEBPS/text00617.html",
+      "paragraphs": 53,
+      "characters": 5910,
+      "heading": "➣ 第三十三章　冲入敌阵",
+      "path": "source/text00617.txt",
+      "sha256": "a249ffff44d74329b6992ac88a9be0c0fe1424fb74deb24568f3b2ae07ed4011"
+    },
+    {
+      "documentId": "text00618",
+      "href": "OEBPS/text00618.html",
+      "paragraphs": 97,
+      "characters": 7403,
+      "heading": "➣ 第三十四章　和平至上",
+      "path": "source/text00618.txt",
+      "sha256": "a1683ed5060d16d9c9c2771e46018fc42213bf2991f6aa77c34a99fd5ab4d786"
+    }
+  ],
+  "readStatus": "pending"
+}

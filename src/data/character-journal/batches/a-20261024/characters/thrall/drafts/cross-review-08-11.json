@@ -1,0 +1,291 @@
+{
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "role": "cross_section_text_reviewer",
+  "scopeId": "thrall-parts-08-11",
+  "status": "passed",
+  "method": "完整阅读四篇成稿，对照策划、整合边界以及18/19/21相关共享证据；未重读小说。",
+  "inputHashes": {
+    "publication-plan.json": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+    "integration.json": "278e0f6b566748d5478dcfa756ad63819a7e0f55b28a4e21babc3c5ab03b0f30"
+  },
+  "units": [
+    {
+      "unitId": "thrall-part-08",
+      "path": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\drafts\\08.txt",
+      "sha256": "594bef31b0c0c2804c4aa5710b026a923b1ade1e08a5138821edf4544714ca2c",
+      "status": "passed",
+      "subtitleMatchesPlan": true,
+      "substantiveFindings": [],
+      "checks": [
+        "父母临终是成人重访真实过去，塔蕾莎存活与婴儿夭折明确为异常分支。",
+        "未使父母复活，未把塔蕾莎写作恋人；无需功绩也被爱属于有据评论。",
+        "营地、搜身、橡果、新月项链细节均见18证据。"
+      ],
+      "sourceEventIds": [
+        "thrall-event-21",
+        "thrall-event-22"
+      ],
+      "sourceRanges": [
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00526:p0002-p0104",
+            "text00529:p0002-p0060",
+            "text00530:p0002-p0100"
+          ],
+          "evidenceId": "thrall-event-21",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00532:p0027-p0138",
+            "text00533:p0002-p0088",
+            "text00534:p0002-p0109",
+            "text00535:p0065-p0139"
+          ],
+          "evidenceId": "thrall-event-22",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ]
+    },
+    {
+      "unitId": "thrall-part-09",
+      "path": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\drafts\\09.txt",
+      "sha256": "bda425e0f5111b41972b553a3857ae50e7aa159d224e8a37a310a8885e17df2e",
+      "status": "passed",
+      "subtitleMatchesPlan": true,
+      "substantiveFindings": [],
+      "checks": [
+        "异常布莱克摩尔与敦霍尔德死者明确区分。",
+        "红龙初劝失败、生命幻象及克莉苟萨独立证实按知情顺序呈现。",
+        "萨尔补位不等于第五守护巨龙；卡雷苟斯非由萨尔任命。",
+        "克洛玛图斯封存与后来死亡之翼终战分别叙述；未写本书婚礼。"
+      ],
+      "sourceEventIds": [
+        "thrall-event-23",
+        "thrall-event-24",
+        "thrall-event-25",
+        "thrall-event-26"
+      ],
+      "sourceRanges": [
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00536:p0002-p0079",
+            "text00537:p0002-p0101",
+            "text00538:p0002-p0124",
+            "text00539:p0061-p0144"
+          ],
+          "evidenceId": "thrall-event-23",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00541:p0002-p0083",
+            "text00542:p0002-p0040",
+            "text00543:p0002-p0144",
+            "text00544:p0002-p0086"
+          ],
+          "evidenceId": "thrall-event-24",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "18",
+          "sourceTitle": "萨尔：巨龙的黄昏",
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00545:p0002-p0098",
+            "text00546:p0002-p0105",
+            "text00547:p0002-p0102"
+          ],
+          "evidenceId": "thrall-event-25",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "26",
+          "sourceTitle": "魔兽编年史 卷三",
+          "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+          "sourceType": "chronicle_selected_sections",
+          "refs": [
+            "text00974:p0001-p0019",
+            "text00975:p0001-p0018"
+          ],
+          "evidenceId": "thrall-event-26",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00552:p0003-p0005"
+          ],
+          "evidenceId": "thrall-event-26",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ]
+    },
+    {
+      "unitId": "thrall-part-10",
+      "path": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\drafts\\10.txt",
+      "sha256": "18f063cae65cfea2740ae9407db697d0c701eb4dc1a3e0bf5b4151b4a79b1347",
+      "status": "passed",
+      "subtitleMatchesPlan": true,
+      "substantiveFindings": [],
+      "checks": [
+        "首次请求介入后仍有友情，勇士岛后才断裂；尾段感激及疗愈谈话未写作复交。",
+        "噩耗时误认吉安娜已死、获准自由离开而选择留下，均与19-f025/026相符。",
+        "海啸为警告未成事实；主动撤浪归吉安娜，卡雷共同劝说。",
+        "联盟舰队危险为吉安娜事后得知，未倒灌萨尔知情；没有复任酋长。"
+      ],
+      "sourceEventIds": [
+        "thrall-event-27",
+        "thrall-event-28",
+        "thrall-event-29"
+      ],
+      "sourceRanges": [
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00554:p0013-p0062"
+          ],
+          "evidenceId": "thrall-event-27",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00571:p0002-p0038"
+          ],
+          "evidenceId": "thrall-event-28",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00575:p0042-p0073",
+            "text00576:p0021-p0113"
+          ],
+          "evidenceId": "thrall-event-29",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "19",
+          "sourceTitle": "吉安娜·普罗德摩尔：战争之潮",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00577:p0039-p0044",
+            "text00578:p0082-p0091",
+            "text00579:p0003-p0026"
+          ],
+          "evidenceId": "thrall-event-29",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ]
+    },
+    {
+      "unitId": "thrall-part-11",
+      "path": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\drafts\\11.txt",
+      "sha256": "e0f30c2ab3d1250248d670c80f4efc46169bf5a087c278a76975ef043a88aeef",
+      "status": "passed",
+      "subtitleMatchesPlan": true,
+      "substantiveFindings": [],
+      "checks": [
+        "最初代理、庭审否认后悔与内心自责并列，未代人物裁决免责。",
+        "父辈屠城不因萨尔认为呈现扭曲而被否认。",
+        "毁灭影像为可能未来；奴役萨尔为异常分身，非主世界履历。",
+        "赤精为最终治愈者，握手只给友谊修复空间；沃金仍酋长，止于追捕承诺。"
+      ],
+      "sourceEventIds": [
+        "thrall-event-30",
+        "thrall-event-31",
+        "thrall-event-32"
+      ],
+      "sourceRanges": [
+        {
+          "bookId": "21",
+          "sourceTitle": "战争罪行",
+          "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+          "sourceType": "novel_testimony_or_trial_present",
+          "refs": [
+            "text00624:p0007-p0008",
+            "text00625:p0012-p0013",
+            "text00625:p0053-p0069",
+            "text00630:p0002-p0007",
+            "text00641:p0008-p0094"
+          ],
+          "evidenceId": "thrall-event-30",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "21",
+          "sourceTitle": "战争罪行",
+          "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+          "sourceType": "novel_testimony_or_trial_present",
+          "refs": [
+            "text00630:p0037-p0090",
+            "text00631:p0002-p0067",
+            "text00642:p0065-p0123",
+            "text00643:p0002-p0050"
+          ],
+          "evidenceId": "thrall-event-31",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "21",
+          "sourceTitle": "战争罪行",
+          "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+          "sourceType": "novel_testimony_or_trial_present",
+          "refs": [
+            "text00657:p0002-p0044",
+            "text00658:p0002-p0019",
+            "text00658:p0043-p0062",
+            "text00660:p0008-p0052"
+          ],
+          "evidenceId": "thrall-event-32",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ]
+    }
+  ],
+  "materialFindings": [],
+  "editsMade": false,
+  "crossSectionChecks": [
+    "07卸甲并未终结自疑，08延续合理；09接受名字未使10政治责任自动消失。",
+    "09结尾许诺共同生活，11出现孩子，无虚构婚礼日期或未提供的过渡场景。",
+    "10友情断裂→11拒视→结尾握手，关系变化一致。",
+    "所有人物评论作为叙述解释，没有虚构对白或把异常时间线混成主线。"
+  ],
+  "limitations": [
+    "此校核仅覆盖08—11成稿文本，不等于全套图片或发布验收。",
+    "使用已复核共享证据，未重新独立通读原著；作者评论的措辞保留解释性质。"
+  ],
+  "nextRole": "coordinator"
+}

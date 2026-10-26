@@ -1,0 +1,110 @@
+{
+  "unitId": "thrall-part-11",
+  "kind": "section",
+  "displayOrder": 11,
+  "title": "没有结束的审判",
+  "sourceLabel": "《战争罪行》",
+  "subtitle": {
+    "text": "承认可能的自己，承担未完的选择",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "21",
+      "sourceTitle": "战争罪行",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "sourceType": "novel_testimony_or_trial_present",
+      "refs": [
+        "text00624:p0007-p0008",
+        "text00625:p0012-p0013",
+        "text00625:p0053-p0069",
+        "text00630:p0002-p0007",
+        "text00641:p0008-p0094"
+      ],
+      "evidenceId": "thrall-event-30",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "21",
+      "sourceTitle": "战争罪行",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "sourceType": "novel_testimony_or_trial_present",
+      "refs": [
+        "text00630:p0037-p0090",
+        "text00631:p0002-p0067",
+        "text00642:p0065-p0123",
+        "text00643:p0002-p0050"
+      ],
+      "evidenceId": "thrall-event-31",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "21",
+      "sourceTitle": "战争罪行",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "sourceType": "novel_testimony_or_trial_present",
+      "refs": [
+        "text00657:p0002-p0044",
+        "text00658:p0002-p0019",
+        "text00658:p0043-p0062",
+        "text00660:p0008-p0052"
+      ],
+      "evidenceId": "thrall-event-32",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "反抗暴政的证词桥接、战争罪行庭审、逃亡危机与结尾",
+  "characterChange": "从欲以处决结束威胁，到在父辈过失、自身任命及异时线分身面前接受自我并继续面对后果",
+  "focus": "把公共否认后悔与内心自责并陈；父亲不再只是榜样，自己也非唯一可能。家人、贝恩及吉安娜握手提供开放结尾而非赦免。",
+  "tone": "审视、震动、接纳，保留未竟感",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-30",
+      "event": "21证词回述萨尔听沃金求援后反抗库卡隆；攻城后欲处决加尔鲁什被瓦里安阻止，庭审支持贝恩辩护、抱子承诺未来。",
+      "classification": "integrated_source_facts",
+      "boundary": "仅证词覆盖的起义桥接，不扩写未提供围城全流程；沃金已任大酋长。"
+    },
+    {
+      "evidenceId": "thrall-event-31",
+      "event": "父亲屠城影像与幼童记忆触动萨尔；庭上否认后悔和承担加尔鲁什罪行，却面对凯恩警告及自身负罪重现。他承认凡人犯错须学习，转向认可审判仍知损害不可全补。",
+      "classification": "integrated_source_facts",
+      "boundary": "不能替萨尔宣判无责，也不能把加尔鲁什个人罪责转嫁；影像中的末日未真实发生。"
+    },
+    {
+      "evidenceId": "thrall-event-32",
+      "event": "逃亡危机引入奴役分身，萨尔接受另一种可能、选择古伊尔，与家人团聚；参与救吉安娜但最终赤精施救，握手仅表示修复空间；承诺找回加尔鲁什。",
+      "classification": "integrated_source_facts",
+      "boundary": "截止21结尾；不写追捕后续、德拉诺事件、后续决斗。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-30",
+    "thrall-event-31",
+    "thrall-event-32"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "围城仅取证词已覆盖节点；不写萨尔复位，不扩展德拉诺追捕后续，明确结束于战争罪行。",
+  "independenceReason": "末段回应名字、父辈和责任三条全局线，同时尊重原作尚未解决的追捕和政治后果。",
+  "lengthMode": "standard",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "02556fb765935cdda4ba5e1595ffc4342b0a9fa323efbb095abfaa3789d0f5de"
+}

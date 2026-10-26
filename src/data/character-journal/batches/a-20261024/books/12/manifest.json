@@ -1,0 +1,297 @@
+{
+  "bookId": "12",
+  "title": "迈向冰封王座：阿尔萨斯",
+  "sourcePath": "E:\\魔兽官方小说\\12 迈向冰封王座：阿尔萨斯.epub",
+  "sourceSha256": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+  "documents": [
+    {
+      "documentId": "text00302",
+      "href": "OEBPS/text00302.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00302.txt",
+      "sha256": "06e96f407d79288d230e68402cde93e62ecc8a35628441c28fa611b52b77ab80"
+    },
+    {
+      "documentId": "text00303",
+      "href": "OEBPS/text00303.html",
+      "paragraphs": 7,
+      "characters": 216,
+      "heading": "版权信息",
+      "path": "source/text00303.txt",
+      "sha256": "266fa0f541701832f6b75d926220ce4672f92203a9ea3d92a8d45cb486c7eab6"
+    },
+    {
+      "documentId": "text00304",
+      "href": "OEBPS/text00304.html",
+      "paragraphs": 37,
+      "characters": 906,
+      "heading": "迈向冰封王座：阿尔萨斯",
+      "path": "source/text00304.txt",
+      "sha256": "bab34f11949fef8aab24ed1ca28bb95637abafff157853c4ac20fb44d43ac948"
+    },
+    {
+      "documentId": "text00305",
+      "href": "OEBPS/text00305.html",
+      "paragraphs": 8,
+      "characters": 895,
+      "heading": "➣ 导读",
+      "path": "source/text00305.txt",
+      "sha256": "cab5ed093b2486b433a7663ebf7cf5851d6a887291008bd315a3742acb81a822"
+    },
+    {
+      "documentId": "text00306",
+      "href": "OEBPS/text00306.html",
+      "paragraphs": 35,
+      "characters": 3700,
+      "heading": "➣ 序章：梦",
+      "path": "source/text00306.txt",
+      "sha256": "7e871c0ccabd3ee4bfea4f61e02c5667a3b0c02b19a1ce7f02508f8e48bd2811"
+    },
+    {
+      "documentId": "text00307",
+      "href": "OEBPS/text00307.html",
+      "paragraphs": 96,
+      "characters": 10663,
+      "heading": "➣ 第一部　黄金男孩",
+      "path": "source/text00307.txt",
+      "sha256": "196e8cbd5609f1c4a2f7538ceb05ae0c81c080fc9528c22f4139aa762b852866"
+    },
+    {
+      "documentId": "text00308",
+      "href": "OEBPS/text00308.html",
+      "paragraphs": 90,
+      "characters": 10223,
+      "heading": "第二章",
+      "path": "source/text00308.txt",
+      "sha256": "f45711f5e87a3aef08c0f65e263d68e9b239d7bc293cf158c5c7b58f00991208"
+    },
+    {
+      "documentId": "text00309",
+      "href": "OEBPS/text00309.html",
+      "paragraphs": 112,
+      "characters": 11280,
+      "heading": "第三章",
+      "path": "source/text00309.txt",
+      "sha256": "d5b26418020581d313f1ab80ad09235c45a7af1801f440957a6134138aeaf1f1"
+    },
+    {
+      "documentId": "text00310",
+      "href": "OEBPS/text00310.html",
+      "paragraphs": 93,
+      "characters": 10381,
+      "heading": "第四章",
+      "path": "source/text00310.txt",
+      "sha256": "a0b7ce9b819785ab3389da739fc9bcb06c503418f08ba895787392e312e17432"
+    },
+    {
+      "documentId": "text00311",
+      "href": "OEBPS/text00311.html",
+      "paragraphs": 50,
+      "characters": 6269,
+      "heading": "第五章",
+      "path": "source/text00311.txt",
+      "sha256": "87c89237c9c5cd1568e304b1f15d7ce21d7ac975799dec523e9b8391fe0ed673"
+    },
+    {
+      "documentId": "text00312",
+      "href": "OEBPS/text00312.html",
+      "paragraphs": 21,
+      "characters": 2024,
+      "heading": "➣ 第二部　光明女士",
+      "path": "source/text00312.txt",
+      "sha256": "c0ea3a83bfcfb9a2400131a2b2c619b1fd112963e711983166749cbc9a035392"
+    },
+    {
+      "documentId": "text00313",
+      "href": "OEBPS/text00313.html",
+      "paragraphs": 101,
+      "characters": 12485,
+      "heading": "第六章",
+      "path": "source/text00313.txt",
+      "sha256": "cd463bd675b17fef8fb7ebe0d6c3cfd798ee883bfa549ed50fc315cf1d174b56"
+    },
+    {
+      "documentId": "text00314",
+      "href": "OEBPS/text00314.html",
+      "paragraphs": 74,
+      "characters": 7986,
+      "heading": "第七章",
+      "path": "source/text00314.txt",
+      "sha256": "9b9a5b17d8eb7d91be3f8abe56d7c8e9f8f3940cdc84a401651017abf82f7d26"
+    },
+    {
+      "documentId": "text00315",
+      "href": "OEBPS/text00315.html",
+      "paragraphs": 71,
+      "characters": 6424,
+      "heading": "第八章",
+      "path": "source/text00315.txt",
+      "sha256": "51488fa84de12c25e3f3e7747bebea637091abefc30ee33cebd668f091280100"
+    },
+    {
+      "documentId": "text00316",
+      "href": "OEBPS/text00316.html",
+      "paragraphs": 99,
+      "characters": 9750,
+      "heading": "第九章",
+      "path": "source/text00316.txt",
+      "sha256": "b31a870bde84a5a8473d75c71bf1a9b61ce7c9ef9c8eaea76dd1a4b9f685dc1f"
+    },
+    {
+      "documentId": "text00317",
+      "href": "OEBPS/text00317.html",
+      "paragraphs": 95,
+      "characters": 10067,
+      "heading": "第十章",
+      "path": "source/text00317.txt",
+      "sha256": "10f1c98d31d7d5e6c463fed59dafb65dc155a26b923d2b9d992763815cd42959"
+    },
+    {
+      "documentId": "text00318",
+      "href": "OEBPS/text00318.html",
+      "paragraphs": 160,
+      "characters": 16341,
+      "heading": "第十一章",
+      "path": "source/text00318.txt",
+      "sha256": "b8a886a6861b236c9d48a6fa6fb89d5e6b7bd1d100365e64706a64cb487aa8fd"
+    },
+    {
+      "documentId": "text00319",
+      "href": "OEBPS/text00319.html",
+      "paragraphs": 95,
+      "characters": 9954,
+      "heading": "第十二章",
+      "path": "source/text00319.txt",
+      "sha256": "58d0de7c9f4f50b2aa0c4a11c6892819c2fa77c326abfd0a917e5b0aa3ebf393"
+    },
+    {
+      "documentId": "text00320",
+      "href": "OEBPS/text00320.html",
+      "paragraphs": 67,
+      "characters": 5847,
+      "heading": "第十三章",
+      "path": "source/text00320.txt",
+      "sha256": "7d075debcff3045f3bdb2b3f2982cdb7f6ba56f40205ae02e5ea637309277e07"
+    },
+    {
+      "documentId": "text00321",
+      "href": "OEBPS/text00321.html",
+      "paragraphs": 88,
+      "characters": 10019,
+      "heading": "第十四章",
+      "path": "source/text00321.txt",
+      "sha256": "e4cc432d6810db6061dc60632cd3a7e977252e7a1f733d2b78cb1bcf36248e4b"
+    },
+    {
+      "documentId": "text00322",
+      "href": "OEBPS/text00322.html",
+      "paragraphs": 92,
+      "characters": 10134,
+      "heading": "第十五章",
+      "path": "source/text00322.txt",
+      "sha256": "c06f12c02737ba78be9d80dfbc83e5ca2dbc3da2dc865686a0c416885b1d0225"
+    },
+    {
+      "documentId": "text00323",
+      "href": "OEBPS/text00323.html",
+      "paragraphs": 90,
+      "characters": 8291,
+      "heading": "第十六章",
+      "path": "source/text00323.txt",
+      "sha256": "9563da9f0d591b4548fc138a7954928ce0d87291007db60c61896b37c7d89ee4"
+    },
+    {
+      "documentId": "text00324",
+      "href": "OEBPS/text00324.html",
+      "paragraphs": 30,
+      "characters": 3084,
+      "heading": "➣ 第三部　黑暗女王",
+      "path": "source/text00324.txt",
+      "sha256": "27bd041243ae1dbba496e1ace55a248f3f6006761987a0d45fcf479080d14224"
+    },
+    {
+      "documentId": "text00325",
+      "href": "OEBPS/text00325.html",
+      "paragraphs": 91,
+      "characters": 10231,
+      "heading": "第十七章",
+      "path": "source/text00325.txt",
+      "sha256": "c6965da84c58cce4d5dc9a0a0e5ecbdd92c1bf0d9ca1b101176d0c851f755385"
+    },
+    {
+      "documentId": "text00326",
+      "href": "OEBPS/text00326.html",
+      "paragraphs": 96,
+      "characters": 10805,
+      "heading": "第十八章",
+      "path": "source/text00326.txt",
+      "sha256": "c6b3377aa24787c0b51070f8854ac9c6dea2f391b26891ce5d31e0eb1026e4ff"
+    },
+    {
+      "documentId": "text00327",
+      "href": "OEBPS/text00327.html",
+      "paragraphs": 96,
+      "characters": 11896,
+      "heading": "第十九章",
+      "path": "source/text00327.txt",
+      "sha256": "e92c35893ee5cd8e188ed4058d1dc298c990305e55fe44267c460511c8737a45"
+    },
+    {
+      "documentId": "text00328",
+      "href": "OEBPS/text00328.html",
+      "paragraphs": 130,
+      "characters": 13582,
+      "heading": "第二十章",
+      "path": "source/text00328.txt",
+      "sha256": "11aa6a47b26e50ba3ce7d8369d7cabd0ef8d760be0f108a97c73683be55f0441"
+    },
+    {
+      "documentId": "text00329",
+      "href": "OEBPS/text00329.html",
+      "paragraphs": 83,
+      "characters": 8976,
+      "heading": "第二十一章",
+      "path": "source/text00329.txt",
+      "sha256": "0de68b2dbe52818d2fa79557069c47e1e6a624c6ed3056937a40d72a3c806907"
+    },
+    {
+      "documentId": "text00330",
+      "href": "OEBPS/text00330.html",
+      "paragraphs": 100,
+      "characters": 10927,
+      "heading": "第二十二章",
+      "path": "source/text00330.txt",
+      "sha256": "3b38c247a182d3b4d57db7c97352445f666593c60a3a28acc3c00c47f900393c"
+    },
+    {
+      "documentId": "text00331",
+      "href": "OEBPS/text00331.html",
+      "paragraphs": 62,
+      "characters": 7291,
+      "heading": "第二十三章",
+      "path": "source/text00331.txt",
+      "sha256": "ce4da01d49c7c01297398a11dedbfe6e33842f178bd7e97b3e73bc5723602d1f"
+    },
+    {
+      "documentId": "text00332",
+      "href": "OEBPS/text00332.html",
+      "paragraphs": 127,
+      "characters": 14160,
+      "heading": "第二十四章",
+      "path": "source/text00332.txt",
+      "sha256": "4dc693ac6842aab716ce2eed2af89f8727787fecb3007d3ebed17e71fa8d5455"
+    },
+    {
+      "documentId": "text00333",
+      "href": "OEBPS/text00333.html",
+      "paragraphs": 59,
+      "characters": 5412,
+      "heading": "➣ 尾声巫妖王",
+      "path": "source/text00333.txt",
+      "sha256": "7e0eb349d935779f26d33020f7106b16d13242e9991ec8538acbd46043481f39"
+    }
+  ],
+  "readStatus": "pending"
+}

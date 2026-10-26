@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "integrator",
+  "scopeId": "whole-work",
+  "status": "passed",
+  "sourceVersion": "epub-v1",
+  "sourceSha256": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+  "inputVersions": {
+    "E:\\program\\ai-interview\\src\\workflows\\character-journal\\workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\workflow\\runs\\arthas-20261021-02\\task.json": "77041da6034a2cb2705cf41fcaa6128591ed1f8d23626d211b325d95f8cb852f",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\workflow\\runs\\arthas-20261021-02\\delegations\\integrator.txt": "55bdaf5355e33fe38a922aee62892c5b742e9998edbad5cde66da39e62a8ea5d",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\manifest.json": "b55732a43cb5d77e7163e886b29294fc7f9ae48bae75517411343c77772777b4",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\reading\\early.json": "6dc22dff137d9c6f4307bbe4d13a9f11f6b77308574ebefc0c41c5e3ba23d403",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\reading\\early.md": "02dcf85fb506884d482b7b6baeecbc095fcf9c7bbc204ce9910c220fa84b2a6f",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\reading\\middle.json": "c4b2ee107723e61d59de11df102bb70729ea52a9cb6d78d74646abc439e3cf9c",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\reading\\middle.md": "8e795216aea546cc48c26c8ea72863fd05b4141c758151a9e2184b4990463ca4",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\reading\\late.json": "fc653d36254f7779fc4ae935d3df7de533611d8c1728020dce65c5702471929a",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\reading\\late.md": "942cf40b8415a895aec6745915a8134024f66c97e01dba41651e70a3f32fa1a3",
+    "E:\\魔兽官方小说\\12 迈向冰封王座：阿尔萨斯.epub": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00303.json": "5fd70257d161b3336103fad2918142f85f90497322a9d7706889ad7d64c75bc2",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00304.json": "71c039dbe2bd3df2f2ca37d3fb38538ae507c47ab9d7d14d25cf713d3d4157f4",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00305.json": "af0db7592982c80762b5be4cf72935866b15ab677c2aaa24d1697a6177d5f4ea",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00306.json": "d8416cb7abad64b525a481c00e6b82784952c5b7f57e1b46fe0711054b7e5249",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00307.json": "860c8e22d46f1a4c599191a78607c1d620fe798613b8806e1a6a0f39d38165a1",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00308.json": "1e1b1057a9cdb8057fcb133669866dc5e33380ff47f18289aead65fc19ee1efd",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00309.json": "e8cf60ad49c3b877ad9a5a8562d6042267b7b29c464f34a73ad7e6131f1b06ab",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00310.json": "f501107202feae0eb05a1d8688cbfb8bed465a831f8806ff0465f6ac7284289c",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00311.json": "cdf1bc77aa89100c8393c6b94f368e78760588f77e2bc5253439e4ccd6af25a6",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00312.json": "cf600f95e99a427d7fe2d89efb8bc6caa12d9123df100b0defaa8a5781cb61b4",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00313.json": "b74e39d2f6867e144bb038fe30e507aa8e48cab7fd288e78c4ec9ee2cd30d371",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00314.json": "76f77e5b729fc36431f26b3e6840839263fe52632429f995f059ff8f92b7cc22",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00315.json": "062ca8f0811e776932f7b616e44c529641ac553453d8ff54ecc2aa8193758046",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00316.json": "8471330377c95dccdbe9c0570825a46b4c7897697819ff742b85ce8fdf46d911",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00317.json": "3f3ea909495055d04902d7b05aaa30365a3d3dcd32fa792fe2f4eba4fb40c782",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00318.json": "4285a294a350b371767303e55f8ce4b22db3b326fb5142224e3fba4770f32517",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00319.json": "a1b11a6d0bff6bc30d0508d883fa77874dc913ade2523f3ffac0c487f22c8c2a",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00320.json": "8a7b4ac0309ef11e1b4a932399c4b423adc4a16638c1a2f9ad323220fec84469",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00321.json": "58559b357bdd02c6a4ce4c2e9e390e4f2f05d0efd5a513b863e0b0f61c42fa8f",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00322.json": "84b264faf25acc935e71c22aecb1fb93b4ae897f865c59be5d1935ebd3aab124",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00323.json": "55154fdea17ad550e6cc440ccbb9a0e12922e5d1cfd261719ce01c76b558217c",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00324.json": "c23cb94578afdb8a54620bf31c5437765c45b31a4145f82ad557e0bee569aff2",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00325.json": "862d8d933fc0b3e7e0f05b980b86279b6b0eeffd2b130331a806d503d8958b41",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00326.json": "55ee1f372f79e21a1c3e3d8abe4ac7c395c620bf8c8c6ac2edafa3c9022548cf",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00327.json": "724a11c221a09e8915289d123853fd349da91c6d5c3539c0906188ff32cdb4fd",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00328.json": "f148a8e6e03074975eda7a2c2cf5bef44cfd28dfa4b22c8da2d23b7e2ddd91b2",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00329.json": "f38c4b8a5d6f43436a14dfee750bccc6d7bc7079b0678b5c31c46918e5af756a",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00330.json": "7cb3ce438c7c9b3e8282f5610d21a01a06dc4d1b526ce418c1c19dc4885f57fa",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00331.json": "af56892a7d9f581cf4fdec16c6beff2ebd1cf8756417331c9a9c2d823fbf7662",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00332.json": "910e4e1e51585e8f1c29d1e45b9bc83f72827fb93fd9591710c803aba5e02dca",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\arthas\\source\\epub-v1\\text00333.json": "c9f860be39b8d3897c5a855ed64f64687d04411b9c0a68629235b5e541baa150"
+  },
+  "method": "完整读取三份阅读报告；逐文件核验 manifest 段数、阅读声明首尾、连续refs、JSON/TXT实际哈希及原始EPUB内HTML哈希；integrator对七项关键结论回查原文，不声称独自重读全书。",
+  "summary": {
+    "nonemptyDocuments": 31,
+    "narrativeDocuments": 28,
+    "allReadBlocks": 2455,
+    "narrativeBlocksIncludingHeadings": 2400,
+    "missingNarrativeDocuments": [],
+    "duplicateAssignments": [],
+    "hashMismatches": [],
+    "allChecksPassed": true
+  },
+  "nonNarrative": [
+    {
+      "range": "text00302",
+      "reason": "空白封面，0段，无正文缺读"
+    },
+    {
+      "range": "text00303:p0001–p0007",
+      "reason": "版权信息，已读"
+    },
+    {
+      "range": "text00304:p0001–p0037",
+      "reason": "目录，已读，仅题名证据"
+    },
+    {
+      "range": "text00305:p0001–p0008",
+      "reason": "导读，已读；评论和传言不是小说事件"
+    },
+    {
+      "range": "text00333:p0057–p0059",
+      "reason": "作者介绍，已读，排除人物事件"
+    }
+  ],
+  "documents": [
+    {
+      "documentId": "text00303",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00303.html",
+      "firstRef": "text00303:p0001",
+      "lastRef": "text00303:p0007",
+      "blockCount": 7,
+      "narrative": false,
+      "narrativeLastRef": null,
+      "jsonSha256": "5fd70257d161b3336103fad2918142f85f90497322a9d7706889ad7d64c75bc2",
+      "txtSha256": "9c4660802c3ae1dba9c727f0dbaf7c2b658cff580b294eb3862c40e4033cd0b4",
+      "originalHtmlSha256": "266fa0f541701832f6b75d926220ce4672f92203a9ea3d92a8d45cb486c7eab6",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00304",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00304.html",
+      "firstRef": "text00304:p0001",
+      "lastRef": "text00304:p0037",
+      "blockCount": 37,
+      "narrative": false,
+      "narrativeLastRef": null,
+      "jsonSha256": "71c039dbe2bd3df2f2ca37d3fb38538ae507c47ab9d7d14d25cf713d3d4157f4",
+      "txtSha256": "12be3d10072fed391854712b089cc15c77b376c305ecddba4128e5978309e831",
+      "originalHtmlSha256": "bab34f11949fef8aab24ed1ca28bb95637abafff157853c4ac20fb44d43ac948",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00305",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00305.html",
+      "firstRef": "text00305:p0001",
+      "lastRef": "text00305:p0008",
+      "blockCount": 8,
+      "narrative": false,
+      "narrativeLastRef": null,
+      "jsonSha256": "af0db7592982c80762b5be4cf72935866b15ab677c2aaa24d1697a6177d5f4ea",
+      "txtSha256": "5cfebbd3b9823f494873468205c78f883540e16271b837640394f43f224c1abd",
+      "originalHtmlSha256": "cab5ed093b2486b433a7663ebf7cf5851d6a887291008bd315a3742acb81a822",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00306",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00306.html",
+      "firstRef": "text00306:p0001",
+      "lastRef": "text00306:p0035",
+      "blockCount": 35,
+      "narrative": true,
+      "narrativeLastRef": "text00306:p0035",
+      "jsonSha256": "d8416cb7abad64b525a481c00e6b82784952c5b7f57e1b46fe0711054b7e5249",
+      "txtSha256": "28ac6487ef3c035d897a6d9aa3a61351e4190447a83fa560f967e0e22f74f17a",
+      "originalHtmlSha256": "7e871c0ccabd3ee4bfea4f61e02c5667a3b0c02b19a1ce7f02508f8e48bd2811",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00307",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00307.html",
+      "firstRef": "text00307:p0001",
+      "lastRef": "text00307:p0096",
+      "blockCount": 96,
+      "narrative": true,
+      "narrativeLastRef": "text00307:p0096",
+      "jsonSha256": "860c8e22d46f1a4c599191a78607c1d620fe798613b8806e1a6a0f39d38165a1",
+      "txtSha256": "0c606f013ae550d6b378b1aa94cf5af4396af981128ae00b327ba2a37a621db3",
+      "originalHtmlSha256": "196e8cbd5609f1c4a2f7538ceb05ae0c81c080fc9528c22f4139aa762b852866",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00308",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00308.html",
+      "firstRef": "text00308:p0001",
+      "lastRef": "text00308:p0090",
+      "blockCount": 90,
+      "narrative": true,
+      "narrativeLastRef": "text00308:p0090",
+      "jsonSha256": "1e1b1057a9cdb8057fcb133669866dc5e33380ff47f18289aead65fc19ee1efd",
+      "txtSha256": "cab14f84440df68372779a8069e33b637b1d05a4c74ad714b39c026c2f31976b",
+      "originalHtmlSha256": "f45711f5e87a3aef08c0f65e263d68e9b239d7bc293cf158c5c7b58f00991208",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00309",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00309.html",
+      "firstRef": "text00309:p0001",
+      "lastRef": "text00309:p0112",
+      "blockCount": 112,
+      "narrative": true,
+      "narrativeLastRef": "text00309:p0112",
+      "jsonSha256": "e8cf60ad49c3b877ad9a5a8562d6042267b7b29c464f34a73ad7e6131f1b06ab",
+      "txtSha256": "86db9bc39dd2c73dd691a4ecb35e1d65e18ccd8977876f64314a710ccdb82f88",
+      "originalHtmlSha256": "d5b26418020581d313f1ab80ad09235c45a7af1801f440957a6134138aeaf1f1",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00310",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00310.html",
+      "firstRef": "text00310:p0001",
+      "lastRef": "text00310:p0093",
+      "blockCount": 93,
+      "narrative": true,
+      "narrativeLastRef": "text00310:p0093",
+      "jsonSha256": "f501107202feae0eb05a1d8688cbfb8bed465a831f8806ff0465f6ac7284289c",
+      "txtSha256": "018a8f58a8ca1a09eaa89ebc34ec5b17d89e69710f22ce346768518c554efde0",
+      "originalHtmlSha256": "a0b7ce9b819785ab3389da739fc9bcb06c503418f08ba895787392e312e17432",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00311",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00311.html",
+      "firstRef": "text00311:p0001",
+      "lastRef": "text00311:p0050",
+      "blockCount": 50,
+      "narrative": true,
+      "narrativeLastRef": "text00311:p0050",
+      "jsonSha256": "cdf1bc77aa89100c8393c6b94f368e78760588f77e2bc5253439e4ccd6af25a6",
+      "txtSha256": "b707541f502087579b50ef6a59defca2dd285e5a4345c1c4f815002278a44fb3",
+      "originalHtmlSha256": "87c89237c9c5cd1568e304b1f15d7ce21d7ac975799dec523e9b8391fe0ed673",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00312",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00312.html",
+      "firstRef": "text00312:p0001",
+      "lastRef": "text00312:p0021",
+      "blockCount": 21,
+      "narrative": true,
+      "narrativeLastRef": "text00312:p0021",
+      "jsonSha256": "cf600f95e99a427d7fe2d89efb8bc6caa12d9123df100b0defaa8a5781cb61b4",
+      "txtSha256": "327c1a1e558fcfd3a3b3f7a7af3878b4fc7841a06b32134e497ac3e33bd0f82c",
+      "originalHtmlSha256": "c0ea3a83bfcfb9a2400131a2b2c619b1fd112963e711983166749cbc9a035392",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00313",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00313.html",
+      "firstRef": "text00313:p0001",
+      "lastRef": "text00313:p0101",
+      "blockCount": 101,
+      "narrative": true,
+      "narrativeLastRef": "text00313:p0101",
+      "jsonSha256": "b74e39d2f6867e144bb038fe30e507aa8e48cab7fd288e78c4ec9ee2cd30d371",
+      "txtSha256": "1d746d583b5818f2d899d22a353d78f9e5188bad39146ac4cbb38d6dee6b3140",
+      "originalHtmlSha256": "cd463bd675b17fef8fb7ebe0d6c3cfd798ee883bfa549ed50fc315cf1d174b56",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00314",
+      "reader": "early",
+      "sourceHref": "OEBPS/text00314.html",
+      "firstRef": "text00314:p0001",
+      "lastRef": "text00314:p0074",
+      "blockCount": 74,
+      "narrative": true,
+      "narrativeLastRef": "text00314:p0074",
+      "jsonSha256": "76f77e5b729fc36431f26b3e6840839263fe52632429f995f059ff8f92b7cc22",
+      "txtSha256": "69ae0240d15a2200cb3a587bb3f6b358fd4b421159409bdfdb890eb81cac3116",
+      "originalHtmlSha256": "9b9a5b17d8eb7d91be3f8abe56d7c8e9f8f3940cdc84a401651017abf82f7d26",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00315",
+      "reader": "middle",
+      "sourceHref": "OEBPS/text00315.html",
+      "firstRef": "text00315:p0001",
+      "lastRef": "text00315:p0071",
+      "blockCount": 71,
+      "narrative": true,
+      "narrativeLastRef": "text00315:p0071",
+      "jsonSha256": "062ca8f0811e776932f7b616e44c529641ac553453d8ff54ecc2aa8193758046",
+      "txtSha256": "0963608fc17ce15075999b94f4cb39ba8b5b7dee5eadfe971a3c337cbc12fb59",
+      "originalHtmlSha256": "51488fa84de12c25e3f3e7747bebea637091abefc30ee33cebd668f091280100",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00316",
+      "reader": "middle",
+      "sourceHref": "OEBPS/text00316.html",
+      "firstRef": "text00316:p0001",
+      "lastRef": "text00316:p0099",
+      "blockCount": 99,
+      "narrative": true,
+      "narrativeLastRef": "text00316:p0099",
+      "jsonSha256": "8471330377c95dccdbe9c0570825a46b4c7897697819ff742b85ce8fdf46d911",
+      "txtSha256": "d4aec5cf6109f7aa894eee9683d8abb8f4a97af32b6c135fefa29f456f8f204c",
+      "originalHtmlSha256": "b31a870bde84a5a8473d75c71bf1a9b61ce7c9ef9c8eaea76dd1a4b9f685dc1f",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00317",
+      "reader": "middle",
+      "sourceHref": "OEBPS/text00317.html",
+      "firstRef": "text00317:p0001",
+      "lastRef": "text00317:p0095",
+      "blockCount": 95,
+      "narrative": true,
+      "narrativeLastRef": "text00317:p0095",
+      "jsonSha256": "3f3ea909495055d04902d7b05aaa30365a3d3dcd32fa792fe2f4eba4fb40c782",
+      "txtSha256": "ba244436e89a0d8783d0654721189e795e0f667fc0f325d99fd7fc35a1016263",
+      "originalHtmlSha256": "10f1c98d31d7d5e6c463fed59dafb65dc155a26b923d2b9d992763815cd42959",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00318",
+      "reader": "middle",
+      "sourceHref": "OEBPS/text00318.html",
+      "firstRef": "text00318:p0001",
+      "lastRef": "text00318:p0160",
+      "blockCount": 160,
+      "narrative": true,
+      "narrativeLastRef": "text00318:p0160",
+      "jsonSha256": "4285a294a350b371767303e55f8ce4b22db3b326fb5142224e3fba4770f32517",
+      "txtSha256": "b01d25976d0916998ea2bc0885766f5cb4ab9b0ab56c85f8598a43097990a067",
+      "originalHtmlSha256": "b8a886a6861b236c9d48a6fa6fb89d5e6b7bd1d100365e64706a64cb487aa8fd",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00319",
+      "reader": "middle",
+      "sourceHref": "OEBPS/text00319.html",
+      "firstRef": "text00319:p0001",
+      "lastRef": "text00319:p0095",
+      "blockCount": 95,
+      "narrative": true,
+      "narrativeLastRef": "text00319:p0095",
+      "jsonSha256": "a1b11a6d0bff6bc30d0508d883fa77874dc913ade2523f3ffac0c487f22c8c2a",
+      "txtSha256": "c802fbadc809b8ce18d3da01f96d325d7cc501874315beac9bef7e680f4b9553",
+      "originalHtmlSha256": "58d0de7c9f4f50b2aa0c4a11c6892819c2fa77c326abfd0a917e5b0aa3ebf393",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00320",
+      "reader": "middle",
+      "sourceHref": "OEBPS/text00320.html",
+      "firstRef": "text00320:p0001",
+      "lastRef": "text00320:p0067",
+      "blockCount": 67,
+      "narrative": true,
+      "narrativeLastRef": "text00320:p0067",
+      "jsonSha256": "8a7b4ac0309ef11e1b4a932399c4b423adc4a16638c1a2f9ad323220fec84469",
+      "txtSha256": "df680cb583967dca09684a0a63840af8ded458ce1cfe15e551a12c28a089fa66",
+      "originalHtmlSha256": "7d075debcff3045f3bdb2b3f2982cdb7f6ba56f40205ae02e5ea637309277e07",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00321",
+      "reader": "middle",
+      "sourceHref": "OEBPS/text00321.html",
+      "firstRef": "text00321:p0001",
+      "lastRef": "text00321:p0088",
+      "blockCount": 88,
+      "narrative": true,
+      "narrativeLastRef": "text00321:p0088",
+      "jsonSha256": "58559b357bdd02c6a4ce4c2e9e390e4f2f05d0efd5a513b863e0b0f61c42fa8f",
+      "txtSha256": "60c6b53cea20d9a11489e205bed35cb4acb4a69fb3147d7f6516564afd5e6be5",
+      "originalHtmlSha256": "e4cc432d6810db6061dc60632cd3a7e977252e7a1f733d2b78cb1bcf36248e4b",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00322",
+      "reader": "middle",
+      "sourceHref": "OEBPS/text00322.html",
+      "firstRef": "text00322:p0001",
+      "lastRef": "text00322:p0092",
+      "blockCount": 92,
+      "narrative": true,
+      "narrativeLastRef": "text00322:p0092",
+      "jsonSha256": "84b264faf25acc935e71c22aecb1fb93b4ae897f865c59be5d1935ebd3aab124",
+      "txtSha256": "492a27bc4fedbf8b0f8a48055450c66ae9a0e83d54970d024e009ba3fb3dfc56",
+      "originalHtmlSha256": "c06f12c02737ba78be9d80dfbc83e5ca2dbc3da2dc865686a0c416885b1d0225",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00323",
+      "reader": "middle",
+      "sourceHref": "OEBPS/text00323.html",
+      "firstRef": "text00323:p0001",
+      "lastRef": "text00323:p0090",
+      "blockCount": 90,
+      "narrative": true,
+      "narrativeLastRef": "text00323:p0090",
+      "jsonSha256": "55154fdea17ad550e6cc440ccbb9a0e12922e5d1cfd261719ce01c76b558217c",
+      "txtSha256": "ea8d8259ffc109473064ea52c0a58922722c62847f35cb2929b64f71dbea94e4",
+      "originalHtmlSha256": "9563da9f0d591b4548fc138a7954928ce0d87291007db60c61896b37c7d89ee4",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00324",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00324.html",
+      "firstRef": "text00324:p0001",
+      "lastRef": "text00324:p0030",
+      "blockCount": 30,
+      "narrative": true,
+      "narrativeLastRef": "text00324:p0030",
+      "jsonSha256": "c23cb94578afdb8a54620bf31c5437765c45b31a4145f82ad557e0bee569aff2",
+      "txtSha256": "42c8593f08c3ffa33d7ac254dc142dfb9ff19ab7c73df9e8a15d99d79594368e",
+      "originalHtmlSha256": "27bd041243ae1dbba496e1ace55a248f3f6006761987a0d45fcf479080d14224",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00325",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00325.html",
+      "firstRef": "text00325:p0001",
+      "lastRef": "text00325:p0091",
+      "blockCount": 91,
+      "narrative": true,
+      "narrativeLastRef": "text00325:p0091",
+      "jsonSha256": "862d8d933fc0b3e7e0f05b980b86279b6b0eeffd2b130331a806d503d8958b41",
+      "txtSha256": "21a1b5c2e058f0c20eac94f3be201653bb081e7563e6d16e229a1c571507a4cf",
+      "originalHtmlSha256": "c6965da84c58cce4d5dc9a0a0e5ecbdd92c1bf0d9ca1b101176d0c851f755385",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00326",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00326.html",
+      "firstRef": "text00326:p0001",
+      "lastRef": "text00326:p0096",
+      "blockCount": 96,
+      "narrative": true,
+      "narrativeLastRef": "text00326:p0096",
+      "jsonSha256": "55ee1f372f79e21a1c3e3d8abe4ac7c395c620bf8c8c6ac2edafa3c9022548cf",
+      "txtSha256": "dcc5a854ef727c154a6d0c4d99315009a3d6343a689582a6a4cc5bc1d2d512f1",
+      "originalHtmlSha256": "c6b3377aa24787c0b51070f8854ac9c6dea2f391b26891ce5d31e0eb1026e4ff",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00327",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00327.html",
+      "firstRef": "text00327:p0001",
+      "lastRef": "text00327:p0096",
+      "blockCount": 96,
+      "narrative": true,
+      "narrativeLastRef": "text00327:p0096",
+      "jsonSha256": "724a11c221a09e8915289d123853fd349da91c6d5c3539c0906188ff32cdb4fd",
+      "txtSha256": "de7a02c5853930a79ed9947eab0b049960e38e59de67bc352520f1d6ef0fc89d",
+      "originalHtmlSha256": "e92c35893ee5cd8e188ed4058d1dc298c990305e55fe44267c460511c8737a45",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00328",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00328.html",
+      "firstRef": "text00328:p0001",
+      "lastRef": "text00328:p0130",
+      "blockCount": 130,
+      "narrative": true,
+      "narrativeLastRef": "text00328:p0130",
+      "jsonSha256": "f148a8e6e03074975eda7a2c2cf5bef44cfd28dfa4b22c8da2d23b7e2ddd91b2",
+      "txtSha256": "2dcbc7475c2bc04b49577c4e3405b17bd83b61c2a9e19e073ab852e671489667",
+      "originalHtmlSha256": "11aa6a47b26e50ba3ce7d8369d7cabd0ef8d760be0f108a97c73683be55f0441",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00329",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00329.html",
+      "firstRef": "text00329:p0001",
+      "lastRef": "text00329:p0083",
+      "blockCount": 83,
+      "narrative": true,
+      "narrativeLastRef": "text00329:p0083",
+      "jsonSha256": "f38c4b8a5d6f43436a14dfee750bccc6d7bc7079b0678b5c31c46918e5af756a",
+      "txtSha256": "ef31b220860a560777ddee91a5c9a7d85438dbbac9eac6a13c26fbe3ee356fbc",
+      "originalHtmlSha256": "0de68b2dbe52818d2fa79557069c47e1e6a624c6ed3056937a40d72a3c806907",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00330",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00330.html",
+      "firstRef": "text00330:p0001",
+      "lastRef": "text00330:p0100",
+      "blockCount": 100,
+      "narrative": true,
+      "narrativeLastRef": "text00330:p0100",
+      "jsonSha256": "7cb3ce438c7c9b3e8282f5610d21a01a06dc4d1b526ce418c1c19dc4885f57fa",
+      "txtSha256": "aaacfd9efba1d86a9ba8e2bfc7a04ab15e5b142e7068af2fd88c94756dba88e2",
+      "originalHtmlSha256": "3b38c247a182d3b4d57db7c97352445f666593c60a3a28acc3c00c47f900393c",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00331",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00331.html",
+      "firstRef": "text00331:p0001",
+      "lastRef": "text00331:p0062",
+      "blockCount": 62,
+      "narrative": true,
+      "narrativeLastRef": "text00331:p0062",
+      "jsonSha256": "af56892a7d9f581cf4fdec16c6beff2ebd1cf8756417331c9a9c2d823fbf7662",
+      "txtSha256": "cfa8ed4db9af05dff5101d2adff62d0ac6b7e3288ba2f113b4daf1a18f12b2de",
+      "originalHtmlSha256": "ce4da01d49c7c01297398a11dedbfe6e33842f178bd7e97b3e73bc5723602d1f",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00332",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00332.html",
+      "firstRef": "text00332:p0001",
+      "lastRef": "text00332:p0127",
+      "blockCount": 127,
+      "narrative": true,
+      "narrativeLastRef": "text00332:p0127",
+      "jsonSha256": "910e4e1e51585e8f1c29d1e45b9bc83f72827fb93fd9591710c803aba5e02dca",
+      "txtSha256": "58ac6b9f215f29fb75a092f31d189adfb99e1363b95d2e0f3a550f8ce2f69b36",
+      "originalHtmlSha256": "4dc693ac6842aab716ce2eed2af89f8727787fecb3007d3ebed17e71fa8d5455",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    },
+    {
+      "documentId": "text00333",
+      "reader": "late",
+      "sourceHref": "OEBPS/text00333.html",
+      "firstRef": "text00333:p0001",
+      "lastRef": "text00333:p0059",
+      "blockCount": 59,
+      "narrative": true,
+      "narrativeLastRef": "text00333:p0056",
+      "jsonSha256": "c9f860be39b8d3897c5a855ed64f64687d04411b9c0a68629235b5e541baa150",
+      "txtSha256": "3afc9973bf9c211161fdf811ea59ca0936f62243fe49706583a888ab5334d57d",
+      "originalHtmlSha256": "7e0eb349d935779f26d33020f7106b16d13242e9991ec8538acbd46043481f39",
+      "checks": {
+        "manifestBlockCount": true,
+        "firstRef": true,
+        "lastRef": true,
+        "contiguousRefs": true,
+        "jsonHashMatchesReader": true,
+        "txtHashMatchesReader": true,
+        "originalHtmlHashMatchesEpub": true
+      }
+    }
+  ],
+  "spotChecks": [
+    {
+      "topic": "无敌之死",
+      "sourceRanges": [
+        "text00310:p0072–p0093"
+      ],
+      "result": "终止无法及时救治的痛苦，同时隐瞒自身责任；不能写成单纯意外或注定作恶。"
+    },
+    {
+      "topic": "圣光的回应",
+      "sourceRanges": [
+        "text00311:p0036–p0042",
+        "text00322:p0083–p0090"
+      ],
+      "result": "受封确实获得圣光，取剑前治疗穆拉丁时圣光再次回应；不是从未被接纳或当时已无选择。"
+    },
+    {
+      "topic": "斯坦索姆的不确定性",
+      "sourceRanges": [
+        "text00319:p0013–p0036"
+      ],
+      "result": "感染总数、剂量未知；没有证明所有居民感染，也没有已验证有效的替代救治方案。不可将任一方推断升级为既成事实。"
+    },
+    {
+      "topic": "取剑主动性",
+      "sourceRanges": [
+        "text00322:p0060–p0092"
+      ],
+      "result": "明确听见灵魂损伤警告、拒绝离开，获圣光回应后受武器耳语诱惑而转向握剑；须并陈操纵与主动选择。"
+    },
+    {
+      "topic": "希尔瓦娜斯",
+      "sourceRanges": [
+        "text00327:p0040–p0069"
+      ],
+      "result": "守土战败、被刺杀、强制女妖化及痛苦奴役；行为被控制而意志仍反抗。阿尔萨斯归咎她抵抗是施害者说法。"
+    },
+    {
+      "topic": "伊利丹重伤",
+      "sourceRanges": [
+        "text00332:p0091–p0098"
+      ],
+      "result": "倒地仍喘息，王子决定留给严寒；本段不确认死亡。"
+    },
+    {
+      "topic": "首尾梦境收束",
+      "sourceRanges": [
+        "text00306:p0017–p0035",
+        "text00333:p0001–p0040",
+        "text00333:p0042–p0059"
+      ],
+      "result": "同一虚幻长桌框架，尾声明认男孩为残余人性、兽人为耐奥祖；梦中斩除两者后现实睁眼。最后叙事p0056，后为作者介绍。"
+    }
+  ],
+  "blockingFindings": [],
+  "limitations": [
+    "完整阅读由researcher分工完成；哈希证明输入一致，不能单独证明认知阅读。",
+    "保留文本局部年龄/时间张力，不外推全系列设定或尾声之后事件。"
+  ]
+}

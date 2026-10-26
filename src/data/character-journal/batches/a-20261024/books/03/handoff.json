@@ -1,0 +1,216 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-03",
+  "status": "partial",
+  "role": "researcher",
+  "nextResponsibleRole": "researcher",
+  "sourceRanges": [
+    {
+      "href": "OEBPS/text00060.html",
+      "paragraphs": []
+    },
+    {
+      "href": "OEBPS/text00061.html",
+      "paragraphs": [
+        1,
+        7
+      ]
+    },
+    {
+      "href": "OEBPS/text00062.html",
+      "paragraphs": [
+        1,
+        29
+      ]
+    },
+    {
+      "href": "OEBPS/text00063.html",
+      "paragraphs": [
+        1,
+        3
+      ]
+    },
+    {
+      "href": "OEBPS/text00064.html",
+      "paragraphs": [
+        1,
+        107
+      ]
+    },
+    {
+      "href": "OEBPS/text00065.html",
+      "paragraphs": [
+        1,
+        151
+      ]
+    },
+    {
+      "href": "OEBPS/text00066.html",
+      "paragraphs": [
+        1,
+        148
+      ]
+    },
+    {
+      "href": "OEBPS/text00067.html",
+      "paragraphs": [
+        1,
+        131
+      ]
+    },
+    {
+      "href": "OEBPS/text00068.html",
+      "paragraphs": [
+        1,
+        127
+      ]
+    },
+    {
+      "href": "OEBPS/text00069.html",
+      "paragraphs": [
+        1,
+        104
+      ]
+    },
+    {
+      "href": "OEBPS/text00070.html",
+      "paragraphs": [
+        1,
+        135
+      ]
+    },
+    {
+      "href": "OEBPS/text00071.html",
+      "paragraphs": [
+        1,
+        142
+      ]
+    },
+    {
+      "href": "OEBPS/text00072.html",
+      "paragraphs": [
+        1,
+        150
+      ]
+    },
+    {
+      "href": "OEBPS/text00073.html",
+      "paragraphs": [
+        1,
+        160
+      ]
+    },
+    {
+      "href": "OEBPS/text00074.html",
+      "paragraphs": [
+        1,
+        145
+      ]
+    },
+    {
+      "href": "OEBPS/text00075.html",
+      "paragraphs": [
+        1,
+        163
+      ]
+    },
+    {
+      "href": "OEBPS/text00076.html",
+      "paragraphs": [
+        1,
+        120
+      ]
+    },
+    {
+      "href": "OEBPS/text00077.html",
+      "paragraphs": [
+        1,
+        141
+      ]
+    },
+    {
+      "href": "OEBPS/text00078.html",
+      "paragraphs": [
+        1,
+        143
+      ]
+    },
+    {
+      "href": "OEBPS/text00079.html",
+      "paragraphs": [
+        1,
+        132
+      ]
+    },
+    {
+      "href": "OEBPS/text00080.html",
+      "paragraphs": [
+        1,
+        140
+      ]
+    },
+    {
+      "href": "OEBPS/text00081.html",
+      "paragraphs": [
+        1,
+        160
+      ]
+    },
+    {
+      "href": "OEBPS/text00082.html",
+      "paragraphs": [
+        1,
+        138
+      ]
+    },
+    {
+      "href": "OEBPS/text00083.html",
+      "paragraphs": [
+        1,
+        130
+      ]
+    },
+    {
+      "href": "OEBPS/text00084.html",
+      "paragraphs": [
+        1,
+        128
+      ]
+    }
+  ],
+  "inputVersion": {
+    "sourceSha256": "1cf0637c338575793eb5f6d9e30ce2097dda78ecce7b7e25c76c1ff635d76ffb",
+    "manifestSha256": "8338473c87c078f323040036613b94b5350267c06142bf7b14b78ff8e9eeabef",
+    "roleProtocol": "researcher-instructions.txt; subtitle-policy v1; multi-section v1"
+  },
+  "upstreamVersion": "1cf0637c338575793eb5f6d9e30ce2097dda78ecce7b7e25c76c1ff635d76ffb",
+  "artifactPaths": [
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\03\\evidence.json",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\03\\read-progress.json"
+  ],
+  "checks": {
+    "documents": 25,
+    "paragraphs": 2934,
+    "facts": 66,
+    "fullRead": false,
+    "factRefsInBounds": true,
+    "readButUnrecordedEmpty": true
+  },
+  "limitations": [
+    "第22至24章及作者介绍未读取；用户收窄范围停止。续读 text00085:p0001。",
+    "第五章p94三外来者名单含伊利丹，与上下文矛盾；不得据此判定其为穿越者。",
+    "第十六章p91将另一守护巨龙配偶名写作泰兰德，疑似译名错误，不据此设定人物身份。"
+  ],
+  "resume": {
+    "status": "partial",
+    "stopReason": "user_scope_narrowed_to_inheritable_files",
+    "lastFullyRead": "text00084",
+    "next": "text00085",
+    "nextParagraph": 1,
+    "nextHref": "OEBPS/text00085.html",
+    "nextPath": "source/text00085.txt",
+    "emptyDocumentAction": null,
+    "readButUnrecorded": []
+  },
+  "publicationAuthorization": "research only; user now requests inheritable files only; no planning/prose/art"
+}

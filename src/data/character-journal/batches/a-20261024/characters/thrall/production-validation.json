@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "unitCount": 12,
+  "imageCount": 12,
+  "hanCharacterCount": 21177,
+  "checks": [
+    {
+      "unitId": "thrall-overview",
+      "storySha256": "bece6c9067cbb17047059d96c68b4be6a4a65244505192027640410d20d3fc7c",
+      "imageSha256": "cab3739553eaaf4de0e658189eb47024f60432401707da72b13b6d62b17350df",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-01",
+      "storySha256": "d2704f197f8e057d3511cc1490e9eabb9bc4d6eace9169a4975b8859cf0ed944",
+      "imageSha256": "614fd1fa1e65338f56fd8199090302b91af257f5f20584475dc6eff8cdd6d41c",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-02",
+      "storySha256": "379d9db6900b5279977b7957aadc8ba52e1f85d680cd0e47319d75a68a75fcfe",
+      "imageSha256": "c0e990910af652e3a70785252c7bb5166034964ad95501dfc9c4492eac54dbaf",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-03",
+      "storySha256": "92633178a7f93cb932fbaefc3992f127019aefa9a0c52fd4e3ac8c6c4bc8e62d",
+      "imageSha256": "6c738fb4ff02f2e23e4339ea748169142a07c69b510c945ec15ba8201cbcffc9",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-04",
+      "storySha256": "d9db214f504533363dc21bac4b4f91ed9d2261b22a306c8df6c4582b5d3a38ae",
+      "imageSha256": "2a2dc6c7af2a218563558b2524cc2ae829a31a5268953887067036f477c5ea46",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-05",
+      "storySha256": "f5a937cfda08685b11a75a99c63107458cf2a5d0e4035333b1a8aaad187f1dcf",
+      "imageSha256": "0271da8ca327515983d4451ed1e2ca9794a7629cf5ad4d38d78398428d34f360",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-06",
+      "storySha256": "839a4c832e46ca2537cd35f78cbd0feb23b5b1ea65ede88d3904d035c9762656",
+      "imageSha256": "f18b58fc8b69eee6f0bd7450e30a09f1a5dcb963fd39093d163cf594d2c3a1e7",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-07",
+      "storySha256": "02025eb80364e852d27c9ec762dd912527b128fd476d6a8f63fa7d7b3616b485",
+      "imageSha256": "fffd7c983d53a161935893eac6235829d5ff78c30d9c9302ff9dbf150d25a4a2",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-08",
+      "storySha256": "249c08502fdfc05f0f9d37566163a1d4bbdfe3b14296c1e98cc6d6fd7e2c70cf",
+      "imageSha256": "6b91e89578d35db5d96eee19e932a0b85333c88c2d3e5139d35b9a900c1b7380",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-09",
+      "storySha256": "1af1b8777d6275666b5ab2d87beeecfec6eff4ea4b267a5e8f93a8f1ef915ed1",
+      "imageSha256": "e59c41f83546226e1046cf9126f0e237fdeb0d101307251b6d0f11121236a1ef",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-10",
+      "storySha256": "81e36d68c963d0400653203aa7ef3ffef896ce7b4acfb3aebe9f676f1378f0a4",
+      "imageSha256": "d5b2f732d82444b44f938c7b92fbdec09d3867c80627e26e5e1d125ceb2145a4",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    },
+    {
+      "unitId": "thrall-part-11",
+      "storySha256": "02556fb765935cdda4ba5e1595ffc4342b0a9fa323efbb095abfaa3789d0f5de",
+      "imageSha256": "1fb9f290b12e1d00685ecc51f490fbf6e49c14e2e25935b2d223a8b0b32ae7df",
+      "textReview": "passed",
+      "visualReview": "passed",
+      "subtitleConsistent": true
+    }
+  ],
+  "htmlAssetsAndAnchors": "passed",
+  "browserRenderCheck": "not_completed_local_browser_connection_timed_out",
+  "imageReview": "all12_checked",
+  "publicationAuthorized": false
+}

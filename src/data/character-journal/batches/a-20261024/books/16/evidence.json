@@ -1,0 +1,809 @@
+{
+  "runId": "batch-a-20261024-01",
+  "bookId": "16",
+  "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+  "status": "completed",
+  "coverage": [
+    {
+      "documentId": "text00438",
+      "href": "OEBPS/text00438.html",
+      "paragraphs": 0,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00439",
+      "href": "OEBPS/text00439.html",
+      "paragraphs": 7,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00440",
+      "href": "OEBPS/text00440.html",
+      "paragraphs": 45,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00441",
+      "href": "OEBPS/text00441.html",
+      "paragraphs": 3,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00442",
+      "href": "OEBPS/text00442.html",
+      "paragraphs": 6,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00443",
+      "href": "OEBPS/text00443.html",
+      "paragraphs": 28,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00444",
+      "href": "OEBPS/text00444.html",
+      "paragraphs": 62,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00445",
+      "href": "OEBPS/text00445.html",
+      "paragraphs": 49,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00446",
+      "href": "OEBPS/text00446.html",
+      "paragraphs": 80,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00447",
+      "href": "OEBPS/text00447.html",
+      "paragraphs": 87,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00448",
+      "href": "OEBPS/text00448.html",
+      "paragraphs": 40,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00449",
+      "href": "OEBPS/text00449.html",
+      "paragraphs": 59,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00450",
+      "href": "OEBPS/text00450.html",
+      "paragraphs": 90,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00451",
+      "href": "OEBPS/text00451.html",
+      "paragraphs": 85,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00452",
+      "href": "OEBPS/text00452.html",
+      "paragraphs": 74,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00453",
+      "href": "OEBPS/text00453.html",
+      "paragraphs": 92,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00454",
+      "href": "OEBPS/text00454.html",
+      "paragraphs": 83,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00455",
+      "href": "OEBPS/text00455.html",
+      "paragraphs": 106,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00456",
+      "href": "OEBPS/text00456.html",
+      "paragraphs": 62,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00457",
+      "href": "OEBPS/text00457.html",
+      "paragraphs": 62,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00458",
+      "href": "OEBPS/text00458.html",
+      "paragraphs": 49,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00459",
+      "href": "OEBPS/text00459.html",
+      "paragraphs": 49,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00460",
+      "href": "OEBPS/text00460.html",
+      "paragraphs": 71,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00461",
+      "href": "OEBPS/text00461.html",
+      "paragraphs": 78,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00462",
+      "href": "OEBPS/text00462.html",
+      "paragraphs": 62,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00463",
+      "href": "OEBPS/text00463.html",
+      "paragraphs": 74,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00464",
+      "href": "OEBPS/text00464.html",
+      "paragraphs": 87,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00465",
+      "href": "OEBPS/text00465.html",
+      "paragraphs": 110,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00466",
+      "href": "OEBPS/text00466.html",
+      "paragraphs": 81,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00467",
+      "href": "OEBPS/text00467.html",
+      "paragraphs": 81,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00468",
+      "href": "OEBPS/text00468.html",
+      "paragraphs": 108,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00469",
+      "href": "OEBPS/text00469.html",
+      "paragraphs": 106,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00470",
+      "href": "OEBPS/text00470.html",
+      "paragraphs": 100,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00471",
+      "href": "OEBPS/text00471.html",
+      "paragraphs": 82,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00472",
+      "href": "OEBPS/text00472.html",
+      "paragraphs": 79,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00473",
+      "href": "OEBPS/text00473.html",
+      "paragraphs": 81,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00474",
+      "href": "OEBPS/text00474.html",
+      "paragraphs": 129,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00475",
+      "href": "OEBPS/text00475.html",
+      "paragraphs": 64,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00476",
+      "href": "OEBPS/text00476.html",
+      "paragraphs": 20,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00477",
+      "href": "OEBPS/text00477.html",
+      "paragraphs": 3,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00478",
+      "href": "OEBPS/text00478.html",
+      "paragraphs": 4,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00479",
+      "href": "OEBPS/text00479.html",
+      "paragraphs": 16,
+      "status": "full_read"
+    },
+    {
+      "documentId": "text00480",
+      "href": "OEBPS/text00480.html",
+      "paragraphs": 2,
+      "status": "full_read"
+    }
+  ],
+  "facts": [
+    {
+      "id": "16-f001",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔赐加尔鲁什血吼，既表彰斩杀玛诺洛斯，也明确提醒此斧曾杀塞纳留斯，要求继承父亲最好的一面。",
+      "sourceRefs": [
+        "text00447:p0012-p0019"
+      ]
+    },
+    {
+      "id": "16-f002",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔公开解释选杜隆塔尔兼有自立磨砺及赎偿过往恶行的考虑；战后旱灾和补给消耗超出预期，生存压力成为政治冲突根源。",
+      "sourceRefs": [
+        "text00447:p0045-p0057;p0085-p0087"
+      ]
+    },
+    {
+      "id": "16-f003",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "statement": "萨尔提醒部落不只兽人，支持哈缪尔以德鲁伊关系重开贸易谈判，并以吉安娜对联盟忠诚不妨碍追求全族和平为辩护。",
+      "sourceRefs": [
+        "text00447:p0040-p0041;p0058-p0078"
+      ]
+    },
+    {
+      "id": "16-f004",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "statement": "灰谷哨兵惨案后，瓦里安先无证据指控萨尔；吉安娜以迪菲亚同为人类反驳集体归罪，安度因打断父亲辱骂；瓦里安道歉并改派炼金师调查、使节质询。",
+      "sourceRefs": [
+        "text00449:p0025-p0059;text00450:p0004-p0014"
+      ]
+    },
+    {
+      "id": "16-f005",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "statement": "吉安娜与瓦里安讨论其愤怒和父子裂隙，赠安度因特制炉石邀请往塞拉摩；瓦里安对儿子隐瞒伯瓦尔接任巫妖王。",
+      "sourceRefs": [
+        "text00450:p0015-p0090"
+      ]
+    },
+    {
+      "id": "16-f006",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "statement": "萨尔否认授权灰谷屠杀，承诺调查并坚持由部落审判；吉安娜要求全面谴责与修复信任。他因生存需求、民众支持和政权压力而限缩公开谴责，两人并未取得一致。",
+      "sourceRefs": [
+        "text00451:p0012-p0056"
+      ]
+    },
+    {
+      "id": "16-f007",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔向伊崔格坦言人兽双重文化曾使他沟通双方，如今却怀疑是否仍适合领导；他痛惜一代人死于战争，担忧好战者重陷暴力。",
+      "sourceRefs": [
+        "text00451:p0069-p0080"
+      ]
+    },
+    {
+      "id": "16-f008",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "元素联系混乱继而沉寂；接受一次解决一个问题的建议，决定去纳格兰向祖母盖亚安学习，探问经历破碎的德拉诺元素，以治愈土地和缓解匮乏。此时尚未成行。",
+      "sourceRefs": [
+        "text00447:p0047-p0051;text00451:p0078-p0085"
+      ]
+    },
+    {
+      "id": "16-f009",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina",
+        "varian"
+      ],
+      "statement": "吉安娜向安度因明确萨尔只为违约道歉、不为暴行方式道歉；瓦里安收到回信确认只谴责破坏协议，仍对暴行沉默。",
+      "sourceRefs": [
+        "text00452:p0017-p0029;p0053-p0061"
+      ]
+    },
+    {
+      "id": "16-f010",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "奥格瑞玛火灾中萨尔组织救援，与萨满们沟通火元素，最后被迫控制拒绝合作的火花；他认为这违背互尊之道。此场火灾七建筑毁但无直接死亡，其他萨满求雨。",
+      "sourceRefs": [
+        "text00453:p0002-p0032"
+      ]
+    },
+    {
+      "id": "16-f011",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔判断以萨满身份帮助大地才是当下效忠方式；候选比较：凯恩遭老派/非兽人观感及本族动荡，老萨鲁法尔受丧子伤且年迈，伊崔格年迈，小萨鲁法尔已死；选年轻受爱戴的加尔鲁什，寄望凯恩与伊崔格制衡。均为萨尔当时判断而非唯一客观解。",
+      "sourceRefs": [
+        "text00453:p0043-p0058"
+      ]
+    },
+    {
+      "id": "16-f012",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔任命加尔鲁什为自己归来前代理，并非此刻宣布永久退位；加尔鲁什主动承认不懂政治统治，萨尔以可学习及热爱部落作保证，并要求听取顾问，将部落需要置个人之上。",
+      "sourceRefs": [
+        "text00453:p0059-p0092"
+      ]
+    },
+    {
+      "id": "16-f013",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "凯恩当面反对任命，指出民众只见荣耀、加尔鲁什冲动需约束、联盟关系脆弱；萨尔仍坚持，要求支持不反对，冷言以部落代价指责其固执后离开。凯恩受伤但仍决定尽职。",
+      "sourceRefs": [
+        "text00459:p0019-p0049"
+      ]
+    },
+    {
+      "id": "16-f014",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "纳格兰阿格娜与萨尔初见因名字与权威冲突：萨尔认自己的奴隶名字已被行动改造成力量荣耀的象征；阿格娜坚持叫古伊尔，盖亚安指派她为主要导师。",
+      "sourceRefs": [
+        "text00460:p0003-p0051"
+      ]
+    },
+    {
+      "id": "16-f015",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "盖亚安解释敢说真话的顾问价值；萨尔意识自己对凯恩发火不对，决定回去道歉，彼时尚不知后续死亡，不能写成已完成和解。",
+      "sourceRefs": [
+        "text00460:p0052-p0071"
+      ]
+    },
+    {
+      "id": "16-f016",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "阿格娜与萨尔起初彼此不悦；萨尔明确要求尊重学习能力、不要羞辱以损教学。她计划带他接触外域受污染元素，寻找治愈艾泽拉斯的经验。",
+      "sourceRefs": [
+        "text00462:p0002-p0023"
+      ]
+    },
+    {
+      "id": "16-f017",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔离开后凯恩实际尝试辅佐，加尔鲁什多无视建议，凯恩退回雷霆崖；哈缪尔仍按萨尔私下授权推动德鲁伊和谈。",
+      "sourceRefs": [
+        "text00462:p0024-p0062"
+      ]
+    },
+    {
+      "id": "16-f018",
+      "type": "fact",
+      "characters": [
+        "varian"
+      ],
+      "statement": "瓦里安要求安度因留铁炉堡支援哀痛中的人民，以王子驻留表达联盟对矮人的重视；茉艾拉继承有合法权利却封城控交通并欲软禁王子。",
+      "sourceRefs": [
+        "text00461:p0002-p0005;p0014-p0078"
+      ]
+    },
+    {
+      "id": "16-f019",
+      "type": "fact",
+      "characters": [
+        "malfurion",
+        "jaina",
+        "varian",
+        "thrall"
+      ],
+      "statement": "麦格尼钻石化后玛法里奥、泰兰德、瓦里安、吉安娜出席悼念；萨尔未亲临，派温和牛头人与辛多雷代表，亦防趁乱袭铁炉堡的议论。",
+      "sourceRefs": [
+        "text00459:p0005-p0017;p0035-p0036"
+      ]
+    },
+    {
+      "id": "16-f020",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "德鲁伊和平会谈遭暮光之锤戈克拉克小队袭击，目的是嫁祸部落及加尔鲁什；哈缪尔唯一幸存且当时误认部落。不能把加尔鲁什指使写为事实。",
+      "sourceRefs": [
+        "text00463:p0015-p0022;p0031-p0074"
+      ]
+    },
+    {
+      "id": "16-f021",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "凯恩误认袭击由加尔鲁什指使，先挑战玛格拉；加尔鲁什要求恢复至死方休旧规，凯恩接受。萨尔此前已禁止死斗，此次他不在场。",
+      "sourceRefs": [
+        "text00464:p0024-p0051"
+      ]
+    },
+    {
+      "id": "16-f022",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "玛加萨借祝福下毒、加尔鲁什不知情；凯恩中毒失去防御后被血吼杀死。恐怖图腾趁夜政变，风暴之歌救贝恩，后者因信萨尔择向吉安娜求援。",
+      "sourceRefs": [
+        "text00465:p0005-p0021;p0052-p0079;p0097-p0110"
+      ]
+    },
+    {
+      "id": "16-f023",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔参与对腐化元素的战斗，痛苦于用健康元素之力摧毁受损实体；盖亚安建议传统幻象之旅以自我认识，承认德雷克塔尔困境下的教导已尽全力。萨尔承认焦虑迁怒阿格娜。",
+      "sourceRefs": [
+        "text00466:p0002-p0021"
+      ]
+    },
+    {
+      "id": "16-f024",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "thrall"
+      ],
+      "statement": "吉安娜庇护贝恩和逃出铁炉堡的安度因，促使二人交换经历和建立信任；贝恩认为萨尔不离开父亲就不会死，是悲痛中的反事实判断。",
+      "sourceRefs": [
+        "text00467:p0002-p0027"
+      ]
+    },
+    {
+      "id": "16-f025",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "德雷克塔尔及远行者决定给萨尔送信报告凯恩死与政变；帕卡尔发现老萨满预知会谈袭击属实，承认隐瞒灾变梦境并一并通报。不是萨尔早已收到而无视。",
+      "sourceRefs": [
+        "text00467:p0044-p0081"
+      ]
+    },
+    {
+      "id": "16-f026",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "幻象之旅前卸毁灭之锤板甲换棕色启蒙长袍、念珠、黄蓝彩纹及羽饰；集体协助来自仪式传统而非酋长特权，阿格娜照料并引导。",
+      "sourceRefs": [
+        "text00468:p0002-p0048"
+      ]
+    },
+    {
+      "id": "16-f027",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "statement": "幻象将自身过去与四元素联系：竞技场激情为火，塔蕾莎爱及泪水为水，德雷克塔尔教导踏实为土，与凯恩/吉安娜理性商议为气。阿格娜有关塔莉命运的解释促萨尔卸下无法救她的负罪感，是主观领悟，不为布莱克摩尔开脱。",
+      "sourceRefs": [
+        "text00468:p0049-p0096"
+      ]
+    },
+    {
+      "id": "16-f028",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "幻象末见毁灭之锤与铠甲碎裂、自己仅着启蒙袍；萨尔初以为失败预兆，阿格娜提醒解释未定。不是武器现实损毁。",
+      "sourceRefs": [
+        "text00468:p0097-p0108"
+      ]
+    },
+    {
+      "id": "16-f029",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "四元素之怒不直接知晓异世界问题：气劝思考倾听，火赐热情，水劝面对自身伤口；他以随身真实艾泽拉斯石块供戈达乌尝知元素恐惧某受伤后错误治愈的黑暗存在将临，此时尚未确认死亡之翼身份。",
+      "sourceRefs": [
+        "text00469:p0002-p0075"
+      ]
+    },
+    {
+      "id": "16-f030",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔与阿格娜由戒备转为尊重，火焰馈赠后萨尔安慰未获同礼的她是自身火焰已盛，两人握手。亲密进展而非一见即已相爱。",
+      "sourceRefs": [
+        "text00469:p0023-p0033"
+      ]
+    },
+    {
+      "id": "16-f031",
+      "type": "fact",
+      "characters": [
+        "voljin",
+        "thrall"
+      ],
+      "statement": "沃金向伊崔格质疑凯恩败得过快；伊崔格揭明斧毒和政变，加尔鲁什震惊自己被利用，其不知情由叙述与玛加萨内心双证据支持。",
+      "sourceRefs": [
+        "text00469:p0076-p0106"
+      ]
+    },
+    {
+      "id": "16-f032",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "statement": "吉安娜用镜像联系瓦里安告知安度因安全，受托暂留他；随后援助贝恩。贝恩拒绝无证据报复加尔鲁什，安度因赠破惧者，吉安娜见证跨阵营互信。",
+      "sourceRefs": [
+        "text00470:p0012-p0033",
+        "text00470:p0039-p0096"
+      ]
+    },
+    {
+      "id": "16-f033",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "statement": "加尔鲁什致信拒绝玛加萨求援并愤怒于荣誉被窃；贝恩雇佣兵资金来自吉安娜大量难追溯黄金，非联盟正式出兵。",
+      "sourceRefs": [
+        "text00471:p0010-p0030",
+        "text00471:p0061-p0074"
+      ]
+    },
+    {
+      "id": "16-f034",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "贝恩夺回雷霆崖、流放玛加萨并赦免愿脱离她的恐怖图腾成员，后与加尔鲁什重申部落盟约但没有抹去父死与民众伤亡，构成萨尔归来前的政治既成局面。",
+      "sourceRefs": [
+        "text00472:p0002-p0050",
+        "text00472:p0051-p0079"
+      ]
+    },
+    {
+      "id": "16-f035",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "statement": "海啸袭塞拉摩，吉安娜救灾收容民众；她得知瓦里安拟暗杀茉艾拉后最终尊重安度因的政治判断，送他去铁炉堡阻止流血。瓦里安带十八名军情七处特工潜入。",
+      "sourceRefs": [
+        "text00473:p0004-p0032",
+        "text00473:p0033-p0081"
+      ]
+    },
+    {
+      "id": "16-f036",
+      "type": "fact",
+      "characters": [
+        "varian"
+      ],
+      "statement": "瓦里安挟持茉艾拉拟处决，安度因与洛汉指出其合法继承权及内战风险；瓦里安接受治理须赢得民心，提出三锤议会并放开茉艾拉，承认需要有人相信自己。",
+      "sourceRefs": [
+        "text00474:p0035-p0083"
+      ]
+    },
+    {
+      "id": "16-f037",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔返加拉达尔才收到凯恩之死与政变消息，立即决定回艾泽拉斯。信使所称贝恩情况不明、加尔鲁什等待胜者是当时信息，不能覆盖此前读者已知雷霆崖收复的叙事。萨尔因最后一次与凯恩争执而自责。",
+      "sourceRefs": [
+        "text00474:p0084-p0104"
+      ]
+    },
+    {
+      "id": "16-f038",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "阿格娜承认初因萨尔不留祖地及为异世界求学而偏见，后来因他耐心、不以权势换教师、幻象所见对众人之爱与责任而改观。她提出同行，萨尔拥抱她并欢迎她的意见；此时不可推定已经正式结婚。",
+      "sourceRefs": [
+        "text00474:p0105-p0129"
+      ]
+    },
+    {
+      "id": "16-f039",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "凯恩遗体旁萨尔求回应未获答，追悔最后争执，称凯恩与牛头人为部落之心；他认为自己任命加尔鲁什必须担责，不能以与继任者公开争执分裂部落。内战及自己继续领导将失败是他的预判，非已发生历史。",
+      "sourceRefs": [
+        "text00475:p0004-p0023"
+      ]
+    },
+    {
+      "id": "16-f040",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔在现实中自愿脱下大酋长铠甲、换棕袍念珠，承认肩负整个艾泽拉斯；取凯恩符文之矛刻有“治愈”的碎片纪念。与第二十五章幻象里铠甲碎裂须分开：现实铠甲保存并请贝恩取回送奥格瑞玛。",
+      "sourceRefs": [
+        "text00475:p0024-p0033",
+        "text00475:p0054-p0056"
+      ]
+    },
+    {
+      "id": "16-f041",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "灾变震动时萨尔感受世界创伤和元素恐惧而昏厥，醒后与贝恩说明无法再以大酋长身份兼顾两重责任，决定传信奥格瑞玛并启航调查。贝恩虽希望他复任仍理解其离去。",
+      "sourceRefs": [
+        "text00475:p0042-p0060"
+      ]
+    },
+    {
+      "id": "16-f042",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "尾声萨尔与阿格娜从雷霆崖至棘齿城，乘德拉卡的狂怒号赴东部王国寻世界创伤；对加兹鲁维仍说“至少得持续上一阵子”，加尔鲁什“继续代行”大酋长。正文未在此完成永久退位制度手续，也未写出抵达大漩涡后续事件。",
+      "sourceRefs": [
+        "text00476:p0002-p0020"
+      ]
+    },
+    {
+      "id": "16-f043",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "加兹鲁维称阿格娜为夫人是其称呼，不足证明已婚；萨尔公开为加尔鲁什在凯恩事件的荣誉作有限辩护，不能泛化为批准其后来所有政策。尾声结尾自我身份为萨尔、杜隆坦与德拉卡之子、萨满祭司。",
+      "sourceRefs": [
+        "text00476:p0009-p0012",
+        "text00476:p0017-p0020"
+      ]
+    }
+  ],
+  "nextDocument": null,
+  "limitations": [
+    "全部43文档按manifest顺序完整阅读，含空封面及附录；正文为序章、1—32章、尾声。",
+    "导读、注释、营销续页、延展阅读、作者介绍为副文本；延展阅读提供检索方向，不等于其引述书已读。",
+    "text00451:p0027与p0031关于是否为违约道歉措辞存在张力；text00452:p0020、p0059支持仅就违约道歉而非谴责暴力方式，应保留版本措辞。",
+    "预言、启蒙幻象、人物反事实与政治判断不可直接转成客观已发生史实。",
+    "尾声称继续代行，不能以常识改写永久退位；加兹鲁维称夫人不构成婚礼证据。",
+    "本书未叙写大漩涡后续救世过程；需别书证据。"
+  ],
+  "subtitleCandidates": [
+    {
+      "text": "大地将会哭泣……",
+      "origin": "original",
+      "sourceRef": "text00444:p0001",
+      "scope": "上篇第一至十六章",
+      "applicability": "精确分部题已核实；对应范围可用，跨分部或全书单元不可笼统沿用，须独立判断。",
+      "sourceRange": "text00444:p0001—text00459:p0049"
+    },
+    {
+      "text": "世界将会崩毁……",
+      "origin": "original",
+      "sourceRef": "text00460:p0001",
+      "scope": "下篇第十七至三十二章",
+      "applicability": "精确分部题已核实；对应范围可用，跨分部或全书单元不可笼统沿用，须独立判断。",
+      "sourceRange": "text00460:p0001—text00475:p0064"
+    }
+  ],
+  "inferences": [
+    {
+      "id": "16-i001",
+      "type": "inference",
+      "characters": [
+        "thrall"
+      ],
+      "statement": "萨尔主弧可概括为政治与元素双重危机下的权力移交、学习倾听、自责与主动转换责任；离任既是救世界选择，也没有免除任命责任。",
+      "evidenceIds": [
+        "16-f011",
+        "16-f013",
+        "16-f015",
+        "16-f029",
+        "16-f038",
+        "16-f039",
+        "16-f040",
+        "16-f041"
+      ],
+      "scope": "策划解释，非原文标题或客观免责判决"
+    }
+  ]
+}

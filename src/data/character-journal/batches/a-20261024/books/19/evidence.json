@@ -1,0 +1,899 @@
+{
+  "bookId": "19",
+  "title": "吉安娜·普罗德摩尔：战争之潮",
+  "sourcePath": "E:\\魔兽官方小说\\19 吉安娜·普罗德摩尔：战争之潮.epub",
+  "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+  "runId": "batch-a-20261024-01",
+  "version": 6,
+  "status": "completed",
+  "coverage": [
+    {
+      "documentId": "text00548",
+      "href": "OEBPS/text00548.html",
+      "paragraphs": 0,
+      "readRange": "empty_document_verified",
+      "status": "read_complete",
+      "sourceDocumentSha256": "a0aeb67d6f7328791b35eca83321c34f6a1a7e51085e84da0681c796bdef311e"
+    },
+    {
+      "documentId": "text00549",
+      "href": "OEBPS/text00549.html",
+      "paragraphs": 7,
+      "readRange": "p0001-p0007",
+      "status": "read_complete",
+      "sourceDocumentSha256": "e9492e96adf7c79876a6a54bec71080c7c288d765905a3897752f063c4c57a01"
+    },
+    {
+      "documentId": "text00550",
+      "href": "OEBPS/text00550.html",
+      "paragraphs": 32,
+      "readRange": "p0001-p0032",
+      "status": "read_complete",
+      "sourceDocumentSha256": "7c392eafc49c0a58ec6a22a8b975e2398162f1e6e773d67c104d9fd6f45911fd"
+    },
+    {
+      "documentId": "text00551",
+      "href": "OEBPS/text00551.html",
+      "paragraphs": 5,
+      "readRange": "p0001-p0005",
+      "status": "read_complete",
+      "sourceDocumentSha256": "5669e8d5ce17615d8f4b341df83566888ddd616cd9dd7469c7f97899ef11105f"
+    },
+    {
+      "documentId": "text00552",
+      "href": "OEBPS/text00552.html",
+      "paragraphs": 98,
+      "readRange": "p0001-p0098",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c7c2af8251ee12768b9a046e95f6ded9e23f83d0424a120cd89d87ad947fea8e"
+    },
+    {
+      "documentId": "text00553",
+      "href": "OEBPS/text00553.html",
+      "paragraphs": 108,
+      "readRange": "p0001-p0108",
+      "status": "read_complete",
+      "sourceDocumentSha256": "957fe3acafde32be04e5ee786df78aa9089348f61fa156e41f3587e08123280c"
+    },
+    {
+      "documentId": "text00554",
+      "href": "OEBPS/text00554.html",
+      "paragraphs": 62,
+      "readRange": "p0001-p0062",
+      "status": "read_complete",
+      "sourceDocumentSha256": "21cba500d6d08693f282d523286a5b2b67d61247379ae859d281a008a617f37f"
+    },
+    {
+      "documentId": "text00555",
+      "href": "OEBPS/text00555.html",
+      "paragraphs": 77,
+      "readRange": "p0001-p0077",
+      "status": "read_complete",
+      "sourceDocumentSha256": "2f57f55267d43699c1e25ce9a12f8c225060c8484fd4c7832702d51ec244afde"
+    },
+    {
+      "documentId": "text00556",
+      "href": "OEBPS/text00556.html",
+      "paragraphs": 114,
+      "readRange": "p0001-p0114",
+      "status": "read_complete",
+      "sourceDocumentSha256": "85bb70c412bc59337a3520e727c0cadb7f5253a09de305119da17cab9d9ed6f2"
+    },
+    {
+      "documentId": "text00557",
+      "href": "OEBPS/text00557.html",
+      "paragraphs": 117,
+      "readRange": "p0001-p0117",
+      "status": "read_complete",
+      "sourceDocumentSha256": "49fbaa2b5ef9fb4d1ca6bb106dac8523c9b510c91fd478320ee3860e3126ae41"
+    },
+    {
+      "documentId": "text00558",
+      "href": "OEBPS/text00558.html",
+      "paragraphs": 86,
+      "readRange": "p0001-p0086",
+      "status": "read_complete",
+      "sourceDocumentSha256": "b4c821b20021bbfe14c606f11f43ec1fa8cf91204cc7ea6b2d83f7024c768366"
+    },
+    {
+      "documentId": "text00559",
+      "href": "OEBPS/text00559.html",
+      "paragraphs": 87,
+      "readRange": "p0001-p0087",
+      "status": "read_complete",
+      "sourceDocumentSha256": "fee4aa38f5d952a95414d7e3e7ce539572224c93159b38bbfca6edaea423a855"
+    },
+    {
+      "documentId": "text00560",
+      "href": "OEBPS/text00560.html",
+      "paragraphs": 117,
+      "readRange": "p0001-p0117",
+      "status": "read_complete",
+      "sourceDocumentSha256": "b01a13cd08aa41be6ce8006db21e62c8f810d2a935139dd2ce0841dbd85ccefa"
+    },
+    {
+      "documentId": "text00561",
+      "href": "OEBPS/text00561.html",
+      "paragraphs": 115,
+      "readRange": "p0001-p0115",
+      "status": "read_complete",
+      "sourceDocumentSha256": "94aea84e1520fd0c23c7f96fc1f76852e648fb349ba1b94278c64598f76486da"
+    },
+    {
+      "documentId": "text00562",
+      "href": "OEBPS/text00562.html",
+      "paragraphs": 106,
+      "readRange": "p0001-p0106",
+      "status": "read_complete",
+      "sourceDocumentSha256": "eda3df5252cd160595bd818bce923846c56759108e9cbc759bb4c1cd648164ff"
+    },
+    {
+      "documentId": "text00563",
+      "href": "OEBPS/text00563.html",
+      "paragraphs": 69,
+      "readRange": "p0001-p0069",
+      "status": "read_complete",
+      "sourceDocumentSha256": "a192d84b21d23cc3612fd9424dec6ede7523bdaaa67ad645997938a119e30e58"
+    },
+    {
+      "documentId": "text00564",
+      "href": "OEBPS/text00564.html",
+      "paragraphs": 82,
+      "readRange": "p0001-p0082",
+      "status": "read_complete",
+      "sourceDocumentSha256": "04ad30cb6b818e16b7bcccbc05aeee942a11354e0246ab1c8a97ce529be3afa4"
+    },
+    {
+      "documentId": "text00565",
+      "href": "OEBPS/text00565.html",
+      "paragraphs": 82,
+      "readRange": "p0001-p0082",
+      "status": "read_complete",
+      "sourceDocumentSha256": "9d02eb3961971a1422d85692427bdfd2f02a19e1ee1118fc8db822a2694b28e3"
+    },
+    {
+      "documentId": "text00566",
+      "href": "OEBPS/text00566.html",
+      "paragraphs": 81,
+      "readRange": "p0001-p0081",
+      "status": "read_complete",
+      "sourceDocumentSha256": "f6a76f7ff1edbba1f49674fd92b8653479db419df846e787e7742f2c5fedfa98"
+    },
+    {
+      "documentId": "text00567",
+      "href": "OEBPS/text00567.html",
+      "paragraphs": 71,
+      "readRange": "p0001-p0071",
+      "status": "read_complete",
+      "sourceDocumentSha256": "08891c1d547c50a72ad6ed5b31456fc0409e408d20a945fb170a17bbfe5ec619"
+    },
+    {
+      "documentId": "text00568",
+      "href": "OEBPS/text00568.html",
+      "paragraphs": 118,
+      "readRange": "p0001-p0118",
+      "status": "read_complete",
+      "sourceDocumentSha256": "f5ee1386a7fcbc58267c44a843b5df45304a5682a84211eab3177764a2fc84bf"
+    },
+    {
+      "documentId": "text00569",
+      "href": "OEBPS/text00569.html",
+      "paragraphs": 112,
+      "readRange": "p0001-p0112",
+      "status": "read_complete",
+      "sourceDocumentSha256": "646c6fcefc6210f0f810ad4d9c73d2f9ec627243e79ec4e90423f81c3148b4aa"
+    },
+    {
+      "documentId": "text00570",
+      "href": "OEBPS/text00570.html",
+      "paragraphs": 101,
+      "readRange": "p0001-p0101",
+      "status": "read_complete",
+      "sourceDocumentSha256": "233d8de8d49cc08c48fc727937355c79c5296d95fad49d9363a87ced41ba8359"
+    },
+    {
+      "documentId": "text00571",
+      "href": "OEBPS/text00571.html",
+      "paragraphs": 90,
+      "readRange": "p0001-p0090",
+      "status": "read_complete",
+      "sourceDocumentSha256": "967cddd1deffc5e7f3570fa9fb67ce82f9d7be051e05922a1783edac08a42a57"
+    },
+    {
+      "documentId": "text00572",
+      "href": "OEBPS/text00572.html",
+      "paragraphs": 70,
+      "readRange": "p0001-p0070",
+      "status": "read_complete",
+      "sourceDocumentSha256": "0cb5c84d816df7826a5b46e1d646a93b5e3b7e4be4c3b2e2452962063c6e5d82"
+    },
+    {
+      "documentId": "text00573",
+      "href": "OEBPS/text00573.html",
+      "paragraphs": 73,
+      "readRange": "p0001-p0073",
+      "status": "read_complete",
+      "sourceDocumentSha256": "d364a8a44230c237114f5f7e9011a53e2287aa27025390588ced31928394fb00"
+    },
+    {
+      "documentId": "text00574",
+      "href": "OEBPS/text00574.html",
+      "paragraphs": 116,
+      "readRange": "p0001-p0116",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c98c142a6490ffd53263c017405625da89c2f6da3699a88cac0d20f2b9dbd298"
+    },
+    {
+      "documentId": "text00575",
+      "href": "OEBPS/text00575.html",
+      "paragraphs": 110,
+      "readRange": "p0001-p0110",
+      "status": "read_complete",
+      "sourceDocumentSha256": "9c68361b02ee32e4f587fd57b44d70fbb078a25bbb68b8e25bf4ae977a9f3337"
+    },
+    {
+      "documentId": "text00576",
+      "href": "OEBPS/text00576.html",
+      "paragraphs": 113,
+      "readRange": "p0001-p0113",
+      "status": "read_complete",
+      "sourceDocumentSha256": "4625567953bb2fecb8cf8c1efd91a19467f6c98a1236861df3810f37f916be2f"
+    },
+    {
+      "documentId": "text00577",
+      "href": "OEBPS/text00577.html",
+      "paragraphs": 73,
+      "readRange": "p0001-p0073",
+      "status": "read_complete",
+      "sourceDocumentSha256": "e9bae90ba409ce75da6b516e6e2e059d33a8069e82829cf23d25901e840b57dc"
+    },
+    {
+      "documentId": "text00578",
+      "href": "OEBPS/text00578.html",
+      "paragraphs": 108,
+      "readRange": "p0001-p0108",
+      "status": "read_complete",
+      "sourceDocumentSha256": "b30190fc5009feb441b4c131601f3635732afc601f98c5276dc9262ebe04bdc6"
+    },
+    {
+      "documentId": "text00579",
+      "href": "OEBPS/text00579.html",
+      "paragraphs": 71,
+      "readRange": "p0001-p0071",
+      "status": "read_complete",
+      "sourceDocumentSha256": "cefd69b054c710708726402b9f07c6758bcfcb62781a4626ed4655b70755a7c1"
+    },
+    {
+      "documentId": "text00580",
+      "href": "OEBPS/text00580.html",
+      "paragraphs": 6,
+      "readRange": "p0001-p0006",
+      "status": "read_complete",
+      "sourceDocumentSha256": "4902bf70442655cce75d1bbcb28f1d1215b9a3a5d3b07bd7bebc32fc6292c508"
+    }
+  ],
+  "facts": [
+    {
+      "id": "19-f001",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "开篇回顾死亡之翼已被巨龙与兽人共同击败、守护巨龙失去神力；本书发生于18之后，并非18结尾直接杀死死亡之翼。",
+      "sourceRefs": [
+        "text00552:p0003-p0005"
+      ]
+    },
+    {
+      "id": "19-f002",
+      "type": "fact",
+      "characters": [
+        "voljin",
+        "thrall"
+      ],
+      "summary": "加尔鲁什宣称萨尔已交权，其想法不再重要。沃金反对逐走暗夜精灵，认为会给联盟战争借口；因受辱搬离奥格瑞玛，后为保护近城族人克制发言。贝恩对比两任酋长作风是人物视角。",
+      "sourceRefs": [
+        "text00553:p0046-p0056",
+        "text00553:p0083-p0097"
+      ]
+    },
+    {
+      "id": "19-f003",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "秘密会面中萨尔改穿萨满长袍、背毁灭之锤，要求称古伊尔，自述现为大地之环领袖；接替大地守护者职责但将胜利归巨龙和各族，不据此称真正守护巨龙。",
+      "sourceRefs": [
+        "text00554:p0013-p0026"
+      ]
+    },
+    {
+      "id": "19-f004",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina",
+        "varian"
+      ],
+      "summary": "吉安娜要求他阻止加尔鲁什挑战、提议联合贝恩与瓦里安召开首领会。萨尔知道奥格瑞玛灰谷情况但强调其他使命、联盟亦有责任，未同意介入。她认为被辜负，同时承认说他一直袖手旁观不公平。",
+      "sourceRefs": [
+        "text00554:p0029-p0046"
+      ]
+    },
+    {
+      "id": "19-f005",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "萨尔述阿格娜为玛格汉萨满、共同疗愈世界并疗愈他；认为伴侣接纳完整自我令他振作，祝吉安娜找到幸福，双方仍以朋友相待。",
+      "sourceRefs": [
+        "text00554:p0050-p0062"
+      ]
+    },
+    {
+      "id": "19-f006",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "吉安娜在罗宁建议下收金迪为徒，同时知道金迪需向肯瑞托报告；由怀念导师转为愿传承魔法，逐渐为学生骄傲。她现为独立领主，不属肯瑞托。",
+      "sourceRefs": [
+        "text00555:p0010-p0044"
+      ]
+    },
+    {
+      "id": "19-f007",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "吉安娜信任卡雷求助、召集特沃什金迪蓓恩查聚焦之虹；她怀念学习快乐，卡雷分享责任与喜悦的魔法观，关系初步靠近。",
+      "sourceRefs": [
+        "text00556:p0020-p0077",
+        "text00556:p0088-p0114"
+      ]
+    },
+    {
+      "id": "19-f008",
+      "type": "fact",
+      "characters": [
+        "voljin"
+      ],
+      "summary": "沃金带巨魔与贝恩联军攻击联盟岗哨；私下述异见者被捕殴打失踪与自身谨慎，不能写成仅和平旁观者；对于加尔鲁什是否直接知情明确表示无法确定。",
+      "sourceRefs": [
+        "text00557:p0004-p0031"
+      ]
+    },
+    {
+      "id": "19-f009",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "thrall",
+        "varian"
+      ],
+      "summary": "吉安娜向卡雷倾诉萨尔瓦里安等不听劝的无力感；卡雷以变化的数学魔法形象说明变化可能，随后获知部落集结。情绪为她的视角，不证明所有努力无效。",
+      "sourceRefs": [
+        "text00557:p0085-p0117"
+      ]
+    },
+    {
+      "id": "19-f010",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "为查危险神器而未去北方城堡，回忆安东尼达斯命她离开受攻的达拉然。与12版本相关场景需保留冲突，不默默合并。随后推断变形术掩盖聚焦之虹，协助卡雷重新追踪。",
+      "sourceRefs": [
+        "text00560:p0008-p0038"
+      ]
+    },
+    {
+      "id": "19-f011",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "贝恩以破惧者为信物派佩里斯警告塞拉摩将受攻，吉安娜感谢且承认贝恩仍参与针对联盟暴行；提供信使安全手札，掩护消息源；贝恩归还锤不等于投奔联盟。",
+      "sourceRefs": [
+        "text00560:p0076-p0117"
+      ]
+    },
+    {
+      "id": "19-f012",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "summary": "吉安娜布置城防、告知民众实情、日落后两小时宵禁兼顾人性；瓦里安虽斥其信部落，承诺第七军团海军与优秀将领，解释集结时间并联系吉恩。",
+      "sourceRefs": [
+        "text00561:p0038-p0073",
+        "text00561:p0095-p0114"
+      ]
+    },
+    {
+      "id": "19-f013",
+      "type": "fact",
+      "characters": [
+        "voljin",
+        "thrall"
+      ],
+      "summary": "沃金参与贝恩秘密会议，追忆森金预示萨尔带来安宁，指出黑暗萨满奴役元素将反噬。哈缪尔称萨尔肯听意见团结部落；这些是人物评价，非萨尔本场行动。加尔鲁什撞破会议威胁众人并贬萨尔。",
+      "sourceRefs": [
+        "text00562:p0004-p0042"
+      ]
+    },
+    {
+      "id": "19-f014",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "部落舰队停界外，吉安娜拒先攻以免成为侵略者；保护贝恩消息来源，赴肯瑞托求援，以平民与大陆平衡劝中立法师协防。",
+      "sourceRefs": [
+        "text00562:p0062-p0106",
+        "text00563:p0019-p0031"
+      ]
+    },
+    {
+      "id": "19-f015",
+      "type": "fact",
+      "characters": [
+        "khadgar",
+        "jaina"
+      ],
+      "summary": "卡德加以六人议会成员身份参加吉安娜求援会议，介绍其麦迪文学徒/闭门/外域经历及年龄外貌；吉安娜观察他似认同，不能据此捏造他单独决定援军。",
+      "sourceRefs": [
+        "text00563:p0017-p0020"
+      ]
+    },
+    {
+      "id": "19-f016",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "罗宁率法师仅防御援助，艾萨斯决定性赞成票；吉安娜暂拒回肯瑞托，以保卫人民为先，认为自己创建塞拉摩是和平希望，章节题名“我即塞拉摩”对应此阶段。",
+      "sourceRefs": [
+        "text00564:p0038-p0042",
+        "text00564:p0058-p0082"
+      ]
+    },
+    {
+      "id": "19-f017",
+      "type": "fact",
+      "characters": [
+        "voljin"
+      ],
+      "summary": "沃金与贝恩为免己军面对强化防御而催进攻，并非知道炸弹后共谋；加尔鲁什反令舰队退远，二人困惑。",
+      "sourceRefs": [
+        "text00565:p0002-p0027"
+      ]
+    },
+    {
+      "id": "19-f018",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "varian",
+        "malfurion"
+      ],
+      "summary": "二十艘第七舰队与各族将领抵达，吉安娜感谢瓦里安/玛法里奥等援助；珊蒂斯代述大德鲁伊和泰兰德支持，不可写玛法里奥亲临。",
+      "sourceRefs": [
+        "text00565:p0029-p0055",
+        "text00565:p0075-p0076"
+      ]
+    },
+    {
+      "id": "19-f019",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "即使父兄因部落死亡，吉安娜仍反对灭绝仇恨，区分保卫家园与侮辱尸体。卡雷承诺并肩防御，个人情感与使命交织。",
+      "sourceRefs": [
+        "text00566:p0026-p0052"
+      ]
+    },
+    {
+      "id": "19-f020",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "吉安娜派星辰之剑号将所有孩子和愿走的家属平民送加基森；留下者含自愿保家平民，不能称炸弹杀全城所有孩子。",
+      "sourceRefs": [
+        "text00567:p0005-p0011",
+        "text00570:p0064"
+      ]
+    },
+    {
+      "id": "19-f021",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "voljin"
+      ],
+      "summary": "吉安娜与金迪施法守城，识破织歌者削弱北门，仍主张正规审讯；卡雷堵门，沃金发现被困警告贝恩加尔鲁什并组织撤退。吉安娜仍回避先向贝恩开火。",
+      "sourceRefs": [
+        "text00568:p0011-p0023",
+        "text00568:p0051-p0072",
+        "text00568:p0086-p0118"
+      ]
+    },
+    {
+      "id": "19-f022",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "voljin"
+      ],
+      "summary": "首次击退后吉安娜安慰金迪见证战争死亡；加尔鲁什向愤怒贝恩/沃金揭示诱集联盟精锐、救织歌者和毁防空后投炸弹计划。沃金先前认为刚发生的是灾难性战败而非预知炸弹。",
+      "sourceRefs": [
+        "text00569:p0020-p0035",
+        "text00569:p0036-p0053"
+      ]
+    },
+    {
+      "id": "19-f023",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "法力炸弹造成抑制力场；罗宁与吉安娜合开通往小岛传送门，罗宁引弹入法师塔缩爆炸范围，强推不愿弃城弃友的吉安娜入门，死于爆炸。卡雷空中拦炸弹被击落。",
+      "sourceRefs": [
+        "text00569:p0060-p0112"
+      ]
+    },
+    {
+      "id": "19-f024",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "爆炸改变头发与眼睛，伤重和幸存者自责；返回废墟确认朋友死亡，触碰金迪尸体碎成粉末，愤怒迁移至全部部落并误怀疑贝恩早知情。随后杀来袭兽人并近距离处决最后伤者，以自身能量掩藏聚焦之虹图复仇。",
+      "sourceRefs": [
+        "text00570:p0023-p0052",
+        "text00570:p0053-p0101"
+      ]
+    },
+    {
+      "id": "19-f025",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "大地之环修复世界已有细微进展，萨尔视其为最有意义快乐工作，阿格娜互相扶持。收到伊崔格信后公开给跨阵营同僚听，自以为吉安娜已死，震惊悲痛。",
+      "sourceRefs": [
+        "text00571:p0002-p0023"
+      ]
+    },
+    {
+      "id": "19-f026",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "听塞拉摩毁灭后萨尔自问任命错误，认吉安娜劝告正确、仍有更大责任；想披甲持锤惩加尔鲁什。努波顿明确允许自由离开，但萨尔选择留下继续紧迫疗伤使命，而非被禁止离开。责任冲突尚未解决。",
+      "sourceRefs": [
+        "text00571:p0024-p0038"
+      ]
+    },
+    {
+      "id": "19-f027",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "summary": "吉安娜父雕像前认戴琳正确，求立即灭奥格瑞玛。瓦里安不否认反击但拒无策略牺牲，坚持重建舰队/突破封锁，遭其斥懦夫。",
+      "sourceRefs": [
+        "text00571:p0054-p0090"
+      ]
+    },
+    {
+      "id": "19-f028",
+      "type": "fact",
+      "characters": [
+        "varian",
+        "malfurion"
+      ],
+      "summary": "瓦里安与安度因谈丧失和仇恨，认可儿子、认识自身在戈德林祝福后的变化，承诺不仿加尔鲁什手段；布罗尔转达玛法里奥泰兰德会派未受封锁精灵船协助。",
+      "sourceRefs": [
+        "text00572:p0050-p0070"
+      ]
+    },
+    {
+      "id": "19-f029",
+      "type": "fact",
+      "characters": [
+        "khadgar",
+        "jaina"
+      ],
+      "summary": "卡德加代表议会谴责塞拉摩暴行，但拒将达拉然用于灭奥格瑞玛，指出城中商人旅人孤儿无辜、肯瑞托需改革；吉安娜反称孩子长大仍成部落后离去。",
+      "sourceRefs": [
+        "text00573:p0018-p0028",
+        "text00573:p0043-p0048"
+      ]
+    },
+    {
+      "id": "19-f030",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "金迪父母反过来安慰她并以点灯幻影纪念女儿；她仍盗取并强破导师封印秘典、隐瞒卡雷聚焦之虹、求其帮复仇遭拒。",
+      "sourceRefs": [
+        "text00573:p0029-p0042",
+        "text00573:p0049-p0073",
+        "text00574:p0002-p0028"
+      ]
+    },
+    {
+      "id": "19-f031",
+      "type": "fact",
+      "characters": [
+        "varian"
+      ],
+      "summary": "瓦里安听取联盟代表后改策以双重假情报诱部落往黑海岸，攻奥格瑞玛并希望反对派响应。出征承诺不复制灭城报复，授权安度因留守，承认其贤明及自己可能不归。",
+      "sourceRefs": [
+        "text00574:p0056-p0081",
+        "text00574:p0082-p0116"
+      ]
+    },
+    {
+      "id": "19-f032",
+      "type": "fact",
+      "characters": [
+        "thrall"
+      ],
+      "summary": "元素让萨尔看到水元素被奴役毁奥格瑞玛的幻象，并示勇士岛；这是警告未成事实。众萨满判断仅他受召，他告别阿格娜独往。",
+      "sourceRefs": [
+        "text00575:p0042-p0073"
+      ]
+    },
+    {
+      "id": "19-f033",
+      "type": "fact",
+      "characters": [
+        "voljin"
+      ],
+      "summary": "剃刀岭旅店被库卡隆爆破后，沃金考虑为族人撤离、冥想寻洛阿意见，随后接联盟舰队逼近报告；并未在此证明正式退出部落。",
+      "sourceRefs": [
+        "text00574:p0029-p0055",
+        "text00575:p0074-p0080"
+      ]
+    },
+    {
+      "id": "19-f034",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "萨尔抵勇士岛惊喜她生还，请释元素；吉安娜指责其任命赋权导致惨剧，他愿承担指责但拒杀无辜。她发动潮浪，他以风阻挡；明确对抗神器增幅，非普通实力排名。",
+      "sourceRefs": [
+        "text00576:p0021-p0042"
+      ]
+    },
+    {
+      "id": "19-f035",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "吉安娜意图杀萨尔，他不愿杀曾珍视朋友、冒险压制浪潮；火柱撞水墙、幽灵狼拖延，终全力维系风障无法自卫，宁被杀也不许灭城。卡雷及时到场。",
+      "sourceRefs": [
+        "text00576:p0043-p0071"
+      ]
+    },
+    {
+      "id": "19-f036",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "萨尔明确不阻她对加尔鲁什作战、呼吁勿扼杀孩子未来，并将正义/复仇区别对照同一神器重复暴行；卡雷唤起阿尔萨斯屠城记忆。她主动撤灭城海啸，不是萨尔击败或独自说服。",
+      "sourceRefs": [
+        "text00576:p0059-p0067",
+        "text00576:p0072-p0104"
+      ]
+    },
+    {
+      "id": "19-f037",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "吉安娜保留水元素用于援联盟、表明不再不计代价和平，双方深厚友谊断裂而非即时和解；萨尔承认其有理由向部落战争，结束后回大漩涡继续疗伤，不复任大酋长。",
+      "sourceRefs": [
+        "text00576:p0101-p0113"
+      ]
+    },
+    {
+      "id": "19-f038",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "吉安娜赶到刃拳湾后意识到先前海啸会连联盟舰队一起毁灭，内心感谢萨尔与卡雷苟斯；这是她事后获知舰队位置后的判断，不是萨尔事先掌握联盟计划。",
+      "sourceRefs": [
+        "text00577:p0039-p0044"
+      ]
+    },
+    {
+      "id": "19-f039",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "summary": "瓦里安与加尔鲁什交手时没有被侮辱安度因的话激怒失控；海怪摧毁舰队时先命部下撤退、拒绝优先营救自己，随后绝望转而杀死落水敌人。吉安娜以水元素杀死海怪、卡雷救出瓦里安，三人援军再夺回北方城堡；不能把瓦里安写成全程冷静或这场海战毫无代价的胜利。",
+      "sourceRefs": [
+        "text00577:p0024-p0030",
+        "text00577:p0046-p0073",
+        "text00578:p0002-p0023"
+      ]
+    },
+    {
+      "id": "19-f040",
+      "type": "fact",
+      "characters": [
+        "voljin"
+      ],
+      "summary": "加尔鲁什撤回封锁舰队却宣告升级战争；贝恩公开警告不得重演塞拉摩，沃金向贝恩悲哀摇头，叙述从贝恩理解其要保护族人。此时尚不是沃金正式发动起义。",
+      "sourceRefs": [
+        "text00578:p0029-p0054"
+      ]
+    },
+    {
+      "id": "19-f041",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "吉安娜在塞拉摩接受卡雷安慰时回想萨尔关于相互疗愈与伴侣接纳的谈话，仍称那是与“还是朋友的萨尔”的最后谈话。她感谢萨尔阻止灭城、认可旧日劝慰，不等于恢复两人的友谊。",
+      "sourceRefs": [
+        "text00578:p0082-p0091"
+      ]
+    },
+    {
+      "id": "19-f042",
+      "type": "fact",
+      "characters": [
+        "jaina"
+      ],
+      "summary": "吉安娜重返废墟哀悼，寻回破惧者计划还给安度因并道歉；她放弃复仇但不再认为和平总是最后答案，认为加尔鲁什领导下无法和睦共处；决定返回达拉然，并与卡雷建立亲密关系。",
+      "sourceRefs": [
+        "text00578:p0067-p0078",
+        "text00578:p0094-p0108"
+      ]
+    },
+    {
+      "id": "19-f043",
+      "type": "fact",
+      "characters": [
+        "thrall",
+        "jaina",
+        "khadgar"
+      ],
+      "summary": "尾声吉安娜归还偷取典籍，并明确说卡雷苟斯和萨尔使她恢复理智；卡德加主持对话、议会商议后邀请她任肯瑞托领袖，继而邀请卡雷入会。预言卷轴未明示她姓名，议会还依据她最终放弃灭城的选择与人格判断，不应写成预言点名或卡德加独断任命。",
+      "sourceRefs": [
+        "text00579:p0003-p0026",
+        "text00579:p0028-p0044"
+      ]
+    },
+    {
+      "id": "19-f044",
+      "type": "fact",
+      "characters": [
+        "jaina",
+        "varian"
+      ],
+      "summary": "吉安娜在罗宁追悼仪式承诺聆听议会、传播理性，同时承认其反加尔鲁什立场与中立职责的冲突尚未解决。瓦里安继续备战，加尔鲁什全面动员；本书结尾不是联盟部落达成和平。",
+      "sourceRefs": [
+        "text00579:p0045-p0071"
+      ]
+    }
+  ],
+  "inferences": [
+    {
+      "id": "19-i001",
+      "type": "inference",
+      "summary": "萨尔从世界使命获得自我完整，却与需要政治介入的旧盟友产生责任分歧；不能把平静当作已完全解决领袖责任。",
+      "basedOn": [
+        "19-f003",
+        "19-f004",
+        "19-f005"
+      ]
+    },
+    {
+      "id": "19-i002",
+      "type": "inference",
+      "summary": "萨尔的修复职责必须同时面对政治继任的代价；救城阻暴并未修复友情或意味着加尔鲁什罪行由他亲为。",
+      "basedOn": [
+        "19-f026",
+        "19-f034",
+        "19-f037"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "characters": [
+        "thrall",
+        "jaina"
+      ],
+      "summary": "旧日朋友在职责选择与塞拉摩灾难后决裂；萨尔协助阻止吉安娜屠城，她感激但未恢复友谊。",
+      "sourceRefs": [
+        "text00554:p0029-p0062",
+        "text00576:p0021-p0113",
+        "text00578:p0087-p0091"
+      ]
+    },
+    {
+      "characters": [
+        "thrall",
+        "aggra"
+      ],
+      "summary": "共同疗愈世界与自身的伴侣；阿格娜理解其响应元素召唤的必要，告别后留守。",
+      "sourceRefs": [
+        "text00554:p0050-p0062",
+        "text00575:p0042-p0073"
+      ]
+    },
+    {
+      "characters": [
+        "thrall",
+        "garrosh"
+      ],
+      "summary": "萨尔承认任命继任者的责任并后悔，保护奥格瑞玛无辜者不代表赞同加尔鲁什战争。",
+      "sourceRefs": [
+        "text00571:p0024-p0038",
+        "text00576:p0021-p0113"
+      ]
+    }
+  ],
+  "subtitleCheck": {
+    "status": "completed",
+    "checked": "完整核查版权、目录、献词、27章、尾声和致谢。未找到可直接涵盖萨尔本书全段的官方人物副标题；不可把书名冒号后或章节标题自动认定为萨尔副标题。",
+    "candidates": [
+      {
+        "text": "我即塞拉摩",
+        "sourceRef": "text00564:p0001",
+        "type": "chapter_title",
+        "applicability": "吉安娜建城责任/守城阶段候选，不适合萨尔全篇，仍待策划选择"
+      },
+      {
+        "text": "我们都需要，无论我们是否觉察得到",
+        "sourceRef": "text00578:p0089",
+        "type": "character_dialogue_recalled_by_jaina",
+        "applicability": "仅萨尔伴侣与疗愈主题可考虑，非官方称号；原始谈话见第3章，须由策划按范围确认"
+      }
+    ],
+    "thrallDecision": "如策划需要副标题，应标编辑概括并绑定证据；“不可行的和平”“聚焦能量”为本书章名，不能冒充萨尔原文称号。"
+  },
+  "gaps": [],
+  "resumeAt": null,
+  "readButUnrecorded": [],
+  "limitations": [
+    "text00560:p0008回忆吉安娜在达拉然临战与安东尼达斯道别；对照12既有版本场景，保留来源差异。",
+    "章节7题名北望城堡而正文常用北方城堡，引用保留原文。",
+    "本书text00570:p0098称吉安娜“唯一幸存者”，但前文有同行传送者、事先撤走平民及追击者；不得当作全城仅她一人生还的统计。",
+    "text00575:p0042-p0073的淹城是元素示警幻象，不是已经发生的灾难。",
+    "text00579:p0028-p0038为卷轴预言，议会解释指向吉安娜，但卷轴未写名字；不得当作当事人现场行动。",
+    "text00578:p0055约两星期为吉安娜估算，不设定精确纪年或日期。",
+    "text00580为作者致谢及游戏宣传附录，其现实发行资料不作角色亲历事件。"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "unitId": "thrall-part-05",
+  "status": "passed",
+  "reviewMethod": "生成后使用view_image重新查看最终工作区PNG",
+  "imageSha256": "0271da8ca327515983d4451ed1e2ca9794a7629cf5ad4d38d78398428d34f360",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "checks": [
+    "整幅含天空、环境、面部与手部皆有连续铅条玻璃分片",
+    "无文字、可读符文、水印或无关宗教图案",
+    "单一连续场景，无拼贴",
+    "人物神态严肃，非庆功",
+    "湿海岸、远处石堡、飞艇绳梯清楚",
+    "萨尔高举方头锤作止战命令，未击打人物",
+    "双方士兵分开、武器压低或放下，无血腥处决"
+  ],
+  "limitations": [
+    "服装装饰、建筑细部为艺术处理，不作为新原文事实。"
+  ],
+  "generationTool": "built_in_image_gen",
+  "publicationAuthorized": false
+}

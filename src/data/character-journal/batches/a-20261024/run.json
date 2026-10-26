@@ -1,0 +1,359 @@
+{
+  "runId": "batch-a-20261024-01",
+  "status": "thrall_content_completed_unpublished",
+  "scope": "thrall_approved_plan_prose_and_illustrations_only",
+  "bookIds": [
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "10",
+    "11",
+    "12",
+    "13",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "24",
+    "25",
+    "26"
+  ],
+  "tasks": [
+    {
+      "taskId": "thrall",
+      "characterName": "萨尔",
+      "batch": "A",
+      "status": "content_completed_unpublished",
+      "primaryBookIds": [
+        "10",
+        "13",
+        "16",
+        "18"
+      ],
+      "supplementaryBookIds": [
+        "05",
+        "19",
+        "21",
+        "26"
+      ],
+      "proposedFocus": "从奴隶到领袖，再到萨满的身份转变",
+      "associationStatus": "verified_from_sources",
+      "nameSearchEvidence": [
+        {
+          "bookId": "10",
+          "query": "萨尔",
+          "substringCount": 1340
+        },
+        {
+          "bookId": "13",
+          "query": "萨尔",
+          "substringCount": 205
+        },
+        {
+          "bookId": "16",
+          "query": "萨尔",
+          "substringCount": 490
+        },
+        {
+          "bookId": "18",
+          "query": "萨尔",
+          "substringCount": 1323
+        }
+      ],
+      "nextAction": "user_review_generated_content",
+      "outputsAfterApproval": [
+        "overview_plan",
+        "section_plans"
+      ],
+      "sectionCount": 11,
+      "planAccepted": true,
+      "integrationPath": "characters/thrall/integration.json",
+      "planPath": "characters/thrall/publication-plan.json",
+      "reviewPath": "characters/thrall/审阅简版.txt",
+      "writingAuthorized": true,
+      "artAuthorized": true,
+      "publicationAuthorized": false,
+      "productionPath": "characters/thrall/production-run.json",
+      "previewPath": "characters/thrall/preview.html",
+      "textCount": 12,
+      "imageCount": 12
+    },
+    {
+      "taskId": "jaina",
+      "characterName": "吉安娜",
+      "batch": "A",
+      "status": "checkpointed",
+      "primaryBookIds": [
+        "12",
+        "13",
+        "19",
+        "21"
+      ],
+      "supplementaryBookIds": [
+        "16",
+        "26"
+      ],
+      "proposedFocus": "和平理想、私人关系与战争创伤",
+      "associationStatus": "being_verified_from_sources",
+      "nameSearchEvidence": [
+        {
+          "bookId": "12",
+          "query": "吉安娜",
+          "substringCount": 643
+        },
+        {
+          "bookId": "13",
+          "query": "吉安娜",
+          "substringCount": 289
+        },
+        {
+          "bookId": "19",
+          "query": "吉安娜",
+          "substringCount": 914
+        },
+        {
+          "bookId": "21",
+          "query": "吉安娜",
+          "substringCount": 482
+        }
+      ],
+      "nextAction": "resume_unread_book_ranges_only_when_requested",
+      "outputsAfterApproval": [
+        "overview_plan",
+        "section_plans"
+      ],
+      "sectionCount": null,
+      "planAccepted": false
+    },
+    {
+      "taskId": "voljin",
+      "characterName": "沃金",
+      "batch": "A",
+      "status": "checkpointed",
+      "primaryBookIds": [
+        "20"
+      ],
+      "supplementaryBookIds": [
+        "19",
+        "21"
+      ],
+      "proposedFocus": "重伤、信念与部落归属",
+      "associationStatus": "being_verified_from_sources",
+      "nameSearchEvidence": [
+        {
+          "bookId": "20",
+          "query": "沃金",
+          "substringCount": 985
+        }
+      ],
+      "nextAction": "resume_unread_book_ranges_only_when_requested",
+      "outputsAfterApproval": [
+        "overview_plan",
+        "section_plans"
+      ],
+      "sectionCount": null,
+      "planAccepted": false
+    },
+    {
+      "taskId": "tirion",
+      "characterName": "提里奥·弗丁",
+      "batch": "A",
+      "status": "checkpointed",
+      "primaryBookIds": [
+        "11"
+      ],
+      "supplementaryBookIds": [
+        "26"
+      ],
+      "proposedFocus": "荣誉与阵营义务的冲突",
+      "associationStatus": "being_verified_from_sources",
+      "nameSearchEvidence": [
+        {
+          "bookId": "11",
+          "query": "提里奥",
+          "substringCount": 572
+        }
+      ],
+      "nextAction": "resume_unread_book_ranges_only_when_requested",
+      "outputsAfterApproval": [
+        "overview_plan",
+        "section_plans"
+      ],
+      "sectionCount": null,
+      "planAccepted": false
+    },
+    {
+      "taskId": "khadgar",
+      "characterName": "卡德加",
+      "batch": "A",
+      "status": "checkpointed",
+      "primaryBookIds": [
+        "06",
+        "07",
+        "08"
+      ],
+      "supplementaryBookIds": [
+        "25"
+      ],
+      "proposedFocus": "学徒、守护者真相与远征责任",
+      "associationStatus": "being_verified_from_sources",
+      "nameSearchEvidence": [
+        {
+          "bookId": "06",
+          "query": "卡德加",
+          "substringCount": 1179
+        },
+        {
+          "bookId": "07",
+          "query": "卡德加",
+          "substringCount": 235
+        },
+        {
+          "bookId": "08",
+          "query": "卡德加",
+          "substringCount": 378
+        }
+      ],
+      "nextAction": "resume_unread_book_ranges_only_when_requested",
+      "outputsAfterApproval": [
+        "overview_plan",
+        "section_plans"
+      ],
+      "sectionCount": null,
+      "planAccepted": false
+    },
+    {
+      "taskId": "malfurion",
+      "characterName": "玛法里奥",
+      "batch": "A",
+      "status": "checkpointed",
+      "primaryBookIds": [
+        "02",
+        "03",
+        "04",
+        "17"
+      ],
+      "supplementaryBookIds": [
+        "15",
+        "24",
+        "26"
+      ],
+      "proposedFocus": "德鲁伊的成长、战争与梦境责任",
+      "associationStatus": "being_verified_from_sources",
+      "nameSearchEvidence": [
+        {
+          "bookId": "02",
+          "query": "玛法里奥",
+          "substringCount": 513
+        },
+        {
+          "bookId": "03",
+          "query": "玛法里奥",
+          "substringCount": 650
+        },
+        {
+          "bookId": "04",
+          "query": "玛法里奥",
+          "substringCount": 694
+        },
+        {
+          "bookId": "17",
+          "query": "玛法里奥",
+          "substringCount": 968
+        }
+      ],
+      "nextAction": "resume_unread_book_ranges_only_when_requested",
+      "outputsAfterApproval": [
+        "overview_plan",
+        "section_plans"
+      ],
+      "sectionCount": null,
+      "planAccepted": false
+    },
+    {
+      "taskId": "varian",
+      "characterName": "瓦里安",
+      "batch": "A",
+      "status": "checkpointed",
+      "primaryBookIds": [
+        "15"
+      ],
+      "supplementaryBookIds": [
+        "16",
+        "17",
+        "19",
+        "21",
+        "26"
+      ],
+      "proposedFocus": "国王身份、愤怒与联盟责任",
+      "associationStatus": "being_verified_from_sources",
+      "nameSearchEvidence": [
+        {
+          "bookId": "15",
+          "query": "瓦里安",
+          "substringCount": 569
+        }
+      ],
+      "nextAction": "resume_unread_book_ranges_only_when_requested",
+      "outputsAfterApproval": [
+        "overview_plan",
+        "section_plans"
+      ],
+      "sectionCount": null,
+      "planAccepted": false
+    },
+    {
+      "taskId": "durotan",
+      "characterName": "杜隆坦（主世界线）",
+      "batch": "A",
+      "status": "checkpointed",
+      "primaryBookIds": [
+        "05"
+      ],
+      "supplementaryBookIds": [
+        "10",
+        "25"
+      ],
+      "proposedFocus": "氏族生存、友谊与拒绝腐化",
+      "associationStatus": "being_verified_from_sources",
+      "nameSearchEvidence": [
+        {
+          "bookId": "05",
+          "query": "杜隆坦",
+          "substringCount": 842
+        }
+      ],
+      "nextAction": "resume_unread_book_ranges_only_when_requested",
+      "outputsAfterApproval": [
+        "overview_plan",
+        "section_plans"
+      ],
+      "sectionCount": null,
+      "planAccepted": false
+    }
+  ],
+  "userAcceptedPlans": false,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "reusePolicy": "One primary reading per book; reusable evidence plus targeted source verification. Supplementary chronicles use explicitly scoped sections.",
+  "oldThrallRun": "thrall-20261024-01 resumed into this batch; no completed reading notes found",
+  "configHashes": {
+    "researcher": "9c504d218cd74cf8ff2f0b5f92bcbdd97a111dfbf0273f9e569dee596ecb6443",
+    "integrator": "d3939baddf10754fdc9041a460681f857cd7231d0bf92544a3b7cf84fb364277",
+    "planner": "b8fdb01bddce42f1d632cf460e835b51cf5584a455b9d489fe407f76db0258e2"
+  },
+  "currentInstruction": "Thrall approved plan completed: 12 prose units and 12 stained-glass illustrations. See characters/thrall/production-run.json and preview.html. No publication authorized. Other seven characters checkpointed.",
+  "sharedIndex": "shared/books.json",
+  "resumeEntry": "RESUME.txt",
+  "publicationAuthorized": false,
+  "authorizationScope": [
+    "thrall"
+  ]
+}

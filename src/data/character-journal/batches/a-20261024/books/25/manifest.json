@@ -1,0 +1,135 @@
+{
+  "bookId": "25",
+  "title": "魔兽编年史 卷二",
+  "sourcePath": "E:\\魔兽官方小说\\25 魔兽编年史 卷二.epub",
+  "sourceSha256": "ddf8090a9779db34ad388e1b3b2fd7cc2e210bbcf6f49b8d0b929e0bc2787739",
+  "documents": [
+    {
+      "documentId": "text00812",
+      "href": "OEBPS/text00812.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00812.txt",
+      "sha256": "7cb61f323d989104b6a1188bd3571f8631413034f6b701fa24bd07cb02e55ad3"
+    },
+    {
+      "documentId": "text00813",
+      "href": "OEBPS/text00813.html",
+      "paragraphs": 7,
+      "characters": 218,
+      "heading": "版权信息",
+      "path": "source/text00813.txt",
+      "sha256": "ee6e2c9472cabdb0bccb2fd13c7d06a2c14fdbf6e81906f212faebb99002857a"
+    },
+    {
+      "documentId": "text00814",
+      "href": "OEBPS/text00814.html",
+      "paragraphs": 153,
+      "characters": 4377,
+      "heading": "魔兽编年史 卷二",
+      "path": "source/text00814.txt",
+      "sha256": "39a0c5f1559db1fe1d5a33dc2fd42ff0eb5446c47feae99e0c1d45135f2f35df"
+    },
+    {
+      "documentId": "text00815",
+      "href": "OEBPS/text00815.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00815.txt",
+      "sha256": "fe057aaf95ed66828ddd65d7092b369575bcbb338e7a59eb7d89fdeaf77be940"
+    },
+    {
+      "documentId": "text00816",
+      "href": "OEBPS/text00816.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00816.txt",
+      "sha256": "7ab09b0183cb0f8951c2942a085ce72fdd321f2f454fd416eb38740571674ea5"
+    },
+    {
+      "documentId": "text00817",
+      "href": "OEBPS/text00817.html",
+      "paragraphs": 1,
+      "characters": 29,
+      "heading": "第一部分\n德拉诺的厄运",
+      "path": "source/text00817.txt",
+      "sha256": "cee8f701d6eb5ba80697cc3651a5cba29822afd5fb3863a3bccdc2ea8009d656"
+    },
+    {
+      "documentId": "text00818",
+      "href": "OEBPS/text00818.html",
+      "paragraphs": 249,
+      "characters": 22892,
+      "heading": "第一章\n原始德拉诺",
+      "path": "source/text00818.txt",
+      "sha256": "8a0ea87edba39520b80ea038032d72e831c5834a03ed3ae0ff4391cb90a7b989"
+    },
+    {
+      "documentId": "text00819",
+      "href": "OEBPS/text00819.html",
+      "paragraphs": 180,
+      "characters": 20961,
+      "heading": "第二章\n岩石之子",
+      "path": "source/text00819.txt",
+      "sha256": "0ca6065ad064cff89c0579c4fc6e6bb80c8e18af06312eb5fe46b24ebbbd9969"
+    },
+    {
+      "documentId": "text00820",
+      "href": "OEBPS/text00820.html",
+      "paragraphs": 365,
+      "characters": 37267,
+      "heading": "第三章\n部落的崛起",
+      "path": "source/text00820.txt",
+      "sha256": "c23294a879b5294e2e489b5ba5920ecc50ace173a5ae57c0aebabbf9d84f4ece"
+    },
+    {
+      "documentId": "text00821",
+      "href": "OEBPS/text00821.html",
+      "paragraphs": 1,
+      "characters": 28,
+      "heading": "第二部分\n部落与联盟",
+      "path": "source/text00821.txt",
+      "sha256": "4aab5613835abe86869fef6f9151936b5a4cbebfb383f0a46932dc64e9ec9379"
+    },
+    {
+      "documentId": "text00822",
+      "href": "OEBPS/text00822.html",
+      "paragraphs": 389,
+      "characters": 38843,
+      "heading": "第四章\n第一次大战",
+      "path": "source/text00822.txt",
+      "sha256": "cd94940282ecdd9def5f8e71d17771aee3227b0579acab6feacffb2e8b3faf4e"
+    },
+    {
+      "documentId": "text00823",
+      "href": "OEBPS/text00823.html",
+      "paragraphs": 341,
+      "characters": 33904,
+      "heading": "第五章\n第二次大战",
+      "path": "source/text00823.txt",
+      "sha256": "7f6482fb6b376fdd9a29a8056fbf1c7515f44642bcfefe03114ee3b223e49a25"
+    },
+    {
+      "documentId": "text00824",
+      "href": "OEBPS/text00824.html",
+      "paragraphs": 184,
+      "characters": 17772,
+      "heading": "第六章\n穿越黑暗之门",
+      "path": "source/text00824.txt",
+      "sha256": "153ba0c02451493ce1b7fdaebe1735c06e6a0f821775712bcb07819d06d8b45d"
+    },
+    {
+      "documentId": "text00825",
+      "href": "OEBPS/text00825.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00825.txt",
+      "sha256": "66dbd6030222439601c88bc02c895685009f8fbd98fe5dd2423ba4303fe0e439"
+    }
+  ],
+  "readStatus": "pending"
+}

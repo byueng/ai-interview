@@ -1,0 +1,22 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-15",
+  "bookId": "15",
+  "title": "狼族之心",
+  "sourceSha256": "f4b3e27f4365007030bf2f7be193835294474a6c86710c9c082bdd4f3e2da61d",
+  "status": "pending",
+  "coverage": [],
+  "facts": [],
+  "relationships": [],
+  "inferences": [],
+  "originalSettings": [],
+  "subtitleCheck": {
+    "status": "pending",
+    "candidates": [],
+    "reason": "正文未开始阅读，不能确认副标题。"
+  },
+  "gaps": [
+    "正文未开始阅读。用户要求只保存可继承资料，等待后续任务。"
+  ],
+  "readButUnrecorded": []
+}

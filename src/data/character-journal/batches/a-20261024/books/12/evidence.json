@@ -1,0 +1,313 @@
+{
+  "bookId": "12",
+  "sourceSha256": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+  "status": "reused_verified_source_version",
+  "coverageMode": "existing_full_reading_reused",
+  "sourceCoverageReport": "reused/source-coverage.json",
+  "events": [
+    {
+      "originChunk": "early",
+      "id": "E03",
+      "kind": "fact",
+      "summary": "得知暴风城失陷、莱恩死亡后，他真切同情瓦里安；秘密旁听会谈后，以邀请看马驹笨拙安慰丧亲的同龄人。",
+      "sourceRefs": [
+        "text00307:p0023",
+        "text00307:p0031",
+        "text00307:p0032",
+        "text00307:p0064",
+        "text00307:p0091",
+        "text00307:p0093",
+        "text00307:p0094"
+      ]
+    },
+    {
+      "originChunk": "early",
+      "id": "E04",
+      "kind": "fact",
+      "summary": "父王接见平民、尊重并庇护瓦里安的做法成为可见的仁政榜样；阿尔萨斯同时因被排除重大会议而生气。",
+      "sourceRefs": [
+        "text00307:p0058",
+        "text00307:p0059",
+        "text00307:p0062",
+        "text00307:p0073",
+        "text00307:p0085"
+      ]
+    },
+    {
+      "originChunk": "early",
+      "id": "E05",
+      "kind": "fact",
+      "summary": "阿尔萨斯在瓦里安面前感到训练不足；战后毁灭之锤受保护和逃脱的叙述，置于他对兽人的敌视认知中。",
+      "sourceRefs": [
+        "text00308:p0002",
+        "text00308:p0011",
+        "text00308:p0012",
+        "text00308:p0015",
+        "text00308:p0018",
+        "text00308:p0020"
+      ],
+      "interpretation": "逃脱部分标明小道消息与无人活报，不能把末尾可能已死当成事实；战败兽人的负面形容保留视角属性。"
+    },
+    {
+      "originChunk": "early",
+      "id": "E07",
+      "kind": "fact",
+      "summary": "礼拜时初识吉安娜；穆拉丁主动提出担任严格战技导师，父王许可，同时增加圣骑士和君主课程。",
+      "sourceRefs": [
+        "text00308:p0072",
+        "text00308:p0079",
+        "text00308:p0086",
+        "text00308:p0088",
+        "text00309:p0003"
+      ]
+    },
+    {
+      "originChunk": "early",
+      "id": "E08",
+      "kind": "fact",
+      "summary": "护送吉安娜前往达拉然时，他带她夜窥战俘营。吉安娜看到兽人家庭与婴儿而同情，阿尔萨斯仍把他们视作潜在杀手。",
+      "sourceRefs": [
+        "text00309:p0004",
+        "text00309:p0031",
+        "text00309:p0039",
+        "text00309:p0040",
+        "text00309:p0041",
+        "text00309:p0044",
+        "text00309:p0045"
+      ]
+    },
+    {
+      "originChunk": "early",
+      "id": "E11",
+      "kind": "fact",
+      "summary": "十七岁突查敦霍尔德兼有财政监管和观看萨尔的好奇；他看出布莱克摩尔酗酒、塔蕾莎受辱，仍被角斗娱乐吸引，并忧心萨尔逃走传播战技。",
+      "sourceRefs": [
+        "text00310:p0005",
+        "text00310:p0006",
+        "text00310:p0010",
+        "text00310:p0012",
+        "text00310:p0018",
+        "text00310:p0021",
+        "text00310:p0022",
+        "text00310:p0037",
+        "text00310:p0038"
+      ]
+    },
+    {
+      "originChunk": "early",
+      "id": "E17",
+      "kind": "fact",
+      "summary": "第二部间奏跳到而立吉安娜与艾格文谈论巫妖王及往事，明确把成年后的回望与少年主线隔开。",
+      "sourceRefs": [
+        "text00312:p0012",
+        "text00312:p0015",
+        "text00312:p0018",
+        "text00312:p0021"
+      ]
+    },
+    {
+      "originChunk": "early",
+      "id": "E18",
+      "kind": "fact",
+      "summary": "受封后赴达拉然学习实为接近吉安娜；宴会上安东尼达斯解释兽人可能处在恶魔能量戒断状态，吉安娜反对屠杀。夏末野餐雪球嬉戏后两人初吻。",
+      "sourceRefs": [
+        "text00313:p0031",
+        "text00313:p0034",
+        "text00313:p0036",
+        "text00313:p0054",
+        "text00313:p0061",
+        "text00313:p0062",
+        "text00313:p0063",
+        "text00313:p0064",
+        "text00313:p0089",
+        "text00313:p0095",
+        "text00313:p0098"
+      ]
+    },
+    {
+      "originChunk": "early",
+      "id": "E19",
+      "kind": "fact",
+      "summary": "秘密恋情被凯尔萨斯撞见，公开追求与名誉保护发生争执；阿尔萨斯因自觉不如凯尔而嫉妒，经吉安娜确认选择而缓解。他仍持续训练，并把无敌之死解释为训练开始太晚。",
+      "sourceRefs": [
+        "text00314:p0019",
+        "text00314:p0020",
+        "text00314:p0021",
+        "text00314:p0027",
+        "text00314:p0028",
+        "text00314:p0032",
+        "text00314:p0033"
+      ]
+    },
+    {
+      "originChunk": "early",
+      "id": "E20",
+      "kind": "fact",
+      "summary": "双方长辈默许恋情，他渐接公共职责；万圣节把点火荣耀交给吉安娜，与民同庆并在当夜发展亲密关系。满足中突然恐惧被拒绝，要求她永不拒绝自己。",
+      "sourceRefs": [
+        "text00314:p0035",
+        "text00314:p0037",
+        "text00314:p0051",
+        "text00314:p0053",
+        "text00314:p0056",
+        "text00314:p0064",
+        "text00314:p0068",
+        "text00314:p0069",
+        "text00314:p0071",
+        "text00314:p0073",
+        "text00314:p0074"
+      ]
+    },
+    {
+      "originChunk": "middle",
+      "id": "m01",
+      "title": "冬幕节退缩",
+      "fact": "吉安娜已经被王室当作家人；谈到未来孩子时，阿尔萨斯因担心自己成为坏丈夫、坏国王而提出暂退回朋友关系。",
+      "sourceRefs": [
+        "text00315:p0003-text00315:p0009",
+        "text00315:p0017-text00315:p0048"
+      ],
+      "interpretation": "恐惧损坏美好关系促使他先退缩，不是已不爱吉安娜。",
+      "originalSetting": false
+    },
+    {
+      "originChunk": "middle",
+      "id": "m02",
+      "title": "用训练压住失恋",
+      "fact": "萨尔出逃后，泰瑞纳斯询问阿尔萨斯看法；王子主动提出搜捕反叛兽人。分手后加倍投入训练和冥想，试图摆脱思念，父王同意让他上战场。",
+      "sourceRefs": [
+        "text00315:p0050-text00315:p0071"
+      ],
+      "interpretation": "军事进步与情感逃避在本章同时存在。",
+      "originalSetting": false
+    },
+    {
+      "originChunk": "middle",
+      "id": "m03",
+      "title": "调查瘟疫时重逢",
+      "fact": "安东尼达斯派吉安娜调查魔法瘟疫，阿尔萨斯护送。两人共同讨论兽人与瘟疫的可能联系；夜间重申相爱，阿尔萨斯想象任务后婚礼与孩子。",
+      "sourceRefs": [
+        "text00316:p0020-text00316:p0027",
+        "text00316:p0029-text00316:p0099"
+      ],
+      "interpretation": "希望和信任是真实的当时状态，不应用后来的结局覆盖这段暖意。",
+      "originalSetting": false
+    },
+    {
+      "originChunk": "middle",
+      "id": "m05",
+      "title": "初遇亡灵与污染谷仓",
+      "fact": "调查农场遭行尸袭击，阿尔萨斯命吉安娜烧屋；随后发现粮仓周围土地死亡和安多哈尔印章，怀疑粮食传播瘟疫，命全员戴手套。",
+      "sourceRefs": [
+        "text00317:p0007-text00317:p0055"
+      ],
+      "interpretation": "他起初仍以保护臣民、谨慎调查与战术应变行动。触土后他没有在吉安娜体内感到瘟疫，不应写成已感染后治愈。",
+      "originalSetting": false
+    },
+    {
+      "originChunk": "middle",
+      "id": "m08",
+      "title": "壁炉谷近身见证转化",
+      "fact": "阿尔萨斯催军急行、压缩吉安娜休息；抵达壁炉谷后派她求援，亲见吃过粮食的人急死再起。他当时因惊恐没有尝试治疗；随后奋战到乌瑟尔与吉安娜援军抵达。",
+      "sourceRefs": [
+        "text00318:p0048-text00318:p0111"
+      ],
+      "interpretation": "不应声称已用圣光验证瘟疫绝不可治。治疗问题在这里仍是疑问。",
+      "originalSetting": false
+    },
+    {
+      "originChunk": "middle",
+      "id": "m09",
+      "title": "误读赞扬并拒绝西行",
+      "fact": "战后阿尔萨斯把乌瑟尔赞扬听成责备，独自离开；先知劝其带人民渡海西行，预警执意杀敌反会送人民入敌手。阿尔萨斯拒绝，隐身跟随的吉安娜继续劝告。",
+      "sourceRefs": [
+        "text00318:p0112-text00318:p0160"
+      ],
+      "interpretation": "王冠责任被他理解为独自扭转一切；乌瑟尔强调损害最小化和承认限度。先知此处未具名。",
+      "originalSetting": false
+    },
+    {
+      "originChunk": "middle",
+      "id": "m10",
+      "title": "斯坦索姆决裂",
+      "fact": "闻到染疫面包味后阿尔萨斯认定全城感染，命净化；吉安娜提出感染人数、致死剂量未知并请求研究时间，乌瑟尔拒命。阿尔萨斯解除其统帅权和属下圣骑士军职，吉安娜随乌瑟尔离开。",
+      "sourceRefs": [
+        "text00319:p0013-text00319:p0067"
+      ],
+      "interpretation": "将亲近者拒绝屠杀理解为背叛，并以不能接受自己会是凶手来压下疑虑；不是证明他判断正确。",
+      "originalSetting": false
+    },
+    {
+      "originChunk": "middle",
+      "id": "m12",
+      "title": "吉安娜选择另一种救人",
+      "fact": "三日后吉安娜走访惨城，回忆拒绝阿尔萨斯共同北行。乌瑟尔得知王子私调舰队，准备告知国王。吉安娜接受先知西迁卡利姆多的建议。",
+      "sourceRefs": [
+        "text00320:p0002-text00320:p0067"
+      ],
+      "interpretation": "她仍爱阿尔萨斯，拒绝不等于感情消失；她与乌瑟尔的自责也不能被当作屠城责任归因。",
+      "originalSetting": false
+    },
+    {
+      "originChunk": "late",
+      "id": "late-07",
+      "title": "尸桥和旧爱回忆",
+      "fact": "达尔坎泄露三月钥匙秘密；阿尔萨斯命亡灵以身体搭桥。无敌涉水勾起旧日断腿负罪感；他用亡灵永不受伤及吉安娜“拒绝”自己来合理化选择。",
+      "sourceRefs": [
+        "text00327:p0002–p0011"
+      ],
+      "interpretation": "保护欲被重构成剥夺生命的理由；他对吉安娜的责怪属于其主观归因。"
+    },
+    {
+      "originChunk": "late",
+      "id": "late-11",
+      "title": "达拉然与吉安娜的分途",
+      "fact": "安东尼达斯让吉安娜离开去照顾她承诺保护的人。阿尔萨斯杀死安东尼达斯并取得麦迪文法术书，保护克尔苏加德召唤阿克蒙德。",
+      "sourceRefs": [
+        "text00328:p0050–p0114"
+      ],
+      "interpretation": "吉安娜仍爱他并希望其受不可抗力量影响，但决定承担生者的责任；阿尔萨斯庆幸不必与她交战。"
+    },
+    {
+      "originChunk": "late",
+      "id": "late-17",
+      "title": "获得力量与击退旧敌",
+      "fact": "穿越艾卓-尼鲁布后，巫妖王解释释放霜之哀伤造成冰牢缺口及力量流失，并把可给的力量交给阿尔萨斯。阿尔萨斯击退凯尔萨斯（其传送脱身），重伤伊利丹后将仍喘息的对手留给严寒。",
+      "sourceRefs": [
+        "text00332:p0002–p0098"
+      ],
+      "interpretation": "凯尔萨斯用吉安娜及弑父反击能动摇他；伊利丹并未被确认死亡。冰牢破损原因严格采用本小说叙述，不能擅加游戏版本原因。"
+    },
+    {
+      "originChunk": "late",
+      "id": "late-18",
+      "title": "合一、梦中抉择与觉醒",
+      "fact": "阿尔萨斯登塔时回想劝阻和旧爱，却打碎冰牢戴上头盔，与耐奥祖交融。尾声回到长桌梦境，辨认男孩为剩余人性，主动以剑毁灭男孩及耐奥祖梦中形象；吉安娜、艾格文、希尔瓦娜斯感到异常，最终巫妖王在王座睁眼，说“开始了。”",
+      "sourceRefs": [
+        "text00332:p0099–p0127",
+        "text00333:p0002–p0056"
+      ],
+      "interpretation": "合一不是小说最终结局：尾声突出排除双方、独占力量。梦中杀戮不可描写为现实房间内发生的两次肉身谋杀。"
+    }
+  ],
+  "allReadingNotes": [
+    "reused/early.json",
+    "reused/middle.json",
+    "reused/late.json"
+  ],
+  "limitations": [
+    "既有阅读针对阿尔萨斯；吉安娜策划可复用事件证据，必要处定点回查，不声称本轮重读全书。",
+    "旧段落编号使用arthas/source/epub-v1提取规则；引用保留旧定位，禁止未经映射使用新提取编号。"
+  ],
+  "subtitleCheck": {
+    "originalCandidates": [
+      {
+        "text": "光明女士",
+        "sourceRef": "text00312:p0001",
+        "scope": "第二部"
+      }
+    ],
+    "note": "仅适配相关早期单元，不推广到跨书总览"
+  },
+  "uncovered": []
+}

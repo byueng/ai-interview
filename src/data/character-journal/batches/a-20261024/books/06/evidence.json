@@ -1,0 +1,551 @@
+{
+  "subtitleCheck": {
+    "readScope": "manifest 全部23个文档，序章、第一至十六章、尾声及前后置资料逐段完整阅读",
+    "recommendation": "策划可创作editorial小标题，须正文内容校核",
+    "finding": "该版本在已读范围无适用于人物志的原作副标题；仅书名、数字章号、序章、尾声等标签；艾格文之歌为书内作品名，不作人物志副标题",
+    "status": "checked",
+    "candidates": [],
+    "reviewStatus": "pending"
+  },
+  "bookId": "06",
+  "inferences": [
+    {
+      "type": "inference",
+      "refs": [
+        "06-f01",
+        "06-f06",
+        "06-f10",
+        "06-f15",
+        "06-f19"
+      ],
+      "id": "06-i01",
+      "statement": "卡德加的核心弧线可规划为从被派遣的耳目到有独立判断的保护者：信任需要核实，也可能要求阻止所爱导师。"
+    },
+    {
+      "type": "character_interpretation",
+      "refs": [
+        "OEBPS/text00168.html#p0051-p0056"
+      ],
+      "id": "06-i02",
+      "statement": "卡德加认为麦迪文留下朋友与学徒，是人性为阻止自身堕落保留的后备措施；这是卡德加的当面对导师解释，不能将其提升为全知叙述的确定动机。"
+    }
+  ],
+  "runId": "batch-a-20261024-01",
+  "nextDocument": null,
+  "sourceSha256": "5d1a1257a04a7e8c8f3c88e684db18eb824d2e983250410be7d467deac5187d9",
+  "version": 2,
+  "facts": [
+    {
+      "characters": [
+        "khadgar"
+      ],
+      "statement": "卡德加从小在达拉然成长，被肯瑞托派往卡拉赞任助手，同时承担搜集资料的任务；他擅长探查秘密。",
+      "refs": [
+        "OEBPS/text00153.html#p0004-p0012"
+      ],
+      "id": "06-f01",
+      "type": "fact"
+    },
+    {
+      "characters": [
+        "khadgar"
+      ],
+      "statement": "麦迪文测试卡德加的推理能力，称其名字在古矮人语意为信任；最初允许他整理图书馆但尚未收为学徒。",
+      "refs": [
+        "OEBPS/text00154.html#p0021-p0039",
+        "OEBPS/text00154.html#p0105-p0113"
+      ],
+      "id": "06-f02",
+      "type": "fact"
+    },
+    {
+      "characters": [
+        "khadgar"
+      ],
+      "statement": "卡德加见到红色天空中的战斗幻象，其白发指挥官拥有与自己一样的眼睛；此时他尚不能确定幻象含义。",
+      "refs": [
+        "OEBPS/text00154.html#p0130-p0164"
+      ],
+      "id": "06-f03",
+      "type": "fact"
+    },
+    {
+      "characters": [
+        "khadgar"
+      ],
+      "statement": "卡德加用侦测蟋蟀与阱与锁书研究机关，整理危险图书馆；麦迪文归来时一度忘记身份并攻击他，随后致歉。",
+      "refs": [
+        "OEBPS/text00155.html#p0028-p0034",
+        "OEBPS/text00155.html#p0071-p0109"
+      ],
+      "id": "06-f04",
+      "type": "fact"
+    },
+    {
+      "characters": [
+        "khadgar"
+      ],
+      "statement": "麦迪文灌输狮鹫骑术；侦察遇袭后卡德加坠落，独力施法并虚张声势抵抗兽人，随后获麦迪文救援。",
+      "refs": [
+        "OEBPS/text00155.html#p0121-p0144",
+        "OEBPS/text00156.html#p0002-p0051"
+      ],
+      "id": "06-f05",
+      "type": "fact"
+    },
+    {
+      "characters": [
+        "khadgar"
+      ],
+      "statement": "麦迪文正式承认卡德加为学徒。卡德加向洛萨自述十七岁；答应留意导师状况，但表明对导师的忠诚优先。",
+      "refs": [
+        "OEBPS/text00156.html#p0056-p0063",
+        "OEBPS/text00156.html#p0087",
+        "OEBPS/text00156.html#p0104-p0115",
+        "OEBPS/text00156.html#p0124-p0129"
+      ],
+      "id": "06-f06",
+      "type": "fact"
+    },
+    {
+      "characters": [
+        "khadgar"
+      ],
+      "statement": "卡德加接受日常学徒训练；麦迪文以沙漏解释时空幻象而非线性时钟。卡德加随后见到青年麦迪文、洛萨和莱恩战巨魔的幻象，听见麦迪文要求好好看住我，但没有告诉导师所有细节。",
+      "refs": [
+        "OEBPS/text00157.html#p0003",
+        "OEBPS/text00157.html#p0022-p0058",
+        "OEBPS/text00157.html#p0069-p0115"
+      ],
+      "id": "06-f07",
+      "type": "fact"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00158.html#p0002-p0019",
+        "OEBPS/text00158.html#p0037-p0099",
+        "OEBPS/text00158.html#p0114"
+      ],
+      "id": "06-f08",
+      "statement": "卡德加自行改造远视咒召唤时空幻象，目睹艾格文与巨龙抗击恶魔、击败萨格拉斯肉身，记录艾格文有两个影子；此时尚未理解第二影子意义。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00159.html#p0033-p0095",
+        "OEBPS/text00160.html#p0002-p0039"
+      ],
+      "id": "06-f09",
+      "statement": "赴暴风城调查哈格勒、休格林死亡时，卡德加根据尸体朝向提出攻击来自窗外，遭麦迪文驳回；随后听导师讲述守护者与提瑞斯法议会历史。麦迪文的解释属于人物陈述，不能全当作无偏叙述。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00160.html#p0062-p0105",
+        "OEBPS/text00160.html#p0116-p0129",
+        "OEBPS/text00161.html#p0003-p0045"
+      ],
+      "id": "06-f10",
+      "statement": "卡德加为维护导师信任而向洛萨守口如瓶，并帮虚弱的麦迪文找理由离开暴风城。麦迪文传授议会密码，昏睡期间卡德加代管信件，得知古兹巴被害及多名议会法师死亡。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00161.html#p0046-p0070"
+      ],
+      "id": "06-f11",
+      "statement": "卡德加在沉睡导师床前看见萨格拉斯，持拆信刀扑向恶魔却穿过其形体；麦迪文醒来将其解释成幻象。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00162.html#p0002-p0004",
+        "OEBPS/text00162.html#p0062-p0105"
+      ],
+      "id": "06-f12",
+      "statement": "卡德加魔法能力增长，学习修复、老化、防护与侦测。发现访客为半兽人迦罗娜时主动攻击并被制服；麦迪文要求他尊重客人、开放看待兽人，并提醒他自己也曾是探子。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00163.html#p0028-p0053",
+        "OEBPS/text00163.html#p0054-p0135"
+      ],
+      "id": "06-f13",
+      "statement": "迦罗娜说明混血身份使其不被任何族群接纳。图书馆遭真实恶魔袭击时二人合作，迦罗娜救卡德加并推倒书架压住恶魔。麦迪文否认袭击真实性，迫使二人重新整理图书馆。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00164.html#p0002-p0021",
+        "OEBPS/text00164.html#p0048-p0066",
+        "OEBPS/text00164.html#p0081-p0130"
+      ],
+      "id": "06-f14",
+      "statement": "修复图书馆期间卡德加与迦罗娜关系缓和，他将氏族资料送洛萨；迦罗娜因麦迪文给予信任而不愿向古尔丹汇报。二人共同召唤裂隙起源幻象，看见麦迪文向古尔丹许诺开辟入侵道路。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00165.html#p0005-p0018",
+        "OEBPS/text00165.html#p0028-p0059",
+        "OEBPS/text00165.html#p0065-p0116"
+      ],
+      "id": "06-f15",
+      "statement": "卡德加没有仅凭一次幻象定罪，而继续质问；麦迪文无法正常跨过防恶魔法阵。卡德加召唤艾格文对质幻象牵制导师，得知萨格拉斯潜入其母体并寄生麦迪文；二人逃离，卡德加警告莫罗斯带厨子离开。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00166.html#p0023-p0062",
+        "OEBPS/text00166.html#p0074-p0096",
+        "OEBPS/text00166.html#p0104-p0142"
+      ],
+      "id": "06-f16",
+      "statement": "逃往暴风城路上，迦罗娜假称卡德加是奴隶以阻止兽人杀他；之后卡德加用法术保护迦罗娜免遭人类巡逻队伤害，洛萨赶到止争。二人在敌我两边之间形成相互保护的信任。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00167.html#p0003-p0039"
+      ],
+      "id": "06-f17",
+      "statement": "卡德加和迦罗娜向莱恩报告，国王仍信任麦迪文且相信城防；洛萨选择带队前往卡拉赞，要求卡德加为必要的决断作准备。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00167.html#p0057-p0084",
+        "OEBPS/text00167.html#p0101-p0148"
+      ],
+      "id": "06-f18",
+      "statement": "突入高塔发现莫罗斯和厨子已死；迦罗娜从血迹推断暗门，卡德加施法开启；在地下镜像塔中二人见暴风城陷落与迦罗娜刺杀莱恩的未来幻象，卡德加借幻象的生还含义劝她继续。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00168.html#p0018-p0061"
+      ],
+      "id": "06-f19",
+      "statement": "最终对峙中卡德加遭麦迪文魔法剥夺青春，外貌骤老；迦罗娜遭精神折磨。洛萨牵制导师时，卡德加以符文剑刺其心脏，麦迪文临死感谢，洛萨再斩首释放其体内力量。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00168.html#p0062-p0072",
+        "OEBPS/text00169.html#p0002-p0020"
+      ],
+      "id": "06-f20",
+      "statement": "卡德加留下安葬麦迪文、莫罗斯和厨子；与未来重获自由的麦迪文跨时交谈，质疑以牺牲维系守护者制度；随后计划封存高塔并追随洛萨投入战争。"
+    },
+    {
+      "type": "fact",
+      "characters": [
+        "khadgar"
+      ],
+      "refs": [
+        "OEBPS/text00169.html#p0021-p0034"
+      ],
+      "id": "06-f21",
+      "statement": "尾声未来的麦迪文吸收高塔上下的幻象、力量与自身责任，化作乌鸦离去；这是未来框架叙事，不是学徒卡德加当下所见的全部经过。"
+    }
+  ],
+  "otherPrincipalCharacters": [
+    "麦迪文",
+    "洛萨",
+    "艾格文",
+    "莱恩",
+    "莫罗斯"
+  ],
+  "status": "complete",
+  "coverage": [
+    {
+      "status": "read_complete",
+      "heading": "",
+      "readRange": "empty_document",
+      "paragraphs": 0,
+      "href": "OEBPS/text00148.html",
+      "documentId": "text00148"
+    },
+    {
+      "status": "read_complete",
+      "heading": "版权信息",
+      "readRange": "p0001-p0007",
+      "paragraphs": 7,
+      "href": "OEBPS/text00149.html",
+      "documentId": "text00149"
+    },
+    {
+      "status": "read_complete",
+      "heading": "最后的守护者",
+      "readRange": "p0001-p0024",
+      "paragraphs": 24,
+      "href": "OEBPS/text00150.html",
+      "documentId": "text00150"
+    },
+    {
+      "status": "read_complete",
+      "heading": "导读",
+      "readRange": "p0001-p0006",
+      "paragraphs": 6,
+      "href": "OEBPS/text00151.html",
+      "documentId": "text00151"
+    },
+    {
+      "status": "read_complete",
+      "heading": "序章",
+      "readRange": "p0001-p0023",
+      "paragraphs": 23,
+      "href": "OEBPS/text00152.html",
+      "documentId": "text00152"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第一章",
+      "readRange": "p0001-p0090",
+      "paragraphs": 90,
+      "href": "OEBPS/text00153.html",
+      "documentId": "text00153"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第二章",
+      "readRange": "p0001-p0164",
+      "paragraphs": 164,
+      "href": "OEBPS/text00154.html",
+      "documentId": "text00154"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第三章",
+      "readRange": "p0001-p0144",
+      "paragraphs": 144,
+      "href": "OEBPS/text00155.html",
+      "documentId": "text00155"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第四章",
+      "readRange": "p0001-p0129",
+      "paragraphs": 129,
+      "href": "OEBPS/text00156.html",
+      "documentId": "text00156"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第五章",
+      "readRange": "p0001-p0127",
+      "paragraphs": 127,
+      "href": "OEBPS/text00157.html",
+      "documentId": "text00157"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第六章",
+      "readRange": "p0001-p0115",
+      "paragraphs": 115,
+      "href": "OEBPS/text00158.html",
+      "documentId": "text00158"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第七章",
+      "readRange": "p0001-p0126",
+      "paragraphs": 126,
+      "href": "OEBPS/text00159.html",
+      "documentId": "text00159"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第八章",
+      "readRange": "p0001-p0129",
+      "paragraphs": 129,
+      "href": "OEBPS/text00160.html",
+      "documentId": "text00160"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第九章",
+      "readRange": "p0001-p0078",
+      "paragraphs": 78,
+      "href": "OEBPS/text00161.html",
+      "documentId": "text00161"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十章",
+      "readRange": "p0001-p0105",
+      "paragraphs": 105,
+      "href": "OEBPS/text00162.html",
+      "documentId": "text00162"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十一章",
+      "readRange": "p0001-p0135",
+      "paragraphs": 135,
+      "href": "OEBPS/text00163.html",
+      "documentId": "text00163"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十二章",
+      "readRange": "p0001-p0130",
+      "paragraphs": 130,
+      "href": "OEBPS/text00164.html",
+      "documentId": "text00164"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十三章",
+      "readRange": "p0001-p0116",
+      "paragraphs": 116,
+      "href": "OEBPS/text00165.html",
+      "documentId": "text00165"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十四章",
+      "readRange": "p0001-p0142",
+      "paragraphs": 142,
+      "href": "OEBPS/text00166.html",
+      "documentId": "text00166"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十五章",
+      "readRange": "p0001-p0153",
+      "paragraphs": 153,
+      "href": "OEBPS/text00167.html",
+      "documentId": "text00167"
+    },
+    {
+      "status": "read_complete",
+      "heading": "第十六章",
+      "readRange": "p0001-p0072",
+      "paragraphs": 72,
+      "href": "OEBPS/text00168.html",
+      "documentId": "text00168"
+    },
+    {
+      "status": "read_complete",
+      "heading": "尾声",
+      "readRange": "p0001-p0034",
+      "paragraphs": 34,
+      "href": "OEBPS/text00169.html",
+      "documentId": "text00169"
+    },
+    {
+      "status": "read_complete",
+      "heading": "关于作者",
+      "readRange": "p0001-p0003",
+      "paragraphs": 3,
+      "href": "OEBPS/text00170.html",
+      "documentId": "text00170"
+    }
+  ],
+  "gaps": [],
+  "relationships": [
+    {
+      "arc": "仰慕与信任→怀疑核验→为保护他人阻止导师→安葬与反思",
+      "refs": [
+        "06-f02",
+        "06-f10",
+        "06-f15",
+        "06-f19",
+        "06-f20"
+      ],
+      "pair": [
+        "khadgar",
+        "麦迪文"
+      ]
+    },
+    {
+      "arc": "种族偏见与敌意→共同战斗→互换情报→双向保护与友谊",
+      "refs": [
+        "06-f12",
+        "06-f13",
+        "06-f14",
+        "06-f16"
+      ],
+      "pair": [
+        "khadgar",
+        "迦罗娜"
+      ]
+    },
+    {
+      "arc": "警惕探问→传递情报→并肩承担不可回避的决断",
+      "refs": [
+        "06-f06",
+        "06-f10",
+        "06-f14",
+        "06-f17",
+        "06-f19"
+      ],
+      "pair": [
+        "khadgar",
+        "洛萨"
+      ]
+    }
+  ],
+  "textualIssues": [
+    {
+      "ref": "OEBPS/text00167.html#p0122",
+      "issue": "段落写洛萨依次给指挥官下令，但同一幻象p0118明确说桌边无洛萨、p0119-p0121及p0123都是莱恩；保留原文疑似笔误，不据此补写洛萨出场。"
+    },
+    {
+      "ref": "OEBPS/text00160.html#p0014",
+      "issue": "段首标卡德加说，结尾又称麦迪文看卡德加且后续为麦迪文继续；对历史叙述保留说话人疑点。"
+    }
+  ],
+  "aBatchRelevance": {
+    "khadgar": "直接主角，充分材料",
+    "varian": "未见具名事实；莱恩不能替代瓦里安",
+    "malfurion": "未见具名事实；古代卡多雷历史不自动补人名",
+    "tirion": "未见具名事实",
+    "durotan": "未见具名事实",
+    "thrall": "本书未见可用于个人弧线的具名事实",
+    "jaina": "未见具名事实",
+    "voljin": "未见具名事实"
+  }
+}

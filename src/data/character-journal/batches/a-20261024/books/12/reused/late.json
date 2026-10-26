@@ -1,0 +1,440 @@
+{
+  "runId": "arthas-20261021-02",
+  "characterId": "arthas",
+  "role": "researcher",
+  "scopeId": "late",
+  "sourceVersion": "epub-v1",
+  "status": "complete",
+  "method": "仅阅读用户EPUB提取JSON全部blocks，逐段分批输出，无联网，无输出截断；JSON ref为定位，txt与json均计算实际SHA256。",
+  "coverage": [
+    {
+      "documentId": "text00324",
+      "firstRef": "text00324:p0001",
+      "lastRef": "text00324:p0030",
+      "blockCount": 30,
+      "characters": 2486,
+      "status": "fully_read",
+      "narrativeLastRef": "text00324:p0030",
+      "notes": ""
+    },
+    {
+      "documentId": "text00325",
+      "firstRef": "text00325:p0001",
+      "lastRef": "text00325:p0091",
+      "blockCount": 91,
+      "characters": 8413,
+      "status": "fully_read",
+      "narrativeLastRef": "text00325:p0091",
+      "notes": ""
+    },
+    {
+      "documentId": "text00326",
+      "firstRef": "text00326:p0001",
+      "lastRef": "text00326:p0096",
+      "blockCount": 96,
+      "characters": 8887,
+      "status": "fully_read",
+      "narrativeLastRef": "text00326:p0096",
+      "notes": ""
+    },
+    {
+      "documentId": "text00327",
+      "firstRef": "text00327:p0001",
+      "lastRef": "text00327:p0096",
+      "blockCount": 96,
+      "characters": 9978,
+      "status": "fully_read",
+      "narrativeLastRef": "text00327:p0096",
+      "notes": ""
+    },
+    {
+      "documentId": "text00328",
+      "firstRef": "text00328:p0001",
+      "lastRef": "text00328:p0130",
+      "blockCount": 130,
+      "characters": 10984,
+      "status": "fully_read",
+      "narrativeLastRef": "text00328:p0130",
+      "notes": ""
+    },
+    {
+      "documentId": "text00329",
+      "firstRef": "text00329:p0001",
+      "lastRef": "text00329:p0083",
+      "blockCount": 83,
+      "characters": 7318,
+      "status": "fully_read",
+      "narrativeLastRef": "text00329:p0083",
+      "notes": ""
+    },
+    {
+      "documentId": "text00330",
+      "firstRef": "text00330:p0001",
+      "lastRef": "text00330:p0100",
+      "blockCount": 100,
+      "characters": 8929,
+      "status": "fully_read",
+      "narrativeLastRef": "text00330:p0100",
+      "notes": ""
+    },
+    {
+      "documentId": "text00331",
+      "firstRef": "text00331:p0001",
+      "lastRef": "text00331:p0062",
+      "blockCount": 62,
+      "characters": 6053,
+      "status": "fully_read",
+      "narrativeLastRef": "text00331:p0062",
+      "notes": ""
+    },
+    {
+      "documentId": "text00332",
+      "firstRef": "text00332:p0001",
+      "lastRef": "text00332:p0127",
+      "blockCount": 127,
+      "characters": 11622,
+      "status": "fully_read",
+      "narrativeLastRef": "text00332:p0127",
+      "notes": ""
+    },
+    {
+      "documentId": "text00333",
+      "firstRef": "text00333:p0001",
+      "lastRef": "text00333:p0059",
+      "blockCount": 59,
+      "characters": 4234,
+      "status": "fully_read",
+      "narrativeLastRef": "text00333:p0056",
+      "notes": "p0057–p0059作者介绍，非叙事；亦已读"
+    }
+  ],
+  "inputVersions": {
+    "text00324.json": "c23cb94578afdb8a54620bf31c5437765c45b31a4145f82ad557e0bee569aff2",
+    "text00324.txt": "42c8593f08c3ffa33d7ac254dc142dfb9ff19ab7c73df9e8a15d99d79594368e",
+    "text00325.json": "862d8d933fc0b3e7e0f05b980b86279b6b0eeffd2b130331a806d503d8958b41",
+    "text00325.txt": "21a1b5c2e058f0c20eac94f3be201653bb081e7563e6d16e229a1c571507a4cf",
+    "text00326.json": "55ee1f372f79e21a1c3e3d8abe4ac7c395c620bf8c8c6ac2edafa3c9022548cf",
+    "text00326.txt": "dcc5a854ef727c154a6d0c4d99315009a3d6343a689582a6a4cc5bc1d2d512f1",
+    "text00327.json": "724a11c221a09e8915289d123853fd349da91c6d5c3539c0906188ff32cdb4fd",
+    "text00327.txt": "de7a02c5853930a79ed9947eab0b049960e38e59de67bc352520f1d6ef0fc89d",
+    "text00328.json": "f148a8e6e03074975eda7a2c2cf5bef44cfd28dfa4b22c8da2d23b7e2ddd91b2",
+    "text00328.txt": "2dcbc7475c2bc04b49577c4e3405b17bd83b61c2a9e19e073ab852e671489667",
+    "text00329.json": "f38c4b8a5d6f43436a14dfee750bccc6d7bc7079b0678b5c31c46918e5af756a",
+    "text00329.txt": "ef31b220860a560777ddee91a5c9a7d85438dbbac9eac6a13c26fbe3ee356fbc",
+    "text00330.json": "7cb3ce438c7c9b3e8282f5610d21a01a06dc4d1b526ce418c1c19dc4885f57fa",
+    "text00330.txt": "aaacfd9efba1d86a9ba8e2bfc7a04ab15e5b142e7068af2fd88c94756dba88e2",
+    "text00331.json": "af56892a7d9f581cf4fdec16c6beff2ebd1cf8756417331c9a9c2d823fbf7662",
+    "text00331.txt": "cfa8ed4db9af05dff5101d2adff62d0ac6b7e3288ba2f113b4daf1a18f12b2de",
+    "text00332.json": "910e4e1e51585e8f1c29d1e45b9bc83f72827fb93fd9591710c803aba5e02dca",
+    "text00332.txt": "58ac6b9f215f29fb75a092f31d189adfb99e1363b95d2e0f3a550f8ce2f69b36",
+    "text00333.json": "c9f860be39b8d3897c5a855ed64f64687d04411b9c0a68629235b5e541baa150",
+    "text00333.txt": "3afc9973bf9c211161fdf811ea59ca0936f62243fe49706583a888ab5334d57d"
+  },
+  "events": [
+    {
+      "id": "late-01",
+      "title": "黑暗女王的复仇计划",
+      "fact": "第三部间奏中的希尔瓦娜斯已统治幽暗城，观看同一菌株杀死人类及被遗忘者的试验；目标同时打击人类与天灾，并防止菌株落入敌手。",
+      "sourceRefs": [
+        "text00324:p0003",
+        "text00324:p0011–p0029"
+      ],
+      "interpretation": "这是较后时点的框架插入，不能作为第17章之前已经连续发生的事件。她的复仇已扩展到“生出”阿尔萨斯的人类整体。"
+    },
+    {
+      "id": "late-02",
+      "title": "被偷取的灵魂与压下的悔意",
+      "fact": "提克迪奥斯说霜之哀伤偷取的第一个灵魂是阿尔萨斯；阿尔萨斯仍听见自己内心指出其“毫无悔意”是说谎，却选择压下。",
+      "sourceRefs": [
+        "text00325:p0008–p0015"
+      ],
+      "interpretation": "不能把失魂直接写成完全没有选择或人性：本章及尾声反复保留内心冲突。武器铸造说法须归于此版本中提克迪奥斯的陈述。"
+    },
+    {
+      "id": "late-03",
+      "title": "杀戮昔日兄弟",
+      "fact": "阿尔萨斯袭取克尔苏加德遗骸，先向格文拉德提出让路可免死，遭拒辱后将其杀死；虽然威胁复活奴役，实际留下尸体未复活。",
+      "sourceRefs": [
+        "text00325:p0022–p0031"
+      ],
+      "interpretation": "羞辱和被否定激起怒火，残余旧情并不抵消后续暴行。"
+    },
+    {
+      "id": "late-04",
+      "title": "弑师与倾倒父灰",
+      "fact": "为取得保存遗骸的骨灰瓮，阿尔萨斯与乌瑟尔战斗，借霜之哀伤及巫妖王力量反败为胜，杀死导师；倾倒泰瑞纳斯骨灰时被风吹得满身，引发惶恐，随后强行镇定。",
+      "sourceRefs": [
+        "text00325:p0046–p0091"
+      ],
+      "interpretation": "本章核心是主动切断过去。不要把导师轻松败亡写成事实：乌瑟尔曾重击并几乎杀死他。"
+    },
+    {
+      "id": "late-05",
+      "title": "从被爱到绝对服从",
+      "fact": "行军中克尔苏加德透露恐惧魔王是巫妖王狱卒；蛛魔加入。阿尔萨斯因精灵叛徒轻易卖国，转而认定不会被收买的亡灵臣民更好。",
+      "sourceRefs": [
+        "text00326:p0002–p0022"
+      ],
+      "interpretation": "臣民观由希望得到爱转向把服从等同忠诚，后在反叛时崩溃。"
+    },
+    {
+      "id": "late-06",
+      "title": "精灵守土与死亡之痕",
+      "fact": "希尔瓦娜斯防守失利，亲见死去部下被复活，第一大门被破；亡灵经过的土地枯死。她炸断桥梁以拖延，争取传讯时间。",
+      "sourceRefs": [
+        "text00326:p0024–p0096"
+      ],
+      "interpretation": "抵抗从坚信屏障不可破转为明知劣势仍争取时间；不可把她描写成从开始就只想报复。"
+    },
+    {
+      "id": "late-07",
+      "title": "尸桥和旧爱回忆",
+      "fact": "达尔坎泄露三月钥匙秘密；阿尔萨斯命亡灵以身体搭桥。无敌涉水勾起旧日断腿负罪感；他用亡灵永不受伤及吉安娜“拒绝”自己来合理化选择。",
+      "sourceRefs": [
+        "text00327:p0002–p0011"
+      ],
+      "interpretation": "保护欲被重构成剥夺生命的理由；他对吉安娜的责怪属于其主观归因。"
+    },
+    {
+      "id": "late-08",
+      "title": "游侠将军成为女妖",
+      "fact": "希尔瓦娜斯组织疏散、最后抵抗，被阿尔萨斯刺杀；请求干净了结遭拒，灵魂被强行唤回为女妖并受疼痛控制，意志仍反抗。",
+      "sourceRefs": [
+        "text00327:p0013–p0069"
+      ],
+      "interpretation": "阿尔萨斯将被侵略者的抵抗说成她导致族人灾难的选择，是施害者自我辩护。"
+    },
+    {
+      "id": "late-09",
+      "title": "银月陨落与太阳之井被污染",
+      "fact": "银月城陷落，霜之哀伤冻结海面通往奎尔丹纳斯；安纳斯特里亚斩断无敌前腿后被杀，阿尔萨斯修复马腿。希尔瓦娜斯被迫参与杀戮，克尔苏加德在太阳之井复活；达尔坎亦死于霜之哀伤。",
+      "sourceRefs": [
+        "text00327:p0071–p0096"
+      ],
+      "interpretation": "无敌仍能激起爱与痛，使希尔瓦娜斯察觉他的心理破绽；女妖是有自主憎恨却无行动自由的受害者。"
+    },
+    {
+      "id": "late-10",
+      "title": "成为工具的事实",
+      "fact": "克尔苏加德说明巫妖王早已选中阿尔萨斯以及天灾为军团铺路；阿尔萨斯不喜欢被操纵，却把过程理解为使自己强大的锻造。",
+      "sourceRefs": [
+        "text00328:p0004–p0025"
+      ],
+      "interpretation": "不能将这段获知的信息倒灌给早期阿尔萨斯，写成他从最初便知道全盘计划。"
+    },
+    {
+      "id": "late-11",
+      "title": "达拉然与吉安娜的分途",
+      "fact": "安东尼达斯让吉安娜离开去照顾她承诺保护的人。阿尔萨斯杀死安东尼达斯并取得麦迪文法术书，保护克尔苏加德召唤阿克蒙德。",
+      "sourceRefs": [
+        "text00328:p0050–p0114"
+      ],
+      "interpretation": "吉安娜仍爱他并希望其受不可抗力量影响，但决定承担生者的责任；阿尔萨斯庆幸不必与她交战。"
+    },
+    {
+      "id": "late-12",
+      "title": "被抛弃恐惧与反军团谋划",
+      "fact": "阿克蒙德把天灾交给恐惧魔王，轻易毁掉达拉然；阿尔萨斯拒绝让自身牺牲变得无意义。随后在卡利姆多与伊利丹短暂交战，诱其夺取古尔丹之颅以打击提克迪奥斯。",
+      "sourceRefs": [
+        "text00328:p0118–p0130",
+        "text00329:p0002–p0026"
+      ],
+      "interpretation": "对自主权及意义的执着推动他从工具转为操纵者。不能将世界树之战写成阿尔萨斯亲自参加：其结果由希尔瓦娜斯回顾转述。"
+    },
+    {
+      "id": "late-13",
+      "title": "国王的力量衰退",
+      "fact": "希尔瓦娜斯回顾军团战败；阿尔萨斯回洛丹伦赶走三恐惧魔王，自称国王，却忽然痛苦失力。希尔瓦娜斯发现控制松动，与魔王结盟且坚持不换新主人。",
+      "sourceRefs": [
+        "text00329:p0031–p0083"
+      ],
+      "interpretation": "权力和控制的衰减使“绝对忠诚”的幻象暴露；希尔瓦娜斯以复仇和自由为双重目标。"
+    },
+    {
+      "id": "late-14",
+      "title": "亡灵反噬与毒箭伏击",
+      "fact": "恐惧魔王控制亡灵攻杀阿尔萨斯，他经秘密通道逃出，女妖假意相救把他引入希尔瓦娜斯陷阱。她用麻痹毒箭欲慢慢报复，幽灵女孩及克尔苏加德救他脱身。",
+      "sourceRefs": [
+        "text00330:p0002–p0074"
+      ],
+      "interpretation": "他从为亡灵“臣民”背叛而心痛转为称它们仅是腐肉工具；对克尔苏加德信任最终自述为共同依附主人而非友谊。"
+    },
+    {
+      "id": "late-15",
+      "title": "被遗忘者的道路",
+      "fact": "希尔瓦娜斯拒绝瓦里玛萨斯的招揽，决意建立被遗忘者军队和城市，以备复仇，并考虑利用该恶魔。",
+      "sourceRefs": [
+        "text00330:p0076–p0100"
+      ],
+      "interpretation": "自由并未使她恢复生前善良或身体；后来的统治状态由间奏及尾声证实，具体夺城过程本范围没有展开。"
+    },
+    {
+      "id": "late-16",
+      "title": "返回诺森德的求生动机",
+      "fact": "阿尔萨斯遭血精灵袭击，阿努巴拉克援助；凯尔萨斯揭示伊利丹率军逼近冰冠。阿努巴拉克提出地下捷径，阿尔萨斯明确以自己若失去巫妖王也会死的求生欲前进。",
+      "sourceRefs": [
+        "text00331:p0002–p0062"
+      ],
+      "interpretation": "并非纯粹为忠诚救主。两位失国之王的并置可作解读，但不能补写阿努巴拉克一定将反叛。"
+    },
+    {
+      "id": "late-17",
+      "title": "获得力量与击退旧敌",
+      "fact": "穿越艾卓-尼鲁布后，巫妖王解释释放霜之哀伤造成冰牢缺口及力量流失，并把可给的力量交给阿尔萨斯。阿尔萨斯击退凯尔萨斯（其传送脱身），重伤伊利丹后将仍喘息的对手留给严寒。",
+      "sourceRefs": [
+        "text00332:p0002–p0098"
+      ],
+      "interpretation": "凯尔萨斯用吉安娜及弑父反击能动摇他；伊利丹并未被确认死亡。冰牢破损原因严格采用本小说叙述，不能擅加游戏版本原因。"
+    },
+    {
+      "id": "late-18",
+      "title": "合一、梦中抉择与觉醒",
+      "fact": "阿尔萨斯登塔时回想劝阻和旧爱，却打碎冰牢戴上头盔，与耐奥祖交融。尾声回到长桌梦境，辨认男孩为剩余人性，主动以剑毁灭男孩及耐奥祖梦中形象；吉安娜、艾格文、希尔瓦娜斯感到异常，最终巫妖王在王座睁眼，说“开始了。”",
+      "sourceRefs": [
+        "text00332:p0099–p0127",
+        "text00333:p0002–p0056"
+      ],
+      "interpretation": "合一不是小说最终结局：尾声突出排除双方、独占力量。梦中杀戮不可描写为现实房间内发生的两次肉身谋杀。"
+    }
+  ],
+  "relationships": [
+    {
+      "pair": "阿尔萨斯—乌瑟尔/父亲",
+      "fact": "在骨灰瓮事件、凯尔萨斯交锋、登塔回忆仍有羞惭与痛；反复压制而非从此毫无感受。",
+      "refs": [
+        "text00325:p0052–p0089",
+        "text00332:p0049–p0051",
+        "text00332:p0103–p0112"
+      ]
+    },
+    {
+      "pair": "阿尔萨斯—吉安娜",
+      "fact": "双方未在达拉然面对面重逢；她仍爱他且撤离护民，他庆幸不必交战，之后被“她恨你”动摇。",
+      "refs": [
+        "text00328:p0054",
+        "text00328:p0085–p0103",
+        "text00332:p0045–p0067"
+      ],
+      "interpretation": "旧爱仍是被他压制而未消失的人性线索，直到尾声主动斩除。"
+    },
+    {
+      "pair": "阿尔萨斯—希尔瓦娜斯",
+      "fact": "守土敌手变受奴役女妖，控制变弱后反叛复仇；他以痛苦惩罚她，并把侵略结果归咎她抵抗。",
+      "refs": [
+        "text00327:p0040–p0069",
+        "text00329:p0070–p0083",
+        "text00330:p0047–p0064"
+      ]
+    },
+    {
+      "pair": "阿尔萨斯—克尔苏加德",
+      "fact": "由被杀对象转为情报者、合谋者和救命者；阿尔萨斯把信任解释为共同受巫妖王约束。",
+      "refs": [
+        "text00328:p0004–p0025",
+        "text00330:p0019",
+        "text00330:p0062–p0074"
+      ]
+    },
+    {
+      "pair": "阿尔萨斯—耐奥祖",
+      "fact": "从依赖强力和指引，获知操纵、为自保救主，戴盔交融，最终在梦里杀其形象以独占权力。",
+      "refs": [
+        "text00331:p0057",
+        "text00332:p0025–p0030",
+        "text00332:p0123–p0127",
+        "text00333:p0036–p0040"
+      ]
+    },
+    {
+      "pair": "阿尔萨斯—无敌/亡灵臣民",
+      "fact": "仍宠爱并修复无敌；曾将亡灵顺从视为完美忠诚，失控后重新厌恶并断言不是臣民。",
+      "refs": [
+        "text00326:p0019–p0022",
+        "text00327:p0083–p0086",
+        "text00330:p0014–p0029",
+        "text00330:p0072–p0073"
+      ]
+    },
+    {
+      "pair": "阿尔萨斯—凯尔萨斯/伊利丹",
+      "fact": "凯尔萨斯因族人父亲被杀复仇，吉安娜也是交锋武器；伊利丹先受他利用后成为冰冠敌手。",
+      "refs": [
+        "text00331:p0032–p0040",
+        "text00332:p0041–p0068",
+        "text00332:p0071–p0098"
+      ]
+    }
+  ],
+  "subtitleCandidates": [
+    {
+      "text": "黑暗女王",
+      "origin": "original",
+      "sourceRef": "epub-v1/text00324:p0001",
+      "sourceLabel": "➣ 第三部　黑暗女王",
+      "status": "candidate_not_approved",
+      "selectionReason": "原作分部题词，适合包含希尔瓦娜斯受害、复仇及阿尔萨斯统治代价的第三部；仅可作为明确注明分部题词来源的候选，不将任意章名自动认定副标题。"
+    },
+    {
+      "text": "巫妖王",
+      "origin": "original",
+      "sourceRef": "epub-v1/text00333:p0001",
+      "sourceLabel": "➣ 尾声巫妖王",
+      "status": "candidate_not_approved",
+      "selectionReason": "尾声题词，与最终梦中独占权力及现实觉醒匹配；是否适用于完整分篇交策划与校核判断。"
+    }
+  ],
+  "subtitleScopeNote": "本范围无另外独立标明subtitle的行。未读其余范围，不可断言全书没有适用副标题；不在资料阶段创作最终标题。",
+  "frameAndBoundary": {
+    "dreamReturnRefs": [
+      "text00333:p0002–p0007"
+    ],
+    "verification": "尾声明确“再一次”坐到长桌、兽人及男孩仍在，并说明刚回忆一生，足以确认回忆梦境外框；本分工未读序章，具体首尾逐项对照由整合员与early记录完成。",
+    "visions": {
+      "refs": "text00333:p0009–p0019",
+      "type": "past_and_future_mixed_dream_visions",
+      "rule": "列为梦中见闻及阿尔萨斯相信的预示，不写成已发生的生平；不得用游戏知识给未命名景象补正式事件名或结局。"
+    },
+    "choiceRefs": "text00333:p0021–p0040",
+    "physicalWorldAfterChoiceRefs": "text00333:p0042–p0056",
+    "lastNarrativeRef": "text00333:p0056",
+    "lastWords": "开始了。",
+    "excluded": "不加入后续游戏战役、阿尔萨斯最终死亡、霜之哀伤最终命运等。伊利丹本范围结局仅重伤未确认死亡。"
+  },
+  "publicationSuggestions": [
+    {
+      "unit": "第三部",
+      "suggestion": "可保留用户以三部划分的结构，把尾声设为第三部末节；第三部内部用“旧情的斩断—施害与复仇—失控与自救—夺取自我”推进，不将阅读文件数当篇数。",
+      "tone": "压抑、残酷、心理对抗与最终冷寂；仍让乌瑟尔、吉安娜、精灵的抵抗保有各自尊严。",
+      "imageMode": "chapter_scene",
+      "sceneOptions": [
+        {
+          "scene": "乌瑟尔守护骨灰瓮与阿尔萨斯对峙",
+          "refs": "text00325:p0046–p0089",
+          "note": "死亡骑士白发与符文剑，尚无巫妖王头盔；可用金蓝圣光与冰蓝对照。"
+        },
+        {
+          "scene": "冰封王座上戴盔前后",
+          "refs": "text00332:p0113–p0127",
+          "note": "若采用此图，应承认主要突出本部结局；尾声的长桌双杀另属梦境，不能合并为同地实景。"
+        }
+      ]
+    },
+    {
+      "unit": "总览",
+      "imageMode": "life_synthesis",
+      "suggestion": "玻璃画可将骨灰瓮、无敌、霜之哀伤、王座及梦中男孩作为注明象征的整体；前期形象须由其他阅读块证据供给。"
+    }
+  ],
+  "reviewFindings": [
+    "需保留视角归属：阿尔萨斯以斯坦索姆“不得不”、吉安娜“背叛”等描述，不是中立事实判定。",
+    "text00330:p0025中“其他人都不在人世”为阿尔萨斯此时视角/本版叙述，不应外推全系列人物最终生死。",
+    "text00327:p0033/39把奥蕾莉亚视为死者，须保留希尔瓦娜斯认知，不补后续设定。",
+    "text00329:p0031的“很多个岁月”与其后“几个月”不可擅换算确切年份。",
+    "原作分部与尾声题词只做候选，待内容校核批准后方可绘图。"
+  ],
+  "uncovered": [
+    "text00302–text00323未由本资料员读取，前部情节与序章精确对应依赖其他分工。",
+    "本小说最后一句之后的所有情节。",
+    "没有叙事缺读：本分工十文件共874段，全文78904字符。"
+  ]
+}

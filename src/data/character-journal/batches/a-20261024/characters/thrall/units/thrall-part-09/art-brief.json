@@ -1,0 +1,44 @@
+{
+  "unitId": "thrall-part-09",
+  "subtitle": {
+    "text": "先听见悲痛，再谈责任",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "storySha256": "1af1b8777d6275666b5ab2d87beeecfec6eff4ea4b267a5e8f93a8f1ef915ed1",
+  "artScene": {
+    "scene": "凄凉之地，萨尔把橡果交到精灵形态阿莱克丝塔萨掌中；一寸嫩芽刚长出，两人注视它。单一实景，重心为手掌、种子与悲伤的面容。",
+    "sourceRefs": [
+      "18/text00543:p0113-p0120"
+    ],
+    "costumeAndWeapons": {
+      "thrall": "萨满长袍，绿色皮肤，非酋长铠甲。长袍具体色样无明确依据，保持简朴。双手用于握手与交付橡果，不持锤。",
+      "supportRefs": [
+        "18/text00537:p0081",
+        "18/text00543:p0113-p0116"
+      ],
+      "other": "阿莱克丝塔萨为精灵形态；本段未提供精确服装款式，宜以手掌和肩面近景减少臆造，不调用后世游戏皮肤。",
+      "otherRefs": [
+        "18/text00543:p0119"
+      ]
+    },
+    "emotion": "悲痛中开始接受安慰，温柔而克制，不画成狂喜凯旋。",
+    "avoid": [
+      "龙形女王收橡果",
+      "第五守护巨龙形态的萨尔",
+      "跨场景龙战",
+      "浮在背景的克拉苏斯幽灵"
+    ],
+    "medium": "一整幅中世纪彩绘玻璃：铅条分格、透光彩色玻璃、无嵌入文字；非油画、非数字写实、非多卡片拼贴",
+    "subtitle": "先听见悲痛，再谈责任",
+    "subtitleOrigin": "editorial",
+    "imageMode": "chapter_scene",
+    "status": "scene_suggestion_for_coordinator_review"
+  },
+  "style": "中世纪彩绘玻璃；面孔、人物和全环境均为玻璃铅条；无嵌入文字",
+  "sourceUncertainty": "未被原文限定的衣纹、色样、取景与布景属艺术处理，不作为史实",
+  "status": "approved_for_generation",
+  "prompt": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 先听见悲痛，再谈责任. Single intimate scene in desolate ground: Thrall, adult green orc with blue eyes and black braids, plain brown shaman robes, has gently placed an acorn in Alexstrasza's open palm. She appears as an ELVEN WOMAN, NOT a dragon, with long red hair and a grief-worn delicate face, modest simple red-gold clothing, no extravagant costume or crown. A tiny green shoot with two leaves has just emerged from the brown acorn. Close composition of their faces and open hands, shoulders, quiet devastated landscape behind; sorrow beginning to accept consolation, no victorious smile. No ghost, no deceased lover, no battle, no magical treatment beam. Natural hand anatomy. Put the warmest transmitted light around the tiny shoot; keep faces solemn."
+}

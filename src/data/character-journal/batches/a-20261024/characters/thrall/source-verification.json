@@ -1,0 +1,62 @@
+[
+  {
+    "bookId": "02",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "ade02716af7a3abef6fdcc542217133d46a8a7b7bf05202a56af02b0b22d1d0a"
+  },
+  {
+    "bookId": "05",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356"
+  },
+  {
+    "bookId": "10",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285"
+  },
+  {
+    "bookId": "11",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "3801a08ca7b1da2ed5315d54ce902e3b46254bbe404b389311751eda5e65678b"
+  },
+  {
+    "bookId": "13",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7"
+  },
+  {
+    "bookId": "16",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39"
+  },
+  {
+    "bookId": "18",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7"
+  },
+  {
+    "bookId": "19",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325"
+  },
+  {
+    "bookId": "21",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e"
+  },
+  {
+    "bookId": "26",
+    "exists": true,
+    "sha256Matches": true,
+    "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286"
+  }
+]

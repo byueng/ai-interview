@@ -1,0 +1,16 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-04",
+  "mode": "built_in_imagegen",
+  "tool": "image_gen.imagegen",
+  "useCase": "illustration-story",
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\04-stained-glass.png",
+  "imageSha256": "2a2dc6c7af2a218563558b2524cc2ae829a31a5268953887067036f477c5ea46",
+  "originalGeneratedPath": "C:\\Users\\76353\\.codex\\generated_images\\01a169e8-0fdc-7841-b8ec-941869808f4b\\exec-9eba4578-f38b-4f29-a275-bb0648ccc2dd.png",
+  "prompt": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 盟友使一个民族走向共同体. One scene: the Prophet Medivh brings Thrall and Jaina together to make a truce during the journey in Kalimdor. Three adults only: young adult green orc Thrall with blue eyes and black braids at left, blonde human mage Jaina in modest blue-white clothing at right, a hooded older human prophet between and slightly behind. They listen cautiously, no handshake or signed treaty. Thrall is still chief: understated dark armor visible only at shoulder, no later shaman robe or prayer beads. Inside the mountaintop CAVE in Stonetalon Mountains, dark rock walls and an opening with distant rock peaks; armed followers are only indistinct silhouettes in the far background. Deep blue and amber light slowly reaching all three, guarded hope. No battle montage, no extra allied species.",
+  "promptSource": "image-prompts.json#images[id=04]",
+  "transparentBackground": false,
+  "attemptsThisAgent": 1,
+  "review": "visual-review.json",
+  "savedAt": "2026-10-24T10:13:51.568518+08:00"
+}

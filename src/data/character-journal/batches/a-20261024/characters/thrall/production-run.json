@@ -1,0 +1,49 @@
+{
+  "characterId": "thrall",
+  "authorizedAt": "2026-10-24T02:18:26.388989+08:00",
+  "userInstruction": "可以 生成正文和配图吧",
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "scope": "总览和11篇分篇；每篇一幅配图；旧策划中的停止状态由此次授权覆盖",
+  "outputDirectory": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall",
+  "status": "completed_unpublished",
+  "imageStyle": "medieval_leaded_stained_glass",
+  "styleCorrection": {
+    "userInstruction": "绘制的风格是彩绘玻璃风格的呀",
+    "configuration": "planner-instructions.txt:78-80",
+    "discarded": [
+      "images/rejected-painterly-00.png"
+    ],
+    "reason": "未遵守既有彩绘玻璃媒介要求，全部重做"
+  },
+  "textCount": 12,
+  "imageCount": 12,
+  "hanCharacterCount": 21177,
+  "previewPath": "preview.html",
+  "fullTextPath": "萨尔人物志-全文.txt",
+  "promptSet": "image-prompts.json",
+  "textReview": "passed",
+  "visualReview": "passed",
+  "nextAction": "user_review_generated_content",
+  "contributors": [
+    {
+      "agent": "/root/thrall_book13",
+      "work": "00-03正文、总览对齐、04配图和独立视觉复核"
+    },
+    {
+      "agent": "/root/thrall_book16",
+      "work": "04-07正文、跨篇校核、05-06配图"
+    },
+    {
+      "agent": "/root/thrall_book19",
+      "work": "08-11正文、跨篇校核、10-11配图"
+    },
+    {
+      "agent": "/root",
+      "work": "其余配图、定点原文核验、修正、统一集成与交接"
+    }
+  ]
+}

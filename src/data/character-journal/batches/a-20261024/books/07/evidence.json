@@ -1,0 +1,1013 @@
+{
+  "bookId": "07",
+  "title": "黑暗之潮",
+  "runId": "batch-a-20261024-01",
+  "version": 1,
+  "status": "complete",
+  "sourcePath": "E:\\魔兽官方小说\\07 黑暗之潮.epub",
+  "sourceSha256": "ade4c474ef920ab8c60a5db39b135046ba88fe6819933178036c4b7d630bf8f6",
+  "method": "按manifest逐章全文阅读；同次提取所有A人物；数字p锚为本次提取器段落编号。source_observation中的人物判断仅证明其持该判断，非外部事实。",
+  "coverage": [
+    {
+      "documentId": "text00171",
+      "href": "OEBPS/text00171.html",
+      "heading": "",
+      "paragraphs": 0,
+      "readRange": "empty_document",
+      "status": "read_complete",
+      "sourceDocumentSha256": "3aa9c5767d0f1dae2c9719ec690f06583e5c6e1e73391beb98c8590cc18709d2"
+    },
+    {
+      "documentId": "text00172",
+      "href": "OEBPS/text00172.html",
+      "heading": "版权信息",
+      "paragraphs": 7,
+      "readRange": "p0001-p0007",
+      "status": "read_complete",
+      "sourceDocumentSha256": "baf54173acfd44e68aa8f3e73b69c538d1b4894e033b32cc7191608c21e58ae9"
+    },
+    {
+      "documentId": "text00173",
+      "href": "OEBPS/text00173.html",
+      "heading": "黑暗之潮",
+      "paragraphs": 31,
+      "readRange": "p0001-p0031",
+      "status": "read_complete",
+      "sourceDocumentSha256": "3f77dbcdd275fcb2979b80788f0df002616d879d6e6bdd20f4cfc37f23af16a0"
+    },
+    {
+      "documentId": "text00174",
+      "href": "OEBPS/text00174.html",
+      "heading": "致我的家人和朋友，尤其是我可爱的妻子，",
+      "paragraphs": 5,
+      "readRange": "p0001-p0005",
+      "status": "read_complete",
+      "sourceDocumentSha256": "f2000d7a6f142f5db7bc9fd90f88931cfc6e67f80372775a29f0e56ae46cd1d9"
+    },
+    {
+      "documentId": "text00175",
+      "href": "OEBPS/text00175.html",
+      "heading": "首先，我非常感谢创造和确保《黑暗之潮》的优秀品质的克里斯和马可，我还要对在创作过程中对我细心指导和提供了真挚意见的伊芙琳表示感谢。我最需要感谢的还是所有《魔兽世界》的拥趸，没有你们，洛萨、奥格瑞姆和其他角色的故事将无人倾听。",
+      "paragraphs": 1,
+      "readRange": "p0001-p0001",
+      "status": "read_complete",
+      "sourceDocumentSha256": "7016dd4571ac176743a912e7662ca199ad7ca241073b3c27404995cb3023c2fa"
+    },
+    {
+      "documentId": "text00176",
+      "href": "OEBPS/text00176.html",
+      "heading": "导读",
+      "paragraphs": 6,
+      "readRange": "p0001-p0006",
+      "status": "read_complete",
+      "sourceDocumentSha256": "3983cd28f8e51035c50ab8752747e1ad724da1b602d27c9770e2ff413aaa4966"
+    },
+    {
+      "documentId": "text00177",
+      "href": "OEBPS/text00177.html",
+      "heading": "序章一",
+      "paragraphs": 45,
+      "readRange": "p0001-p0045",
+      "status": "read_complete",
+      "sourceDocumentSha256": "3016c32d8c71dc4e21b4e550e5a7f4613087eff59453016bff1bc2afa5128a2f"
+    },
+    {
+      "documentId": "text00178",
+      "href": "OEBPS/text00178.html",
+      "heading": "序章二",
+      "paragraphs": 41,
+      "readRange": "p0001-p0041",
+      "status": "read_complete",
+      "sourceDocumentSha256": "8639a2b770617ebbb3d26e1f4f471472003fa890e101fbb0590f711112406b05"
+    },
+    {
+      "documentId": "text00179",
+      "href": "OEBPS/text00179.html",
+      "heading": "第一章",
+      "paragraphs": 32,
+      "readRange": "p0001-p0032",
+      "status": "read_complete",
+      "sourceDocumentSha256": "edeeabfc3f8e71ad12f5d964be8d85cfbbd0c9df221fb079f6bb94932029116b"
+    },
+    {
+      "documentId": "text00180",
+      "href": "OEBPS/text00180.html",
+      "heading": "第二章",
+      "paragraphs": 38,
+      "readRange": "p0001-p0038",
+      "status": "read_complete",
+      "sourceDocumentSha256": "b20ac1cfba5a42130380b0281e20113b58cde508f35e7090eebe1d3697ad9aea"
+    },
+    {
+      "documentId": "text00181",
+      "href": "OEBPS/text00181.html",
+      "heading": "第三章",
+      "paragraphs": 41,
+      "readRange": "p0001-p0041",
+      "status": "read_complete",
+      "sourceDocumentSha256": "749bd84d44f1c577659423b05f3579b5efba1229a0df70907e7ab8b1023c781c"
+    },
+    {
+      "documentId": "text00182",
+      "href": "OEBPS/text00182.html",
+      "heading": "第四章",
+      "paragraphs": 59,
+      "readRange": "p0001-p0059",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c80116c9eb6b37a6ab071a28d029e68f02fca1dc35686676b396111c1d83dca7"
+    },
+    {
+      "documentId": "text00183",
+      "href": "OEBPS/text00183.html",
+      "heading": "第五章",
+      "paragraphs": 66,
+      "readRange": "p0001-p0066",
+      "status": "read_complete",
+      "sourceDocumentSha256": "c6d03ebd2fcd9dcf59afb7599121901786d75feea7c82ee8315d3ef74b8e647a"
+    },
+    {
+      "documentId": "text00184",
+      "href": "OEBPS/text00184.html",
+      "heading": "第六章",
+      "paragraphs": 59,
+      "readRange": "p0001-p0059",
+      "status": "read_complete",
+      "sourceDocumentSha256": "377e463e1035a7bb2be573168996370ba94e9bf06aeab8512e7c2b3a33b65a1b"
+    },
+    {
+      "documentId": "text00185",
+      "href": "OEBPS/text00185.html",
+      "heading": "第七章",
+      "paragraphs": 85,
+      "readRange": "p0001-p0085",
+      "status": "read_complete",
+      "sourceDocumentSha256": "34bea139a40b6bb5a67be60aeda9038d0192c20841550f8f8f06e790e3e4dc79"
+    },
+    {
+      "documentId": "text00186",
+      "href": "OEBPS/text00186.html",
+      "heading": "第八章",
+      "paragraphs": 54,
+      "readRange": "p0001-p0054",
+      "status": "read_complete",
+      "sourceDocumentSha256": "cdb262582fd73f0732eb50ba93ddbc14d83461a25ae9f2fcc12b1bde07bcafcd"
+    },
+    {
+      "documentId": "text00187",
+      "href": "OEBPS/text00187.html",
+      "heading": "第九章",
+      "paragraphs": 42,
+      "readRange": "p0001-p0042",
+      "status": "read_complete",
+      "sourceDocumentSha256": "d5007de8826c0efe1720c7f539e94c976bbb571d7646a20ada099728b5c0d4d5"
+    },
+    {
+      "documentId": "text00188",
+      "href": "OEBPS/text00188.html",
+      "heading": "第十章",
+      "paragraphs": 78,
+      "readRange": "p0001-p0078",
+      "status": "read_complete",
+      "sourceDocumentSha256": "f75b512c23478835424cf885cbaeda6f9f2bec73097469bcea8cf8cef56d3203"
+    },
+    {
+      "documentId": "text00189",
+      "href": "OEBPS/text00189.html",
+      "heading": "第十一章",
+      "paragraphs": 55,
+      "readRange": "p0001-p0055",
+      "status": "read_complete",
+      "sourceDocumentSha256": "3c2ebe634dd12f7c87626f553644467bb4953b1e4048c7e4a735a03079b8d2e6"
+    },
+    {
+      "documentId": "text00190",
+      "href": "OEBPS/text00190.html",
+      "heading": "第十二章",
+      "paragraphs": 51,
+      "readRange": "p0001-p0051",
+      "status": "read_complete",
+      "sourceDocumentSha256": "25d7a546eb1c1f922f2d7481126aed88d5556b3c7350234f071a354a105c4b77"
+    },
+    {
+      "documentId": "text00191",
+      "href": "OEBPS/text00191.html",
+      "heading": "第十三章",
+      "paragraphs": 54,
+      "readRange": "p0001-p0054",
+      "status": "read_complete",
+      "sourceDocumentSha256": "d4a2429d91ad7aad392ac5c870ba115a9be3c27ad18c05f7c6d42e0924928397"
+    },
+    {
+      "documentId": "text00192",
+      "href": "OEBPS/text00192.html",
+      "heading": "第十四章",
+      "paragraphs": 143,
+      "readRange": "p0001-p0143",
+      "status": "read_complete",
+      "sourceDocumentSha256": "f357fa5fa811727f7d6f6f2d6842ac441a84eaaf353ae4cdf6e759d690e8eb86"
+    },
+    {
+      "documentId": "text00193",
+      "href": "OEBPS/text00193.html",
+      "heading": "第十五章",
+      "paragraphs": 105,
+      "readRange": "p0001-p0105",
+      "status": "read_complete",
+      "sourceDocumentSha256": "dc13eb9f21020140ddb75e39f326879ad6ef3eca72283c50cc96e9931dcac046"
+    },
+    {
+      "documentId": "text00194",
+      "href": "OEBPS/text00194.html",
+      "heading": "第十六章",
+      "paragraphs": 121,
+      "readRange": "p0001-p0121",
+      "status": "read_complete",
+      "sourceDocumentSha256": "8cf0e92d629b1bfb42a6798dd733eda060e382a4c439a3bbda17d95356c59a43"
+    },
+    {
+      "documentId": "text00195",
+      "href": "OEBPS/text00195.html",
+      "heading": "第十七章",
+      "paragraphs": 110,
+      "readRange": "p0001-p0110",
+      "status": "read_complete",
+      "sourceDocumentSha256": "58116a1ec30ea9010673f7f4dc127df823d4f29a5747bf29efb18f04b7604cf2"
+    },
+    {
+      "documentId": "text00196",
+      "href": "OEBPS/text00196.html",
+      "heading": "第十八章",
+      "paragraphs": 57,
+      "readRange": "p0001-p0057",
+      "status": "read_complete",
+      "sourceDocumentSha256": "e6ebd65d928ee4f8c28de6808070d1c623df667280da5be845f790b00e6a5346"
+    },
+    {
+      "documentId": "text00197",
+      "href": "OEBPS/text00197.html",
+      "heading": "第十九章",
+      "paragraphs": 40,
+      "readRange": "p0001-p0040",
+      "status": "read_complete",
+      "sourceDocumentSha256": "436ee283ccbb0186b781b8aaeaf5d85a86e365af853eec5eb2c7a74216a860fb"
+    },
+    {
+      "documentId": "text00198",
+      "href": "OEBPS/text00198.html",
+      "heading": "第二十章",
+      "paragraphs": 54,
+      "readRange": "p0001-p0054",
+      "status": "read_complete",
+      "sourceDocumentSha256": "ec68367dc5e82af9bad24f190730bc0fb9cb353e7b7d31f0f1272a2cf2a2c890"
+    },
+    {
+      "documentId": "text00199",
+      "href": "OEBPS/text00199.html",
+      "heading": "第二十一章",
+      "paragraphs": 45,
+      "readRange": "p0001-p0045",
+      "status": "read_complete",
+      "sourceDocumentSha256": "512609ac1da5e708e9e967b21ddf25191f6b25e5c02c0d7d811a605b15e8d0c3"
+    },
+    {
+      "documentId": "text00200",
+      "href": "OEBPS/text00200.html",
+      "heading": "第二十二章",
+      "paragraphs": 86,
+      "readRange": "p0001-p0086",
+      "status": "read_complete",
+      "sourceDocumentSha256": "585be5414b9f4143aa0ec91670a64a4662f1d71cda7bf003c2e722fe8a325697"
+    },
+    {
+      "documentId": "text00201",
+      "href": "OEBPS/text00201.html",
+      "heading": "尾声",
+      "paragraphs": 13,
+      "readRange": "p0001-p0013",
+      "status": "read_complete",
+      "sourceDocumentSha256": "5133d1e2e4fffc91e36499ce191d2fd18c45f31c3fd3cbc91c77f4f3cd62ad62"
+    },
+    {
+      "documentId": "text00202",
+      "href": "OEBPS/text00202.html",
+      "heading": "关于作者",
+      "paragraphs": 2,
+      "readRange": "p0001-p0002",
+      "status": "read_complete",
+      "sourceDocumentSha256": "58c3158fe47121e853cdc4110887f516377e6ba473a03e1d1b28d07405b8f624"
+    }
+  ],
+  "facts": [
+    {
+      "id": "07-F01",
+      "type": "source_observation",
+      "statement": "难民到南海；卡德加19外貌衰老力量返还；瓦里安在洛萨护送下北行；未来德拉诺死亡只是他对幻象的解释",
+      "evidence": [
+        {
+          "documentId": "text00177",
+          "href": "OEBPS/text00177.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0045"
+        }
+      ]
+    },
+    {
+      "id": "07-F02",
+      "type": "source_observation",
+      "statement": "毁灭之锤责古尔丹谋杀杜隆坦；古尔丹叙事确认；为部落需要仍留下术士",
+      "evidence": [
+        {
+          "documentId": "text00178",
+          "href": "OEBPS/text00178.html",
+          "paragraphStart": "p0024",
+          "paragraphEnd": "p0038"
+        }
+      ]
+    },
+    {
+      "id": "07-F03",
+      "type": "source_observation",
+      "statement": "泰瑞纳斯称瓦里安陛下，承诺保护与复国",
+      "evidence": [
+        {
+          "documentId": "text00179",
+          "href": "OEBPS/text00179.html",
+          "paragraphStart": "p0015",
+          "paragraphEnd": "p0030"
+        }
+      ]
+    },
+    {
+      "id": "07-F04",
+      "type": "source_observation",
+      "statement": "毁灭之锤征服欲与护族并存；古尔丹私谋",
+      "evidence": [
+        {
+          "documentId": "text00180",
+          "href": "OEBPS/text00180.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0038"
+        }
+      ]
+    },
+    {
+      "id": "07-F05",
+      "type": "source_observation",
+      "statement": "卡德加证人支持联盟；瓦里安尚在恢复，阳台偷听会议，阿尔萨斯陪伴",
+      "evidence": [
+        {
+          "documentId": "text00181",
+          "href": "OEBPS/text00181.html",
+          "paragraphStart": "p0022",
+          "paragraphEnd": "p0041"
+        }
+      ]
+    },
+    {
+      "id": "07-F06",
+      "type": "source_observation",
+      "statement": "毁灭之锤营救祖尔金，双方结盟；回忆首次结盟遭拒，承认巨魔自主决定",
+      "evidence": [
+        {
+          "documentId": "text00182",
+          "href": "OEBPS/text00182.html",
+          "paragraphStart": "p0011",
+          "paragraphEnd": "p0059"
+        }
+      ]
+    },
+    {
+      "id": "07-F07",
+      "type": "source_observation",
+      "statement": "卡德加批评权力者，经法奥提醒收回一概而论；洛萨推荐其为肯瑞托联络并协调法师；同意如实报告麦迪文",
+      "evidence": [
+        {
+          "documentId": "text00183",
+          "href": "OEBPS/text00183.html",
+          "paragraphStart": "p0019",
+          "paragraphEnd": "p0038"
+        }
+      ]
+    },
+    {
+      "id": "07-F08",
+      "type": "source_observation",
+      "statement": "法奥设圣骑士修会；p47提里奥具名首四候选之一；49从容；60卡德加认为提里奥本为战士、信仰坚定可能限制战术（人物评价不是验证事实）；推荐格文拉德第五位",
+      "evidence": [
+        {
+          "documentId": "text00183",
+          "href": "OEBPS/text00183.html",
+          "paragraphStart": "p0043",
+          "paragraphEnd": "p0064"
+        }
+      ]
+    },
+    {
+      "id": "07-F09",
+      "type": "source_observation",
+      "statement": "古尔丹杀死灵法师制心脏宝石、以死亡议会灵魂入人尸，塔隆血魔首死亡骑士；毁灭之锤接纳而术士图私利",
+      "evidence": [
+        {
+          "documentId": "text00184",
+          "href": "OEBPS/text00184.html",
+          "paragraphStart": "p0013",
+          "paragraphEnd": "p0040"
+        }
+      ]
+    },
+    {
+      "id": "07-F10",
+      "type": "source_observation",
+      "statement": "部落北进占矿建舰计划，火山被兽人解释祝福（非客观证明）",
+      "evidence": [
+        {
+          "documentId": "text00184",
+          "href": "OEBPS/text00184.html",
+          "paragraphStart": "p0041",
+          "paragraphEnd": "p0059"
+        }
+      ]
+    },
+    {
+      "id": "07-F11",
+      "type": "source_observation",
+      "statement": "卡德加识破肯瑞托伪装要求公开相见；完整报告；保留取走书籍不告；对召回明确拒绝，选择履行对洛萨承诺与友谊；获自主认可；窥视会议获摧门目标",
+      "evidence": [
+        {
+          "documentId": "text00185",
+          "href": "OEBPS/text00185.html",
+          "paragraphStart": "p0007",
+          "paragraphEnd": "p0048"
+        }
+      ]
+    },
+    {
+      "id": "07-F12",
+      "type": "source_observation",
+      "statement": "卡德加为洛萨客观顾问；奥蕾莉亚自愿支援（精灵王仅象征舰队）；部落海上将至",
+      "evidence": [
+        {
+          "documentId": "text00185",
+          "href": "OEBPS/text00185.html",
+          "paragraphStart": "p0050",
+          "paragraphEnd": "p0085"
+        }
+      ]
+    },
+    {
+      "id": "07-F13",
+      "type": "source_observation",
+      "statement": "卡德加对图拉扬坦诚每战恐惧，用洛萨经验安慰",
+      "evidence": [
+        {
+          "documentId": "text00186",
+          "href": "OEBPS/text00186.html",
+          "paragraphStart": "p0007",
+          "paragraphEnd": "p0013"
+        }
+      ]
+    },
+    {
+      "id": "07-F14",
+      "type": "source_observation",
+      "statement": "卡德加召暴风闪电协防，有限魔力耗竭；盟军守线而非彻底击溃兽人",
+      "evidence": [
+        {
+          "documentId": "text00186",
+          "href": "OEBPS/text00186.html",
+          "paragraphStart": "p0035",
+          "paragraphEnd": "p0040"
+        }
+      ]
+    },
+    {
+      "id": "07-F15",
+      "type": "source_observation",
+      "statement": "祖鲁希德寻恶魔之魂，耐克鲁斯操作奴役红龙女王，以杀蛋折磨迫红龙效力；萨满过去回忆是祖鲁希德视角",
+      "evidence": [
+        {
+          "documentId": "text00187",
+          "href": "OEBPS/text00187.html",
+          "paragraphStart": "p0012",
+          "paragraphEnd": "p0042"
+        }
+      ]
+    },
+    {
+      "id": "07-F16",
+      "type": "source_observation",
+      "statement": "卡德加建议救矮人结盟、传令、随图拉扬半军援精灵；库德兰结盟，发现辛特兰为佯攻",
+      "evidence": [
+        {
+          "documentId": "text00188",
+          "href": "OEBPS/text00188.html",
+          "paragraphStart": "p0022",
+          "paragraphEnd": "p0022"
+        },
+        {
+          "documentId": "text00188",
+          "href": "OEBPS/text00188.html",
+          "paragraphStart": "p0037",
+          "paragraphEnd": "p0037"
+        },
+        {
+          "documentId": "text00188",
+          "href": "OEBPS/text00188.html",
+          "paragraphStart": "p0063",
+          "paragraphEnd": "p0063"
+        },
+        {
+          "documentId": "text00188",
+          "href": "OEBPS/text00188.html",
+          "paragraphStart": "p0076",
+          "paragraphEnd": "p0078"
+        }
+      ]
+    },
+    {
+      "id": "07-F17",
+      "type": "source_observation",
+      "statement": "毁灭之锤以绕路翻山战术进攻精灵、容许黑手兄弟质疑；古尔丹提风暴祭坛；52明确毁灭之锤拒饮恶魔杯",
+      "evidence": [
+        {
+          "documentId": "text00189",
+          "href": "OEBPS/text00189.html",
+          "paragraphStart": "p0004",
+          "paragraphEnd": "p0055"
+        }
+      ]
+    },
+    {
+      "id": "07-F18",
+      "type": "source_observation",
+      "statement": "卡德加劝奥蕾莉亚勿孤身冒险；鼓励图拉扬领导；提出召雨灭火",
+      "evidence": [
+        {
+          "documentId": "text00190",
+          "href": "OEBPS/text00190.html",
+          "paragraphStart": "p0010",
+          "paragraphEnd": "p0030"
+        },
+        {
+          "documentId": "text00190",
+          "href": "OEBPS/text00190.html",
+          "paragraphStart": "p0046",
+          "paragraphEnd": "p0051"
+        }
+      ]
+    },
+    {
+      "id": "07-F19",
+      "type": "source_observation",
+      "statement": "祖尔金阿曼尼复国复仇欲与杀戮；不可把祖尔金混作沃金",
+      "evidence": [
+        {
+          "documentId": "text00191",
+          "href": "OEBPS/text00191.html",
+          "paragraphStart": "p0001",
+          "paragraphEnd": "p0025"
+        }
+      ]
+    },
+    {
+      "id": "07-F20",
+      "type": "source_observation",
+      "statement": "古尔丹用符文石制双头食人魔，创造忠于自己群体",
+      "evidence": [
+        {
+          "documentId": "text00191",
+          "href": "OEBPS/text00191.html",
+          "paragraphStart": "p0026",
+          "paragraphEnd": "p0054"
+        }
+      ]
+    },
+    {
+      "id": "07-F21",
+      "type": "source_observation",
+      "statement": "奥蕾莉亚见温蕾萨希尔瓦娜斯，以巨魔首级说服议会抵抗",
+      "evidence": [
+        {
+          "documentId": "text00192",
+          "href": "OEBPS/text00192.html",
+          "paragraphStart": "p0001",
+          "paragraphEnd": "p0039"
+        }
+      ]
+    },
+    {
+      "id": "07-F22",
+      "type": "source_observation",
+      "statement": "卡德加召雨耗尽法力仍持剑法杖战斗，提醒图拉扬分神、识别食人魔法师、转达包抄命令",
+      "evidence": [
+        {
+          "documentId": "text00192",
+          "href": "OEBPS/text00192.html",
+          "paragraphStart": "p0041",
+          "paragraphEnd": "p0041"
+        },
+        {
+          "documentId": "text00192",
+          "href": "OEBPS/text00192.html",
+          "paragraphStart": "p0067",
+          "paragraphEnd": "p0082"
+        }
+      ]
+    },
+    {
+      "id": "07-F23",
+      "type": "source_observation",
+      "statement": "卡德加承认无法再灭龙火；以太阳井防护安慰奥蕾莉亚但自己非全把握；高等精灵全力入盟；卡德加与图拉扬推断部落下一目标王都（待后文验证）",
+      "evidence": [
+        {
+          "documentId": "text00192",
+          "href": "OEBPS/text00192.html",
+          "paragraphStart": "p0120",
+          "paragraphEnd": "p0143"
+        }
+      ]
+    },
+    {
+      "id": "07-F24",
+      "type": "source_observation",
+      "statement": "太阳井屏障确实保住银月城；仅三分之一森林烧毁，不可把上一章震惊视角写作全境灭亡",
+      "evidence": [
+        {
+          "documentId": "text00193",
+          "href": "OEBPS/text00193.html",
+          "paragraphStart": "p0006",
+          "paragraphEnd": "p0015"
+        }
+      ]
+    },
+    {
+      "id": "07-F25",
+      "type": "source_observation",
+      "statement": "古尔丹带氏族背离；匹瑞诺德以放行换安全并杀联盟信使；部落穿山攻王都",
+      "evidence": [
+        {
+          "documentId": "text00193",
+          "href": "OEBPS/text00193.html",
+          "paragraphStart": "p0018",
+          "paragraphEnd": "p0021"
+        },
+        {
+          "documentId": "text00193",
+          "href": "OEBPS/text00193.html",
+          "paragraphStart": "p0038",
+          "paragraphEnd": "p0089"
+        },
+        {
+          "documentId": "text00193",
+          "href": "OEBPS/text00193.html",
+          "paragraphStart": "p0095",
+          "paragraphEnd": "p0105"
+        }
+      ]
+    },
+    {
+      "id": "07-F26",
+      "type": "source_observation",
+      "statement": "托尔贝恩揭露放行，哈斯改命封山道",
+      "evidence": [
+        {
+          "documentId": "text00194",
+          "href": "OEBPS/text00194.html",
+          "paragraphStart": "p0065",
+          "paragraphEnd": "p0078"
+        }
+      ]
+    },
+    {
+      "id": "07-F27",
+      "type": "source_observation",
+      "statement": "卡德加借库德兰狮鹫飞城中联络，沿用麦迪文驾驭训练",
+      "evidence": [
+        {
+          "documentId": "text00194",
+          "href": "OEBPS/text00194.html",
+          "paragraphStart": "p0087",
+          "paragraphEnd": "p0100"
+        }
+      ]
+    },
+    {
+      "id": "07-F28",
+      "type": "source_observation",
+      "statement": "卡德加不盲目施风暴，指出只能击杀少量且耗空法力，需另策",
+      "evidence": [
+        {
+          "documentId": "text00194",
+          "href": "OEBPS/text00194.html",
+          "paragraphStart": "p0109",
+          "paragraphEnd": "p0113"
+        }
+      ]
+    },
+    {
+      "id": "07-F29",
+      "type": "source_observation",
+      "statement": "古尔丹背离和山路被封共同使毁灭之锤停攻；命黑手兄弟及龙追杀叛徒，血魔仍效忠部落",
+      "evidence": [
+        {
+          "documentId": "text00195",
+          "href": "OEBPS/text00195.html",
+          "paragraphStart": "p0012",
+          "paragraphEnd": "p0042"
+        }
+      ]
+    },
+    {
+      "id": "07-F30",
+      "type": "source_observation",
+      "statement": "古尔丹升起群岛、进入萨格拉斯墓，被恶魔攻击，临死认清被操纵；古加尔胸口中斧倒下（勿凭他书补死或生）",
+      "evidence": [
+        {
+          "documentId": "text00195",
+          "href": "OEBPS/text00195.html",
+          "paragraphStart": "p0049",
+          "paragraphEnd": "p0110"
+        }
+      ]
+    },
+    {
+      "id": "07-F31",
+      "type": "source_observation",
+      "statement": "德雷克被龙火吞没死亡；戴林忍悲继续指挥，蛮锤支援败部落舰队；活捉奥特兰克水手作叛变证据，对兽人落水者放任溺亡；未写吉安娜得知此事",
+      "evidence": [
+        {
+          "documentId": "text00196",
+          "href": "OEBPS/text00196.html",
+          "paragraphStart": "p0019",
+          "paragraphEnd": "p0031"
+        },
+        {
+          "documentId": "text00196",
+          "href": "OEBPS/text00196.html",
+          "paragraphStart": "p0041",
+          "paragraphEnd": "p0057"
+        }
+      ]
+    },
+    {
+      "id": "07-F32",
+      "type": "source_observation",
+      "statement": "毁灭之锤重荣誉解释撤军，击打副官；卡兹莫丹不能尽得援军，退黑石塔；基尔罗格认可他选择",
+      "evidence": [
+        {
+          "documentId": "text00197",
+          "href": "OEBPS/text00197.html",
+          "paragraphStart": "p0006",
+          "paragraphEnd": "p0040"
+        }
+      ]
+    },
+    {
+      "id": "07-F33",
+      "type": "source_observation",
+      "statement": "洛萨与图拉扬会师，卡德加支持友人；解铁炉堡围、铜须兄弟入盟，乌瑟尔回合",
+      "evidence": [
+        {
+          "documentId": "text00198",
+          "href": "OEBPS/text00198.html",
+          "paragraphStart": "p0008",
+          "paragraphEnd": "p0021"
+        },
+        {
+          "documentId": "text00198",
+          "href": "OEBPS/text00198.html",
+          "paragraphStart": "p0027",
+          "paragraphEnd": "p0053"
+        }
+      ]
+    },
+    {
+      "id": "07-F34",
+      "type": "source_observation",
+      "statement": "毁灭之锤后悔未早听杜隆坦，所警告一一应验；杜隆坦遗产为死后影响不是本人行动",
+      "evidence": [
+        {
+          "documentId": "text00199",
+          "href": "OEBPS/text00199.html",
+          "paragraphStart": "p0004",
+          "paragraphEnd": "p0004"
+        }
+      ]
+    },
+    {
+      "id": "07-F35",
+      "type": "source_observation",
+      "statement": "洛萨与毁灭之锤正面决斗，断剑、头部中锤而亡；不可写为谈判伏杀",
+      "evidence": [
+        {
+          "documentId": "text00199",
+          "href": "OEBPS/text00199.html",
+          "paragraphStart": "p0029",
+          "paragraphEnd": "p0045"
+        }
+      ]
+    },
+    {
+      "id": "07-F36",
+      "type": "source_observation",
+      "statement": "图拉扬以兽人非本界解释圣光疑惑，这是人物信念非宇宙定律；击昏毁灭之锤保其受审，不杀投降战俘",
+      "evidence": [
+        {
+          "documentId": "text00200",
+          "href": "OEBPS/text00200.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0021"
+        }
+      ]
+    },
+    {
+      "id": "07-F37",
+      "type": "source_observation",
+      "statement": "卡德加报告逃军，学习追踪其至门；公开支持图拉扬继承洛萨统帅权",
+      "evidence": [
+        {
+          "documentId": "text00200",
+          "href": "OEBPS/text00200.html",
+          "paragraphStart": "p0022",
+          "paragraphEnd": "p0041"
+        }
+      ]
+    },
+    {
+      "id": "07-F38",
+      "type": "source_observation",
+      "statement": "卡德加与布莱恩论学；讨论两世界混合污染假说，表明须亲见方能确认；尊重图拉扬力量虽其路径不同",
+      "evidence": [
+        {
+          "documentId": "text00200",
+          "href": "OEBPS/text00200.html",
+          "paragraphStart": "p0045",
+          "paragraphEnd": "p0060"
+        }
+      ]
+    },
+    {
+      "id": "07-F39",
+      "type": "source_observation",
+      "statement": "卡德加亲见门吸取土地力量；联合精灵法师抽门能量攻击实体石门，使其粉碎、传送色彩消失；尚不等于确认空间裂隙永久抹除",
+      "evidence": [
+        {
+          "documentId": "text00200",
+          "href": "OEBPS/text00200.html",
+          "paragraphStart": "p0061",
+          "paragraphEnd": "p0085"
+        }
+      ]
+    },
+    {
+      "id": "07-F40",
+      "type": "source_observation",
+      "statement": "卡德加与图拉扬纪念洛萨；战俘苦役、匹瑞诺德废黜；卡德加猜未来仍遇部落或其世界",
+      "evidence": [
+        {
+          "documentId": "text00201",
+          "href": "OEBPS/text00201.html",
+          "paragraphStart": "p0002",
+          "paragraphEnd": "p0013"
+        }
+      ]
+    }
+  ],
+  "inferences": [
+    {
+      "id": "07-I01",
+      "type": "editorial_inference",
+      "statement": "卡德加主线可组织为拒绝机构收回自主权、支持朋友与共同防御、承接洛萨遗志并毁门。",
+      "basedOn": [
+        "07-F10",
+        "07-F11",
+        "07-F12",
+        "07-F35",
+        "07-F37"
+      ],
+      "certainty": "供全书整合后策划判断，不是最终发布切分"
+    },
+    {
+      "id": "07-I02",
+      "type": "editorial_inference",
+      "statement": "瓦里安此书材料适合承接流亡童年，不足独立支撑成年执政或完整成长篇；提里奥可作为白银之手起点补充，不应把无具名群体战斗逐项归给他。",
+      "basedOn": [
+        "07-F01",
+        "07-F03",
+        "07-F05",
+        "07-F08"
+      ],
+      "certainty": "scope_limited"
+    }
+  ],
+  "relationships": [
+    {
+      "characters": [
+        "khadgar",
+        "lothar"
+      ],
+      "change": "忠诚伙伴转为失去导师后支持其继承者；主动履行承诺高于可能召回",
+      "evidence": [
+        "text00185:p0032-p0039",
+        "text00200:p0035"
+      ]
+    },
+    {
+      "characters": [
+        "khadgar",
+        "turalyon"
+      ],
+      "change": "同龄友谊、坦诚恐惧、安慰领导焦虑、公开支持统帅权；不只是法术工具",
+      "evidence": [
+        "text00186:p0007-p0013",
+        "text00190:p0017-p0030",
+        "text00200:p0035-p0041"
+      ]
+    },
+    {
+      "characters": [
+        "khadgar",
+        "kirin_tor"
+      ],
+      "change": "拒绝威慑伪装、保有隐私、明确拒召回；议会承认自主",
+      "evidence": [
+        "text00185:p0007-p0048"
+      ]
+    },
+    {
+      "characters": [
+        "varian",
+        "terenas",
+        "lothar"
+      ],
+      "change": "失国继承人在庇护下保有王位身份并窥听联盟会议",
+      "evidence": [
+        "text00179:p0015-p0030",
+        "text00181:p0028-p0041"
+      ]
+    },
+    {
+      "characters": [
+        "tirion",
+        "faol"
+      ],
+      "change": "战士成为初批圣骑士候选；信仰评价出自卡德加",
+      "evidence": [
+        "text00183:p0043-p0060"
+      ]
+    },
+    {
+      "characters": [
+        "durotan",
+        "orgrim",
+        "guldan"
+      ],
+      "change": "死后警告与被谋杀成为奥格瑞姆对术士追责、后悔依据",
+      "evidence": [
+        "text00178:p0024-p0031",
+        "text00199:p0004"
+      ]
+    }
+  ],
+  "aCharacterRelevance": {
+    "khadgar": "主线充足",
+    "varian": "流亡童年直接事实有限",
+    "tirion": "首批候选具名，余群体行动不擅归",
+    "durotan": "死后回忆/影响",
+    "jaina": "未见个人具名行为；戴林与德雷克事件仅家族背景候选，不补她知情/反应",
+    "thrall": "本书未见本人具名行动",
+    "voljin": "本书未见；祖尔金不可混同沃金",
+    "malfurion": "本书未见本人具名行动"
+  },
+  "reusableOtherLeads": [
+    "洛萨",
+    "图拉扬",
+    "奥格瑞姆",
+    "古尔丹",
+    "奥蕾莉亚",
+    "库德兰",
+    "戴林",
+    "祖尔金",
+    "乌瑟尔",
+    "泰瑞纳斯",
+    "匹瑞诺德"
+  ],
+  "subtitleCheck": {
+    "status": "complete_no_applicable_original_subtitle",
+    "scope": "全部32文档、两序章、22章、尾声及附页",
+    "originalApplicableSubtitles": [],
+    "excluded": [
+      "黑暗之潮为书名",
+      "序章一/二、数字章名、尾声为结构标签"
+    ],
+    "rule": "后续原创副标题可提案；不得声称来自原文"
+  },
+  "gaps": [],
+  "limits": [
+    "本版本叙事及角色视角，不用外部正史修补。",
+    "text00195 p0076仅写古加尔受伤倒下；其他作品差异待整合。",
+    "text00200 p0006-p0010是图拉扬释疑观点，不据此断言圣光客观拒斥兽人。",
+    "text00192 p0015-p0019存在温蕾萨/奥蕾莉亚叙述主体疑似笔误，原文保留。",
+    "门毁后的结论限当时观察；尾声已保留卡德加忧虑。"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "thrall-part-09",
+  "reviewer": "thrall_book13",
+  "reviewType": "independent_visual_review",
+  "status": "passed",
+  "pass": true,
+  "image": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\images\\09-stained-glass.png",
+  "imageSha256": "e59c41f83546226e1046cf9126f0e237fdeb0d101307251b6d0f11121236a1ef",
+  "storySha256": "1af1b8777d6275666b5ab2d87beeecfec6eff4ea4b267a5e8f93a8f1ef915ed1",
+  "profileSha256": "ecb1a13c8e5a04c7ca10a9444c8eb0342093147e860cb94b8f44d0aff7207382",
+  "artBriefSha256": "374c6c6102545886e82785d94edbd4c4be5248073b731500659e94af45151c35",
+  "promptSha256": "cabec3f2390c94480706ac0aa22406374ca90f55e7f253123295f78b9deab167",
+  "subtitle": "先听见悲痛，再谈责任",
+  "inspection": "原图通过view_image逐张视觉检查；未审superseded。对应story正文与已通读draft一致，核对profile及art-brief。",
+  "observations": "凄凉地景中将发芽橡果置于精灵形态女王掌中，两人悲伤克制；无龙形、幽灵、治疗光束及战斗混景。双方面孔与手掌均可见铅条。",
+  "checks": {
+    "fullStainedGlassMedium": "pass",
+    "leadCamesInsideFaces": "pass",
+    "noEmbeddedText": "pass",
+    "stageAppropriateCostumeAndWeapon": "pass",
+    "sourceSceneAndLocation": "pass",
+    "subtitleMoodAlignment": "pass",
+    "noUnsupportedEventMashup": "pass"
+  },
+  "issues": [],
+  "limitations": [
+    "衣物裁剪、岩石和远景建筑等未逐项有原文精确规定的美术细节，不当作新增史实；审核关注明确时段、地点、人物动作与装备阶段。"
+  ],
+  "approvalBoundary": "视觉核验通过，不等于用户批准发布。"
+}

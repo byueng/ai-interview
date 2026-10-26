@@ -1,0 +1,80 @@
+{
+  "runId": "batch-a-20261024-01",
+  "role": "independent_cross_text_reviewer",
+  "scope": "thrall-part-04 through thrall-part-07",
+  "status": "passed_with_source_index_note",
+  "textChangesRequired": false,
+  "inputHashes": {
+    "drafts/sources-04-07.json": "24b2ed017c5c8d51f5c5870e7d34167ef59828146da5eb0301fc0d4726f243e5",
+    "integration.json": "278e0f6b566748d5478dcfa756ad63819a7e0f55b28a4e21babc3c5ab03b0f30",
+    "publication-plan.json": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315"
+  },
+  "units": [
+    {
+      "unitId": "thrall-part-04",
+      "draftFileSha256": "91912523d0916fdec968014faf5e7f9a84ff9ac658ce830171009fbe818ba67a",
+      "normalizedLfTextSha256": "d1efa95f39fcecb3d2f4050e3d098fa9a861bf9fb8378d3b6843c067af48be87",
+      "sourceDeclaredHashMatchesNormalizedLf": true,
+      "textReviewStatus": "passed",
+      "boundaryReviewStatus": "passed",
+      "subtitleReviewStatus": "passed",
+      "notes": "编年史短篇保持概述，未强定戴林致命行动者，无虚构细节。"
+    },
+    {
+      "unitId": "thrall-part-05",
+      "draftFileSha256": "99643e229a2220df6e154218c1c9de1b571f1e4699f2657bf646ec76b9fecbbd",
+      "normalizedLfTextSha256": "b397610af8d0afcfd9b4ea5140a31b6f7cd8247db8cfdb3318921cac3f92ee87",
+      "sourceDeclaredHashMatchesNormalizedLf": true,
+      "textReviewStatus": "passed",
+      "boundaryReviewStatus": "passed",
+      "subtitleReviewStatus": "passed",
+      "notes": "认错、查证、强制止战、处决及道歉并存；未补签约；峰会与幽暗城为后续。"
+    },
+    {
+      "unitId": "thrall-part-06",
+      "draftFileSha256": "ca10d3f9a8809ff56f58e88989556e4a62e429961bf4c9183f8da6cb1a0cd64a",
+      "normalizedLfTextSha256": "d677bd0f4db945eb3e22a3de07a3d64fe2f15983d7baa3d00ac7896c80a94fe0",
+      "sourceDeclaredHashMatchesNormalizedLf": true,
+      "textReviewStatus": "passed",
+      "boundaryReviewStatus": "passed",
+      "subtitleReviewStatus": "passed",
+      "notes": "任命有理由且有警告，代理非永久退位；上篇副标题适用。"
+    },
+    {
+      "unitId": "thrall-part-07",
+      "draftFileSha256": "1612e201c9239dabce47d214c1cecbddb88494867b26100d060b5dcd0ca7510f",
+      "normalizedLfTextSha256": "4154547f2d22d4d9a871fc703a36eb7d8aca355c776dc5aaf40f7c2f79ed5218",
+      "sourceDeclaredHashMatchesNormalizedLf": true,
+      "textReviewStatus": "passed",
+      "boundaryReviewStatus": "passed",
+      "subtitleReviewStatus": "passed",
+      "notes": "幻象/现实分开，获讯时点、秘密下毒、矛碎片、继续代行正确；尾声仅收束。"
+    }
+  ],
+  "findings": [],
+  "sourceIndexNotes": [
+    {
+      "unitId": "thrall-part-05",
+      "severity": "nonblocking_metadata",
+      "note": "正文伯克斯奴役创伤被恶魔利用由13-f17支持，但sourceRanges仅列text00354:p0002-p0021，建议补充13-f17及p0022-p0034以直接覆盖；正文无需修改。",
+      "sourceRefs": [
+        "13/evidence.json#13-f17",
+        "13/text00354:p0022-p0034"
+      ]
+    },
+    {
+      "unitId": "thrall-part-04..07",
+      "severity": "hash_convention_note",
+      "note": "sources的textSha256计算对象为统一LF后的文本，实际文件为CRLF故字节哈希不同。本报告同时保存原文件字节哈希与规范化文本哈希；两者内容一致，建议后续明确命名hash规则。"
+    }
+  ],
+  "crossSectionChecks": {
+    "04To05": "建国盟约转具体治理，无重复叙事。",
+    "05To06": "和平政策在现实压力下退让，有阶段变化。",
+    "06To07": "任命争执之后才进入学习与凯恩死讯，不倒灌知情。",
+    "07To08": "止于启航，不预写大漩涡后续。",
+    "subtitle16": "原作分部标题文字准确，范围与篇章匹配。"
+  },
+  "reviewLimits": "全文阅读四篇草稿，对照共享证据与整合；未重读全书。非图片验收。",
+  "artSceneMetadata": "四场景均有原著事件基础，媒介明确彩绘玻璃；未审核成图。"
+}

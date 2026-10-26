@@ -1,0 +1,24 @@
+# 萨尔：自由、家园与责任
+
+副标题：选择自己的名字，也面对选择的后果
+
+{
+  "mode": "life_synthesis",
+  "scene": "一张完整中世纪彩绘玻璃，以萨尔居中，将早期锁链、萌芽、毁灭之锤、大地元素与家庭联系编织为同一连续构图。明确是生涯象征，非同时发生的场景。",
+  "sourceRefs": [
+    "10/text00271",
+    "10/text00284",
+    "10/text00285",
+    "18/text00547",
+    "21/text00660"
+  ],
+  "costumeAndWeapons": "跨阶段象征图可使用成年时期护甲与毁灭之锤；不表现为第五守护巨龙，不把早期奴隶与后期装备混作同一历史场景。具体外观由导演依据已有视觉设定核验。",
+  "emotion": "庄重、温暖与责任的重量并存，非统一悲剧绝望。",
+  "subtitle": "选择自己的名字，也面对选择的后果",
+  "medium": "中世纪彩绘玻璃，铅条分格与透光色片；无嵌入文字。"
+}
+
+正文版本：bece6c9067cbb17047059d96c68b4be6a4a65244505192027640410d20d3fc7c
+
+绘图提示词：
+Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 选择自己的名字，也面对选择的后果. Symbolic life synthesis, not one historical moment: Mature Thrall at center, a green orc with blue eyes, black braids, small tusks, sober but warm face, brown shaman robe. His empty open hand shelters a small green sapling; his square dark Doomhammer rests below him. Continuous ornamental lines connect a broken chain at lower left, ochre cliffs and a distant orc settlement at right, and four elemental currents of wind, earth, water and fire. No extra characters needed. These are symbolic motifs of freedom, home and responsibility, not a claim they occurred together. Restrained emerald, amber, earth-red and deep blue, hopeful light balanced by gravity. Wide environment, not a portrait filling the entire frame.

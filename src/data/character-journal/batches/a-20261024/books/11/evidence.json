@@ -1,0 +1,349 @@
+{
+  "runId": "batch-a-20261024-01",
+  "bookId": "11",
+  "version": 1,
+  "status": "completed",
+  "sourceSha256": "3801a08ca7b1da2ed5315d54ce902e3b46254bbe404b389311751eda5e65678b",
+  "coverage": [
+    {
+      "documentId": "text00290",
+      "href": "OEBPS/text00290.html",
+      "paragraphs": 0,
+      "heading": "",
+      "readRange": null,
+      "status": "empty_document_verified"
+    },
+    {
+      "documentId": "text00291",
+      "href": "OEBPS/text00291.html",
+      "paragraphs": 7,
+      "heading": "版权信息",
+      "readRange": "p0001-p0007",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00292",
+      "href": "OEBPS/text00292.html",
+      "paragraphs": 13,
+      "heading": "鲜血与荣耀",
+      "readRange": "p0001-p0013",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00293",
+      "href": "OEBPS/text00293.html",
+      "paragraphs": 5,
+      "heading": "感谢",
+      "readRange": "p0001-p0005",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00294",
+      "href": "OEBPS/text00294.html",
+      "paragraphs": 89,
+      "heading": "第一章　激战",
+      "readRange": "p0001-p0089",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00295",
+      "href": "OEBPS/text00295.html",
+      "paragraphs": 138,
+      "heading": "第二章　未解之谜",
+      "readRange": "p0001-p0138",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00296",
+      "href": "OEBPS/text00296.html",
+      "paragraphs": 149,
+      "heading": "第三章　一位战士的传说",
+      "readRange": "p0001-p0149",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00297",
+      "href": "OEBPS/text00297.html",
+      "paragraphs": 142,
+      "heading": "第四章　命令的桎梏",
+      "readRange": "p0001-p0142",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00298",
+      "href": "OEBPS/text00298.html",
+      "paragraphs": 111,
+      "heading": "第五章　意志的审判",
+      "readRange": "p0001-p0111",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00299",
+      "href": "OEBPS/text00299.html",
+      "paragraphs": 81,
+      "heading": "第六章　落魄返家",
+      "readRange": "p0001-p0081",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00300",
+      "href": "OEBPS/text00300.html",
+      "paragraphs": 159,
+      "heading": "第七章　战鼓喧天",
+      "readRange": "p0001-p0159",
+      "status": "read_complete"
+    },
+    {
+      "documentId": "text00301",
+      "href": "OEBPS/text00301.html",
+      "paragraphs": 29,
+      "heading": "第八章　完美轮回",
+      "readRange": "p0001-p0029",
+      "status": "read_complete"
+    }
+  ],
+  "facts": [
+    {
+      "id": "11-f01",
+      "type": "fact",
+      "statement": "提里奥作为年长领主和圣骑士，起初把兽人视为野蛮威胁；在废塔主动交战，仍让受伤对手起身再战，塔塌后昏迷。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00294.html#p0002-p0089"
+      ]
+    },
+    {
+      "id": "11-f02",
+      "type": "fact",
+      "statement": "授勋仪式以梦境回忆出现；醒来才知道自己昏迷四日，被绑在马背送回，尚未确认救命者。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00295.html#p0002-p0053"
+      ]
+    },
+    {
+      "id": "11-f03",
+      "type": "fact",
+      "statement": "巴瑟拉斯失去父母而敌视兽人；提里奥压住报复冲动，却也面临妻儿安全与领地职责。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00295.html#p0061-p0138"
+      ]
+    },
+    {
+      "id": "11-f04",
+      "type": "fact",
+      "statement": "伊崔格确认救助提里奥，因为不愿让有荣誉的战士死在废墟下；双方由敌意转向承认彼此。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00296.html#p0030-p0048"
+      ]
+    },
+    {
+      "id": "11-f05",
+      "type": "fact",
+      "statement": "伊崔格叙述氏族腐化、两个儿子死于内部冲突，及杜隆坦反对腐化后被流放暗杀；后者是人物转述。",
+      "characters": [
+        "tirion",
+        "durotan"
+      ],
+      "refs": [
+        "OEBPS/text00296.html#p0051-p0084"
+      ]
+    },
+    {
+      "id": "11-f06",
+      "type": "fact",
+      "statement": "提里奥承诺在伊崔格保持和平的条件下保密保护；这与妻子要求承担丈夫、父亲、领主责任发生冲突。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00296.html#p0086-p0149"
+      ]
+    },
+    {
+      "id": "11-f07",
+      "type": "fact",
+      "statement": "达索汉因新酋长解放收容所的情报而要求抓捕；提里奥在旧友和上级命令下答应带路。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00297.html#p0020-p0065"
+      ]
+    },
+    {
+      "id": "11-f08",
+      "type": "fact",
+      "statement": "提里奥带队至藏身处，伊崔格认为受背叛；巴瑟拉斯违背活捉要求，受伤的伊崔格反抗杀死一名士兵。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00297.html#p0070-p0104"
+      ]
+    },
+    {
+      "id": "11-f09",
+      "type": "fact",
+      "statement": "目睹虐待后提里奥攻击守卫并试图破笼，因叛国被捕；其反抗并不能消除他此前带路造成的伤害。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00297.html#p0105-p0142"
+      ]
+    },
+    {
+      "id": "11-f10",
+      "type": "fact",
+      "statement": "审判中提里奥承认指控并陈述救命之恩；乌瑟尔制止巴瑟拉斯失礼并提供放弃誓约换取赦免的机会。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00298.html#p0031-p0095"
+      ]
+    },
+    {
+      "id": "11-f11",
+      "type": "fact",
+      "statement": "提里奥拒绝以伊崔格生命换赦免，被剥夺地位和装备，感到与圣光断开，遭流放。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00298.html#p0083-p0111"
+      ]
+    },
+    {
+      "id": "11-f12",
+      "type": "fact",
+      "statement": "卡兰德拉因生计、儿子成长与长期独力承担家庭拒绝同行；提里奥留下给泰兰的信，阿尔顿放他离开并承诺照顾家人。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00299.html#p0022-p0081"
+      ]
+    },
+    {
+      "id": "11-f13",
+      "type": "fact",
+      "statement": "提里奥用临时拾取的生锈铁锤闯刑场救人，尽量避免杀死守卫；这是工具锤，不是灰烬使者。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00300.html#p0002-p0062"
+      ]
+    },
+    {
+      "id": "11-f14",
+      "type": "fact",
+      "statement": "部落突袭与营救偶然相遇；巴瑟拉斯中枪倒地，提里奥仍试图援助他。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00300.html#p0063-p0087"
+      ]
+    },
+    {
+      "id": "11-f15",
+      "type": "fact",
+      "statement": "提里奥背伊崔格逃出城，起初祈求圣光失败；重拾信念后成功救治，其圣光联系并非永久丧失。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00300.html#p0089-p0111"
+      ]
+    },
+    {
+      "id": "11-f16",
+      "type": "fact",
+      "statement": "萨尔说明进攻意在救伊崔格而非征服，邀请他共建部落；尊重并放行提里奥。萨尔提及延续父亲事业，属于此时自我陈述。",
+      "characters": [
+        "tirion",
+        "thrall",
+        "durotan"
+      ],
+      "refs": [
+        "OEBPS/text00300.html#p0112-p0159"
+      ]
+    },
+    {
+      "id": "11-f17",
+      "type": "fact",
+      "statement": "尾章跳至泰兰二十岁受封圣骑士，仍带着父亲的信；提里奥隐身观礼被阿尔顿认出，并非公开归来获赦。",
+      "characters": [
+        "tirion"
+      ],
+      "refs": [
+        "OEBPS/text00301.html#p0002-p0029"
+      ]
+    }
+  ],
+  "inferences": [
+    {
+      "id": "11-i01",
+      "type": "editorial_interpretation",
+      "statement": "荣誉由阵营身份与个人体面，转为愿意付出地位及家庭代价的具体承诺；保留带路背誓与连累家人的责任。",
+      "refs": [
+        "11-f06",
+        "11-f07",
+        "11-f08",
+        "11-f10",
+        "11-f11",
+        "11-f12"
+      ]
+    }
+  ],
+  "textualIssues": [
+    {
+      "ref": "OEBPS/text00296.html#p0082",
+      "issue": "上下文疑似把提里奥写成伊崔格，保留疑点。"
+    },
+    {
+      "refs": [
+        "OEBPS/text00294.html#p0002-p0027",
+        "OEBPS/text00295.html#p0061",
+        "OEBPS/text00301.html#p0002-p0021"
+      ],
+      "issue": "小说的从业年限、战争间隔及泰兰五岁到二十岁的近十五年跳跃，与后续编年框架不能直接机械拼合；采用事件相对顺序，不生成绝对年份。"
+    }
+  ],
+  "gaps": [],
+  "subtitleCheck": {
+    "status": "checked",
+    "readScope": "全部12文档及八章",
+    "candidates": [
+      "激战",
+      "未解之谜",
+      "一位战士的传说",
+      "命令的桎梏",
+      "意志的审判",
+      "落魄返家",
+      "战鼓喧天",
+      "完美轮回"
+    ],
+    "finding": "存在主题章名；须按单元适用性审查，不能自动将其当作人物志副标题。全书未见独立适用的总览副标题。",
+    "reviewStatus": "pending"
+  },
+  "boundaries": [
+    "授勋梦境是回忆，尾章是跳时。",
+    "小说没有灰烬使者、泰兰之死、公开赦免或巫妖王终战，后续只能注明编年史补充。",
+    "卡兰德拉有实际责任与合理顾虑，不能扁平化为不懂荣誉的阻碍者。",
+    "萨尔与杜隆坦为跨人物复用证据，不因此宣称小说完整覆盖其人生。"
+  ]
+}

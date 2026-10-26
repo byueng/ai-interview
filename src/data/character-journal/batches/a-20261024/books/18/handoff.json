@@ -1,0 +1,48 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-18",
+  "sourceChunkId": "book-18-full",
+  "role": "researcher",
+  "status": "completed",
+  "inputVersion": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+  "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+  "sourceRanges": [
+    "OEBPS/text00523.html",
+    "OEBPS/text00524.html",
+    "OEBPS/text00525.html",
+    "OEBPS/text00526.html",
+    "OEBPS/text00527.html",
+    "OEBPS/text00528.html",
+    "OEBPS/text00529.html",
+    "OEBPS/text00530.html",
+    "OEBPS/text00531.html",
+    "OEBPS/text00532.html",
+    "OEBPS/text00533.html",
+    "OEBPS/text00534.html",
+    "OEBPS/text00535.html",
+    "OEBPS/text00536.html",
+    "OEBPS/text00537.html",
+    "OEBPS/text00538.html",
+    "OEBPS/text00539.html",
+    "OEBPS/text00540.html",
+    "OEBPS/text00541.html",
+    "OEBPS/text00542.html",
+    "OEBPS/text00543.html",
+    "OEBPS/text00544.html",
+    "OEBPS/text00545.html",
+    "OEBPS/text00546.html",
+    "OEBPS/text00547.html"
+  ],
+  "artifacts": [
+    "books/18/evidence.json"
+  ],
+  "checks": {
+    "factsTraceable": true,
+    "subtitleChecked": true,
+    "noFinalProseOrArt": true,
+    "fullTextRead": true,
+    "inferenceSeparated": true
+  },
+  "nextResponsibleRole": "integrator",
+  "remainingWork": "整合其余书籍并按人物策划；待用户审阅目录后才正文配图。"
+}

@@ -1,0 +1,90 @@
+{
+  "unitId": "thrall-part-06",
+  "kind": "section",
+  "displayOrder": 6,
+  "title": "一个接班决定",
+  "sourceLabel": "《浩劫：灾变的前奏》",
+  "subtitle": {
+    "text": "大地将会哭泣……",
+    "origin": "original",
+    "sourceRef": {
+      "bookId": "16",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "ref": "text00444:p0001",
+      "version": "王坚译，新星出版社2019版"
+    },
+    "selectionReason": "采用16号上篇原题，主事件和取材均在第一至十六章。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00447:p0040-p0087",
+        "text00451:p0012-p0085",
+        "text00452:p0017-p0061"
+      ],
+      "evidenceId": "thrall-event-17",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00453:p0002-p0092",
+        "text00459:p0019-p0049"
+      ],
+      "evidenceId": "thrall-event-18",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "浩劫上篇：资源和元素危机至凯恩反对",
+  "characterChange": "从试图同时维持民心与和平，到为外出求解押注继任者及顾问制约",
+  "focus": "依实际候选比较解释任命理由，再保留加尔鲁什自认政治不足和凯恩明确反对，让理由与判断风险同时成立。",
+  "tone": "焦灼、分歧、决断中的盲点",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-17",
+      "event": "旱灾补给困局与暴力使领导压力加重。萨尔支持多族部落及重开贸易，但对灰谷暴行的公开谴责受政权生存考量限制，与吉安娜分歧；同时元素失序。",
+      "classification": "integrated_source_facts",
+      "boundary": "未授权暴行不等于充分承担公开回应责任；13肥沃描述与16选址赎罪/旱灾记录时间与版本语境，不虚构过渡。"
+    },
+    {
+      "evidenceId": "thrall-event-18",
+      "event": "火灾迫萨尔违心控制火元素；决定赴纳格兰学习。依据民望、年龄及现实顾虑任命加尔鲁什代行，寄望顾问约束；加尔鲁什承认不懂政治，凯恩明确反对而被萨尔驳回。",
+      "classification": "integrated_source_facts",
+      "boundary": "最初只是归来前代理；选择有理由但不是唯一合理或无人预警。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-17",
+    "thrall-event-18"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "不倒灌下毒和政变知识；止于不欢而散，纳格兰学习和真实后果归下篇。",
+  "independenceReason": "代理任命本身是可审视的政治决定，不被随后灾难结局吞没。",
+  "lengthMode": "standard",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "839a4c832e46ca2537cd35f78cbd0feb23b5b1ea65ede88d3904d035c9762656"
+}

@@ -1,0 +1,45 @@
+{
+  "runId": "thrall-20261024-01",
+  "characterId": "thrall",
+  "contentRoot": "E:\\program\\ai-interview\\src\\data\\character-journal\\characters\\thrall",
+  "sourceType": "user_epub",
+  "status": "content_completed_in_batch",
+  "currentRole": "researcher",
+  "inputVersions": {
+    "workflow.json": "c1932e796e86f2415c1921edaa5315e9ace6214d414400b2a04f0c65c90eece4",
+    "examples\\workflow.json": "79583a4b50309058e77c946c6ab8719685a407825f63ccdf784016d4e8fbe958",
+    "roles\\art_director.toml": "8f8f2058f737ebbbf7f5258043365427cfb6d0d8a10afb7e94247d49b45a177b",
+    "roles\\coordinator.toml": "73c6452680f5a402c61da5daaf961010b7eb028a144fabfb04bb8c4fd7c917ae",
+    "roles\\illustrator.toml": "9db06d1f0a67796312fe2af08bc8057670aeb1a00b4d4df2055625d1f652ece7",
+    "roles\\integrator.toml": "0faef38d9c3f0f3b76e6f8bd186cefa4a0bcfbc61db7dedb590ca96f5da65037",
+    "roles\\planner.toml": "f63bdbb168e71b334c20872c389259f7df7eb3f10d2ac9579ded8ff7ace74178",
+    "roles\\researcher.toml": "0600d9628e78bcde68d85cf52fc14522bf1d19c1cb57186e39c0958f9691cd80",
+    "roles\\text_reviewer.toml": "379acc97cc75dfc0a5e082fefe22ba713933c4b59ac5917b33b6dd339fd8598a",
+    "roles\\visual_reviewer.toml": "cc05f25be6f3faa32f4d85fac96f3071618163216255799ffe13450ae60c93a2",
+    "roles\\writer.toml": "74a7b3ab5745ff0cd5bffc27960d1c5bcb512d415ce3343d7543e2f0009235d9",
+    "task-configs\\art-director.md": "e269cc1f5a1a58b61c372d5f0c0d2caf2d2d4d3ff5b7af6d93afeca2972ce6ce",
+    "task-configs\\illustration-style.md": "0d8d47642e3173492ee5f63b93c37fd8bbea70c89c8ed80162a255fe5adfcff8",
+    "task-configs\\illustrator.md": "f1aa835b3c06135be9392534442659a822e6395a74e007993a86d67579e27507",
+    "task-configs\\multi-section.md": "4814ce548ef4706a4ccf24bb49c8a0eb4d6a12e65a178dbc0099d914733a0196",
+    "task-configs\\subtitle-policy.md": "418fef9dc29a21208ef371df74b99480c3fb95aeac1dd6c536189ebf40a71bbe",
+    "task-configs\\visual-reviewer.md": "157aae2dda1bd8303889d8d2a12c6e7d09bf7fdd17f9c77d45c3acfaa1b0c9e7",
+    "epub": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7"
+  },
+  "outputPaths": [
+    "sources.json"
+  ],
+  "reviewFindings": [],
+  "nextRole": "researcher_only_after_resume",
+  "retryCount": 0,
+  "stages": [],
+  "scopeId": "whole_supplied_work",
+  "sourceRanges": [
+    "chapter-01..22"
+  ],
+  "units": [],
+  "resumedInto": "batch-a-20261024-01",
+  "resumeEntry": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\RESUME.txt",
+  "planPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\publication-plan.json",
+  "productionPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\production-run.json",
+  "previewPath": "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\characters\\thrall\\preview.html"
+}

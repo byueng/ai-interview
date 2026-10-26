@@ -1,0 +1,297 @@
+{
+  "bookId": "07",
+  "title": "黑暗之潮",
+  "sourcePath": "E:\\魔兽官方小说\\07 黑暗之潮.epub",
+  "sourceSha256": "ade4c474ef920ab8c60a5db39b135046ba88fe6819933178036c4b7d630bf8f6",
+  "documents": [
+    {
+      "documentId": "text00171",
+      "href": "OEBPS/text00171.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00171.txt",
+      "sha256": "3aa9c5767d0f1dae2c9719ec690f06583e5c6e1e73391beb98c8590cc18709d2"
+    },
+    {
+      "documentId": "text00172",
+      "href": "OEBPS/text00172.html",
+      "paragraphs": 7,
+      "characters": 210,
+      "heading": "版权信息",
+      "path": "source/text00172.txt",
+      "sha256": "baf54173acfd44e68aa8f3e73b69c538d1b4894e033b32cc7191608c21e58ae9"
+    },
+    {
+      "documentId": "text00173",
+      "href": "OEBPS/text00173.html",
+      "paragraphs": 31,
+      "characters": 724,
+      "heading": "黑暗之潮",
+      "path": "source/text00173.txt",
+      "sha256": "3f77dbcdd275fcb2979b80788f0df002616d879d6e6bdd20f4cfc37f23af16a0"
+    },
+    {
+      "documentId": "text00174",
+      "href": "OEBPS/text00174.html",
+      "paragraphs": 5,
+      "characters": 177,
+      "heading": "致我的家人和朋友，尤其是我可爱的妻子，",
+      "path": "source/text00174.txt",
+      "sha256": "f2000d7a6f142f5db7bc9fd90f88931cfc6e67f80372775a29f0e56ae46cd1d9"
+    },
+    {
+      "documentId": "text00175",
+      "href": "OEBPS/text00175.html",
+      "paragraphs": 1,
+      "characters": 130,
+      "heading": "首先，我非常感谢创造和确保《黑暗之潮》的优秀品质的克里斯和马可，我还要对在创作过程中对我细心指导和提供了真挚意见的伊芙琳表示感谢。我最需要感谢的还是所有《魔兽世界》的拥趸，没有你们，洛萨、奥格瑞姆和其他角色的故事将无人倾听。",
+      "path": "source/text00175.txt",
+      "sha256": "7016dd4571ac176743a912e7662ca199ad7ca241073b3c27404995cb3023c2fa"
+    },
+    {
+      "documentId": "text00176",
+      "href": "OEBPS/text00176.html",
+      "paragraphs": 6,
+      "characters": 638,
+      "heading": "导读",
+      "path": "source/text00176.txt",
+      "sha256": "3983cd28f8e51035c50ab8752747e1ad724da1b602d27c9770e2ff413aaa4966"
+    },
+    {
+      "documentId": "text00177",
+      "href": "OEBPS/text00177.html",
+      "paragraphs": 45,
+      "characters": 6567,
+      "heading": "序章一",
+      "path": "source/text00177.txt",
+      "sha256": "3016c32d8c71dc4e21b4e550e5a7f4613087eff59453016bff1bc2afa5128a2f"
+    },
+    {
+      "documentId": "text00178",
+      "href": "OEBPS/text00178.html",
+      "paragraphs": 41,
+      "characters": 4942,
+      "heading": "序章二",
+      "path": "source/text00178.txt",
+      "sha256": "8639a2b770617ebbb3d26e1f4f471472003fa890e101fbb0590f711112406b05"
+    },
+    {
+      "documentId": "text00179",
+      "href": "OEBPS/text00179.html",
+      "paragraphs": 32,
+      "characters": 4073,
+      "heading": "第一章",
+      "path": "source/text00179.txt",
+      "sha256": "edeeabfc3f8e71ad12f5d964be8d85cfbbd0c9df221fb079f6bb94932029116b"
+    },
+    {
+      "documentId": "text00180",
+      "href": "OEBPS/text00180.html",
+      "paragraphs": 38,
+      "characters": 5544,
+      "heading": "第二章",
+      "path": "source/text00180.txt",
+      "sha256": "b20ac1cfba5a42130380b0281e20113b58cde508f35e7090eebe1d3697ad9aea"
+    },
+    {
+      "documentId": "text00181",
+      "href": "OEBPS/text00181.html",
+      "paragraphs": 41,
+      "characters": 7498,
+      "heading": "第三章",
+      "path": "source/text00181.txt",
+      "sha256": "749bd84d44f1c577659423b05f3579b5efba1229a0df70907e7ab8b1023c781c"
+    },
+    {
+      "documentId": "text00182",
+      "href": "OEBPS/text00182.html",
+      "paragraphs": 59,
+      "characters": 6481,
+      "heading": "第四章",
+      "path": "source/text00182.txt",
+      "sha256": "c80116c9eb6b37a6ab071a28d029e68f02fca1dc35686676b396111c1d83dca7"
+    },
+    {
+      "documentId": "text00183",
+      "href": "OEBPS/text00183.html",
+      "paragraphs": 66,
+      "characters": 9162,
+      "heading": "第五章",
+      "path": "source/text00183.txt",
+      "sha256": "c6d03ebd2fcd9dcf59afb7599121901786d75feea7c82ee8315d3ef74b8e647a"
+    },
+    {
+      "documentId": "text00184",
+      "href": "OEBPS/text00184.html",
+      "paragraphs": 59,
+      "characters": 7377,
+      "heading": "第六章",
+      "path": "source/text00184.txt",
+      "sha256": "377e463e1035a7bb2be573168996370ba94e9bf06aeab8512e7c2b3a33b65a1b"
+    },
+    {
+      "documentId": "text00185",
+      "href": "OEBPS/text00185.html",
+      "paragraphs": 85,
+      "characters": 10754,
+      "heading": "第七章",
+      "path": "source/text00185.txt",
+      "sha256": "34bea139a40b6bb5a67be60aeda9038d0192c20841550f8f8f06e790e3e4dc79"
+    },
+    {
+      "documentId": "text00186",
+      "href": "OEBPS/text00186.html",
+      "paragraphs": 54,
+      "characters": 7363,
+      "heading": "第八章",
+      "path": "source/text00186.txt",
+      "sha256": "cdb262582fd73f0732eb50ba93ddbc14d83461a25ae9f2fcc12b1bde07bcafcd"
+    },
+    {
+      "documentId": "text00187",
+      "href": "OEBPS/text00187.html",
+      "paragraphs": 42,
+      "characters": 5596,
+      "heading": "第九章",
+      "path": "source/text00187.txt",
+      "sha256": "d5007de8826c0efe1720c7f539e94c976bbb571d7646a20ada099728b5c0d4d5"
+    },
+    {
+      "documentId": "text00188",
+      "href": "OEBPS/text00188.html",
+      "paragraphs": 78,
+      "characters": 10038,
+      "heading": "第十章",
+      "path": "source/text00188.txt",
+      "sha256": "f75b512c23478835424cf885cbaeda6f9f2bec73097469bcea8cf8cef56d3203"
+    },
+    {
+      "documentId": "text00189",
+      "href": "OEBPS/text00189.html",
+      "paragraphs": 55,
+      "characters": 6803,
+      "heading": "第十一章",
+      "path": "source/text00189.txt",
+      "sha256": "3c2ebe634dd12f7c87626f553644467bb4953b1e4048c7e4a735a03079b8d2e6"
+    },
+    {
+      "documentId": "text00190",
+      "href": "OEBPS/text00190.html",
+      "paragraphs": 51,
+      "characters": 6218,
+      "heading": "第十二章",
+      "path": "source/text00190.txt",
+      "sha256": "25d7a546eb1c1f922f2d7481126aed88d5556b3c7350234f071a354a105c4b77"
+    },
+    {
+      "documentId": "text00191",
+      "href": "OEBPS/text00191.html",
+      "paragraphs": 54,
+      "characters": 6701,
+      "heading": "第十三章",
+      "path": "source/text00191.txt",
+      "sha256": "d4a2429d91ad7aad392ac5c870ba115a9be3c27ad18c05f7c6d42e0924928397"
+    },
+    {
+      "documentId": "text00192",
+      "href": "OEBPS/text00192.html",
+      "paragraphs": 143,
+      "characters": 18716,
+      "heading": "第十四章",
+      "path": "source/text00192.txt",
+      "sha256": "f357fa5fa811727f7d6f6f2d6842ac441a84eaaf353ae4cdf6e759d690e8eb86"
+    },
+    {
+      "documentId": "text00193",
+      "href": "OEBPS/text00193.html",
+      "paragraphs": 105,
+      "characters": 12437,
+      "heading": "第十五章",
+      "path": "source/text00193.txt",
+      "sha256": "dc13eb9f21020140ddb75e39f326879ad6ef3eca72283c50cc96e9931dcac046"
+    },
+    {
+      "documentId": "text00194",
+      "href": "OEBPS/text00194.html",
+      "paragraphs": 121,
+      "characters": 14361,
+      "heading": "第十六章",
+      "path": "source/text00194.txt",
+      "sha256": "8cf0e92d629b1bfb42a6798dd733eda060e382a4c439a3bbda17d95356c59a43"
+    },
+    {
+      "documentId": "text00195",
+      "href": "OEBPS/text00195.html",
+      "paragraphs": 110,
+      "characters": 14221,
+      "heading": "第十七章",
+      "path": "source/text00195.txt",
+      "sha256": "58116a1ec30ea9010673f7f4dc127df823d4f29a5747bf29efb18f04b7604cf2"
+    },
+    {
+      "documentId": "text00196",
+      "href": "OEBPS/text00196.html",
+      "paragraphs": 57,
+      "characters": 6517,
+      "heading": "第十八章",
+      "path": "source/text00196.txt",
+      "sha256": "e6ebd65d928ee4f8c28de6808070d1c623df667280da5be845f790b00e6a5346"
+    },
+    {
+      "documentId": "text00197",
+      "href": "OEBPS/text00197.html",
+      "paragraphs": 40,
+      "characters": 4430,
+      "heading": "第十九章",
+      "path": "source/text00197.txt",
+      "sha256": "436ee283ccbb0186b781b8aaeaf5d85a86e365af853eec5eb2c7a74216a860fb"
+    },
+    {
+      "documentId": "text00198",
+      "href": "OEBPS/text00198.html",
+      "paragraphs": 54,
+      "characters": 5799,
+      "heading": "第二十章",
+      "path": "source/text00198.txt",
+      "sha256": "ec68367dc5e82af9bad24f190730bc0fb9cb353e7b7d31f0f1272a2cf2a2c890"
+    },
+    {
+      "documentId": "text00199",
+      "href": "OEBPS/text00199.html",
+      "paragraphs": 45,
+      "characters": 6251,
+      "heading": "第二十一章",
+      "path": "source/text00199.txt",
+      "sha256": "512609ac1da5e708e9e967b21ddf25191f6b25e5c02c0d7d811a605b15e8d0c3"
+    },
+    {
+      "documentId": "text00200",
+      "href": "OEBPS/text00200.html",
+      "paragraphs": 86,
+      "characters": 10469,
+      "heading": "第二十二章",
+      "path": "source/text00200.txt",
+      "sha256": "585be5414b9f4143aa0ec91670a64a4662f1d71cda7bf003c2e722fe8a325697"
+    },
+    {
+      "documentId": "text00201",
+      "href": "OEBPS/text00201.html",
+      "paragraphs": 13,
+      "characters": 1315,
+      "heading": "尾声",
+      "path": "source/text00201.txt",
+      "sha256": "5133d1e2e4fffc91e36499ce191d2fd18c45f31c3fd3cbc91c77f4f3cd62ad62"
+    },
+    {
+      "documentId": "text00202",
+      "href": "OEBPS/text00202.html",
+      "paragraphs": 2,
+      "characters": 145,
+      "heading": "关于作者",
+      "path": "source/text00202.txt",
+      "sha256": "58c3158fe47121e853cdc4110887f516377e6ba473a03e1d1b28d07405b8f624"
+    }
+  ],
+  "readStatus": "pending"
+}

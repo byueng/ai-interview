@@ -1,0 +1,118 @@
+{
+  "unitId": "thrall-part-07",
+  "kind": "section",
+  "displayOrder": 7,
+  "title": "卸下铠甲之后",
+  "sourceLabel": "《浩劫：灾变的前奏》；《魔兽编年史 卷三》已读选段",
+  "subtitle": {
+    "text": "世界将会崩毁……",
+    "origin": "original",
+    "sourceRef": {
+      "bookId": "16",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "ref": "text00460:p0001",
+      "version": "王坚译，新星出版社2019版"
+    },
+    "selectionReason": "采用16号下篇原题，主事件位于第十七至三十二章；尾声仅作去向和代行措辞收束，26号为同一事件旁证。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00460:p0003-p0071",
+        "text00462:p0002-p0023",
+        "text00466:p0002-p0021",
+        "text00468:p0002-p0108",
+        "text00469:p0002-p0075"
+      ],
+      "evidenceId": "thrall-event-19",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00463:p0015-p0074",
+        "text00464:p0024-p0051",
+        "text00465:p0005-p0110",
+        "text00467:p0044-p0081"
+      ],
+      "evidenceId": "thrall-event-20",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00963:p0001-p0011"
+      ],
+      "evidenceId": "thrall-event-20",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "16",
+      "sourceTitle": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00474:p0084-p0129",
+        "text00475:p0004-p0060",
+        "text00476:p0002-p0020"
+      ],
+      "evidenceId": "thrall-event-20",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "浩劫下篇：纳格兰重学、接到凯恩死讯、归来与灾变；尾声边界收束",
+  "characterChange": "从不愿接受批评的酋长到重新倾听、承认任命责任并选择世界使命的萨满",
+  "focus": "并行呈现学习与部落灾难，但严格区分读者知情和萨尔获讯。凯恩遗体前的抉择是中心，阿格娜从冲突到同行支撑变化。",
+  "tone": "谦卑、悲恸，带着未消责任的重新出发",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-19",
+      "event": "阿格娜挑战名字和权威，盖亚安讲真话顾问价值；萨尔打算向凯恩道歉，卸甲进入幻象之旅认识四元素与自我伤口，向外域元素探问艾泽拉斯。",
+      "classification": "integrated_source_facts",
+      "boundary": "幻象甲锤碎裂不是实物损毁；此时未与凯恩完成和解、也未预知死亡之翼全部真相。"
+    },
+    {
+      "evidenceId": "thrall-event-20",
+      "event": "暮光之锤嫁祸导致凯恩挑战加尔鲁什；玛加萨秘密下毒，凯恩被杀，政变继起。消息由他人送达萨尔，不能写他早知却故意无视。 萨尔回加拉达尔才接信、立即返艾泽拉斯，在凯恩遗体旁追悔并承担任命责任；现实卸甲换袍、保存铠甲，取刻“治愈”的符文之矛碎片。灾变后决定暂别酋长职责专注整个世界，阿格娜同行。",
+      "classification": "integrated_source_facts",
+      "boundary": "加尔鲁什并不知下毒；萨尔任命责任不等于毒杀罪责。回归时信息有延迟。尾声仍称加尔鲁什继续代行，离任至少持续一阵，不写已办永久退位手续；取矛碎片不是继承整把武器，现实铠甲未碎。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-19",
+    "thrall-event-20"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "原分部为17—32章；尾声只说明启航与继续代行，不扩大副标题适用范围，不写大漩涡后续。",
+  "independenceReason": "学习和归来不是两个孤立阶段：前者改变他面对后果的方式，后者使卸甲成为主动选择。",
+  "lengthMode": "standard",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "02025eb80364e852d27c9ec762dd912527b128fd476d6a8f63fa7d7b3616b485"
+}

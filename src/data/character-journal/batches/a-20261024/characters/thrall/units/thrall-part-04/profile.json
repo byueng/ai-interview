@@ -1,0 +1,99 @@
+{
+  "unitId": "thrall-part-04",
+  "kind": "section",
+  "displayOrder": 4,
+  "title": "让部落拥有家园",
+  "sourceLabel": "《魔兽编年史 卷三》已读选段；《仇恨之轮》",
+  "subtitle": {
+    "text": "盟友使一个民族走向共同体",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceRanges": [
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00855:p0001-p0007",
+        "text00862:p0001-p0013",
+        "text00871:p0001-p0018",
+        "text00876:p0001-p0010",
+        "text00877:p0001-p0012",
+        "text00882:p0001-p0016"
+      ],
+      "evidenceId": "thrall-event-10",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "26",
+      "sourceTitle": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "sourceType": "chronicle_selected_sections",
+      "refs": [
+        "text00903:p0001-p0009",
+        "text00904:p0001-p0016"
+      ],
+      "evidenceId": "thrall-event-11",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    },
+    {
+      "bookId": "13",
+      "sourceTitle": "仇恨之轮",
+      "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+      "sourceType": "novel_primary",
+      "refs": [
+        "text00340:p0003-p0016"
+      ],
+      "evidenceId": "thrall-event-11",
+      "evidencePath": "characters/thrall/integration.json#timeline"
+    }
+  ],
+  "coveredStage": "西迁、暗矛牛头人盟约、海加尔合作至杜隆塔尔定居",
+  "characterChange": "从兽人解放者扩大为多族共同体领导者",
+  "focus": "采取简篇概述：盟约怎样改变部落范围，联合抗敌如何留下与吉安娜互信及建国难题。",
+  "tone": "开拓、合作与谨慎期待",
+  "keyEvents": [
+    {
+      "evidenceId": "thrall-event-10",
+      "event": "接受先知警告跨海；与暗矛、牛头人建立盟约，在先知促成下与吉安娜合作，参与营救格罗玛什和对抗玛诺洛斯、联合海加尔防御。",
+      "classification": "integrated_source_facts",
+      "boundary": "编年史已读小节支持阶段概述；不得独占格罗玛什、吉安娜、玛法里奥及联军功绩，不扩写未证战场细节。"
+    },
+    {
+      "evidenceId": "thrall-event-11",
+      "event": "建立杜隆塔尔、奥格瑞玛；部落击败戴林入侵，吉安娜为守约作痛苦选择；多族共处开始成为日常治理问题。",
+      "classification": "integrated_source_facts",
+      "boundary": "戴林致命行动者13/26冲突，主叙述写部落击败，细节按26明确说明。"
+    }
+  ],
+  "evidenceIds": [
+    "thrall-event-10",
+    "thrall-event-11"
+  ],
+  "evidenceIdNamespace": "integration.timeline.eventId（整合证据标识，可逐条追溯sourceRanges；并非新增原文证据编号）",
+  "adjacentBoundaries": "承接解放；止于共同生活成为治理问题，具体商船与伐林危机留下一篇。",
+  "independenceReason": "地理和政治共同体发生实质转换；独立短篇使小说间阶段可见，又不凭编年史概括虚造长场景。",
+  "lengthMode": "brief_transition",
+  "imageMode": "chapter_scene",
+  "imageStatus": "future_placeholder_only",
+  "acceptance": [
+    "仅策划，待用户审阅后另行授权正文。",
+    "每项事实回到已读原文坐标；事实、人物意见、解释、梦境、异常时线分层。",
+    "执行本单元边界与integration全部冲突规则，不补书外剧情。",
+    "不重复总览摘要；副标题原样或清楚标明editorial，reviewStatus保持pending。"
+  ],
+  "status": "draft_for_review",
+  "userAccepted": false,
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "planAccepted": true,
+  "writingAuthorized": true,
+  "artAuthorized": true,
+  "publicationAuthorized": false,
+  "approvedPlanSha256": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+  "storySha256": "d9db214f504533363dc21bac4b4f91ed9d2261b22a306c8df6c4582b5d3a38ae"
+}

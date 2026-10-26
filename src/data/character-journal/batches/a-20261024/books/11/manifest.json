@@ -1,0 +1,117 @@
+{
+  "bookId": "11",
+  "title": "鲜血与荣耀",
+  "sourcePath": "E:\\魔兽官方小说\\11 鲜血与荣耀.epub",
+  "sourceSha256": "3801a08ca7b1da2ed5315d54ce902e3b46254bbe404b389311751eda5e65678b",
+  "documents": [
+    {
+      "documentId": "text00290",
+      "href": "OEBPS/text00290.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00290.txt",
+      "sha256": "1996324cef8adcac5a3d50fa049789d8941fbb91d2e592ca111e394fc37e58d5"
+    },
+    {
+      "documentId": "text00291",
+      "href": "OEBPS/text00291.html",
+      "paragraphs": 7,
+      "characters": 209,
+      "heading": "版权信息",
+      "path": "source/text00291.txt",
+      "sha256": "309148f1c27bff474ddd749b49e9d65477a4521720a0ba6d5cd70ef6eb3de339"
+    },
+    {
+      "documentId": "text00292",
+      "href": "OEBPS/text00292.html",
+      "paragraphs": 13,
+      "characters": 340,
+      "heading": "鲜血与荣耀",
+      "path": "source/text00292.txt",
+      "sha256": "dc6d3436922e945a6607dc7d3b9a94a9fa5a1d54fa245314a6edcc72e3dce4db"
+    },
+    {
+      "documentId": "text00293",
+      "href": "OEBPS/text00293.html",
+      "paragraphs": 5,
+      "characters": 275,
+      "heading": "感谢",
+      "path": "source/text00293.txt",
+      "sha256": "bf0e344cd8d83342eb7bd2fa0771ebadaafd22135c50f684f6663476af47b171"
+    },
+    {
+      "documentId": "text00294",
+      "href": "OEBPS/text00294.html",
+      "paragraphs": 89,
+      "characters": 7346,
+      "heading": "第一章　激战",
+      "path": "source/text00294.txt",
+      "sha256": "c214e59d81160351f888e0651339d3d019f5a852c49b13efc5754ba7d9251ff6"
+    },
+    {
+      "documentId": "text00295",
+      "href": "OEBPS/text00295.html",
+      "paragraphs": 138,
+      "characters": 10380,
+      "heading": "第二章　未解之谜",
+      "path": "source/text00295.txt",
+      "sha256": "0afa08fb1ce930b0b7f35a81c4cdb6cabce26013fc1a15027207310bf6e57a27"
+    },
+    {
+      "documentId": "text00296",
+      "href": "OEBPS/text00296.html",
+      "paragraphs": 149,
+      "characters": 11577,
+      "heading": "第三章　一位战士的传说",
+      "path": "source/text00296.txt",
+      "sha256": "d3f3ec91863871ddbd05d020c1a59abf161d0e41678b6116a2ad2c33ba757c05"
+    },
+    {
+      "documentId": "text00297",
+      "href": "OEBPS/text00297.html",
+      "paragraphs": 142,
+      "characters": 10405,
+      "heading": "第四章　命令的桎梏",
+      "path": "source/text00297.txt",
+      "sha256": "26961b22cc2241d37ba6cbde9cd0a72144ff645d0a401acfd27fbdb3905e7448"
+    },
+    {
+      "documentId": "text00298",
+      "href": "OEBPS/text00298.html",
+      "paragraphs": 111,
+      "characters": 9071,
+      "heading": "第五章　意志的审判",
+      "path": "source/text00298.txt",
+      "sha256": "8ade97b1411129fc45a86d1cdf26af04fe5b6d1206ca2b3f7467515ca34b8364"
+    },
+    {
+      "documentId": "text00299",
+      "href": "OEBPS/text00299.html",
+      "paragraphs": 81,
+      "characters": 5773,
+      "heading": "第六章　落魄返家",
+      "path": "source/text00299.txt",
+      "sha256": "c7be81b62603d38627ae5c6888edf66ed92be0e1e5bd8b518ff97817f9deb75f"
+    },
+    {
+      "documentId": "text00300",
+      "href": "OEBPS/text00300.html",
+      "paragraphs": 159,
+      "characters": 12558,
+      "heading": "第七章　战鼓喧天",
+      "path": "source/text00300.txt",
+      "sha256": "8fa20f566a1ce7bf7a164e084183c6614964b8724e79de8439626109ee7913e0"
+    },
+    {
+      "documentId": "text00301",
+      "href": "OEBPS/text00301.html",
+      "paragraphs": 29,
+      "characters": 2081,
+      "heading": "第八章　完美轮回",
+      "path": "source/text00301.txt",
+      "sha256": "a40baa9472081241cd65e1bd9f06c40ac2beae133bcbc2de963de28a4db5a97f"
+    }
+  ],
+  "readStatus": "pending"
+}

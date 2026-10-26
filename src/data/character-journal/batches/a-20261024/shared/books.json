@@ -1,0 +1,4981 @@
+{
+  "runId": "batch-a-20261024-01",
+  "books": [
+    {
+      "bookId": "02",
+      "title": "上古之战：永恒之井",
+      "sourceSha256": "ade02716af7a3abef6fdcc542217133d46a8a7b7bf05202a56af02b0b22d1d0a",
+      "status": "completed",
+      "manifest": "books/02/manifest.json",
+      "evidence": "books/02/evidence.json",
+      "entryCount": 56,
+      "coverage": [
+        {
+          "documentId": "text00031",
+          "href": "OEBPS/text00031.html",
+          "heading": "",
+          "readParagraphs": [],
+          "totalParagraphs": 0,
+          "status": "empty_document",
+          "sha256": "c1f03a1f6f8f9c578140d6f646225c6d27cd2fded9d915b8e4bc668808a987af"
+        },
+        {
+          "documentId": "text00032",
+          "href": "OEBPS/text00032.html",
+          "heading": "版权信息",
+          "readParagraphs": [
+            1,
+            7
+          ],
+          "totalParagraphs": 7,
+          "status": "fully_read",
+          "sha256": "029674ee76fd7b9681ce6b8ee460d071b9947fc5335d85c476b96ef022a00097"
+        },
+        {
+          "documentId": "text00033",
+          "href": "OEBPS/text00033.html",
+          "heading": "上古之战：永恒之井",
+          "readParagraphs": [
+            1,
+            29
+          ],
+          "totalParagraphs": 29,
+          "status": "fully_read",
+          "sha256": "a30064a84294316516067716cf4f173926f88394297fa3ba5aecd101dd1614dc"
+        },
+        {
+          "documentId": "text00034",
+          "href": "OEBPS/text00034.html",
+          "heading": "谨以此书献给马丁·福克斯",
+          "readParagraphs": [
+            1,
+            3
+          ],
+          "totalParagraphs": 3,
+          "status": "fully_read",
+          "sha256": "cc891782942a981fa6f14b337f7a10eca6c194a47c2998b01ba732b39a8d298e"
+        },
+        {
+          "documentId": "text00035",
+          "href": "OEBPS/text00035.html",
+          "heading": "导读 序言",
+          "readParagraphs": [
+            1,
+            9
+          ],
+          "totalParagraphs": 9,
+          "status": "fully_read",
+          "sha256": "05f9ea1d6f15d673aac3258270a26684473e2b4824ce090497a5a43c57ee0c47"
+        },
+        {
+          "documentId": "text00036",
+          "href": "OEBPS/text00036.html",
+          "heading": "第一章",
+          "readParagraphs": [
+            1,
+            83
+          ],
+          "totalParagraphs": 83,
+          "status": "fully_read",
+          "sha256": "26b5add00be5a0c7ea86729116c99569de6e68a73414c185936b8413a328e4f2"
+        },
+        {
+          "documentId": "text00037",
+          "href": "OEBPS/text00037.html",
+          "heading": "第二章",
+          "readParagraphs": [
+            1,
+            167
+          ],
+          "totalParagraphs": 167,
+          "status": "fully_read",
+          "sha256": "079270950ee31f3bfa535600069db4cbf77a17f2eba27d0092cb0c46c11523fe"
+        },
+        {
+          "documentId": "text00038",
+          "href": "OEBPS/text00038.html",
+          "heading": "第三章",
+          "readParagraphs": [
+            1,
+            125
+          ],
+          "totalParagraphs": 125,
+          "status": "fully_read",
+          "sha256": "a1fdbbe0a2f49bef8c1399643589bd6bb6be7434b7ab96fe9a22fb0545566726"
+        },
+        {
+          "documentId": "text00039",
+          "href": "OEBPS/text00039.html",
+          "heading": "第四章",
+          "readParagraphs": [
+            1,
+            155
+          ],
+          "totalParagraphs": 155,
+          "status": "fully_read",
+          "sha256": "54fea9866d3aaf363ab718ff7213b8af203fa5a14c1e9f15ce4270e28119b8f2"
+        },
+        {
+          "documentId": "text00040",
+          "href": "OEBPS/text00040.html",
+          "heading": "第五章",
+          "readParagraphs": [
+            1,
+            153
+          ],
+          "totalParagraphs": 153,
+          "status": "fully_read",
+          "sha256": "33fbf3b3302af760d23d617a35d614cff1aac6a038c342d97137b088045c5f50"
+        },
+        {
+          "documentId": "text00041",
+          "href": "OEBPS/text00041.html",
+          "heading": "第六章",
+          "readParagraphs": [
+            1,
+            116
+          ],
+          "totalParagraphs": 116,
+          "status": "fully_read",
+          "sha256": "2c2480fac5ffc52d6ade155102d785a84d9558b3767be98e245d611bd8a8c879"
+        },
+        {
+          "documentId": "text00042",
+          "href": "OEBPS/text00042.html",
+          "heading": "第七章",
+          "readParagraphs": [
+            1,
+            117
+          ],
+          "totalParagraphs": 117,
+          "status": "fully_read",
+          "sha256": "0b7dcea3d9cdb8303e56c187b07445631e0031a5eded94a776d8b2271ec63a59"
+        },
+        {
+          "documentId": "text00043",
+          "href": "OEBPS/text00043.html",
+          "heading": "第八章",
+          "readParagraphs": [
+            1,
+            133
+          ],
+          "totalParagraphs": 133,
+          "status": "fully_read",
+          "sha256": "4cc89df5698176a040a4b005052316353c14dd8a1e1b3c8a243fc6c845e7d37a"
+        },
+        {
+          "documentId": "text00044",
+          "href": "OEBPS/text00044.html",
+          "heading": "第九章",
+          "readParagraphs": [
+            1,
+            149
+          ],
+          "totalParagraphs": 149,
+          "status": "fully_read",
+          "sha256": "197798d866c41479d4d5c2c67a39840bf53f7acd595395150899b8ca39db11e3"
+        },
+        {
+          "documentId": "text00045",
+          "href": "OEBPS/text00045.html",
+          "heading": "第十章",
+          "readParagraphs": [
+            1,
+            163
+          ],
+          "totalParagraphs": 163,
+          "status": "fully_read",
+          "sha256": "2d61ebeb9599fb3bb2cd7d9f778768870d64e2952c43a31d87e17c1542848715"
+        },
+        {
+          "documentId": "text00046",
+          "href": "OEBPS/text00046.html",
+          "heading": "第十一章",
+          "readParagraphs": [
+            1,
+            139
+          ],
+          "totalParagraphs": 139,
+          "status": "fully_read",
+          "sha256": "d910c0469e323b7ef7154335501a43943090eed7e14d047babcd322f8ae0bed9"
+        },
+        {
+          "documentId": "text00047",
+          "href": "OEBPS/text00047.html",
+          "heading": "第十二章",
+          "readParagraphs": [
+            1,
+            143
+          ],
+          "totalParagraphs": 143,
+          "status": "fully_read",
+          "sha256": "5320e23131c6752b883a522f07640ed2e919b10a1ad4030757dfc951948caa83"
+        },
+        {
+          "documentId": "text00048",
+          "href": "OEBPS/text00048.html",
+          "heading": "第十三章",
+          "readParagraphs": [
+            1,
+            141
+          ],
+          "totalParagraphs": 141,
+          "status": "fully_read",
+          "sha256": "a7eefacbc241fc95224183dcf8a32a2c4faff02fa6257256ee8c2a483f4e5567"
+        },
+        {
+          "documentId": "text00049",
+          "href": "OEBPS/text00049.html",
+          "heading": "第十四章",
+          "readParagraphs": [
+            1,
+            111
+          ],
+          "totalParagraphs": 111,
+          "status": "fully_read",
+          "sha256": "a49682c6364aa44fad4f6794b46d3effa5dc9847944f02f9b0b1e82a6297bda1"
+        },
+        {
+          "documentId": "text00050",
+          "href": "OEBPS/text00050.html",
+          "heading": "第十五章",
+          "readParagraphs": [
+            1,
+            135
+          ],
+          "totalParagraphs": 135,
+          "status": "fully_read",
+          "sha256": "ebca86e24b55a8bc9f58d24d6c04ebeab6ad86c87c430705ce926ff3a4762c03"
+        },
+        {
+          "documentId": "text00051",
+          "href": "OEBPS/text00051.html",
+          "heading": "第十六章",
+          "readParagraphs": [
+            1,
+            135
+          ],
+          "totalParagraphs": 135,
+          "status": "fully_read",
+          "sha256": "f7c0f5ad037775c9b1579a92f57824719ed18782259e1ffbd141ba6bb8f24722"
+        },
+        {
+          "documentId": "text00052",
+          "href": "OEBPS/text00052.html",
+          "heading": "第十七章",
+          "readParagraphs": [
+            1,
+            163
+          ],
+          "totalParagraphs": 163,
+          "status": "fully_read",
+          "sha256": "eea7e5f1eef6805aa63f0929399a44d6c478a4805441f74bd60a74beb4eb4811"
+        },
+        {
+          "documentId": "text00053",
+          "href": "OEBPS/text00053.html",
+          "heading": "第十八章",
+          "readParagraphs": [
+            1,
+            177
+          ],
+          "totalParagraphs": 177,
+          "status": "fully_read",
+          "sha256": "186a0472c78b0e7b50d3f6595845ea4037975e41124185744cc9e3256e0768a0"
+        },
+        {
+          "documentId": "text00054",
+          "href": "OEBPS/text00054.html",
+          "heading": "第十九章",
+          "readParagraphs": [
+            1,
+            147
+          ],
+          "totalParagraphs": 147,
+          "status": "fully_read",
+          "sha256": "dbee4c7533cd8c9dfe4b7a5686c7713b45ed4a46839670607908a76e30a5e6ec"
+        },
+        {
+          "documentId": "text00055",
+          "href": "OEBPS/text00055.html",
+          "heading": "第二十章",
+          "readParagraphs": [
+            1,
+            157
+          ],
+          "totalParagraphs": 157,
+          "status": "fully_read",
+          "sha256": "cf34bd91ce4e95396d88d90b6de13268cf716ec2fb7c085582186d148c136c8c"
+        },
+        {
+          "documentId": "text00056",
+          "href": "OEBPS/text00056.html",
+          "heading": "第二十一章",
+          "readParagraphs": [
+            1,
+            193
+          ],
+          "totalParagraphs": 193,
+          "status": "fully_read",
+          "sha256": "bc16d19a9725a29dd697bb787e8790a5532eb0a1ccfd2e932289646c2b899f77"
+        },
+        {
+          "documentId": "text00057",
+          "href": "OEBPS/text00057.html",
+          "heading": "第二十二章",
+          "readParagraphs": [
+            1,
+            147
+          ],
+          "totalParagraphs": 147,
+          "status": "fully_read",
+          "sha256": "ac46b25dc531cfc756d4c4d055d815b5d54ca0a792b009a00a38289da538298f"
+        },
+        {
+          "documentId": "text00058",
+          "href": "OEBPS/text00058.html",
+          "heading": "第二十三章",
+          "readParagraphs": [
+            1,
+            130
+          ],
+          "totalParagraphs": 130,
+          "status": "fully_read",
+          "sha256": "93351bf8c9c7215105d09ddf18df23b317be999c29457f3b5e5b5b2e19611001"
+        },
+        {
+          "documentId": "text00059",
+          "href": "OEBPS/text00059.html",
+          "heading": "第二十四章",
+          "readParagraphs": [
+            1,
+            52
+          ],
+          "totalParagraphs": 52,
+          "status": "fully_read",
+          "sha256": "45ec0b5f3bffbdc2a0cc9f55766d94dc40980e32dced27fd7e52a5b911bbedb6"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "read-progress.json": {
+          "status": "completed",
+          "lastFullyRead": "text00059",
+          "next": null,
+          "readButUnrecorded": []
+        }
+      },
+      "handoff": "books/02/handoff.json"
+    },
+    {
+      "bookId": "03",
+      "title": "上古之战：恶魔之魂",
+      "sourceSha256": "1cf0637c338575793eb5f6d9e30ce2097dda78ecce7b7e25c76c1ff635d76ffb",
+      "status": "partial",
+      "manifest": "books/03/manifest.json",
+      "evidence": "books/03/evidence.json",
+      "entryCount": 66,
+      "coverage": [
+        {
+          "documentId": "text00060",
+          "href": "OEBPS/text00060.html",
+          "heading": "",
+          "readParagraphs": [],
+          "totalParagraphs": 0,
+          "status": "empty_document",
+          "sha256": "5ab0c1b4eb97b1e6a6ae02678e3f088f41863254e9e4824ebbc98ec60ce7c0fd"
+        },
+        {
+          "documentId": "text00061",
+          "href": "OEBPS/text00061.html",
+          "heading": "版权信息",
+          "readParagraphs": [
+            1,
+            7
+          ],
+          "totalParagraphs": 7,
+          "status": "fully_read",
+          "sha256": "bbd7158617dc9c5acb9d51dd69c19d13b53992c6eac7988212fa43692ac9c9b1"
+        },
+        {
+          "documentId": "text00062",
+          "href": "OEBPS/text00062.html",
+          "heading": "上古之战：恶魔之魂",
+          "readParagraphs": [
+            1,
+            29
+          ],
+          "totalParagraphs": 29,
+          "status": "fully_read",
+          "sha256": "4d486cb1df5f64427101235efe71af4cbb26982ee626df1b5e2a66c9b5513397"
+        },
+        {
+          "documentId": "text00063",
+          "href": "OEBPS/text00063.html",
+          "heading": "致敬托马斯·桑尼加勒特，",
+          "readParagraphs": [
+            1,
+            3
+          ],
+          "totalParagraphs": 3,
+          "status": "fully_read",
+          "sha256": "ea7e7034664eb4d06949a0e172bbf558ad50dfcd44d1241c69a8bc03261bc287"
+        },
+        {
+          "documentId": "text00064",
+          "href": "OEBPS/text00064.html",
+          "heading": "第一章",
+          "readParagraphs": [
+            1,
+            107
+          ],
+          "totalParagraphs": 107,
+          "status": "fully_read",
+          "sha256": "16ef8144488fbf2fd51e49726e3ec2698726549987cbb089000bd7af53282ad2"
+        },
+        {
+          "documentId": "text00065",
+          "href": "OEBPS/text00065.html",
+          "heading": "第二章",
+          "readParagraphs": [
+            1,
+            151
+          ],
+          "totalParagraphs": 151,
+          "status": "fully_read",
+          "sha256": "ffc004818c0dff3879d0ee3d76810e1b39246d81e951a3386bb899afc905e4d4"
+        },
+        {
+          "documentId": "text00066",
+          "href": "OEBPS/text00066.html",
+          "heading": "第三章",
+          "readParagraphs": [
+            1,
+            148
+          ],
+          "totalParagraphs": 148,
+          "status": "fully_read",
+          "sha256": "7073f292bea73ac39ab053318fdb409b8fba97db76d6f40913c8bca881f9d59c"
+        },
+        {
+          "documentId": "text00067",
+          "href": "OEBPS/text00067.html",
+          "heading": "第四章",
+          "readParagraphs": [
+            1,
+            131
+          ],
+          "totalParagraphs": 131,
+          "status": "fully_read",
+          "sha256": "540ec8ce2648d3de8e8caf468eeec2869f7c3d73df13d847230196de1a67c7ee"
+        },
+        {
+          "documentId": "text00068",
+          "href": "OEBPS/text00068.html",
+          "heading": "第五章",
+          "readParagraphs": [
+            1,
+            127
+          ],
+          "totalParagraphs": 127,
+          "status": "fully_read",
+          "sha256": "ecc34c164d0d9e9b1307429b959aa420fc251993b7d2232e578d2b1bc0b9a494"
+        },
+        {
+          "documentId": "text00069",
+          "href": "OEBPS/text00069.html",
+          "heading": "第六章",
+          "readParagraphs": [
+            1,
+            104
+          ],
+          "totalParagraphs": 104,
+          "status": "fully_read",
+          "sha256": "e1157807feeb8b91bf6de0efbd5c142c9a80390805487ca38c55bd1dd6ee88e8"
+        },
+        {
+          "documentId": "text00070",
+          "href": "OEBPS/text00070.html",
+          "heading": "第七章",
+          "readParagraphs": [
+            1,
+            135
+          ],
+          "totalParagraphs": 135,
+          "status": "fully_read",
+          "sha256": "6148f3acd29ab9f0f94db893b5312677e7bfc4b22e23507233a7c439a5be38d7"
+        },
+        {
+          "documentId": "text00071",
+          "href": "OEBPS/text00071.html",
+          "heading": "第八章",
+          "readParagraphs": [
+            1,
+            142
+          ],
+          "totalParagraphs": 142,
+          "status": "fully_read",
+          "sha256": "c0786dd01955ea4ee9cb909223ecfaa4c5d82345ad444355c943345534b7c9f6"
+        },
+        {
+          "documentId": "text00072",
+          "href": "OEBPS/text00072.html",
+          "heading": "第九章",
+          "readParagraphs": [
+            1,
+            150
+          ],
+          "totalParagraphs": 150,
+          "status": "fully_read",
+          "sha256": "22339eac6764ffd86fcc23f2cfafdadc7740bc15cd796ac7973e968e1cb52bb9"
+        },
+        {
+          "documentId": "text00073",
+          "href": "OEBPS/text00073.html",
+          "heading": "第十章",
+          "readParagraphs": [
+            1,
+            160
+          ],
+          "totalParagraphs": 160,
+          "status": "fully_read",
+          "sha256": "5b6b589b4e799eb920d2b8e4bbc99382426395c06685adca32ca801b21087276"
+        },
+        {
+          "documentId": "text00074",
+          "href": "OEBPS/text00074.html",
+          "heading": "第十一章",
+          "readParagraphs": [
+            1,
+            145
+          ],
+          "totalParagraphs": 145,
+          "status": "fully_read",
+          "sha256": "0dd2c3d4fe51b6e974e7ff97a37b37ab351a0e4e158d77c4762b7548e56eb0ec"
+        },
+        {
+          "documentId": "text00075",
+          "href": "OEBPS/text00075.html",
+          "heading": "第十二章",
+          "readParagraphs": [
+            1,
+            163
+          ],
+          "totalParagraphs": 163,
+          "status": "fully_read",
+          "sha256": "2373f595e0ae15a0c0bedc9982bcab5ca9c8126bd35dcb43be7ddca59fcf8bba"
+        },
+        {
+          "documentId": "text00076",
+          "href": "OEBPS/text00076.html",
+          "heading": "第十三章",
+          "readParagraphs": [
+            1,
+            120
+          ],
+          "totalParagraphs": 120,
+          "status": "fully_read",
+          "sha256": "6731d407588a2a601c103fc304c618b56196fdbef1f845071efb4c86b390f63e"
+        },
+        {
+          "documentId": "text00077",
+          "href": "OEBPS/text00077.html",
+          "heading": "第十四章",
+          "readParagraphs": [
+            1,
+            141
+          ],
+          "totalParagraphs": 141,
+          "status": "fully_read",
+          "sha256": "c598a06ae115d149fa9bede98f9dd99d2016b004958d8f0b4fb9b13d5f853ce4"
+        },
+        {
+          "documentId": "text00078",
+          "href": "OEBPS/text00078.html",
+          "heading": "第十五章",
+          "readParagraphs": [
+            1,
+            143
+          ],
+          "totalParagraphs": 143,
+          "status": "fully_read",
+          "sha256": "2ad9177f4114f6a3697b24eaff4667ed2e3e112845fe297d11e253d9336d09b5"
+        },
+        {
+          "documentId": "text00079",
+          "href": "OEBPS/text00079.html",
+          "heading": "第十六章",
+          "readParagraphs": [
+            1,
+            132
+          ],
+          "totalParagraphs": 132,
+          "status": "fully_read",
+          "sha256": "80c132255ccdd02b1d983c6c5e988c33ee7a7aa760116afc6d644d0c925c4aa0"
+        },
+        {
+          "documentId": "text00080",
+          "href": "OEBPS/text00080.html",
+          "heading": "第十七章",
+          "readParagraphs": [
+            1,
+            140
+          ],
+          "totalParagraphs": 140,
+          "status": "fully_read",
+          "sha256": "79cf9880e6a4c55a2ec46f505867aecb62b5e7fef97a4bbd8d9510a08db8cd12"
+        },
+        {
+          "documentId": "text00081",
+          "href": "OEBPS/text00081.html",
+          "heading": "第十八章",
+          "readParagraphs": [
+            1,
+            160
+          ],
+          "totalParagraphs": 160,
+          "status": "fully_read",
+          "sha256": "89b0a9544c3ca2927ab2a7b06b30cc5c1fdbf0aa948ec1cfea7c20b05936a206"
+        },
+        {
+          "documentId": "text00082",
+          "href": "OEBPS/text00082.html",
+          "heading": "第十九章",
+          "readParagraphs": [
+            1,
+            138
+          ],
+          "totalParagraphs": 138,
+          "status": "fully_read",
+          "sha256": "a2cca3c4dba51bcb245fe30cc5c47523a088540ff1341e72c3a5cfe4920d9d00"
+        },
+        {
+          "documentId": "text00083",
+          "href": "OEBPS/text00083.html",
+          "heading": "第二十章",
+          "readParagraphs": [
+            1,
+            130
+          ],
+          "totalParagraphs": 130,
+          "status": "fully_read",
+          "sha256": "f5c59255bd000e55e2f071df5f229bed45198bad1ce1690b5a00b3334677de8e"
+        },
+        {
+          "documentId": "text00084",
+          "href": "OEBPS/text00084.html",
+          "heading": "第二十一章",
+          "readParagraphs": [
+            1,
+            128
+          ],
+          "totalParagraphs": 128,
+          "status": "fully_read",
+          "sha256": "daa36474ab24508d49e9d5a39896d0009b83cc9d7cbf6955fcce167c64256df2"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "read-progress.json": {
+          "status": "partial",
+          "stopReason": "user_scope_narrowed_to_inheritable_files",
+          "lastFullyRead": "text00084",
+          "next": "text00085",
+          "nextParagraph": 1,
+          "nextHref": "OEBPS/text00085.html",
+          "nextPath": "source/text00085.txt",
+          "emptyDocumentAction": null,
+          "readButUnrecorded": []
+        }
+      },
+      "handoff": "books/03/handoff.json"
+    },
+    {
+      "bookId": "04",
+      "title": "上古之战：天崩地裂",
+      "sourceSha256": "1689ebe854685cb8385a4e638705c36f7d62f1a4d42425469d32a15474aeb8e5",
+      "status": "pending",
+      "manifest": "books/04/manifest.json",
+      "evidence": "books/04/evidence.json",
+      "entryCount": 0,
+      "coverage": [],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "read-progress.json": {
+          "status": "pending",
+          "stopReason": "user_scope_narrowed_to_inheritable_files",
+          "lastFullyRead": null,
+          "next": "text00089",
+          "nextParagraph": null,
+          "nextHref": "OEBPS/text00089.html",
+          "nextPath": "source/text00089.txt",
+          "emptyDocumentAction": "verify empty then advance in manifest order",
+          "readButUnrecorded": []
+        }
+      },
+      "handoff": "books/04/handoff.json"
+    },
+    {
+      "bookId": "05",
+      "title": "部落的崛起",
+      "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+      "status": "completed",
+      "manifest": "books/05/manifest.json",
+      "evidence": "books/05/evidence.json",
+      "entryCount": 28,
+      "coverage": [
+        {
+          "documentId": "text00118",
+          "heading": "",
+          "href": "OEBPS/text00118.html",
+          "paragraphs": 0,
+          "readRanges": null,
+          "status": "read_full",
+          "sha256": "e874d639fcba9fbe026a751d717ad73e9cf66ea0a8aa9eddd21b5c7be438e82c"
+        },
+        {
+          "documentId": "text00119",
+          "heading": "版权信息",
+          "href": "OEBPS/text00119.html",
+          "paragraphs": 7,
+          "readRanges": "p0001-p0007",
+          "status": "read_full",
+          "sha256": "1a6f2df58db541131dac6d1f97ca54551bc647220444741a8acd38eff73f74d3"
+        },
+        {
+          "documentId": "text00120",
+          "heading": "部落的崛起",
+          "href": "OEBPS/text00120.html",
+          "paragraphs": 31,
+          "readRanges": "p0001-p0031",
+          "status": "read_full",
+          "sha256": "e462bd213ad38a96b723b03831bff8af89fd893a8bd8f073186b0072ba79c263"
+        },
+        {
+          "documentId": "text00121",
+          "heading": "引言",
+          "href": "OEBPS/text00121.html",
+          "paragraphs": 5,
+          "readRanges": "p0001-p0005",
+          "status": "read_full",
+          "sha256": "178fa1c0075aefa817dff97ddab0fd5e6f8e801bf8dd662cca10f3c4a068aed1"
+        },
+        {
+          "documentId": "text00122",
+          "heading": "导读",
+          "href": "OEBPS/text00122.html",
+          "paragraphs": 7,
+          "readRanges": "p0001-p0007",
+          "status": "read_full",
+          "sha256": "81f6f73d9fcd50cbaf6b94505d79e758d7c3b5c4013a1186258f24e92f92efbc"
+        },
+        {
+          "documentId": "text00123",
+          "heading": "序章",
+          "href": "OEBPS/text00123.html",
+          "paragraphs": 94,
+          "readRanges": "p0001-p0094",
+          "status": "read_full",
+          "sha256": "d00df9294c2b9521195e96bd74289ee207c14d865b8a1aed161e63a9dbd8ef6b"
+        },
+        {
+          "documentId": "text00124",
+          "heading": "第一章",
+          "href": "OEBPS/text00124.html",
+          "paragraphs": 56,
+          "readRanges": "p0001-p0056",
+          "status": "read_full",
+          "sha256": "33d6f2be7deb1c7e1d6f9a252d6cc9363d092563a820b4cd75009ba05ecd511c"
+        },
+        {
+          "documentId": "text00125",
+          "heading": "第二章",
+          "href": "OEBPS/text00125.html",
+          "paragraphs": 87,
+          "readRanges": "p0001-p0087",
+          "status": "read_full",
+          "sha256": "6c3bbe6c4fb91ae3adb8a2522bc133484aee9b19cd5b49e1c0584b15129dfb11"
+        },
+        {
+          "documentId": "text00126",
+          "heading": "第三章",
+          "href": "OEBPS/text00126.html",
+          "paragraphs": 121,
+          "readRanges": "p0001-p0121",
+          "status": "read_full",
+          "sha256": "eef3b80f91f377ede5dc7438f6cd81196aae3d7c08a24499a008ccc2e61d3c53"
+        },
+        {
+          "documentId": "text00127",
+          "heading": "第四章",
+          "href": "OEBPS/text00127.html",
+          "paragraphs": 79,
+          "readRanges": "p0001-p0079",
+          "status": "read_full",
+          "sha256": "440471a6d04df48d1ea2954ebc08cebbe11022bcb7cff3d4de743af1e81ea89e"
+        },
+        {
+          "documentId": "text00128",
+          "heading": "第五章",
+          "href": "OEBPS/text00128.html",
+          "paragraphs": 119,
+          "readRanges": "p0001-p0119",
+          "status": "read_full",
+          "sha256": "46500f65f4fa5b59779aff89eff7c618da7c8e1271047591a662bfd30c5d1cd8"
+        },
+        {
+          "documentId": "text00129",
+          "heading": "第六章",
+          "href": "OEBPS/text00129.html",
+          "paragraphs": 73,
+          "readRanges": "p0001-p0073",
+          "status": "read_full",
+          "sha256": "3b216f8231d44d9402a18bc41539a6764272301db935417e8a066d8262986b5d"
+        },
+        {
+          "documentId": "text00130",
+          "heading": "第七章",
+          "href": "OEBPS/text00130.html",
+          "paragraphs": 64,
+          "readRanges": "p0001-p0064",
+          "status": "read_full",
+          "sha256": "5cfb543a7b0c226f189fcae90e8cf494429cc1e27e6c679003899b44bbe6b29b"
+        },
+        {
+          "documentId": "text00131",
+          "heading": "第八章",
+          "href": "OEBPS/text00131.html",
+          "paragraphs": 86,
+          "readRanges": "p0001-p0086",
+          "status": "read_full",
+          "sha256": "22d834e0cf14911f1eb317eaa9688cfbc0e21a73091a68972fad62cb2a28f3e5"
+        },
+        {
+          "documentId": "text00132",
+          "heading": "第九章",
+          "href": "OEBPS/text00132.html",
+          "paragraphs": 82,
+          "readRanges": "p0001-p0082",
+          "status": "read_full",
+          "sha256": "c74b144e9c6cc0eca84b494f096346a67fc9bc22e5469f3a90922d8d0389b75f"
+        },
+        {
+          "documentId": "text00133",
+          "heading": "第十章",
+          "href": "OEBPS/text00133.html",
+          "paragraphs": 156,
+          "readRanges": "p0001-p0156",
+          "status": "read_full",
+          "sha256": "d7a97b4ce760cf1a0941bb5a8fff1ea9af92d2f0bf7eaea7bda8d4ad24900409"
+        },
+        {
+          "documentId": "text00134",
+          "heading": "第十一章",
+          "href": "OEBPS/text00134.html",
+          "paragraphs": 86,
+          "readRanges": "p0001-p0086",
+          "status": "read_full",
+          "sha256": "59de83c6477cb09b33e86eb03e22d4b14375925edc58a8b02000949fb16c8c46"
+        },
+        {
+          "documentId": "text00135",
+          "heading": "第十二章",
+          "href": "OEBPS/text00135.html",
+          "paragraphs": 70,
+          "readRanges": "p0001-p0070",
+          "status": "read_full",
+          "sha256": "d5ca2e92844e94f8ef64f61f27a59a8fa3eb4f6fcf4a0ec0df87bb55218b7a10"
+        },
+        {
+          "documentId": "text00136",
+          "heading": "第十三章",
+          "href": "OEBPS/text00136.html",
+          "paragraphs": 137,
+          "readRanges": "p0001-p0137",
+          "status": "read_full",
+          "sha256": "229d51205e23f1e012c3ec3aee895ee64055199b6bb0beeb37b79cd4c1043b34"
+        },
+        {
+          "documentId": "text00137",
+          "heading": "第十四章",
+          "href": "OEBPS/text00137.html",
+          "paragraphs": 96,
+          "readRanges": "p0001-p0096",
+          "status": "read_full",
+          "sha256": "0d07e483fbc9cf21abf1c45054be2c72d8d03d9292316694c06999bd8ba77b61"
+        },
+        {
+          "documentId": "text00138",
+          "heading": "第十五章",
+          "href": "OEBPS/text00138.html",
+          "paragraphs": 44,
+          "readRanges": "p0001-p0044",
+          "status": "read_full",
+          "sha256": "1c20dde15a3426c575986e7893ab898ccf7b54f44783255c4dd5d4e86e6f6e72"
+        },
+        {
+          "documentId": "text00139",
+          "heading": "第十六章",
+          "href": "OEBPS/text00139.html",
+          "paragraphs": 71,
+          "readRanges": "p0001-p0071",
+          "status": "read_full",
+          "sha256": "8df6402efccfd54964e11866e3146d9756ac814e7257819b50ed7e28db019616"
+        },
+        {
+          "documentId": "text00140",
+          "heading": "第十七章",
+          "href": "OEBPS/text00140.html",
+          "paragraphs": 69,
+          "readRanges": "p0001-p0069",
+          "status": "read_full",
+          "sha256": "51b371553e8a9b1ac8b851c231d8a350c079af087fa8322c7d342656109cf454"
+        },
+        {
+          "documentId": "text00141",
+          "heading": "第十八章",
+          "href": "OEBPS/text00141.html",
+          "paragraphs": 68,
+          "readRanges": "p0001-p0068",
+          "status": "read_full",
+          "sha256": "f43d8d6038ce44d5d44f95bea8de368154b9d777380c7929f09f877dcdb3e239"
+        },
+        {
+          "documentId": "text00142",
+          "heading": "第十九章",
+          "href": "OEBPS/text00142.html",
+          "paragraphs": 122,
+          "readRanges": "p0001-p0122",
+          "status": "read_full",
+          "sha256": "9392316d0c887e3af3c370e4dc7be83739427a57a693bc08528eb9eac69fd850"
+        },
+        {
+          "documentId": "text00143",
+          "heading": "第二十章",
+          "href": "OEBPS/text00143.html",
+          "paragraphs": 57,
+          "readRanges": "p0001-p0057",
+          "status": "read_full",
+          "sha256": "c4a02556ac958b966be217d5a5049e109911374c36b464295cf5a601f218aa0a"
+        },
+        {
+          "documentId": "text00144",
+          "heading": "第二十一章",
+          "href": "OEBPS/text00144.html",
+          "paragraphs": 65,
+          "readRanges": "p0001-p0065",
+          "status": "read_full",
+          "sha256": "8384c27754db8e6469bbafe56fe60cad7e14085d4eeadb3418000403b946b4b5"
+        },
+        {
+          "documentId": "text00145",
+          "heading": "第二十二章",
+          "href": "OEBPS/text00145.html",
+          "paragraphs": 84,
+          "readRanges": "p0001-p0084",
+          "status": "read_full",
+          "sha256": "acb2726fd6cea4d756ce1c3abacecdf66e9880bf0e357f4159f61163b77bb52a"
+        },
+        {
+          "documentId": "text00146",
+          "heading": "尾声",
+          "href": "OEBPS/text00146.html",
+          "paragraphs": 28,
+          "readRanges": "p0001-p0028",
+          "status": "read_full",
+          "sha256": "f974ad076acf97cd34ca5f19ef4a81edddf49bbf5a6baa458e9edb3f97517ec1"
+        },
+        {
+          "documentId": "text00147",
+          "heading": "关于作者",
+          "href": "OEBPS/text00147.html",
+          "paragraphs": 3,
+          "readRanges": "p0001-p0003",
+          "status": "read_full",
+          "sha256": "b45098b15089eb317f0ccb24f843585ee1c67c3e2fcf1fc55b99c8be0c89ee79"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "readFullDocuments": [
+            "text00118",
+            "text00119",
+            "text00120",
+            "text00121",
+            "text00122",
+            "text00123",
+            "text00124",
+            "text00125",
+            "text00126",
+            "text00127",
+            "text00128",
+            "text00129",
+            "text00130",
+            "text00131",
+            "text00132",
+            "text00133",
+            "text00134",
+            "text00135",
+            "text00136",
+            "text00137",
+            "text00138",
+            "text00139",
+            "text00140",
+            "text00141",
+            "text00142",
+            "text00143",
+            "text00144",
+            "text00145",
+            "text00146",
+            "text00147"
+          ],
+          "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+          "unrecordedReadMaterial": [],
+          "status": "completed",
+          "authoritativeEvidence": "books/05/evidence.json",
+          "runId": "batch-a-20261024-01",
+          "nextUnread": null,
+          "bookId": "05"
+        }
+      },
+      "handoff": "books/05/handoff.json"
+    },
+    {
+      "bookId": "06",
+      "title": "最后的守护者",
+      "sourceSha256": "5d1a1257a04a7e8c8f3c88e684db18eb824d2e983250410be7d467deac5187d9",
+      "status": "complete",
+      "manifest": "books/06/manifest.json",
+      "evidence": "books/06/evidence.json",
+      "entryCount": 21,
+      "coverage": [
+        {
+          "status": "read_complete",
+          "heading": "",
+          "readRange": "empty_document",
+          "paragraphs": 0,
+          "href": "OEBPS/text00148.html",
+          "documentId": "text00148"
+        },
+        {
+          "status": "read_complete",
+          "heading": "版权信息",
+          "readRange": "p0001-p0007",
+          "paragraphs": 7,
+          "href": "OEBPS/text00149.html",
+          "documentId": "text00149"
+        },
+        {
+          "status": "read_complete",
+          "heading": "最后的守护者",
+          "readRange": "p0001-p0024",
+          "paragraphs": 24,
+          "href": "OEBPS/text00150.html",
+          "documentId": "text00150"
+        },
+        {
+          "status": "read_complete",
+          "heading": "导读",
+          "readRange": "p0001-p0006",
+          "paragraphs": 6,
+          "href": "OEBPS/text00151.html",
+          "documentId": "text00151"
+        },
+        {
+          "status": "read_complete",
+          "heading": "序章",
+          "readRange": "p0001-p0023",
+          "paragraphs": 23,
+          "href": "OEBPS/text00152.html",
+          "documentId": "text00152"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第一章",
+          "readRange": "p0001-p0090",
+          "paragraphs": 90,
+          "href": "OEBPS/text00153.html",
+          "documentId": "text00153"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第二章",
+          "readRange": "p0001-p0164",
+          "paragraphs": 164,
+          "href": "OEBPS/text00154.html",
+          "documentId": "text00154"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第三章",
+          "readRange": "p0001-p0144",
+          "paragraphs": 144,
+          "href": "OEBPS/text00155.html",
+          "documentId": "text00155"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第四章",
+          "readRange": "p0001-p0129",
+          "paragraphs": 129,
+          "href": "OEBPS/text00156.html",
+          "documentId": "text00156"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第五章",
+          "readRange": "p0001-p0127",
+          "paragraphs": 127,
+          "href": "OEBPS/text00157.html",
+          "documentId": "text00157"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第六章",
+          "readRange": "p0001-p0115",
+          "paragraphs": 115,
+          "href": "OEBPS/text00158.html",
+          "documentId": "text00158"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第七章",
+          "readRange": "p0001-p0126",
+          "paragraphs": 126,
+          "href": "OEBPS/text00159.html",
+          "documentId": "text00159"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第八章",
+          "readRange": "p0001-p0129",
+          "paragraphs": 129,
+          "href": "OEBPS/text00160.html",
+          "documentId": "text00160"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第九章",
+          "readRange": "p0001-p0078",
+          "paragraphs": 78,
+          "href": "OEBPS/text00161.html",
+          "documentId": "text00161"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第十章",
+          "readRange": "p0001-p0105",
+          "paragraphs": 105,
+          "href": "OEBPS/text00162.html",
+          "documentId": "text00162"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第十一章",
+          "readRange": "p0001-p0135",
+          "paragraphs": 135,
+          "href": "OEBPS/text00163.html",
+          "documentId": "text00163"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第十二章",
+          "readRange": "p0001-p0130",
+          "paragraphs": 130,
+          "href": "OEBPS/text00164.html",
+          "documentId": "text00164"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第十三章",
+          "readRange": "p0001-p0116",
+          "paragraphs": 116,
+          "href": "OEBPS/text00165.html",
+          "documentId": "text00165"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第十四章",
+          "readRange": "p0001-p0142",
+          "paragraphs": 142,
+          "href": "OEBPS/text00166.html",
+          "documentId": "text00166"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第十五章",
+          "readRange": "p0001-p0153",
+          "paragraphs": 153,
+          "href": "OEBPS/text00167.html",
+          "documentId": "text00167"
+        },
+        {
+          "status": "read_complete",
+          "heading": "第十六章",
+          "readRange": "p0001-p0072",
+          "paragraphs": 72,
+          "href": "OEBPS/text00168.html",
+          "documentId": "text00168"
+        },
+        {
+          "status": "read_complete",
+          "heading": "尾声",
+          "readRange": "p0001-p0034",
+          "paragraphs": 34,
+          "href": "OEBPS/text00169.html",
+          "documentId": "text00169"
+        },
+        {
+          "status": "read_complete",
+          "heading": "关于作者",
+          "readRange": "p0001-p0003",
+          "paragraphs": 3,
+          "href": "OEBPS/text00170.html",
+          "documentId": "text00170"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "runId": "batch-a-20261024-01",
+          "bookId": "06",
+          "status": "complete",
+          "resumeAt": null,
+          "readButUnrecorded": [],
+          "subtitleCheck": "complete_none_applicable"
+        }
+      },
+      "handoff": "books/06/handoff.json"
+    },
+    {
+      "bookId": "07",
+      "title": "黑暗之潮",
+      "sourceSha256": "ade4c474ef920ab8c60a5db39b135046ba88fe6819933178036c4b7d630bf8f6",
+      "status": "complete",
+      "manifest": "books/07/manifest.json",
+      "evidence": "books/07/evidence.json",
+      "entryCount": 40,
+      "coverage": [
+        {
+          "documentId": "text00171",
+          "href": "OEBPS/text00171.html",
+          "heading": "",
+          "paragraphs": 0,
+          "readRange": "empty_document",
+          "status": "read_complete",
+          "sourceDocumentSha256": "3aa9c5767d0f1dae2c9719ec690f06583e5c6e1e73391beb98c8590cc18709d2"
+        },
+        {
+          "documentId": "text00172",
+          "href": "OEBPS/text00172.html",
+          "heading": "版权信息",
+          "paragraphs": 7,
+          "readRange": "p0001-p0007",
+          "status": "read_complete",
+          "sourceDocumentSha256": "baf54173acfd44e68aa8f3e73b69c538d1b4894e033b32cc7191608c21e58ae9"
+        },
+        {
+          "documentId": "text00173",
+          "href": "OEBPS/text00173.html",
+          "heading": "黑暗之潮",
+          "paragraphs": 31,
+          "readRange": "p0001-p0031",
+          "status": "read_complete",
+          "sourceDocumentSha256": "3f77dbcdd275fcb2979b80788f0df002616d879d6e6bdd20f4cfc37f23af16a0"
+        },
+        {
+          "documentId": "text00174",
+          "href": "OEBPS/text00174.html",
+          "heading": "致我的家人和朋友，尤其是我可爱的妻子，",
+          "paragraphs": 5,
+          "readRange": "p0001-p0005",
+          "status": "read_complete",
+          "sourceDocumentSha256": "f2000d7a6f142f5db7bc9fd90f88931cfc6e67f80372775a29f0e56ae46cd1d9"
+        },
+        {
+          "documentId": "text00175",
+          "href": "OEBPS/text00175.html",
+          "heading": "首先，我非常感谢创造和确保《黑暗之潮》的优秀品质的克里斯和马可，我还要对在创作过程中对我细心指导和提供了真挚意见的伊芙琳表示感谢。我最需要感谢的还是所有《魔兽世界》的拥趸，没有你们，洛萨、奥格瑞姆和其他角色的故事将无人倾听。",
+          "paragraphs": 1,
+          "readRange": "p0001-p0001",
+          "status": "read_complete",
+          "sourceDocumentSha256": "7016dd4571ac176743a912e7662ca199ad7ca241073b3c27404995cb3023c2fa"
+        },
+        {
+          "documentId": "text00176",
+          "href": "OEBPS/text00176.html",
+          "heading": "导读",
+          "paragraphs": 6,
+          "readRange": "p0001-p0006",
+          "status": "read_complete",
+          "sourceDocumentSha256": "3983cd28f8e51035c50ab8752747e1ad724da1b602d27c9770e2ff413aaa4966"
+        },
+        {
+          "documentId": "text00177",
+          "href": "OEBPS/text00177.html",
+          "heading": "序章一",
+          "paragraphs": 45,
+          "readRange": "p0001-p0045",
+          "status": "read_complete",
+          "sourceDocumentSha256": "3016c32d8c71dc4e21b4e550e5a7f4613087eff59453016bff1bc2afa5128a2f"
+        },
+        {
+          "documentId": "text00178",
+          "href": "OEBPS/text00178.html",
+          "heading": "序章二",
+          "paragraphs": 41,
+          "readRange": "p0001-p0041",
+          "status": "read_complete",
+          "sourceDocumentSha256": "8639a2b770617ebbb3d26e1f4f471472003fa890e101fbb0590f711112406b05"
+        },
+        {
+          "documentId": "text00179",
+          "href": "OEBPS/text00179.html",
+          "heading": "第一章",
+          "paragraphs": 32,
+          "readRange": "p0001-p0032",
+          "status": "read_complete",
+          "sourceDocumentSha256": "edeeabfc3f8e71ad12f5d964be8d85cfbbd0c9df221fb079f6bb94932029116b"
+        },
+        {
+          "documentId": "text00180",
+          "href": "OEBPS/text00180.html",
+          "heading": "第二章",
+          "paragraphs": 38,
+          "readRange": "p0001-p0038",
+          "status": "read_complete",
+          "sourceDocumentSha256": "b20ac1cfba5a42130380b0281e20113b58cde508f35e7090eebe1d3697ad9aea"
+        },
+        {
+          "documentId": "text00181",
+          "href": "OEBPS/text00181.html",
+          "heading": "第三章",
+          "paragraphs": 41,
+          "readRange": "p0001-p0041",
+          "status": "read_complete",
+          "sourceDocumentSha256": "749bd84d44f1c577659423b05f3579b5efba1229a0df70907e7ab8b1023c781c"
+        },
+        {
+          "documentId": "text00182",
+          "href": "OEBPS/text00182.html",
+          "heading": "第四章",
+          "paragraphs": 59,
+          "readRange": "p0001-p0059",
+          "status": "read_complete",
+          "sourceDocumentSha256": "c80116c9eb6b37a6ab071a28d029e68f02fca1dc35686676b396111c1d83dca7"
+        },
+        {
+          "documentId": "text00183",
+          "href": "OEBPS/text00183.html",
+          "heading": "第五章",
+          "paragraphs": 66,
+          "readRange": "p0001-p0066",
+          "status": "read_complete",
+          "sourceDocumentSha256": "c6d03ebd2fcd9dcf59afb7599121901786d75feea7c82ee8315d3ef74b8e647a"
+        },
+        {
+          "documentId": "text00184",
+          "href": "OEBPS/text00184.html",
+          "heading": "第六章",
+          "paragraphs": 59,
+          "readRange": "p0001-p0059",
+          "status": "read_complete",
+          "sourceDocumentSha256": "377e463e1035a7bb2be573168996370ba94e9bf06aeab8512e7c2b3a33b65a1b"
+        },
+        {
+          "documentId": "text00185",
+          "href": "OEBPS/text00185.html",
+          "heading": "第七章",
+          "paragraphs": 85,
+          "readRange": "p0001-p0085",
+          "status": "read_complete",
+          "sourceDocumentSha256": "34bea139a40b6bb5a67be60aeda9038d0192c20841550f8f8f06e790e3e4dc79"
+        },
+        {
+          "documentId": "text00186",
+          "href": "OEBPS/text00186.html",
+          "heading": "第八章",
+          "paragraphs": 54,
+          "readRange": "p0001-p0054",
+          "status": "read_complete",
+          "sourceDocumentSha256": "cdb262582fd73f0732eb50ba93ddbc14d83461a25ae9f2fcc12b1bde07bcafcd"
+        },
+        {
+          "documentId": "text00187",
+          "href": "OEBPS/text00187.html",
+          "heading": "第九章",
+          "paragraphs": 42,
+          "readRange": "p0001-p0042",
+          "status": "read_complete",
+          "sourceDocumentSha256": "d5007de8826c0efe1720c7f539e94c976bbb571d7646a20ada099728b5c0d4d5"
+        },
+        {
+          "documentId": "text00188",
+          "href": "OEBPS/text00188.html",
+          "heading": "第十章",
+          "paragraphs": 78,
+          "readRange": "p0001-p0078",
+          "status": "read_complete",
+          "sourceDocumentSha256": "f75b512c23478835424cf885cbaeda6f9f2bec73097469bcea8cf8cef56d3203"
+        },
+        {
+          "documentId": "text00189",
+          "href": "OEBPS/text00189.html",
+          "heading": "第十一章",
+          "paragraphs": 55,
+          "readRange": "p0001-p0055",
+          "status": "read_complete",
+          "sourceDocumentSha256": "3c2ebe634dd12f7c87626f553644467bb4953b1e4048c7e4a735a03079b8d2e6"
+        },
+        {
+          "documentId": "text00190",
+          "href": "OEBPS/text00190.html",
+          "heading": "第十二章",
+          "paragraphs": 51,
+          "readRange": "p0001-p0051",
+          "status": "read_complete",
+          "sourceDocumentSha256": "25d7a546eb1c1f922f2d7481126aed88d5556b3c7350234f071a354a105c4b77"
+        },
+        {
+          "documentId": "text00191",
+          "href": "OEBPS/text00191.html",
+          "heading": "第十三章",
+          "paragraphs": 54,
+          "readRange": "p0001-p0054",
+          "status": "read_complete",
+          "sourceDocumentSha256": "d4a2429d91ad7aad392ac5c870ba115a9be3c27ad18c05f7c6d42e0924928397"
+        },
+        {
+          "documentId": "text00192",
+          "href": "OEBPS/text00192.html",
+          "heading": "第十四章",
+          "paragraphs": 143,
+          "readRange": "p0001-p0143",
+          "status": "read_complete",
+          "sourceDocumentSha256": "f357fa5fa811727f7d6f6f2d6842ac441a84eaaf353ae4cdf6e759d690e8eb86"
+        },
+        {
+          "documentId": "text00193",
+          "href": "OEBPS/text00193.html",
+          "heading": "第十五章",
+          "paragraphs": 105,
+          "readRange": "p0001-p0105",
+          "status": "read_complete",
+          "sourceDocumentSha256": "dc13eb9f21020140ddb75e39f326879ad6ef3eca72283c50cc96e9931dcac046"
+        },
+        {
+          "documentId": "text00194",
+          "href": "OEBPS/text00194.html",
+          "heading": "第十六章",
+          "paragraphs": 121,
+          "readRange": "p0001-p0121",
+          "status": "read_complete",
+          "sourceDocumentSha256": "8cf0e92d629b1bfb42a6798dd733eda060e382a4c439a3bbda17d95356c59a43"
+        },
+        {
+          "documentId": "text00195",
+          "href": "OEBPS/text00195.html",
+          "heading": "第十七章",
+          "paragraphs": 110,
+          "readRange": "p0001-p0110",
+          "status": "read_complete",
+          "sourceDocumentSha256": "58116a1ec30ea9010673f7f4dc127df823d4f29a5747bf29efb18f04b7604cf2"
+        },
+        {
+          "documentId": "text00196",
+          "href": "OEBPS/text00196.html",
+          "heading": "第十八章",
+          "paragraphs": 57,
+          "readRange": "p0001-p0057",
+          "status": "read_complete",
+          "sourceDocumentSha256": "e6ebd65d928ee4f8c28de6808070d1c623df667280da5be845f790b00e6a5346"
+        },
+        {
+          "documentId": "text00197",
+          "href": "OEBPS/text00197.html",
+          "heading": "第十九章",
+          "paragraphs": 40,
+          "readRange": "p0001-p0040",
+          "status": "read_complete",
+          "sourceDocumentSha256": "436ee283ccbb0186b781b8aaeaf5d85a86e365af853eec5eb2c7a74216a860fb"
+        },
+        {
+          "documentId": "text00198",
+          "href": "OEBPS/text00198.html",
+          "heading": "第二十章",
+          "paragraphs": 54,
+          "readRange": "p0001-p0054",
+          "status": "read_complete",
+          "sourceDocumentSha256": "ec68367dc5e82af9bad24f190730bc0fb9cb353e7b7d31f0f1272a2cf2a2c890"
+        },
+        {
+          "documentId": "text00199",
+          "href": "OEBPS/text00199.html",
+          "heading": "第二十一章",
+          "paragraphs": 45,
+          "readRange": "p0001-p0045",
+          "status": "read_complete",
+          "sourceDocumentSha256": "512609ac1da5e708e9e967b21ddf25191f6b25e5c02c0d7d811a605b15e8d0c3"
+        },
+        {
+          "documentId": "text00200",
+          "href": "OEBPS/text00200.html",
+          "heading": "第二十二章",
+          "paragraphs": 86,
+          "readRange": "p0001-p0086",
+          "status": "read_complete",
+          "sourceDocumentSha256": "585be5414b9f4143aa0ec91670a64a4662f1d71cda7bf003c2e722fe8a325697"
+        },
+        {
+          "documentId": "text00201",
+          "href": "OEBPS/text00201.html",
+          "heading": "尾声",
+          "paragraphs": 13,
+          "readRange": "p0001-p0013",
+          "status": "read_complete",
+          "sourceDocumentSha256": "5133d1e2e4fffc91e36499ce191d2fd18c45f31c3fd3cbc91c77f4f3cd62ad62"
+        },
+        {
+          "documentId": "text00202",
+          "href": "OEBPS/text00202.html",
+          "heading": "关于作者",
+          "paragraphs": 2,
+          "readRange": "p0001-p0002",
+          "status": "read_complete",
+          "sourceDocumentSha256": "58c3158fe47121e853cdc4110887f516377e6ba473a03e1d1b28d07405b8f624"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "status": "complete",
+          "completedDocuments": [
+            "text00171",
+            "text00172",
+            "text00173",
+            "text00174",
+            "text00175",
+            "text00176",
+            "text00177",
+            "text00178",
+            "text00179",
+            "text00180",
+            "text00181",
+            "text00182",
+            "text00183",
+            "text00184",
+            "text00185",
+            "text00186",
+            "text00187",
+            "text00188",
+            "text00189",
+            "text00190",
+            "text00191",
+            "text00192",
+            "text00193",
+            "text00194",
+            "text00195",
+            "text00196",
+            "text00197",
+            "text00198",
+            "text00199",
+            "text00200",
+            "text00201",
+            "text00202"
+          ],
+          "next": null,
+          "notes": [
+            [
+              "177",
+              "2-45",
+              "难民到南海；卡德加19外貌衰老力量返还；瓦里安在洛萨护送下北行；未来德拉诺死亡只是他对幻象的解释"
+            ],
+            [
+              "178",
+              "24-38",
+              "毁灭之锤责古尔丹谋杀杜隆坦；古尔丹叙事确认；为部落需要仍留下术士"
+            ],
+            [
+              "179",
+              "15-30",
+              "泰瑞纳斯称瓦里安陛下，承诺保护与复国"
+            ],
+            [
+              "180",
+              "2-38",
+              "毁灭之锤征服欲与护族并存；古尔丹私谋"
+            ],
+            [
+              "181",
+              "22-41",
+              "卡德加证人支持联盟；瓦里安尚在恢复，阳台偷听会议，阿尔萨斯陪伴"
+            ],
+            [
+              "182",
+              "11-59",
+              "毁灭之锤营救祖尔金，双方结盟；回忆首次结盟遭拒，承认巨魔自主决定"
+            ],
+            [
+              "183",
+              "19-38",
+              "卡德加批评权力者，经法奥提醒收回一概而论；洛萨推荐其为肯瑞托联络并协调法师；同意如实报告麦迪文"
+            ],
+            [
+              "183",
+              "43-64",
+              "法奥设圣骑士修会；p47提里奥具名首四候选之一；49从容；60卡德加认为提里奥本为战士、信仰坚定可能限制战术（人物评价不是验证事实）；推荐格文拉德第五位"
+            ],
+            [
+              "184",
+              "13-40",
+              "古尔丹杀死灵法师制心脏宝石、以死亡议会灵魂入人尸，塔隆血魔首死亡骑士；毁灭之锤接纳而术士图私利"
+            ],
+            [
+              "184",
+              "41-59",
+              "部落北进占矿建舰计划，火山被兽人解释祝福（非客观证明）"
+            ],
+            [
+              "185",
+              "7-48",
+              "卡德加识破肯瑞托伪装要求公开相见；完整报告；保留取走书籍不告；对召回明确拒绝，选择履行对洛萨承诺与友谊；获自主认可；窥视会议获摧门目标"
+            ],
+            [
+              "185",
+              "50-85",
+              "卡德加为洛萨客观顾问；奥蕾莉亚自愿支援（精灵王仅象征舰队）；部落海上将至"
+            ],
+            [
+              "186",
+              "7-13",
+              "卡德加对图拉扬坦诚每战恐惧，用洛萨经验安慰"
+            ],
+            [
+              "186",
+              "35-40",
+              "卡德加召暴风闪电协防，有限魔力耗竭；盟军守线而非彻底击溃兽人"
+            ],
+            [
+              "187",
+              "12-42",
+              "祖鲁希德寻恶魔之魂，耐克鲁斯操作奴役红龙女王，以杀蛋折磨迫红龙效力；萨满过去回忆是祖鲁希德视角"
+            ],
+            [
+              "188",
+              "22,37,63,76-78",
+              "卡德加建议救矮人结盟、传令、随图拉扬半军援精灵；库德兰结盟，发现辛特兰为佯攻"
+            ],
+            [
+              "189",
+              "4-55",
+              "毁灭之锤以绕路翻山战术进攻精灵、容许黑手兄弟质疑；古尔丹提风暴祭坛；52明确毁灭之锤拒饮恶魔杯"
+            ],
+            [
+              "190",
+              "10-30,46-51",
+              "卡德加劝奥蕾莉亚勿孤身冒险；鼓励图拉扬领导；提出召雨灭火"
+            ],
+            [
+              "191",
+              "1-25",
+              "祖尔金阿曼尼复国复仇欲与杀戮；不可把祖尔金混作沃金"
+            ],
+            [
+              "191",
+              "26-54",
+              "古尔丹用符文石制双头食人魔，创造忠于自己群体"
+            ],
+            [
+              "192",
+              "1-39",
+              "奥蕾莉亚见温蕾萨希尔瓦娜斯，以巨魔首级说服议会抵抗"
+            ],
+            [
+              "192",
+              "41,67-82",
+              "卡德加召雨耗尽法力仍持剑法杖战斗，提醒图拉扬分神、识别食人魔法师、转达包抄命令"
+            ],
+            [
+              "192",
+              "120-143",
+              "卡德加承认无法再灭龙火；以太阳井防护安慰奥蕾莉亚但自己非全把握；高等精灵全力入盟；卡德加与图拉扬推断部落下一目标王都（待后文验证）"
+            ],
+            [
+              "193",
+              "6-15",
+              "太阳井屏障确实保住银月城；仅三分之一森林烧毁，不可把上一章震惊视角写作全境灭亡"
+            ],
+            [
+              "193",
+              "18-21,38-89,95-105",
+              "古尔丹带氏族背离；匹瑞诺德以放行换安全并杀联盟信使；部落穿山攻王都"
+            ],
+            [
+              "194",
+              "65-78",
+              "托尔贝恩揭露放行，哈斯改命封山道"
+            ],
+            [
+              "194",
+              "87-100",
+              "卡德加借库德兰狮鹫飞城中联络，沿用麦迪文驾驭训练"
+            ],
+            [
+              "194",
+              "109-113",
+              "卡德加不盲目施风暴，指出只能击杀少量且耗空法力，需另策"
+            ],
+            [
+              "195",
+              "12-42",
+              "古尔丹背离和山路被封共同使毁灭之锤停攻；命黑手兄弟及龙追杀叛徒，血魔仍效忠部落"
+            ],
+            [
+              "195",
+              "49-110",
+              "古尔丹升起群岛、进入萨格拉斯墓，被恶魔攻击，临死认清被操纵；古加尔胸口中斧倒下（勿凭他书补死或生）"
+            ],
+            [
+              "196",
+              "19-31,41-57",
+              "德雷克被龙火吞没死亡；戴林忍悲继续指挥，蛮锤支援败部落舰队；活捉奥特兰克水手作叛变证据，对兽人落水者放任溺亡；未写吉安娜得知此事"
+            ],
+            [
+              "197",
+              "6-40",
+              "毁灭之锤重荣誉解释撤军，击打副官；卡兹莫丹不能尽得援军，退黑石塔；基尔罗格认可他选择"
+            ],
+            [
+              "198",
+              "8-21,27-53",
+              "洛萨与图拉扬会师，卡德加支持友人；解铁炉堡围、铜须兄弟入盟，乌瑟尔回合"
+            ],
+            [
+              "199",
+              "4",
+              "毁灭之锤后悔未早听杜隆坦，所警告一一应验；杜隆坦遗产为死后影响不是本人行动"
+            ],
+            [
+              "199",
+              "29-45",
+              "洛萨与毁灭之锤正面决斗，断剑、头部中锤而亡；不可写为谈判伏杀"
+            ],
+            [
+              "200",
+              "2-21",
+              "图拉扬以兽人非本界解释圣光疑惑，这是人物信念非宇宙定律；击昏毁灭之锤保其受审，不杀投降战俘"
+            ],
+            [
+              "200",
+              "22-41",
+              "卡德加报告逃军，学习追踪其至门；公开支持图拉扬继承洛萨统帅权"
+            ],
+            [
+              "200",
+              "45-60",
+              "卡德加与布莱恩论学；讨论两世界混合污染假说，表明须亲见方能确认；尊重图拉扬力量虽其路径不同"
+            ],
+            [
+              "200",
+              "61-85",
+              "卡德加亲见门吸取土地力量；联合精灵法师抽门能量攻击实体石门，使其粉碎、传送色彩消失；尚不等于确认空间裂隙永久抹除"
+            ],
+            [
+              "201",
+              "2-13",
+              "卡德加与图拉扬纪念洛萨；战俘苦役、匹瑞诺德废黜；卡德加猜未来仍遇部落或其世界"
+            ]
+          ],
+          "subtitleCheck": "complete_none_applicable",
+          "remainingBooks": [
+            "08",
+            "19",
+            "20",
+            "21"
+          ],
+          "runId": "batch-a-20261024-01",
+          "bookId": "07",
+          "resumeAt": null,
+          "readButUnrecorded": []
+        }
+      },
+      "handoff": "books/07/handoff.json"
+    },
+    {
+      "bookId": "08",
+      "title": "穿越黑暗之门",
+      "sourceSha256": "f061e244912dc66d3125e8744c64c142b76a6545a1ccb5d45732b21584360950",
+      "status": "complete",
+      "manifest": "books/08/manifest.json",
+      "evidence": "books/08/evidence.json",
+      "entryCount": 52,
+      "coverage": [
+        {
+          "documentId": "text00203",
+          "href": "OEBPS/text00203.html",
+          "heading": "",
+          "paragraphs": 0,
+          "readRange": "empty_document",
+          "status": "read_complete",
+          "sourceDocumentSha256": "bd693af97a18962c0a78a3e4b4ccdebddc1d87264940c74fd7b794dd48d51c83"
+        },
+        {
+          "documentId": "text00204",
+          "href": "OEBPS/text00204.html",
+          "heading": "版权信息",
+          "paragraphs": 7,
+          "readRange": "p0001-p0007",
+          "status": "read_complete",
+          "sourceDocumentSha256": "f869fd6b8b9e54226d18d831ad8e7984dcd94dfc1cd09b833a678d62db1263ae"
+        },
+        {
+          "documentId": "text00205",
+          "href": "OEBPS/text00205.html",
+          "heading": "穿越黑暗之门",
+          "paragraphs": 36,
+          "readRange": "p0001-p0036",
+          "status": "read_complete",
+          "sourceDocumentSha256": "bebf399439ca05545d214b84969b13f0f269623e3533d2fa12ec2f0af2fa19fa"
+        },
+        {
+          "documentId": "text00206",
+          "href": "OEBPS/text00206.html",
+          "heading": "致我的家人和朋友，尤其是我可爱的妻子，",
+          "paragraphs": 5,
+          "readRange": "p0001-p0005",
+          "status": "read_complete",
+          "sourceDocumentSha256": "683408e972f462885cab8ab0e1de3c4410c7883b7ece56811a62b72ca1040db7"
+        },
+        {
+          "documentId": "text00207",
+          "href": "OEBPS/text00207.html",
+          "heading": "导读",
+          "paragraphs": 6,
+          "readRange": "p0001-p0006",
+          "status": "read_complete",
+          "sourceDocumentSha256": "1bdc9a8528919a4dae9ffad3831bf9505f7c91afc54040d0e27aee445967a1bb"
+        },
+        {
+          "documentId": "text00208",
+          "href": "OEBPS/text00208.html",
+          "heading": "序章",
+          "paragraphs": 45,
+          "readRange": "p0001-p0045",
+          "status": "read_complete",
+          "sourceDocumentSha256": "e72c2bfad7551559265b944eec4877a9c8d8e23780987c3a6c6258079e757b30"
+        },
+        {
+          "documentId": "text00209",
+          "href": "OEBPS/text00209.html",
+          "heading": "第一章",
+          "paragraphs": 37,
+          "readRange": "p0001-p0037",
+          "status": "read_complete",
+          "sourceDocumentSha256": "410715a5e65b3340d156543fe51bc29ab94e8e3f749cd14ccf58b078a5f9fb9f"
+        },
+        {
+          "documentId": "text00210",
+          "href": "OEBPS/text00210.html",
+          "heading": "第二章",
+          "paragraphs": 64,
+          "readRange": "p0001-p0064",
+          "status": "read_complete",
+          "sourceDocumentSha256": "b536fa463f7343b66fad928f10932feed535f771af35e1e5a76e3a9698bb38e1"
+        },
+        {
+          "documentId": "text00211",
+          "href": "OEBPS/text00211.html",
+          "heading": "第三章",
+          "paragraphs": 49,
+          "readRange": "p0001-p0049",
+          "status": "read_complete",
+          "sourceDocumentSha256": "265b9b2ad983cdff872b01ffff34d3c58ad2be36cf70769676e5a5c08754ba04"
+        },
+        {
+          "documentId": "text00212",
+          "href": "OEBPS/text00212.html",
+          "heading": "第四章",
+          "paragraphs": 46,
+          "readRange": "p0001-p0046",
+          "status": "read_complete",
+          "sourceDocumentSha256": "8069455d5574261108d6cc28332f18da18787fbd2dd50c6785d3dd9eca8467ce"
+        },
+        {
+          "documentId": "text00213",
+          "href": "OEBPS/text00213.html",
+          "heading": "第五章",
+          "paragraphs": 140,
+          "readRange": "p0001-p0140",
+          "status": "read_complete",
+          "sourceDocumentSha256": "3774ec5353bdcc59444248a167a5073a3bac7c29e07d16d7bdc75df13db8d03a"
+        },
+        {
+          "documentId": "text00214",
+          "href": "OEBPS/text00214.html",
+          "heading": "第六章",
+          "paragraphs": 70,
+          "readRange": "p0001-p0070",
+          "status": "read_complete",
+          "sourceDocumentSha256": "89afee92d54e492ae2461765b2fc4a2fe712e9d64706d532988cabbcc880030a"
+        },
+        {
+          "documentId": "text00215",
+          "href": "OEBPS/text00215.html",
+          "heading": "第七章",
+          "paragraphs": 80,
+          "readRange": "p0001-p0080",
+          "status": "read_complete",
+          "sourceDocumentSha256": "a2ce4790692a0f1d9759f86fc38fba5b0d78e3007fbf12795315657da1abada9"
+        },
+        {
+          "documentId": "text00216",
+          "href": "OEBPS/text00216.html",
+          "heading": "第八章",
+          "paragraphs": 84,
+          "readRange": "p0001-p0084",
+          "status": "read_complete",
+          "sourceDocumentSha256": "fc11f4935e66e1dd41b2cbda01bf2fc639e674458c214ce79841e8a584de9290"
+        },
+        {
+          "documentId": "text00217",
+          "href": "OEBPS/text00217.html",
+          "heading": "第九章",
+          "paragraphs": 101,
+          "readRange": "p0001-p0101",
+          "status": "read_complete",
+          "sourceDocumentSha256": "e65cbf36af51eee7a14b37bd163691b76d7cb213760170179eccaa1f15473814"
+        },
+        {
+          "documentId": "text00218",
+          "href": "OEBPS/text00218.html",
+          "heading": "第十章",
+          "paragraphs": 99,
+          "readRange": "p0001-p0099",
+          "status": "read_complete",
+          "sourceDocumentSha256": "88fa01adfd06f2eba9c5ddbe456240081bff6b5157a5d3d64e39b452c64013dd"
+        },
+        {
+          "documentId": "text00219",
+          "href": "OEBPS/text00219.html",
+          "heading": "第十一章",
+          "paragraphs": 51,
+          "readRange": "p0001-p0051",
+          "status": "read_complete",
+          "sourceDocumentSha256": "2902a361cc98bb0baa163d62c37119b43f7aca17aad4e25d71ca63e3295cf459"
+        },
+        {
+          "documentId": "text00220",
+          "href": "OEBPS/text00220.html",
+          "heading": "第十二章",
+          "paragraphs": 75,
+          "readRange": "p0001-p0075",
+          "status": "read_complete",
+          "sourceDocumentSha256": "1e2ac462ff4cc9a50afac8aa96a5c5909f8ce877846c4769c2fa1ed06e91c2d0"
+        },
+        {
+          "documentId": "text00221",
+          "href": "OEBPS/text00221.html",
+          "heading": "第十三章",
+          "paragraphs": 102,
+          "readRange": "p0001-p0102",
+          "status": "read_complete",
+          "sourceDocumentSha256": "fe2d5b8c4c4c4e420dba5103650686bce815a071e9da6338f49a731e9f0c6ff4"
+        },
+        {
+          "documentId": "text00222",
+          "href": "OEBPS/text00222.html",
+          "heading": "第十四章",
+          "paragraphs": 119,
+          "readRange": "p0001-p0119",
+          "status": "read_complete",
+          "sourceDocumentSha256": "c84dfab56679c74dda668223b57c5d3ab63edc8b621aa0d4a391b1ab32fdc348"
+        },
+        {
+          "documentId": "text00223",
+          "href": "OEBPS/text00223.html",
+          "heading": "第十五章",
+          "paragraphs": 39,
+          "readRange": "p0001-p0039",
+          "status": "read_complete",
+          "sourceDocumentSha256": "6c1a614944855098cbc59e1045c453a7c79b125044cd952385e997f540f26009"
+        },
+        {
+          "documentId": "text00224",
+          "href": "OEBPS/text00224.html",
+          "heading": "第十六章",
+          "paragraphs": 86,
+          "readRange": "p0001-p0086",
+          "status": "read_complete",
+          "sourceDocumentSha256": "42de50fece94b7dacb61ef42ac0d054bdaea6bc2abbb0616be66b3caff1f634c"
+        },
+        {
+          "documentId": "text00225",
+          "href": "OEBPS/text00225.html",
+          "heading": "第十七章",
+          "paragraphs": 46,
+          "readRange": "p0001-p0046",
+          "status": "read_complete",
+          "sourceDocumentSha256": "d060231f13bc418cd4b796f39fe37f34520b1ff1ae597e6186991228f6d957ac"
+        },
+        {
+          "documentId": "text00226",
+          "href": "OEBPS/text00226.html",
+          "heading": "第十八章",
+          "paragraphs": 88,
+          "readRange": "p0001-p0088",
+          "status": "read_complete",
+          "sourceDocumentSha256": "291fe596684b1b6add3464490f65c00f989ecaa3c6b626c4427cdcadc51bb333"
+        },
+        {
+          "documentId": "text00227",
+          "href": "OEBPS/text00227.html",
+          "heading": "第十九章",
+          "paragraphs": 109,
+          "readRange": "p0001-p0109",
+          "status": "read_complete",
+          "sourceDocumentSha256": "682b9aba66b5f793990c51b4f435c74475107aeb5f94f0fcade926d4a2d0902b"
+        },
+        {
+          "documentId": "text00228",
+          "href": "OEBPS/text00228.html",
+          "heading": "第二十章",
+          "paragraphs": 91,
+          "readRange": "p0001-p0091",
+          "status": "read_complete",
+          "sourceDocumentSha256": "23d11a09b1fda896182ffbf4fc4b62adeeec8cd83ec90c446ce8276176538111"
+        },
+        {
+          "documentId": "text00229",
+          "href": "OEBPS/text00229.html",
+          "heading": "第二十一章",
+          "paragraphs": 123,
+          "readRange": "p0001-p0123",
+          "status": "read_complete",
+          "sourceDocumentSha256": "af253d6a48bcb04ae4664d3bdb99734e03c470653b35d59c161ff4449658ba47"
+        },
+        {
+          "documentId": "text00230",
+          "href": "OEBPS/text00230.html",
+          "heading": "第二十二章",
+          "paragraphs": 133,
+          "readRange": "p0001-p0133",
+          "status": "read_complete",
+          "sourceDocumentSha256": "ee58afd8d5627674ca557980d3b2ffc6ecccd312a21bb6aaab4afa6c21d83f1b"
+        },
+        {
+          "documentId": "text00231",
+          "href": "OEBPS/text00231.html",
+          "heading": "第二十三章",
+          "paragraphs": 36,
+          "readRange": "p0001-p0036",
+          "status": "read_complete",
+          "sourceDocumentSha256": "b52efaf731540aa23e0a81867d454109c3c2f1ba5099eb0baf75a3fad819f412"
+        },
+        {
+          "documentId": "text00232",
+          "href": "OEBPS/text00232.html",
+          "heading": "第二十四章",
+          "paragraphs": 72,
+          "readRange": "p0001-p0072",
+          "status": "read_complete",
+          "sourceDocumentSha256": "c2f39c038661755c8d3d633cacaa20971e856f5ef3ff0c6d2fba74d74792d104"
+        },
+        {
+          "documentId": "text00233",
+          "href": "OEBPS/text00233.html",
+          "heading": "第二十五章",
+          "paragraphs": 30,
+          "readRange": "p0001-p0030",
+          "status": "read_complete",
+          "sourceDocumentSha256": "2e35ea76c35acccc283b6bd22c68a11e9a75cc1fe295f96a8eb37b77596fe0af"
+        },
+        {
+          "documentId": "text00234",
+          "href": "OEBPS/text00234.html",
+          "heading": "第二十六章",
+          "paragraphs": 93,
+          "readRange": "p0001-p0093",
+          "status": "read_complete",
+          "sourceDocumentSha256": "ff9963f5c16156428214f123917b32282e7f099ad5e5bd25ed498911eac04279"
+        },
+        {
+          "documentId": "text00235",
+          "href": "OEBPS/text00235.html",
+          "heading": "第二十七章",
+          "paragraphs": 74,
+          "readRange": "p0001-p0074",
+          "status": "read_complete",
+          "sourceDocumentSha256": "c2b2017efa3caea0fb3e67b82c1618e8ceebc981ce1bd2a1e66cd0bcd11a36dc"
+        },
+        {
+          "documentId": "text00236",
+          "href": "OEBPS/text00236.html",
+          "heading": "第二十八章",
+          "paragraphs": 16,
+          "readRange": "p0001-p0016",
+          "status": "read_complete",
+          "sourceDocumentSha256": "6ca740a2648568a4eb24ad49aad5bdf4175aa9630425ded9b6690b18c23fb879"
+        },
+        {
+          "documentId": "text00237",
+          "href": "OEBPS/text00237.html",
+          "heading": "尾声",
+          "paragraphs": 25,
+          "readRange": "p0001-p0025",
+          "status": "read_complete",
+          "sourceDocumentSha256": "cbd952ceacb4d67421ed2bda8abe152d0f3af788b0f3c4d48aa6ff77a58176e2"
+        },
+        {
+          "documentId": "text00238",
+          "href": "OEBPS/text00238.html",
+          "heading": "关于作者",
+          "paragraphs": 3,
+          "readRange": "p0001-p0003",
+          "status": "read_complete",
+          "sourceDocumentSha256": "64a493bc046d5f56876ec848a005e395c26420aeec01aa124fcdc025141665ca"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "runId": "batch-a-20261024-01",
+          "bookId": "08",
+          "status": "complete",
+          "fullyReadThrough": "text00238",
+          "next": null,
+          "notes": [
+            "203—217完整阅读记录见任务压缩摘要；208序章到217第九章全段已读。",
+            "218第十章：血魔、死亡之翼取麦迪文书，匹瑞诺德承认盗书并交换清除联盟驻军；芬瑞斯夺船，黑龙烧舰，无A直接行为。",
+            "219第十一章：血魔偷达拉然之眼，安东尼达斯/克拉苏斯/凯尔萨斯抵挡失败，萨希拉阵亡；黑龙协助逃走。",
+            "220第十二章：芬瑞斯塔加尔夺萨格拉斯权杖，拒拉格诺克再贪萨格拉斯之眼；返德拉诺，战歌留守、黑龙货车过门。",
+            "221第十三章 p2–21安东尼达斯梦境传讯，卡德加暂复年轻形象并坦言怀念青春但麦迪文必须制止。p26–60卡德加以魔法酷刑审问贾兹，虽厌恶仍加压，得知耐奥祖用颅重开裂隙及神器开其他世界门。p35明确需颅与书彻底封门。p61–78图拉扬幻见圣光普照万物，拒牺牲别世界换自身安全；卡德加识破入侵佯攻。p79–85被贾兹掐喉、图拉扬救。p91–102提出远征取回书颅封门，通知国王。",
+            "222第十四章 p7–9卡德加支持休整保全人进入门目标、劝图拉扬给奥蕾空间。p14–20奥蕾愿救别世界，将家传项链一分三送姐妹。p22–43两年前恋情回忆。p65–72卡德加无法拆陌生炸弹改魔法投远，保住门。p73–83格罗姆发现所谓护盾是炸弹、遭权势者欺骗，滞艾泽拉斯。p86志愿远征不强迫士兵。p93赞图拉扬领导。p95–119卡德加穿门识出旧幻象、自认22岁担心死于此未真正活过，先撒谎随即承认见过景象；推测术士毁土地，目睹白骨大道，随军战斗。"
+          ],
+          "subtitleCheck": "complete_none_applicable",
+          "remainingBooks": [
+            "19",
+            "20"
+          ],
+          "excludedReassignedBook": "21 parent owns",
+          "resumeAt": null,
+          "readButUnrecorded": []
+        }
+      },
+      "handoff": "books/08/handoff.json"
+    },
+    {
+      "bookId": "10",
+      "title": "氏族之王",
+      "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+      "status": "completed",
+      "manifest": "books/10/manifest.json",
+      "evidence": "books/10/evidence.json",
+      "entryCount": 20,
+      "coverage": [
+        {
+          "heading": "",
+          "paragraphs": 0,
+          "readParagraphRange": "empty",
+          "status": "full_read",
+          "documentId": "text00265",
+          "sha256": "0baf7070a304ec7c88dd4a48b83e223547be7008bc3d284ae9771662113e7fba",
+          "href": "OEBPS/text00265.html"
+        },
+        {
+          "heading": "版权信息",
+          "paragraphs": 7,
+          "readParagraphRange": "p0001-p0007",
+          "status": "full_read",
+          "documentId": "text00266",
+          "sha256": "300bb9a55e33ddbb40a3b6f7db7ba34fc4a1d41cafa30892dcb647d6fe79fa54",
+          "href": "OEBPS/text00266.html"
+        },
+        {
+          "heading": "氏族之王",
+          "paragraphs": 26,
+          "readParagraphRange": "p0001-p0026",
+          "status": "full_read",
+          "documentId": "text00267",
+          "sha256": "349a98ced4c5fe9a338ba37201ac66f849acd79cd74b292e3ebf21947a0ac68c",
+          "href": "OEBPS/text00267.html"
+        },
+        {
+          "heading": "导读",
+          "paragraphs": 7,
+          "readParagraphRange": "p0001-p0007",
+          "status": "full_read",
+          "documentId": "text00268",
+          "sha256": "e04e2598ec1040c814b0fd2e660952e20e9b555eda2a214cc71c77028eac5236",
+          "href": "OEBPS/text00268.html"
+        },
+        {
+          "heading": "序言",
+          "paragraphs": 14,
+          "readParagraphRange": "p0001-p0014",
+          "status": "full_read",
+          "documentId": "text00269",
+          "sha256": "2745a6b8d9058c01d4fb8679a18ae6435b50fd0c59ed953718c5fe6006902d6b",
+          "href": "OEBPS/text00269.html"
+        },
+        {
+          "heading": "第一章",
+          "paragraphs": 88,
+          "readParagraphRange": "p0001-p0088",
+          "status": "full_read",
+          "documentId": "text00270",
+          "sha256": "94bfc2e49d2abe7d777ea0afd1014dbe8757d228e6daaf44d0b46c16e5ca7484",
+          "href": "OEBPS/text00270.html"
+        },
+        {
+          "heading": "第二章",
+          "paragraphs": 103,
+          "readParagraphRange": "p0001-p0103",
+          "status": "full_read",
+          "documentId": "text00271",
+          "sha256": "afcb9f6e17d2e57aeee2a8cf8410211f56209bd7656c2d12e5990333112a4d6a",
+          "href": "OEBPS/text00271.html"
+        },
+        {
+          "heading": "第三章",
+          "paragraphs": 69,
+          "readParagraphRange": "p0001-p0069",
+          "status": "full_read",
+          "documentId": "text00272",
+          "sha256": "ebc74246636007d2dfdaab434992e6fa99147ff343587a84f0dd2b08979f2286",
+          "href": "OEBPS/text00272.html"
+        },
+        {
+          "heading": "第四章",
+          "paragraphs": 49,
+          "readParagraphRange": "p0001-p0049",
+          "status": "full_read",
+          "documentId": "text00273",
+          "sha256": "b20942881f6cccf3817d7629b338209cbcfe0403680b11e2ffa3fa8fc844ef91",
+          "href": "OEBPS/text00273.html"
+        },
+        {
+          "heading": "第五章",
+          "paragraphs": 76,
+          "readParagraphRange": "p0001-p0076",
+          "status": "full_read",
+          "documentId": "text00274",
+          "sha256": "9c9b9b4f81467ca05c2651fef4084dd130db5f621527025f5551bc1e5285229e",
+          "href": "OEBPS/text00274.html"
+        },
+        {
+          "heading": "第六章",
+          "paragraphs": 67,
+          "readParagraphRange": "p0001-p0067",
+          "status": "full_read",
+          "documentId": "text00275",
+          "sha256": "ca58ebd70507cbda1c285a5e9cdf8e8de26a694a334bcb8e3d2cf198f595e8b3",
+          "href": "OEBPS/text00275.html"
+        },
+        {
+          "heading": "第七章",
+          "paragraphs": 70,
+          "readParagraphRange": "p0001-p0070",
+          "status": "full_read",
+          "documentId": "text00276",
+          "sha256": "3b11229c7c62bccedb32a44bdebdf7d90288cd182f81a98360ff0d543ab77c7b",
+          "href": "OEBPS/text00276.html"
+        },
+        {
+          "heading": "第八章",
+          "paragraphs": 77,
+          "readParagraphRange": "p0001-p0077",
+          "status": "full_read",
+          "documentId": "text00277",
+          "sha256": "f8121fe57d432a7b964399a70f67173cc84f4f622c567e6c86cb64a06bcddf37",
+          "href": "OEBPS/text00277.html"
+        },
+        {
+          "heading": "第九章",
+          "paragraphs": 63,
+          "readParagraphRange": "p0001-p0063",
+          "status": "full_read",
+          "documentId": "text00278",
+          "sha256": "4484040609fc24ebf178498d733ac8251c95e14837e3bf728a898e940c393d5d",
+          "href": "OEBPS/text00278.html"
+        },
+        {
+          "heading": "第十章",
+          "paragraphs": 75,
+          "readParagraphRange": "p0001-p0075",
+          "status": "full_read",
+          "documentId": "text00279",
+          "sha256": "7c7547070c26cbc718b72b5366554e799d84bcdb4a8a62c7ebf7ec621a78be56",
+          "href": "OEBPS/text00279.html"
+        },
+        {
+          "heading": "第十一章",
+          "paragraphs": 74,
+          "readParagraphRange": "p0001-p0074",
+          "status": "full_read",
+          "documentId": "text00280",
+          "sha256": "df4fa48bee02e01e1dde5822e55839522fc8958b9772a490138c1ca2bf5238bc",
+          "href": "OEBPS/text00280.html"
+        },
+        {
+          "heading": "第十二章",
+          "paragraphs": 73,
+          "readParagraphRange": "p0001-p0073",
+          "status": "full_read",
+          "documentId": "text00281",
+          "sha256": "8422d2094be024dba5f7a98d44c344306ad5576dd5996e3ee019e5deed754f6c",
+          "href": "OEBPS/text00281.html"
+        },
+        {
+          "heading": "第十三章",
+          "paragraphs": 77,
+          "readParagraphRange": "p0001-p0077",
+          "status": "full_read",
+          "documentId": "text00282",
+          "sha256": "cd305b092ea459a6964ed5002cfb9c8186093ba553b7831d3dfe365dc9146ac8",
+          "href": "OEBPS/text00282.html"
+        },
+        {
+          "heading": "第十四章",
+          "paragraphs": 87,
+          "readParagraphRange": "p0001-p0087",
+          "status": "full_read",
+          "documentId": "text00283",
+          "sha256": "76a19bab2c5e4a73355fb6330183ec41660208884057852eeaf15f4e69a2f7d0",
+          "href": "OEBPS/text00283.html"
+        },
+        {
+          "heading": "第十五章",
+          "paragraphs": 76,
+          "readParagraphRange": "p0001-p0076",
+          "status": "full_read",
+          "documentId": "text00284",
+          "sha256": "0a8b2fac7acc6fc88fb202fc4d7f8e8330e1e0e16df57b698dc8ab0200f37193",
+          "href": "OEBPS/text00284.html"
+        },
+        {
+          "heading": "第十六章",
+          "paragraphs": 88,
+          "readParagraphRange": "p0001-p0088",
+          "status": "full_read",
+          "documentId": "text00285",
+          "sha256": "80c834475ec3b12b478efb327bdbcb1a72fc0e464d8acd5599263f0f064e049c",
+          "href": "OEBPS/text00285.html"
+        },
+        {
+          "heading": "第十七章",
+          "paragraphs": 60,
+          "readParagraphRange": "p0001-p0060",
+          "status": "full_read",
+          "documentId": "text00286",
+          "sha256": "69ebea1aba0318ff353c00d3d016fe16c10807799306518dfdca0473e3acea2e",
+          "href": "OEBPS/text00286.html"
+        },
+        {
+          "heading": "第十八章",
+          "paragraphs": 78,
+          "readParagraphRange": "p0001-p0078",
+          "status": "full_read",
+          "documentId": "text00287",
+          "sha256": "ef70fff6230e9e72b5c029ce9e0b59853bc81a2e17d4428cde298a0426f6b7c5",
+          "href": "OEBPS/text00287.html"
+        },
+        {
+          "heading": "第十九章",
+          "paragraphs": 80,
+          "readParagraphRange": "p0001-p0080",
+          "status": "full_read",
+          "documentId": "text00288",
+          "sha256": "83fc842ec2ebdc72a17b9f6096d1e07bee3806043cddff44e677ec72bdf13b46",
+          "href": "OEBPS/text00288.html"
+        },
+        {
+          "heading": "第二十章",
+          "paragraphs": 78,
+          "readParagraphRange": "p0001-p0078",
+          "status": "full_read",
+          "documentId": "text00289",
+          "sha256": "4e26115758e220f621d4be59ee4826636e8afd542e79e2c75b3d3fe1073a3dd7",
+          "href": "OEBPS/text00289.html"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "status": "completed",
+          "readFullDocuments": [
+            "text00265",
+            "text00266",
+            "text00267",
+            "text00268",
+            "text00269",
+            "text00270",
+            "text00271",
+            "text00272",
+            "text00273",
+            "text00274",
+            "text00275",
+            "text00276",
+            "text00277",
+            "text00278",
+            "text00279",
+            "text00280",
+            "text00281",
+            "text00282",
+            "text00283",
+            "text00284",
+            "text00285",
+            "text00286",
+            "text00287",
+            "text00288",
+            "text00289"
+          ],
+          "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+          "notes": [
+            "第1章杜隆坦德拉卡向奥格瑞姆揭露恶魔契约，护卫叛变暗杀，非奥格瑞姆背叛；布莱克摩尔收养婴儿谋权",
+            "第2至6章塔蕾莎乳养建议、兄弟情书信、军士长仁慈教育、竞技场九战后暴打促逃，火灾逃亡和项链联络",
+            "第7至8章集中营凯尔格介绍萨满与战歌；277p0026-0053牺牲掩护萨尔逃亡，p0062-0077布莱克摩尔发现书信",
+            "278p0002-0022村庄偷食误杀狗但拒杀村民；p0024-0063战歌抓获试炼",
+            "279p0002-0014胜三战士不杀；p0019-0050拒杀被绑孩子，格罗玛什承认自己杀过幼童并要求改变，放男孩；p0056-0075保留奴隶名复仇，襁褓辨霜狼，逃亡兽人喊的是保护他",
+            "280p0002-0021文化萨满契约学习与解放计划，p0037-0045塔蕾莎受虐不掩饰伤痕，p0046-0074学习语言狩猎，冬季延缓解放，离开引开追兵寻霜狼",
+            "281p0002-0038风雪濒死霜狼救，德雷克塔尔揭父母身份；p0041-0049襁褓灵性证实谋杀；p0050-0073劳役与自尊试验，元素非奴隶契约",
+            "282p0004-0013雪歌主动选择萨尔；p0014-0035德雷克塔尔叙父母使命恶魔契约与萎靡判断（主观推断）；p0040-0077五元素认可的萨满受洗，敬畏互惠非役使；原文p0029奥格瑞姆地狱咆哮、p0034德雷克摩尔疑笔误，不静默混为新人物",
+            "年龄表述冲突：274p0002十年自婴儿被发现 vs27312岁及275十余年书信，暂不定绝对年龄",
+            "第14—20章事实及定位见 evidence.json events。"
+          ],
+          "next": null,
+          "runId": "batch-a-20261024-01"
+        }
+      },
+      "handoff": "books/10/handoff.json"
+    },
+    {
+      "bookId": "11",
+      "title": "鲜血与荣耀",
+      "sourceSha256": "3801a08ca7b1da2ed5315d54ce902e3b46254bbe404b389311751eda5e65678b",
+      "status": "completed",
+      "manifest": "books/11/manifest.json",
+      "evidence": "books/11/evidence.json",
+      "entryCount": 17,
+      "coverage": [
+        {
+          "documentId": "text00290",
+          "href": "OEBPS/text00290.html",
+          "paragraphs": 0,
+          "heading": "",
+          "readRange": null,
+          "status": "empty_document_verified"
+        },
+        {
+          "documentId": "text00291",
+          "href": "OEBPS/text00291.html",
+          "paragraphs": 7,
+          "heading": "版权信息",
+          "readRange": "p0001-p0007",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00292",
+          "href": "OEBPS/text00292.html",
+          "paragraphs": 13,
+          "heading": "鲜血与荣耀",
+          "readRange": "p0001-p0013",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00293",
+          "href": "OEBPS/text00293.html",
+          "paragraphs": 5,
+          "heading": "感谢",
+          "readRange": "p0001-p0005",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00294",
+          "href": "OEBPS/text00294.html",
+          "paragraphs": 89,
+          "heading": "第一章　激战",
+          "readRange": "p0001-p0089",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00295",
+          "href": "OEBPS/text00295.html",
+          "paragraphs": 138,
+          "heading": "第二章　未解之谜",
+          "readRange": "p0001-p0138",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00296",
+          "href": "OEBPS/text00296.html",
+          "paragraphs": 149,
+          "heading": "第三章　一位战士的传说",
+          "readRange": "p0001-p0149",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00297",
+          "href": "OEBPS/text00297.html",
+          "paragraphs": 142,
+          "heading": "第四章　命令的桎梏",
+          "readRange": "p0001-p0142",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00298",
+          "href": "OEBPS/text00298.html",
+          "paragraphs": 111,
+          "heading": "第五章　意志的审判",
+          "readRange": "p0001-p0111",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00299",
+          "href": "OEBPS/text00299.html",
+          "paragraphs": 81,
+          "heading": "第六章　落魄返家",
+          "readRange": "p0001-p0081",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00300",
+          "href": "OEBPS/text00300.html",
+          "paragraphs": 159,
+          "heading": "第七章　战鼓喧天",
+          "readRange": "p0001-p0159",
+          "status": "read_complete"
+        },
+        {
+          "documentId": "text00301",
+          "href": "OEBPS/text00301.html",
+          "paragraphs": 29,
+          "heading": "第八章　完美轮回",
+          "readRange": "p0001-p0029",
+          "status": "read_complete"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {},
+      "handoff": "books/11/handoff.json"
+    },
+    {
+      "bookId": "12",
+      "title": "迈向冰封王座：阿尔萨斯",
+      "sourceSha256": "be9071c62e729e46db09c7bf1338474012fc093b049a7b9acfdcbbf2af9a9423",
+      "status": "reused_verified_source_version",
+      "manifest": "books/12/manifest.json",
+      "evidence": "books/12/evidence.json",
+      "entryCount": 22,
+      "coverage": null,
+      "readRefs": null,
+      "coverageMode": "existing_full_reading_reused",
+      "progress": {},
+      "handoff": null
+    },
+    {
+      "bookId": "13",
+      "title": "仇恨之轮",
+      "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+      "status": "completed",
+      "manifest": "books/13/manifest.json",
+      "evidence": "books/13/evidence.json",
+      "entryCount": 30,
+      "coverage": [
+        {
+          "documentId": "text00334",
+          "paragraphs": 0,
+          "status": "full_read",
+          "sourcePath": "source/text00334.txt",
+          "originalHtmlSha256": "eb29e24426743af4a2c66c659d39935c03eca99a2870c78f9adde8ba1ba581b6"
+        },
+        {
+          "documentId": "text00335",
+          "paragraphs": 7,
+          "status": "full_read",
+          "sourcePath": "source/text00335.txt",
+          "originalHtmlSha256": "a999f9302d8bab879a8fa27888abe0555e8765559971600a9573ab1bf4d729b9"
+        },
+        {
+          "documentId": "text00336",
+          "paragraphs": 33,
+          "status": "full_read",
+          "sourcePath": "source/text00336.txt",
+          "originalHtmlSha256": "6412712449288405ef6765345a4bc9cdd0cd817dc930b4d766f1746f0fd81651"
+        },
+        {
+          "documentId": "text00337",
+          "paragraphs": 5,
+          "status": "full_read",
+          "sourcePath": "source/text00337.txt",
+          "originalHtmlSha256": "13ed69c6c6c5e5d1ae043497cc9838bc2327c35e12dbdaf8f5948788f715120a"
+        },
+        {
+          "documentId": "text00338",
+          "paragraphs": 92,
+          "status": "full_read",
+          "sourcePath": "source/text00338.txt",
+          "originalHtmlSha256": "13a99a00b16721edb1fa65910603466ed35e4a446258912157cb5dd6338905fd"
+        },
+        {
+          "documentId": "text00339",
+          "paragraphs": 70,
+          "status": "full_read",
+          "sourcePath": "source/text00339.txt",
+          "originalHtmlSha256": "49f1888d04bca20c400bdac6e2a1f8790e93b5cc5e869fb2668ada1b129377fe"
+        },
+        {
+          "documentId": "text00340",
+          "paragraphs": 133,
+          "status": "full_read",
+          "sourcePath": "source/text00340.txt",
+          "originalHtmlSha256": "0d78f6183c807c6b1af812fe6ce4b6612be9a9b0c05edae4a2a3672ac7345669"
+        },
+        {
+          "documentId": "text00341",
+          "paragraphs": 50,
+          "status": "full_read",
+          "sourcePath": "source/text00341.txt",
+          "originalHtmlSha256": "83e9713cda42be57ed447d28967706a6a3e0ee635a441fb43305df9392ae904a"
+        },
+        {
+          "documentId": "text00342",
+          "paragraphs": 56,
+          "status": "full_read",
+          "sourcePath": "source/text00342.txt",
+          "originalHtmlSha256": "8447e32a04ef8727dd4975820a7fd82f8592d3ba940383231d78d13e30d67e6e"
+        },
+        {
+          "documentId": "text00343",
+          "paragraphs": 77,
+          "status": "full_read",
+          "sourcePath": "source/text00343.txt",
+          "originalHtmlSha256": "e8a223f9112ce599df4593770d6741d50fae36e817468aa707ad297516367e41"
+        },
+        {
+          "documentId": "text00344",
+          "paragraphs": 57,
+          "status": "full_read",
+          "sourcePath": "source/text00344.txt",
+          "originalHtmlSha256": "c884c34a880bda0b3c5c606d7110b5ac21e1311dc98e68c6670d269ccc1b2aea"
+        },
+        {
+          "documentId": "text00345",
+          "paragraphs": 98,
+          "status": "full_read",
+          "sourcePath": "source/text00345.txt",
+          "originalHtmlSha256": "2d69558af3abe5bac1c9906ee40eb0e8fcacff3b6855d2b70d8816b043a6dd21"
+        },
+        {
+          "documentId": "text00346",
+          "paragraphs": 64,
+          "status": "full_read",
+          "sourcePath": "source/text00346.txt",
+          "originalHtmlSha256": "3848414f56031aaf751bb5710538984d510f24c1bcf99a8e0ec4a4e7c30695fb"
+        },
+        {
+          "documentId": "text00347",
+          "paragraphs": 47,
+          "status": "full_read",
+          "sourcePath": "source/text00347.txt",
+          "originalHtmlSha256": "b9f7a97c446f76862e1f6affb4da263c3efcc8e63199adcd8f45900a14db74e6"
+        },
+        {
+          "documentId": "text00348",
+          "paragraphs": 56,
+          "status": "full_read",
+          "sourcePath": "source/text00348.txt",
+          "originalHtmlSha256": "828e8bbef525c7c4ec71deb71986d641353675f97642cc1e3f187eb3e65fbcf6"
+        },
+        {
+          "documentId": "text00349",
+          "paragraphs": 107,
+          "status": "full_read",
+          "sourcePath": "source/text00349.txt",
+          "originalHtmlSha256": "e87c305553d7c7aecd60befdc7c9978c9cfe0e74601d2296b8a43eb04c5e8007"
+        },
+        {
+          "documentId": "text00350",
+          "paragraphs": 51,
+          "status": "full_read",
+          "sourcePath": "source/text00350.txt",
+          "originalHtmlSha256": "ce23ef3c7538b829a7a0fcea5509af066c5150761df7c7b13ce4c257e5dfd37c"
+        },
+        {
+          "documentId": "text00351",
+          "paragraphs": 53,
+          "status": "full_read",
+          "sourcePath": "source/text00351.txt",
+          "originalHtmlSha256": "0bab58074c55ecbb5dd7b7c4f5b833c81cf521c16c29f85037612e313782b49e"
+        },
+        {
+          "documentId": "text00352",
+          "paragraphs": 47,
+          "status": "full_read",
+          "sourcePath": "source/text00352.txt",
+          "originalHtmlSha256": "4db7cbe2fd7091e218d01018536523aa1a4a2e48c8ce7f956bc1dda013568774"
+        },
+        {
+          "documentId": "text00353",
+          "paragraphs": 93,
+          "status": "full_read",
+          "sourcePath": "source/text00353.txt",
+          "originalHtmlSha256": "f4736459655b4f1b9e04702a567d585a9356f0c113723ea969b9ef8138b1ff93"
+        },
+        {
+          "documentId": "text00354",
+          "paragraphs": 34,
+          "status": "full_read",
+          "sourcePath": "source/text00354.txt",
+          "originalHtmlSha256": "b5b50e30dd9515a7c4092a5b3cb68986cce5a8558dbd9a28094aac151b72216a"
+        },
+        {
+          "documentId": "text00355",
+          "paragraphs": 82,
+          "status": "full_read",
+          "sourcePath": "source/text00355.txt",
+          "originalHtmlSha256": "4efdbe900fcf5ba3e3187befd44aa9a95c7a79eaa970fc89348d20d057ef9365"
+        },
+        {
+          "documentId": "text00356",
+          "paragraphs": 49,
+          "status": "full_read",
+          "sourcePath": "source/text00356.txt",
+          "originalHtmlSha256": "d52677aa3a282f6d952d97a3ec0005ff29734a47d6fb68eefb59e955b4c866e3"
+        },
+        {
+          "documentId": "text00357",
+          "paragraphs": 53,
+          "status": "full_read",
+          "sourcePath": "source/text00357.txt",
+          "originalHtmlSha256": "3caf96386b3e7ce36d6d80acaeebe2ce74421dbb490d8e4ecf7a9ed41c374af3"
+        },
+        {
+          "documentId": "text00358",
+          "paragraphs": 29,
+          "status": "full_read",
+          "sourcePath": "source/text00358.txt",
+          "originalHtmlSha256": "6c06fe8ef246e89653c041db93057aadfd81eb60ab11323f9126aa22ea137924"
+        },
+        {
+          "documentId": "text00359",
+          "paragraphs": 41,
+          "status": "full_read",
+          "sourcePath": "source/text00359.txt",
+          "originalHtmlSha256": "fd7eb81b98618bb32a405fb8c5b47fdd7f55a217dac0a8c8d32f93593a38a7c6"
+        },
+        {
+          "documentId": "text00360",
+          "paragraphs": 48,
+          "status": "full_read",
+          "sourcePath": "source/text00360.txt",
+          "originalHtmlSha256": "95a22bea98aed4aaf0fad2b5d26dfff015e42be3fdcccd96d0e7078daccf49a8"
+        },
+        {
+          "documentId": "text00361",
+          "paragraphs": 33,
+          "status": "full_read",
+          "sourcePath": "source/text00361.txt",
+          "originalHtmlSha256": "0c8ddf95f93465361ec30cf7a5e872638f2c5b2d37e52bc9c470153df57f677a"
+        },
+        {
+          "documentId": "text00362",
+          "paragraphs": 42,
+          "status": "full_read",
+          "sourcePath": "source/text00362.txt",
+          "originalHtmlSha256": "6473509390d65a29b3d807aeea1740fa9d812c9c81e6a7b52e9a57bf55bdf6c5"
+        },
+        {
+          "documentId": "text00363",
+          "paragraphs": 5,
+          "status": "full_read",
+          "sourcePath": "source/text00363.txt",
+          "originalHtmlSha256": "88d19324835aad54610fe4ab3f1b315653053d18931f14583405b1ddf18da725"
+        },
+        {
+          "documentId": "text00364",
+          "paragraphs": 2,
+          "status": "full_read",
+          "sourcePath": "source/text00364.txt",
+          "originalHtmlSha256": "38a2578b21d2fe0ffe07205760f463a442552b729be5f040439eddefce0896e5"
+        },
+        {
+          "documentId": "text00365",
+          "paragraphs": 2,
+          "status": "full_read",
+          "sourcePath": "source/text00365.txt",
+          "originalHtmlSha256": "e356f23a70a44d03c2861294b5b033a8100b6dfe3bf34f522c8992464f216533"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "runId": "batch-a-20261024-01",
+          "bookId": "13",
+          "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+          "status": "completed",
+          "readFullDocuments": [
+            "text00334",
+            "text00335",
+            "text00336",
+            "text00337",
+            "text00338",
+            "text00339",
+            "text00340",
+            "text00341",
+            "text00342",
+            "text00343",
+            "text00344",
+            "text00345",
+            "text00346",
+            "text00347",
+            "text00348",
+            "text00349",
+            "text00350",
+            "text00351",
+            "text00352",
+            "text00353",
+            "text00354",
+            "text00355",
+            "text00356",
+            "text00357",
+            "text00358",
+            "text00359",
+            "text00360",
+            "text00361",
+            "text00362",
+            "text00363",
+            "text00364",
+            "text00365"
+          ],
+          "readParagraphs": 1616,
+          "nextDocument": null,
+          "nextParagraph": null,
+          "unrecordedReadMaterial": [],
+          "remainingWork": []
+        }
+      },
+      "handoff": "books/13/handoff.json"
+    },
+    {
+      "bookId": "15",
+      "title": "狼族之心",
+      "sourceSha256": "f4b3e27f4365007030bf2f7be193835294474a6c86710c9c082bdd4f3e2da61d",
+      "status": "pending",
+      "manifest": "books/15/manifest.json",
+      "evidence": "books/15/evidence.json",
+      "entryCount": 0,
+      "coverage": [],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "read-progress.json": {
+          "status": "pending",
+          "stopReason": "user_scope_narrowed_to_inheritable_files",
+          "lastFullyRead": null,
+          "next": "text00397",
+          "nextParagraph": null,
+          "nextHref": "OEBPS/text00397.html",
+          "nextPath": "source/text00397.txt",
+          "emptyDocumentAction": "verify empty then advance in manifest order",
+          "readButUnrecorded": []
+        }
+      },
+      "handoff": "books/15/handoff.json"
+    },
+    {
+      "bookId": "16",
+      "title": "浩劫：灾变的前奏",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "status": "completed",
+      "manifest": "books/16/manifest.json",
+      "evidence": "books/16/evidence.json",
+      "entryCount": 43,
+      "coverage": [
+        {
+          "documentId": "text00438",
+          "href": "OEBPS/text00438.html",
+          "paragraphs": 0,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00439",
+          "href": "OEBPS/text00439.html",
+          "paragraphs": 7,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00440",
+          "href": "OEBPS/text00440.html",
+          "paragraphs": 45,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00441",
+          "href": "OEBPS/text00441.html",
+          "paragraphs": 3,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00442",
+          "href": "OEBPS/text00442.html",
+          "paragraphs": 6,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00443",
+          "href": "OEBPS/text00443.html",
+          "paragraphs": 28,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00444",
+          "href": "OEBPS/text00444.html",
+          "paragraphs": 62,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00445",
+          "href": "OEBPS/text00445.html",
+          "paragraphs": 49,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00446",
+          "href": "OEBPS/text00446.html",
+          "paragraphs": 80,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00447",
+          "href": "OEBPS/text00447.html",
+          "paragraphs": 87,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00448",
+          "href": "OEBPS/text00448.html",
+          "paragraphs": 40,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00449",
+          "href": "OEBPS/text00449.html",
+          "paragraphs": 59,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00450",
+          "href": "OEBPS/text00450.html",
+          "paragraphs": 90,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00451",
+          "href": "OEBPS/text00451.html",
+          "paragraphs": 85,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00452",
+          "href": "OEBPS/text00452.html",
+          "paragraphs": 74,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00453",
+          "href": "OEBPS/text00453.html",
+          "paragraphs": 92,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00454",
+          "href": "OEBPS/text00454.html",
+          "paragraphs": 83,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00455",
+          "href": "OEBPS/text00455.html",
+          "paragraphs": 106,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00456",
+          "href": "OEBPS/text00456.html",
+          "paragraphs": 62,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00457",
+          "href": "OEBPS/text00457.html",
+          "paragraphs": 62,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00458",
+          "href": "OEBPS/text00458.html",
+          "paragraphs": 49,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00459",
+          "href": "OEBPS/text00459.html",
+          "paragraphs": 49,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00460",
+          "href": "OEBPS/text00460.html",
+          "paragraphs": 71,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00461",
+          "href": "OEBPS/text00461.html",
+          "paragraphs": 78,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00462",
+          "href": "OEBPS/text00462.html",
+          "paragraphs": 62,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00463",
+          "href": "OEBPS/text00463.html",
+          "paragraphs": 74,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00464",
+          "href": "OEBPS/text00464.html",
+          "paragraphs": 87,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00465",
+          "href": "OEBPS/text00465.html",
+          "paragraphs": 110,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00466",
+          "href": "OEBPS/text00466.html",
+          "paragraphs": 81,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00467",
+          "href": "OEBPS/text00467.html",
+          "paragraphs": 81,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00468",
+          "href": "OEBPS/text00468.html",
+          "paragraphs": 108,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00469",
+          "href": "OEBPS/text00469.html",
+          "paragraphs": 106,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00470",
+          "href": "OEBPS/text00470.html",
+          "paragraphs": 100,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00471",
+          "href": "OEBPS/text00471.html",
+          "paragraphs": 82,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00472",
+          "href": "OEBPS/text00472.html",
+          "paragraphs": 79,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00473",
+          "href": "OEBPS/text00473.html",
+          "paragraphs": 81,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00474",
+          "href": "OEBPS/text00474.html",
+          "paragraphs": 129,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00475",
+          "href": "OEBPS/text00475.html",
+          "paragraphs": 64,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00476",
+          "href": "OEBPS/text00476.html",
+          "paragraphs": 20,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00477",
+          "href": "OEBPS/text00477.html",
+          "paragraphs": 3,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00478",
+          "href": "OEBPS/text00478.html",
+          "paragraphs": 4,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00479",
+          "href": "OEBPS/text00479.html",
+          "paragraphs": 16,
+          "status": "full_read"
+        },
+        {
+          "documentId": "text00480",
+          "href": "OEBPS/text00480.html",
+          "paragraphs": 2,
+          "status": "full_read"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "runId": "batch-a-20261024-01",
+          "bookId": "16",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "status": "completed",
+          "readFullDocuments": [
+            "text00438",
+            "text00439",
+            "text00440",
+            "text00441",
+            "text00442",
+            "text00443",
+            "text00444",
+            "text00445",
+            "text00446",
+            "text00447",
+            "text00448",
+            "text00449",
+            "text00450",
+            "text00451",
+            "text00452",
+            "text00453",
+            "text00454",
+            "text00455",
+            "text00456",
+            "text00457",
+            "text00458",
+            "text00459",
+            "text00460",
+            "text00461",
+            "text00462",
+            "text00463",
+            "text00464",
+            "text00465",
+            "text00466",
+            "text00467",
+            "text00468",
+            "text00469",
+            "text00470",
+            "text00471",
+            "text00472",
+            "text00473",
+            "text00474",
+            "text00475",
+            "text00476",
+            "text00477",
+            "text00478",
+            "text00479",
+            "text00480"
+          ],
+          "readParagraphs": 2656,
+          "nextDocument": null,
+          "nextParagraph": null,
+          "unrecordedReadMaterial": [],
+          "fullTextRead": true,
+          "readingMethod": "按manifest文档次序完整阅读原文，非搜索或摘要替代",
+          "updatedAt": "2026-10-24"
+        }
+      },
+      "handoff": "books/16/handoff.json"
+    },
+    {
+      "bookId": "17",
+      "title": "怒风",
+      "sourceSha256": "d6b4a68b7b01458a0a17bec169b8e049e563ea33b346653768ba48abfd5e9c75",
+      "status": "pending",
+      "manifest": "books/17/manifest.json",
+      "evidence": "books/17/evidence.json",
+      "entryCount": 0,
+      "coverage": [],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "read-progress.json": {
+          "status": "pending",
+          "stopReason": "user_scope_narrowed_to_inheritable_files",
+          "lastFullyRead": null,
+          "next": "text00481",
+          "nextParagraph": null,
+          "nextHref": "OEBPS/text00481.html",
+          "nextPath": "source/text00481.txt",
+          "emptyDocumentAction": "verify empty then advance in manifest order",
+          "readButUnrecorded": []
+        }
+      },
+      "handoff": "books/17/handoff.json"
+    },
+    {
+      "bookId": "18",
+      "title": "萨尔：巨龙的黄昏",
+      "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+      "status": "completed",
+      "manifest": "books/18/manifest.json",
+      "evidence": "books/18/evidence.json",
+      "entryCount": 29,
+      "coverage": [
+        {
+          "documentId": "text00523",
+          "href": "OEBPS/text00523.html",
+          "paragraphs": 0,
+          "readRanges": null,
+          "status": "read_full",
+          "sha256": "a0f84046530479d54164ae7a855d146d5f6e424b4dc20673d6ee15dea09029a6"
+        },
+        {
+          "documentId": "text00524",
+          "href": "OEBPS/text00524.html",
+          "paragraphs": 7,
+          "readRanges": "p0001-p0007",
+          "status": "read_full",
+          "sha256": "520d0cc80994daf0f8b8e1aa7363704789b02de7d64761cbd53ab839aa87e103"
+        },
+        {
+          "documentId": "text00525",
+          "href": "OEBPS/text00525.html",
+          "paragraphs": 26,
+          "readRanges": "p0001-p0026",
+          "status": "read_full",
+          "sha256": "5ec15b390c04cd9a234bb56dffca09cf8e9ade1026be46caa6590b5776359fa4"
+        },
+        {
+          "documentId": "text00526",
+          "href": "OEBPS/text00526.html",
+          "paragraphs": 104,
+          "readRanges": "p0001-p0104",
+          "status": "read_full",
+          "sha256": "e34bbc42f1eae98ac4d6603c2980c53550f20dec530e734dacc9fe969ab63f91"
+        },
+        {
+          "documentId": "text00527",
+          "href": "OEBPS/text00527.html",
+          "paragraphs": 76,
+          "readRanges": "p0001-p0076",
+          "status": "read_full",
+          "sha256": "d9c29a1c55a7707fcdd12ac7df73c5115771f2c39e0fdd69c5a98be3e98a2c9a"
+        },
+        {
+          "documentId": "text00528",
+          "href": "OEBPS/text00528.html",
+          "paragraphs": 114,
+          "readRanges": "p0001-p0114",
+          "status": "read_full",
+          "sha256": "67f95354dc972e48a00385d95874fa2c9271ebf2ba7040f368b571831eab7809"
+        },
+        {
+          "documentId": "text00529",
+          "href": "OEBPS/text00529.html",
+          "paragraphs": 130,
+          "readRanges": "p0001-p0130",
+          "status": "read_full",
+          "sha256": "e3ddaf8b87872613890cf242dd14b362b3077ec26a066327891db08371059b4a"
+        },
+        {
+          "documentId": "text00530",
+          "href": "OEBPS/text00530.html",
+          "paragraphs": 100,
+          "readRanges": "p0001-p0100",
+          "status": "read_full",
+          "sha256": "33f33962120437f6271797557c7df3c9b5def8b88134b2bad7f6cf22db838640"
+        },
+        {
+          "documentId": "text00531",
+          "href": "OEBPS/text00531.html",
+          "paragraphs": 99,
+          "readRanges": "p0001-p0099",
+          "status": "read_full",
+          "sha256": "3843489eca937c6963096e0742578ff6183cdb15a706027b73ad438827af08fe"
+        },
+        {
+          "documentId": "text00532",
+          "href": "OEBPS/text00532.html",
+          "paragraphs": 138,
+          "readRanges": "p0001-p0138",
+          "status": "read_full",
+          "sha256": "74e90e46ac6301f67a2a3d2a8e9534819ee73fca7982a7cd5f22c71588508c69"
+        },
+        {
+          "documentId": "text00533",
+          "href": "OEBPS/text00533.html",
+          "paragraphs": 88,
+          "readRanges": "p0001-p0088",
+          "status": "read_full",
+          "sha256": "4487a031ed8b89b9e16db2c59de82e00d1c9fb7df38793aaa06f4f636166fbcd"
+        },
+        {
+          "documentId": "text00534",
+          "href": "OEBPS/text00534.html",
+          "paragraphs": 109,
+          "readRanges": "p0001-p0109",
+          "status": "read_full",
+          "sha256": "a1507913dacfc5cd4520b6cc1245e4c35d530afb48ed69fdfd18964bd35f56dc"
+        },
+        {
+          "documentId": "text00535",
+          "href": "OEBPS/text00535.html",
+          "paragraphs": 139,
+          "readRanges": "p0001-p0139",
+          "status": "read_full",
+          "sha256": "daf3b675bc28adf5b388ce5c042f87a1b47e127f198a3b6272eb9e060b2cebc6"
+        },
+        {
+          "documentId": "text00536",
+          "href": "OEBPS/text00536.html",
+          "paragraphs": 79,
+          "readRanges": "p0001-p0079",
+          "status": "read_full",
+          "sha256": "fcbd97616016e41251554de9a2a6127a3e6eb1532276748ed8cea12ffa29a97c"
+        },
+        {
+          "documentId": "text00537",
+          "href": "OEBPS/text00537.html",
+          "paragraphs": 101,
+          "readRanges": "p0001-p0101",
+          "status": "read_full",
+          "sha256": "60d5a10358906e6b576bba44c718d39da790ed9b07ba369e8b32adddee2e7576"
+        },
+        {
+          "documentId": "text00538",
+          "href": "OEBPS/text00538.html",
+          "paragraphs": 124,
+          "readRanges": "p0001-p0124",
+          "status": "read_full",
+          "sha256": "ce84aac1360f624b3a2bc08ddbd00c73955447cd508de32112aa60d60481dfda"
+        },
+        {
+          "documentId": "text00539",
+          "href": "OEBPS/text00539.html",
+          "paragraphs": 144,
+          "readRanges": "p0001-p0144",
+          "status": "read_full",
+          "sha256": "2e541aa3c03a535f596ac00757823552c0830778cf262921fbd9f7205b51e298"
+        },
+        {
+          "documentId": "text00540",
+          "href": "OEBPS/text00540.html",
+          "paragraphs": 105,
+          "readRanges": "p0001-p0105",
+          "status": "read_full",
+          "sha256": "4d9c22e17a05e594d74d9176d56fd573ec3909b23becfd216478531c00240011"
+        },
+        {
+          "documentId": "text00541",
+          "href": "OEBPS/text00541.html",
+          "paragraphs": 83,
+          "readRanges": "p0001-p0083",
+          "status": "read_full",
+          "sha256": "ece11c2aa4ae2d1b0c4541d17f41409293c9b2e5801da1ea392f96af903d0ec7"
+        },
+        {
+          "documentId": "text00542",
+          "href": "OEBPS/text00542.html",
+          "paragraphs": 140,
+          "readRanges": "p0001-p0140",
+          "status": "read_full",
+          "sha256": "c74cf89c963c46281b95f6df032cf4c786a647b60c5eed96da35b6d4e152ecf2"
+        },
+        {
+          "documentId": "text00543",
+          "href": "OEBPS/text00543.html",
+          "paragraphs": 144,
+          "readRanges": "p0001-p0144",
+          "status": "read_full",
+          "sha256": "d48a26d8aa1a35fa09587bf66fb636419cf2ba5e5b85235003a4a05b65446034"
+        },
+        {
+          "documentId": "text00544",
+          "href": "OEBPS/text00544.html",
+          "paragraphs": 86,
+          "readRanges": "p0001-p0086",
+          "status": "read_full",
+          "sha256": "511b6696290a82c4cf50c17a0412fd94dc766a6f5daf723e0ffd7dd600568818"
+        },
+        {
+          "documentId": "text00545",
+          "href": "OEBPS/text00545.html",
+          "paragraphs": 98,
+          "readRanges": "p0001-p0098",
+          "status": "read_full",
+          "sha256": "072abfb3f02f7592347140fafdcb2f3bd90ae60f15ac8508eb85311ea825e976"
+        },
+        {
+          "documentId": "text00546",
+          "href": "OEBPS/text00546.html",
+          "paragraphs": 105,
+          "readRanges": "p0001-p0105",
+          "status": "read_full",
+          "sha256": "bb0166d3e4bfcc7fa5c4639fdedd5d7ef7d97681fa1021ccac89184d85d39273"
+        },
+        {
+          "documentId": "text00547",
+          "href": "OEBPS/text00547.html",
+          "paragraphs": 102,
+          "readRanges": "p0001-p0102",
+          "status": "read_full",
+          "sha256": "299c8863f3b6a667716abfdcbbc7f8e66a50a2447c501b08514300d6435ab8ea"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "readFullDocuments": [
+            "text00523",
+            "text00524",
+            "text00525",
+            "text00526",
+            "text00527",
+            "text00528",
+            "text00529",
+            "text00530",
+            "text00531",
+            "text00532",
+            "text00533",
+            "text00534",
+            "text00535",
+            "text00536",
+            "text00537",
+            "text00538",
+            "text00539",
+            "text00540",
+            "text00541",
+            "text00542",
+            "text00543",
+            "text00544",
+            "text00545",
+            "text00546",
+            "text00547"
+          ],
+          "sourceSha256": "7b558a06eeb910565d8a56a52c4218b52af714df6501ab4db59321e5fe2589c7",
+          "unrecordedReadMaterial": [],
+          "status": "completed",
+          "authoritativeEvidence": "books/18/evidence.json",
+          "runId": "batch-a-20261024-01",
+          "nextUnread": null,
+          "bookId": "18"
+        }
+      },
+      "handoff": "books/18/handoff.json"
+    },
+    {
+      "bookId": "19",
+      "title": "吉安娜·普罗德摩尔：战争之潮",
+      "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+      "status": "completed",
+      "manifest": "books/19/manifest.json",
+      "evidence": "books/19/evidence.json",
+      "entryCount": 44,
+      "coverage": [
+        {
+          "documentId": "text00548",
+          "href": "OEBPS/text00548.html",
+          "paragraphs": 0,
+          "readRange": "empty_document_verified",
+          "status": "read_complete",
+          "sourceDocumentSha256": "a0aeb67d6f7328791b35eca83321c34f6a1a7e51085e84da0681c796bdef311e"
+        },
+        {
+          "documentId": "text00549",
+          "href": "OEBPS/text00549.html",
+          "paragraphs": 7,
+          "readRange": "p0001-p0007",
+          "status": "read_complete",
+          "sourceDocumentSha256": "e9492e96adf7c79876a6a54bec71080c7c288d765905a3897752f063c4c57a01"
+        },
+        {
+          "documentId": "text00550",
+          "href": "OEBPS/text00550.html",
+          "paragraphs": 32,
+          "readRange": "p0001-p0032",
+          "status": "read_complete",
+          "sourceDocumentSha256": "7c392eafc49c0a58ec6a22a8b975e2398162f1e6e773d67c104d9fd6f45911fd"
+        },
+        {
+          "documentId": "text00551",
+          "href": "OEBPS/text00551.html",
+          "paragraphs": 5,
+          "readRange": "p0001-p0005",
+          "status": "read_complete",
+          "sourceDocumentSha256": "5669e8d5ce17615d8f4b341df83566888ddd616cd9dd7469c7f97899ef11105f"
+        },
+        {
+          "documentId": "text00552",
+          "href": "OEBPS/text00552.html",
+          "paragraphs": 98,
+          "readRange": "p0001-p0098",
+          "status": "read_complete",
+          "sourceDocumentSha256": "c7c2af8251ee12768b9a046e95f6ded9e23f83d0424a120cd89d87ad947fea8e"
+        },
+        {
+          "documentId": "text00553",
+          "href": "OEBPS/text00553.html",
+          "paragraphs": 108,
+          "readRange": "p0001-p0108",
+          "status": "read_complete",
+          "sourceDocumentSha256": "957fe3acafde32be04e5ee786df78aa9089348f61fa156e41f3587e08123280c"
+        },
+        {
+          "documentId": "text00554",
+          "href": "OEBPS/text00554.html",
+          "paragraphs": 62,
+          "readRange": "p0001-p0062",
+          "status": "read_complete",
+          "sourceDocumentSha256": "21cba500d6d08693f282d523286a5b2b67d61247379ae859d281a008a617f37f"
+        },
+        {
+          "documentId": "text00555",
+          "href": "OEBPS/text00555.html",
+          "paragraphs": 77,
+          "readRange": "p0001-p0077",
+          "status": "read_complete",
+          "sourceDocumentSha256": "2f57f55267d43699c1e25ce9a12f8c225060c8484fd4c7832702d51ec244afde"
+        },
+        {
+          "documentId": "text00556",
+          "href": "OEBPS/text00556.html",
+          "paragraphs": 114,
+          "readRange": "p0001-p0114",
+          "status": "read_complete",
+          "sourceDocumentSha256": "85bb70c412bc59337a3520e727c0cadb7f5253a09de305119da17cab9d9ed6f2"
+        },
+        {
+          "documentId": "text00557",
+          "href": "OEBPS/text00557.html",
+          "paragraphs": 117,
+          "readRange": "p0001-p0117",
+          "status": "read_complete",
+          "sourceDocumentSha256": "49fbaa2b5ef9fb4d1ca6bb106dac8523c9b510c91fd478320ee3860e3126ae41"
+        },
+        {
+          "documentId": "text00558",
+          "href": "OEBPS/text00558.html",
+          "paragraphs": 86,
+          "readRange": "p0001-p0086",
+          "status": "read_complete",
+          "sourceDocumentSha256": "b4c821b20021bbfe14c606f11f43ec1fa8cf91204cc7ea6b2d83f7024c768366"
+        },
+        {
+          "documentId": "text00559",
+          "href": "OEBPS/text00559.html",
+          "paragraphs": 87,
+          "readRange": "p0001-p0087",
+          "status": "read_complete",
+          "sourceDocumentSha256": "fee4aa38f5d952a95414d7e3e7ce539572224c93159b38bbfca6edaea423a855"
+        },
+        {
+          "documentId": "text00560",
+          "href": "OEBPS/text00560.html",
+          "paragraphs": 117,
+          "readRange": "p0001-p0117",
+          "status": "read_complete",
+          "sourceDocumentSha256": "b01a13cd08aa41be6ce8006db21e62c8f810d2a935139dd2ce0841dbd85ccefa"
+        },
+        {
+          "documentId": "text00561",
+          "href": "OEBPS/text00561.html",
+          "paragraphs": 115,
+          "readRange": "p0001-p0115",
+          "status": "read_complete",
+          "sourceDocumentSha256": "94aea84e1520fd0c23c7f96fc1f76852e648fb349ba1b94278c64598f76486da"
+        },
+        {
+          "documentId": "text00562",
+          "href": "OEBPS/text00562.html",
+          "paragraphs": 106,
+          "readRange": "p0001-p0106",
+          "status": "read_complete",
+          "sourceDocumentSha256": "eda3df5252cd160595bd818bce923846c56759108e9cbc759bb4c1cd648164ff"
+        },
+        {
+          "documentId": "text00563",
+          "href": "OEBPS/text00563.html",
+          "paragraphs": 69,
+          "readRange": "p0001-p0069",
+          "status": "read_complete",
+          "sourceDocumentSha256": "a192d84b21d23cc3612fd9424dec6ede7523bdaaa67ad645997938a119e30e58"
+        },
+        {
+          "documentId": "text00564",
+          "href": "OEBPS/text00564.html",
+          "paragraphs": 82,
+          "readRange": "p0001-p0082",
+          "status": "read_complete",
+          "sourceDocumentSha256": "04ad30cb6b818e16b7bcccbc05aeee942a11354e0246ab1c8a97ce529be3afa4"
+        },
+        {
+          "documentId": "text00565",
+          "href": "OEBPS/text00565.html",
+          "paragraphs": 82,
+          "readRange": "p0001-p0082",
+          "status": "read_complete",
+          "sourceDocumentSha256": "9d02eb3961971a1422d85692427bdfd2f02a19e1ee1118fc8db822a2694b28e3"
+        },
+        {
+          "documentId": "text00566",
+          "href": "OEBPS/text00566.html",
+          "paragraphs": 81,
+          "readRange": "p0001-p0081",
+          "status": "read_complete",
+          "sourceDocumentSha256": "f6a76f7ff1edbba1f49674fd92b8653479db419df846e787e7742f2c5fedfa98"
+        },
+        {
+          "documentId": "text00567",
+          "href": "OEBPS/text00567.html",
+          "paragraphs": 71,
+          "readRange": "p0001-p0071",
+          "status": "read_complete",
+          "sourceDocumentSha256": "08891c1d547c50a72ad6ed5b31456fc0409e408d20a945fb170a17bbfe5ec619"
+        },
+        {
+          "documentId": "text00568",
+          "href": "OEBPS/text00568.html",
+          "paragraphs": 118,
+          "readRange": "p0001-p0118",
+          "status": "read_complete",
+          "sourceDocumentSha256": "f5ee1386a7fcbc58267c44a843b5df45304a5682a84211eab3177764a2fc84bf"
+        },
+        {
+          "documentId": "text00569",
+          "href": "OEBPS/text00569.html",
+          "paragraphs": 112,
+          "readRange": "p0001-p0112",
+          "status": "read_complete",
+          "sourceDocumentSha256": "646c6fcefc6210f0f810ad4d9c73d2f9ec627243e79ec4e90423f81c3148b4aa"
+        },
+        {
+          "documentId": "text00570",
+          "href": "OEBPS/text00570.html",
+          "paragraphs": 101,
+          "readRange": "p0001-p0101",
+          "status": "read_complete",
+          "sourceDocumentSha256": "233d8de8d49cc08c48fc727937355c79c5296d95fad49d9363a87ced41ba8359"
+        },
+        {
+          "documentId": "text00571",
+          "href": "OEBPS/text00571.html",
+          "paragraphs": 90,
+          "readRange": "p0001-p0090",
+          "status": "read_complete",
+          "sourceDocumentSha256": "967cddd1deffc5e7f3570fa9fb67ce82f9d7be051e05922a1783edac08a42a57"
+        },
+        {
+          "documentId": "text00572",
+          "href": "OEBPS/text00572.html",
+          "paragraphs": 70,
+          "readRange": "p0001-p0070",
+          "status": "read_complete",
+          "sourceDocumentSha256": "0cb5c84d816df7826a5b46e1d646a93b5e3b7e4be4c3b2e2452962063c6e5d82"
+        },
+        {
+          "documentId": "text00573",
+          "href": "OEBPS/text00573.html",
+          "paragraphs": 73,
+          "readRange": "p0001-p0073",
+          "status": "read_complete",
+          "sourceDocumentSha256": "d364a8a44230c237114f5f7e9011a53e2287aa27025390588ced31928394fb00"
+        },
+        {
+          "documentId": "text00574",
+          "href": "OEBPS/text00574.html",
+          "paragraphs": 116,
+          "readRange": "p0001-p0116",
+          "status": "read_complete",
+          "sourceDocumentSha256": "c98c142a6490ffd53263c017405625da89c2f6da3699a88cac0d20f2b9dbd298"
+        },
+        {
+          "documentId": "text00575",
+          "href": "OEBPS/text00575.html",
+          "paragraphs": 110,
+          "readRange": "p0001-p0110",
+          "status": "read_complete",
+          "sourceDocumentSha256": "9c68361b02ee32e4f587fd57b44d70fbb078a25bbb68b8e25bf4ae977a9f3337"
+        },
+        {
+          "documentId": "text00576",
+          "href": "OEBPS/text00576.html",
+          "paragraphs": 113,
+          "readRange": "p0001-p0113",
+          "status": "read_complete",
+          "sourceDocumentSha256": "4625567953bb2fecb8cf8c1efd91a19467f6c98a1236861df3810f37f916be2f"
+        },
+        {
+          "documentId": "text00577",
+          "href": "OEBPS/text00577.html",
+          "paragraphs": 73,
+          "readRange": "p0001-p0073",
+          "status": "read_complete",
+          "sourceDocumentSha256": "e9bae90ba409ce75da6b516e6e2e059d33a8069e82829cf23d25901e840b57dc"
+        },
+        {
+          "documentId": "text00578",
+          "href": "OEBPS/text00578.html",
+          "paragraphs": 108,
+          "readRange": "p0001-p0108",
+          "status": "read_complete",
+          "sourceDocumentSha256": "b30190fc5009feb441b4c131601f3635732afc601f98c5276dc9262ebe04bdc6"
+        },
+        {
+          "documentId": "text00579",
+          "href": "OEBPS/text00579.html",
+          "paragraphs": 71,
+          "readRange": "p0001-p0071",
+          "status": "read_complete",
+          "sourceDocumentSha256": "cefd69b054c710708726402b9f07c6758bcfcb62781a4626ed4655b70755a7c1"
+        },
+        {
+          "documentId": "text00580",
+          "href": "OEBPS/text00580.html",
+          "paragraphs": 6,
+          "readRange": "p0001-p0006",
+          "status": "read_complete",
+          "sourceDocumentSha256": "4902bf70442655cce75d1bbcb28f1d1215b9a3a5d3b07bd7bebc32fc6292c508"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "bookId": "19",
+          "runId": "batch-a-20261024-01",
+          "status": "completed",
+          "sourceSha256": "ab52ac1bcd368d24082392470a49aaf2e5144437e2ba92c5730f8dfa787fa325",
+          "completedDocuments": [
+            "text00548",
+            "text00549",
+            "text00550",
+            "text00551",
+            "text00552",
+            "text00553",
+            "text00554",
+            "text00555",
+            "text00556",
+            "text00557",
+            "text00558",
+            "text00559",
+            "text00560",
+            "text00561",
+            "text00562",
+            "text00563",
+            "text00564",
+            "text00565",
+            "text00566",
+            "text00567",
+            "text00568",
+            "text00569",
+            "text00570",
+            "text00571",
+            "text00572",
+            "text00573",
+            "text00574",
+            "text00575",
+            "text00576",
+            "text00577",
+            "text00578",
+            "text00579",
+            "text00580"
+          ],
+          "resumeAt": null,
+          "readButUnrecorded": [],
+          "wholeBookRead": true,
+          "paragraphCoverageComplete": true,
+          "totalDocuments": 33,
+          "totalParagraphs": 2677,
+          "evidenceVersion": 6,
+          "nextAction": "复用evidence.json；仅在证据缺口或冲突时定点核查，不重读全书。"
+        }
+      },
+      "handoff": "books/19/handoff.json"
+    },
+    {
+      "bookId": "20",
+      "title": "沃金：部落的暗影",
+      "sourceSha256": "a3c3af3d45ec43ddc908277d327689af22536a749a7a236f930eb3640af436fd",
+      "status": "not_started",
+      "manifest": "books/20/manifest.json",
+      "evidence": "books/20/evidence.json",
+      "entryCount": 0,
+      "coverage": [
+        {
+          "documentId": "text00581",
+          "href": "OEBPS/text00581.html",
+          "paragraphs": 0,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "b0d7d4e05881672f743c2da4bc933445461c89e4dd3b31ed0c845213eb6747c7"
+        },
+        {
+          "documentId": "text00582",
+          "href": "OEBPS/text00582.html",
+          "paragraphs": 7,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "ae4d5561e950d5d389ff6cd3a48f08f4e3432b71713151d32e341a07f1c6922b"
+        },
+        {
+          "documentId": "text00583",
+          "href": "OEBPS/text00583.html",
+          "paragraphs": 38,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "61bfa4718081ea99b23681e563cdb94928789a016550a07c9f6fbe238639ac4b"
+        },
+        {
+          "documentId": "text00584",
+          "href": "OEBPS/text00584.html",
+          "paragraphs": 0,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "26f081d0468777f855fd84dd4c3228dc19996a33987974470db63dca79229264"
+        },
+        {
+          "documentId": "text00585",
+          "href": "OEBPS/text00585.html",
+          "paragraphs": 78,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "ace3004f5e9226c141cae9c7c165cde56fa0d04f0d3ca2b86fde972542267fce"
+        },
+        {
+          "documentId": "text00586",
+          "href": "OEBPS/text00586.html",
+          "paragraphs": 87,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "3e717b84202c32741b18832fe00a76d3c1419c04eacc6b6d2fdf31f6a250878a"
+        },
+        {
+          "documentId": "text00587",
+          "href": "OEBPS/text00587.html",
+          "paragraphs": 62,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "ab1b6202ee6f6b95705c6de04d3a5cea45c16194d5d44808202bbc9add7077de"
+        },
+        {
+          "documentId": "text00588",
+          "href": "OEBPS/text00588.html",
+          "paragraphs": 65,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "eb18dcdf5a301c1fa49fe60210a3c2a1b6eef7be4dbcb18570eac396bbbe3685"
+        },
+        {
+          "documentId": "text00589",
+          "href": "OEBPS/text00589.html",
+          "paragraphs": 58,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "8468ba9876717dc2d82ea24b49180a7b991443746127c4032d8286435e48c9b2"
+        },
+        {
+          "documentId": "text00590",
+          "href": "OEBPS/text00590.html",
+          "paragraphs": 52,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "935a35f419e1dc5a76943898c666aa1f250a584a7c310350a785169ecff8faba"
+        },
+        {
+          "documentId": "text00591",
+          "href": "OEBPS/text00591.html",
+          "paragraphs": 66,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "367a49d1062976c0afe5407323b05230f544fb1ef0a4270765644601a33209b3"
+        },
+        {
+          "documentId": "text00592",
+          "href": "OEBPS/text00592.html",
+          "paragraphs": 79,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "a2c24a0139eaaeee049136a2f0efb4af59e07cfe6acf9e5147be4f9064fb34d6"
+        },
+        {
+          "documentId": "text00593",
+          "href": "OEBPS/text00593.html",
+          "paragraphs": 88,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "363107a2d66e4e988bb71a0b099d78a93dd17d704815ac950edb418bfafba151"
+        },
+        {
+          "documentId": "text00594",
+          "href": "OEBPS/text00594.html",
+          "paragraphs": 62,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "2b92d3448b46aae8f98c2060c69d3e8926a0b615a4afb7a8c6465fe37a92345b"
+        },
+        {
+          "documentId": "text00595",
+          "href": "OEBPS/text00595.html",
+          "paragraphs": 59,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "e36033a0a7fbc67eb469ede78a008173929f4bd0b2e6018175c8ae0daf8e4b76"
+        },
+        {
+          "documentId": "text00596",
+          "href": "OEBPS/text00596.html",
+          "paragraphs": 74,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "921d49906e4d45dd1b2f5ab679cb816e8d82db37e2c96f149fd620677fff54e5"
+        },
+        {
+          "documentId": "text00597",
+          "href": "OEBPS/text00597.html",
+          "paragraphs": 59,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "a0adf3e3503be0812a73d29dee4d3c6f07ca406024ddd5e79be4017de3fef15f"
+        },
+        {
+          "documentId": "text00598",
+          "href": "OEBPS/text00598.html",
+          "paragraphs": 98,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "c80b95f5f295f6bf84a468c32aeb2ea027a799b375e9ea826bc00490b6012e95"
+        },
+        {
+          "documentId": "text00599",
+          "href": "OEBPS/text00599.html",
+          "paragraphs": 73,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "8cf84194c1f274bf2ea43cac161ae19c54996660c6f0de4ccd361b2ac8f97f59"
+        },
+        {
+          "documentId": "text00600",
+          "href": "OEBPS/text00600.html",
+          "paragraphs": 77,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "89b6c6e19d04f8ccae8f11d0073626b8e768480f272b68e3ba5fa0a059a06a96"
+        },
+        {
+          "documentId": "text00601",
+          "href": "OEBPS/text00601.html",
+          "paragraphs": 73,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "5879252657733ead146916c31cd68b2ae882975e07398127279d2d15495fdb14"
+        },
+        {
+          "documentId": "text00602",
+          "href": "OEBPS/text00602.html",
+          "paragraphs": 67,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "81c5df2bd7f7dad8206a7bfd494f683258a395be983da8864750b0025c72a8a0"
+        },
+        {
+          "documentId": "text00603",
+          "href": "OEBPS/text00603.html",
+          "paragraphs": 54,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "cee54e27b991f61db3bc05bcf6194bc212b86c803d5fee228e98b9c5ef128a2d"
+        },
+        {
+          "documentId": "text00604",
+          "href": "OEBPS/text00604.html",
+          "paragraphs": 74,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "dbbd92eeeb62024546091376943571ce973aed55ef151201e2793f4dad4367f2"
+        },
+        {
+          "documentId": "text00605",
+          "href": "OEBPS/text00605.html",
+          "paragraphs": 65,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "6ad69f3a78e6b056f53e652c870fa05d8dfd56ea38d38e2602558e454e759182"
+        },
+        {
+          "documentId": "text00606",
+          "href": "OEBPS/text00606.html",
+          "paragraphs": 99,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "91498eb6db6da16717c59960684e1c8d589e6ea296621ea375c2143550f19f0d"
+        },
+        {
+          "documentId": "text00607",
+          "href": "OEBPS/text00607.html",
+          "paragraphs": 60,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "2fdb4a132c126efbdf36fda2d1513065de9ba35dc04ad7dcdb7ba1699310102c"
+        },
+        {
+          "documentId": "text00608",
+          "href": "OEBPS/text00608.html",
+          "paragraphs": 63,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "a076a9a363a61eec08a897679a8b8d5e0c4a3fe17f3e22d9d744249bd162e927"
+        },
+        {
+          "documentId": "text00609",
+          "href": "OEBPS/text00609.html",
+          "paragraphs": 65,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "ba92fcc69167e1fcf8fbfcb3b56f7fd0f2fdd388f484db0ea283ca08c35ab443"
+        },
+        {
+          "documentId": "text00610",
+          "href": "OEBPS/text00610.html",
+          "paragraphs": 64,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "f2e0eed6eed4eed6e60663158e27e1994713f93b2e8d914dbd6973c510e6038e"
+        },
+        {
+          "documentId": "text00611",
+          "href": "OEBPS/text00611.html",
+          "paragraphs": 78,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "e4325ffe5a7e13d7a0e3fed344a047607fedcda9fbcf5629be946a1982c99e09"
+        },
+        {
+          "documentId": "text00612",
+          "href": "OEBPS/text00612.html",
+          "paragraphs": 77,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "40f9971b83b419b82680a1d6c2b0d7a3d02b931da849fe23998f8cb7d405a848"
+        },
+        {
+          "documentId": "text00613",
+          "href": "OEBPS/text00613.html",
+          "paragraphs": 45,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "e1b6c2cf87dfa560485cf3322cb31e59fe771f1ad0c5e24ba929603e6d40346e"
+        },
+        {
+          "documentId": "text00614",
+          "href": "OEBPS/text00614.html",
+          "paragraphs": 63,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "bc5fd693b8f9a67e180704ac0ec23a92abfb529c451fa15b096a7a0dadca0908"
+        },
+        {
+          "documentId": "text00615",
+          "href": "OEBPS/text00615.html",
+          "paragraphs": 51,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "4e22bd76c648449b9d1484a87e0aa5582f92e6b5a570635ae88e022bb549bc01"
+        },
+        {
+          "documentId": "text00616",
+          "href": "OEBPS/text00616.html",
+          "paragraphs": 47,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "78025e3ff6b936ff54cb031518f2a67f252ebc1db16e1fe533c46300f649864a"
+        },
+        {
+          "documentId": "text00617",
+          "href": "OEBPS/text00617.html",
+          "paragraphs": 53,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "a249ffff44d74329b6992ac88a9be0c0fe1424fb74deb24568f3b2ae07ed4011"
+        },
+        {
+          "documentId": "text00618",
+          "href": "OEBPS/text00618.html",
+          "paragraphs": 97,
+          "readRange": null,
+          "status": "not_started",
+          "sourceDocumentSha256": "a1683ed5060d16d9c9c2771e46018fc42213bf2991f6aa77c34a99fd5ab4d786"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {
+        "reading-progress.json": {
+          "runId": "batch-a-20261024-01",
+          "bookId": "20",
+          "status": "not_started",
+          "reason": "用户收窄为可继承文件与共享证据库，在开始本书前停止",
+          "resumeAt": {
+            "documentId": "text00581",
+            "href": "OEBPS/text00581.html",
+            "path": "source/text00581.txt",
+            "paragraph": null,
+            "note": "从manifest第一项开始核对；此项为空文档，尚未标记已读。",
+            "firstNonemptyDocumentId": "text00582",
+            "firstNonemptyParagraph": "p0001"
+          },
+          "completedDocuments": [],
+          "readButUnrecorded": [],
+          "nextResponsibleRole": "researcher"
+        }
+      },
+      "handoff": "books/20/handoff.json"
+    },
+    {
+      "bookId": "21",
+      "title": "战争罪行",
+      "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+      "status": "completed",
+      "manifest": "books/21/manifest.json",
+      "evidence": "books/21/evidence.json",
+      "entryCount": 42,
+      "coverage": [
+        {
+          "documentId": "text00619",
+          "paragraphs": 0,
+          "status": "read_complete",
+          "readRange": "empty_document"
+        },
+        {
+          "documentId": "text00620",
+          "paragraphs": 7,
+          "status": "read_complete",
+          "readRange": "p0001-p0007"
+        },
+        {
+          "documentId": "text00621",
+          "paragraphs": 45,
+          "status": "read_complete",
+          "readRange": "p0001-p0045"
+        },
+        {
+          "documentId": "text00622",
+          "paragraphs": 12,
+          "status": "read_complete",
+          "readRange": "p0001-p0012"
+        },
+        {
+          "documentId": "text00623",
+          "paragraphs": 21,
+          "status": "read_complete",
+          "readRange": "p0001-p0021"
+        },
+        {
+          "documentId": "text00624",
+          "paragraphs": 43,
+          "status": "read_complete",
+          "readRange": "p0001-p0043"
+        },
+        {
+          "documentId": "text00625",
+          "paragraphs": 108,
+          "status": "read_complete",
+          "readRange": "p0001-p0108"
+        },
+        {
+          "documentId": "text00626",
+          "paragraphs": 77,
+          "status": "read_complete",
+          "readRange": "p0001-p0077"
+        },
+        {
+          "documentId": "text00627",
+          "paragraphs": 77,
+          "status": "read_complete",
+          "readRange": "p0001-p0077"
+        },
+        {
+          "documentId": "text00628",
+          "paragraphs": 60,
+          "status": "read_complete",
+          "readRange": "p0001-p0060"
+        },
+        {
+          "documentId": "text00629",
+          "paragraphs": 63,
+          "status": "read_complete",
+          "readRange": "p0001-p0063"
+        },
+        {
+          "documentId": "text00630",
+          "paragraphs": 90,
+          "status": "read_complete",
+          "readRange": "p0001-p0090"
+        },
+        {
+          "documentId": "text00631",
+          "paragraphs": 91,
+          "status": "read_complete",
+          "readRange": "p0001-p0091"
+        },
+        {
+          "documentId": "text00632",
+          "paragraphs": 74,
+          "status": "read_complete",
+          "readRange": "p0001-p0074"
+        },
+        {
+          "documentId": "text00633",
+          "paragraphs": 131,
+          "status": "read_complete",
+          "readRange": "p0001-p0131"
+        },
+        {
+          "documentId": "text00634",
+          "paragraphs": 100,
+          "status": "read_complete",
+          "readRange": "p0001-p0100"
+        },
+        {
+          "documentId": "text00635",
+          "paragraphs": 89,
+          "status": "read_complete",
+          "readRange": "p0001-p0089"
+        },
+        {
+          "documentId": "text00636",
+          "paragraphs": 113,
+          "status": "read_complete",
+          "readRange": "p0001-p0113"
+        },
+        {
+          "documentId": "text00637",
+          "paragraphs": 73,
+          "status": "read_complete",
+          "readRange": "p0001-p0073"
+        },
+        {
+          "documentId": "text00638",
+          "paragraphs": 109,
+          "status": "read_complete",
+          "readRange": "p0001-p0109"
+        },
+        {
+          "documentId": "text00639",
+          "paragraphs": 42,
+          "status": "read_complete",
+          "readRange": "p0001-p0042"
+        },
+        {
+          "documentId": "text00640",
+          "paragraphs": 94,
+          "status": "read_complete",
+          "readRange": "p0001-p0094"
+        },
+        {
+          "documentId": "text00641",
+          "paragraphs": 98,
+          "status": "read_complete",
+          "readRange": "p0001-p0098"
+        },
+        {
+          "documentId": "text00642",
+          "paragraphs": 123,
+          "status": "read_complete",
+          "readRange": "p0001-p0123"
+        },
+        {
+          "documentId": "text00643",
+          "paragraphs": 50,
+          "status": "read_complete",
+          "readRange": "p0001-p0050"
+        },
+        {
+          "documentId": "text00644",
+          "paragraphs": 84,
+          "status": "read_complete",
+          "readRange": "p0001-p0084"
+        },
+        {
+          "documentId": "text00645",
+          "paragraphs": 87,
+          "status": "read_complete",
+          "readRange": "p0001-p0087"
+        },
+        {
+          "documentId": "text00646",
+          "paragraphs": 75,
+          "status": "read_complete",
+          "readRange": "p0001-p0075"
+        },
+        {
+          "documentId": "text00647",
+          "paragraphs": 86,
+          "status": "read_complete",
+          "readRange": "p0001-p0086"
+        },
+        {
+          "documentId": "text00648",
+          "paragraphs": 83,
+          "status": "read_complete",
+          "readRange": "p0001-p0083"
+        },
+        {
+          "documentId": "text00649",
+          "paragraphs": 57,
+          "status": "read_complete",
+          "readRange": "p0001-p0057"
+        },
+        {
+          "documentId": "text00650",
+          "paragraphs": 54,
+          "status": "read_complete",
+          "readRange": "p0001-p0054"
+        },
+        {
+          "documentId": "text00651",
+          "paragraphs": 112,
+          "status": "read_complete",
+          "readRange": "p0001-p0112"
+        },
+        {
+          "documentId": "text00652",
+          "paragraphs": 107,
+          "status": "read_complete",
+          "readRange": "p0001-p0107"
+        },
+        {
+          "documentId": "text00653",
+          "paragraphs": 113,
+          "status": "read_complete",
+          "readRange": "p0001-p0113"
+        },
+        {
+          "documentId": "text00654",
+          "paragraphs": 46,
+          "status": "read_complete",
+          "readRange": "p0001-p0046"
+        },
+        {
+          "documentId": "text00655",
+          "paragraphs": 48,
+          "status": "read_complete",
+          "readRange": "p0001-p0048"
+        },
+        {
+          "documentId": "text00656",
+          "paragraphs": 109,
+          "status": "read_complete",
+          "readRange": "p0001-p0109"
+        },
+        {
+          "documentId": "text00657",
+          "paragraphs": 73,
+          "status": "read_complete",
+          "readRange": "p0001-p0073"
+        },
+        {
+          "documentId": "text00658",
+          "paragraphs": 80,
+          "status": "read_complete",
+          "readRange": "p0001-p0080"
+        },
+        {
+          "documentId": "text00659",
+          "paragraphs": 90,
+          "status": "read_complete",
+          "readRange": "p0001-p0090"
+        },
+        {
+          "documentId": "text00660",
+          "paragraphs": 52,
+          "status": "read_complete",
+          "readRange": "p0001-p0052"
+        },
+        {
+          "documentId": "text00661",
+          "paragraphs": 15,
+          "status": "read_complete",
+          "readRange": "p0001-p0015"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": null,
+      "progress": {},
+      "handoff": "books/21/handoff.json"
+    },
+    {
+      "bookId": "24",
+      "title": "魔兽编年史 卷一",
+      "sourceSha256": "7be225f815be01fb8ab261fb4723cf4eb06f6b087e2ceb152e3234ca18267815",
+      "status": "scoped_reference_read",
+      "manifest": "books/24/manifest.json",
+      "evidence": "books/24/evidence.json",
+      "entryCount": 9,
+      "coverage": [
+        {
+          "documentId": "text00773",
+          "firstRef": "text00773:p0001",
+          "lastRef": "text00773:p0012",
+          "status": "read"
+        },
+        {
+          "documentId": "text00774",
+          "firstRef": "text00774:p0001",
+          "lastRef": "text00774:p0019",
+          "status": "read"
+        },
+        {
+          "documentId": "text00775",
+          "firstRef": "text00775:p0001",
+          "lastRef": "text00775:p0016",
+          "status": "read"
+        },
+        {
+          "documentId": "text00776",
+          "firstRef": "text00776:p0001",
+          "lastRef": "text00776:p0009",
+          "status": "read"
+        },
+        {
+          "documentId": "text00777",
+          "firstRef": "text00777:p0001",
+          "lastRef": "text00777:p0013",
+          "status": "read"
+        },
+        {
+          "documentId": "text00778",
+          "firstRef": "text00778:p0001",
+          "lastRef": "text00778:p0008",
+          "status": "read"
+        },
+        {
+          "documentId": "text00779",
+          "firstRef": "text00779:p0001",
+          "lastRef": "text00779:p0019",
+          "status": "read"
+        },
+        {
+          "documentId": "text00782",
+          "firstRef": "text00782:p0001",
+          "lastRef": "text00782:p0014",
+          "status": "read"
+        },
+        {
+          "documentId": "text00783",
+          "firstRef": "text00783:p0001",
+          "lastRef": "text00783:p0009",
+          "status": "read"
+        },
+        {
+          "documentId": "text00784",
+          "firstRef": "text00784:p0001",
+          "lastRef": "text00784:p0008",
+          "status": "read"
+        },
+        {
+          "documentId": "text00785",
+          "firstRef": "text00785:p0001",
+          "lastRef": "text00785:p0015",
+          "status": "read"
+        },
+        {
+          "documentId": "text00786",
+          "firstRef": "text00786:p0001",
+          "lastRef": "text00786:p0008",
+          "status": "read"
+        },
+        {
+          "documentId": "text00789",
+          "firstRef": "text00789:p0001",
+          "lastRef": "text00789:p0012",
+          "status": "read"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": "selected_complete_sections_not_whole_book",
+      "progress": {},
+      "handoff": null
+    },
+    {
+      "bookId": "25",
+      "title": "魔兽编年史 卷二",
+      "sourceSha256": "ddf8090a9779db34ad388e1b3b2fd7cc2e210bbcf6f49b8d0b929e0bc2787739",
+      "status": "scoped_reference_read",
+      "manifest": "books/25/manifest.json",
+      "evidence": "books/25/evidence.json",
+      "entryCount": 10,
+      "coverage": null,
+      "readRefs": [
+        "text00814:p0039",
+        "text00814:p0040",
+        "text00814:p0041",
+        "text00819:p0168",
+        "text00819:p0169",
+        "text00819:p0170",
+        "text00819:p0171",
+        "text00819:p0172",
+        "text00819:p0173",
+        "text00819:p0174",
+        "text00819:p0175",
+        "text00819:p0176",
+        "text00819:p0177",
+        "text00819:p0178",
+        "text00819:p0179",
+        "text00819:p0180",
+        "text00820:p0040",
+        "text00820:p0041",
+        "text00820:p0042",
+        "text00820:p0051",
+        "text00820:p0052",
+        "text00820:p0053",
+        "text00820:p0055",
+        "text00820:p0056",
+        "text00820:p0057",
+        "text00820:p0083",
+        "text00820:p0084",
+        "text00820:p0085",
+        "text00820:p0086",
+        "text00820:p0123",
+        "text00820:p0124",
+        "text00820:p0125",
+        "text00820:p0126",
+        "text00820:p0129",
+        "text00820:p0130",
+        "text00820:p0131",
+        "text00820:p0132",
+        "text00820:p0133",
+        "text00820:p0192",
+        "text00820:p0193",
+        "text00820:p0194",
+        "text00820:p0195",
+        "text00820:p0196",
+        "text00820:p0197",
+        "text00820:p0202",
+        "text00820:p0203",
+        "text00820:p0204",
+        "text00820:p0207",
+        "text00820:p0208",
+        "text00820:p0209",
+        "text00820:p0223",
+        "text00820:p0224",
+        "text00820:p0225",
+        "text00820:p0226",
+        "text00820:p0227",
+        "text00820:p0275",
+        "text00820:p0276",
+        "text00820:p0277",
+        "text00820:p0278",
+        "text00820:p0281",
+        "text00820:p0282",
+        "text00820:p0283",
+        "text00820:p0284",
+        "text00820:p0285",
+        "text00820:p0286",
+        "text00820:p0287",
+        "text00820:p0288",
+        "text00822:p0114",
+        "text00822:p0115",
+        "text00822:p0116",
+        "text00822:p0117",
+        "text00822:p0167",
+        "text00822:p0168",
+        "text00822:p0169",
+        "text00822:p0170",
+        "text00822:p0171",
+        "text00822:p0172",
+        "text00822:p0173",
+        "text00822:p0174",
+        "text00822:p0175",
+        "text00822:p0176",
+        "text00822:p0177",
+        "text00822:p0178",
+        "text00822:p0179",
+        "text00822:p0180",
+        "text00822:p0181",
+        "text00822:p0182",
+        "text00822:p0183",
+        "text00822:p0184",
+        "text00822:p0192",
+        "text00822:p0193",
+        "text00822:p0194",
+        "text00822:p0195",
+        "text00822:p0196",
+        "text00822:p0197",
+        "text00822:p0244",
+        "text00822:p0245",
+        "text00822:p0246",
+        "text00822:p0247",
+        "text00822:p0248",
+        "text00822:p0249",
+        "text00822:p0250",
+        "text00822:p0251",
+        "text00822:p0252",
+        "text00822:p0253",
+        "text00822:p0254",
+        "text00822:p0255",
+        "text00822:p0258",
+        "text00822:p0259",
+        "text00822:p0260",
+        "text00822:p0291",
+        "text00822:p0292",
+        "text00822:p0293",
+        "text00822:p0294",
+        "text00822:p0295",
+        "text00822:p0296",
+        "text00822:p0297",
+        "text00822:p0298",
+        "text00822:p0299",
+        "text00822:p0300",
+        "text00822:p0301",
+        "text00822:p0302",
+        "text00822:p0303",
+        "text00822:p0304",
+        "text00822:p0305",
+        "text00822:p0306",
+        "text00822:p0308",
+        "text00822:p0309",
+        "text00822:p0310",
+        "text00822:p0311",
+        "text00822:p0312",
+        "text00822:p0329",
+        "text00822:p0330",
+        "text00822:p0331",
+        "text00822:p0335",
+        "text00822:p0336",
+        "text00822:p0337",
+        "text00822:p0338",
+        "text00822:p0343",
+        "text00822:p0344",
+        "text00822:p0345",
+        "text00822:p0386",
+        "text00822:p0387",
+        "text00822:p0388",
+        "text00823:p0131",
+        "text00823:p0132",
+        "text00823:p0133",
+        "text00823:p0291",
+        "text00823:p0292",
+        "text00823:p0293",
+        "text00823:p0297",
+        "text00823:p0298",
+        "text00823:p0299",
+        "text00823:p0334",
+        "text00823:p0335",
+        "text00823:p0336",
+        "text00823:p0337",
+        "text00823:p0338",
+        "text00823:p0339",
+        "text00823:p0340",
+        "text00824:p0020",
+        "text00824:p0021",
+        "text00824:p0022",
+        "text00824:p0023",
+        "text00824:p0024",
+        "text00824:p0025",
+        "text00824:p0026",
+        "text00824:p0027",
+        "text00824:p0028",
+        "text00824:p0029",
+        "text00824:p0030",
+        "text00824:p0031",
+        "text00824:p0032",
+        "text00824:p0033",
+        "text00824:p0035",
+        "text00824:p0036",
+        "text00824:p0037",
+        "text00824:p0063",
+        "text00824:p0064",
+        "text00824:p0065",
+        "text00824:p0067",
+        "text00824:p0068",
+        "text00824:p0069",
+        "text00824:p0070",
+        "text00824:p0071",
+        "text00824:p0076",
+        "text00824:p0077",
+        "text00824:p0078",
+        "text00824:p0085",
+        "text00824:p0086",
+        "text00824:p0087",
+        "text00824:p0093",
+        "text00824:p0094",
+        "text00824:p0095",
+        "text00824:p0096",
+        "text00824:p0097",
+        "text00824:p0098",
+        "text00824:p0099",
+        "text00824:p0100",
+        "text00824:p0101",
+        "text00824:p0111",
+        "text00824:p0112",
+        "text00824:p0113",
+        "text00824:p0114",
+        "text00824:p0115",
+        "text00824:p0116",
+        "text00824:p0117",
+        "text00824:p0135",
+        "text00824:p0136",
+        "text00824:p0137",
+        "text00824:p0138",
+        "text00824:p0139",
+        "text00824:p0140",
+        "text00824:p0141",
+        "text00824:p0142",
+        "text00824:p0144",
+        "text00824:p0145",
+        "text00824:p0146",
+        "text00824:p0147",
+        "text00824:p0148",
+        "text00824:p0149",
+        "text00824:p0151",
+        "text00824:p0152",
+        "text00824:p0153",
+        "text00824:p0154",
+        "text00824:p0155",
+        "text00824:p0156",
+        "text00824:p0157",
+        "text00824:p0158",
+        "text00824:p0160",
+        "text00824:p0161",
+        "text00824:p0162",
+        "text00824:p0163",
+        "text00824:p0164",
+        "text00824:p0175",
+        "text00824:p0176",
+        "text00824:p0177"
+      ],
+      "coverageMode": "name_selected_passages_with_neighbor_context_not_whole_book",
+      "progress": {},
+      "handoff": null
+    },
+    {
+      "bookId": "26",
+      "title": "魔兽编年史 卷三",
+      "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+      "status": "scoped_reference_read",
+      "manifest": "books/26/manifest.json",
+      "evidence": "books/26/evidence.json",
+      "entryCount": 29,
+      "coverage": [
+        {
+          "documentId": "text00846",
+          "firstRef": "text00846:p0001",
+          "lastRef": "text00846:p0013",
+          "status": "read"
+        },
+        {
+          "documentId": "text00847",
+          "firstRef": "text00847:p0001",
+          "lastRef": "text00847:p0013",
+          "status": "read"
+        },
+        {
+          "documentId": "text00855",
+          "firstRef": "text00855:p0001",
+          "lastRef": "text00855:p0007",
+          "status": "read"
+        },
+        {
+          "documentId": "text00862",
+          "firstRef": "text00862:p0001",
+          "lastRef": "text00862:p0013",
+          "status": "read"
+        },
+        {
+          "documentId": "text00869",
+          "firstRef": "text00869:p0001",
+          "lastRef": "text00869:p0011",
+          "status": "read"
+        },
+        {
+          "documentId": "text00871",
+          "firstRef": "text00871:p0001",
+          "lastRef": "text00871:p0018",
+          "status": "read"
+        },
+        {
+          "documentId": "text00876",
+          "firstRef": "text00876:p0001",
+          "lastRef": "text00876:p0010",
+          "status": "read"
+        },
+        {
+          "documentId": "text00877",
+          "firstRef": "text00877:p0001",
+          "lastRef": "text00877:p0012",
+          "status": "read"
+        },
+        {
+          "documentId": "text00879",
+          "firstRef": "text00879:p0001",
+          "lastRef": "text00879:p0014",
+          "status": "read"
+        },
+        {
+          "documentId": "text00882",
+          "firstRef": "text00882:p0001",
+          "lastRef": "text00882:p0016",
+          "status": "read"
+        },
+        {
+          "documentId": "text00903",
+          "firstRef": "text00903:p0001",
+          "lastRef": "text00903:p0009",
+          "status": "read"
+        },
+        {
+          "documentId": "text00904",
+          "firstRef": "text00904:p0001",
+          "lastRef": "text00904:p0016",
+          "status": "read"
+        },
+        {
+          "documentId": "text00907",
+          "firstRef": "text00907:p0001",
+          "lastRef": "text00907:p0008",
+          "status": "read"
+        },
+        {
+          "documentId": "text00918",
+          "firstRef": "text00918:p0001",
+          "lastRef": "text00918:p0016",
+          "status": "read"
+        },
+        {
+          "documentId": "text00942",
+          "firstRef": "text00942:p0001",
+          "lastRef": "text00942:p0015",
+          "status": "read"
+        },
+        {
+          "documentId": "text00943",
+          "firstRef": "text00943:p0001",
+          "lastRef": "text00943:p0015",
+          "status": "read"
+        },
+        {
+          "documentId": "text00947",
+          "firstRef": "text00947:p0001",
+          "lastRef": "text00947:p0013",
+          "status": "read"
+        },
+        {
+          "documentId": "text00951",
+          "firstRef": "text00951:p0001",
+          "lastRef": "text00951:p0013",
+          "status": "read"
+        },
+        {
+          "documentId": "text00952",
+          "firstRef": "text00952:p0001",
+          "lastRef": "text00952:p0013",
+          "status": "read"
+        },
+        {
+          "documentId": "text00955",
+          "firstRef": "text00955:p0001",
+          "lastRef": "text00955:p0013",
+          "status": "read"
+        },
+        {
+          "documentId": "text00956",
+          "firstRef": "text00956:p0001",
+          "lastRef": "text00956:p0023",
+          "status": "read"
+        },
+        {
+          "documentId": "text00958",
+          "firstRef": "text00958:p0001",
+          "lastRef": "text00958:p0014",
+          "status": "read"
+        },
+        {
+          "documentId": "text00961",
+          "firstRef": "text00961:p0001",
+          "lastRef": "text00961:p0013",
+          "status": "read"
+        },
+        {
+          "documentId": "text00962",
+          "firstRef": "text00962:p0001",
+          "lastRef": "text00962:p0018",
+          "status": "read"
+        },
+        {
+          "documentId": "text00963",
+          "firstRef": "text00963:p0001",
+          "lastRef": "text00963:p0011",
+          "status": "read"
+        },
+        {
+          "documentId": "text00969",
+          "firstRef": "text00969:p0001",
+          "lastRef": "text00969:p0014",
+          "status": "read"
+        },
+        {
+          "documentId": "text00972",
+          "firstRef": "text00972:p0001",
+          "lastRef": "text00972:p0022",
+          "status": "read"
+        },
+        {
+          "documentId": "text00974",
+          "firstRef": "text00974:p0001",
+          "lastRef": "text00974:p0019",
+          "status": "read"
+        },
+        {
+          "documentId": "text00975",
+          "firstRef": "text00975:p0001",
+          "lastRef": "text00975:p0018",
+          "status": "read"
+        }
+      ],
+      "readRefs": null,
+      "coverageMode": "selected_complete_sections_not_whole_book",
+      "progress": {},
+      "handoff": null
+    }
+  ]
+}

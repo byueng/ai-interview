@@ -1,0 +1,7 @@
+{
+  "epubCount": 21,
+  "documentCount": 827,
+  "mismatches": [],
+  "manifestHashMeaning": "documents.sha256 hashes original EPUB HTML bytes, not extracted TXT",
+  "manifestReadStatusMeaning": "initial extraction field; current coverage is evidence/progress"
+}

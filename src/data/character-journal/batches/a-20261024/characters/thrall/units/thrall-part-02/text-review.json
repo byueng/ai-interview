@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-02",
+  "status": "passed",
+  "reviewer": "coordinator",
+  "storySha256": "379d9db6900b5279977b7957aadc8ba52e1f85d680cd0e47319d75a68a75fcfe",
+  "subtitleCheck": {
+    "status": "passed",
+    "text": "血脉之外，学会倾听",
+    "origin": "editorial",
+    "sourceRef": null
+  },
+  "checks": [
+    "标题副标题与已批准策划一致",
+    "来源与时间线边界核对",
+    "事实与人物解读区分",
+    "未补写作品范围外结局"
+  ],
+  "publicationAuthorized": false
+}

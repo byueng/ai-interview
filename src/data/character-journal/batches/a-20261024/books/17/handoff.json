@@ -1,0 +1,41 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-17",
+  "status": "pending",
+  "role": "researcher",
+  "nextResponsibleRole": "researcher",
+  "sourceRanges": [],
+  "inputVersion": {
+    "sourceSha256": "d6b4a68b7b01458a0a17bec169b8e049e563ea33b346653768ba48abfd5e9c75",
+    "manifestSha256": "07e2fa7dac836533d687e81e1d15dc06dd0f9a1e1c0f0c0e4ded5919e4b545bd",
+    "roleProtocol": "researcher-instructions.txt; subtitle-policy v1; multi-section v1"
+  },
+  "upstreamVersion": "d6b4a68b7b01458a0a17bec169b8e049e563ea33b346653768ba48abfd5e9c75",
+  "artifactPaths": [
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\17\\evidence.json",
+    "E:\\program\\ai-interview\\src\\data\\character-journal\\batches\\a-20261024\\books\\17\\read-progress.json"
+  ],
+  "checks": {
+    "documents": 0,
+    "paragraphs": 0,
+    "facts": 0,
+    "fullRead": false,
+    "factRefsInBounds": true,
+    "readButUnrecordedEmpty": true
+  },
+  "limitations": [
+    "正文未开始阅读。用户要求只保存可继承资料，等待后续任务。"
+  ],
+  "resume": {
+    "status": "pending",
+    "stopReason": "user_scope_narrowed_to_inheritable_files",
+    "lastFullyRead": null,
+    "next": "text00481",
+    "nextParagraph": null,
+    "nextHref": "OEBPS/text00481.html",
+    "nextPath": "source/text00481.txt",
+    "emptyDocumentAction": "verify empty then advance in manifest order",
+    "readButUnrecorded": []
+  },
+  "publicationAuthorization": "research only; user now requests inheritable files only; no planning/prose/art"
+}

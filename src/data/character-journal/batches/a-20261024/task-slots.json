@@ -1,0 +1,107 @@
+{
+  "runId": "batch-a-20261024-01",
+  "status": "thrall_content_completed_unpublished",
+  "slots": [
+    {
+      "slotId": "coordinator",
+      "previousAgent": "/root",
+      "bookIds": [
+        "11",
+        "12",
+        "21",
+        "24",
+        "25",
+        "26"
+      ],
+      "status": "saved_stopped",
+      "resumeRule": "Use on-disk handoff and progress; previous agent identifiers are historical, not guaranteed resumable sessions."
+    },
+    {
+      "slotId": "reader-1",
+      "previousAgent": "/root/read_01_07",
+      "bookIds": [
+        "05",
+        "10",
+        "13",
+        "16",
+        "18"
+      ],
+      "status": "saved_stopped",
+      "resumeRule": "Use on-disk handoff and progress; previous agent identifiers are historical, not guaranteed resumable sessions."
+    },
+    {
+      "slotId": "reader-2",
+      "previousAgent": "/root/read_08_14",
+      "bookIds": [
+        "02",
+        "03",
+        "04",
+        "15",
+        "17"
+      ],
+      "status": "saved_stopped",
+      "resumeRule": "Use on-disk handoff and progress; previous agent identifiers are historical, not guaranteed resumable sessions."
+    },
+    {
+      "slotId": "reader-3",
+      "previousAgent": "/root/read_15_22",
+      "bookIds": [
+        "06",
+        "07",
+        "08",
+        "19",
+        "20"
+      ],
+      "status": "saved_stopped",
+      "resumeRule": "Use on-disk handoff and progress; previous agent identifiers are historical, not guaranteed resumable sessions."
+    }
+  ],
+  "laterRoles": {
+    "integrator": "thrall_completed",
+    "planner": "thrall_proposed_awaiting_user_review",
+    "writer": "thrall_completed",
+    "artist": "thrall_completed"
+  },
+  "currentSlots": [
+    {
+      "slotId": "coordinator",
+      "owner": "/root",
+      "scope": "final verification and user handoff",
+      "status": "completed"
+    },
+    {
+      "slotId": "integrator",
+      "owner": "/root/thrall_book13",
+      "status": "completed"
+    },
+    {
+      "slotId": "planner",
+      "owner": "/root/thrall_book16",
+      "status": "completed"
+    },
+    {
+      "slotId": "plan-review",
+      "owner": "/root/thrall_book19",
+      "status": "completed"
+    }
+  ],
+  "nextRole": "user_review",
+  "productionContributors": [
+    {
+      "agent": "/root/thrall_book13",
+      "work": "00-03正文、总览对齐、04配图和独立视觉复核"
+    },
+    {
+      "agent": "/root/thrall_book16",
+      "work": "04-07正文、跨篇校核、05-06配图"
+    },
+    {
+      "agent": "/root/thrall_book19",
+      "work": "08-11正文、跨篇校核、10-11配图"
+    },
+    {
+      "agent": "/root",
+      "work": "其余配图、定点原文核验、修正、统一集成与交接"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "runId": "batch-a-20261024-01",
+  "nextResponsibleRole": "integrator",
+  "inputVersion": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+  "sourceChunkId": "book-10-full",
+  "artifacts": [
+    "books/10/evidence.json",
+    "books/10/reading-progress.json"
+  ],
+  "role": "researcher",
+  "sourceRanges": [
+    "OEBPS/text00265.html",
+    "OEBPS/text00266.html",
+    "OEBPS/text00267.html",
+    "OEBPS/text00268.html",
+    "OEBPS/text00269.html",
+    "OEBPS/text00270.html",
+    "OEBPS/text00271.html",
+    "OEBPS/text00272.html",
+    "OEBPS/text00273.html",
+    "OEBPS/text00274.html",
+    "OEBPS/text00275.html",
+    "OEBPS/text00276.html",
+    "OEBPS/text00277.html",
+    "OEBPS/text00278.html",
+    "OEBPS/text00279.html",
+    "OEBPS/text00280.html",
+    "OEBPS/text00281.html",
+    "OEBPS/text00282.html",
+    "OEBPS/text00283.html",
+    "OEBPS/text00284.html",
+    "OEBPS/text00285.html",
+    "OEBPS/text00286.html",
+    "OEBPS/text00287.html",
+    "OEBPS/text00288.html",
+    "OEBPS/text00289.html"
+  ],
+  "status": "completed",
+  "unitId": "book-10",
+  "remainingWork": [
+    "本次收窄为可继承证据，不继续策划"
+  ],
+  "unrecordedReadMaterial": [],
+  "sourceSha256": "c679d71988514a3118634e37ff99f490b7c4043d7a731ef09333df0a8bf90285",
+  "checks": {
+    "inferenceSeparated": true,
+    "fullTextRead": true,
+    "factsTraceable": true,
+    "subtitleChecked": true,
+    "noFinalProseOrArt": true
+  }
+}

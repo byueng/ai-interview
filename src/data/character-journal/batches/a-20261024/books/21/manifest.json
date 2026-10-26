@@ -1,0 +1,396 @@
+{
+  "bookId": "21",
+  "title": "战争罪行",
+  "sourcePath": "E:\\魔兽官方小说\\21 战争罪行.epub",
+  "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+  "documents": [
+    {
+      "documentId": "text00619",
+      "href": "OEBPS/text00619.html",
+      "paragraphs": 0,
+      "characters": 0,
+      "heading": "",
+      "path": "source/text00619.txt",
+      "sha256": "1f4d9642cf2cf8714dac7ed3720b7e275684aafd9eb4ff3641e1db5be95c2b91"
+    },
+    {
+      "documentId": "text00620",
+      "href": "OEBPS/text00620.html",
+      "paragraphs": 7,
+      "characters": 209,
+      "heading": "版权信息",
+      "path": "source/text00620.txt",
+      "sha256": "41071f426630d90ecb773cef2889dbec109909ae27340f26d6845f78ddf36494"
+    },
+    {
+      "documentId": "text00621",
+      "href": "OEBPS/text00621.html",
+      "paragraphs": 45,
+      "characters": 1154,
+      "heading": "战争罪行",
+      "path": "source/text00621.txt",
+      "sha256": "dc348964fd6172fd3fd75b5e1af88aedec1886a5a4e590e1d8e32dcaa7200197"
+    },
+    {
+      "documentId": "text00622",
+      "href": "OEBPS/text00622.html",
+      "paragraphs": 12,
+      "characters": 978,
+      "heading": "➣ 导读",
+      "path": "source/text00622.txt",
+      "sha256": "a04eb23baabd8af0d809fccc5d88925c5c7c23b85ca0237e2549038a07b54360"
+    },
+    {
+      "documentId": "text00623",
+      "href": "OEBPS/text00623.html",
+      "paragraphs": 21,
+      "characters": 1940,
+      "heading": "➣ 序言",
+      "path": "source/text00623.txt",
+      "sha256": "2da4107074a05062c30a372231a0cdf29f0269f2324c42b4b2b7d8ef344cf0db"
+    },
+    {
+      "documentId": "text00624",
+      "href": "OEBPS/text00624.html",
+      "paragraphs": 43,
+      "characters": 5785,
+      "heading": "➣ 第一章",
+      "path": "source/text00624.txt",
+      "sha256": "c76d6bfea814fd9202c4f6b073a562ba90b1a09d1d39f64b406643319bba9bb2"
+    },
+    {
+      "documentId": "text00625",
+      "href": "OEBPS/text00625.html",
+      "paragraphs": 108,
+      "characters": 11105,
+      "heading": "➣ 第二章",
+      "path": "source/text00625.txt",
+      "sha256": "5f0c619207ad7acfdaf19a9016e801aac1e84d202553a9dd9d7ea8dcfda282b3"
+    },
+    {
+      "documentId": "text00626",
+      "href": "OEBPS/text00626.html",
+      "paragraphs": 77,
+      "characters": 7585,
+      "heading": "➣ 第三章",
+      "path": "source/text00626.txt",
+      "sha256": "7d6495ca7e5ad7506cd27fc5a55c105edbe9f55059623b01e0484b64d1c56593"
+    },
+    {
+      "documentId": "text00627",
+      "href": "OEBPS/text00627.html",
+      "paragraphs": 77,
+      "characters": 6809,
+      "heading": "➣ 第四章",
+      "path": "source/text00627.txt",
+      "sha256": "ff68c905d42ba4c7336dc55076ba90059752a2da5ccb86e02fafb6237c4b45b3"
+    },
+    {
+      "documentId": "text00628",
+      "href": "OEBPS/text00628.html",
+      "paragraphs": 60,
+      "characters": 7126,
+      "heading": "➣ 第五章",
+      "path": "source/text00628.txt",
+      "sha256": "1156f166a235e3b07f1be9c7a8faa3e6c82eb2674063df7c2d400214fb2bdf52"
+    },
+    {
+      "documentId": "text00629",
+      "href": "OEBPS/text00629.html",
+      "paragraphs": 63,
+      "characters": 7302,
+      "heading": "➣ 第六章",
+      "path": "source/text00629.txt",
+      "sha256": "37f37129b5e4cb39c8f9ca8e0ccb82a760b772f567b5b8af4fae3b7e4e74511d"
+    },
+    {
+      "documentId": "text00630",
+      "href": "OEBPS/text00630.html",
+      "paragraphs": 90,
+      "characters": 8778,
+      "heading": "➣ 第七章",
+      "path": "source/text00630.txt",
+      "sha256": "288bfba7ee61f818407a14569a0646f438f076efb067a776bce8d00a69e2298e"
+    },
+    {
+      "documentId": "text00631",
+      "href": "OEBPS/text00631.html",
+      "paragraphs": 91,
+      "characters": 7261,
+      "heading": "➣ 第八章",
+      "path": "source/text00631.txt",
+      "sha256": "40a79914c754ee40d9b867eb2b061bd0ceb19efc268d98e392ec7db83ac80b87"
+    },
+    {
+      "documentId": "text00632",
+      "href": "OEBPS/text00632.html",
+      "paragraphs": 74,
+      "characters": 5923,
+      "heading": "➣ 第九章",
+      "path": "source/text00632.txt",
+      "sha256": "98354019d9717b55427a0c8f4838263bf7e93da0bb6fabf6b25d901d45305eb0"
+    },
+    {
+      "documentId": "text00633",
+      "href": "OEBPS/text00633.html",
+      "paragraphs": 131,
+      "characters": 10086,
+      "heading": "➣ 第十章",
+      "path": "source/text00633.txt",
+      "sha256": "697c885ca5095f80c4933c1c61f47619c051bb85bebc817e462b2b746fdb6378"
+    },
+    {
+      "documentId": "text00634",
+      "href": "OEBPS/text00634.html",
+      "paragraphs": 100,
+      "characters": 9325,
+      "heading": "➣ 第十一章",
+      "path": "source/text00634.txt",
+      "sha256": "af740835841699cada38713d805670d409dda302b32a615d52c9bb253ef7ab98"
+    },
+    {
+      "documentId": "text00635",
+      "href": "OEBPS/text00635.html",
+      "paragraphs": 89,
+      "characters": 7449,
+      "heading": "➣ 第十二章",
+      "path": "source/text00635.txt",
+      "sha256": "9ae17cffa18dc7793a61b26d0d02e1f70cd709c76e112fff035e147b5bf59f23"
+    },
+    {
+      "documentId": "text00636",
+      "href": "OEBPS/text00636.html",
+      "paragraphs": 113,
+      "characters": 9032,
+      "heading": "➣ 第十三章",
+      "path": "source/text00636.txt",
+      "sha256": "8d741c7899d67dee6f1c26b7a220e26adc4789ad818bb1f18606a5e8476c3371"
+    },
+    {
+      "documentId": "text00637",
+      "href": "OEBPS/text00637.html",
+      "paragraphs": 73,
+      "characters": 6216,
+      "heading": "➣ 第十四章",
+      "path": "source/text00637.txt",
+      "sha256": "1aff4605d104794049e7c7ed06ee55b6ed16e88ed10a1b3c7691b6ea872e9306"
+    },
+    {
+      "documentId": "text00638",
+      "href": "OEBPS/text00638.html",
+      "paragraphs": 109,
+      "characters": 7914,
+      "heading": "➣ 第十五章",
+      "path": "source/text00638.txt",
+      "sha256": "46c7ec82b3ddc1ae19bcf85db4a92b67a29f34bb00c41736b57a8f13a0a190b7"
+    },
+    {
+      "documentId": "text00639",
+      "href": "OEBPS/text00639.html",
+      "paragraphs": 42,
+      "characters": 3050,
+      "heading": "➣ 第十六章",
+      "path": "source/text00639.txt",
+      "sha256": "24720d50a43de26de9119aa6df46987ad1fb7bb88762b59c8597b6b38377d92d"
+    },
+    {
+      "documentId": "text00640",
+      "href": "OEBPS/text00640.html",
+      "paragraphs": 94,
+      "characters": 8457,
+      "heading": "➣ 第十七章",
+      "path": "source/text00640.txt",
+      "sha256": "880178f26c85924e9f60662fca6e6e2f2dad117ea9c7ee7ba17a7b4000d386ea"
+    },
+    {
+      "documentId": "text00641",
+      "href": "OEBPS/text00641.html",
+      "paragraphs": 98,
+      "characters": 7307,
+      "heading": "➣ 第十八章",
+      "path": "source/text00641.txt",
+      "sha256": "809509694c30a9f05735fc00a39ebe221857788f27ab654329a0d5730e85d9ab"
+    },
+    {
+      "documentId": "text00642",
+      "href": "OEBPS/text00642.html",
+      "paragraphs": 123,
+      "characters": 10587,
+      "heading": "➣ 第十九章",
+      "path": "source/text00642.txt",
+      "sha256": "a2dc172c67347ed6b906a2d5077b82bb13405cc788c6edc81e26fd0160d6dcdb"
+    },
+    {
+      "documentId": "text00643",
+      "href": "OEBPS/text00643.html",
+      "paragraphs": 50,
+      "characters": 4628,
+      "heading": "➣ 第二十章",
+      "path": "source/text00643.txt",
+      "sha256": "d9557cf682cb73b56e8667e7493bef57ee9b55b6937cb8118d872bdb8f353ee8"
+    },
+    {
+      "documentId": "text00644",
+      "href": "OEBPS/text00644.html",
+      "paragraphs": 84,
+      "characters": 6433,
+      "heading": "➣ 第二十一章",
+      "path": "source/text00644.txt",
+      "sha256": "9730499185c53215a683c17ce8c9aad8cce9fb73d6cab84b0e54cae79bb3e2f4"
+    },
+    {
+      "documentId": "text00645",
+      "href": "OEBPS/text00645.html",
+      "paragraphs": 87,
+      "characters": 6625,
+      "heading": "➣ 第二十二章",
+      "path": "source/text00645.txt",
+      "sha256": "22525d9cbc71a037100e039d25a40b9672772bc7f45229270890b530c7ee95b1"
+    },
+    {
+      "documentId": "text00646",
+      "href": "OEBPS/text00646.html",
+      "paragraphs": 75,
+      "characters": 6225,
+      "heading": "➣ 第二十三章",
+      "path": "source/text00646.txt",
+      "sha256": "fd4ec91aedbcc28251989de50c19f623c266e7eb767ea115fc5cbe0927b51495"
+    },
+    {
+      "documentId": "text00647",
+      "href": "OEBPS/text00647.html",
+      "paragraphs": 86,
+      "characters": 6520,
+      "heading": "➣ 第二十四章",
+      "path": "source/text00647.txt",
+      "sha256": "8ec080a6ca3fe4bf6ff960eb740f66048402df44c4d39695db0728361b0806e6"
+    },
+    {
+      "documentId": "text00648",
+      "href": "OEBPS/text00648.html",
+      "paragraphs": 83,
+      "characters": 5791,
+      "heading": "➣ 第二十五章",
+      "path": "source/text00648.txt",
+      "sha256": "d89898e8feb411764560d61e95183d1ac34c2e8511ebeff7c727ca4db4a1a988"
+    },
+    {
+      "documentId": "text00649",
+      "href": "OEBPS/text00649.html",
+      "paragraphs": 57,
+      "characters": 4307,
+      "heading": "➣ 第二十六章",
+      "path": "source/text00649.txt",
+      "sha256": "bd1299808f9637e6277c9abf8a2e3ae1683bc3af818891f59d9226d3f6ec3172"
+    },
+    {
+      "documentId": "text00650",
+      "href": "OEBPS/text00650.html",
+      "paragraphs": 54,
+      "characters": 4295,
+      "heading": "➣ 第二十七章",
+      "path": "source/text00650.txt",
+      "sha256": "b0b9549e57452daa58062d2e5094cffa4ed22021d9cd4252578b32fa807b6e57"
+    },
+    {
+      "documentId": "text00651",
+      "href": "OEBPS/text00651.html",
+      "paragraphs": 112,
+      "characters": 9230,
+      "heading": "➣ 第二十八章",
+      "path": "source/text00651.txt",
+      "sha256": "05e41cc02e5a946c50022dc875d88b4d22e8a8011fc63da8d0bcc350d7318615"
+    },
+    {
+      "documentId": "text00652",
+      "href": "OEBPS/text00652.html",
+      "paragraphs": 107,
+      "characters": 8552,
+      "heading": "➣ 第二十九章",
+      "path": "source/text00652.txt",
+      "sha256": "2c76a974613c92521a5d9a0098e1e1ccb3fba03a853f40ecf7facc23e063b255"
+    },
+    {
+      "documentId": "text00653",
+      "href": "OEBPS/text00653.html",
+      "paragraphs": 113,
+      "characters": 8100,
+      "heading": "➣ 第三十章",
+      "path": "source/text00653.txt",
+      "sha256": "de7af7540e32305bbb8ee1548bc1d270c67a36ba92a58da0465db04ce7bf31b6"
+    },
+    {
+      "documentId": "text00654",
+      "href": "OEBPS/text00654.html",
+      "paragraphs": 46,
+      "characters": 5355,
+      "heading": "➣ 第三十一章",
+      "path": "source/text00654.txt",
+      "sha256": "b0b158b0eab5df634ac454ea7a9286de4426de2215b5c63ee1c03bf46e9ee824"
+    },
+    {
+      "documentId": "text00655",
+      "href": "OEBPS/text00655.html",
+      "paragraphs": 48,
+      "characters": 4910,
+      "heading": "➣ 第三十二章",
+      "path": "source/text00655.txt",
+      "sha256": "d97e61f7806d435ae73043e8639eef236d6d214f6e861413a1dc9bd2d286d363"
+    },
+    {
+      "documentId": "text00656",
+      "href": "OEBPS/text00656.html",
+      "paragraphs": 109,
+      "characters": 9588,
+      "heading": "➣ 第三十三章",
+      "path": "source/text00656.txt",
+      "sha256": "24a2106c5ddc0b35931c3500a0fbabc4261f16ea219285ebf80ad6f8a797ae79"
+    },
+    {
+      "documentId": "text00657",
+      "href": "OEBPS/text00657.html",
+      "paragraphs": 73,
+      "characters": 6701,
+      "heading": "➣ 第三十四章",
+      "path": "source/text00657.txt",
+      "sha256": "3d69ce48d9bd92a86a53fcca431274fea5f285b345da48bda1ff123d09386d16"
+    },
+    {
+      "documentId": "text00658",
+      "href": "OEBPS/text00658.html",
+      "paragraphs": 80,
+      "characters": 7837,
+      "heading": "➣ 第三十五章",
+      "path": "source/text00658.txt",
+      "sha256": "959eb1b81f1081a28965f3533eea8a213141441aed16c2a0c2f276c46cfc8e7c"
+    },
+    {
+      "documentId": "text00659",
+      "href": "OEBPS/text00659.html",
+      "paragraphs": 90,
+      "characters": 8504,
+      "heading": "➣ 第三十六章",
+      "path": "source/text00659.txt",
+      "sha256": "6859620f0de8bc2ce7be8d7345371238144a562f5e97c2993578d8536834366b"
+    },
+    {
+      "documentId": "text00660",
+      "href": "OEBPS/text00660.html",
+      "paragraphs": 52,
+      "characters": 6151,
+      "heading": "➣ 第三十七章",
+      "path": "source/text00660.txt",
+      "sha256": "04b5694be8c67a1a2d0512ed251d1e915a536965dcad1949f3c0afa3ab772431"
+    },
+    {
+      "documentId": "text00661",
+      "href": "OEBPS/text00661.html",
+      "paragraphs": 15,
+      "characters": 1153,
+      "heading": "➣ 尾声",
+      "path": "source/text00661.txt",
+      "sha256": "1954e710888787ff855520423c7d0d9235361e0996fc743fdc6d0b84938f1aa1"
+    }
+  ],
+  "readStatus": "pending"
+}

@@ -1,0 +1,50 @@
+{
+  "unitId": "thrall-part-06",
+  "subtitle": {
+    "text": "大地将会哭泣……",
+    "origin": "original",
+    "sourceRef": {
+      "bookId": "16",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "ref": "text00444:p0001",
+      "version": "王坚译，新星出版社2019版"
+    },
+    "selectionReason": "采用16号上篇原题，主事件和取材均在第一至十六章。",
+    "reviewStatus": "approved"
+  },
+  "storySha256": "839a4c832e46ca2537cd35f78cbd0feb23b5b1ea65ede88d3904d035c9762656",
+  "artScene": {
+    "scene": "凯恩明确反对加尔鲁什任命，萨尔坚持决定，两位老友最后不欢而散的谈话。",
+    "sourceRefs": [
+      "16/text00459:p0019-p0049"
+    ],
+    "clothingAndWeapons": "灾变前大酋长阶段，不能棕袍念珠；不得添加破碎符文之矛或丧葬物。该段证据未单列服装武器细节，采用面部与上身的争论场面，不画拔刀或决斗；具体铠甲装饰未经补核不作剧情主张。",
+    "mood": "焦虑、防御姿态与老友失望，冲突未到悲丧。",
+    "visualLimits": [
+      "加尔鲁什未确认在该谈话场景出现，不添加",
+      "不在天空加入死亡之翼、毒药等尚未知情后果",
+      "副标题用作语义指导，不能在图中写字"
+    ],
+    "medium": "一张完整的中世纪彩绘玻璃作品；铅条分隔玻璃色块，不是普通绘画叠加窗框",
+    "imageMode": "chapter_scene",
+    "subtitle": {
+      "text": "大地将会哭泣……",
+      "origin": "original",
+      "sourceRef": {
+        "bookId": "16",
+        "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+        "ref": "text00444:p0001",
+        "version": "王坚译，新星出版社2019版"
+      },
+      "selectionReason": "采用16号上篇原题，主事件和取材均在第一至十六章。",
+      "reviewStatus": "pending"
+    },
+    "embeddedText": false,
+    "status": "scene_proposal_for_art_director_not_generated"
+  },
+  "style": "中世纪彩绘玻璃；面孔、人物和全环境均为玻璃铅条；无嵌入文字",
+  "sourceUncertainty": "未被原文限定的衣纹、色样、取景与布景属艺术处理，不作为史实",
+  "status": "approved_for_generation",
+  "prompt": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 大地将会哭泣……. One tense conversation: Thrall and Cairne Bloodhoof disagree over Thrall's appointment of Garrosh. Thrall green orc, blue eyes, black braids, understated dark plate shoulders, defensive troubled face. Cairne elderly tauren with broad bovine muzzle, horns, brown fur and modest beads, disappointed but resolute. Waist-up two-person composition OUTDOORS at NIGHT in Orgrimmar beside a tall dead tree bearing an old massive demon skull trophy and fragments of demon armor, Cairne with folded arms, no other characters. No weapons drawn, no poison, no dead Cairne, no Deathwing prophecy in sky, no later shaman robe. Dim amber torchlight against deep blue night shadows. Theme how a leader can fail to hear a trusted warning.",
+  "targetedVerification": "已定点核对原文场景位置、时段及动作，提示词优先于初始scene提案中的宽泛布景。"
+}

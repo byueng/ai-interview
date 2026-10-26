@@ -1,0 +1,538 @@
+{
+  "runId": "batch-a-20261024-01",
+  "characterId": "thrall",
+  "role": "writer",
+  "scopeId": "thrall-parts-04-07",
+  "status": "drafts_completed_pending_review",
+  "authorization": "协调员传达用户已批准策划并授权正文配图；上游旧proposed字段未由本角色改动。",
+  "inputHashes": {
+    "publication-plan.json": "f128d35124e596cad32257138ef2e73f948628fbf1f9339f3eea11200a1cb315",
+    "integration.json": "278e0f6b566748d5478dcfa756ad63819a7e0f55b28a4e21babc3c5ab03b0f30"
+  },
+  "units": [
+    {
+      "unitId": "thrall-part-04",
+      "draftPath": "characters/thrall/drafts/04.txt",
+      "title": "让部落拥有家园",
+      "subtitle": {
+        "text": "盟友使一个民族走向共同体",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "sourceRanges": [
+        {
+          "bookId": "26",
+          "sourceTitle": "魔兽编年史 卷三",
+          "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+          "sourceType": "chronicle_selected_sections",
+          "refs": [
+            "text00855:p0001-p0007",
+            "text00862:p0001-p0013",
+            "text00871:p0001-p0018",
+            "text00876:p0001-p0010",
+            "text00877:p0001-p0012",
+            "text00882:p0001-p0016"
+          ],
+          "evidenceId": "thrall-event-10",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "26",
+          "sourceTitle": "魔兽编年史 卷三",
+          "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+          "sourceType": "chronicle_selected_sections",
+          "refs": [
+            "text00903:p0001-p0009",
+            "text00904:p0001-p0016"
+          ],
+          "evidenceId": "thrall-event-11",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "13",
+          "sourceTitle": "仇恨之轮",
+          "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00340:p0003-p0016"
+          ],
+          "evidenceId": "thrall-event-11",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ],
+      "keyFacts": [
+        {
+          "evidenceId": "thrall-event-10",
+          "event": "接受先知警告跨海；与暗矛、牛头人建立盟约，在先知促成下与吉安娜合作，参与营救格罗玛什和对抗玛诺洛斯、联合海加尔防御。",
+          "classification": "integrated_source_facts",
+          "boundary": "编年史已读小节支持阶段概述；不得独占格罗玛什、吉安娜、玛法里奥及联军功绩，不扩写未证战场细节。"
+        },
+        {
+          "evidenceId": "thrall-event-11",
+          "event": "建立杜隆塔尔、奥格瑞玛；部落击败戴林入侵，吉安娜为守约作痛苦选择；多族共处开始成为日常治理问题。",
+          "classification": "integrated_source_facts",
+          "boundary": "戴林致命行动者13/26冲突，主叙述写部落击败，细节按26明确说明。"
+        }
+      ],
+      "evidenceIds": [
+        "thrall-event-10",
+        "thrall-event-11"
+      ],
+      "textSha256": "d1efa95f39fcecb3d2f4050e3d098fa9a861bf9fb8378d3b6843c067af48be87",
+      "hanCharacters": 937,
+      "classification": "source_based_character_commentary",
+      "interpretationPolicy": "段落中的伦理评析与比喻是作者解释；不冒充人物未记载的内心或原文对白。",
+      "selfReview": {
+        "titleSubtitleMatch": true,
+        "noInventedDialogue": true,
+        "noNewNovelReading": true,
+        "chronicleScopeHonest": true,
+        "timelineLimitsKept": true,
+        "needsIndependentTextReview": true
+      },
+      "artScene": {
+        "scene": "先知促成萨尔与吉安娜休战合作；只呈现三者会面这一有据事件，不添加签约、握手、下跪或战斗。",
+        "sourceRefs": [
+          "26/text00876:p0001-p0010"
+        ],
+        "clothingAndWeapons": "当时为大酋长阶段，不能使用灾变后棕袍与念珠。该选段证据未记录具体服装、武器持握和建筑细节，建议以上半身会面表现为主，不突出未经核实的装备；若需完整装备造型，须由协调员定点补核。",
+        "mood": "戒心尚在，合作开始；沉静、审慎的希望。",
+        "visualLimits": [
+          "不混入暗矛、牛头人或海加尔战斗形成跨事件拼贴",
+          "不写成已经签订正式盟约"
+        ],
+        "medium": "一张完整的中世纪彩绘玻璃作品；铅条分隔玻璃色块，不是普通绘画叠加窗框",
+        "imageMode": "chapter_scene",
+        "subtitle": {
+          "text": "盟友使一个民族走向共同体",
+          "origin": "editorial",
+          "sourceRef": null,
+          "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+          "reviewStatus": "pending"
+        },
+        "embeddedText": false,
+        "status": "scene_proposal_for_art_director_not_generated"
+      }
+    },
+    {
+      "unitId": "thrall-part-05",
+      "draftPath": "characters/thrall/drafts/05.txt",
+      "title": "和平不能只靠承诺",
+      "subtitle": {
+        "text": "在偏见、查证与强制之间",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "pending"
+      },
+      "sourceRanges": [
+        {
+          "bookId": "02",
+          "sourceTitle": "上古之战：永恒之井",
+          "sourceSha256": "ade02716af7a3abef6fdcc542217133d46a8a7b7bf05202a56af02b0b22d1d0a",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00038:p0015-p0032",
+            "text00044:p0002-p0015"
+          ],
+          "evidenceId": "thrall-event-12",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "13",
+          "sourceTitle": "仇恨之轮",
+          "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00340:p0018-p0052",
+            "text00344:p0023-p0057",
+            "text00346:p0033-p0064"
+          ],
+          "evidenceId": "thrall-event-13",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "13",
+          "sourceTitle": "仇恨之轮",
+          "sourceSha256": "dbc948a9ab2595244deb3bcd33efb63b9ca9069de83eb9a7b42b5f967ba86ab7",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00354:p0002-p0021",
+            "text00356:p0043-p0049",
+            "text00360:p0007-p0046",
+            "text00362:p0003-p0019"
+          ],
+          "evidenceId": "thrall-event-14",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "05",
+          "sourceTitle": "部落的崛起",
+          "sourceSha256": "ce08f6f9aef683d0e6931d236dc81988281e27c91776a63373c7814e3d5d9356",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00124:p0002-p0005",
+            "text00131:p0002-p0007",
+            "text00132:p0002-p0008",
+            "text00138:p0002-p0003",
+            "text00145:p0002-p0004",
+            "text00146:p0002-p0028"
+          ],
+          "evidenceId": "thrall-event-15",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "26",
+          "sourceTitle": "魔兽编年史 卷三",
+          "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+          "sourceType": "chronicle_selected_sections",
+          "refs": [
+            "text00943:p0001-p0015",
+            "text00952:p0001-p0013"
+          ],
+          "evidenceId": "thrall-event-16",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "21",
+          "sourceTitle": "战争罪行",
+          "sourceSha256": "a628df47707749fb18f2a2b451b97921c3b4cb68c5e73470c2b5a7d1e7469f1e",
+          "sourceType": "novel_testimony_or_trial_present",
+          "refs": [
+            "text00634:p0032-p0044"
+          ],
+          "evidenceId": "thrall-event-16",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ],
+      "keyFacts": [
+        {
+          "evidenceId": "thrall-event-12",
+          "event": "面对时间异常听卡尔萨意见，选择小队调查；派布洛克斯不是让他带整个部落参加上古战争。",
+          "classification": "integrated_source_facts",
+          "boundary": "布洛克斯后续经历不是萨尔亲历；未考虑负罪与此前安慰的叙述层次并存。"
+        },
+        {
+          "evidenceId": "thrall-event-13",
+          "event": "商船遇袭后萨尔先迁怒，接受质疑后为鲁莽道歉；伐林危机中拒将魔法嫌疑直接归罪吉安娜，先救农民、承认未知再查证。",
+          "classification": "integrated_source_facts",
+          "boundary": "不是天生不受偏见影响的完人；两人此时仍靠私人信任。"
+        },
+        {
+          "evidenceId": "thrall-event-14",
+          "event": "收到可信增兵情报后部署待命；伯克斯擅自挑战。萨尔在伤亡发生后强力止战、救下达文、公开处决叛徒并道歉撤军。双方约一周后在棘齿城议正式盟约。",
+          "classification": "integrated_source_facts",
+          "boundary": "已发生流血；结尾尚未签署条约；不能写根除两族仇恨。"
+        },
+        {
+          "evidenceId": "thrall-event-15",
+          "event": "萨尔记录旧部落，自觉承认兽人自主选择及对他界伤害，用父亲的妥协警戒自己；维伦幸存抵达消息令他担忧阵营未来。",
+          "classification": "integrated_source_facts",
+          "boundary": "写史框架与父辈叙事分层；无精确日期时不固定与02/13细粒度先后。"
+        },
+        {
+          "evidenceId": "thrall-event-16",
+          "event": "塞拉摩峰会本曾讨论贸易，却遭暮光之锤袭击；幽暗城事件后吉安娜传送联盟阻止瓦里安与萨尔开战。",
+          "classification": "integrated_source_facts",
+          "boundary": "不是13火刃危机同一事件；只用已读选段为治理压力桥接。"
+        }
+      ],
+      "evidenceIds": [
+        "thrall-event-12",
+        "thrall-event-13",
+        "thrall-event-14",
+        "thrall-event-15",
+        "thrall-event-16"
+      ],
+      "textSha256": "b397610af8d0afcfd9b4ea5140a31b6f7cd8247db8cfdb3318921cac3f92ee87",
+      "hanCharacters": 1884,
+      "classification": "source_based_character_commentary",
+      "interpretationPolicy": "段落中的伦理评析与比喻是作者解释；不冒充人物未记载的内心或原文对白。",
+      "selfReview": {
+        "titleSubtitleMatch": true,
+        "noInventedDialogue": true,
+        "noNewNovelReading": true,
+        "chronicleScopeHonest": true,
+        "timelineLimitsKept": true,
+        "needsIndependentTextReview": true
+      },
+      "artScene": {
+        "scene": "北方城堡战场萨尔公开命部队停战、撤退；表现命令之后战士停止厮杀的单一场景。",
+        "sourceRefs": [
+          "13/text00360:p0007-p0026",
+          "13/text00360:p0039-p0046"
+        ],
+        "clothingAndWeapons": "此时仍是大酋长，禁止后期棕袍、凯恩治愈碎片。源证据确认地震、风暴、巨浪与飞艇到场，不确认该瞬间具体盔甲纹样或持锤姿势；不添加挥锤斩杀画面，服装细部需定点核实或低细节处理。",
+        "mood": "强力中保持克制，战斗已造成伤亡后的肃穆；不是庆功。",
+        "visualLimits": [
+          "不得把止战画成避免了全部流血",
+          "不同时拼入处决伯克斯和私下会谈",
+          "无血腥特写"
+        ],
+        "medium": "一张完整的中世纪彩绘玻璃作品；铅条分隔玻璃色块，不是普通绘画叠加窗框",
+        "imageMode": "chapter_scene",
+        "subtitle": {
+          "text": "在偏见、查证与强制之间",
+          "origin": "editorial",
+          "sourceRef": null,
+          "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+          "reviewStatus": "pending"
+        },
+        "embeddedText": false,
+        "status": "scene_proposal_for_art_director_not_generated"
+      },
+      "additionalSourceRefs": [
+        {
+          "bookId": "13",
+          "evidenceId": "13-f17",
+          "ref": "text00354:p0022-p0034",
+          "purpose": "伯克斯创伤、仇恨与恶魔利用"
+        }
+      ]
+    },
+    {
+      "unitId": "thrall-part-06",
+      "draftPath": "characters/thrall/drafts/06.txt",
+      "title": "一个接班决定",
+      "subtitle": {
+        "text": "大地将会哭泣……",
+        "origin": "original",
+        "sourceRef": {
+          "bookId": "16",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "ref": "text00444:p0001",
+          "version": "王坚译，新星出版社2019版"
+        },
+        "selectionReason": "采用16号上篇原题，主事件和取材均在第一至十六章。",
+        "reviewStatus": "pending"
+      },
+      "sourceRanges": [
+        {
+          "bookId": "16",
+          "sourceTitle": "浩劫：灾变的前奏",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00447:p0040-p0087",
+            "text00451:p0012-p0085",
+            "text00452:p0017-p0061"
+          ],
+          "evidenceId": "thrall-event-17",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "16",
+          "sourceTitle": "浩劫：灾变的前奏",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00453:p0002-p0092",
+            "text00459:p0019-p0049"
+          ],
+          "evidenceId": "thrall-event-18",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ],
+      "keyFacts": [
+        {
+          "evidenceId": "thrall-event-17",
+          "event": "旱灾补给困局与暴力使领导压力加重。萨尔支持多族部落及重开贸易，但对灰谷暴行的公开谴责受政权生存考量限制，与吉安娜分歧；同时元素失序。",
+          "classification": "integrated_source_facts",
+          "boundary": "未授权暴行不等于充分承担公开回应责任；13肥沃描述与16选址赎罪/旱灾记录时间与版本语境，不虚构过渡。"
+        },
+        {
+          "evidenceId": "thrall-event-18",
+          "event": "火灾迫萨尔违心控制火元素；决定赴纳格兰学习。依据民望、年龄及现实顾虑任命加尔鲁什代行，寄望顾问约束；加尔鲁什承认不懂政治，凯恩明确反对而被萨尔驳回。",
+          "classification": "integrated_source_facts",
+          "boundary": "最初只是归来前代理；选择有理由但不是唯一合理或无人预警。"
+        }
+      ],
+      "evidenceIds": [
+        "thrall-event-17",
+        "thrall-event-18"
+      ],
+      "textSha256": "d677bd0f4db945eb3e22a3de07a3d64fe2f15983d7baa3d00ac7896c80a94fe0",
+      "hanCharacters": 1843,
+      "classification": "source_based_character_commentary",
+      "interpretationPolicy": "段落中的伦理评析与比喻是作者解释；不冒充人物未记载的内心或原文对白。",
+      "selfReview": {
+        "titleSubtitleMatch": true,
+        "noInventedDialogue": true,
+        "noNewNovelReading": true,
+        "chronicleScopeHonest": true,
+        "timelineLimitsKept": true,
+        "needsIndependentTextReview": true
+      },
+      "artScene": {
+        "scene": "凯恩明确反对加尔鲁什任命，萨尔坚持决定，两位老友最后不欢而散的谈话。",
+        "sourceRefs": [
+          "16/text00459:p0019-p0049"
+        ],
+        "clothingAndWeapons": "灾变前大酋长阶段，不能棕袍念珠；不得添加破碎符文之矛或丧葬物。该段证据未单列服装武器细节，采用面部与上身的争论场面，不画拔刀或决斗；具体铠甲装饰未经补核不作剧情主张。",
+        "mood": "焦虑、防御姿态与老友失望，冲突未到悲丧。",
+        "visualLimits": [
+          "加尔鲁什未确认在该谈话场景出现，不添加",
+          "不在天空加入死亡之翼、毒药等尚未知情后果",
+          "副标题用作语义指导，不能在图中写字"
+        ],
+        "medium": "一张完整的中世纪彩绘玻璃作品；铅条分隔玻璃色块，不是普通绘画叠加窗框",
+        "imageMode": "chapter_scene",
+        "subtitle": {
+          "text": "大地将会哭泣……",
+          "origin": "original",
+          "sourceRef": {
+            "bookId": "16",
+            "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+            "ref": "text00444:p0001",
+            "version": "王坚译，新星出版社2019版"
+          },
+          "selectionReason": "采用16号上篇原题，主事件和取材均在第一至十六章。",
+          "reviewStatus": "pending"
+        },
+        "embeddedText": false,
+        "status": "scene_proposal_for_art_director_not_generated"
+      }
+    },
+    {
+      "unitId": "thrall-part-07",
+      "draftPath": "characters/thrall/drafts/07.txt",
+      "title": "卸下铠甲之后",
+      "subtitle": {
+        "text": "世界将会崩毁……",
+        "origin": "original",
+        "sourceRef": {
+          "bookId": "16",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "ref": "text00460:p0001",
+          "version": "王坚译，新星出版社2019版"
+        },
+        "selectionReason": "采用16号下篇原题，主事件位于第十七至三十二章；尾声仅作去向和代行措辞收束，26号为同一事件旁证。",
+        "reviewStatus": "pending"
+      },
+      "sourceRanges": [
+        {
+          "bookId": "16",
+          "sourceTitle": "浩劫：灾变的前奏",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00460:p0003-p0071",
+            "text00462:p0002-p0023",
+            "text00466:p0002-p0021",
+            "text00468:p0002-p0108",
+            "text00469:p0002-p0075"
+          ],
+          "evidenceId": "thrall-event-19",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "16",
+          "sourceTitle": "浩劫：灾变的前奏",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00463:p0015-p0074",
+            "text00464:p0024-p0051",
+            "text00465:p0005-p0110",
+            "text00467:p0044-p0081"
+          ],
+          "evidenceId": "thrall-event-20",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "26",
+          "sourceTitle": "魔兽编年史 卷三",
+          "sourceSha256": "5ed722c182e4feb083180e92ccfddf222a9107c881db88d8c9180db32c8bc286",
+          "sourceType": "chronicle_selected_sections",
+          "refs": [
+            "text00963:p0001-p0011"
+          ],
+          "evidenceId": "thrall-event-20",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        },
+        {
+          "bookId": "16",
+          "sourceTitle": "浩劫：灾变的前奏",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "sourceType": "novel_primary",
+          "refs": [
+            "text00474:p0084-p0129",
+            "text00475:p0004-p0060",
+            "text00476:p0002-p0020"
+          ],
+          "evidenceId": "thrall-event-20",
+          "evidencePath": "characters/thrall/integration.json#timeline"
+        }
+      ],
+      "keyFacts": [
+        {
+          "evidenceId": "thrall-event-19",
+          "event": "阿格娜挑战名字和权威，盖亚安讲真话顾问价值；萨尔打算向凯恩道歉，卸甲进入幻象之旅认识四元素与自我伤口，向外域元素探问艾泽拉斯。",
+          "classification": "integrated_source_facts",
+          "boundary": "幻象甲锤碎裂不是实物损毁；此时未与凯恩完成和解、也未预知死亡之翼全部真相。"
+        },
+        {
+          "evidenceId": "thrall-event-20",
+          "event": "暮光之锤嫁祸导致凯恩挑战加尔鲁什；玛加萨秘密下毒，凯恩被杀，政变继起。消息由他人送达萨尔，不能写他早知却故意无视。 萨尔回加拉达尔才接信、立即返艾泽拉斯，在凯恩遗体旁追悔并承担任命责任；现实卸甲换袍、保存铠甲，取刻“治愈”的符文之矛碎片。灾变后决定暂别酋长职责专注整个世界，阿格娜同行。",
+          "classification": "integrated_source_facts",
+          "boundary": "加尔鲁什并不知下毒；萨尔任命责任不等于毒杀罪责。回归时信息有延迟。尾声仍称加尔鲁什继续代行，离任至少持续一阵，不写已办永久退位手续；取矛碎片不是继承整把武器，现实铠甲未碎。"
+        }
+      ],
+      "evidenceIds": [
+        "thrall-event-19",
+        "thrall-event-20"
+      ],
+      "textSha256": "4154547f2d22d4d9a871fc703a36eb7d8aca355c776dc5aaf40f7c2f79ed5218",
+      "hanCharacters": 1898,
+      "classification": "source_based_character_commentary",
+      "interpretationPolicy": "段落中的伦理评析与比喻是作者解释；不冒充人物未记载的内心或原文对白。",
+      "selfReview": {
+        "titleSubtitleMatch": true,
+        "noInventedDialogue": true,
+        "noNewNovelReading": true,
+        "chronicleScopeHonest": true,
+        "timelineLimitsKept": true,
+        "needsIndependentTextReview": true
+      },
+      "artScene": {
+        "scene": "凯恩火葬堆旁，萨尔已卸下铠甲、换棕袍，从破损符文之矛中取刻有治愈符文的一小段；只取这一连续现场的时刻。",
+        "sourceRefs": [
+          "16/text00475:p0024-p0033"
+        ],
+        "clothingAndWeapons": "朴素棕色长袍、念珠、赤脚；黑色板甲完整而郑重堆放一旁，不是破甲。手中只有一小块符文之矛碎片，不是完整武器；不添加举起毁灭之锤动作。凯恩遗体尊重遮覆，无血腥伤口。",
+        "mood": "斜阳下的悲痛、敬意与艰难的自主选择。",
+        "visualLimits": [
+          "凯恩没有灵魂显现回应",
+          "没有旁观的阿格娜或贝恩，萨尔获准独处",
+          "符文作为非文字几何刻痕处理，不绘制中文治愈或标题",
+          "不可把葬礼现场与后续震灾、海船拼接"
+        ],
+        "medium": "一张完整的中世纪彩绘玻璃作品；铅条分隔玻璃色块，不是普通绘画叠加窗框",
+        "imageMode": "chapter_scene",
+        "subtitle": {
+          "text": "世界将会崩毁……",
+          "origin": "original",
+          "sourceRef": {
+            "bookId": "16",
+            "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+            "ref": "text00460:p0001",
+            "version": "王坚译，新星出版社2019版"
+          },
+          "selectionReason": "采用16号下篇原题，主事件位于第十七至三十二章；尾声仅作去向和代行措辞收束，26号为同一事件旁证。",
+          "reviewStatus": "pending"
+        },
+        "embeddedText": false,
+        "status": "scene_proposal_for_art_director_not_generated"
+      }
+    }
+  ],
+  "sourceNotes": [
+    "04戴林致命行动者差异不在正文强定，沿整合写部落击败。",
+    "05写史为主题旁证，未强定02/05/13绝对先后；结尾议盟未写签约完成。",
+    "06保留限缩道歉、候选为萨尔判断、明确顾问反对、代理非永久离任。",
+    "07读者知道的政变与萨尔后接信分开；玛加萨秘密下毒，加尔鲁什不知情；幻象碎甲与现实完整卸甲分开；凯恩无灵魂回答；只取碎片；尾声继续代行。",
+    "06/07副标题按原分部原样保留；艺术建议以彩绘玻璃为强制媒介，不生成图。"
+  ]
+}

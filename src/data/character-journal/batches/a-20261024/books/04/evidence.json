@@ -1,0 +1,22 @@
+{
+  "runId": "batch-a-20261024-01",
+  "unitId": "book-04",
+  "bookId": "04",
+  "title": "上古之战：天崩地裂",
+  "sourceSha256": "1689ebe854685cb8385a4e638705c36f7d62f1a4d42425469d32a15474aeb8e5",
+  "status": "pending",
+  "coverage": [],
+  "facts": [],
+  "relationships": [],
+  "inferences": [],
+  "originalSettings": [],
+  "subtitleCheck": {
+    "status": "pending",
+    "candidates": [],
+    "reason": "正文未开始阅读，不能确认副标题。"
+  },
+  "gaps": [
+    "正文未开始阅读。用户要求只保存可继承资料，等待后续任务。"
+  ],
+  "readButUnrecorded": []
+}

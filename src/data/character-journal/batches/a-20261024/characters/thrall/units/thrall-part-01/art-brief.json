@@ -1,0 +1,27 @@
+{
+  "unitId": "thrall-part-01",
+  "subtitle": {
+    "text": "先被当作一个人",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "storySha256": "d2704f197f8e057d3511cc1490e9eabb9bc4d6eace9169a4975b8859cf0ed944",
+  "artScene": {
+    "mode": "chapter_scene",
+    "scene": "萨尔在敦霍尔德阅读藏于书中的塔蕾莎来信，重点是巨大的手、书页与阅读者受到触动的神情；不让塔蕾莎穿越空间同时站在囚室内。",
+    "sourceRefs": [
+      "10/OEBPS/text00272.html:p0002-p0069"
+    ],
+    "costumeAndWeapons": "此时为被囚的年轻角斗士；没有奥格瑞姆护甲或毁灭之锤。现存证据未记录此刻衣物细节，建议上半身近景、简朴无纹衣料为非史实美术处理并待导演定点核验；不新增镣铐等未经此场景证实的道具。",
+    "emotion": "私密、克制的温情，获得人格承认的希望。",
+    "subtitle": "先被当作一个人",
+    "medium": "中世纪彩绘玻璃，铅条分格与透光色片；无嵌入文字。"
+  },
+  "style": "中世纪彩绘玻璃；面孔、人物和全环境均为玻璃铅条；无嵌入文字",
+  "sourceUncertainty": "未被原文限定的衣纹、色样、取景与布景属艺术处理，不作为史实",
+  "status": "approved_for_generation",
+  "prompt": "Create one complete horizontal 16:9 medieval leaded STAINED-GLASS artwork, one coherent scene. The ENTIRE image must be made of translucent colored glass pieces separated by clearly visible dark lead cames: faces, hands, robes, objects, terrain and sky. Lead seams cross inside faces along forehead, brows, nose bridge, cheekbones and jaw; 10-16 facial panes, not smooth painted skin inside a stained-glass border. Believable natural anatomy and subtle expression, not cartoon, not photorealistic painting. Jewel-toned handmade glass, uneven texture, directional transmitted light with readable shadows. Environment and figures one continuous perspective, no comic panels or webpage cards. Keep key faces, hands and props within central 80% of image. No text, no lettering, no readable runes, no watermark, no logos, no crosses or unrelated religious imagery.  Theme subtitle for semantic guidance ONLY, do not draw words: 先被当作一个人. Young adult Thrall, green-skinned orc, blue eyes, long black hair, no beard, small tusks, seated privately reading Taretha's letter concealed in an open book at Durnholde. Focus on his large careful hands, the folded letter and moved attentive face. Plain undecorated cloth shirt, modest stone interior in dim warm lamplight at night, straw visible on the floor, NO daylight. Taretha is NOT physically present. No shackles added, no armor, no Doomhammer. Paper contains abstract non-readable marks, no letters. Quiet warmth and recognition of his humanity within captivity.",
+  "targetedVerification": "已定点核对原文场景位置、时段及动作，提示词优先于初始scene提案中的宽泛布景。"
+}
