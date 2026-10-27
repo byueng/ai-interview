@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-07",
+  "kind": "section",
+  "displayOrder": 7,
+  "title": "卸下铠甲之后",
+  "subtitle": {
+    "text": "世界将会崩毁……",
+    "origin": "original",
+    "sourceRef": {
+      "bookId": "16",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "ref": "text00460:p0001",
+      "version": "王坚译，新星出版社2019版"
+    },
+    "selectionReason": "采用16号下篇原题，主事件位于第十七至三十二章；尾声仅作去向和代行措辞收束，26号为同一事件旁证。",
+    "reviewStatus": "approved"
+  },
+  "sourceLabel": "《浩劫：灾变的前奏》；《魔兽编年史 卷三》已读选段"
+}

@@ -1,0 +1,14 @@
+{
+  "unitId": "thrall-part-01",
+  "kind": "section",
+  "displayOrder": 1,
+  "title": "锁链中的名字",
+  "subtitle": {
+    "text": "先被当作一个人",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceLabel": "《部落的崛起》；《氏族之王》"
+}

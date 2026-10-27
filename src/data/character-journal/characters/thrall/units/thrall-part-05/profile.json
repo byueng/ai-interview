@@ -1,0 +1,14 @@
+{
+  "unitId": "thrall-part-05",
+  "kind": "section",
+  "displayOrder": 5,
+  "title": "和平不能只靠承诺",
+  "subtitle": {
+    "text": "在偏见、查证与强制之间",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceLabel": "《上古之战：永恒之井》；《仇恨之轮》；《部落的崛起》；《魔兽编年史 卷三》已读选段；《战争罪行》"
+}

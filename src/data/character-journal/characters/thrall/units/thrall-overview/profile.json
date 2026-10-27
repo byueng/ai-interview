@@ -1,0 +1,14 @@
+{
+  "unitId": "thrall-overview",
+  "kind": "overview",
+  "displayOrder": 0,
+  "title": "萨尔：自由、家园与责任",
+  "subtitle": {
+    "text": "选择自己的名字，也面对选择的后果",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已核对全部本次来源；16号两个原作分部题仅适用灾变局部，其他核验未见能够覆盖全跨度的独立副标题，故采用编辑概括。",
+    "reviewStatus": "approved"
+  },
+  "sourceLabel": "已读小说与《魔兽编年史 卷三》已读选段综合"
+}

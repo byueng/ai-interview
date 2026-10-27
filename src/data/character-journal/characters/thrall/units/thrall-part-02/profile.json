@@ -1,0 +1,14 @@
+{
+  "unitId": "thrall-part-02",
+  "kind": "section",
+  "displayOrder": 2,
+  "title": "为自己选择一个名字",
+  "subtitle": {
+    "text": "血脉之外，学会倾听",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceLabel": "《氏族之王》"
+}

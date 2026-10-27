@@ -1,0 +1,14 @@
+{
+  "unitId": "thrall-part-09",
+  "kind": "section",
+  "displayOrder": 9,
+  "title": "以理解重新联结",
+  "subtitle": {
+    "text": "先听见悲痛，再谈责任",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceLabel": "《萨尔：巨龙的黄昏》；《魔兽编年史 卷三》已读选段；《吉安娜·普罗德摩尔：战争之潮》"
+}

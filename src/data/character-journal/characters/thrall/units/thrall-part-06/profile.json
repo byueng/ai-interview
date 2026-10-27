@@ -1,0 +1,19 @@
+{
+  "unitId": "thrall-part-06",
+  "kind": "section",
+  "displayOrder": 6,
+  "title": "一个接班决定",
+  "subtitle": {
+    "text": "大地将会哭泣……",
+    "origin": "original",
+    "sourceRef": {
+      "bookId": "16",
+      "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+      "ref": "text00444:p0001",
+      "version": "王坚译，新星出版社2019版"
+    },
+    "selectionReason": "采用16号上篇原题，主事件和取材均在第一至十六章。",
+    "reviewStatus": "approved"
+  },
+  "sourceLabel": "《浩劫：灾变的前奏》"
+}

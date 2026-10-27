@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "characterId": "thrall",
+  "characterName": "萨尔",
+  "status": "accepted",
+  "scope": "全部12篇图文：人物总览与11篇故事",
+  "bibliography": {
+    "title": "魔兽世界",
+    "author": "多位作者（各篇来源见标题上方）"
+  },
+  "sourceBatch": "a-20261024",
+  "selection": {
+    "userInstruction": "全部 12 篇图文",
+    "basis": "用户明确选择全部12篇，覆盖此前人物总览与前三篇的首批范围。",
+    "date": "2026-10-27"
+  },
+  "units": [
+    {
+      "unitId": "thrall-overview",
+      "kind": "overview",
+      "displayOrder": 0,
+      "title": "萨尔：自由、家园与责任",
+      "subtitle": {
+        "text": "选择自己的名字，也面对选择的后果",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已核对全部本次来源；16号两个原作分部题仅适用灾变局部，其他核验未见能够覆盖全跨度的独立副标题，故采用编辑概括。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "已读小说与《魔兽编年史 卷三》已读选段综合"
+    },
+    {
+      "unitId": "thrall-part-01",
+      "kind": "section",
+      "displayOrder": 1,
+      "title": "锁链中的名字",
+      "subtitle": {
+        "text": "先被当作一个人",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《部落的崛起》；《氏族之王》"
+    },
+    {
+      "unitId": "thrall-part-02",
+      "kind": "section",
+      "displayOrder": 2,
+      "title": "为自己选择一个名字",
+      "subtitle": {
+        "text": "血脉之外，学会倾听",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《氏族之王》"
+    },
+    {
+      "unitId": "thrall-part-03",
+      "kind": "section",
+      "displayOrder": 3,
+      "title": "接过毁灭之锤",
+      "subtitle": {
+        "text": "自由之后，如何使用力量",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《氏族之王》；《鲜血与荣耀》；《魔兽编年史 卷三》已读选段"
+    },
+    {
+      "unitId": "thrall-part-04",
+      "kind": "section",
+      "displayOrder": 4,
+      "title": "让部落拥有家园",
+      "subtitle": {
+        "text": "盟友使一个民族走向共同体",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《魔兽编年史 卷三》已读选段；《仇恨之轮》"
+    },
+    {
+      "unitId": "thrall-part-05",
+      "kind": "section",
+      "displayOrder": 5,
+      "title": "和平不能只靠承诺",
+      "subtitle": {
+        "text": "在偏见、查证与强制之间",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《上古之战：永恒之井》；《仇恨之轮》；《部落的崛起》；《魔兽编年史 卷三》已读选段；《战争罪行》"
+    },
+    {
+      "unitId": "thrall-part-06",
+      "kind": "section",
+      "displayOrder": 6,
+      "title": "一个接班决定",
+      "subtitle": {
+        "text": "大地将会哭泣……",
+        "origin": "original",
+        "sourceRef": {
+          "bookId": "16",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "ref": "text00444:p0001",
+          "version": "王坚译，新星出版社2019版"
+        },
+        "selectionReason": "采用16号上篇原题，主事件和取材均在第一至十六章。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《浩劫：灾变的前奏》"
+    },
+    {
+      "unitId": "thrall-part-07",
+      "kind": "section",
+      "displayOrder": 7,
+      "title": "卸下铠甲之后",
+      "subtitle": {
+        "text": "世界将会崩毁……",
+        "origin": "original",
+        "sourceRef": {
+          "bookId": "16",
+          "sourceSha256": "c9b4bb7c3b9514595809fe97928cce5afd52effb81c80de2fbeeeb6d8169ff39",
+          "ref": "text00460:p0001",
+          "version": "王坚译，新星出版社2019版"
+        },
+        "selectionReason": "采用16号下篇原题，主事件位于第十七至三十二章；尾声仅作去向和代行措辞收束，26号为同一事件旁证。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《浩劫：灾变的前奏》；《魔兽编年史 卷三》已读选段"
+    },
+    {
+      "unitId": "thrall-part-08",
+      "kind": "section",
+      "displayOrder": 8,
+      "title": "英雄之外的自己",
+      "subtitle": {
+        "text": "无需功绩，也值得被爱",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《萨尔：巨龙的黄昏》"
+    },
+    {
+      "unitId": "thrall-part-09",
+      "kind": "section",
+      "displayOrder": 9,
+      "title": "以理解重新联结",
+      "subtitle": {
+        "text": "先听见悲痛，再谈责任",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《萨尔：巨龙的黄昏》；《魔兽编年史 卷三》已读选段；《吉安娜·普罗德摩尔：战争之潮》"
+    },
+    {
+      "unitId": "thrall-part-10",
+      "kind": "section",
+      "displayOrder": 10,
+      "title": "世界与旧盟友之间",
+      "subtitle": {
+        "text": "更大的责任没有消除旧的责任",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《吉安娜·普罗德摩尔：战争之潮》"
+    },
+    {
+      "unitId": "thrall-part-11",
+      "kind": "section",
+      "displayOrder": 11,
+      "title": "没有结束的审判",
+      "subtitle": {
+        "text": "承认可能的自己，承担未完的选择",
+        "origin": "editorial",
+        "sourceRef": null,
+        "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+        "reviewStatus": "approved"
+      },
+      "sourceLabel": "《战争罪行》"
+    }
+  ]
+}

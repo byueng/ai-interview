@@ -1,0 +1,14 @@
+{
+  "unitId": "thrall-part-03",
+  "kind": "section",
+  "displayOrder": 3,
+  "title": "接过毁灭之锤",
+  "subtitle": {
+    "text": "自由之后，如何使用力量",
+    "origin": "editorial",
+    "sourceRef": null,
+    "selectionReason": "已合并integration.subtitleApplicability所列本单元各来源核验；没有覆盖本篇主题与范围的适用独立原作副标题，书名、数字章序及旁证章名不自动转用，故为编辑创作。",
+    "reviewStatus": "approved"
+  },
+  "sourceLabel": "《氏族之王》；《鲜血与荣耀》；《魔兽编年史 卷三》已读选段"
+}

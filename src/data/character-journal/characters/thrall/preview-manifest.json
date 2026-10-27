@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "characterId": "thrall",
+  "units": [
+    {
+      "unitId": "thrall-overview",
+      "displayOrder": 0,
+      "storyPath": "units/thrall-overview/story.md",
+      "storySha256": "13661683ae3ace399a6e6c0a40c4f9d3a7bdbba79f6c24beae80384c3f864d0a",
+      "imagePath": "units/thrall-overview/images/cover.png",
+      "imageSha256": "cab3739553eaaf4de0e658189eb47024f60432401707da72b13b6d62b17350df",
+      "alt": "萨尔的自由、家园与责任：锁链、嫩芽、毁灭之锤与元素构成跨阶段的生涯象征，并非同一历史场景。",
+      "caption": "萨尔的自由、家园与责任：锁链、嫩芽、毁灭之锤与元素构成跨阶段的生涯象征，并非同一历史场景。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-01",
+      "displayOrder": 1,
+      "storyPath": "units/thrall-part-01/story.md",
+      "storySha256": "3d6255d508f3ffbd1b3a82d2bfbf67215a9c2e65d8477924f1a24c1b897bebba",
+      "imagePath": "units/thrall-part-01/images/cover.png",
+      "imageSha256": "614fd1fa1e65338f56fd8199090302b91af257f5f20584475dc6eff8cdd6d41c",
+      "alt": "敦霍尔德的年轻萨尔阅读塔蕾莎藏在书中的来信。服饰与空间细节为彩绘玻璃艺术诠释。",
+      "caption": "敦霍尔德的年轻萨尔阅读塔蕾莎藏在书中的来信。服饰与空间细节为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-02",
+      "displayOrder": 2,
+      "storyPath": "units/thrall-part-02/story.md",
+      "storySha256": "4f234f182ffbdae10d1be91c5c563e8794307e2ee4acd793b1683767bb0f91ba",
+      "imagePath": "units/thrall-part-02/images/cover.png",
+      "imageSha256": "c0e990910af652e3a70785252c7bb5166034964ad95501dfc9c4492eac54dbaf",
+      "alt": "战歌试炼中，萨尔拒绝杀死一个人类孩子。画面为彩绘玻璃艺术诠释。",
+      "caption": "战歌试炼中，萨尔拒绝杀死一个人类孩子。画面为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-03",
+      "displayOrder": 3,
+      "storyPath": "units/thrall-part-03/story.md",
+      "storySha256": "46f70da0ce26fb7ca866654fbe474de6616d65bcdb95971936ad8da1f6910f4f",
+      "imagePath": "units/thrall-part-03/images/cover.png",
+      "imageSha256": "6c738fb4ff02f2e23e4339ea748169142a07c69b510c945ec15ba8201cbcffc9",
+      "alt": "萨尔在收容所囚徒面前令种子萌芽，唤起希望；此时尚未继承奥格瑞姆的甲胄与毁灭之锤。",
+      "caption": "萨尔在收容所囚徒面前令种子萌芽，唤起希望；此时尚未继承奥格瑞姆的甲胄与毁灭之锤。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-04",
+      "displayOrder": 4,
+      "storyPath": "units/thrall-part-04/story.md",
+      "storySha256": "8342ce87b275cc08efa412809e71c540867561bf637e0eb9fc1419b6f1c2c08c",
+      "imagePath": "units/thrall-part-04/images/cover.png",
+      "imageSha256": "2a2dc6c7af2a218563558b2524cc2ae829a31a5268953887067036f477c5ea46",
+      "alt": "先知促成萨尔与吉安娜休战合作，三人在会面中面对共同的威胁。 画面为彩绘玻璃艺术诠释。",
+      "caption": "先知促成萨尔与吉安娜休战合作，三人在会面中面对共同的威胁。 画面为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-05",
+      "displayOrder": 5,
+      "storyPath": "units/thrall-part-05/story.md",
+      "storySha256": "20b5ca8e536d02af9520e0f2f570fd34e3e497f32dc112173a0b7d48f6aa3868",
+      "imagePath": "units/thrall-part-05/images/cover.png",
+      "imageSha256": "0271da8ca327515983d4451ed1e2ca9794a7629cf5ad4d38d78398428d34f360",
+      "alt": "北方城堡战场，萨尔命令部队停战并撤退。 画面为彩绘玻璃艺术诠释。",
+      "caption": "北方城堡战场，萨尔命令部队停战并撤退。 画面为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-06",
+      "displayOrder": 6,
+      "storyPath": "units/thrall-part-06/story.md",
+      "storySha256": "4540e8b8085059fed04bd23d53e78d36cdde84ef8fd29bbc26d8b9a3397b8369",
+      "imagePath": "units/thrall-part-06/images/cover.png",
+      "imageSha256": "f18b58fc8b69eee6f0bd7450e30a09f1a5dcb963fd39093d163cf594d2c3a1e7",
+      "alt": "凯恩明确反对任命加尔鲁什，萨尔仍坚持自己的决定。 画面为彩绘玻璃艺术诠释。",
+      "caption": "凯恩明确反对任命加尔鲁什，萨尔仍坚持自己的决定。 画面为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-07",
+      "displayOrder": 7,
+      "storyPath": "units/thrall-part-07/story.md",
+      "storySha256": "af439670886281a989a260d86298633c6bf99f2a8a3ddc1740f1dd85a64585b4",
+      "imagePath": "units/thrall-part-07/images/cover.png",
+      "imageSha256": "fffd7c983d53a161935893eac6235829d5ff78c30d9c9302ff9dbf150d25a4a2",
+      "alt": "凯恩的火葬堆旁，换上棕袍的萨尔取走破损符文之矛上象征治愈的一小段。 画面为彩绘玻璃艺术诠释。",
+      "caption": "凯恩的火葬堆旁，换上棕袍的萨尔取走破损符文之矛上象征治愈的一小段。 画面为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-08",
+      "displayOrder": 8,
+      "storyPath": "units/thrall-part-08/story.md",
+      "storySha256": "db5ef9f27c30da11e16c5be99f6376621208f38354e0d9d3a7f0aeb72eccc28b",
+      "imagePath": "units/thrall-part-08/images/cover.png",
+      "imageSha256": "6b91e89578d35db5d96eee19e932a0b85333c88c2d3e5139d35b9a900c1b7380",
+      "alt": "菲拉斯古树下，萨尔将拾起的橡果合拢在手心，戴沙林站在身旁。 画面为彩绘玻璃艺术诠释。",
+      "caption": "菲拉斯古树下，萨尔将拾起的橡果合拢在手心，戴沙林站在身旁。 画面为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-09",
+      "displayOrder": 9,
+      "storyPath": "units/thrall-part-09/story.md",
+      "storySha256": "83c1309acd676ec3bfe022d103668e3eeb6b97e7a68b81e13e71a7474440563b",
+      "imagePath": "units/thrall-part-09/images/cover.png",
+      "imageSha256": "e59c41f83546226e1046cf9126f0e237fdeb0d101307251b6d0f11121236a1ef",
+      "alt": "凄凉之地，萨尔与精灵形态的阿莱克丝塔萨注视掌中橡果长出的嫩芽。 画面为彩绘玻璃艺术诠释。",
+      "caption": "凄凉之地，萨尔与精灵形态的阿莱克丝塔萨注视掌中橡果长出的嫩芽。 画面为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-10",
+      "displayOrder": 10,
+      "storyPath": "units/thrall-part-10/story.md",
+      "storySha256": "7f1ec237d5608b04ef4e794238fe5dfebc8fffd5c525c8caabaa6d4a18ef255a",
+      "imagePath": "units/thrall-part-10/images/cover.png",
+      "imageSha256": "d5b2f732d82444b44f938c7b92fbdec09d3867c80627e26e5e1d125ceb2145a4",
+      "alt": "勇士岛对峙中，萨尔以风障抵住吉安娜的力量，蓄势的海水尚未淹没城市。 画面为彩绘玻璃艺术诠释。",
+      "caption": "勇士岛对峙中，萨尔以风障抵住吉安娜的力量，蓄势的海水尚未淹没城市。 画面为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    },
+    {
+      "unitId": "thrall-part-11",
+      "displayOrder": 11,
+      "storyPath": "units/thrall-part-11/story.md",
+      "storySha256": "90e597d5fc016556a561c01bb6a34f871a0637242147d46e144a4faed4864996",
+      "imagePath": "units/thrall-part-11/images/cover.png",
+      "imageSha256": "1fb9f290b12e1d00685ecc51f490fbf6e49c14e2e25935b2d223a8b0b32ae7df",
+      "alt": "吉安娜获救后与萨尔握手，疲惫之中重新接近，隔阂并未就此完全消失。 画面为彩绘玻璃艺术诠释。",
+      "caption": "吉安娜获救后与萨尔握手，疲惫之中重新接近，隔阂并未就此完全消失。 画面为彩绘玻璃艺术诠释。",
+      "displayPolicy": "full_image_original_ratio_no_crop"
+    }
+  ]
+}
