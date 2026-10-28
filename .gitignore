@@ -1,6 +1,8 @@
 .venv/
 .env
 .langgraph_api/
+# Session resume uploads stay local.
+/src/data/swap/
 # Keep internal documentation local; publish only the documentation entry point,
 # release notes, and setup guides.
 /docs/*
