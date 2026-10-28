@@ -1,4 +1,4 @@
-import { apiBaseUrl, ApiRequestError, getActiveSessionId, getErrorMessage } from './candidate'
+import { apiBaseUrl, ApiRequestError, getActiveSessionId, getErrorMessage } from './candidate_config'
 import { readServerEvents } from './sse'
 
 export interface AgentRequest {
@@ -32,6 +32,7 @@ export function readInterviewUpdate(data: GraphUpdate): { messages: Array<{ id?:
 }
 export type InterviewStreamEvent =
   | { event: 'message'; data: GraphUpdate }
+  | { event: 'progress'; data: { session_id: string; stage: 'parsing_resume' | 'generating_reply' } }
   | { event: 'done'; data: { session_id: string } }
 
 export class InterviewStreamError extends Error {
@@ -72,7 +73,7 @@ export async function* streamInterviewTurn(
 
   for await (const item of readServerEvents(response.body)) {
     signal?.throwIfAborted()
-    if (!['message', 'error', 'done'].includes(item.event)) continue
+    if (!['message', 'error', 'done', 'progress'].includes(item.event)) continue
     let data: unknown
     try {
       data = JSON.parse(item.data)
@@ -82,6 +83,13 @@ export async function* streamInterviewTurn(
     if (!isRecord(data)) throw new InterviewStreamError('面试事件数据格式错误。')
     if (item.event === 'error') {
       throw new InterviewStreamError(getErrorMessage(data, '面试处理失败。'))
+    }
+    if (item.event === 'progress') {
+      if (data.session_id !== sessionId) throw new InterviewStreamError('进度事件的 session_id 与当前请求不一致。')
+      if (data.stage === 'parsing_resume' || data.stage === 'generating_reply') {
+        yield { event: 'progress', data: { session_id: sessionId, stage: data.stage } }
+      }
+      continue
     }
     if (item.event === 'done') {
       if (data.session_id !== sessionId) throw new InterviewStreamError('完成事件的 session_id 与当前请求不一致。')

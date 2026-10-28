@@ -2,6 +2,8 @@ import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import test from 'node:test'
 import ts from 'typescript'
+import { parse, compileScript } from '@vue/compiler-sfc'
+import { createRenderer, nextTick } from 'vue'
 
 let moduleId = 0
 async function moduleUrl(name, replacements = {}) {
@@ -15,31 +17,41 @@ async function moduleUrl(name, replacements = {}) {
 }
 
 async function loadApi() {
-  const candidateUrl = await moduleUrl('candidate')
+  const candidate_config_url = await moduleUrl('candidate_config', { './resume': await moduleUrl('resume') })
   const sseUrl = await moduleUrl('sse')
-  const interviewUrl = await moduleUrl('interview', { './candidate': candidateUrl, './sse': sseUrl })
-  const presetsUrl = await moduleUrl('presets', { './candidate': candidateUrl })
-  return { ...await import(candidateUrl), ...await import(interviewUrl), ...await import(sseUrl), ...await import(presetsUrl) }
+  const interviewUrl = await moduleUrl('interview', { './candidate_config': candidate_config_url, './sse': sseUrl })
+  const presetsUrl = await moduleUrl('presets', { './candidate_config': candidate_config_url })
+  return { ...await import(candidate_config_url), ...await import(interviewUrl), ...await import(sseUrl), ...await import(presetsUrl) }
 }
 
 const sessionId = 'c53208a9-db49-4064-9802-ffb548e9a0f5'
-const candidate = { education: '本科', position: '后端', language: 'Chinese' }
+const candidate_config = { education: '本科', position: '后端', language: 'Chinese' }
 const interviewer = { role_identity: '技术面试官', role_responsibilities: '围绕项目提问' }
 const turn = { message: '你好', chat_round: 0 }
 const consume = async (stream) => { const events = []; for await (const event of stream) events.push(event); return events }
 
-async function loadInterviewStore() {
-  const candidateUrl = await moduleUrl('candidate')
+async function loadInterviewStore(withComponent = false) {
+  const candidate_config_url = await moduleUrl('candidate_config', { './resume': await moduleUrl('resume') })
   const sseUrl = await moduleUrl('sse')
-  const interviewUrl = await moduleUrl('interview', { './candidate': candidateUrl, './sse': sseUrl })
+  const interviewUrl = await moduleUrl('interview', { './candidate_config': candidate_config_url, './sse': sseUrl })
   const storeUrl = await moduleUrl('../state/interview', {
-    vue: import.meta.resolve('vue'), '../api/candidate': candidateUrl, '../api/interview': interviewUrl,
+    vue: import.meta.resolve('vue'), '../api/candidate_config': candidate_config_url, '../api/interview': interviewUrl,
   })
-  return import(storeUrl)
+  const store = await import(storeUrl)
+  if (!withComponent) return store
+  const source = await readFile(new URL('../src/components/ResumeUpload.vue', import.meta.url), 'utf8')
+  let compiled = compileScript(parse(source).descriptor, { id: 'resume-test', inlineTemplate: true }).content
+  for (const [name, url] of Object.entries({
+    vue: import.meta.resolve('vue'), 'lucide-vue-next': import.meta.resolve('lucide-vue-next'),
+    '../api/resume': await moduleUrl('resume'), '../state/interview': storeUrl,
+  })) compiled = compiled.replaceAll(`'${name}'`, JSON.stringify(url)).replaceAll(`"${name}"`, JSON.stringify(url))
+  const code = ts.transpileModule(compiled, { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2020 } }).outputText
+  const { default: component } = await import(`data:text/javascript;base64,${Buffer.from(code).toString('base64')}#${moduleId++}`)
+  return { store, component }
 }
 const storeSnapshot = (overrides = {}) => ({
   session_id: sessionId, status: 'active', chat_round: 0, expires_at: 9999999999,
-  candidate_config: { ...candidate, language: 'zh-CN', resume: null }, interviewer_config: interviewer,
+  candidate_config: { ...candidate_config, language: 'zh-CN', resume: null }, interviewer_config: interviewer,
   messages: [], ...overrides,
 })
 
@@ -55,9 +67,33 @@ test('跨页面共享状态：恢复配置与历史，已有配置不重复提�
   const requestCount = requests.mock.callCount()
   assert.equal(await store.saveConfiguration(), true)
   assert.equal(requests.mock.callCount(), requestCount)
-  store.interview.candidate.position = '新的岗位'
+  store.interview.candidate_config.position = '新的岗位'
   assert.equal(store.configured.value, false)
   assert.equal(store.canSend.value, false)
+})
+
+test('简历路径从会话恢复，新会话清空待上传文件和旧路径', async (t) => {
+  const store = await loadInterviewStore()
+  let activeSession = sessionId
+  const requests = mockFetch(t, async (url) => {
+    if (url.endsWith('/begin')) return Response.json({ session_id: activeSession })
+    if (url.endsWith('/personal_information_config')) return Response.json({ session_id: activeSession, resume: null })
+    return Response.json(storeSnapshot({ session_id: activeSession, candidate_config: { ...candidate_config, resume: activeSession === sessionId ? `/data/swap/${sessionId}/简历.pdf` : null } }))
+  })
+  await store.connect('page')
+  store.interview.uploadedResumePath = `/data/swap/${sessionId}/简历.pdf`
+  assert.equal(store.configured.value, true)
+  store.interview.candidate_config.position = '新的岗位'
+  assert.equal(await store.saveConfiguration(), true)
+  const save = requests.mock.calls.find(call => call.arguments[0].endsWith('/personal_information_config'))
+  assert.equal(JSON.parse(save.arguments[1].body.get('config')).candidate_config.resume, null)
+  await store.connect('continue')
+  assert.equal(store.interview.uploadedResumePath, `/data/swap/${sessionId}/简历.pdf`)
+  store.interview.pendingResume = new File(['%PDF-1.7'], 'pending.pdf')
+  activeSession = '3b046025-35c6-442b-b633-ab9d19d8b777'
+  await store.connect('new')
+  assert.equal(store.interview.uploadedResumePath, null)
+  assert.equal(store.interview.pendingResume, null)
 })
 
 test('共享对话在进行中禁止重复发送和新建，完成后更新轮次并清空草稿', async (t) => {
@@ -128,7 +164,7 @@ test('结束失败保留会话和历史，确认成功后才进入结束状态',
 
 test('对话导出包含实际配置、轮次、双方内容与未确认标记', async (t) => {
   const store = await loadInterviewStore()
-  store.interview.candidate.position = '后端工程师'
+  store.interview.candidate_config.position = '后端工程师'
   store.interview.round = 2
   store.interview.messages = [{ id: 1, role: 'candidate', text: '我的回答', uncertain: true }, { id: 2, role: 'interviewer', text: '请继续介绍' }]
   let exported
@@ -182,10 +218,10 @@ test('默认中文不跟随浏览器语言；保留显式语言选择', async (t
   const calls = []
   mockFetch(t, async (url, options) => {
     calls.push({ url, options })
-    return url.endsWith('/begin') ? Response.json({ session_id: sessionId }) : Response.json(200)
+    return url.endsWith('/begin') ? Response.json({ session_id: sessionId }) : Response.json({ session_id: sessionId, resume: null })
   })
   await api.postCandidateConfig({ education: '本科', position: '后端' }, interviewer)
-  assert.equal(JSON.parse(calls[1].options.body).candidate_config.language, 'zh-CN')
+  assert.equal(JSON.parse(calls[1].options.body.get('config')).candidate_config.language, 'zh-CN')
 })
 
 test('删除预设通过 POST 查询参数传完整文件名，不创建 session 或提交配置', async (t) => {
@@ -229,14 +265,14 @@ test('预设加载使用查询文件名和 begin 的 UUID 字符串请求体，�
     calls.push({ url, options })
     if (url.endsWith('/begin')) return Response.json({ session_id: sessionId })
     return Response.json(url.endsWith('/read_preset') ? { files: ['后端 #1.json', '后端 #1.json', '.DS_Store', 'notes.txt', 'subfolder'] } : { preset_config: {
-      candidate_config: { ...candidate, resume: 'resumes/demo.pdf' },
+      candidate_config: { ...candidate_config, resume: null },
       interviewer_config: { ...interviewer, role_responsibilities: null },
     } })
   })
   assert.deepEqual(await api.listInterviewPresets(controller.signal), ['后端 #1.json'])
   await api.initializeSession()
   assert.deepEqual(await api.loadInterviewPreset('后端 #1.json', controller.signal), {
-    candidate_config: { ...candidate, language: 'zh-CN', resume: 'resumes/demo.pdf' },
+    candidate_config: { ...candidate_config, language: 'zh-CN', resume: null },
     interviewer_config: { ...interviewer, role_responsibilities: '' },
   })
   assert.equal(calls.length, 3)
@@ -272,9 +308,9 @@ test('预设空列表、错误响应、错误结构和非法路径不会作为�
   const count = mock.mock.callCount()
   await assert.rejects(api.loadInterviewPreset('../private.json'), /文件名无效/)
   assert.equal(mock.mock.callCount(), count)
-  for (const invalid of [null, 200, {}, { candidate_config: candidate, interviewer_config: interviewer },
-    { preset_config: { candidate_config: candidate, interviewer_config: {} } },
-    { preset_config: { candidate_config: { ...candidate, language: 'fr' }, interviewer_config: interviewer } },
+  for (const invalid of [null, 200, {}, { candidate_config: candidate_config, interviewer_config: interviewer },
+    { preset_config: { candidate_config: candidate_config, interviewer_config: {} } },
+    { preset_config: { candidate_config: { ...candidate_config, language: 'fr' }, interviewer_config: interviewer } },
   ]) {
     const before = mock.mock.callCount()
     mock.mock.mockImplementation(async () => Response.json(invalid))
@@ -294,7 +330,7 @@ test('预设加载等待正在进行的 begin，并复用同一个 session', asy
   mockFetch(t, async (url, options) => {
     calls.push({ url, options })
     if (url.endsWith('/begin')) return new Promise(resolve => { finish = () => resolve(Response.json({ session_id: sessionId })) })
-    return Response.json({ preset_config: { candidate_config: candidate, interviewer_config: interviewer } })
+    return Response.json({ preset_config: { candidate_config: candidate_config, interviewer_config: interviewer } })
   })
   const init = api.initializeSession()
   const loading = api.loadInterviewPreset('后端.json')
@@ -310,7 +346,7 @@ test('预设加载等待正在进行的 begin，并复用同一个 session', asy
 
 test('预设加载失败或取消时不报告成功，也不回退到个人配置接口', async (t) => {
   const api = await loadApi()
-  const payload = { preset_config: { candidate_config: candidate, interviewer_config: interviewer } }
+  const payload = { preset_config: { candidate_config: candidate_config, interviewer_config: interviewer } }
   const mock = mockFetch(t, async url => url.endsWith('/begin')
     ? Response.json({ session_id: sessionId })
     : Response.json({ detail: '配置更新失败' }, { status: 500 }))
@@ -331,18 +367,18 @@ test('预设加载失败或取消时不报告成功，也不回退到个人配�
   assert.equal(mock.mock.calls.some(call => call.arguments[0].endsWith('/personal_information_config')), false)
 })
 
-test('初始化并发复用；提交完整 Candidate 和 Interviewer；缓存 session', async (t) => {
+test('初始化并发复用；提交完整 CandidateConfig 和 Interviewer；缓存 session', async (t) => {
   const api = await loadApi()
   const calls = []
   let finish
   mockFetch(t, async (url, options) => {
     calls.push({ url, options })
     if (url.endsWith('/begin')) return new Promise(resolve => { finish = () => resolve(Response.json({ session_id: sessionId })) })
-    return Response.json(200)
+    return Response.json({ session_id: sessionId, resume: null })
   })
   const init = api.initializeSession()
   const other = api.initializeSession()
-  const submit = api.postCandidateConfig(candidate, interviewer)
+  const submit = api.postCandidateConfig(candidate_config, interviewer)
   assert.equal(calls.length, 1)
   assert.equal(calls[0].options.method, 'GET')
   finish()
@@ -350,12 +386,15 @@ test('初始化并发复用；提交完整 Candidate 和 Interviewer；缓存 se
   await submit
   assert.equal(api.getCachedSessionId(), sessionId)
   assert.equal(calls[1].url, '/interview/personal_information_config')
-  assert.deepEqual(JSON.parse(calls[1].options.body), {
-    session_id: sessionId, candidate_config: { ...candidate, language: 'zh-CN', resume: null }, interviewer_config: interviewer,
+  assert.equal(calls[1].options.body.get('session_id'), sessionId)
+  assert.equal(calls[1].options.headers['Content-Type'], undefined)
+  assert.deepEqual(JSON.parse(calls[1].options.body.get('config')), {
+    candidate_config: { ...candidate_config, language: 'zh-CN', resume: null }, interviewer_config: interviewer,
   })
-  await api.postCandidateConfig({ ...candidate, resume: 'resumes/demo.pdf' }, interviewer)
+  await api.postCandidateConfig({ ...candidate_config, resume: 'resumes/demo.pdf' }, interviewer)
   assert.equal(calls.length, 3)
-  assert.equal(JSON.parse(calls[2].options.body).candidate_config.resume, 'resumes/demo.pdf')
+  // 文件路径由后端确定，客户端不能指定任意服务器文件。
+  assert.equal(JSON.parse(calls[2].options.body.get('config')).candidate_config.resume, null)
 })
 
 test('422 校验详情及异常成功响应会抛错', async (t) => {
@@ -363,9 +402,9 @@ test('422 校验详情及异常成功响应会抛错', async (t) => {
   const mock = mockFetch(t, async () => Response.json({ session_id: sessionId }))
   await api.initializeSession()
   mock.mock.mockImplementation(async () => Response.json({ detail: [{ loc: ['body', 'interviewer_config'], msg: 'Field required' }] }, { status: 422 }))
-  await assert.rejects(api.postCandidateConfig(candidate, interviewer), error => error.status === 422 && error.message.includes('body.interviewer_config'))
+  await assert.rejects(api.postCandidateConfig(candidate_config, interviewer), error => error.status === 422 && error.message.includes('body.interviewer_config'))
   mock.mock.mockImplementation(async () => Response.json(null))
-  await assert.rejects(api.postCandidateConfig(candidate, interviewer), /成功标识/)
+  await assert.rejects(api.postCandidateConfig(candidate_config, interviewer), /成功标识/)
 })
 
 test('POST stream 保留 Graph updates、正确解析分块与心跳并接收 done', async (t) => {
@@ -457,7 +496,7 @@ function browserStorage(t, navigationType, initialSession = sessionId) {
 }
 
 const snapshot = id => ({ session_id: id, status: 'active', chat_round: 2,
-  expires_at: 100000, candidate_config: candidate, interviewer_config: interviewer,
+  expires_at: 100000, candidate_config: candidate_config, interviewer_config: interviewer,
   messages: [{ type: 'human', content: '历史输入' }, { type: 'ai', content: '历史回复' }],
 })
 
@@ -507,4 +546,118 @@ test('结束会话确认响应；主动新建成功才替换当前 ID', async t 
   mock.mock.mockImplementation(async () => Response.json({ session_id: newId }))
   assert.equal(await api.initializeSession(), newId)
   assert.equal(storage.get('ai-interview.session-id'), newId)
+})
+
+
+// 挂载真实 Vue 模板，验证选择事件到共享状态再到网络请求的完整前端链路。
+function mountComponent(component) {
+  const node = (type, text = '') => ({ type, text, props: {}, children: [], parent: null })
+  const renderer = createRenderer({
+    createElement: node, createText: t => node('#text', t), createComment: t => node('#comment', t),
+    patchProp: (n, key, previous, value) => { n.props[key] = value },
+    setText: (n, text) => { n.text = text }, setElementText: (n, text) => { n.text = text; n.children = [] },
+    insert: (n, parent, anchor) => {
+      if (n.parent) n.parent.children.splice(n.parent.children.indexOf(n), 1)
+      n.parent = parent
+      const index = parent.children.indexOf(anchor)
+      parent.children.splice(index < 0 ? parent.children.length : index, 0, n)
+    },
+    remove: n => n.parent?.children.splice(n.parent.children.indexOf(n), 1),
+    parentNode: n => n.parent, nextSibling: n => n.parent?.children[n.parent.children.indexOf(n) + 1],
+  })
+  const root = node('root')
+  const app = renderer.createApp(component)
+  app.mount(root)
+  const find = (predicate, n = root) => predicate(n) ? n : n.children.map(child => find(predicate, child)).find(Boolean)
+  return { app, find }
+}
+
+test('选择 PDF 不请求；已保存配置也会合并提交新文件；失败可重试且阻止重复保存', async t => {
+  const { store, component } = await loadInterviewStore(true)
+  let resolveSave
+  const requests = mockFetch(t, async url => {
+    if (url.endsWith('/begin')) return Response.json({ session_id: sessionId })
+    if (url.endsWith('/personal_information_config')) return new Promise(resolve => { resolveSave = resolve })
+    return Response.json(storeSnapshot())
+  })
+  await store.connect('page')
+  assert.equal(store.configured.value, true)
+  const { app, find } = mountComponent(component)
+  t.after(() => app.unmount())
+  const file = new File(['%PDF-1.7\ntest'], 'resume.pdf', { type: 'application/pdf' })
+  const before = requests.mock.callCount()
+  find(n => n.type === 'input').props.onChange({ target: { files: [file], value: 'resume.pdf' } })
+  await nextTick()
+  assert.equal(requests.mock.callCount(), before)
+  assert.equal(store.configured.value, false)
+  assert.ok(find(n => n.text.includes('待保存')))
+  const failed = store.saveConfiguration()
+  await new Promise(resolve => setImmediate(resolve))
+  assert.equal(requests.mock.callCount(), before + 1)
+  const [url, options] = requests.mock.calls.at(-1).arguments
+  assert.equal(url, '/interview/personal_information_config')
+  assert.equal(await options.body.get('file').text(), await file.text())
+  assert.equal(find(n => n.type === 'input').props.disabled, true)
+  assert.equal(await store.saveConfiguration(), false)
+  assert.equal(requests.mock.callCount(), before + 1)
+  resolveSave(Response.json({ detail: '预设保存失败' }, { status: 500 }))
+  assert.equal(await failed, false)
+  assert.equal(store.interview.pendingResume, file)
+  assert.match(store.interview.configError, /预设保存失败/)
+  const retry = store.saveConfiguration()
+  await new Promise(resolve => setImmediate(resolve))
+  resolveSave(Response.json({ session_id: sessionId, resume: '/data/swap/session/简历.pdf' }))
+  assert.equal(await retry, true)
+  await nextTick()
+  assert.equal(store.interview.pendingResume, null)
+  assert.equal(store.configured.value, true)
+  assert.ok(find(n => n.props.class === 'resume-attached'))
+  assert.equal(requests.mock.callCount(), before + 2)
+  assert.equal(await store.saveConfiguration(), true)
+  assert.equal(requests.mock.callCount(), before + 2)
+})
+
+
+test('后端进度切换等待文案，完成和错误后清除状态，不把进度当作回复', async t => {
+  const store = await loadInterviewStore()
+  let controller
+  mockFetch(t, async url => {
+    if (url.endsWith('/begin')) return Response.json({ session_id: sessionId })
+    if (url.endsWith('/stream')) return new Response(new ReadableStream({ start(value) { controller = value } }), { headers: { 'Content-Type': 'text/event-stream' } })
+    return Response.json(storeSnapshot())
+  })
+  const tick = () => new Promise(resolve => setImmediate(resolve))
+  const emit = (event, data) => controller.enqueue(new TextEncoder().encode(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`))
+  await store.connect('page')
+  store.interview.draft = '你好'
+  const sending = store.sendMessage()
+  assert.equal(store.waitingText.value, '正在准备面试回复，请等待')
+  await tick()
+  emit('progress', { session_id: sessionId, stage: 'parsing_resume' })
+  await tick()
+  assert.equal(store.waitingText.value, '解析简历中，请等待')
+  assert.equal(store.interview.messages.length, 1)
+  assert.equal(store.interview.draft, '你好')
+  emit('progress', { session_id: sessionId, stage: 'generating_reply' })
+  await tick()
+  assert.equal(store.waitingText.value, '面试官正在组织回复，请等待')
+  emit('message', { InterviewAgent: { chat_round: 1, messages: [{ type: 'ai', content: '欢迎开始' }] } })
+  emit('done', { session_id: sessionId })
+  controller.close()
+  await sending
+  assert.equal(store.waitingText.value, '')
+  assert.equal(store.interview.progressStage, '')
+  assert.equal(store.interview.messages.length, 2)
+
+  store.interview.draft = '继续'
+  const failed = store.sendMessage()
+  await tick()
+  emit('progress', { session_id: sessionId, stage: 'parsing_resume' })
+  emit('error', { detail: '简历解析失败' })
+  controller.close()
+  await failed
+  assert.equal(store.waitingText.value, '')
+  assert.equal(store.interview.progressStage, '')
+  assert.equal(store.interview.sending, false)
+  assert.match(store.interview.streamError, /简历解析失败/)
 })

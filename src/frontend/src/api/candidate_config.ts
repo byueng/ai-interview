@@ -1,3 +1,5 @@
+import { validateResume } from './resume'
+
 const SESSION_ID_CACHE_KEY = 'ai-interview.session-id'
 
 let sessionIdInMemory: string | null = null
@@ -7,7 +9,7 @@ export interface CandidateConfig {
   language: string
   education: string
   position: string
-  // 后端 Path 的 JSON 表示；文件上传接口尚未实现。
+  // 服务器保存后的会话缓存路径；文件通过 multipart 的 file 字段传递。
   resume?: string | null
 }
 
@@ -42,7 +44,6 @@ function normalizeSupportedLanguage(value: string): string | undefined {
 }
 
 export interface CandidateConfigRequest {
-  session_id: string
   candidate_config: CandidateConfig
   interviewer_config: InterviewerConfig
 }
@@ -133,18 +134,20 @@ export async function endCurrentSession(signal?: AbortSignal): Promise<void> {
 }
 
 export async function postCandidateConfig(
-  candidateConfig: CandidateConfigInput,
+  candidate_config: CandidateConfigInput,
   interviewerConfig: InterviewerConfig,
+  file?: File | null,
   signal?: AbortSignal,
-): Promise<void> {
+): Promise<string | null> {
+  if (file) validateResume(file)
+  signal?.throwIfAborted()
   const sessionId = await getActiveSessionId(signal)
   const body: CandidateConfigRequest = {
-    session_id: sessionId,
     candidate_config: {
-      language: resolveInterviewLanguage(candidateConfig.language),
-      education: candidateConfig.education,
-      position: candidateConfig.position,
-      resume: candidateConfig.resume ?? null,
+      language: resolveInterviewLanguage(candidate_config.language),
+      education: candidate_config.education,
+      position: candidate_config.position,
+      resume: null,
     },
     interviewer_config: {
       role_identity: interviewerConfig.role_identity,
@@ -152,13 +155,17 @@ export async function postCandidateConfig(
     },
   }
 
+  const form = new FormData()
+  form.append('session_id', sessionId)
+  form.append('config', JSON.stringify(body))
+  if (file) form.append('file', file, file.name)
+
   const response = await fetch(`${apiBaseUrl}/interview/personal_information_config`, {
     method: 'POST',
     headers: {
       Accept: 'application/json',
-      'Content-Type': 'application/json',
     },
-    body: JSON.stringify(body),
+    body: form,
     signal,
   })
 
@@ -168,10 +175,13 @@ export async function postCandidateConfig(
     throw new ApiRequestError(response.status, getErrorMessage(payload, response.statusText))
   }
 
-  // 后端 return HTTP_200_OK 当前返回的 JSON 响应体是数字 200。
-  if (payload !== 200) {
-    throw new Error('个人信息配置接口未返回成功标识 200。')
+  if (!hasSessionId(payload) || payload.session_id !== sessionId
+    || !('resume' in payload)
+    || !(payload.resume === null || (typeof payload.resume === 'string' && payload.resume.trim()))
+    || (file && payload.resume === null)) {
+    throw new Error('配置保存接口未返回有效的成功标识。')
   }
+  return payload.resume as string | null
 }
 
 export function getCachedSessionId(): string | null {

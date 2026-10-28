@@ -1,34 +1,45 @@
 import { computed, reactive } from 'vue'
-import { endCurrentSession, initializeSession, openPageSession, postCandidateConfig, readCurrentSession, resolveInterviewLanguage } from '../api/candidate'
-import type { SessionSnapshot } from '../api/candidate'
+import { endCurrentSession, initializeSession, openPageSession, postCandidateConfig, readCurrentSession, resolveInterviewLanguage } from '../api/candidate_config'
+import type { SessionSnapshot } from '../api/candidate_config'
 import { readInterviewUpdate, streamInterviewTurn } from '../api/interview'
 import type { InterviewPreset } from '../api/presets'
 
 export interface ConversationMessage { id: number; role: 'candidate' | 'interviewer'; text: string; uncertain?: boolean }
-const blankCandidate = () => ({ position: '', education: '', language: 'zh-CN', resume: null as string | null })
+const blankCandidateConfig = () => ({ position: '', education: '', language: 'zh-CN', resume: null as string | null })
 const blankInterviewer = () => ({ role_identity: '技术面试官', role_responsibilities: '围绕岗位要求与项目经历，逐步提问和追问。' })
 export const interview = reactive({
   status: 'initializing' as 'initializing' | 'ready' | 'error' | 'ended',
-  candidate: blankCandidate(), interviewer: blankInterviewer(),
+  candidate_config: blankCandidateConfig(), interviewer: blankInterviewer(),
+  sessionId: '', uploadedResumePath: null as string | null, pendingResume: null as File | null,
   savedSignature: '', sessionError: '', configError: '', streamError: '', notice: '',
   saving: false, uploadingResume: false, loadingPreset: false, sending: false, round: 0, draft: '',
+  progressStage: '' as '' | 'requesting' | 'parsing_resume' | 'generating_reply',
   messages: [] as ConversationMessage[],
 })
 let messageId = 0
 let connection: Promise<boolean> | null = null
 export const configuration = computed(() => ({
-  candidate: { ...interview.candidate, position: interview.candidate.position.trim(), education: interview.candidate.education.trim() },
+  candidate_config: { ...interview.candidate_config, position: interview.candidate_config.position.trim(), education: interview.candidate_config.education.trim() },
   interviewer: { role_identity: interview.interviewer.role_identity.trim(), role_responsibilities: interview.interviewer.role_responsibilities.trim() },
 }))
 export const busy = computed(() => interview.saving || interview.uploadingResume || interview.loadingPreset || interview.sending || interview.status === 'initializing')
-export const configured = computed(() => !!interview.savedSignature && interview.savedSignature === JSON.stringify(configuration.value))
-export const complete = computed(() => !!configuration.value.candidate.position && !!configuration.value.candidate.education && !!configuration.value.interviewer.role_identity && !!configuration.value.interviewer.role_responsibilities)
+export const waitingText = computed(() => {
+  if (!interview.sending) return ''
+  if (interview.progressStage === 'parsing_resume') return '解析简历中，请等待'
+  if (interview.progressStage === 'generating_reply') return '面试官正在组织回复，请等待'
+  return '正在准备面试回复，请等待'
+})
+export const configured = computed(() => !interview.pendingResume && !!interview.savedSignature && interview.savedSignature === JSON.stringify(configuration.value))
+export const complete = computed(() => !!configuration.value.candidate_config.position && !!configuration.value.candidate_config.education && !!configuration.value.interviewer.role_identity && !!configuration.value.interviewer.role_responsibilities)
 export const canSend = computed(() => interview.status === 'ready' && configured.value && !busy.value && !interview.streamError && !!interview.draft.trim())
 function errorText(error: unknown) { return error instanceof Error ? error.message : '暂时无法完成，请稍后重试。' }
 
 function restore(snapshot: SessionSnapshot) {
-  Object.assign(interview.candidate, snapshot.candidate_config ?? blankCandidate())
-  interview.candidate.language = resolveInterviewLanguage(interview.candidate.language)
+  if (interview.sessionId !== snapshot.session_id) interview.pendingResume = null
+  interview.uploadedResumePath = snapshot.candidate_config?.resume ?? null
+  interview.sessionId = snapshot.session_id
+  Object.assign(interview.candidate_config, snapshot.candidate_config ?? blankCandidateConfig())
+  interview.candidate_config.language = resolveInterviewLanguage(interview.candidate_config.language)
   Object.assign(interview.interviewer, snapshot.interviewer_config ?? blankInterviewer())
   interview.interviewer.role_responsibilities ??= ''
   interview.savedSignature = snapshot.candidate_config && snapshot.interviewer_config ? JSON.stringify(configuration.value) : ''
@@ -58,25 +69,30 @@ export function connect(mode: 'page' | 'continue' | 'new' = 'continue'): Promise
 }
 
 export async function saveConfiguration(): Promise<boolean> {
-  if (configured.value) return true
   if (busy.value || interview.status !== 'ready' || !complete.value) return false
+  if (configured.value) return true
   interview.saving = true; interview.configError = ''
+  const file = interview.pendingResume
+  interview.uploadingResume = !!file
   const value = configuration.value
   try {
-    await postCandidateConfig(value.candidate, value.interviewer)
-    interview.savedSignature = JSON.stringify(value)
+    const resume = await postCandidateConfig(value.candidate_config, value.interviewer, file)
+    interview.candidate_config.resume = interview.uploadedResumePath = resume
+    interview.pendingResume = null
+    interview.savedSignature = JSON.stringify(configuration.value)
     interview.notice = '面试配置已保存，也可在预设中再次使用。'
     return true
   } catch (error) { interview.configError = errorText(error); return false }
-  finally { interview.saving = false }
+  finally { interview.saving = false; interview.uploadingResume = false }
 }
 export function onPresetLoading(value: boolean) {
   interview.loadingPreset = value
   if (value) { interview.savedSignature = ''; interview.configError = '' }
 }
 export function applyPreset(preset: InterviewPreset, filename: string) {
-  Object.assign(interview.candidate, preset.candidate_config)
-  interview.candidate.language = resolveInterviewLanguage(interview.candidate.language)
+  Object.assign(interview.candidate_config, preset.candidate_config)
+  interview.uploadedResumePath = preset.candidate_config.resume ?? null
+  interview.candidate_config.language = resolveInterviewLanguage(interview.candidate_config.language)
   Object.assign(interview.interviewer, preset.interviewer_config)
   interview.savedSignature = JSON.stringify(configuration.value)
   interview.notice = `已载入「${filename.replace(/\.json$/i, '')}」。`
@@ -85,12 +101,14 @@ export async function sendMessage() {
   if (!canSend.value) return
   const text = interview.draft.trim(), id = ++messageId
   interview.messages.push({ id, role: 'candidate', text })
-  interview.sending = true; interview.streamError = ''
+  interview.sending = true; interview.streamError = ''; interview.progressStage = 'requesting'
   let receivedReply = false
   const ids = new Set<string>()
   try {
     for await (const event of streamInterviewTurn({ message: text, chat_round: interview.round })) {
-      if (event.event === 'message') {
+      if (event.event === 'progress') {
+        interview.progressStage = event.data.stage
+      } else if (event.event === 'message') {
         const update = readInterviewUpdate(event.data)
         if (update.chatRound !== undefined) interview.round = update.chatRound
         for (const reply of update.messages) {
@@ -107,7 +125,7 @@ export async function sendMessage() {
     interview.streamError = `${errorText(error)} 请先同步会话，确认本轮状态。`
     const message = interview.messages.find(item => item.id === id)
     if (message) message.uncertain = true
-  } finally { interview.sending = false }
+  } finally { interview.sending = false; interview.progressStage = '' }
 }
 export async function finishSession(): Promise<boolean> {
   if (busy.value || interview.status !== 'ready') return false
@@ -120,7 +138,7 @@ export async function finishSession(): Promise<boolean> {
   finally { interview.saving = false }
 }
 export function downloadTranscript() {
-  const text = [`${interview.candidate.position || '模拟面试'} · 对话记录`, `已完成 ${interview.round} 轮`, '', ...interview.messages.map(message => `${message.role === 'candidate' ? '我' : '面试官'}${message.uncertain ? '（完成状态待确认）' : ''}\n${message.text}\n`)].join('\n')
+  const text = [`${interview.candidate_config.position || '模拟面试'} · 对话记录`, `已完成 ${interview.round} 轮`, '', ...interview.messages.map(message => `${message.role === 'candidate' ? '我' : '面试官'}${message.uncertain ? '（完成状态待确认）' : ''}\n${message.text}\n`)].join('\n')
   const url = URL.createObjectURL(new Blob([text], { type: 'text/plain;charset=utf-8' }))
   const link = document.createElement('a'); link.href = url; link.download = '面试对话记录.txt'; link.click()
   setTimeout(() => URL.revokeObjectURL(url), 1000)

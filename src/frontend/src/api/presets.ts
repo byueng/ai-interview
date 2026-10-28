@@ -1,5 +1,5 @@
-import { apiBaseUrl, ApiRequestError, getActiveSessionId, getErrorMessage, resolveInterviewLanguage } from './candidate'
-import type { CandidateConfig, InterviewerConfig } from './candidate'
+import { apiBaseUrl, ApiRequestError, getActiveSessionId, getErrorMessage, resolveInterviewLanguage } from './candidate_config'
+import type { CandidateConfig, InterviewerConfig } from './candidate_config'
 
 export interface InterviewPreset {
   candidate_config: CandidateConfig
@@ -51,20 +51,20 @@ export async function loadInterviewPreset(filename: string, signal?: AbortSignal
   signal?.throwIfAborted()
   const payload = await requestPresetJson(`/interview/load_preset?filename=${encodeURIComponent(filename)}`, signal, 'POST', sessionId)
   if (!isRecord(payload) || !isRecord(payload.preset_config)) throw new Error('预设响应缺少有效的 preset_config 对象。')
-  const candidate = payload.preset_config.candidate_config
+  const candidate_config = payload.preset_config.candidate_config
   const interviewer = payload.preset_config.interviewer_config
-  if (!isRecord(candidate) || !isRecord(interviewer)
-    || typeof candidate.language !== 'string' || !candidate.language.trim()
-    || typeof candidate.education !== 'string' || typeof candidate.position !== 'string'
-    || !(candidate.resume == null || typeof candidate.resume === 'string')
+  if (!isRecord(candidate_config) || !isRecord(interviewer)
+    || typeof candidate_config.language !== 'string' || !candidate_config.language.trim()
+    || typeof candidate_config.education !== 'string' || typeof candidate_config.position !== 'string'
+    || !(candidate_config.resume == null || typeof candidate_config.resume === 'string')
     || typeof interviewer.role_identity !== 'string'
     || !(interviewer.role_responsibilities === null || typeof interviewer.role_responsibilities === 'string')) {
     throw new Error('预设字段不完整或类型错误，需要 candidate_config 和 interviewer_config。')
   }
-  const language = resolveInterviewLanguage(candidate.language)
+  const language = resolveInterviewLanguage(candidate_config.language)
   if (language !== 'zh-CN' && language !== 'en-US') throw new Error('此预设的语言暂不支持，当前可选择中文或 English。')
   const preset: InterviewPreset = {
-    candidate_config: { language, education: candidate.education, position: candidate.position, resume: candidate.resume ?? null },
+    candidate_config: { language, education: candidate_config.education, position: candidate_config.position, resume: candidate_config.resume ?? null },
     interviewer_config: { role_identity: interviewer.role_identity, role_responsibilities: interviewer.role_responsibilities ?? '' },
   }
   signal?.throwIfAborted()
