@@ -1,4 +1,5 @@
 import json
+from threading import Lock
 
 from pathlib import Path
 from typing import Any
@@ -14,6 +15,26 @@ from backend.errors import (
 from backend.file import read_json, write_unique_json
 from backend.storage import data_directory
 from schemas import InterviewPreset
+
+
+_save_lock = Lock()
+
+
+def _configuration_key(preset: InterviewPreset) -> dict:
+    """比较可复用配置；忽略会话文件路径与前端的语言/空白规范化差异。"""
+    payload = preset.model_dump(mode="json")
+    candidate = payload["candidate_config"]
+    candidate["resume"] = None
+    language = candidate["language"].strip().lower()
+    if language in ("zh", "chinese", "中文") or language.startswith("zh-"):
+        candidate["language"] = "zh-CN"
+    elif language in ("en", "english", "英文") or language.startswith("en-"):
+        candidate["language"] = "en-US"
+    for key in ("education", "position"):
+        candidate[key] = candidate[key].strip()
+    for key in ("role_identity", "role_responsibilities"):
+        payload["interviewer_config"][key] = (payload["interviewer_config"][key] or "").strip()
+    return payload
 
 
 def preset_path(filename: str) -> Path:
@@ -37,7 +58,21 @@ def preset_path(filename: str) -> Path:
 def save_preset(preset: InterviewPreset) -> Path:
     path = preset_path(f"{preset.candidate_config.position}.json")
     try:
-        return write_unique_json(path, preset.model_dump(mode="json"))
+        payload = preset.model_dump(mode="json")
+        payload["candidate_config"]["resume"] = None
+        # 加载已有预设后提交 PDF、重复保存或重试都复用相同配置。
+        # 同进程并发保存时，比较与创建必须在同一临界区内。
+        with _save_lock:
+            for existing in sorted(path.parent.glob("*.json")):
+                if existing.is_symlink() or not existing.is_file():
+                    continue
+                try:
+                    saved = InterviewPreset.model_validate(read_json(existing))
+                except (json.JSONDecodeError, UnicodeDecodeError, ValidationError):
+                    continue
+                if _configuration_key(saved) == _configuration_key(preset):
+                    return existing
+            return write_unique_json(path, payload)
     except (OSError, TypeError, ValueError) as exc:
         raise StorageError("保存面试预设失败，请查看后端日志。") from exc
 
