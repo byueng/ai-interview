@@ -5,14 +5,15 @@ from collections.abc import AsyncIterator
 from typing import Annotated
 from uuid import UUID
 
-from fastapi import APIRouter, Body, HTTPException, Request
+from fastapi import APIRouter, File, Form, Request, UploadFile
+from pydantic import Json
 from fastapi.encoders import jsonable_encoder
 from fastapi.sse import EventSourceResponse, ServerSentEvent
 from langgraph.graph.state import CompiledStateGraph
 
 from backend import interview_service
 from backend.errors import InterviewError
-from schemas import AgentRequest, Candidate, Interviewer, TaskState, SessionResponse, SessionStateResponse
+from schemas import AgentRequest, InterviewPreset, TaskState, SessionResponse, SessionStateResponse
 
 
 logger = logging.getLogger(__name__)
@@ -40,9 +41,14 @@ def create_interview_router(
     async def stream_turn(agent_request: AgentRequest, request: Request) -> AsyncIterator[ServerSentEvent]:
         request.state.session_id = str(agent_request.session_id)
         try:
-            async with aclosing(interview_service.run_turn(graph, agent_request)) as stream:
+            async with aclosing(interview_service.run_turn(graph, agent_request, include_progress=True)) as stream:
                 async for chunk in stream:
-                    yield ServerSentEvent(event="message", data=jsonable_encoder(chunk))
+                    if "__progress__" in chunk:
+                        yield ServerSentEvent(event="progress", data={
+                            "session_id": str(agent_request.session_id), **chunk["__progress__"],
+                        })
+                    else:
+                        yield ServerSentEvent(event="message", data=jsonable_encoder(chunk))
         except InterviewError as exc:
             logger.warning("面试流未完成，session_id=%s detail=%s", agent_request.session_id, exc)
             yield ServerSentEvent(event="error", data={"detail": str(exc)})
@@ -55,15 +61,15 @@ def create_interview_router(
 
     @router.post("/personal_information_config", status_code=200)
     async def personal_information_config(
-        session_id: Annotated[UUID, Body()], candidate_config: Candidate,
-        interviewer_config: Interviewer, request: Request,
+        request: Request,
+        session_id: Annotated[UUID, Form()],
+        config: Annotated[Json[InterviewPreset], Form()],
+        file: Annotated[UploadFile | None, File()] = None,
     ):
         request.state.session_id = str(session_id)
-        await interview_service.configure_session(graph, session_id, candidate_config, interviewer_config)
-        return 200
-
-    @router.post("/upload_resume", status_code=200)
-    async def upload_resume():
-        raise HTTPException(status_code=501, detail="简历上传暂未实现。")
+        resume = await interview_service.configure_session(
+            graph, session_id, config.candidate_config, config.interviewer_config, file=file,
+        )
+        return {"session_id": str(session_id), "resume": resume}
 
     return router

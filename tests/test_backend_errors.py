@@ -83,11 +83,13 @@ class BackendErrorTests(TestCase):
             json=self.session if session is None else session,
         )
 
-    def configure(self, session=None, candidate=None):
-        return self.client.post("/interview/personal_information_config", json={
+    def configure(self, session=None, candidate_config=None):
+        return self.client.post("/interview/personal_information_config", data={
             "session_id": self.session if session is None else session,
-            "candidate_config": PRESET["candidate_config"] if candidate is None else candidate,
-            "interviewer_config": PRESET["interviewer_config"],
+            "config": json.dumps({
+                "candidate_config": PRESET["candidate_config"] if candidate_config is None else candidate_config,
+                "interviewer_config": PRESET["interviewer_config"],
+            }),
         })
 
     def stream(self, session=None):
@@ -236,12 +238,12 @@ class BackendErrorTests(TestCase):
         self.assertNotIn("private checkpoint error", response.text)
 
     def test_configure_success_saves_only_configuration(self):
-        self.assertEqual(self.configure().json(), 200)
+        self.assertEqual(self.configure().json(), {"session_id": self.session, "resume": None})
         saved = json.loads((self.root / "interview_preset" / "后端.json").read_text(encoding="utf-8"))
         self.assertEqual(saved, PRESET)
 
     def test_bad_position_filename_does_not_update_session(self):
-        response = self.configure(candidate={**PRESET["candidate_config"], "position": "../escape"})
+        response = self.configure(candidate_config={**PRESET["candidate_config"], "position": "../escape"})
         self.assertEqual(response.status_code, 400)
         self.assertEqual(self.graph.updates, [])
 
@@ -273,10 +275,10 @@ class BackendErrorTests(TestCase):
         self.assertEqual(response.status_code, 500)
         self.assertTrue(path.exists())
 
-    def test_upload_stub_returns_501(self):
-        response = self.client.post("/interview/upload_resume")
-        self.assertEqual(response.status_code, 501)
-        self.assertIn("未实现", response.json()["detail"])
+    def test_config_without_optional_file_is_accepted(self):
+        response = self.configure()
+        self.assertEqual(response.status_code, 200)
+        self.assertIsNone(response.json()["resume"])
 
     def test_unexpected_error_gets_safe_json_and_log(self):
         with patch("backend.preset_service.list_presets", side_effect=RuntimeError("private details")):
@@ -333,10 +335,9 @@ class BackendErrorTests(TestCase):
         graph = graph_build(InMemorySaver(), interview_agent=InterviewAgent(llm=llm))
         with TestClient(create_app(Runtime(graph))) as client:
             session = client.get("/interview/begin").json()["session_id"]
-            self.assertEqual(client.post("/interview/personal_information_config", json={
-                "session_id": session,
-                "candidate_config": PRESET["candidate_config"], "interviewer_config": PRESET["interviewer_config"],
-            }).json(), 200)
+            self.assertEqual(client.post("/interview/personal_information_config", data={
+                "session_id": session, "config": json.dumps(PRESET),
+            }).json(), {"session_id": session, "resume": None})
             self.assertEqual(client.post("/interview/load_preset", params={"filename": "后端.json"}, json=session).status_code, 200)
             response = client.post("/interview/stream", json={
                 "session_id": session, "message": "你好", "chat_round": 0,

@@ -21,9 +21,9 @@ from schemas import AgentRequest
 
 
 def configuration(session_id, position="岗位A"):
-    return {"session_id": session_id,
+    return {"session_id": session_id, "config": json.dumps({
             "candidate_config": {"language": "zh-CN", "education": "本科", "position": position},
-            "interviewer_config": {"role_identity": "技术面试官", "role_responsibilities": position}}
+            "interviewer_config": {"role_identity": "技术面试官", "role_responsibilities": position}})}
 
 
 def request_body(session_id, message="你好", chat_round=0):
@@ -52,7 +52,7 @@ class LifecycleTests(IsolatedAsyncioTestCase):
         response = await self.client.get("/interview/begin")
         self.assertEqual(response.status_code, 200)
         sid = response.json()["session_id"]
-        response = await self.client.post("/interview/personal_information_config", json=configuration(sid, position))
+        response = await self.client.post("/interview/personal_information_config", data=configuration(sid, position))
         self.assertEqual(response.status_code, 200, response.text)
         return sid
 
@@ -111,7 +111,7 @@ class LifecycleTests(IsolatedAsyncioTestCase):
                 ("POST", "/interview/personal_information_config", configuration(a)),
                 ("POST", "/interview/load_preset?filename=岗位A.json", a),
             ]:
-                response = await self.client.request(method, path, json=body)
+                response = await self.client.request(method, path, **({"data": body} if path.endswith("/personal_information_config") else {"json": body}))
                 self.assertEqual(response.status_code, 409, response.text)
             self.assertEqual(events(await self.turn(b)), ["message", "done"])
         finally:
@@ -129,7 +129,7 @@ class LifecycleTests(IsolatedAsyncioTestCase):
             ("POST", "/interview/personal_information_config", configuration(sid)),
             ("POST", "/interview/load_preset?filename=岗位A.json", sid),
         ]:
-            self.assertEqual((await self.client.request(method, path, json=body)).status_code, 410)
+            self.assertEqual((await self.client.request(method, path, **({"data": body} if path.endswith("/personal_information_config") else {"json": body}))).status_code, 410)
         self.assertEqual(events(await self.turn(sid, chat_round=1)), ["error"])
         self.assertEqual(self.llm.ainvoke.await_count, 1)
         self.assertNotEqual(await self.new(), sid)
@@ -142,12 +142,12 @@ class LifecycleTests(IsolatedAsyncioTestCase):
         with patch.object(service.time, "time", return_value=1000 + service.SESSION_TTL_SECONDS):
             self.assertEqual((await self.client.get(f"/interview/sessions/{sid}")).status_code, 410)
             self.assertEqual(events(await self.turn(sid)), ["error"])
-            self.assertEqual((await self.client.post("/interview/personal_information_config", json=configuration(sid))).status_code, 410)
+            self.assertEqual((await self.client.post("/interview/personal_information_config", data=configuration(sid))).status_code, 410)
             self.assertEqual((await self.client.post(f"/interview/sessions/{sid}/end")).status_code, 410)
         fresh_graph = graph_build(InMemorySaver(), interview_agent=InterviewAgent(llm=self.llm))
         async with AsyncClient(transport=ASGITransport(app=create_app(Runtime(fresh_graph))), base_url="http://test") as restarted:
             self.assertEqual((await restarted.get(f"/interview/sessions/{sid}")).status_code, 404)
-            self.assertEqual((await restarted.post("/interview/personal_information_config", json=configuration(sid))).status_code, 404)
+            self.assertEqual((await restarted.post("/interview/personal_information_config", data=configuration(sid))).status_code, 404)
             self.assertEqual(events(await restarted.post("/interview/stream", json=request_body(sid))), ["error"])
         self.assertFalse((await fresh_graph.aget_state(service.graph_config_build(UUID(sid)))).values)
         self.llm.ainvoke.assert_not_awaited()

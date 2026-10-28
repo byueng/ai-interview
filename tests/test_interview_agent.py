@@ -14,7 +14,7 @@ from backend.interview_service import run_turn
 from agent_system.InterviewAgent.interviewagent import InterviewAgent
 from agent_system.graph_builder import graph_build
 from agent_system.model_config import ModelConfig, ModelConfigError
-from schemas import AgentRequest, Candidate, Interviewer, TaskState
+from schemas import AgentRequest, CandidateConfig, Interviewer, TaskState
 
 
 def make_state(position="后端工程师", chat_round=0):
@@ -22,7 +22,7 @@ def make_state(position="后端工程师", chat_round=0):
         session_id=uuid4(),
         messages=[HumanMessage(content="你好，准备开始。")],
         chat_round=chat_round,
-        candidate_config=Candidate(
+        candidate_config=CandidateConfig(
             language="中文", education="本科", position=position, resume=None
         ),
         interviewer_config=Interviewer(

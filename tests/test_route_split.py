@@ -23,7 +23,6 @@ class RouteSplitTests(TestCase):
             "/interview/begin",
             "/interview/personal_information_config",
             "/interview/stream",
-            "/interview/upload_resume",
             "/interview/read_preset",
             "/interview/load_preset",
             "/interview/del_preset",
@@ -31,6 +30,7 @@ class RouteSplitTests(TestCase):
 
         self.assertTrue(expected.issubset(paths))
         self.assertNotIn("/presets", paths)
+        self.assertNotIn("/interview/sessions/{session_id}/resume", paths)
         self.assertEqual(paths["/interview/begin"]["get"]["tags"], ["interview"])
         self.assertEqual(paths["/interview/read_preset"]["get"]["tags"], ["preset"])
         self.assertEqual(paths["/interview/load_preset"]["post"]["tags"], ["preset"])

@@ -6,8 +6,8 @@ from typing import Any, TypedDict
 from dataclasses import asdict, dataclass, field
 
 from agent_system.model_config import ModelConfig
-from schemas import Candidate, Interviewer, TaskState
-from agent_system.prompts.prompt_faction import render_prompt
+from schemas import CandidateConfig, Interviewer, TaskState
+from agent_system.prompt_faction import render_prompt
 
 def _create_llm() -> BaseChatModel:
     return ChatOpenAI(**asdict(ModelConfig.validate_dotfile()))

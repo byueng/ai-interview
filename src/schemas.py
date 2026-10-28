@@ -21,7 +21,7 @@ class SessionStateResponse(SessionResponse):
     status: str
     chat_round: int
     expires_at: float
-    candidate_config: Candidate | None = None
+    candidate_config: CandidateConfig | None = None
     interviewer_config: Interviewer | None = None
     messages: list[dict[str, Any]]
 
@@ -60,11 +60,12 @@ class AgentResponse(BaseModel):
     chat_status: bool
 
 
-class Candidate(BaseModel):
+class CandidateConfig(BaseModel):
     language: str
     education: str
     position: str
-    resume: Path | None = None
+    # 上传文件由 HTTP 接口接收；会话仅记录服务器保存后的路径。
+    resume: str | None = None
 
 
 class Interviewer(BaseModel):
@@ -73,7 +74,7 @@ class Interviewer(BaseModel):
 
 
 class InterviewPreset(BaseModel):
-    candidate_config: Candidate
+    candidate_config: CandidateConfig
     interviewer_config: Interviewer
 
 
@@ -83,11 +84,14 @@ class TaskState:
     messages: Annotated[List[AnyMessage], add_messages] = field(default_factory=list)
     chat_round: int = 0
     # 检查点写入 JSON 字典；Agent 在使用边界重新执行 Pydantic 校验。
-    candidate_config: dict[str, Any] | Candidate | None = None
+    candidate_config: dict[str, Any] | CandidateConfig | None = None
     interviewer_config: dict[str, Any] | Interviewer | None = None
     status: str = "active"
     last_activity: float = 0
     dtime: datetime = field(default_factory=datetime.now)
+    resume_evalute: str | None = None
+
+
 
 @dataclass
 class Runtime:

@@ -9,6 +9,7 @@ from collections.abc import AsyncIterator
 from typing import Any
 from uuid import UUID, uuid4
 
+from fastapi import UploadFile
 from fastapi.encoders import jsonable_encoder
 from langchain_core.messages import HumanMessage
 from langchain_core.runnables import RunnableConfig
@@ -26,9 +27,9 @@ from backend.errors import (
     StorageError,
 )
 from backend.file import write_json
-from backend import preset_service
+from backend import preset_service, resume_service
 from backend.storage import data_directory
-from schemas import AgentRequest, Candidate, Interviewer, InterviewPreset, TaskState
+from schemas import AgentRequest, CandidateConfig, Interviewer, InterviewPreset, TaskState
 
 
 SESSION_TTL_SECONDS = 24 * 60 * 60
@@ -99,30 +100,45 @@ async def create_session(
 
 
 @exclusive_session
-async def configure_session(graph, session_id: UUID, candidate: Candidate, interviewer: Interviewer):
-    await session_snapshot(graph, session_id)
+async def configure_session(
+    graph, session_id: UUID, candidate_config: CandidateConfig, interviewer: Interviewer,
+    *, file: UploadFile | None = None,
+) -> str | None:
+    snapshot = await session_snapshot(graph, session_id)
     # 保存时使用岗位命名；先校验名称，避免非法路径在状态写入后才失败。
-    preset_service.preset_path(f"{candidate.position}.json")
+    preset_service.preset_path(f"{candidate_config.position}.json")
+    # 路径只取自当前会话或本次上传，不接受客户端传入的任意文件路径。
+    previous = snapshot.values.get("candidate_config")
+    resume = CandidateConfig.model_validate(previous).resume if previous else None
+    if file is not None:
+        resume = await resume_service.save_resume(file, session_id)
+    candidate_config = candidate_config.model_copy(update={"resume": resume})
+    # 分析依赖 PDF 和候选人配置。只修改面试官设置不必重新解析文件。
+    reset_analysis = file is not None or previous != candidate_config.model_dump(mode="json")
     try:
         await graph.aupdate_state(
             config=graph_config_build(session_id),
-            values={"candidate_config": candidate.model_dump(mode="json"),
+            values={"candidate_config": candidate_config.model_dump(mode="json"),
                     "interviewer_config": interviewer.model_dump(mode="json"),
-                    "last_activity": time.time()},
+                    "last_activity": time.time(),
+                    **({"resume_evalute": None} if reset_analysis else {})},
             as_node=START,
         )
     except Exception as exc:
-        raise InterviewError("更新面试配置失败，请查看后端日志。") from exc
+        detail = "简历已暂存，但更新面试配置失败，请重试。" if file is not None else "更新面试配置失败，请查看后端日志。"
+        raise InterviewError(detail) from exc
     try:
         await save_preset_from_session(graph, session_id)
     except InterviewError as exc:
         # 状态更新与文件保存不是事务，明确告知已发生的部分成功。
         raise InterviewError("会话配置已更新，但预设保存失败，请查看后端日志。") from exc
+    return resume
 
 
 async def run_turn(
     graph: CompiledStateGraph[TaskState, None, TaskState, TaskState],
     request: AgentRequest,
+    *, include_progress: bool = False,
 ) -> AsyncIterator[dict[str, Any]]:
     """逐条产出节点更新；流式错误由 HTTP 层包装成 SSE error。"""
     async with session_operation(graph, request.session_id):
@@ -138,10 +154,18 @@ async def run_turn(
         }
         try:
             async with aclosing(graph.astream(
-                state_update, graph_config_build(request.session_id), stream_mode="updates"
+                state_update, graph_config_build(request.session_id),
+                stream_mode=["updates", "custom"] if include_progress else "updates",
             )) as stream:
                 async for chunk in stream:
-                    yield chunk
+                    if include_progress and isinstance(chunk, tuple):
+                        mode, data = chunk
+                        if mode == "updates":
+                            yield data
+                        elif mode == "custom" and isinstance(data, dict) and data.get("stage") in ("parsing_resume", "generating_reply"):
+                            yield {"__progress__": data}
+                    else:
+                        yield chunk
             await graph.aupdate_state(graph_config_build(request.session_id), {"last_activity": time.time()})
         except Exception as exc:
             # CancelledError 继续向上传播；finally 会释放会话占用。
@@ -191,8 +215,11 @@ async def save_preset_from_session(graph, session_id: UUID):
 
 @exclusive_session
 async def load_preset_into_session(graph, session_id: UUID, filename: str) -> dict[str, Any]:
-    await session_snapshot(graph, session_id)
+    snapshot = await session_snapshot(graph, session_id)
     preset = await asyncio.to_thread(preset_service.read_preset, filename)
+    # 预设复用岗位等配置，简历始终属于当前会话。
+    previous = snapshot.values.get("candidate_config")
+    preset.candidate_config.resume = CandidateConfig.model_validate(previous).resume if previous else None
     try:
         await graph.aupdate_state(
             config=graph_config_build(session_id),
@@ -200,6 +227,7 @@ async def load_preset_into_session(graph, session_id: UUID, filename: str) -> di
                 "candidate_config": preset.candidate_config.model_dump(mode="json"),
                 "interviewer_config": preset.interviewer_config.model_dump(mode="json"),
                 "last_activity": time.time(),
+                **({"resume_evalute": None} if previous != preset.candidate_config.model_dump(mode="json") else {}),
             },
             as_node=START,
         )
