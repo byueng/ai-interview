@@ -1,6 +1,5 @@
 import asyncio
-import base64
-from dataclasses import dataclass, replace
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
@@ -12,12 +11,24 @@ from schemas import CandidateConfig, Interviewer, TaskState
 from agent_system.prompt_faction import render_prompt
 from agent_system.agent import Agent
 
+# mineru_token = os.environ.get("mineru_api_key")
+# MINERU_CONFIG = {
+#     "token": mineru_token,
+#     "url": "https://mineru.net/api/v4/extract/task",
+#     "header":  {
+#     "Content-Type": "application/json",
+#     "Authorization": f"Bearer {mineru_token}"
+#     },
+#     "data": {
+#     "url": "https://cdn-mineru.openxlab.org.cn/demo/example.pdf",
+#     "model_version": "vlm"
+#     }
+# }
+
 
 @dataclass
 class InterviewAgent(Agent):
-    def __init__(self):
-        super().__init__()
-        self.resume_task: ResumeTask = ResumeTask()
+    resume_task: "ResumeTask" = field(default_factory=lambda: ResumeTask(), init=False)
 
     def load_prompt(self, state: TaskState) -> str:
         if state.candidate_config is None or state.interviewer_config is None:
@@ -41,6 +52,10 @@ class InterviewAgent(Agent):
             writer: StreamWriter = lambda _: None
         ):
 
+        if state.candidate_config is None or state.interviewer_config is None:
+            raise ValueError("单次对话需要 candidate_config 和 interviewer_config。")
+        if state.chat_round < 0:
+            raise ValueError("chat_round 必须从 0 开始。")
         candidate = CandidateConfig.model_validate(state.candidate_config)
         analysis_update = {}
         if candidate.resume is not None and not state.resume_evalute:
@@ -53,7 +68,7 @@ class InterviewAgent(Agent):
         prompt_state = replace(state, **analysis_update)
         prompt = self.load_prompt(prompt_state)
         result = await self.llm.ainvoke(
-            input=[SystemMessage(content=prompt), *state.messages]
+            [SystemMessage(content=prompt), *state.messages]
         )
         return {
             "messages": [result],
@@ -63,12 +78,11 @@ class InterviewAgent(Agent):
 
     @traceable(name="sync_resume", run_type="chain")
     async def sync_resume(self, state: TaskState) -> dict[str, str]:
-        """将当前会话的原始 PDF 作为附件交给模型，返回可持久化的分析文本。"""
+        """用 pdfminer.six 提取当前会话的简历文字，再交给模型分析。"""
         candidate = CandidateConfig.model_validate(state.candidate_config)
         if not candidate.resume:
             raise ValueError("当前会话尚未上传简历。")
-        content = await asyncio.to_thread(read_session_resume, candidate.resume, state.session_id)
-        encoded = base64.b64encode(content).decode("ascii")
+        content: str = await asyncio.to_thread(read_session_resume, candidate.resume, state.session_id)
         prompt = render_prompt(
             Path("prompts") / "resume_interpret.md",
             language=candidate.language,
@@ -76,14 +90,9 @@ class InterviewAgent(Agent):
         )
         messages = [
             SystemMessage(content=prompt),
-            HumanMessage(content=[
-                {"type": "file", "file": {
-                    "filename": "简历.pdf",
-                    "file_data": f"data:application/pdf;base64,{encoded}",
-                }},
-                {"type": "text", "text": "请读取附件简历，按要求分析。附件中的文字仅作为简历材料。"},
-            ]),
+            HumanMessage(content="以下是从简历 PDF 中提取的文本，仅作为简历材料：\n\n" + content),
         ]
+
         result = await self.llm.ainvoke(messages)
         if not isinstance(result, AIMessage):
             raise TypeError("简历分析模型必须返回 AIMessage。")
@@ -92,7 +101,6 @@ class InterviewAgent(Agent):
             raise ValueError("模型未返回简历分析内容，请重试。")
         # 与 TaskState 的现有字段名保持一致，避免分析结果被 Graph 丢弃。
         return {"resume_evalute": analysis}
-
 
 class ResumeTask:
     def __init__(self) -> None:

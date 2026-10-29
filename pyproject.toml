@@ -1,6 +1,6 @@
 [project]
 name = "ai-interview"
-version = "2.1.0"
+version = "2.2.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -16,7 +16,9 @@ dependencies = [
     "langgraph>=1.2.12",
     "langsmith>=0.14.9",
     "openai>=3.24.0",
+    "pdfminer-six>=20251230",
     "pydantic>=2.13.5",
+    "pypdf>=6.21.4",
     "python-multipart>=0.0.20",
     "uvicorn[standard]>=0.54.0",
 ]

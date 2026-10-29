@@ -43,9 +43,9 @@ class InterviewAgentTests(IsolatedAsyncioTestCase):
         self.llm.ainvoke.assert_awaited_once()
         messages = self.llm.ainvoke.call_args.args[0]
         self.assertIsInstance(messages[0], SystemMessage)
-        for text in ("技术面试官", "进行技术面试", "中文", "本科", "后端工程师", "未提供"):
+        for text in ("技术面试官", "进行技术面试", "中文", "本科", "后端工程师"):
             self.assertIn(text, messages[0].content)
-        self.assertIn("开场白", messages[0].content)
+        self.assertIn("面试开场", messages[0].content)
         self.assertEqual(messages[1:], state.messages)
         self.assertEqual(update["messages"], [self.llm.ainvoke.return_value])
         self.assertEqual(update["chat_round"], 1)
@@ -84,7 +84,8 @@ class InterviewAgentTests(IsolatedAsyncioTestCase):
         self.assertNotIn("岗位B", prompts[0])
         self.assertIn("岗位B", prompts[1])
         self.assertNotIn("岗位A", prompts[1])
-        self.assertEqual(set(vars(self.agent)), {"llm"})
+        self.assertEqual(set(vars(self.agent)), {"llm", "resume_task"})
+        self.assertEqual(self.agent.resume_task._tasks, {})
 
     async def test_model_error_propagates_without_updating_state(self):
         self.llm.ainvoke.side_effect = RuntimeError("model unavailable")

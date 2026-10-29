@@ -30,11 +30,11 @@ PDF 保存到 `DATA_DIR/swap/{session_id}/简历.pdf`（默认 `src/data/swap`�
 
 保存前按完整可复用配置比对已有预设（忽略简历路径，并统一语言别名和表单空白）。配置相同则复用文件，不覆盖、不追加编号；配置不同才另存新文件。加载预设本身不写预设文件，已有重复文件不自动删除。同进程并发保存通过锁避免重复创建。
 
-首次对话时，`InterviewAgent.sync_resume` 读取当前会话的 PDF，以 `HumanMessage` 的 `type: file`、`filename` 和 Base64 `file_data` 传给现有 LLM。解析提示词放在 SystemMessage 中，PDF 内容作为待分析材料。
+首次对话时，`InterviewAgent.sync_resume` 在后台线程中读取当前会话的 PDF，用 pypdf 校验文件及加密状态，再用 pdfminer.six 提取各页文字（支持缺少 ToUnicode 但使用标准 Adobe CJK 字符集的字体），以普通 `HumanMessage` 文本传给现有 LLM。分析提示词放在 SystemMessage 中，提取文字作为待分析材料。仅支持包含文字层的 PDF；加密、损坏或无可提取文字的文件会报错，纯扫描件需先进行 OCR。
 
-分析返回非空文本后写入 `TaskState.resume_evalute`，供本轮和后续面试提示词使用。同一配置后续轮次复用分析；重新上传简历、修改候选人配置或加载不同配置会清空分析。分析失败不继续生成面试回复。PDF/Base64 不写入会话消息历史或预设。
+首轮启动后台分析并生成开场回复；后续轮次等待分析完成，将非空结果写入 `TaskState.resume_evalute`，供面试提示词复用。等待分析的轮次遇到分析失败时停止生成回复。PDF 原文和提取文字不写入会话消息历史或预设。
 
-当前配置的 qwen3.8-max-0902 的 PDF 输入协议参考[阿里云 PDF understanding](https://help.aliyun.com/en/model-studio/pdf-understanding)：使用 Chat Completions；不能改用当前不支持该文件输入的 Responses API。切换模型时需确认文件输入能力。
+模型使用 Chat Completions 接收文本，无需支持 PDF 文件附件。
 
 
-`/interview/stream` 通过 SSE `progress` 事件报告阶段，数据包含当前 `session_id` 和 `stage`。实际开始 PDF 分析时发送 `parsing_resume`（前端显示“解析简历中，请等待”）；调用面试回复模型前发送 `generating_reply`（显示“面试官正在组织回复，请等待”）。复用分析时不发送解析阶段。进度不会作为聊天内容，完成或失败后清除等待状态。
+`/interview/stream` 通过 SSE `progress` 事件报告阶段，数据包含当前 `session_id` 和 `stage`。后续轮次仍需等待后台简历分析时发送 `parsing_resume`（前端显示“解析简历中，请等待”）。进度不会作为聊天内容，完成或失败后清除等待状态。

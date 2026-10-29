@@ -50,7 +50,8 @@ def create_interview_router(
                     else:
                         yield ServerSentEvent(event="message", data=jsonable_encoder(chunk))
         except InterviewError as exc:
-            logger.warning("面试流未完成，session_id=%s detail=%s", agent_request.session_id, exc)
+            logger.warning("面试流未完成，session_id=%s detail=%s", agent_request.session_id, exc,
+                           exc_info=(type(exc), exc, exc.__traceback__))
             yield ServerSentEvent(event="error", data={"detail": str(exc)})
             return
         except Exception:

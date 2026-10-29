@@ -24,19 +24,24 @@ class Handler(BaseHTTPRequestHandler):
             self.send_error(404)
             return
         payload = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
-        attachment = any(
-            isinstance(message.get("content"), list)
-            and any(part.get("type") == "file" for part in message["content"])
+        resume_analysis = any(
+            message.get("role") == "system"
+            and "# 简历分析 Agent" in message.get("content", "")
             for message in payload["messages"]
         )
+        if resume_analysis:
+            content = payload["messages"][-1]["content"]
+            if not isinstance(content, str) or "Docker synthetic resume" not in content:
+                self.send_error(400, "Expected extracted resume text")
+                return
         # Make the second interview round emit progress before the final reply.
-        time.sleep(3 if attachment else 0.1)
+        time.sleep(3 if resume_analysis else 0.1)
         self.respond({
             "id": "chatcmpl-docker-smoke", "object": "chat.completion",
             "created": int(time.time()), "model": payload["model"],
             "choices": [{"index": 0, "finish_reason": "stop", "message": {
                 "role": "assistant",
-                "content": "Docker resume analysis" if attachment else "Docker interview reply",
+                "content": "Docker resume analysis" if resume_analysis else "Docker interview reply",
             }}],
             "usage": {"prompt_tokens": 10, "completion_tokens": 5, "total_tokens": 15},
         })

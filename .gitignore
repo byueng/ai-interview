@@ -15,6 +15,7 @@
 !/docs/archive/
 /docs/archive/*
 !/docs/archive/v2.1.0-roadmap.md
+!/docs/archive/v2.2.0-roadmap.md
 !src/data/character-journal
 !data/character-journal/
 .DS_Store

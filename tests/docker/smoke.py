@@ -1,5 +1,6 @@
 """Run inside the backend container, exercising the real Nginx/API/model chain."""
 import hashlib
+from io import BytesIO
 import json
 from pathlib import Path
 import re
@@ -9,9 +10,31 @@ from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 from uuid import uuid4
 
+from pypdf import PdfWriter
+from pypdf.generic import DecodedStreamObject, DictionaryObject, NameObject
+
+
+def make_resume_pdf():
+    writer = PdfWriter()
+    page = writer.add_blank_page(width=595, height=842)
+    page[NameObject("/Resources")] = DictionaryObject({
+        NameObject("/Font"): DictionaryObject({NameObject("/F1"): DictionaryObject({
+            NameObject("/Type"): NameObject("/Font"),
+            NameObject("/Subtype"): NameObject("/Type1"),
+            NameObject("/BaseFont"): NameObject("/Helvetica"),
+        })}),
+    })
+    content = DecodedStreamObject()
+    content.set_data(b"BT /F1 12 Tf 50 750 Td (Docker synthetic resume) Tj ET")
+    page.replace_contents(content)
+    output = BytesIO()
+    writer.write(output)
+    return output.getvalue()
+
+
 BASE = "http://frontend:8080"
 RECORD = Path("/app/data/.docker-smoke.json")
-PDF = b"%PDF-1.7\nDocker synthetic fixture\n%%EOF\n"
+PDF = make_resume_pdf()
 CONFIG = {
     "candidate_config": {"language": "zh-CN", "education": "本科", "position": "docker-smoke"},
     "interviewer_config": {"role_identity": "面试官", "role_responsibilities": "技术面试"},
