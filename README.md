@@ -28,7 +28,25 @@
 
 ## 快速开始
 
-请按操作系统选择运行指南：
+### Docker 一键运行
+
+安装并启动 Docker 后，从仓库根目录执行：
+
+```bash
+./scripts/deploy.sh init  # 首次创建 .env，已有配置不会覆盖
+nvim .env                 # 首次填写 API_KEY、BASE_URL、MODEL_NAME
+./scripts/deploy.sh up
+```
+
+之后只需 `./scripts/deploy.sh up`；macOS 也可以双击仓库中的 `start.command`。
+启动成功访问 [http://127.0.0.1:8080](http://127.0.0.1:8080)，停止使用 `./scripts/deploy.sh down`，文件数据会保留。
+无需在宿主机安装 Python、uv 或 Node。Windows 可使用指南中的原生 Compose 命令。
+
+设计、两阶段验收与排障见 **[Docker 部署工作流](docs/setup/README.docker.md)**。
+
+### 本地开发
+
+需要直接调试源码时，按操作系统选择运行指南：
 
 **[macOS →](docs/setup/README.macos.md) · [Windows →](docs/setup/README.windows.md) · [Linux →](docs/setup/README.linux.md)**
 
@@ -55,13 +73,13 @@ TEMPERATURE=0.8
 
 `BASE_URL` 应填写供应商提供的 API 基础地址，而不是网页地址或完整的 `/chat/completions` 路径。模型名称与参数兼容性取决于所选服务。
 
-`API_KEY`、`BASE_URL`、`MODEL_NAME` 为必填项；`TEMPERATURE` 可省略，默认 `0.8`。当前 `env.example` 仅列出部分字段，不能直接作为完整配置使用。配置从项目根目录 `.env` 加载，也可通过进程环境变量提供。快照与预设默认写入 `src/data`；需要改写入位置时，在 `.env` 设置 `DATA_DIR`（旧的小写 `data_dir` 仍兼容）。
+`API_KEY`、`BASE_URL`、`MODEL_NAME` 为必填项；`TEMPERATURE` 可省略，默认 `0.8`。`env.example` 提供完整字段模板，复制后填写即可。配置从项目根目录 `.env` 加载，也可通过进程环境变量提供。本地启动时快照与预设默认写入 `src/data`，可通过 `DATA_DIR` 改写位置（旧的小写 `data_dir` 仍兼容）；Docker 使用挂载到 `/app/data` 的独立命名卷。
 
 > `.env` 已列入 Git 忽略规则，请勿将真实密钥写入源码、提交记录或公开日志。发送的面试配置与对话内容会交给所配置的模型服务处理。
 
 ### 开始面试
 
-按所选平台指南同时启动前端与后端，打开 Vite 在终端输出的本地地址。
+Docker 启动后打开脚本输出的地址；本地开发按所选平台指南同时启动前后端，打开 Vite 输出的地址。
 
 1. 打开页面，等待会话初始化完成。
 2. 填写岗位、学历、面试官身份与面试要求，选择面试语言。
@@ -95,9 +113,12 @@ TEMPERATURE=0.8
 ```text
 ai-interview/
 ├── README.md             # 项目介绍与本地运行入口
+├── compose.yaml          # 第一阶段：前后端容器、网络和数据卷
+├── deploy/               # Dockerfile 与 Nginx 配置
+├── start.command         # 第二阶段：macOS 双击启动入口
 ├── pyproject.toml        # Python 项目配置
 ├── uv.lock               # Python 依赖锁定
-├── env.example           # 部分环境变量示例
+├── env.example           # 模型与部署配置模板
 ├── src/
 │   ├── main.py           # 后端启动入口
 │   ├── runtime.py        # 运行时资源组装
@@ -107,6 +128,7 @@ ai-interview/
 │   ├── frontend/         # Vue 前端
 │   └── data/             # 本地生成数据，不纳入版本控制
 ├── tests/                # 后端测试
+├── scripts/              # 一键部署与验收入口
 └── docs/                 # 平台运行指南、架构、路线图与版本记录
     └── setup/            # macOS / Windows / Linux 快速开始
 ```

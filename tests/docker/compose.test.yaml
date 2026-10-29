@@ -1,0 +1,22 @@
+# Isolated test-only provider; no real credentials or external model calls.
+services:
+  backend:
+    environment:
+      API_KEY: docker-smoke-test
+      BASE_URL: http://model:9000/v1
+      MODEL_NAME: docker-smoke-model
+      LANGSMITH_TRACING: "false"
+      LANGSMITH_API_KEY: ""
+    depends_on:
+      model:
+        condition: service_healthy
+  model:
+    image: python:3.12-slim-bookworm
+    command: [python, /test/mock_model.py]
+    volumes:
+      - ./tests/docker/mock_model.py:/test/mock_model.py:ro
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:9000/', timeout=2)"]
+      interval: 2s
+      timeout: 3s
+      retries: 15

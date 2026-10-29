@@ -1,0 +1,47 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: deploy/backend.Dockerfile
+    environment:
+      API_KEY: ${API_KEY:-}
+      BASE_URL: ${BASE_URL:-}
+      MODEL_NAME: ${MODEL_NAME:-}
+      TEMPERATURE: ${TEMPERATURE:-0.8}
+      DATA_DIR: /app/data
+      LANGSMITH_TRACING: ${LANGSMITH_TRACING:-false}
+      LANGSMITH_ENDPOINT: ${LANGSMITH_ENDPOINT:-https://api.smith.langchain.com}
+      LANGSMITH_API_KEY: ${LANGSMITH_API_KEY:-}
+      LANGSMITH_PROJECT: ${LANGSMITH_PROJECT:-ai-interview}
+    volumes:
+      - interview-data:/app/data
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    init: true
+    restart: unless-stopped
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; assert urllib.request.urlopen('http://127.0.0.1:7022/', timeout=3).status == 200"]
+      interval: 5s
+      timeout: 4s
+      retries: 12
+      start_period: 20s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: deploy/frontend.Dockerfile
+    ports:
+      - "127.0.0.1:${APP_PORT:-8080}:8080"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: [CMD, wget, -q, -O, /dev/null, "http://127.0.0.1:8080/healthz"]
+      interval: 5s
+      timeout: 4s
+      retries: 12
+      start_period: 10s
+
+volumes:
+  interview-data:

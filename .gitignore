@@ -1,5 +1,6 @@
 .venv/
 .env
+.docker-launch.log
 .langgraph_api/
 # Session resume uploads stay local.
 /src/data/swap/
